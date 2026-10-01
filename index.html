@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#15121f">
+<title>Progressive Rock Ağ Atlası</title>
+<link rel="manifest" href="data:application/json;base64,eyJuYW1lIjogIlByb2dyZXNzaXZlIFJvY2sgQVx1MDExZiBBdGxhc1x1MDEzMSIsICJzaG9ydF9uYW1lIjogIlByb2cgQXRsYXMiLCAic3RhcnRfdXJsIjogIi4iLCAiZGlzcGxheSI6ICJzdGFuZGFsb25lIiwgImJhY2tncm91bmRfY29sb3IiOiAiIzE1MTIxZiIsICJ0aGVtZV9jb2xvciI6ICIjMTUxMjFmIiwgImljb25zIjogW119">
+<style>
+  :root{
+    --bg:#15121f; --bg2:#1d1830; --panel:#241d3a; --panel2:#2c2444;
+    --ink:#ece8f5; --muted:#9b93b5; --faint:#6b6385;
+    --amber:#e0a84e; --amber2:#f0c478; --crimson:#c2425a; --line:#352d52;
+    --spotify:#1DB954; --tidal:#33b5e5; --youtube:#ff3b30; --apple:#fa233b;
+  }
+  *{box-sizing:border-box; margin:0; padding:0}
+  html,body{background:var(--bg); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    -webkit-font-smoothing:antialiased; overscroll-behavior:none}
+  body{padding-bottom:env(safe-area-inset-bottom)}
+  header{position:sticky; top:0; z-index:50;
+    background:linear-gradient(180deg,var(--bg) 70%,rgba(21,18,31,.85));
+    backdrop-filter:blur(8px); border-bottom:1px solid var(--line);
+    padding:14px 16px 10px; padding-top:calc(14px + env(safe-area-inset-top))}
+  .brand{display:flex; align-items:baseline; gap:8px; margin-bottom:10px}
+  .brand h1{font-family:Georgia,serif; font-size:19px; font-weight:600; letter-spacing:.3px}
+  .brand .yr{font-family:Georgia,serif; font-style:italic; color:var(--amber); font-size:13px}
+  .search{width:100%; background:var(--panel); border:1px solid var(--line);
+    color:var(--ink); border-radius:10px; padding:10px 12px; font-size:15px; outline:none}
+  .search::placeholder{color:var(--faint)}
+  .search:focus{border-color:var(--amber)}
+  .filters{display:flex; gap:6px; overflow-x:auto; margin-top:9px; padding-bottom:2px;
+    scrollbar-width:none} .filters::-webkit-scrollbar{display:none}
+  .chip{flex:0 0 auto; background:var(--panel); border:1px solid var(--line);
+    color:var(--muted); font-size:12px; padding:5px 11px; border-radius:14px;
+    white-space:nowrap; cursor:pointer; transition:.15s}
+  .chip.on{background:var(--amber); color:#1a1505; border-color:var(--amber); font-weight:600}
+  .count-bar{font-size:11px; color:var(--faint); padding:6px 16px 0}
+  main{padding:4px 12px 60px}
+  .sec-title{font-family:Georgia,serif; font-size:13px; color:var(--amber2);
+    text-transform:uppercase; letter-spacing:1.5px; margin:18px 4px 2px;
+    border-bottom:1px solid var(--line); padding-bottom:6px}
+  .sec-intro{font-size:12px; color:var(--faint); line-height:1.5; margin:6px 4px 2px; font-style:italic}
+  .group{margin:10px 0}
+  .group-head{display:flex; align-items:baseline; gap:8px; padding:8px 4px; cursor:pointer}
+  .group-head h2{font-family:Georgia,serif; font-size:17px; color:var(--ink)}
+  .group-head .cnt{color:var(--faint); font-size:12px}
+  .group-head .arr{margin-left:auto; color:var(--muted); transition:.2s; font-size:13px}
+  .group.open .arr{transform:rotate(90deg)}
+  .group-body{display:none} .group.open .group-body{display:block}
+  .gfield{font-size:12.5px; color:var(--muted); line-height:1.5; margin:4px 4px}
+  .gfield b{color:var(--amber2); font-weight:600}
+  .gmore{font-size:12px; color:var(--amber); cursor:pointer; margin:4px; display:inline-block}
+  .gextra{display:none} .gextra.show{display:block}
+  .alb{display:flex; gap:11px; padding:10px 4px; border-top:1px solid var(--line);
+    cursor:pointer; align-items:center}
+  .alb img,.alb .ph{width:54px; height:54px; border-radius:6px; flex:0 0 54px;
+    object-fit:cover; box-shadow:0 2px 6px rgba(0,0,0,.4)}
+  .alb .ph{background:var(--panel2); display:flex; align-items:center; justify-content:center;
+    color:var(--faint); font-size:20px}
+  .alb-info{flex:1; min-width:0}
+  .alb-info .t{font-size:14.5px; font-weight:600; line-height:1.25}
+  .alb-info .y{color:var(--faint); font-size:12px; margin-top:1px}
+  .alb .go{color:var(--faint); font-size:16px}
+  .sheet-bg{position:fixed; inset:0; background:rgba(0,0,0,.6); z-index:90;
+    opacity:0; pointer-events:none; transition:.25s; backdrop-filter:blur(2px)}
+  .sheet-bg.show{opacity:1; pointer-events:auto}
+  .sheet{position:fixed; left:0; right:0; bottom:0; z-index:100; max-height:90vh;
+    background:var(--bg2); border-radius:18px 18px 0 0; border-top:1px solid var(--line);
+    transform:translateY(100%); transition:transform .28s cubic-bezier(.2,.8,.2,1);
+    overflow-y:auto; padding-bottom:calc(24px + env(safe-area-inset-bottom))}
+  .sheet.show{transform:translateY(0)}
+  .grab{width:38px; height:4px; background:var(--faint); border-radius:2px; margin:9px auto 4px; opacity:.5}
+  .sheet-hd{padding:8px 18px 14px; display:flex; gap:14px; align-items:flex-end; border-bottom:1px solid var(--line)}
+  .sheet-hd img,.sheet-hd .ph{width:96px; height:96px; border-radius:8px; flex:0 0 96px;
+    object-fit:cover; box-shadow:0 4px 14px rgba(0,0,0,.5)}
+  .sheet-hd .ph{background:var(--panel2); display:flex; align-items:center; justify-content:center; color:var(--faint); font-size:30px}
+  .sheet-hd .meta{flex:1; min-width:0}
+  .sheet-hd .gname{color:var(--amber); font-size:13px; font-family:Georgia,serif}
+  .sheet-hd .tt{font-family:Georgia,serif; font-size:21px; font-weight:600; line-height:1.15; margin:2px 0}
+  .sheet-hd .yy{color:var(--muted); font-size:13px}
+  .sheet-bd{padding:16px 18px}
+  .sheet-bd .an{font-size:14px; line-height:1.55; color:#d8d2e8}
+  .tlabel{font-size:11px; letter-spacing:1.5px; text-transform:uppercase; color:var(--amber2); margin:16px 0 7px}
+  .tracks{list-style:none}
+  .tracks li{font-size:13px; color:var(--muted); line-height:1.5; padding:4px 0 4px 16px;
+    position:relative; border-bottom:1px solid var(--line)}
+  .tracks li::before{content:"♪"; position:absolute; left:0; color:var(--faint); font-size:11px}
+  .plinks{display:flex; gap:7px; margin-top:18px; flex-wrap:wrap}
+  .plink{flex:1; min-width:72px; text-align:center; text-decoration:none; color:#fff;
+    font-size:13px; font-weight:600; padding:11px 8px; border-radius:10px}
+  .plink.sp{background:var(--spotify)} .plink.am{background:var(--apple)} .plink.td{background:var(--tidal)} .plink.yt{background:var(--youtube)}
+  .empty{text-align:center; color:var(--faint); padding:50px 20px; font-size:14px}
+  .special{padding:4px 4px 8px}
+  .special p{font-size:13px; color:var(--muted); line-height:1.55; margin:8px 0}
+  .special ul,.special ol{padding-left:20px; margin:8px 0}
+  .special li{font-size:13px; color:var(--muted); line-height:1.5; margin:4px 0}
+  .special strong{color:var(--amber2)}
+  .special h3,.special h4{font-family:Georgia,serif; color:var(--amber2); font-size:14px; margin:14px 0 6px}
+  .special pre{background:#0e0b16; border:1px solid var(--line); border-radius:8px;
+    padding:12px; overflow-x:auto; -webkit-overflow-scrolling:touch}
+  .special pre code{font-family:"SF Mono",Menlo,Consolas,monospace; font-size:9.5px;
+    line-height:1.4; color:#b9b0d4; white-space:pre}
+  .special code{font-family:Menlo,monospace; background:var(--panel); padding:1px 5px;
+    border-radius:4px; font-size:12px; color:var(--amber2)}
+  .special table{width:100%; border-collapse:collapse; margin:10px 0; font-size:11.5px;
+    display:block; overflow-x:auto; -webkit-overflow-scrolling:touch}
+  .special th{background:var(--panel2); color:var(--amber2); text-align:left;
+    padding:7px 9px; font-weight:600; white-space:nowrap}
+  .special td{padding:6px 9px; border-bottom:1px solid var(--line); color:var(--muted); vertical-align:top}
+  .special tr:nth-child(even) td{background:rgba(255,255,255,.02)}
+  .special hr{border:none; border-top:1px solid var(--line); margin:14px 0}
+  .install{display:none; position:fixed; left:12px; right:12px;
+    bottom:calc(16px + env(safe-area-inset-bottom)); z-index:80;
+    background:var(--amber); color:#1a1505; border:none; border-radius:12px;
+    padding:13px; font-size:14px; font-weight:700; box-shadow:0 6px 20px rgba(0,0,0,.4)}
+  .toTop{position:fixed; right:14px; bottom:calc(16px + env(safe-area-inset-bottom)); z-index:70;
+    width:44px; height:44px; border-radius:50%; background:var(--panel2); border:1px solid var(--line);
+    color:var(--amber); font-size:18px; display:none; cursor:pointer}
+  .chip.core{border-color:var(--amber); color:var(--amber)}
+  .chip.core.on{background:var(--amber); color:#1a1505}
+  .pill{display:inline-block; margin-left:6px; font-size:10.5px; padding:1px 7px; border-radius:9px;
+    background:var(--panel2); color:var(--muted); vertical-align:1px}
+  .badge{display:inline-block; margin-left:6px; font-size:10.5px; padding:1px 7px; border-radius:9px;
+    font-weight:600; vertical-align:1px}
+  .b-temel{background:var(--amber); color:#1a1505}
+  .b-oner{background:rgba(224,168,78,.18); color:var(--amber2)}
+  .b-ist{background:var(--panel2); color:var(--muted)}
+  .b-ik{background:transparent; border:1px solid var(--line); color:var(--faint)}
+  .b-atla{background:rgba(194,66,90,.16); color:#e08a9a}
+  .hik{display:-webkit-box; -webkit-line-clamp:4; -webkit-box-orient:vertical; overflow:hidden; cursor:pointer}
+  .hik.full{display:block; -webkit-line-clamp:unset}
+  .hik:not(.full)::after{content:""}
+  .era-h{display:flex; justify-content:space-between; align-items:baseline; gap:8px;
+    margin:14px 4px 2px; padding-top:8px; border-top:1px dashed var(--line)}
+  .era-t{font-family:Georgia,serif; color:var(--amber2); font-size:13.5px}
+  .era-y{color:var(--faint); font-size:11.5px; white-space:nowrap}
+  .era-note{font-size:12px; color:var(--faint); line-height:1.5; margin:2px 4px 4px; font-style:italic}
+  .tipbox,.histbox{background:var(--panel); border:1px solid var(--line); border-radius:10px;
+    padding:10px 12px; margin:8px 4px; font-size:12.5px; color:var(--muted); line-height:1.5}
+  .tipbox,.histbox,.detay,.an{overflow-wrap:anywhere}
+  .tipbox ul{padding-left:18px} .tipbox li{margin:3px 0}
+  .histbox{background:rgba(224,168,78,.08); border-color:rgba(224,168,78,.3)}
+  .histbox .src{display:block; margin-top:6px; font-size:11px; color:var(--faint)}
+  .era-small{font-size:11.5px; color:var(--faint)}
+  .kadro{font-size:12.5px; color:var(--muted); line-height:1.5; margin-bottom:6px}
+  .kadro b{color:var(--amber2); font-weight:600}
+  .sheet-bd .an{margin-top:8px}
+  .dnbox{background:var(--panel); border-left:3px solid var(--amber); border-radius:8px;
+    padding:10px 12px; margin-top:14px; font-size:13px; line-height:1.5; color:#d8d2e8}
+  .detay{padding-left:18px} .detay li{font-size:13px; color:var(--muted); line-height:1.5; margin:4px 0}
+  .oncbox{background:rgba(224,168,78,.1); border-radius:8px; padding:9px 12px; margin-top:14px;
+    font-size:13px; color:var(--ink); line-height:1.45}
+  .oncbox b{color:var(--amber2)}
+  .crit{font-size:12.5px; color:var(--muted); line-height:1.5; padding:7px 0; border-bottom:1px dashed var(--line)}
+  .crit .csrc{display:block; color:var(--crimson); font-weight:600; font-size:11.5px; margin-bottom:2px}
+  .crit a{color:var(--amber); font-size:11px; text-decoration:none}
+  .langsel{margin-left:auto;background:var(--panel2);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:3px 6px;font-size:12px}
+  .brand{display:flex;align-items:baseline;gap:10px}
+</style>
+</head>
+<body>
+<header>
+  <div class="brand"><h1>Prog Rock Ağ Atlası</h1><span class="yr">1967–2020</span><select id="lang" class="langsel" aria-label="Language"><option value="tr">TR</option><option value="en">EN</option><option value="de">DE</option></select></div>
+  <input class="search" id="q" placeholder="Albüm, grup, parça ya da müzisyen ara…" autocomplete="off">
+  <div class="filters" id="filters"></div>
+</header>
+<div class="count-bar" id="countbar"></div>
+<main id="main"></main>
+<div class="sheet-bg" id="sheetbg"></div>
+<div class="sheet" id="sheet"></div>
+<button class="install" id="install">📲 Ana ekrana ekle</button>
+<button class="toTop" id="toTop">↑</button>
+<script>
+
+let DATA=[], T={}, F={}, U={}, LANG="tr";
+const LANGS=[["tr","TR"],["en","EN"],["de","DE"]];
+function u(k,p){let s=U[k]||k; if(p)for(const x in p)s=s.replace("{"+x+"}",p[x]); return s;}
+function tx(k){return T[k]!==undefined?T[k]:F[k];}
+function detectLang(){
+  try{const s=localStorage.getItem("atlas.lang"); if(s)return s;}catch(e){}
+  const n=(navigator.language||"en").slice(0,2).toLowerCase();
+  return ["tr","de"].includes(n)?n:"en";
+}
+async function getJSON(p){const r=await fetch(p,{cache:"no-cache"}); if(!r.ok)throw new Error(p); return r.json();}
+function build(N){
+  return N.map(s=>{const sk="sec."+s.no;
+    return {no:s.no,title:tx(sk+".title")||"",intro:tx(sk+".intro")||"",html:tx(sk+".html")||"",
+      groups:s.groups.map(g=>{const gk="grp."+g.id, f={};
+        ["kurulus","hikaye","dna","uyeler","gecisler","etki","ipucu"].forEach(x=>{const v=tx(gk+"."+x); if(v)f[x]=v;});
+        if(tx(gk+".tarih"))f.tarih={txt:tx(gk+".tarih"),src:g.tarih_src||""};
+        const out={name:tx(gk+".name")||g.id,artist:g.artist,f};
+        if(g.eras)out.eras=g.eras.map((e,i)=>({yil:e.yil,from:e.from,to:e.to,t:tx(gk+".era."+i+".t")||"",note:tx(gk+".era."+i+".note")||""}));
+        out.albums=g.albums.map(a=>{const ak="alb."+a.id, o={t:a.t,y:a.y,onc:a.onc,e:a.e,cov:a.cov};
+          ["an","dn","oncelik","tip","kadro","prod","detay","tr"].forEach(x=>{const v=tx(ak+"."+x); if(v)o[x]=v;});
+          if(a.crit){const ct=tx(ak+".crit")||[]; o.crit=a.crit.map((c,i)=>({src:c.src,url:c.url,txt:ct[i]||""}));}
+          return o;});
+        return out;})};});
+}
+let NDATA=null;
+async function setLang(l){
+  LANG=l; try{localStorage.setItem("atlas.lang",l);}catch(e){}
+  document.documentElement.lang=l;
+  const fb=l==="de"?"en":(l==="en"?null:null);
+  const [ui,txt,fbt]=await Promise.all([getJSON("ui_"+l+".json"),getJSON("metin_"+l+".json"),fb?getJSON("metin_"+fb+".json"):Promise.resolve({})]);
+  U=ui; T=txt; F=fbt;
+  if(!NDATA)NDATA=await getJSON("data.json");
+  DATA=build(NDATA);
+  document.title=u("app.title");
+  document.querySelector(".brand h1").textContent=u("app.title");
+  document.getElementById("q").placeholder=u("search.placeholder");
+  document.getElementById("install").textContent=u("install");
+  document.getElementById("lang").value=l;
+  initChips(); render();
+}
+let activeFilter="all", query="", coreOnly=false;
+const filterEl=document.getElementById("filters");
+const shortName=t=>t.replace(/ — .*/,"").replace(/\(.*\)/,"").replace(/:.*$/,"").replace(/^(The|Das|Die|Der) /,"").replace(/ (Universe|Evreni)$/,"").replace(/-Universum$/,"").trim();
+function initChips(){
+  let chips=[["all",u("filter.all")],["core",u("filter.core")]]; DATA.forEach(s=>chips.push([s.no,shortName(s.title)]));
+  filterEl.innerHTML=chips.map(([id,lb])=>`<div class="chip ${String(id)===String(activeFilter)||(id==='core'&&coreOnly)?'on':''} ${id==='core'?'core':''}" data-f="${id}">${esc(lb)}</div>`).join("");
+  filterEl.querySelectorAll(".chip").forEach(c=>c.onclick=()=>{
+    if(c.dataset.f==="core"){coreOnly=!coreOnly;c.classList.toggle("on",coreOnly);render();return;}
+    activeFilter=c.dataset.f;
+    filterEl.querySelectorAll(".chip:not(.core)").forEach(x=>x.classList.remove("on"));
+    c.classList.add("on"); window.scrollTo(0,0); render();
+  });
+}
+document.getElementById("q").addEventListener("input",e=>{query=e.target.value.toLowerCase();render();});
+const ph='<div class="ph">♪</div>';
+function img(cov){return cov?`<img loading="lazy" src="${cov}" alt="">`:ph;}
+const ONC={temel:"b-temel",onerilir:"b-oner",istege:"b-ist",ikincil:"b-ik",atla:"b-atla"};
+function badge(a){const o=ONC[a.onc];return o?`<span class="badge ${o}">${esc(u("onc."+a.onc))}</span>`:"";}
+function isStudio(t){return !t||["stüdyo","studio","Studio"].includes(t);}
+function tipPill(a){return isStudio(a.tip)?"":`<span class="pill">${esc(a.tip)}</span>`;}
+function albMatch(g,a){
+  if(coreOnly&&a.onc!=="temel")return false;
+  if(!query)return true;
+  return (a.t+" "+g.name+" "+(a.tr||[]).join(" ")+" "+(a.kadro||"")+" "+a.y).toLowerCase().includes(query);}
+function esc(s){return String(s==null?"":s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");}
+function albRow(s,gi,g,a){const ai=g.albums.indexOf(a);
+  return `<div class="alb" onclick="openSheet(${s.no},${gi},${ai})">${img(a.cov)}
+    <div class="alb-info"><div class="t" translate="no">${esc(a.t)}</div><div class="y">${a.y}${tipPill(a)}${badge(a)}</div></div>
+    <span class="go">›</span></div>`;}
+function render(){
+  const main=document.getElementById("main");
+  let html="",any=false,totA=0;
+  const filtering=!!query||coreOnly;
+  DATA.forEach(s=>{
+    if(activeFilter!=="all"&&String(s.no)!==String(activeFilter))return;
+    const hasRealGroups=s.groups.some(g=>g.albums.length>0);
+    if(s.html&&!hasRealGroups){
+      if(filtering)return;
+      any=true;
+      html+=`<div class="sec-title">${esc(shortName(s.title))}</div>`;
+      if(s.intro)html+=`<p class="sec-intro">${esc(s.intro)}</p>`;
+      html+=`<div class="special">${s.html}</div>`;
+      return;
+    }
+    let secHtml="",secHas=false;
+    s.groups.forEach((g,gi)=>{
+      const albs=g.albums.filter(a=>albMatch(g,a));
+      if(albs.length===0)return;
+      secHas=true;any=true;totA+=albs.length;
+      const gid=`g_${s.no}_${gi}`,open=filtering?"open":"";
+      const f=g.f;
+      const extra=[f.uyeler?`<p class="gfield"><b>${u("f.uyeler")}:</b> ${esc(f.uyeler)}</p>`:"",
+        f.gecisler?`<p class="gfield"><b>${u("f.gecisler")}:</b> ${esc(f.gecisler)}</p>`:"",
+        f.etki?`<p class="gfield"><b>${u("f.etki")}:</b> ${esc(f.etki)}</p>`:"",
+        (f.ipucu&&f.ipucu.length)?`<div class="tipbox"><div class="tlabel" style="margin-top:0">${u("f.ipucu")}</div><ul>${f.ipucu.map(t=>`<li>${esc(t)}</li>`).join("")}</ul></div>`:"",
+        f.tarih?`<div class="histbox">${esc(f.tarih.txt)}<span class="src">${esc(f.tarih.src)}</span></div>`:""].join("");
+      let list="";
+      if(g.eras&&g.eras.length){
+        g.eras.forEach((e,ei)=>{
+          const ea=albs.filter(a=>(a.e||0)===ei); if(!ea.length)return;
+          list+=`<div class="era-h"><span class="era-t">${esc(e.t)}</span><span class="era-y">${esc(e.yil)}</span></div>`;
+          if(e.note&&!filtering)list+=`<p class="era-note">${esc(e.note)}</p>`;
+          list+=ea.map(a=>albRow(s,gi,g,a)).join("");
+        });
+      }else list=albs.map(a=>albRow(s,gi,g,a)).join("");
+      secHtml+=`<div class="group ${open}" id="${gid}">
+        <div class="group-head" onclick="tg('${gid}')">
+          <h2 translate="no">${esc(g.name)}</h2><span class="cnt">${u("group.albums",{n:g.albums.length})}</span><span class="arr">▶</span></div>
+        <div class="group-body">
+          ${f.kurulus?`<p class="gfield"><b>${u("f.kurulus")}:</b> ${esc(f.kurulus)}</p>`:""}
+          ${f.hikaye?`<p class="gfield hik" onclick="this.classList.toggle('full')"><b>${u("f.hikaye")}:</b> ${esc(f.hikaye)}</p>`:""}
+          ${f.dna?`<p class="gfield"><b>${u("f.dna")}:</b> ${esc(f.dna)}</p>`:""}
+          ${extra?`<span class="gmore" onclick="tgMore(event,'${gid}_x')">${u("group.more")}${f.ipucu?" · "+u("group.tips"):""}</span>
+                   <div class="gextra" id="${gid}_x">${extra}</div>`:""}
+          ${list}
+        </div></div>`;
+    });
+    if(secHas){html+=`<div class="sec-title">${esc(shortName(s.title))}</div>`;
+      if(s.intro&&activeFilter!=="all")html+=`<p class="sec-intro">${esc(s.intro)}</p>`;
+      html+=secHtml;
+      if(s.html&&!filtering)html+=`<div class="special">${s.html}</div>`;}
+  });
+  document.getElementById("countbar").textContent=any?u("count.albums",{n:totA})+(coreOnly?" · "+u("count.coreonly"):""):"";
+  main.innerHTML=any?html:`<div class="empty">${esc(u("empty"))}</div>`;
+}
+function tg(id){document.getElementById(id).classList.toggle("open");}
+function tgMore(e,id){e.stopPropagation();document.getElementById(id).classList.toggle("show");}
+function openSheet(sn,gi,ai){
+  const s=DATA.find(x=>x.no===sn),g=s.groups[gi],a=g.albums[ai];
+  const bare=a.t.replace(/\s*\(.*?\)\s*/g," ").trim();
+  const sp=`https://open.spotify.com/search/${encodeURIComponent("album:"+bare+" artist:"+g.artist)}`;
+  const td=`https://tidal.com/search?q=${encodeURIComponent(g.artist+" "+bare)}`;
+  const am=`https://music.apple.com/search?term=${encodeURIComponent(g.artist+" "+bare)}`;
+  const yt=`https://www.youtube.com/results?search_query=${encodeURIComponent(g.artist+" "+bare+" full album")}`;
+  const era=(g.eras&&g.eras[a.e||0])?g.eras[a.e||0]:null;
+  const sheet=document.getElementById("sheet");
+  sheet.innerHTML=`<div class="grab"></div>
+    <div class="sheet-hd">${img(a.cov)}
+      <div class="meta"><div class="gname" translate="no">${esc(g.name)}</div>
+        <div class="tt" translate="no">${esc(a.t)}</div><div class="yy">${a.y}${a.tip?` · ${esc(a.tip)}`:""}</div>
+        ${era?`<div class="yy era-small">${esc(era.t)} (${esc(era.yil)})</div>`:""}
+        <div style="margin-top:5px">${badge(a)}</div></div></div>
+    <div class="sheet-bd">
+      ${a.kadro?`<p class="kadro"><b>${u("album.lineup")}:</b> ${esc(a.kadro)}</p>`:""}
+      ${a.prod?`<p class="kadro"><b>${u("album.prod")}:</b> ${esc(a.prod)}</p>`:""}
+      ${a.an?`<p class="an">${esc(a.an)}</p>`:""}
+      ${a.dn?`<div class="dnbox"><div class="tlabel" style="margin-top:0">${u("album.note")}</div>${esc(a.dn)}</div>`:""}
+      ${(a.detay&&a.detay.length)?`<div class="tlabel">${u("album.details")}</div><ul class="detay">${a.detay.map(t=>`<li>${esc(t)}</li>`).join("")}</ul>`:""}
+      ${a.oncelik?`<div class="oncbox"><b>${u("album.priority")}:</b> ${esc(a.oncelik)}</div>`:""}
+      ${(a.crit&&a.crit.length)?`<div class="tlabel">${u("album.critics")}</div>${a.crit.map(c=>`<div class="crit"><span class="csrc">${esc(c.src)}</span>${esc(c.txt)}${c.url?` <a href="${esc(c.url)}" target="_blank" rel="noopener">${u("album.source")}</a>`:""}</div>`).join("")}`:""}
+      ${(a.tr&&a.tr.length)?`<div class="tlabel">${u("album.highlights")}</div>
+        <ul class="tracks">${a.tr.map(t=>`<li>${esc(t)}</li>`).join("")}</ul>`:""}
+      <div class="plinks">
+        <a class="plink sp" href="${sp}" target="_blank" rel="noopener">Spotify</a>
+        <a class="plink am" href="${am}" target="_blank" rel="noopener">Apple Music</a>
+        <a class="plink td" href="${td}" target="_blank" rel="noopener">Tidal</a>
+        <a class="plink yt" href="${yt}" target="_blank" rel="noopener">YouTube</a></div></div>`;
+  sheet.scrollTop=0;
+  document.getElementById("sheetbg").classList.add("show");
+  sheet.classList.add("show");
+}
+function closeSheet(){document.getElementById("sheet").classList.remove("show");
+  document.getElementById("sheetbg").classList.remove("show");}
+document.getElementById("sheetbg").onclick=closeSheet;
+const toTop=document.getElementById("toTop");
+window.addEventListener("scroll",()=>{toTop.style.display=window.scrollY>600?"block":"none";});
+toTop.onclick=()=>window.scrollTo({top:0,behavior:"smooth"});
+let dp;window.addEventListener("beforeinstallprompt",e=>{e.preventDefault();dp=e;
+  document.getElementById("install").style.display="block";});
+document.getElementById("install").onclick=async()=>{if(!dp)return;dp.prompt();await dp.userChoice;
+  dp=null;document.getElementById("install").style.display="none";};
+if("serviceWorker" in navigator){
+  const sw='self.addEventListener("install",e=>self.skipWaiting());self.addEventListener("activate",e=>self.clients.claim());';
+  navigator.serviceWorker.register(URL.createObjectURL(new Blob([sw],{type:"text/javascript"}))).catch(()=>{});
+}
+document.getElementById("lang").onchange=e=>setLang(e.target.value);
+document.getElementById("main").innerHTML='<div class="empty">…</div>';
+setLang(detectLang()).catch(err=>{console.error(err);document.getElementById("main").innerHTML='<div class="empty">Veri yüklenemedi / Could not load data. (http/https)</div>';});
+</script>
+</body></html>

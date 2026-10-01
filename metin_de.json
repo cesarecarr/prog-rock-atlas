@@ -1,0 +1,2899 @@
+{
+ "sec.1.title": "Das Netzwerk lesen — wie die Verbindungen funktionieren",
+ "sec.1.html": "<p>Das prägende Merkmal dieses Ökosystems ist, dass Musiker ständig zwischen Bands wechseln. Es gibt vier Arten von Verbindungen:</p>\n<ul>\n<li><strong>Direkte Mitgliederwanderung:</strong> Ein Musiker verlässt Band A und gründet Band B oder schließt sich ihr an (z. B. Greg Lake: King Crimson → ELP).</li>\n<li><strong>Herkunftskette:</strong> die frühen Bands, die ein Musiker durchlief, bevor er beim Prog ankam (z. B. Steve Howe: Syndicats → Tomorrow → Bodast → Yes).</li>\n<li><strong>Gemeinsame Klangquelle:</strong> dieselben ästhetischen Wurzeln (Mellotron-Klänge, wechselnde Taktarten, klassische Form); sie verbinden die späteren Generationen (Neo-Prog, die 90er) mit dem alten Rückgrat.</li>\n<li><strong>Supergruppen / Brückenknoten:</strong> Projekte, die mehrere Universen verbinden (UK, Asia, GTR, ABWH, World Trade) — die „Knotenpunkte“ des Netzwerks.</li>\n</ul>\n<p>Das zentrale Rückgrat des Netzwerks und seine Ausläufer in spätere Generationen:</p>\n<pre><code>[WURZELN]                   [PROTO]\nSyndicats/Tomorrow/Bodast    The Nice ──► ELP ◄── KING CRIMSON ──► Foreigner / Bad Co / UK\n        │                                     │                          │\n        ▼                                     ▼                          ▼\n       YES ◄───────────── Asia / GTR ──► GENESIS ───► Gabriel / Collins / Hackett\n        │                    ▲                │\n        ▼                    │                ▼\n   ABWH (1989)          (Howe-Knoten)     [NEO-PROG]\n        │                                 Marillion / IQ / Pallas / Pendragon\n        ▼\n   [US-RENAISSANCE DER 90ER]\n   World Trade / Spock's Beard / Echolyn  ◄── (Synthese aus Yes + Genesis + GG)\n</code></pre>\n<p>Eine Zeitachse in vier Generationen:</p>\n<ol>\n<li><strong>Erste Welle (1967–1976):</strong> Das Genre entsteht. King Crimson, Yes, ELP, Genesis, Canterbury.</li>\n<li><strong>Übergang und Kommerzialisierung (1977–1983):</strong> Supergruppen (UK, Asia), Druck durch den Punk, die Hinwendung zum AOR.</li>\n<li><strong>Zweite Welle / Renaissance (1981–1995):</strong> Neo-Prog (UK) und das amerikanische Symphonic-Prog-Revival — eine Generation, die den alten Klang mit moderner Produktion neu erschuf.</li>\n<li><strong>Vierte Welle (1995–2020):</strong> moderner Prog unter Führung von Porcupine Tree und Steven Wilson; Supergruppen wie Transatlantic und Flying Colors; Prog-Metal mit Dream Theater. Musiker der klassischen Generation (Fripp, Hackett, Anderson, Levin, Lifeson) tauchen als Gäste auf Alben der neuen Generation wieder auf, und 5.1-Remixe klassischer Alben verbinden beide Epochen.</li></ol>\n<hr /><h3>Die Erweiterung 1995–2020 — neues Terrain</h3><p>In dieser Version reicht der Atlas bis 2020. Die großen Bands (Yes, King Crimson, Genesis, Pink Floyd, ELP, Jethro Tull, Rush, Camel, Gentle Giant, Van der Graaf Generator, Marillion) haben jetzt nach Epochen gegliederte Diskografien mit Besetzungen, Produktionsangaben, wichtigen Details und Hörprioritäten. Die Abzeichen in den Albumzeilen zeigen die Hörpriorität: <strong>★ Essenziell</strong> (nie auslassen), <strong>Empfohlen</strong>, <strong>Optional</strong>, <strong>Nebensächlich</strong>, <strong>Verzichtbar</strong>. Der Filter <strong>★ Essenziell</strong> oben zeigt nur die essenziellen Alben.</p><p>Die Yes-Diskografie stammt aus einem eigenen Modul mit Hörnotizen (mit Kritikerstimmen und dem Kontext aus Edward Macans <em>Rocking the Classics</em>); dieses Modul reicht bis 2026.</p>",
+ "sec.2.title": "Wurzeln: frühe Bands vor dem Prog (1963–1969)",
+ "sec.2.intro": "Dieser Abschnitt enthält die „unsichtbaren Wurzeln“ des Netzwerks. Bevor sie beim Prog ankamen, lernten die späteren Stars ihr Handwerk in R&B-, Beat- und Psychedelic-Bands. Diese Gruppen kennt man meist nur von einer Single oder einem nie veröffentlichten Album, doch sie tragen die DNA des Netzwerks.",
+ "grp.the-syndicats.kurulus": "1963, Nord-London. Ein R&B/Beat-Trio, aufgenommen vom legendären Produzenten Joe Meek. Die erste Profiband des 17-jährigen Steve Howe.",
+ "grp.the-syndicats.dna": "R&B à la Chuck Berry; der Keim von Howes Liebe zu Country- und Rockabilly-Klängen.",
+ "grp.the-syndicats.uyeler": "Howe (Gitarre), Tom Ladd (Gesang) und andere; Howe stieg 1965 aus.",
+ "grp.the-syndicats.gecisler": "Howe → The In Crowd → Tomorrow → Bodast → Yes.",
+ "grp.tomorrow.kurulus": "The In Crowd (eine Soul-/Coverband) wurde 1967 psychedelisch und nannte sich in Tomorrow um. Eine brillante, aber kurzlebige Band der Londoner Psychedelic-Szene.",
+ "grp.tomorrow.dna": "Englische Psychedelia: Fuzz-Gitarre, kaleidoskopische Produktion, kindlicher Surrealismus. Das erste Labor für Howes experimentelle Gitarrensprache.",
+ "grp.tomorrow.uyeler": "Keith West (Gesang), Steve Howe (Gitarre), John „Twink“ Alder (Schlagzeug), John Wood (Bass). Teilten sich Bühnen mit Pink Floyd und jammten mit Hendrix.",
+ "grp.tomorrow.gecisler": "Davor → The In Crowd. Danach → Keith Wests Solo-Singles; Howe → Bodast.",
+ "alb.tomorrow-1968-tomorrow.an": "Ihr einziges Album. Enthält Psychedelic-Klassiker wie „My White Bicycle“ und „Real Life Permanent Dream“; schon in diesem frühen Stadium zeigt Howes Gitarre die strukturelle Neugier des Prog. Ein kommerzieller Flop, der zur Kultplatte wurde.",
+ "alb.tomorrow-1968-tomorrow.tr": [
+  "My White Bicycle — von der Provo-Bewegung inspirierter Psychedelic-Klassiker mit rückwärts gespielten Gitarren",
+  "Real Life Permanent Dream — Howes Fuzz-Gitarre und Sitar-Klänge",
+  "Revolution — der Aufbruchsgeist der Zeit, gesungen von Keith West"
+ ],
+ "grp.bodast.kurulus": "1968, das Trio, das Howe nach Tomorrow gründete (kurzzeitig auch „Canto“ genannt). Howes frühestes Projekt, das dem Prog am nächsten kam.",
+ "grp.bodast.dna": "Der Kern des frühen britischen Prog — ausgedehnte Formen und melodische Gitarrenfiguren. Howes „fehlendes Glied“ vor Yes.",
+ "grp.bodast.uyeler": "Steve Howe (Gitarre) mit Clive Skinner, Bobby Clarke und Dave Curtiss. Das Album wurde auf Eis gelegt, als das Label pleiteging.",
+ "grp.bodast.gecisler": "Nach dem Ende von Bodast sprach Howe bei The Nice und Jethro Tull vor (beides klappte nicht) und stieß 1970 zu Yes.",
+ "alb.bodast-1981-the-bodast-tapes.an": "Session-Aufnahmen, die jahrelang unveröffentlicht blieben. Stücke wie „Nether Street“ deuten bereits die Akkordfarben an, die man später bei Yes hört.",
+ "alb.bodast-1981-the-bodast-tapes.tr": [
+  "Nether Street — trägt die Akkordfarben späterer Yes-Stücke",
+  "1000 Nights",
+  "Beyond Winter"
+ ],
+ "grp.the-strawbs-wakeman-koku.name": "The Strawbs (Wakemans Wurzeln)",
+ "grp.the-strawbs-wakeman-koku.kurulus": "Mitte der 1960er, London; Folk-Rock-Wurzeln. Rick Wakeman spielte hier, bevor er zu Yes ging.",
+ "grp.the-strawbs-wakeman-koku.hikaye": "1964 von Dave Cousins als Bluegrass-Band Strawberry Hill Boys gegründet, entwickelte sich die Gruppe vom Folk zum Folk-Prog. Sandy Denny sang kurz bei ihnen; Rick Wakemans Keyboards trieben die Band 1970–71 Richtung Prog und schickten Wakeman weiter zu Yes. „Part of the Union“ (1973) wurde ein Hit und eine Gewerkschaftshymne. Unter Cousins’ Führung nahm die Band in den 2000ern wieder mit klassischer Besetzung auf.",
+ "grp.the-strawbs-wakeman-koku.dna": "Englischer Folk-Rock mit immer kunstvolleren Keyboard-Verzierungen. Ein Schaufenster für Wakemans Orgel- und Mellotron-Können.",
+ "grp.the-strawbs-wakeman-koku.etki": "Die Station, die Wakeman zu Yes brachte.",
+ "alb.the-strawbs-1970-dragonfly.an": "Folk-Rock-Reife.",
+ "alb.the-strawbs-1970-dragonfly.tr": [
+  "The Battle — Folk-Rock-Erzählung, ein frühes Orchesterexperiment",
+  "Dragonfly — Titelstück, pastoraler englischer Folk",
+  "Josephine, For Better or For Worse"
+ ],
+ "alb.the-strawbs-1970-just-a-collection-of-antiques-and-curios.an": "Eine Wendepunkt-Platte, die Wakemans Virtuosität ins Rampenlicht rückte — und auf den Radar von Yes.",
+ "alb.the-strawbs-1970-just-a-collection-of-antiques-and-curios.tr": [
+  "The Antique Suite — mehrteilige Suite, Schaufenster für Wakemans Keyboards",
+  "Temperament of Mind — Wakemans instrumentales Solo-Glanzstück",
+  "Where Is This Dream of Your Youth"
+ ],
+ "alb.the-strawbs-1971-from-the-witchwood.an": "Wakemans letztes Strawbs-Album; danach ging er zu Yes und Fragile.",
+ "alb.the-strawbs-1971-from-the-witchwood.tr": [
+  "A Glimpse of Heaven — Cousins’ pastorales Songwriting",
+  "The Hangman and the Papist — dramatische Folk-Erzählung",
+  "Sheep — einer von Wakemans letzten Strawbs-Beiträgen"
+ ],
+ "alb.the-strawbs-1972-grave-new-world.an": "Nach Wakeman der Höhepunkt des Folk-Prog mit Blue Weavers Mellotron; Cousins’ religiöse und existenzielle Texte.",
+ "alb.the-strawbs-1972-grave-new-world.oncelik": "Essenziell — das Meisterwerk der Strawbs.",
+ "alb.the-strawbs-1973-bursting-at-the-seams.an": "Der kommerzielle Höhepunkt der Band, mit den Hits „Part of the Union“ und „Lay Down“.",
+ "alb.the-strawbs-1974-hero-and-heroine.an": "Das „progigste“ Strawbs-Album, mit John Hawkens Mellotron und Dave Lamberts Gitarre; ein Konzept über das Zerbrechen einer Beziehung.",
+ "alb.the-strawbs-2017-the-ferryman-s-curse.an": "Ein starkes Spätwerk mit einer Besetzung nahe der klassischen Ära, langen erzählenden Stücken und Mellotron-Klängen.",
+ "sec.3.title": "Proto-Prog (1967–1970)",
+ "grp.the-nice.kurulus": "1967, London. Als Begleitband von P. P. Arnold gegründet, ging sie bald eigene Wege. Keith Emersons aggressive Hammond-Technik und Klassik-Adaptionen zeichneten die früheste Vorlage des Prog.",
+ "grp.the-nice.dna": "Rock-Adaptionen klassischer Werke (Bach, Sibelius, Bernstein); die Orgel als Leadinstrument; Bühnengewalt (Emerson rammte Messer in die Orgel).",
+ "grp.the-nice.uyeler": "Keith Emerson (Orgel), Lee Jackson (Bass/Gesang), Brian Davison (Schlagzeug), David O’List (Gitarre; stieg früh aus — ein spannender Knoten: Howe spielte einen Abend anstelle von O’List mit The Nice, blieb aber nicht). Nach O’Lists Abgang wurde das Trio orgelzentriert.",
+ "grp.the-nice.gecisler": "Davor → Gary Farr & The T-Bones, VIP’s. Danach → ELP (Emerson), Jacksons und Davisons Refugee.",
+ "grp.the-nice.etki": "Der direkte Prototyp von ELP. Der Urahn der gesamten „keyboardzentrierten Prog“-Bewegung.",
+ "alb.the-nice-1968-the-thoughts-of-emerlist-davjack.an": "Die erste Balance zwischen Psychedelia und Klassik-Adaption. Die letzte Spur von O’Lists Gitarre; die Orgel ist noch nicht die einzige dominierende Stimme. Das Album, auf dem die Band fragt: „Was könnten wir werden?“",
+ "alb.the-nice-1968-the-thoughts-of-emerlist-davjack.tr": [
+  "Rondo — Orgelrock-Adaption von Dave Brubecks „Blue Rondo“, das Wahrzeichen der Band",
+  "Flower King of Flies",
+  "The Thoughts of Emerlist Davjack — Titelstück, Psychedelia"
+ ],
+ "alb.the-nice-1968-ars-longa-vita-brevis.an": "Die Titelsuite ist der erste ernsthafte Versuch, Rock und Orchestrierung zu verschmelzen. Der Teil mit Davisons Schlagzeugsolo nimmt den späteren Bombast von ELP vorweg.",
+ "alb.the-nice-1968-ars-longa-vita-brevis.tr": [
+  "Ars Longa Vita Brevis — Suite für Orchester und Rockband mit Davison-Schlagzeugsolo",
+  "Daddy, Where Did I Come From?",
+  "America (2nd Amendment) — die Bernstein-Adaption neu aufgegriffen"
+ ],
+ "alb.the-nice-1969-nice.an": "Gewann durch eine provokante Adaption von Bernsteins „America“ (mit gesungenem Protest) Skandal und Identität zugleich. Ihr „rockigstes“ Album, das Live-Energie ins Studio brachte.",
+ "alb.the-nice-1969-nice.tr": [
+  "Rondo 69 — eine Orgelrock-Neudeutung live",
+  "She Belongs to Me — Dylan-Adaption",
+  "Diary of an Empty Day"
+ ],
+ "alb.the-nice-1970-five-bridges.an": "Die Newcastle-Symphoniesuite: ein abendfüllendes Konzertwerk mit Orchester. Die Synthese aus „Rock + klassischer Form“, die Emerson zu ELP mitnahm, erreicht hier ihren Höhepunkt; die Abschiedsaufnahme der Band.",
+ "alb.the-nice-1970-five-bridges.tr": [
+  "Five Bridges Suite — die Newcastle-Symphoniesuite mit Orchester",
+  "Intermezzo from the Karelia Suite — Sibelius-Adaption",
+  "Country Pie / Brandenburg Concerto No. 6 — eine Montage aus Dylan und Bach"
+ ],
+ "grp.procol-harum.kurulus": "1967, Southend. Explodierte mit „A Whiter Shade of Pale“; eine Verschmelzung von Bach-inspirierter Orgel und Soul-Gesang.",
+ "grp.procol-harum.hikaye": "Aus der R&B-Band The Paramounts aus Southend hervorgegangen, vereinte Procol Harum Gary Brookers Klavier und Gesang, Keith Reids poetische Texte und Matthew Fishers Hammondorgel. „A Whiter Shade of Pale“ (1967) mit seiner von Bach inspirierten Orgellinie wurde eine der meistverkauften Singles aller Zeiten; Fishers Sieg im Tantiemenprozess 2009 wurde zum Präzedenzfall im Musikrecht. Robin Trowers Bluesgitarre und Orchesterexperimente (das Livealbum mit dem Edmonton Symphony Orchestra von 1972) machten die Band zu einem Pionier des Prog. Brooker starb 2022.",
+ "grp.procol-harum.dna": "Barocke Orgel, Gospel-/Soul-Gesang, literarische Texte. Die Brücke des Orgelrock.",
+ "grp.procol-harum.uyeler": "Gary Brooker (Gesang/Klavier), Matthew Fisher (Orgel), Robin Trower (Gitarre; später Solo-Bluesrock-Karriere). Keith Reid schrieb die Texte (ein festes, nicht auftretendes Mitglied).",
+ "grp.procol-harum.gecisler": "Davor → The Paramounts. Danach → Robin Trowers Solokarriere.",
+ "grp.procol-harum.etki": "Ein früher Wegbereiter des orgelbasierten Prog; Pionier der Zusammenarbeit von Orchester und Rockband.",
+ "alb.procol-harum-1967-procol-harum.an": "Eine Verschmelzung von Barockpop und Rock; überschattet von „A Whiter Shade of Pale“, aber voller solider Songs wie „Conquistador“.",
+ "alb.procol-harum-1967-procol-harum.tr": [
+  "A Whiter Shade of Pale — Bach-inspirierte Orgel, ein Proto-Denkmal des Genres",
+  "Conquistador — dramatische Erzählung (die Orchesterfassung wurde später ein Hit)",
+  "Repent Walpurgis — Instrumental, Fishers Orgelschaufenster"
+ ],
+ "alb.procol-harum-1968-shine-on-brightly.an": "„In Held ’Twas in I“ ist eine 17-minütige, mehrteilige Suite — eines der ersten plattenseitenlangen Konzeptstücke des britischen Prog.",
+ "alb.procol-harum-1968-shine-on-brightly.tr": [
+  "In Held ’Twas in I — 17-minütige mehrteilige Suite, die erste große Prog-Form",
+  "Shine On Brightly — Titelstück",
+  "Quite Rightly So"
+ ],
+ "alb.procol-harum-1969-a-salty-dog.an": "Von Fisher produziert; orchestrale Weite und Seemannsmelancholie im Titelstück. Das beliebteste Album der Band.",
+ "alb.procol-harum-1969-a-salty-dog.tr": [
+  "A Salty Dog — orchestrale Seemannsmelancholie, der beliebteste Song der Band",
+  "The Devil Came from Kansas",
+  "Pilgrim’s Progress — Fishers Orgelballade"
+ ],
+ "alb.procol-harum-1970-home.an": "Trowers Gitarre tritt in den Vordergrund; dunkler und bluesiger.",
+ "alb.procol-harum-1970-home.tr": [
+  "Whaling Stories — ein düsteres Epos mit Trowers Gitarre",
+  "Whisky Train — Bluesrock",
+  "About to Die"
+ ],
+ "alb.procol-harum-1971-broken-barricades.an": "Trowers letztes Album; eine Hinwendung zum Hardrock.",
+ "alb.procol-harum-1971-broken-barricades.tr": [
+  "Broken Barricades — Titelstück",
+  "Simple Sister — Trowers Hardrock-Gitarre",
+  "Power Failure — mit Schlagzeugsolo"
+ ],
+ "alb.procol-harum-1972-procol-harum-live-with-the-edmonton-symphony-orchestra.an": "Ein in Kanada mit Orchester und Chor aufgenommenes Livealbum; mit „Conquistador“ der größte amerikanische Erfolg der Band.",
+ "alb.procol-harum-1972-procol-harum-live-with-the-edmonton-symphony-orchestra.oncelik": "Essenziell — eine der gelungensten Begegnungen von Rock und Orchester.",
+ "alb.procol-harum-1973-grand-hotel.an": "Orchestrale Pracht, produziert von Chris Thomas; Mick Grabham an der Gitarre.",
+ "alb.procol-harum-1973-grand-hotel.tr": [
+  "Grand Hotel",
+  "Fires (Which Burnt Brightly)",
+  "A Rum Tale"
+ ],
+ "alb.procol-harum-1991-the-prodigal-stranger.an": "Das Comeback-Album, das Brooker, Fisher, Trower und Reid nach vierzehn Jahren wieder vereinte.",
+ "alb.procol-harum-2017-novum.an": "Zum 50-jährigen Bandjubiläum entstanden, mit Texten von Pete Brown statt Keith Reid; Brookers letztes Studioalbum.",
+ "grp.moody-blues.kurulus": "1964 als R&B-Band gestartet; 1967 mit Days of Future Passed ein Symbol des Prog. Die Band, die das Mellotron in den Rock brachte.",
+ "grp.moody-blues.hikaye": "Als Birminghamer R&B-Band mit dem Hit „Go Now“ (1964) gestartet, verschmolzen die Moody Blues nach dem Einstieg von Justin Hayward und John Lodge auf Days of Future Passed (1967) Orchester und Rock und schufen das erste große Symphonic-Rock-Album. Mike Pinders Mellotron prägte den Klang der „Core Seven“-Alben (1967–72). Auf eine Pause 1974–77 folgte eine Synthpop-Phase in den 80ern mit Patrick Moraz. 2018 wurden sie in die Rock and Roll Hall of Fame aufgenommen.",
+ "grp.moody-blues.dna": "Mellotron-Klänge, orchestrale Konzepte, kosmische/poetische Texte.",
+ "grp.moody-blues.etki": "Mit ihrer Mellotron-Ästhetik nahmen sie die Atmosphäre von King Crimson und Genesis vorweg.",
+ "alb.moody-blues-1967-days-of-future-passed.an": "Ein Konzeptalbum über den Kreislauf eines Tages, aufgenommen mit dem London Festival Orchestra. Mit „Nights in White Satin“ gilt es als Stunde null des orchestralen Rock-Konzeptalbums.",
+ "alb.moody-blues-1967-days-of-future-passed.tr": [
+  "Nights in White Satin — Ballade mit Mellotron und Orchester, die Stunde null des Genres",
+  "Tuesday Afternoon (Forever Afternoon) — pastoraler Hit",
+  "The Day Begins / Dawn"
+ ],
+ "alb.moody-blues-1968-in-search-of-the-lost-chord.an": "Das Orchester fällt weg; diesmal baut die Band die Schichten selbst mit Mellotron, Sitar und Blasinstrumenten. Ein „handgemachterer“ psychedelischer Prog.",
+ "alb.moody-blues-1968-in-search-of-the-lost-chord.tr": [
+  "Legend of a Mind — Timothy-Leary-Thema, Flöte und Mellotron",
+  "Ride My See-Saw — energiegeladener Opener",
+  "Om — indischer/meditativer Ausklang"
+ ],
+ "alb.moody-blues-1969-on-the-threshold-of-a-dream.an": "Ein gereiftes kosmisch-inneres Konzept; Nummer eins in Großbritannien.",
+ "alb.moody-blues-1969-on-the-threshold-of-a-dream.tr": [
+  "Never Comes the Day — Mellotron-Ballade",
+  "Lovely to See You",
+  "Have You Heard / The Voyage — konzeptuelle Schlusssuite"
+ ],
+ "alb.moody-blues-1969-to-our-children-s-children-s-children.an": "Rund um den Wettlauf ins All; ihre ehrgeizigste Studioproduktion.",
+ "alb.moody-blues-1969-to-our-children-s-children-s-children.tr": [
+  "Higher and Higher — dramatischer Opener zum Wettlauf ins All",
+  "Watching and Waiting — pastoraler Ausklang",
+  "Gypsy"
+ ],
+ "alb.moody-blues-1970-a-question-of-balance.an": "Schlichter, damit es live spielbar war; „Question“ wurde ein Hit.",
+ "alb.moody-blues-1970-a-question-of-balance.tr": [
+  "Question — Hit mit zwei Tempi, akustisch und elektrisch",
+  "Melancholy Man — Pinders Mellotron-Ballade",
+  "Tortoise and the Hare"
+ ],
+ "alb.moody-blues-1971-every-good-boy-deserves-favour.an": "Eines der abschließenden Alben der klassischen Sieben-Alben-Phase.",
+ "alb.moody-blues-1971-every-good-boy-deserves-favour.tr": [
+  "The Story in Your Eyes — der härteste Rocksong der Band",
+  "Procession — Opener über die Entwicklung des Klangs",
+  "One More Time to Live"
+ ],
+ "alb.moody-blues-1972-seventh-sojourn.tr": [
+  "I’m Just a Singer (In a Rock and Roll Band) — Lodges selbstkritischer Hit",
+  "Isn’t Life Strange — Lodges Orchesterballade",
+  "New Horizons"
+ ],
+ "alb.moody-blues-1978-octave.an": "Das Comeback nach der Pause; Pinders letztes Album, unter schwierigen Umständen aufgenommen.",
+ "alb.moody-blues-1981-long-distance-voyager.an": "Das erste Album mit Patrick Moraz; Nummer eins in den USA. Mit „The Voice“ und „Gemini Dream“ ein gelungener Schritt in die 80er.",
+ "alb.moody-blues-1981-long-distance-voyager.detay": [
+  "Mit Patrick Moraz von Yes verbinden sich zwei Universen."
+ ],
+ "alb.moody-blues-1999-strange-times.an": "Ein warmes Comeback zehn Jahre später, nah am ursprünglichen Bandklang.",
+ "alb.moody-blues-2003-december.an": "Das letzte Studioalbum der Band: Weihnachts- und Winterthemen; das erste ohne Ray Thomas.",
+ "grp.the-crazy-world-of-arthur-brown-kingdom-come.kurulus": "1967, London. Gegründet von Arthur Brown (geb. 1942, Whitby).",
+ "grp.the-crazy-world-of-arthur-brown-kingdom-come.hikaye": "Mit brennendem Helm, Gesichtsbemalung und einer Stimme über vier Oktaven war Brown ein Pionier des Rocktheaters; „Fire“ (1968) wurde in Großbritannien Nummer eins. Das erste Album der Band produzierte Kit Lambert mit Pete Townshend von The Who. Crazy-World-Schlagzeuger Carl Palmer (später Atomic Rooster und ELP) und Keyboarder Vincent Crane (Gründer von Atomic Rooster) machen sie zur verborgenen Wurzel des ELP-Universums. In den 70ern machte er mit Kingdom Come experimentellen Prog und brachte den Bentley Rhythm Ace (einen der ersten Drumcomputer) auf die Bühne. Sein Einfluss auf Alice Cooper, Kiss, Peter Gabriel und George Clinton ist beträchtlich. In Ken Russells Film „Tommy“ spielte er den Priester.",
+ "grp.the-crazy-world-of-arthur-brown-kingdom-come.dna": "Theatralischer Gesang (opernhafte Schreie), hammondlastiger Psychedelic-Soul; später mystischer Prog mit elektronischen Rhythmen.",
+ "grp.the-crazy-world-of-arthur-brown-kingdom-come.gecisler": "Crazy World (Vincent Crane, Carl Palmer, Drachen Theaker) → Atomic Rooster (Crane, Palmer) → ELP (Palmer); Kingdom Come; Gastgesang bei Hawkwind und dem Alan Parsons Project.",
+ "grp.the-crazy-world-of-arthur-brown-kingdom-come.etki": "Der Urahn des Shock-Rock und des Prog-Theaters; der Knotenpunkt, der zu Atomic Rooster und ELP führt.",
+ "alb.arthur-brown-1968-the-crazy-world-of-arthur-brown.an": "Psychedelic-Soul über Höllenfeuer und Apokalypse, dominiert von der Hammondorgel. Die erste Seite war als Konzeptsuite angelegt.",
+ "alb.arthur-brown-1968-the-crazy-world-of-arthur-brown.oncelik": "Essenziell — eine der Schlüsselplatten des Proto-Prog.",
+ "alb.arthur-brown-1968-the-crazy-world-of-arthur-brown.kadro": "Arthur Brown, Vincent Crane, Drachen Theaker (+ Carl Palmer auf Tour)",
+ "alb.arthur-brown-1968-the-crazy-world-of-arthur-brown.prod": "Kit Lambert (ausführender Produzent Pete Townshend)",
+ "alb.arthur-brown-1968-the-crazy-world-of-arthur-brown.tr": [
+  "Fire — Nr. 1 in Großbritannien",
+  "Prelude – Nightmare",
+  "Come and Buy",
+  "I Put a Spell on You"
+ ],
+ "alb.arthur-brown-1971-galactic-zoo-dossier.an": "Das erste Album als Kingdom Come: politische Satire, Science-Fiction und psychedelisches Chaos.",
+ "alb.arthur-brown-1973-journey.an": "Der Höhepunkt von Kingdom Come: ein Pionier des elektronischen Prog mit dem Drumcomputer Bentley Rhythm Ace, VCS3-Synthesizer und Mellotron.",
+ "alb.arthur-brown-1973-journey.oncelik": "Empfohlen — ein verborgener Klassiker des elektronischen Prog.",
+ "alb.arthur-brown-1973-journey.detay": [
+  "Eines der ersten Rockalben, auf denen ein Drumcomputer das gesamte Schlagzeug übernimmt."
+ ],
+ "grp.pearls-before-swine.kurulus": "1965, Melbourne, Florida. Tom Rapps Folk-Psychedelic-Projekt.",
+ "grp.pearls-before-swine.hikaye": "Mit Tom Rapps weicher, lispelnder Stimme und seinen pazifistischen, mystischen Texten wurde Pearls Before Swine durch die ersten beiden Alben für ESP-Disk (ein Free-Jazz-Label) zu einer der seltsamsten und beständigsten Bands des amerikanischen Psych-Folk. Das Bosch-Cover des Debüts („Der Garten der Lüste“) und das Bruegel-Cover von Balaklava („Der Triumph des Todes“) wurden zur visuellen Identität der Band. Die Gruppe wurde allmählich zu Rapps Soloprojekt; Ende der 70er gab er die Musik auf, wurde Anwalt und arbeitete an Bürgerrechtsfällen. 1999 veröffentlichte er das Comeback-Album A Journal of the Plague Year; er starb 2018.",
+ "grp.pearls-before-swine.dna": "Akustischer Folk, Sitar, Orgel und Klangcollagen; ein Traumzustand irgendwo zwischen Leonard Cohen und Syd Barrett.",
+ "grp.pearls-before-swine.gecisler": "Tom Rapp → solo; Einfluss: Current 93, Damien Jurado und die Freak-Folk-Generation der 2000er.",
+ "grp.pearls-before-swine.etki": "Ein Schlüsselknoten des amerikanischen Psych-Folk; verwandt mit dem englischen Pastoral-Prog (Trespass, Incredible String Band).",
+ "alb.pearls-before-swine-1967-one-nation-underground.an": "Das Debüt auf ESP-Disk, eine der meistverkauften Platten des Labels; pazifistische, mystische Folk-Psychedelia mit einem Ausschnitt aus Boschs „Garten der Lüste“ als Cover.",
+ "alb.pearls-before-swine-1967-one-nation-underground.tr": [
+  "Another Time",
+  "(Oh Dear) Miss Morse — buchstabiert F-U-C-K im Morsecode",
+  "Morning Song",
+  "Uncle John"
+ ],
+ "alb.pearls-before-swine-1968-balaklava.an": "Ein Konzeptalbum über die Sinnlosigkeit des Krieges mit Bezug auf den Angriff der Leichten Brigade im Krimkrieg, gebaut aus alten Aufnahmen und Klangcollagen. Cover: Bruegels „Der Triumph des Todes“.",
+ "alb.pearls-before-swine-1968-balaklava.oncelik": "Essenziell — eines der Meisterwerke des Psych-Folk.",
+ "alb.pearls-before-swine-1968-balaklava.detay": [
+  "Enthält ein Fragment von Florence Nightingales Stimme, aufgenommen 1890."
+ ],
+ "alb.pearls-before-swine-1968-balaklava.tr": [
+  "Translucent Carriages",
+  "Images of April",
+  "Suzanne — Leonard Cohen",
+  "Ring Thing"
+ ],
+ "alb.pearls-before-swine-1969-these-things-too.an": "Der Wechsel zu Reprise; ein spärlicheres, akustischeres Folkalbum.",
+ "alb.pearls-before-swine-1969-these-things-too.tr": [
+  "Frog in the Window",
+  "I Shall Not Care",
+  "If You Don’t Want To (I Don’t Mind)"
+ ],
+ "grp.aphrodite-s-child.kurulus": "1967, Athen. Vangelis (Evangelos Papathanassiou), Demis Roussos und Loukas Sideras.",
+ "grp.aphrodite-s-child.hikaye": "Auf der Flucht vor dem Druck der griechischen Junta brach das Trio nach London auf, blieb aber wegen fehlender Arbeitserlaubnis in Paris hängen und landete während der Mai-Unruhen 1968 mit „Rain and Tears“ (nach Pachelbels Kanon) einen riesigen europäischen Pophit. Vangelis’ eigentliches Interesse galt jedoch der experimentellen Musik: Das Doppelalbum 666, aufgebaut auf der Offenbarung des Johannes, entstand, während die Band zerfiel, und wurde zu einem Kultwerk des Prog. Roussos wurde danach ein weltweiter Popstar, Vangelis mit den Soundtracks zu Die Stunde des Siegers und Blade Runner ein legendärer Elektronikkomponist.",
+ "grp.aphrodite-s-child.dna": "Barockpop, griechische Melodik, Psychedelic Rock, später avantgardistische Klangcollagen.",
+ "grp.aphrodite-s-child.gecisler": "The Forminx (Vangelis) / Idols (Roussos) → Aphrodite’s Child → Vangelis solo, Jon & Vangelis; Demis Roussos solo; Silver Koulouris (Gitarre).",
+ "grp.aphrodite-s-child.etki": "Ein früher Klassiker des kontinentaleuropäischen Prog; 666 ist der Prototyp des apokalyptischen Konzeptalbums.",
+ "alb.aphrodite-s-child-1968-end-of-the-world.an": "Ein Album aus Barockpop und psychedelischen Balladen; dank „Rain and Tears“ in Europa millionenfach verkauft.",
+ "alb.aphrodite-s-child-1969-it-s-five-o-clock.an": "Der Barockpop reift, mit den Hits „I Want to Live“ und „It’s Five O’Clock“.",
+ "alb.aphrodite-s-child-1972-666.an": "Ein Doppel-Konzeptalbum nach der Offenbarung des Johannes, konzipiert von Costas Ferris. Das Label verzögerte die Veröffentlichung wegen Irene Papas’ Schreien in „Infinity“, die einen sexuellen und spirituellen Höhepunkt darstellen; das erste große Zeugnis von Vangelis’ experimentellem Genie.",
+ "alb.aphrodite-s-child-1972-666.oncelik": "Essenziell — ein Kult-Meisterwerk des europäischen Prog.",
+ "alb.aphrodite-s-child-1972-666.detay": [
+  "Als das Album erschien, hatte sich die Band bereits aufgelöst."
+ ],
+ "alb.aphrodite-s-child-1972-666.tr": [
+  "The Four Horsemen",
+  "Infinity — Irene Papas",
+  "Break",
+  "All the Seats Were Occupied"
+ ],
+ "sec.17.title": "Am Rand des Hardrock — Blues- und Heavy-Rock-Nachbarn",
+ "sec.17.intro": "Bluesrock- und Hardrock-Bands, die in denselben Clubs wie der Prog entstanden und dieselben Musiker teilten. Dieser Abschnitt beginnt mit der ersten Band; Nachbarn wie Deep Purple, Uriah Heep, Rainbow, Budgie und Wishbone Ash folgen in späteren Runden.",
+ "grp.ten-years-after.kurulus": "1966, Nottingham. Alvin Lee (Gitarre/Gesang), Leo Lyons (Bass), Ric Lee (Schlagzeug), Chick Churchill (Keyboards).",
+ "grp.ten-years-after.hikaye": "Alvin Lees Ruf als „schnellster Gitarrist der Welt“ machte die Band zu einer der führenden britischen Bluesrock-Gruppen; ihr Auftritt mit „I’m Going Home“ in Woodstock 1969 und ihr Platz im Film machten sie zu internationalen Stars. Obwohl im Blues verwurzelt, stellen ihre Jazz-, Psychedelic- und Progressive-Experimente (Ssssh, Cricklewood Green, A Space in Time) sie auf den Bluesflügel des Proto-Prog. 1974 trennten sie sich, 1988 kamen sie wieder zusammen. Alvin Lee stieg 2003 aus und starb 2013; die Band machte mit Joe Gooch und später Marcus Bonfanti weiter.",
+ "grp.ten-years-after.dna": "Schnelle Bluesgitarre, Jazz-Swing, psychedelische Klangeffekte und lange Improvisationen.",
+ "grp.ten-years-after.gecisler": "The Jaybirds → Ten Years After → Alvin Lee solo (Ten Years Later); Leo Lyons → Hundred Seventy Split.",
+ "grp.ten-years-after.etki": "Eine Brücke vom britischen Bluesrock zum Hardrock und zur Jamband-Kultur; der bluesbetonte Rand des Prog.",
+ "alb.ten-years-after-1968-undead.an": "Ein Livealbum aus dem Londoner Club Klooks Kleek; jazzlastige Improvisationen und die erste Fassung von „I’m Going Home“.",
+ "alb.ten-years-after-1969-stonedhenge.an": "Ein experimentelles zweites Studioalbum voller Studioeffekte, mit einem kurzen Solostück jedes Mitglieds.",
+ "alb.ten-years-after-1969-ssssh.an": "Das harte, fokussierte Bluesrock-Album des Woodstock-Jahres.",
+ "alb.ten-years-after-1970-cricklewood-green.an": "Gilt als Höhepunkt der Band, mit psychedelischen und progressiven Akzenten; „Love Like a Man“ wurde in Großbritannien ein Hit.",
+ "alb.ten-years-after-1971-a-space-in-time.an": "Akustische Farben und „I’d Love to Change the World“ machten es zum größten US-Erfolg der Band.",
+ "sec.4.title": "Das King-Crimson-Universum",
+ "sec.4.intro": "Der produktivste Knotenpunkt des Netzwerks. Außer Robert Fripp gibt es kaum feste Mitglieder — deshalb ist King Crimson der Knoten, der die meisten Musiker „exportiert“ hat.",
+ "grp.king-crimson.kurulus": "1968–69, London. Hervorgegangen aus dem Trio Giles, Giles & Fripp; 1969 mit dem Einstieg von Ian McDonald und Greg Lake formiert. In the Court of the Crimson King (1969) ist die symbolische Geburtsurkunde des Progrock.",
+ "grp.king-crimson.hikaye": "King Crimson, laut Robert Fripp „keine Band, sondern eine Arbeitsweise“, wurde in fünfzig Jahren mit über acht Besetzungen neu aufgebaut. Die Besetzung von 1969 zerfiel nach einem einzigen Album (McDonald und Giles stiegen aus, Lake ging zu ELP); 1970–72 bauten Fripp und Texter Peter Sinfield mit Sessionmusikern sowie Mel Collins, Boz Burrell und Ian Wallace einen jazzig-orchestralen Crimson auf. 1972 trennte sich Fripp auch von Sinfield und gründete mit John Wetton, Bill Bruford, David Cross und Perkussionist Jamie Muir ein improvisationsbasiertes, metallastiges Quartett; nach Red (1974) löste er die Gruppe auf, weil das „Ende der Welt“ nahe sei. Das 1981 mit Adrian Belew und Tony Levin gegründete Discipline-Quartett brachte afrikanische Polyrhythmik, Gamelan und Minimal Music in den Rock. Es folgten 1994 das „Double Trio“ (zwei Gitarren, zwei Bässe/Sticks, zwei Schlagzeuger), in den 2000ern ein Nu-Metal-lastiges Quartett und nach 2013 ein sieben- bis achtköpfiges Konzertorchester mit drei Schlagzeugern vorne an der Bühne, das „das Archiv neu deutete“. Fripp sah die Band nie als Nostalgievehikel; jede Besetzung war als „Antwort auf eine neue Frage“ gedacht.",
+ "grp.king-crimson.dna": "Die dunkle Textur des Mellotrons, freie Improvisation, Dissonanz, wechselnde Taktarten, Jazzrock-Gewicht. Sie umspannt die lyrischsten (Crimson King) und die härtesten (Red) Extreme.",
+ "grp.king-crimson.etki": "Der Bezugspunkt des gesamten britischen Prog; der Gegenpol zu Yes und Genesis; direkter Vorfahr des Prog-Metal (Tool, Dream Theater) und des dissonanten Prog der 90er.",
+ "grp.king-crimson.ipucu": [
+  "Hör Crimson nicht als eine Band, sondern als fünf Ensembles mit gemeinsamer Methode; jede Epoche hat ihre eigene Sprache.",
+  "Der Zugang zur Besetzung 1973–74 führt über die Liveaufnahmen: Die meisten Stücke der Studioalben wurden aus Bühnenimprovisationen geschnitten (Starless and Bible Black ist großteils live).",
+  "Folge der Reihe „Larks’ Tongues in Aspic“ (Teile I–V, 1973–2003) wie einem roten Faden; jede Crimson-Ära schrieb ihr eigenes „Larks“.",
+  "In der 80er-Trilogie (Discipline–Beat–Three of a Perfect Pair) die ineinandergreifenden Ostinato-Gitarren von Fripp und Belew mit jedem Ohr getrennt verfolgen — sie liegen auf getrennten Stereokanälen."
+ ],
+ "grp.king-crimson.era.0.t": "Gründung und wechselnde Besetzungen",
+ "grp.king-crimson.era.0.note": "Mellotron-Lyrik und jazzig-orchestrale Experimente. Die Besetzung wechselt mit jedem Album; die beiden Konstanten sind Fripp und Texter Peter Sinfield.",
+ "grp.king-crimson.era.1.t": "Die Wetton-Bruford-Ära",
+ "grp.king-crimson.era.1.note": "Improvisation wird zur Komposition: die härteste, „metallischste“ Prog-Phase des Genres. Sie endet mit Red; USA (1975) ist das Live-Vermächtnis dieser Besetzung.",
+ "grp.king-crimson.era.2.t": "Die Discipline-Trilogie",
+ "grp.king-crimson.era.2.note": "Das Quartett mit Adrian Belew und Tony Levin: New Wave, Minimal Music (Reich, Glass) und afrikanische Polyrhythmik. Das Mellotron weicht Gitarrensynthesizern und dem Chapman Stick.",
+ "grp.king-crimson.era.3.t": "Double Trio und ProjeKcts",
+ "grp.king-crimson.era.3.note": "Erst das sechsköpfige „Double Trio“ (THRAK), dann ein aus den ProjeKct-Laboren destilliertes Quartett (ConstruKction, Power to Believe). Die gemeinsame Tour mit Tool 2001 ist das Siegel dieser Phase.",
+ "grp.king-crimson.era.4.t": "Das siebenköpfige Ungeheuer — ein Konzertorchester",
+ "grp.king-crimson.era.4.note": "Eine sieben- bis achtköpfige Besetzung mit drei Schlagzeugern vorne; keine Studioalben, das Repertoire von 1969–2003 neu arrangiert auf der Bühne. Nach der Japan-Tour im Dezember 2021 verstummte die Band.",
+ "alb.king-crimson-1969-in-the-court-of-the-crimson-king.an": "Das Manifest des Genres. Die Wucht von „21st Century Schizoid Man“ trifft auf derselben Platte auf die Mellotron-Lyrik von „Epitaph“ und „I Talk to the Wind“. Barry Godbers schreiendes Gesicht auf dem Cover begründet auch die visuelle Identität des Prog. Vielleicht das einflussreichste Einzelalbum des Genres.",
+ "alb.king-crimson-1969-in-the-court-of-the-crimson-king.oncelik": "Essenziell — nie auslassen. Das Gründungsdokument des Genres.",
+ "alb.king-crimson-1969-in-the-court-of-the-crimson-king.kadro": "Robert Fripp, Greg Lake, Ian McDonald, Michael Giles, Peter Sinfield (Texte)",
+ "alb.king-crimson-1969-in-the-court-of-the-crimson-king.prod": "King Crimson (Eigenproduktion nach abgebrochenen Sessions mit Tony Clarke)",
+ "alb.king-crimson-1969-in-the-court-of-the-crimson-king.detay": [
+  "Im Juli 1969, noch vor dem Album, spielte die Band als Vorgruppe der Rolling Stones im Hyde Park vor Hunderttausenden.",
+  "Coverkünstler Barry Godber starb kurz nach der Veröffentlichung mit 24 Jahren; es ist das einzige Plattencover, das er je gestaltete.",
+  "Ian McDonald ist der eigentliche Orchestrator des Albums: Mellotron, Flöte, Saxofon, Klarinette und Vibrafon stammen alle von ihm."
+ ],
+ "alb.king-crimson-1969-in-the-court-of-the-crimson-king.tr": [
+  "21st Century Schizoid Man — verzerrter Gesang, Jazz-Metal, der härteste Opener des Genres",
+  "Epitaph — Mellotron-Klage, apokalyptische Lyrik",
+  "I Talk to the Wind — Flöte und sanfte Melancholie",
+  "The Court of the Crimson King — Titelstück, Mellotron-Pracht"
+ ],
+ "alb.king-crimson-1970-in-the-wake-of-poseidon.an": "Wiederholt die Vorlage des Debüts fast Stück für Stück (harter Opener / Mellotron-Klage / Jazzstück). Ein „sicherer“ Nachfolger einer Übergangsbesetzung, der im Schatten des ersten Albums bleibt.",
+ "alb.king-crimson-1970-in-the-wake-of-poseidon.oncelik": "Empfohlen — aber als „Zwilling“ des Debüts hören; viel Neues bietet es nicht.",
+ "alb.king-crimson-1970-in-the-wake-of-poseidon.kadro": "Fripp, Greg Lake (Gesang), Michael Giles, Peter Giles, Mel Collins, Keith Tippett, Gordon Haskell (Gesang bei „Cadence and Cascade“), Sinfield",
+ "alb.king-crimson-1970-in-the-wake-of-poseidon.detay": [
+  "Die Band hatte sich schon vor den Aufnahmen getrennt; Lake sang seine Parts noch ein, bevor er zu ELP ging.",
+  "Keith Tippetts Jazzpiano kündigt die jazzig-avantgardistische Richtung der nächsten beiden Alben an."
+ ],
+ "alb.king-crimson-1970-in-the-wake-of-poseidon.tr": [
+  "Pictures of a City — Nachfolger der „Schizoid Man“-Formel",
+  "Cadence and Cascade — sanfte Ballade (gesungen von Haskell)",
+  "The Devil’s Triangle — an „Mars“ angelehntes Instrumental"
+ ],
+ "alb.king-crimson-1970-lizard.an": "Jazzig-orchestrales Experiment; Jon Anderson (Yes) singt als Gast auf „Prince Rupert Awakes“ — ein früher Kontakt zweier Universen. Das am wenigsten verstandene, „kammermusikalischste“ Crimson-Album.",
+ "alb.king-crimson-1970-lizard.oncelik": "Optional, aber lohnend — Crimsons „kammermusikalischstes“ Album; braucht mehrere Durchgänge.",
+ "alb.king-crimson-1970-lizard.kadro": "Fripp, Gordon Haskell, Mel Collins, Andy McCulloch, Sinfield + Keith Tippett, Jon Anderson (Gast), Jazzbläser (Mark Charig, Nick Evans, Robin Miller)",
+ "alb.king-crimson-1970-lizard.detay": [
+  "Haskell, unzufrieden mit Fripps Vorgaben, stieg nach dem Album aus.",
+  "Der „Bolero“-Teil der „Lizard“-Suite holt wichtige Bläser der britischen Jazzszene in den Rock.",
+  "Fripp tat das Album jahrelang ab; mit Steven Wilsons Remix von 2009 nahm er es wieder an."
+ ],
+ "alb.king-crimson-1970-lizard.tr": [
+  "Lizard — 23-minütige Titelsuite, Gastgesang von Jon Anderson",
+  "Cirkus — Mellotron- und Bläserklänge",
+  "Indoor Games"
+ ],
+ "alb.king-crimson-1971-islands.an": "Kammermusikalisch gefärbt, zerbrechlich und melancholisch. Sinfields letztes Album; „Sailor’s Tale“ ist der dissonante Höhepunkt.",
+ "alb.king-crimson-1971-islands.oncelik": "Empfohlen — besonders wegen „Sailor’s Tale“ und des Titelstücks.",
+ "alb.king-crimson-1971-islands.kadro": "Fripp, Boz Burrell (Bass/Gesang), Mel Collins, Ian Wallace, Sinfield + Keith Tippett, Paulina Lucas (Sopran)",
+ "alb.king-crimson-1971-islands.detay": [
+  "Fripp brachte Boz Burrell in wenigen Wochen das Bassspielen bei; Burrell wurde später Bassist von Bad Company.",
+  "Sinfields letztes Album mit Crimson; danach produzierte er das Debüt von Roxy Music.",
+  "Das Cover zeigt den Trifidnebel im Sternbild Schütze."
+ ],
+ "alb.king-crimson-1971-islands.tr": [
+  "Islands — zerbrechliche kammermusikalische Ballade",
+  "Sailor’s Tale — dissonanter instrumentaler Höhepunkt",
+  "The Letters"
+ ],
+ "alb.king-crimson-1973-larks-tongues-in-aspic.an": "Eine völlig neue Besetzung. Mit Perkussionist Jamie Muirs metallischen Improvisationsklängen und Cross’ Geige erfindet Crimson die Formel „europäische Avantgarde + Hardrock“. Die zweiteilige Titelsuite wird das neue Wahrzeichen der Band.",
+ "alb.king-crimson-1973-larks-tongues-in-aspic.oncelik": "Essenziell — nie auslassen. Crimsons zweite Geburt.",
+ "alb.king-crimson-1973-larks-tongues-in-aspic.kadro": "Fripp, John Wetton, Bill Bruford, David Cross, Jamie Muir; Texte: Richard Palmer-James",
+ "alb.king-crimson-1973-larks-tongues-in-aspic.detay": [
+  "Bruford verließ Yes auf dem Höhepunkt (nach Close to the Edge), um zu Crimson zu wechseln — der überraschendste Transfer der Zeit.",
+  "Jamie Muir verwendete auf der Bühne Ketten, Sägen, Kinderspielzeug und Kunstblut; nach dem Album zog er sich in ein buddhistisches Kloster zurück.",
+  "„Larks’ Tongues in Aspic, Part II“ ist seit fünfzig Jahren fester Bestandteil der Crimson-Konzerte."
+ ],
+ "alb.king-crimson-1973-larks-tongues-in-aspic.tr": [
+  "Larks’ Tongues in Aspic Part One — Muirs Perkussion, von der Stille zur Explosion",
+  "Larks’ Tongues in Aspic Part Two — das metallische, rhythmische Wahrzeichen",
+  "Easy Money",
+  "Book of Saturday"
+ ],
+ "alb.king-crimson-1974-starless-and-bible-black.an": "Halb live, halb Studio. In Stücken wie „Fracture“ erreicht Fripps Gitarre eine mathematische Intensität; die dunkle Improvisationsästhetik auf ihrem Höhepunkt.",
+ "alb.king-crimson-1974-starless-and-bible-black.oncelik": "Empfohlen — aber im Wissen hören, dass es im Grunde ein „Livealbum“ ist.",
+ "alb.king-crimson-1974-starless-and-bible-black.kadro": "Fripp, Wetton, Bruford, David Cross; Texte: Richard Palmer-James",
+ "alb.king-crimson-1974-starless-and-bible-black.detay": [
+  "Außer „The Great Deceiver“ und „Lament“ stammen die meisten Stücke von Konzerten 1973 in Amsterdam und Glasgow, mit entferntem Publikumslärm.",
+  "Das Titelstück und „Fracture“ sind komplett improvisiert; „Fracture“ gilt als eine von Fripps technisch anspruchsvollsten Kompositionen.",
+  "Der Titel war für den Song „Starless“ gedacht, der aufs nächste Album verschoben wurde."
+ ],
+ "alb.king-crimson-1974-starless-and-bible-black.tr": [
+  "Fracture — der Gipfel von Fripps mathematischer Gitarre",
+  "The Night Watch — Ballade über das Rembrandt-Gemälde",
+  "Starless and Bible Black — dunkle Improvisation"
+ ],
+ "alb.king-crimson-1974-red.an": "Der Höhepunkt metallischer Schwere; der intensivste Crimson im Power-Trio-Format (Fripp/Wetton/Bruford). Das abschließende „Starless“ verbindet Mellotron-Melancholie mit schreiendem Saxofon und stetig steigender Spannung zu einem der stärksten Finali des Prog. Der Abschied der ersten Ära.",
+ "alb.king-crimson-1974-red.oncelik": "Essenziell — nie auslassen. Der Prolog zum Prog-Metal.",
+ "alb.king-crimson-1974-red.kadro": "Fripp, Wetton, Bruford + David Cross, Ian McDonald, Mel Collins, Robin Miller, Mark Charig (Gäste)",
+ "alb.king-crimson-1974-red.detay": [
+  "Cross stieg vor den Sessions aus; die Band nahm als Trio auf, und Fripp löste die Gruppe auf, bevor das Album erschien.",
+  "Kurt Cobain nannte es oft unter seinen Lieblingsplatten; für Tool und Opeth ist es ein offener Bezugspunkt.",
+  "Der Schlussteil von „Starless“ verbindet zwei Epochen durch das Saxofon von Ian McDonald aus der Besetzung von 1969."
+ ],
+ "alb.king-crimson-1974-red.tr": [
+  "Starless — Mellotron-Melancholie + schreiendes Saxofon, eines der stärksten Prog-Finali",
+  "Red — metallischer Instrumental-Opener, Vorfahr des Prog-Metal",
+  "One More Red Nightmare",
+  "Fallen Angel"
+ ],
+ "alb.king-crimson-1975-usa.an": "Ein Livealbum von der US-Tour 1974 (Asbury Park und Providence), erschienen nach der Auflösung. Das Vermächtnis, das zeigt, wie wild die Wetton-Bruford-Besetzung auf der Bühne war.",
+ "alb.king-crimson-1975-usa.oncelik": "Empfohlen — um die Live-Wucht der Ära zu verstehen.",
+ "alb.king-crimson-1975-usa.kadro": "Fripp, Wetton, Bruford, Cross (+ nachträglich eingespielte Geige von Eddie Jobson)",
+ "alb.king-crimson-1975-usa.detay": [
+  "Einige Geigenparts der Erstausgabe spielte Eddie Jobson im Studio neu ein; die erweiterte Ausgabe von 2013 stellte die Originalparts von Cross wieder her."
+ ],
+ "alb.king-crimson-1975-usa.tr": [
+  "Asbury Park — dichte Funk-Metal-Improvisation",
+  "Lament",
+  "21st Century Schizoid Man — die Fassung der Wetton-Ära"
+ ],
+ "alb.king-crimson-1981-discipline.an": "Eine Wiedergeburt aus New Wave und Minimal Music. Belews Gitarre und Fripps „Frippertronics“ bilden ein ineinandergreifendes Doppelgitarrengeflecht; Levins Chapman Stick und afrikanische Polyrhythmik tragen Crimson in die 80er. Klingt wie eine völlig neue Band.",
+ "alb.king-crimson-1981-discipline.oncelik": "Essenziell — nie auslassen. Die mutigste Prog-Wiedergeburt der 80er.",
+ "alb.king-crimson-1981-discipline.kadro": "Fripp, Adrian Belew, Tony Levin, Bill Bruford",
+ "alb.king-crimson-1981-discipline.prod": "Rhett Davies & King Crimson",
+ "alb.king-crimson-1981-discipline.detay": [
+  "Die Band gründete sich zunächst unter dem Namen „Discipline“; während der Tour entschied sie sich für den Namen King Crimson.",
+  "Levin war einer der Ersten, die den Chapman Stick in eine Rockbesetzung brachten.",
+  "Bruford kombiniert akustische Trommeln und elektronische Simmons-Pads im selben Set."
+ ],
+ "alb.king-crimson-1981-discipline.tr": [
+  "Discipline — ineinandergreifende Doppelgitarren, mathematische Polyrhythmik",
+  "Frame by Frame — das Gitarrengeflecht von Belew und Fripp",
+  "Elephant Talk — Belews sprechende Gitarre",
+  "Matte Kudasai — atmosphärische Ballade"
+ ],
+ "alb.king-crimson-1982-beat.an": "Ein Konzept zur Beat Generation (Kerouac); songorientierter und rauer. Die umstrittenste Crimson-Platte der Ära.",
+ "alb.king-crimson-1982-beat.oncelik": "Optional — „Neal and Jack and Me“ und „Neurotica“ aber unbedingt.",
+ "alb.king-crimson-1982-beat.detay": [
+  "Ein Konzeptalbum mit Bezug zur Beat Generation (Kerouac, Cassady, Ginsberg), passend zum 25. Jahrestag von „On the Road“.",
+  "Die Sessions fielen in eine Zeit wachsender Spannungen; der Richtungsunterschied zwischen Fripp und Belew wird hier deutlich."
+ ],
+ "alb.king-crimson-1982-beat.tr": [
+  "Heartbeat — einer der zugänglichsten Crimson-Songs",
+  "Neal and Jack and Me — Kerouac/Beat-Thema",
+  "Waiting Man — Levins Chapman-Stick-Klänge"
+ ],
+ "alb.king-crimson-1984-three-of-a-perfect-pair.an": "Aufgebaut auf der Dualität „linke Seite“ (zugängliche Songs) / „rechte Seite“ (harte Instrumentals); der Abschluss der 80er-Besetzung.",
+ "alb.king-crimson-1984-three-of-a-perfect-pair.oncelik": "Optional — die experimentelle Instrumentalseite ist die lohnendere.",
+ "alb.king-crimson-1984-three-of-a-perfect-pair.detay": [
+  "Die Original-LP war mit einer „linken Seite“ (zugänglich) und einer „rechten Seite“ (experimentell) angelegt.",
+  "„Larks’ Tongues in Aspic, Part III“ ist auf diesem Album.",
+  "Danach verstummte die Band für zehn Jahre, während Fripp sich auf sein Lehrprogramm Guitar Craft konzentrierte."
+ ],
+ "alb.king-crimson-1984-three-of-a-perfect-pair.tr": [
+  "Three of a Perfect Pair — melodischer Opener der „linken Seite“",
+  "Sleepless — Levins Funk-Basslinie",
+  "Larks’ Tongues in Aspic Part III — die harte Fortsetzung der „rechten Seite“"
+ ],
+ "alb.king-crimson-1995-thrak.an": "Das einzige Studioalbum des „Double Trio“: zwei Gitarren, zwei Bässe/Sticks und zwei Schlagzeuger. Das Material wurde zuerst auf der EP VROOOM (1994) erprobt; es verbindet die Grunge- und Industrial-Schwere der 90er mit Crimsons Mathematik.",
+ "alb.king-crimson-1995-thrak.oncelik": "Empfohlen — die Brücke zwischen Prog-Metal der 90er und Crimson.",
+ "alb.king-crimson-1995-thrak.kadro": "Fripp, Adrian Belew, Tony Levin, Trey Gunn, Bill Bruford, Pat Mastelotto",
+ "alb.king-crimson-1995-thrak.prod": "David Bottrill & King Crimson",
+ "alb.king-crimson-1995-thrak.detay": [
+  "Brufords letztes Studioalbum mit Crimson.",
+  "Das „Double Trio“ funktionierte auf der Bühne, indem zwei getrennte Trios im Stereobild auseinander standen.",
+  "Sein direkter Einfluss auf den späteren Klang von Tool wird oft betont."
+ ],
+ "alb.king-crimson-1995-thrak.tr": [
+  "VROOOM — Eröffnungssuite, schwere Riff-Architektur",
+  "Dinosaur — Belews selbstironischer Text",
+  "One Time — die eleganteste Ballade der Ära",
+  "THRAK — improvisierte Struktur mit zwei kollidierenden Gitarren"
+ ],
+ "alb.king-crimson-2000-the-construkction-of-light.an": "Das erste Album der auf ein Quartett geschrumpften Band nach den ProjeKct-Experimenten. Eine kalte, metallische, bewusst trockene Produktion; mit „Larks’ Tongues in Aspic, Part IV“ und „FraKctured“ zerlegt sie die eigene Vergangenheit und setzt sie neu zusammen.",
+ "alb.king-crimson-2000-the-construkction-of-light.oncelik": "Optional — die umstrittenste Platte der Ära.",
+ "alb.king-crimson-2000-the-construkction-of-light.kadro": "Fripp, Belew, Trey Gunn, Pat Mastelotto",
+ "alb.king-crimson-2000-the-construkction-of-light.detay": [
+  "Das erste Crimson-Album ohne Levin und Bruford; Mastelotto spielt überwiegend elektronisches Schlagzeug.",
+  "Kritiker fanden Schlagzeugsound und Mix harsch; spätere Liveversionen kamen besser an."
+ ],
+ "alb.king-crimson-2000-the-construkction-of-light.tr": [
+  "Larks’ Tongues in Aspic, Part IV",
+  "FraKctured — eine Neufassung von „Fracture“",
+  "ProzaKc Blues — Belews „Alter-Mann“-Blues mit Stimmverfremdung"
+ ],
+ "alb.king-crimson-2003-the-power-to-believe.an": "Der Höhepunkt des Crimson der 2000er und das letzte Studioalbum des Quartetts. Riffs mit Nu-Metal-Gewicht, Ambient-Zwischenspiele und Belews haikuartiges Titelmotiv rahmen das Album. Es blieb das letzte Studioalbum der Band.",
+ "alb.king-crimson-2003-the-power-to-believe.oncelik": "Essenziell — das beste Studiodokument des modernen Crimson.",
+ "alb.king-crimson-2003-the-power-to-believe.kadro": "Fripp, Belew, Trey Gunn, Pat Mastelotto",
+ "alb.king-crimson-2003-the-power-to-believe.prod": "Machine & King Crimson",
+ "alb.king-crimson-2003-the-power-to-believe.detay": [
+  "Produzent Machine, aus Hip-Hop- und Metalproduktionen kommend, verlieh dem Album zeitgemäßes Gewicht.",
+  "Die Tour als Vorgruppe von Tool 2001 half, dieses Material zu formen."
+ ],
+ "alb.king-crimson-2003-the-power-to-believe.tr": [
+  "Level Five — der inoffizielle fünfte Teil der „Larks“-Reihe",
+  "Eyes Wide Open — Belews emotionalster Crimson-Song",
+  "Dangerous Curves — bolero-artig steigende Spannung",
+  "Facts of Life"
+ ],
+ "alb.king-crimson-2016-radical-action-to-unseat-the-hold-of-monkey-mind.an": "Ein riesiges Liveset aus den Konzerten der siebenköpfigen Besetzung 2015 in Japan und Kanada. Drei Schlagzeuger in der ersten Reihe; das Repertoire von 1969 bis 2003 komplett neu orchestriert, die „Islands“- und „Lizard“-Ära erstmals wieder auf der Bühne.",
+ "alb.king-crimson-2016-radical-action-to-unseat-the-hold-of-monkey-mind.oncelik": "Empfohlen — der beste Vertreter des späten Crimson.",
+ "alb.king-crimson-2016-radical-action-to-unseat-the-hold-of-monkey-mind.kadro": "Fripp, Mel Collins, Tony Levin, Jakko Jakszyk, Pat Mastelotto, Gavin Harrison, Bill Rieflin",
+ "alb.king-crimson-2016-radical-action-to-unseat-the-hold-of-monkey-mind.detay": [
+  "Enthält Teile, die ohne Publikum „wie ein Studioalbum“ präsentiert werden — eine Rückkehr zu Fripps Methode von 1974.",
+  "Gavin Harrison kommt von Porcupine Tree, Jakko Jakszyk von der 21st Century Schizoid Band."
+ ],
+ "alb.king-crimson-2016-radical-action-to-unseat-the-hold-of-monkey-mind.tr": [
+  "Starless",
+  "Radical Action (to Unseat the Hold of Monkey Mind)",
+  "The Letters",
+  "Meltdown"
+ ],
+ "alb.king-crimson-2018-meltdown-live-in-mexico-city.an": "Die Konzerte der achtköpfigen Besetzung 2017 in Mexiko-Stadt. Lange Teile der „Lizard“-Suite, „Cirkus“ und „Indiscipline“ in derselben Show; Bill Rieflin nun an den Keyboards, Jeremy Stacey am Schlagzeug.",
+ "alb.king-crimson-2018-meltdown-live-in-mexico-city.oncelik": "Optional — für alle, die Radical Action lieben.",
+ "alb.king-crimson-2018-meltdown-live-in-mexico-city.kadro": "Fripp, Collins, Levin, Jakszyk, Mastelotto, Harrison, Jeremy Stacey, Bill Rieflin",
+ "alb.king-crimson-2018-meltdown-live-in-mexico-city.detay": [
+  "Bill Rieflin starb 2020; die Aufnahmen dieser Phase dokumentieren seine Zeit bei Crimson."
+ ],
+ "alb.king-crimson-2018-meltdown-live-in-mexico-city.tr": [
+  "Lizard — die Suite erstmals in dieser Länge live",
+  "Cirkus",
+  "Indiscipline"
+ ],
+ "grp.robert-fripp-solo-ve-ortaklklar.name": "Robert Fripp (solo und Kooperationen)",
+ "grp.robert-fripp-solo-ve-ortaklklar.kurulus": "Geb. 1946, Wimborne, Dorset. Gründer und einziges festes Mitglied von King Crimson.",
+ "grp.robert-fripp-solo-ve-ortaklklar.hikaye": "Nach der Auflösung von Crimson 1974 verbrachte Fripp ein Jahr an J. G. Bennetts Denkschule in Sherborne House; danach entwickelte er mit Brian Eno die „Frippertronics“-Technik, bei der zwischen zwei Tonbandmaschinen Schleifen entstehen. In New York arbeitete er mit Bowie („Heroes“), Gabriel, Blondie und Talking Heads. 1985 startete er die Gitarrenschule Guitar Craft und eine neue Stimmung (New Standard Tuning); seine Schüler wurden zu The League of Crafty Guitarists. In den 90ern wandte er sich Echtzeit-Schleifenimprovisationen namens „Soundscapes“ zu. Mit seinem Label Discipline Global Mobile (DGM) nahm er eine Vorreiterrolle für Künstlerrechte ein. In den 2010ern erreichte er mit Online-Videos mit seiner Frau Toyah Willcox ein neues Publikum.",
+ "grp.robert-fripp-solo-ve-ortaklklar.dna": "Tremolo-Picking, nahtlose Legato-Soli, Schichten von Schleifen; eine an Gurdjieff geschulte Philosophie der Disziplin.",
+ "grp.robert-fripp-solo-ve-ortaklklar.gecisler": "Giles, Giles & Fripp → King Crimson → Fripp & Eno → Bowie-/Gabriel-Sessions → The League of Gentlemen → Guitar Craft → Fripp & Andy Summers → Sylvian/Fripp → ProjeKcts.",
+ "grp.robert-fripp-solo-ve-ortaklklar.etki": "Ein Pionier der Ambient-Musik (mit Eno) und der Looping-Techniken; ein Lehrer der Methode, dessen Einfluss vom Prog bis zum Post-Rock reicht.",
+ "alb.robert-fripp-1973-no-pussyfooting.an": "Das erste Album mit Brian Eno: die Geburt der „Frippertronics“ aus verzögerten Schleifen zwischen zwei Revox-Bandmaschinen.",
+ "alb.robert-fripp-1973-no-pussyfooting.oncelik": "Empfohlen — eine der Gründungsplatten der Ambient-Musik.",
+ "alb.robert-fripp-1975-evening-star.an": "Das zweite, melodischere Album von Fripp & Eno.",
+ "alb.robert-fripp-1979-exposure.an": "Fripps erstes Soloalbum, Teil seiner „MOR-Trilogie“ (mit Gabriels zweitem Album und Daryl Halls Sacred Songs); Gäste sind u. a. Gabriel, Hall, Eno, Peter Hammill und Terre Roche.",
+ "alb.robert-fripp-1979-exposure.oncelik": "Essenziell — Fripps umfassendstes Solowerk.",
+ "alb.robert-fripp-1979-exposure.detay": [
+  "Das Album vereint Punk-Energie, Frippertronics und Aufnahmen von J. G. Bennett, einem Lehrer in der Gurdjieff-Tradition."
+ ],
+ "alb.robert-fripp-1979-exposure.tr": [
+  "Breathless",
+  "NY3",
+  "Here Comes the Flood — Gabriel",
+  "Exposure"
+ ],
+ "alb.robert-fripp-1982-i-advance-masked.an": "Ein instrumentaler Gitarrendialog mit Andy Summers von The Police.",
+ "alb.robert-fripp-1993-the-first-day.an": "Mit David Sylvian; schwere Rhythmen und Fripps markante Gitarre. Trey Gunns Weg zu Crimson führt hierüber.",
+ "alb.robert-fripp-1993-the-first-day.tr": [
+  "God’s Monkey",
+  "Jean the Birdman",
+  "Darshan (The Road to Graceland)"
+ ],
+ "grp.john-wetton-solo.name": "John Wetton (solo)",
+ "grp.john-wetton-solo.kurulus": "1949–2017, Derby. Bassist und Sänger bei Family, King Crimson, Roxy Music (Tour), Uriah Heep, U.K. und Asia.",
+ "grp.john-wetton-solo.hikaye": "Wetton ist der mobilste „Wandermusiker“ des Netzwerks: von Mogul Thrash und Family zu King Crimson (1972–74), dann zu Roxy Music und Uriah Heep und weiter zu U.K. und Asia. Mit seinem dunklen, aggressiven Bass und seiner kraftvollen Bariton-Tenor-Stimme war er der Klang von Crimsons schwerster Phase und von Asias Stadion-Melodik. Sein Kampf gegen den Alkohol und seine Herzoperation 2007 waren Wendepunkte in seinem Leben. Seine Solokarriere pendelte zwischen AOR und Prog; mit Geoff Downes betrieb er das Projekt Wetton/Downes (Icon). Er starb 2017 an Darmkrebs.",
+ "grp.john-wetton-solo.dna": "Verzerrter, aggressiver Bass; emotionaler, kraftvoller Gesang; melodisches Songwriting zwischen Prog und AOR.",
+ "grp.john-wetton-solo.gecisler": "Mogul Thrash → Family → King Crimson → Roxy Music → Uriah Heep → U.K. → Asia → Icon (Downes) → solo.",
+ "grp.john-wetton-solo.etki": "Die einzige Stimme, die Crimson und Asia gemeinsam haben; der Mann, der Prog und Arenarock verband.",
+ "alb.john-wetton-1980-caught-in-the-crossfire.an": "Sein erstes Soloalbum, nach U.K. und vor Asia; die AOR-Neigung klingt wie eine Probe für Asia.",
+ "alb.john-wetton-1997-arkangel.an": "Ein starkes Soloalbum zwischen Prog und Melodic Rock, mit Robert Fripp und Steve Hackett als Gästen.",
+ "alb.john-wetton-2005-icon.an": "Ein gemeinsames Projekt mit Geoff Downes; eine Rückkehr zur klassischen Asia-Melodik, die den Weg zur Wiedervereinigung der Original-Asia ebnete.",
+ "alb.john-wetton-2011-raised-in-captivity.an": "Ein Soloalbum wie eine Zusammenfassung des Netzwerks, mit alten Weggefährten wie Robert Fripp, Steve Hackett, Eddie Jobson, Geoff Downes und Tony Kaye.",
+ "alb.john-wetton-2011-raised-in-captivity.oncelik": "Empfohlen — die Gästeliste ist eine Landkarte des Netzwerks.",
+ "grp.21st-century-schizoid-band.kurulus": "2002, London. Eine Tribute-/Neudeutungsband ehemaliger Mitglieder von King Crimson 1969–72.",
+ "grp.21st-century-schizoid-band.hikaye": "Mit Ian McDonald, Michael Giles, Peter Giles, Mel Collins und Jakko Jakszyk an Gesang und Gitarre spielte die Band das frühe Crimson-Repertoire, das Fripp nie auf die Bühne gebracht hatte (darunter Poseidon, Lizard und Islands), in den Händen der Originalmusiker. Michael Giles übergab bald an Ian Wallace. Nach einigen Tourneen und Livealben löste sich die Band auf; ihre eigentliche Bedeutung liegt darin, dass Jakko Jakszyk durch diese Erfahrung 2013 offizieller Sänger und Gitarrist von King Crimson wurde.",
+ "grp.21st-century-schizoid-band.dna": "Das Crimson-Repertoire von 1969–72, McDonalds Holzbläser und Collins’ Saxofon; respektvolle, aber lebendige Interpretationen.",
+ "grp.21st-century-schizoid-band.gecisler": "King Crimson (Besetzung 1969–72) → 21CSB → Jakszyk und Collins zu King Crimson (2013). Verwandt: Jakszyk, Fripp, Collins (A Scarcity of Miracles, 2011).",
+ "grp.21st-century-schizoid-band.etki": "Das Brückenprojekt, das Fripp ermutigte, das frühe Repertoire wieder auf die Bühne zu bringen.",
+ "alb.21st-century-schizoid-band-2002-official-bootleg-volume-one.an": "Liveaufnahmen der ersten Tour: lange nicht mehr gespielte Stücke wie „Cirkus“, „Pictures of a City“ und „Formentera Lady“.",
+ "alb.21st-century-schizoid-band-2002-official-bootleg-volume-one.kadro": "Ian McDonald, Michael Giles, Peter Giles, Mel Collins, Jakko Jakszyk",
+ "alb.21st-century-schizoid-band-2011-a-scarcity-of-miracles.an": "Mit dem Untertitel „A King Crimson ProjeKct“ ein gemeinsames Album von Jakszyk, Fripp und Collins (mit Levin und Harrison). Der direkte Vorläufer der neuen Crimson-Besetzung.",
+ "alb.21st-century-schizoid-band-2011-a-scarcity-of-miracles.oncelik": "Empfohlen — das Tor zum Crimson von 2013.",
+ "grp.projekcts.kurulus": "1997–1999. Projekte, in denen sich King Crimsons Double-Trio-Besetzung für improvisierte „Forschung und Entwicklung“ in Untergruppen aufteilte.",
+ "grp.projekcts.hikaye": "Mit einer Methode, die er „fraKctalisation“ nannte, teilte Fripp den sechsköpfigen Crimson in kleine, flexible Untergruppen: ProjeKct One (Fripp, Gunn, Levin, Bruford), Two (Fripp, Gunn, Belew am Schlagzeug — elektronische V-Drums), Three (Fripp, Gunn, Mastelotto) und Four (Fripp, Gunn, Levin, Mastelotto). Alle waren fast vollständig improvisiert; aus dieser Arbeit entstand das Material für The ConstruKction of Light und The Power to Believe. In dieser Phase verließen Bruford und Levin Crimson faktisch. In den 2000ern nahmen auch ProjeKct Six und X auf.",
+ "grp.projekcts.dna": "Freie Improvisation, elektronisches Schlagzeug, Warr-Gitarre und Soundscapes; ein Labor zwischen Jazz, Metal und Ambient.",
+ "grp.projekcts.gecisler": "King Crimson (THRAK-Besetzung) → ProjeKcts → King Crimson (Quartett von 2000); Trey Gunn und Pat Mastelotto → TU; Levin → Stick Men.",
+ "grp.projekcts.etki": "Das Dach, das Crimsons Methode (von der Improvisation zur Komposition) offen dokumentierte und später The Crimson ProjeKCt und Stick Men inspirierte.",
+ "alb.projekcts-1998-space-groove.an": "ProjeKct Two: Space-Funk-Improvisationen mit Belews elektronischem Schlagzeug, Fripps Synthgitarre und Gunns Warr-Gitarre.",
+ "alb.projekcts-1998-space-groove.tr": [
+  "Space Groove I",
+  "Laura",
+  "Sector Drift [The Planet Zarg Quartet Pt. 6]"
+ ],
+ "alb.projekcts-1999-masque.an": "ProjeKct Three: schwer, elektronisch und dunkel; hier entstehen die Riffs der ConstruKction-Ära.",
+ "alb.projekcts-1999-the-projekcts.an": "Ein Box-Set mit vier CDs, das Liveaufnahmen aller vier ProjeKcts sammelt; das vollständige Dokument der Phase.",
+ "alb.projekcts-1999-the-projekcts.oncelik": "Nebensächlich — für Hörer mit Forschergeist.",
+ "grp.stick-men-the-crimson-projekct.kurulus": "2007, Tony Levins auf den Chapman Stick ausgerichtetes Trio. The Crimson ProjeKCt (2011–2014): Stick Men + Adrian Belew Power Trio.",
+ "grp.stick-men-the-crimson-projekct.hikaye": "Stick Men entstand aus Tony Levins Stick-Soloalbum von 2007 und wurde mit Pat Mastelotto (Schlagzeug) und dem deutschen Stick-Meister Markus Reuter (Touch Guitar) zum festen Trio. Während King Crimsons langer Pause nach 2008 taten sich Stick Men und Adrian Belews Power Trio als „The Crimson ProjeKCt“ zusammen und hielten das Crimson-Repertoire (besonders der Discipline–THRAK-Ära) auf der Bühne lebendig. Obwohl Levin und Mastelotto 2013 zu Crimson zurückkehrten, machte Stick Men als eigenständige Band weiter und gab auch gemeinsame Konzerte mit Mel Collins und David Cross.",
+ "grp.stick-men-the-crimson-projekct.dna": "Klänge von Chapman Stick und Touch Guitar, Crimsons polyrhythmisches Erbe, industriell-elektronische Färbung.",
+ "grp.stick-men-the-crimson-projekct.gecisler": "Tony Levin (Crimson, Gabriel, Bruford Levin Upper Extremities), Pat Mastelotto (Mr. Mister → Crimson), Markus Reuter (Centrozoon, Tuner) → Stick Men; Belew Power Trio → The Crimson ProjeKCt.",
+ "grp.stick-men-the-crimson-projekct.etki": "Der „Nebenstrom“ der Crimson-Familie in den 2010ern; ein Schaufenster für Instrumente wie Stick und Touch Guitar im modernen Prog.",
+ "alb.stick-men-2010-soup.an": "Das erste Album mit Markus Reuter; eine Adaption von Strawinskys „Feuervogel“ und harte rhythmische Stücke in der Crimson-Linie.",
+ "alb.stick-men-2010-soup.tr": [
+  "Firebird — Strawinsky-Adaption"
+ ],
+ "alb.stick-men-2014-live-in-tokyo.an": "Als The Crimson ProjeKCt: Crimson-Klassiker mit zwei Schlagzeugern, mit Belew, Levin, Mastelotto, Reuter, Julie Slick und Tobias Ralph.",
+ "alb.stick-men-2014-live-in-tokyo.oncelik": "Empfohlen — der Geist des Crimson der 80er.",
+ "alb.stick-men-2016-prog-noir.an": "Eine dunkle Richtung, die Levin „Prog Noir“ nannte: songorientiert, aber komplex.",
+ "alb.nektar-1973-sounds-like-this.tip": "Studio (live eingespielt, Doppel-LP)",
+ "grp.agn-buyuk-kavsaklar-genisletilmis-ozet.name": "The Network's Major Junctions (Expanded Summary)",
+ "grp.uc-kusagn-ses-akrabalg-etki-haritas.name": "The Sound Kinship of Three Generations (Influence Map)",
+ "alb.pendragon-1991-the-world.tr": [
+  "The Voyager",
+  "Saved by You",
+  "The Last Man on Earth"
+ ],
+ "alb.yes-1973-yessongs.tip": "Live (3 LP)",
+ "alb.yes-1991-union.kadro": "An eight-piece 'merger of two Yeses' (Anderson, Squire, Rabin, Howe, Wakeman, Kaye, White, Bruford)",
+ "alb.yes-1991-yesyears.tip": "Box-Set / Karriere-Kompilation",
+ "alb.yes-1993-symphonic-music-of-yes.tip": "orchestrales Interpretationsalbum",
+ "alb.yes-1996-keys-to-ascension.tip": "Live + neue Studiotracks",
+ "alb.yes-1997-keys-to-ascension-2.tip": "Live + neue Studiotracks",
+ "alb.yes-2001-keystudio.tip": "Kompilation (Studioaufnahmen der Keys-Sessions)",
+ "alb.yes-2002-in-a-word-yes-1969.tip": "Box-Set",
+ "alb.yes-2018-fly-from-here-return-trip.tip": "überarbeitete Studioversion",
+ "alb.yes-2019-from-a-page.tip": "Mini-Album (4 Songs)",
+ "alb.yes-2026-from-a-page-expanded-remastered-edition.tip": "erweiterte Neuauflage",
+ "alb.rick-wakeman-1974-journey-to-the-centre-of-the-earth.tip": "Live (neues Werk)",
+ "alb.emerson-lake-palmer-1977-works-volume-2.tip": "Kompilation / Studio",
+ "alb.genesis-1974-the-lamb-lies-down-on-broadway.kadro": "Gabriel, Banks, Rutherford, Hackett, Collins + Brian Eno ('Enossification' sound treatments)",
+ "alb.pink-floyd-1969-ummagumma.tip": "Live + Studio (Doppel-LP)",
+ "alb.pink-floyd-2014-the-endless-river.kadro": "Gilmour, Mason, Richard Wright (archive recordings)",
+ "alb.jethro-tull-2003-the-jethro-tull-christmas-album.tip": "Studio (Neueinspielungen + neues Material)",
+ "grp.the-syndicats.name": "The Syndicats",
+ "grp.tomorrow.name": "Tomorrow",
+ "alb.tomorrow-1968-tomorrow.tip": "Studio",
+ "grp.bodast.name": "Bodast",
+ "alb.bodast-1981-the-bodast-tapes.tip": "Studio",
+ "alb.the-strawbs-1970-dragonfly.tip": "Studio",
+ "alb.the-strawbs-1970-just-a-collection-of-antiques-and-curios.tip": "Studio",
+ "alb.the-strawbs-1971-from-the-witchwood.tip": "Studio",
+ "alb.the-strawbs-1972-grave-new-world.tip": "Studio",
+ "alb.the-strawbs-1972-grave-new-world.tr": [
+  "Benedictus",
+  "New World",
+  "Heavy Disguise"
+ ],
+ "alb.the-strawbs-1973-bursting-at-the-seams.oncelik": "Empfohlen.",
+ "alb.the-strawbs-1973-bursting-at-the-seams.tip": "Studio",
+ "alb.the-strawbs-1973-bursting-at-the-seams.tr": [
+  "Lay Down",
+  "Part of the Union",
+  "The River / Down by the Sea"
+ ],
+ "alb.the-strawbs-1974-hero-and-heroine.oncelik": "Essenziell.",
+ "alb.the-strawbs-1974-hero-and-heroine.tip": "Studio",
+ "alb.the-strawbs-1974-hero-and-heroine.tr": [
+  "Autumn",
+  "Hero and Heroine",
+  "Round and Round"
+ ],
+ "alb.the-strawbs-2017-the-ferryman-s-curse.oncelik": "Optional.",
+ "alb.the-strawbs-2017-the-ferryman-s-curse.tip": "Studio",
+ "alb.the-strawbs-2017-the-ferryman-s-curse.tr": [
+  "The Nails from the Hands of Christ",
+  "The Familiarity of Old Lovers",
+  "The Ten Commandments"
+ ],
+ "grp.the-nice.name": "The Nice",
+ "alb.the-nice-1968-the-thoughts-of-emerlist-davjack.tip": "Studio",
+ "alb.the-nice-1968-ars-longa-vita-brevis.tip": "Studio",
+ "alb.the-nice-1969-nice.tip": "Studio",
+ "alb.the-nice-1970-five-bridges.tip": "Studio",
+ "grp.procol-harum.name": "Procol Harum",
+ "alb.procol-harum-1967-procol-harum.tip": "Studio",
+ "alb.procol-harum-1968-shine-on-brightly.tip": "Studio",
+ "alb.procol-harum-1969-a-salty-dog.tip": "Studio",
+ "alb.procol-harum-1970-home.tip": "Studio",
+ "alb.procol-harum-1971-broken-barricades.tip": "Studio",
+ "alb.procol-harum-1972-procol-harum-live-with-the-edmonton-symphony-orchestra.tip": "Live",
+ "alb.procol-harum-1972-procol-harum-live-with-the-edmonton-symphony-orchestra.tr": [
+  "Conquistador",
+  "In Held 'Twas in I",
+  "A Salty Dog"
+ ],
+ "alb.procol-harum-1973-grand-hotel.oncelik": "Empfohlen.",
+ "alb.procol-harum-1973-grand-hotel.tip": "Studio",
+ "alb.procol-harum-1991-the-prodigal-stranger.oncelik": "Optional.",
+ "alb.procol-harum-1991-the-prodigal-stranger.tip": "Studio",
+ "alb.procol-harum-1991-the-prodigal-stranger.tr": [
+  "The Truth Won't Fade Away",
+  "Holding On",
+  "A Dream in Ev'ry Home"
+ ],
+ "alb.procol-harum-2017-novum.oncelik": "Optional.",
+ "alb.procol-harum-2017-novum.tip": "Studio",
+ "alb.procol-harum-2017-novum.tr": [
+  "I Told on You",
+  "Sunday Morning",
+  "Last Chance Motel"
+ ],
+ "grp.moody-blues.name": "Moody Blues",
+ "alb.moody-blues-1967-days-of-future-passed.tip": "Studio",
+ "alb.moody-blues-1968-in-search-of-the-lost-chord.tip": "Studio",
+ "alb.moody-blues-1969-on-the-threshold-of-a-dream.tip": "Studio",
+ "alb.moody-blues-1969-to-our-children-s-children-s-children.tip": "Studio",
+ "alb.moody-blues-1970-a-question-of-balance.tip": "Studio",
+ "alb.moody-blues-1971-every-good-boy-deserves-favour.tip": "Studio",
+ "alb.moody-blues-1972-seventh-sojourn.tip": "Studio",
+ "alb.moody-blues-1978-octave.oncelik": "Optional.",
+ "alb.moody-blues-1978-octave.tip": "Studio",
+ "alb.moody-blues-1978-octave.tr": [
+  "Steppin' in a Slide Zone",
+  "Driftwood",
+  "The Day We Meet Again"
+ ],
+ "alb.moody-blues-1981-long-distance-voyager.oncelik": "Empfohlen.",
+ "alb.moody-blues-1981-long-distance-voyager.tip": "Studio",
+ "alb.moody-blues-1981-long-distance-voyager.kadro": "Justin Hayward, John Lodge, Ray Thomas, Graeme Edge, Patrick Moraz",
+ "alb.moody-blues-1981-long-distance-voyager.tr": [
+  "The Voice",
+  "Gemini Dream",
+  "Veteran Cosmic Rocker"
+ ],
+ "alb.moody-blues-1999-strange-times.oncelik": "Optional.",
+ "alb.moody-blues-1999-strange-times.tip": "Studio",
+ "alb.moody-blues-1999-strange-times.tr": [
+  "English Sunset",
+  "Haunted",
+  "Sooner or Later"
+ ],
+ "alb.moody-blues-2003-december.oncelik": "Nebensächlich.",
+ "alb.moody-blues-2003-december.tip": "Studio",
+ "alb.moody-blues-2003-december.tr": [
+  "Don't Need a Reindeer",
+  "December Snow",
+  "In the Quiet of Christmas Morning"
+ ],
+ "grp.the-crazy-world-of-arthur-brown-kingdom-come.name": "The Crazy World of Arthur Brown / Kingdom Come",
+ "alb.arthur-brown-1968-the-crazy-world-of-arthur-brown.tip": "Studio",
+ "alb.arthur-brown-1971-galactic-zoo-dossier.oncelik": "Optional.",
+ "alb.arthur-brown-1971-galactic-zoo-dossier.tip": "Studio",
+ "alb.arthur-brown-1971-galactic-zoo-dossier.tr": [
+  "Internal Messenger",
+  "Space Plucks",
+  "Galactic Zoo"
+ ],
+ "alb.arthur-brown-1973-journey.tip": "Studio",
+ "alb.arthur-brown-1973-journey.tr": [
+  "Time Captives",
+  "Superficial Roadblocks",
+  "Spirit of Joy"
+ ],
+ "grp.pearls-before-swine.name": "Pearls Before Swine",
+ "alb.pearls-before-swine-1967-one-nation-underground.oncelik": "Essenziell.",
+ "alb.pearls-before-swine-1967-one-nation-underground.tip": "Studio",
+ "alb.pearls-before-swine-1968-balaklava.tip": "Studio",
+ "alb.pearls-before-swine-1969-these-things-too.oncelik": "Optional.",
+ "alb.pearls-before-swine-1969-these-things-too.tip": "Studio",
+ "grp.aphrodite-s-child.name": "Aphrodite's Child",
+ "alb.aphrodite-s-child-1968-end-of-the-world.oncelik": "Optional.",
+ "alb.aphrodite-s-child-1968-end-of-the-world.tip": "Studio",
+ "alb.aphrodite-s-child-1968-end-of-the-world.tr": [
+  "Rain and Tears",
+  "End of the World",
+  "Valley of Sadness"
+ ],
+ "alb.aphrodite-s-child-1969-it-s-five-o-clock.oncelik": "Optional.",
+ "alb.aphrodite-s-child-1969-it-s-five-o-clock.tip": "Studio",
+ "alb.aphrodite-s-child-1969-it-s-five-o-clock.tr": [
+  "It's Five O'Clock",
+  "I Want to Live",
+  "Such a Funny Night"
+ ],
+ "alb.aphrodite-s-child-1972-666.tip": "Studio (Doppel-LP)",
+ "alb.aphrodite-s-child-1972-666.kadro": "Vangelis, Demis Roussos, Loukas Sideras, Silver Koulouris + Irene Papas",
+ "grp.king-crimson.name": "King Crimson",
+ "alb.king-crimson-1969-in-the-court-of-the-crimson-king.tip": "Studio",
+ "alb.king-crimson-1970-in-the-wake-of-poseidon.tip": "Studio",
+ "alb.king-crimson-1970-lizard.tip": "Studio",
+ "alb.king-crimson-1971-islands.tip": "Studio",
+ "alb.king-crimson-1973-larks-tongues-in-aspic.tip": "Studio",
+ "alb.king-crimson-1974-starless-and-bible-black.tip": "Studio",
+ "alb.king-crimson-1974-red.tip": "Studio",
+ "alb.king-crimson-1975-usa.tip": "Live",
+ "alb.king-crimson-1981-discipline.tip": "Studio",
+ "alb.king-crimson-1982-beat.tip": "Studio",
+ "alb.king-crimson-1982-beat.kadro": "Fripp, Belew, Levin, Bruford",
+ "alb.king-crimson-1984-three-of-a-perfect-pair.tip": "Studio",
+ "alb.king-crimson-1984-three-of-a-perfect-pair.kadro": "Fripp, Belew, Levin, Bruford",
+ "alb.king-crimson-1995-thrak.tip": "Studio",
+ "alb.king-crimson-2000-the-construkction-of-light.tip": "Studio",
+ "alb.king-crimson-2003-the-power-to-believe.tip": "Studio",
+ "alb.king-crimson-2016-radical-action-to-unseat-the-hold-of-monkey-mind.tip": "Live (3 CD + BD)",
+ "alb.king-crimson-2018-meltdown-live-in-mexico-city.tip": "Live",
+ "alb.robert-fripp-1973-no-pussyfooting.tip": "Studio (Fripp & Eno)",
+ "alb.robert-fripp-1973-no-pussyfooting.tr": [
+  "The Heavenly Music Corporation",
+  "Swastika Girls"
+ ],
+ "alb.robert-fripp-1975-evening-star.oncelik": "Empfohlen.",
+ "alb.robert-fripp-1975-evening-star.tip": "Studio (Fripp & Eno)",
+ "alb.robert-fripp-1975-evening-star.tr": [
+  "Wind on Water",
+  "Evening Star",
+  "An Index of Metals"
+ ],
+ "alb.robert-fripp-1979-exposure.tip": "Studio",
+ "alb.robert-fripp-1982-i-advance-masked.oncelik": "Optional.",
+ "alb.robert-fripp-1982-i-advance-masked.tip": "Studio (Summers & Fripp)",
+ "alb.robert-fripp-1982-i-advance-masked.tr": [
+  "I Advance Masked",
+  "Under Bridges of Silence",
+  "Painting and Dance"
+ ],
+ "alb.robert-fripp-1993-the-first-day.oncelik": "Empfohlen.",
+ "alb.robert-fripp-1993-the-first-day.tip": "Studio (Sylvian/Fripp)",
+ "alb.robert-fripp-1993-the-first-day.kadro": "David Sylvian, Robert Fripp, Trey Gunn, Jerry Marotta",
+ "alb.john-wetton-1980-caught-in-the-crossfire.oncelik": "Optional.",
+ "alb.john-wetton-1980-caught-in-the-crossfire.tip": "Studio",
+ "alb.john-wetton-1980-caught-in-the-crossfire.tr": [
+  "Turn On the Radio",
+  "Caught in the Crossfire",
+  "Woman"
+ ],
+ "alb.john-wetton-1997-arkangel.oncelik": "Empfohlen.",
+ "alb.john-wetton-1997-arkangel.tip": "Studio",
+ "alb.john-wetton-1997-arkangel.tr": [
+  "Arkangel",
+  "The Last Thing on My Mind",
+  "Nothing's Gonna Stand in Our Way"
+ ],
+ "alb.john-wetton-2005-icon.oncelik": "Optional.",
+ "alb.john-wetton-2005-icon.tip": "Studio (Wetton/Downes)",
+ "alb.john-wetton-2011-raised-in-captivity.tip": "Studio",
+ "alb.john-wetton-2011-raised-in-captivity.tr": [
+  "Lost for Words",
+  "Raised in Captivity",
+  "The Last Night of My Life"
+ ],
+ "grp.21st-century-schizoid-band.name": "21st Century Schizoid Band",
+ "alb.21st-century-schizoid-band-2002-official-bootleg-volume-one.oncelik": "Optional.",
+ "alb.21st-century-schizoid-band-2002-official-bootleg-volume-one.tip": "Live",
+ "alb.21st-century-schizoid-band-2002-official-bootleg-volume-one.tr": [
+  "21st Century Schizoid Man",
+  "Pictures of a City",
+  "Cirkus"
+ ],
+ "alb.21st-century-schizoid-band-2011-a-scarcity-of-miracles.tip": "Studio (Jakszyk, Fripp & Collins)",
+ "alb.21st-century-schizoid-band-2011-a-scarcity-of-miracles.tr": [
+  "A Scarcity of Miracles",
+  "The Price We Pay",
+  "Secrets"
+ ],
+ "grp.projekcts.name": "ProjeKcts",
+ "alb.projekcts-1998-space-groove.oncelik": "Optional.",
+ "alb.projekcts-1998-space-groove.tip": "Studioimprovisation",
+ "alb.projekcts-1999-masque.oncelik": "Optional.",
+ "alb.projekcts-1999-masque.tip": "Live",
+ "alb.projekcts-1999-masque.tr": [
+  "Masque 1",
+  "Masque 7",
+  "Masque 11"
+ ],
+ "alb.projekcts-1999-the-projekcts.tip": "Live-Box-Set",
+ "grp.stick-men-the-crimson-projekct.name": "Stick Men / The Crimson ProjeKCt",
+ "alb.stick-men-2010-soup.oncelik": "Empfohlen.",
+ "alb.stick-men-2010-soup.tip": "Studio",
+ "alb.stick-men-2010-soup.kadro": "Tony Levin, Pat Mastelotto, Markus Reuter",
+ "alb.stick-men-2014-live-in-tokyo.tip": "Live (The Crimson ProjeKCt)",
+ "alb.stick-men-2014-live-in-tokyo.tr": [
+  "Neurotica",
+  "Thela Hun Ginjeet",
+  "Frame by Frame"
+ ],
+ "alb.stick-men-2016-prog-noir.oncelik": "Optional.",
+ "alb.stick-men-2016-prog-noir.tip": "Studio",
+ "alb.stick-men-2016-prog-noir.tr": [
+  "Prog Noir"
+ ],
+ "grp.yes.name": "Yes",
+ "alb.yes-1969-yes.tip": "Studio",
+ "alb.yes-1969-yes.kadro": "Jon Anderson, Chris Squire, Peter Banks, Tony Kaye, Bill Bruford",
+ "alb.yes-1970-time-and-a-word.tip": "Studio",
+ "alb.yes-1970-time-and-a-word.kadro": "Anderson, Squire, Banks, Kaye, Bruford",
+ "alb.yes-1971-the-yes-album.tip": "Studio",
+ "alb.yes-1971-the-yes-album.kadro": "Anderson, Squire, Howe, Kaye, Bruford",
+ "alb.yes-1971-fragile.oncelik": "Essenziell — nie auslassen.",
+ "alb.yes-1971-fragile.tip": "Studio",
+ "alb.yes-1971-fragile.kadro": "Anderson, Squire, Howe, Rick Wakeman, Bruford",
+ "alb.yes-1972-close-to-the-edge.tip": "Studio",
+ "alb.yes-1972-close-to-the-edge.kadro": "Anderson, Squire, Howe, Wakeman, Bruford",
+ "alb.yes-1973-yessongs.kadro": "Anderson, Squire, Howe, Wakeman, Alan White",
+ "alb.yes-1973-tales-from-topographic-oceans.tip": "Studio",
+ "alb.yes-1973-tales-from-topographic-oceans.kadro": "Anderson, Squire, Howe, Wakeman, White",
+ "alb.yes-1974-relayer.tip": "Studio",
+ "alb.yes-1974-relayer.kadro": "Anderson, Squire, Howe, Patrick Moraz, White",
+ "alb.yes-1975-yesterdays.tip": "Kompilation",
+ "alb.yes-1977-going-for-the-one.tip": "Studio",
+ "alb.yes-1978-tormato.tip": "Studio",
+ "alb.yes-1980-yesshows.oncelik": "Nebensächlich.",
+ "alb.yes-1980-yesshows.tip": "Live",
+ "alb.yes-1980-drama.tip": "Studio",
+ "alb.yes-1981-classic-yes.tip": "Kompilation",
+ "alb.yes-1983-90125.tip": "Studio",
+ "alb.yes-1983-90125.kadro": "Anderson, Squire, Trevor Rabin, Tony Kaye, White",
+ "alb.yes-1985-9012live-the-solos.oncelik": "Nebensächlich.",
+ "alb.yes-1985-9012live-the-solos.tip": "Live",
+ "alb.yes-1987-big-generator.oncelik": "Optional.",
+ "alb.yes-1987-big-generator.tip": "Studio",
+ "alb.yes-1991-union.tip": "Studio",
+ "alb.yes-1993-symphonic-music-of-yes.oncelik": "Optional.",
+ "alb.yes-1994-talk.oncelik": "Optional.",
+ "alb.yes-1994-talk.tip": "Studio",
+ "alb.yes-1994-talk.kadro": "Anderson, Squire, Rabin, Kaye, White",
+ "alb.yes-1994-an-evening-of-yes-music-plus.oncelik": "Nebensächlich.",
+ "alb.yes-1994-an-evening-of-yes-music-plus.tip": "Live",
+ "alb.yes-1997-keys-to-ascension-2.oncelik": "Essenziell.",
+ "alb.yes-1997-open-your-eyes.oncelik": "Optional.",
+ "alb.yes-1997-open-your-eyes.tip": "Studio",
+ "alb.yes-1998-beyond-and-before.oncelik": "Verzichtbar.",
+ "alb.yes-1998-beyond-and-before.tip": "Kompilation",
+ "alb.yes-1999-the-ladder.tip": "Studio",
+ "alb.yes-2000-house-of-yes-live-from-house-of-blues.oncelik": "Nebensächlich.",
+ "alb.yes-2000-house-of-yes-live-from-house-of-blues.tip": "Live",
+ "alb.yes-2001-magnification.tip": "Studio",
+ "alb.yes-2003-the-ultimate-yes-35th-anniversary-collection.oncelik": "Verzichtbar.",
+ "alb.yes-2003-the-ultimate-yes-35th-anniversary-collection.tip": "Kompilation",
+ "alb.yes-2005-the-word-is-live.tip": "Live-Box-Set",
+ "alb.yes-2011-fly-from-here.tip": "Studio",
+ "alb.yes-2013-like-it-is-yes-at-the-bristol-hippodrome.tip": "Live",
+ "alb.yes-2014-heaven-earth.tip": "Studio",
+ "alb.yes-2015-like-it-is-yes-at-the-mesa-arts-center.oncelik": "Optional.",
+ "alb.yes-2015-like-it-is-yes-at-the-mesa-arts-center.tip": "Live",
+ "alb.yes-2017-topographic-drama-live-across-america.oncelik": "Optional.",
+ "alb.yes-2017-topographic-drama-live-across-america.tip": "Live",
+ "alb.yes-2021-the-quest.tip": "Studio",
+ "alb.yes-2023-mirror-to-the-sky.oncelik": "Essenziell.",
+ "alb.yes-2023-mirror-to-the-sky.tip": "Studio",
+ "alb.yes-2023-yessingles.tip": "Kompilation",
+ "alb.yes-2026-aurora.tip": "Studio",
+ "grp.anderson-bruford-wakeman-howe-abwh.name": "Anderson Bruford Wakeman Howe (ABWH)",
+ "alb.anderson-bruford-wakeman-howe-1989-anderson-bruford-wakeman-howe.tip": "Studio",
+ "grp.flash.name": "Flash",
+ "alb.flash-1972-flash.tip": "Studio",
+ "alb.flash-1972-in-the-can.tip": "Studio",
+ "alb.flash-1972-in-the-can.tr": [
+  "Lifetime",
+  "Black and White",
+  "There No More"
+ ],
+ "alb.flash-1973-out-of-our-hands.tip": "Studio",
+ "alb.flash-1973-out-of-our-hands.tr": [
+  "Manhattan Morning",
+  "Psychosync",
+  "The Bishop"
+ ],
+ "alb.rick-wakeman-1973-the-six-wives-of-henry-viii.tip": "Studio",
+ "alb.rick-wakeman-1974-journey-to-the-centre-of-the-earth.oncelik": "Essenziell.",
+ "alb.rick-wakeman-1974-journey-to-the-centre-of-the-earth.tr": [
+  "The Journey",
+  "The Recollection",
+  "The Battle",
+  "The Forest"
+ ],
+ "alb.rick-wakeman-1975-the-myths-and-legends-of-king-arthur-and-the-knights-of-the-round-table.oncelik": "Empfohlen.",
+ "alb.rick-wakeman-1975-the-myths-and-legends-of-king-arthur-and-the-knights-of-the-round-table.tip": "Studio",
+ "alb.rick-wakeman-1975-the-myths-and-legends-of-king-arthur-and-the-knights-of-the-round-table.tr": [
+  "Arthur",
+  "Merlin the Magician",
+  "Sir Lancelot and the Black Knight"
+ ],
+ "alb.rick-wakeman-1976-no-earthly-connection.oncelik": "Optional.",
+ "alb.rick-wakeman-1976-no-earthly-connection.tip": "Studio",
+ "alb.rick-wakeman-1976-no-earthly-connection.tr": [
+  "Music Reincarnate",
+  "The Prisoner",
+  "The Lost Cycle"
+ ],
+ "alb.rick-wakeman-1977-criminal-record.oncelik": "Empfohlen.",
+ "alb.rick-wakeman-1977-criminal-record.tip": "Studio",
+ "alb.rick-wakeman-1977-criminal-record.tr": [
+  "Statue of Justice",
+  "Birdman of Alcatraz",
+  "Judas Iscariot"
+ ],
+ "alb.rick-wakeman-1999-return-to-the-centre-of-the-earth.oncelik": "Optional.",
+ "alb.rick-wakeman-1999-return-to-the-centre-of-the-earth.tip": "Studio",
+ "alb.steve-howe-1975-beginnings.tip": "Studio",
+ "alb.steve-howe-1975-beginnings.kadro": "Howe + Bill Bruford, Alan White, Patrick Moraz",
+ "alb.steve-howe-1979-the-steve-howe-album.oncelik": "Empfohlen.",
+ "alb.steve-howe-1979-the-steve-howe-album.tip": "Studio",
+ "alb.steve-howe-1991-turbulence.oncelik": "Optional.",
+ "alb.steve-howe-1991-turbulence.tip": "Studio",
+ "alb.steve-howe-1991-turbulence.kadro": "Howe + Bill Bruford, Nigel Plum",
+ "alb.steve-howe-1991-turbulence.tr": [
+  "Turbulence",
+  "Hint Hint",
+  "Running the Human Race"
+ ],
+ "alb.steve-howe-2003-elements.oncelik": "Optional.",
+ "alb.steve-howe-2003-elements.tip": "Studio",
+ "alb.steve-howe-2011-time.tip": "Studio",
+ "alb.jon-anderson-1976-olias-of-sunhillow.tip": "Studio",
+ "alb.jon-anderson-1980-short-stories.oncelik": "Optional.",
+ "alb.jon-anderson-1980-short-stories.tip": "Studio",
+ "alb.jon-anderson-1980-short-stories.tr": [
+  "I Hear You Now",
+  "Each and Every Day",
+  "One More Time"
+ ],
+ "alb.jon-anderson-1981-the-friends-of-mr-cairo.oncelik": "Empfohlen.",
+ "alb.jon-anderson-1981-the-friends-of-mr-cairo.tip": "Studio",
+ "alb.jon-anderson-1981-the-friends-of-mr-cairo.tr": [
+  "I'll Find My Way Home",
+  "State of Independence",
+  "The Friends of Mr Cairo"
+ ],
+ "alb.jon-anderson-2011-survival-other-stories.oncelik": "Optional.",
+ "alb.jon-anderson-2011-survival-other-stories.tip": "Studio",
+ "alb.jon-anderson-2016-invention-of-knowledge.tip": "Studio (Anderson/Stolt)",
+ "alb.jon-anderson-2016-invention-of-knowledge.tr": [
+  "Invention of Knowledge",
+  "Knowing",
+  "Everybody Heals"
+ ],
+ "alb.jon-anderson-2019-1000-hands-chapter-one.tip": "Studio",
+ "alb.jon-anderson-2019-1000-hands-chapter-one.tr": [
+  "Ramalama",
+  "Now and Again",
+  "Activate"
+ ],
+ "alb.chris-squire-1975-fish-out-of-water.oncelik": "Essenziell.",
+ "alb.chris-squire-1975-fish-out-of-water.tip": "Studio",
+ "alb.chris-squire-1975-fish-out-of-water.kadro": "Squire + Bill Bruford, Patrick Moraz, Mel Collins, Jimmy Hastings",
+ "alb.chris-squire-2007-chris-squire-s-swiss-choir.oncelik": "Nebensächlich.",
+ "alb.chris-squire-2007-chris-squire-s-swiss-choir.tip": "Studio",
+ "alb.chris-squire-2012-a-life-within-a-day.oncelik": "Optional.",
+ "alb.chris-squire-2012-a-life-within-a-day.tip": "Studio (Squackett)",
+ "alb.chris-squire-2012-a-life-within-a-day.tr": [
+  "A Life Within a Day",
+  "Tall Ships",
+  "Aliens"
+ ],
+ "grp.emerson-lake-palmer-elp.name": "Emerson, Lake & Palmer (ELP)",
+ "alb.emerson-lake-palmer-1970-emerson-lake-palmer.tip": "Studio",
+ "alb.emerson-lake-palmer-1970-emerson-lake-palmer.kadro": "Keith Emerson, Greg Lake, Carl Palmer",
+ "alb.emerson-lake-palmer-1970-emerson-lake-palmer.prod": "Greg Lake",
+ "alb.emerson-lake-palmer-1971-tarkus.tip": "Studio",
+ "alb.emerson-lake-palmer-1971-tarkus.kadro": "Emerson, Lake, Palmer",
+ "alb.emerson-lake-palmer-1971-tarkus.prod": "Greg Lake",
+ "alb.emerson-lake-palmer-1971-pictures-at-an-exhibition.tip": "Live",
+ "alb.emerson-lake-palmer-1971-pictures-at-an-exhibition.kadro": "Emerson, Lake, Palmer",
+ "alb.emerson-lake-palmer-1972-trilogy.tip": "Studio",
+ "alb.emerson-lake-palmer-1972-trilogy.kadro": "Emerson, Lake, Palmer",
+ "alb.emerson-lake-palmer-1972-trilogy.prod": "Greg Lake",
+ "alb.emerson-lake-palmer-1973-brain-salad-surgery.tip": "Studio",
+ "alb.emerson-lake-palmer-1973-brain-salad-surgery.prod": "Greg Lake",
+ "alb.emerson-lake-palmer-1974-welcome-back-my-friends-to-the-show-that-never-ends-ladies-and-gentlemen.tip": "Live (Dreifach-LP)",
+ "alb.emerson-lake-palmer-1974-welcome-back-my-friends-to-the-show-that-never-ends-ladies-and-gentlemen.kadro": "Emerson, Lake, Palmer",
+ "alb.emerson-lake-palmer-1977-works-volume-1.tip": "Studio (Doppel-LP)",
+ "alb.emerson-lake-palmer-1977-works-volume-1.kadro": "Emerson, Lake, Palmer + London Philharmonic Orchestra",
+ "alb.emerson-lake-palmer-1977-works-volume-2.kadro": "Emerson, Lake, Palmer",
+ "alb.emerson-lake-palmer-1978-love-beach.tip": "Studio",
+ "alb.emerson-lake-palmer-1992-black-moon.tip": "Studio",
+ "alb.emerson-lake-palmer-1992-black-moon.kadro": "Emerson, Lake, Palmer",
+ "alb.emerson-lake-palmer-1992-black-moon.prod": "Mark Mancina",
+ "alb.emerson-lake-palmer-1994-in-the-hot-seat.tip": "Studio",
+ "alb.emerson-lake-palmer-1994-in-the-hot-seat.kadro": "Emerson, Lake, Palmer",
+ "alb.emerson-lake-palmer-1994-in-the-hot-seat.tr": [
+  "Hand of Truth",
+  "Daddy",
+  "Change"
+ ],
+ "alb.atomic-rooster-1970-atomic-rooster.tip": "Studio",
+ "alb.atomic-rooster-1970-death-walks-behind-you.tip": "Studio",
+ "alb.atomic-rooster-1971-in-hearing-of-atomic-rooster.tip": "Studio",
+ "grp.refugee.name": "Refugee",
+ "alb.refugee-1974-refugee.tip": "Studio",
+ "grp.emerson-lake-powell-3.name": "Emerson, Lake & Powell / 3",
+ "alb.emerson-lake-powell-1986-emerson-lake-powell.oncelik": "Empfohlen.",
+ "alb.emerson-lake-powell-1986-emerson-lake-powell.tip": "Studio",
+ "alb.emerson-lake-powell-1986-emerson-lake-powell.kadro": "Keith Emerson, Greg Lake, Cozy Powell",
+ "alb.emerson-lake-powell-1986-emerson-lake-powell.tr": [
+  "The Score",
+  "Touch and Go",
+  "Mars, the Bringer of War"
+ ],
+ "alb.emerson-lake-powell-1988-to-the-power-of-three.oncelik": "Optional.",
+ "alb.emerson-lake-powell-1988-to-the-power-of-three.tip": "Studio (3)",
+ "alb.emerson-lake-powell-1988-to-the-power-of-three.kadro": "Keith Emerson, Carl Palmer, Robert Berry",
+ "alb.emerson-lake-powell-1988-to-the-power-of-three.tr": [
+  "Talkin' 'Bout",
+  "Desde la Vida",
+  "Eight Miles High"
+ ],
+ "grp.genesis.name": "Genesis",
+ "alb.genesis-1969-from-genesis-to-revelation.tip": "Studio",
+ "alb.genesis-1969-from-genesis-to-revelation.kadro": "Peter Gabriel, Tony Banks, Mike Rutherford, Anthony Phillips, John Silver",
+ "alb.genesis-1969-from-genesis-to-revelation.prod": "Jonathan King",
+ "alb.genesis-1970-trespass.tip": "Studio",
+ "alb.genesis-1970-trespass.kadro": "Gabriel, Banks, Rutherford, Anthony Phillips, John Mayhew",
+ "alb.genesis-1970-trespass.prod": "John Anthony",
+ "alb.genesis-1971-nursery-cryme.tip": "Studio",
+ "alb.genesis-1971-nursery-cryme.kadro": "Gabriel, Banks, Rutherford, Steve Hackett, Phil Collins",
+ "alb.genesis-1972-foxtrot.tip": "Studio",
+ "alb.genesis-1972-foxtrot.kadro": "Gabriel, Banks, Rutherford, Hackett, Collins",
+ "alb.genesis-1972-foxtrot.prod": "David Hitchcock",
+ "alb.genesis-1973-selling-england-by-the-pound.tip": "Studio",
+ "alb.genesis-1973-selling-england-by-the-pound.kadro": "Gabriel, Banks, Rutherford, Hackett, Collins",
+ "alb.genesis-1973-selling-england-by-the-pound.prod": "John Burns & Genesis",
+ "alb.genesis-1974-the-lamb-lies-down-on-broadway.tip": "Studio (Doppel-LP)",
+ "alb.genesis-1974-the-lamb-lies-down-on-broadway.prod": "John Burns & Genesis",
+ "alb.genesis-1976-a-trick-of-the-tail.tip": "Studio",
+ "alb.genesis-1976-a-trick-of-the-tail.kadro": "Phil Collins, Banks, Rutherford, Hackett",
+ "alb.genesis-1976-a-trick-of-the-tail.prod": "David Hentschel & Genesis",
+ "alb.genesis-1976-wind-wuthering.tip": "Studio",
+ "alb.genesis-1976-wind-wuthering.kadro": "Collins, Banks, Rutherford, Hackett",
+ "alb.genesis-1977-seconds-out.tip": "Live (Doppel-LP)",
+ "alb.genesis-1977-seconds-out.kadro": "Collins, Banks, Rutherford, Hackett + Chester Thompson, Bill Bruford ('The Cinema Show')",
+ "alb.genesis-1978-and-then-there-were-three.tip": "Studio",
+ "alb.genesis-1978-and-then-there-were-three.kadro": "Banks, Rutherford, Collins",
+ "alb.genesis-1980-duke.tip": "Studio",
+ "alb.genesis-1980-duke.kadro": "Banks, Rutherford, Collins",
+ "alb.genesis-1981-abacab.tip": "Studio",
+ "alb.genesis-1981-abacab.kadro": "Banks, Rutherford, Collins",
+ "alb.genesis-1981-abacab.prod": "Hugh Padgham & Genesis",
+ "alb.genesis-1983-genesis.tip": "Studio",
+ "alb.genesis-1983-genesis.kadro": "Banks, Rutherford, Collins",
+ "alb.genesis-1986-invisible-touch.tip": "Studio",
+ "alb.genesis-1986-invisible-touch.kadro": "Banks, Rutherford, Collins",
+ "alb.genesis-1991-we-can-t-dance.tip": "Studio",
+ "alb.genesis-1991-we-can-t-dance.kadro": "Banks, Rutherford, Collins",
+ "alb.genesis-1997-calling-all-stations.tip": "Studio",
+ "alb.genesis-2007-live-over-europe-2007.tip": "Live",
+ "alb.genesis-2007-live-over-europe-2007.kadro": "Banks, Rutherford, Collins + Daryl Stuermer, Chester Thompson",
+ "alb.genesis-2007-live-over-europe-2007.tr": [
+  "In the Cage / The Cinema Show / Duke's Travels medley",
+  "Ripples",
+  "Los Endos"
+ ],
+ "alb.peter-gabriel-1977-peter-gabriel-car.tip": "Studio",
+ "alb.peter-gabriel-1977-peter-gabriel-car.kadro": "Gabriel + Robert Fripp, Tony Levin, Steve Hunter, Dick Wagner, Allan Schwartzberg",
+ "alb.peter-gabriel-1977-peter-gabriel-car.prod": "Bob Ezrin",
+ "alb.peter-gabriel-1978-peter-gabriel-scratch.tip": "Studio",
+ "alb.peter-gabriel-1978-peter-gabriel-scratch.kadro": "Gabriel + Robert Fripp, Tony Levin, Jerry Marotta, Roche Sisters",
+ "alb.peter-gabriel-1978-peter-gabriel-scratch.prod": "Robert Fripp",
+ "alb.peter-gabriel-1980-peter-gabriel-melt.tip": "Studio",
+ "alb.peter-gabriel-1980-peter-gabriel-melt.kadro": "Gabriel + Fripp, Levin, Jerry Marotta, Phil Collins, Kate Bush, Paul Weller, Larry Fast",
+ "alb.peter-gabriel-1980-peter-gabriel-melt.prod": "Steve Lillywhite",
+ "alb.peter-gabriel-1982-peter-gabriel-security.tip": "Studio",
+ "alb.peter-gabriel-1982-peter-gabriel-security.kadro": "Gabriel + Tony Levin, Jerry Marotta, David Rhodes, Larry Fast",
+ "alb.peter-gabriel-1986-so.tip": "Studio",
+ "alb.peter-gabriel-1986-so.kadro": "Gabriel + Tony Levin, Manu Katché, David Rhodes, Daniel Lanois, Stewart Copeland, Kate Bush, Youssou N'Dour, Laurie Anderson",
+ "alb.peter-gabriel-1986-so.prod": "Daniel Lanois & Peter Gabriel",
+ "alb.peter-gabriel-1989-passion.tip": "Soundtrack",
+ "alb.peter-gabriel-1992-us.tip": "Studio",
+ "alb.peter-gabriel-1992-us.kadro": "Gabriel + Levin, Katché, Rhodes, Lanois, Sinéad O'Connor",
+ "alb.peter-gabriel-1992-us.prod": "Daniel Lanois & Peter Gabriel",
+ "alb.peter-gabriel-2000-ovo.tip": "Konzept / Bühnenmusik",
+ "alb.peter-gabriel-2000-ovo.tr": [
+  "The Story of OVO",
+  "Father, Son",
+  "Downside-Up"
+ ],
+ "alb.peter-gabriel-2002-up.tip": "Studio",
+ "alb.peter-gabriel-2002-up.kadro": "Gabriel + Tony Levin, David Rhodes, Manu Katché, Blind Boys of Alabama",
+ "alb.peter-gabriel-2010-scratch-my-back.tip": "Coverversionen / orchestral",
+ "alb.peter-gabriel-2010-scratch-my-back.prod": "Bob Ezrin",
+ "alb.peter-gabriel-2010-scratch-my-back.tr": [
+  "The Book of Love",
+  "Heroes",
+  "My Body Is a Cage",
+  "Philadelphia"
+ ],
+ "alb.peter-gabriel-2011-new-blood.tip": "orchestrale Neueinspielung",
+ "alb.peter-gabriel-2011-new-blood.tr": [
+  "Rhythm of the Heat",
+  "San Jacinto",
+  "Mercy Street"
+ ],
+ "alb.steve-hackett-1975-voyage-of-the-acolyte.tip": "Studio",
+ "alb.steve-hackett-1978-please-don-t-touch.tip": "Studio",
+ "alb.steve-hackett-1979-spectral-mornings.tip": "Studio",
+ "alb.steve-hackett-1980-defector.tip": "Studio",
+ "alb.steve-hackett-1981-cured.tip": "Studio",
+ "alb.steve-hackett-1983-highly-strung.tip": "Studio",
+ "alb.steve-hackett-1983-bay-of-kings.tip": "Studio",
+ "alb.steve-hackett-1984-till-we-have-faces.tip": "Studio",
+ "alb.steve-hackett-1993-guitar-noir.oncelik": "Optional.",
+ "alb.steve-hackett-1993-guitar-noir.tip": "Studio",
+ "alb.steve-hackett-1993-guitar-noir.tr": [
+  "Take These Pearls",
+  "Vampyre with a Healthy Appetite",
+  "Sierra Quemada"
+ ],
+ "alb.steve-hackett-1996-genesis-revisited.tip": "Neueinspielung",
+ "alb.steve-hackett-1999-darktown.tip": "Studio",
+ "alb.steve-hackett-1999-darktown.tr": [
+  "Darktown",
+  "Man Overboard",
+  "The Golden Age of Steam"
+ ],
+ "alb.steve-hackett-2003-to-watch-the-storms.oncelik": "Optional.",
+ "alb.steve-hackett-2003-to-watch-the-storms.tip": "Studio",
+ "alb.steve-hackett-2003-to-watch-the-storms.tr": [
+  "Mechanical Bride",
+  "Brand New",
+  "The Silk Road"
+ ],
+ "alb.steve-hackett-2011-beyond-the-shrouded-horizon.oncelik": "Empfohlen.",
+ "alb.steve-hackett-2011-beyond-the-shrouded-horizon.tip": "Studio",
+ "alb.steve-hackett-2011-beyond-the-shrouded-horizon.tr": [
+  "Loch Lomond",
+  "Catwalk",
+  "Turn This Island Earth"
+ ],
+ "alb.steve-hackett-2012-genesis-revisited-ii.tip": "Neueinspielung (Doppel-CD)",
+ "alb.steve-hackett-2015-wolflight.oncelik": "Empfohlen.",
+ "alb.steve-hackett-2015-wolflight.tip": "Studio",
+ "alb.steve-hackett-2015-wolflight.tr": [
+  "Love Song to a Vampire",
+  "Wolflight",
+  "Loving Sea"
+ ],
+ "alb.steve-hackett-2017-the-night-siren.oncelik": "Empfohlen.",
+ "alb.steve-hackett-2017-the-night-siren.tip": "Studio",
+ "alb.steve-hackett-2017-the-night-siren.tr": [
+  "Behind the Smoke",
+  "In Another Life",
+  "West to East"
+ ],
+ "alb.steve-hackett-2019-at-the-edge-of-light.oncelik": "Optional.",
+ "alb.steve-hackett-2019-at-the-edge-of-light.tip": "Studio",
+ "alb.steve-hackett-2019-at-the-edge-of-light.tr": [
+  "Those Golden Wings",
+  "Under the Eye of the Sun",
+  "Descent"
+ ],
+ "grp.brand-x.name": "Brand X",
+ "alb.brand-x-1976-unorthodox-behaviour.tip": "Studio",
+ "alb.brand-x-1977-moroccan-roll.tip": "Studio",
+ "alb.brand-x-1978-masques.tip": "Studio",
+ "alb.brand-x-1978-masques.tr": [
+  "The Poke",
+  "Masques",
+  "Black Moon"
+ ],
+ "alb.brand-x-1979-product.tip": "Studio",
+ "alb.brand-x-1979-product.tr": [
+  "Don't Make Waves",
+  "Soho",
+  "...And So to F..."
+ ],
+ "alb.brand-x-1980-do-they-hurt.oncelik": "Optional.",
+ "alb.brand-x-1980-do-they-hurt.tip": "Studio",
+ "alb.brand-x-1980-do-they-hurt.tr": [
+  "Noddy Goes to Sweden",
+  "Voidarama",
+  "Act of Will"
+ ],
+ "alb.brand-x-1997-manifest-destiny.oncelik": "Optional.",
+ "alb.brand-x-1997-manifest-destiny.tip": "Studio",
+ "alb.brand-x-1997-manifest-destiny.kadro": "John Goodsall, Percy Jones, Marc Wagnon, Frank Katz",
+ "alb.brand-x-1997-manifest-destiny.tr": [
+  "True to the Clik",
+  "Stellerator",
+  "Mr. Bubble Goes to Hollywood"
+ ],
+ "grp.anthony-phillips.name": "Anthony Phillips",
+ "alb.anthony-phillips-1977-the-geese-the-ghost.tip": "Studio",
+ "alb.anthony-phillips-1978-wise-after-the-event.oncelik": "Optional.",
+ "alb.anthony-phillips-1978-wise-after-the-event.tip": "Studio",
+ "alb.anthony-phillips-1978-private-parts-pieces.oncelik": "Optional.",
+ "alb.anthony-phillips-1978-private-parts-pieces.tip": "Studio",
+ "alb.anthony-phillips-1978-private-parts-pieces.tr": [
+  "Beauty and the Beast",
+  "Field of Eternity",
+  "Tibetan Yak-Music"
+ ],
+ "alb.anthony-phillips-1979-sides.oncelik": "Optional.",
+ "alb.anthony-phillips-1979-sides.tip": "Studio",
+ "alb.anthony-phillips-1979-sides.tr": [
+  "Um & Aargh",
+  "I Want Your Love",
+  "Nightmare"
+ ],
+ "alb.anthony-phillips-1990-slow-dance.tip": "Studio",
+ "alb.anthony-phillips-1990-slow-dance.tr": [
+  "Slow Dance, Part One",
+  "Slow Dance, Part Two"
+ ],
+ "grp.pink-floyd.name": "Pink Floyd",
+ "alb.pink-floyd-1967-the-piper-at-the-gates-of-dawn.tip": "Studio",
+ "alb.pink-floyd-1967-the-piper-at-the-gates-of-dawn.kadro": "Syd Barrett, Roger Waters, Richard Wright, Nick Mason",
+ "alb.pink-floyd-1967-the-piper-at-the-gates-of-dawn.prod": "Norman Smith",
+ "alb.pink-floyd-1968-a-saucerful-of-secrets.tip": "Studio",
+ "alb.pink-floyd-1968-a-saucerful-of-secrets.prod": "Norman Smith",
+ "alb.pink-floyd-1969-more.tip": "Soundtrack",
+ "alb.pink-floyd-1969-more.kadro": "Waters, Gilmour, Wright, Mason",
+ "alb.pink-floyd-1969-ummagumma.kadro": "Waters, Gilmour, Wright, Mason",
+ "alb.pink-floyd-1970-atom-heart-mother.tip": "Studio",
+ "alb.pink-floyd-1970-atom-heart-mother.kadro": "Waters, Gilmour, Wright, Mason + Ron Geesin (orkestrasyon), John Alldis Korosu",
+ "alb.pink-floyd-1971-meddle.tip": "Studio",
+ "alb.pink-floyd-1971-meddle.kadro": "Waters, Gilmour, Wright, Mason",
+ "alb.pink-floyd-1973-the-dark-side-of-the-moon.tip": "Studio",
+ "alb.pink-floyd-1973-the-dark-side-of-the-moon.kadro": "Waters, Gilmour, Wright, Mason + Clare Torry, Dick Parry",
+ "alb.pink-floyd-1975-wish-you-were-here.oncelik": "Essenziell — nie auslassen.",
+ "alb.pink-floyd-1975-wish-you-were-here.tip": "Studio",
+ "alb.pink-floyd-1975-wish-you-were-here.kadro": "Waters, Gilmour, Wright, Mason + Roy Harper ('Have a Cigar' vokali), Dick Parry",
+ "alb.pink-floyd-1977-animals.tip": "Studio",
+ "alb.pink-floyd-1977-animals.kadro": "Waters, Gilmour, Wright, Mason",
+ "alb.pink-floyd-1979-the-wall.tip": "Studio (Doppel-LP)",
+ "alb.pink-floyd-1979-the-wall.prod": "Bob Ezrin, David Gilmour, Roger Waters",
+ "alb.pink-floyd-1983-the-final-cut.tip": "Studio",
+ "alb.pink-floyd-1983-the-final-cut.kadro": "Waters, Gilmour, Mason + Michael Kamen, Andy Newmark",
+ "alb.pink-floyd-1987-a-momentary-lapse-of-reason.tip": "Studio",
+ "alb.pink-floyd-1987-a-momentary-lapse-of-reason.prod": "Bob Ezrin & David Gilmour",
+ "alb.pink-floyd-1994-the-division-bell.tip": "Studio",
+ "alb.pink-floyd-1994-the-division-bell.kadro": "Gilmour, Wright, Mason",
+ "alb.pink-floyd-1994-the-division-bell.prod": "Bob Ezrin & David Gilmour",
+ "alb.pink-floyd-1995-pulse.tip": "Live",
+ "alb.pink-floyd-1995-pulse.kadro": "Gilmour, Wright, Mason + Guy Pratt, Tim Renwick, Jon Carin, Dick Parry",
+ "alb.pink-floyd-2014-the-endless-river.tip": "Studio",
+ "alb.pink-floyd-2014-the-endless-river.prod": "David Gilmour, Phil Manzanera, Youth, Andy Jackson",
+ "alb.david-gilmour-1978-david-gilmour.oncelik": "Optional.",
+ "alb.david-gilmour-1978-david-gilmour.tip": "Studio",
+ "alb.david-gilmour-1978-david-gilmour.tr": [
+  "There's No Way Out of Here",
+  "Mihalis",
+  "So Far Away"
+ ],
+ "alb.david-gilmour-1984-about-face.oncelik": "Optional.",
+ "alb.david-gilmour-1984-about-face.tip": "Studio",
+ "alb.david-gilmour-1984-about-face.prod": "Bob Ezrin & David Gilmour",
+ "alb.david-gilmour-2006-on-an-island.tip": "Studio",
+ "alb.david-gilmour-2006-on-an-island.kadro": "Gilmour + Richard Wright, Phil Manzanera, Guy Pratt, Robert Wyatt (kornet), David Crosby, Graham Nash",
+ "alb.david-gilmour-2006-on-an-island.tr": [
+  "On an Island",
+  "Castellorizon",
+  "Smile"
+ ],
+ "alb.david-gilmour-2008-live-in-gdansk.tip": "Live",
+ "alb.david-gilmour-2015-rattle-that-lock.oncelik": "Optional.",
+ "alb.david-gilmour-2015-rattle-that-lock.tip": "Studio",
+ "alb.david-gilmour-2015-rattle-that-lock.prod": "David Gilmour & Phil Manzanera",
+ "alb.david-gilmour-2015-rattle-that-lock.tr": [
+  "Rattle That Lock",
+  "Faces of Stone",
+  "In Any Tongue"
+ ],
+ "alb.roger-waters-1984-the-pros-and-cons-of-hitch-hiking.oncelik": "Optional.",
+ "alb.roger-waters-1984-the-pros-and-cons-of-hitch-hiking.tip": "Studio",
+ "alb.roger-waters-1984-the-pros-and-cons-of-hitch-hiking.kadro": "Waters + Eric Clapton, David Sanborn, Michael Kamen",
+ "alb.roger-waters-1987-radio-k-a-o-s.oncelik": "Optional.",
+ "alb.roger-waters-1987-radio-k-a-o-s.tip": "Studio",
+ "alb.roger-waters-1987-radio-k-a-o-s.tr": [
+  "Radio Waves",
+  "The Tide Is Turning",
+  "Who Needs Information"
+ ],
+ "alb.roger-waters-1992-amused-to-death.tip": "Studio",
+ "alb.roger-waters-1992-amused-to-death.kadro": "Waters + Jeff Beck, Pat Leonard, Don Henley, Rita Coolidge",
+ "alb.roger-waters-1992-amused-to-death.tr": [
+  "What God Wants, Part I",
+  "Perfect Sense, Part I & II",
+  "Amused to Death",
+  "The Bravery of Being Out of Range"
+ ],
+ "alb.roger-waters-2017-is-this-the-life-we-really-want.oncelik": "Empfohlen.",
+ "alb.roger-waters-2017-is-this-the-life-we-really-want.tip": "Studio",
+ "alb.roger-waters-2017-is-this-the-life-we-really-want.prod": "Nigel Godrich",
+ "alb.roger-waters-2017-is-this-the-life-we-really-want.tr": [
+  "Déjà Vu",
+  "Picture That",
+  "Is This the Life We Really Want?"
+ ],
+ "alb.nick-mason-1981-nick-mason-s-fictitious-sports.tip": "Studio",
+ "alb.nick-mason-1981-nick-mason-s-fictitious-sports.kadro": "Mason, Carla Bley, Robert Wyatt, Karen Kraft, Chris Spedding, Steve Swallow",
+ "alb.nick-mason-1981-nick-mason-s-fictitious-sports.tr": [
+  "Can't Get My Motor to Start",
+  "Hot River",
+  "Boo to You Too"
+ ],
+ "alb.nick-mason-1985-profiles.oncelik": "Optional.",
+ "alb.nick-mason-1985-profiles.tip": "Studio (Mason + Fenn)",
+ "alb.nick-mason-2020-live-at-the-roundhouse.tip": "Live",
+ "alb.nick-mason-2020-live-at-the-roundhouse.kadro": "Nick Mason, Guy Pratt, Gary Kemp, Lee Harris, Dom Beken",
+ "alb.nick-mason-2020-live-at-the-roundhouse.tr": [
+  "Interstellar Overdrive",
+  "Fearless",
+  "Echoes"
+ ],
+ "grp.soft-machine.name": "Soft Machine",
+ "alb.soft-machine-1968-the-soft-machine.tip": "Studio",
+ "alb.soft-machine-1969-volume-two.tip": "Studio",
+ "alb.soft-machine-1970-third.tip": "Studio",
+ "alb.soft-machine-1971-fourth.tip": "Studio",
+ "alb.soft-machine-1972-fifth.tip": "Studio",
+ "alb.soft-machine-1973-six.tip": "Studio",
+ "alb.soft-machine-1973-six.tr": [
+  "The Soft Weed Factor",
+  "Chloe and the Pirates",
+  "Stanley Stamps Gibbon Album"
+ ],
+ "alb.soft-machine-1973-seven.tip": "Studio",
+ "alb.soft-machine-1973-seven.tr": [
+  "Nettle Bed",
+  "Penny Hitch",
+  "Down the Road"
+ ],
+ "alb.soft-machine-1975-bundles.tip": "Studio",
+ "alb.soft-machine-1976-softs.oncelik": "Optional.",
+ "alb.soft-machine-1976-softs.tip": "Studio",
+ "alb.soft-machine-1976-softs.tr": [
+  "Aubade",
+  "The Tale of Taliesin",
+  "Song of Aeolus"
+ ],
+ "alb.soft-machine-2007-steam.oncelik": "Optional.",
+ "alb.soft-machine-2007-steam.tip": "Studio",
+ "alb.soft-machine-2007-steam.kadro": "John Etheridge, Hugh Hopper, John Marshall, Theo Travis",
+ "alb.soft-machine-2018-hidden-details.tip": "Studio",
+ "alb.soft-machine-2018-hidden-details.kadro": "John Etheridge, Roy Babbington, John Marshall, Theo Travis",
+ "grp.caravan.name": "Caravan",
+ "alb.caravan-1968-caravan.tip": "Studio",
+ "alb.caravan-1970-if-i-could-do-it-all-over-again-i-d-do-it-all-over-you.tip": "Studio",
+ "alb.caravan-1971-in-the-land-of-grey-and-pink.tip": "Studio",
+ "alb.caravan-1972-waterloo-lily.tip": "Studio",
+ "alb.caravan-1973-for-girls-who-grow-plump-in-the-night.tip": "Studio",
+ "alb.caravan-1975-cunning-stunts.tip": "Studio",
+ "alb.caravan-1976-blind-dog-at-st-dunstans.oncelik": "Optional.",
+ "alb.caravan-1976-blind-dog-at-st-dunstans.tip": "Studio",
+ "alb.caravan-1995-the-battle-of-hastings.oncelik": "Optional.",
+ "alb.caravan-1995-the-battle-of-hastings.tip": "Studio",
+ "alb.caravan-1995-the-battle-of-hastings.tr": [
+  "It's a Sad, Sad Affair",
+  "Cold Fire of the Night",
+  "Liar"
+ ],
+ "alb.caravan-2003-the-unauthorised-breakfast-item.oncelik": "Empfohlen.",
+ "alb.caravan-2003-the-unauthorised-breakfast-item.tip": "Studio",
+ "alb.caravan-2003-the-unauthorised-breakfast-item.tr": [
+  "Smoking Gun",
+  "Revenge",
+  "Straight Through the Heart"
+ ],
+ "alb.caravan-2013-paradise-filter.oncelik": "Optional.",
+ "alb.caravan-2013-paradise-filter.tip": "Studio",
+ "alb.caravan-2013-paradise-filter.tr": [
+  "Fingers in the Till",
+  "Dead Man Walking",
+  "I'll Be There for You"
+ ],
+ "grp.gong.name": "Gong",
+ "alb.gong-1970-magick-brother.tip": "Studio",
+ "alb.gong-1970-magick-brother.tr": [
+  "Mister Long Shanks: O Mother",
+  "Glad to Sad to Say",
+  "Princess Dreaming"
+ ],
+ "alb.gong-1971-camembert-electrique.tip": "Studio",
+ "alb.gong-1973-flying-teapot.tip": "Studio",
+ "alb.gong-1973-angel-s-egg.tip": "Studio",
+ "alb.gong-1974-you.tip": "Studio",
+ "alb.gong-1976-shamal.tip": "Studio",
+ "alb.gong-1976-gazeuse.tip": "Studio",
+ "alb.gong-1976-gazeuse.kadro": "Pierre Moerlen, Didier Malherbe, Allan Holdsworth, Mireille Bauer, Benoît Moerlen, Francis Moze, Mino Cinelu",
+ "alb.gong-1976-gazeuse.tr": [
+  "Expresso",
+  "Night Illusion",
+  "Shadows Of"
+ ],
+ "alb.gong-2000-zero-to-infinity.oncelik": "Optional.",
+ "alb.gong-2000-zero-to-infinity.tip": "Studio",
+ "alb.gong-2000-zero-to-infinity.tr": [
+  "Magdalene",
+  "Wise Man in Your Heart",
+  "Bodilingus"
+ ],
+ "alb.gong-2009-2032.oncelik": "Optional.",
+ "alb.gong-2009-2032.tip": "Studio",
+ "alb.gong-2009-2032.tr": [
+  "City of Self Fascination",
+  "How to Stay Alive",
+  "Guitar Zero"
+ ],
+ "alb.gong-2016-rejoice-i-m-dead.oncelik": "Empfohlen.",
+ "alb.gong-2016-rejoice-i-m-dead.tip": "Studio",
+ "alb.gong-2016-rejoice-i-m-dead.kadro": "Kavus Torabi, Fabio Golfetti, Dave Sturt, Ian East, Cheb Nettles",
+ "alb.gong-2016-rejoice-i-m-dead.tr": [
+  "Rejoice!",
+  "Kapital",
+  "Beatific Vision"
+ ],
+ "alb.gong-2019-the-universe-also-collapses.oncelik": "Empfohlen.",
+ "alb.gong-2019-the-universe-also-collapses.tip": "Studio",
+ "alb.gong-2019-the-universe-also-collapses.tr": [
+  "Forever Reoccurring",
+  "If Never I'm and Ever You",
+  "My Guitar Is a Spaceship"
+ ],
+ "alb.hatfield-and-the-north-national-health-1974-hatfield-and-the-north.tip": "Studio",
+ "alb.hatfield-and-the-north-national-health-1975-the-rotters-club.tip": "Studio",
+ "alb.hatfield-and-the-north-national-health-1978-national-health.tip": "Studio",
+ "alb.hatfield-and-the-north-national-health-1978-of-queues-and-cures.tip": "Studio",
+ "alb.hatfield-and-the-north-national-health-1982-d-s-al-coda.tip": "Studio",
+ "alb.hatfield-and-the-north-national-health-1982-d-s-al-coda.kadro": "Dave Stewart, Phil Miller, Pip Pyle, John Greaves, Jimmy Hastings, Elton Dean, Richard Sinclair",
+ "alb.hatfield-and-the-north-national-health-1982-d-s-al-coda.tr": [
+  "Arriving Twice",
+  "Toad of Toad Hall",
+  "Portrait of a Person with Myxomatosis"
+ ],
+ "grp.egg.name": "Egg",
+ "alb.egg-1970-egg.tip": "Studio",
+ "alb.egg-1971-the-polite-force.tip": "Studio",
+ "alb.egg-1974-the-civil-surface.tip": "Studio",
+ "alb.egg-1974-the-civil-surface.tr": [
+  "Germ Patrol",
+  "Enneagram",
+  "Wind Quartet"
+ ],
+ "grp.khan.name": "Khan",
+ "alb.khan-1972-space-shanty.tip": "Studio",
+ "grp.matching-mole.name": "Matching Mole",
+ "alb.matching-mole-1972-matching-mole.tip": "Studio",
+ "alb.matching-mole-1972-matching-mole-s-little-red-record.tip": "Studio",
+ "grp.kevin-ayers.name": "Kevin Ayers",
+ "alb.kevin-ayers-1969-joy-of-a-toy.tip": "Studio",
+ "alb.kevin-ayers-1970-shooting-at-the-moon.tip": "Studio",
+ "alb.kevin-ayers-1971-whatevershebringswesing.oncelik": "Empfohlen.",
+ "alb.kevin-ayers-1971-whatevershebringswesing.tip": "Studio",
+ "alb.kevin-ayers-1971-whatevershebringswesing.tr": [
+  "Song from the Bottom of a Well",
+  "Whatevershebringswesing",
+  "There Is Loving/Among Us/There Is Loving"
+ ],
+ "alb.kevin-ayers-1973-bananamour.tip": "Studio",
+ "alb.kevin-ayers-1974-the-confessions-of-dr-dream-and-other-stories.oncelik": "Optional.",
+ "alb.kevin-ayers-1974-the-confessions-of-dr-dream-and-other-stories.tip": "Studio",
+ "alb.kevin-ayers-1974-the-confessions-of-dr-dream-and-other-stories.tr": [
+  "The Confessions of Dr. Dream",
+  "Didn't Feel Lonely Till I Thought of You",
+  "Ballad of a Salesman Who Sold Himself"
+ ],
+ "alb.kevin-ayers-2007-the-unfairground.tip": "Studio",
+ "alb.kevin-ayers-2007-the-unfairground.tr": [
+  "Only Heaven Knows",
+  "Cold Shoulder",
+  "Baby Come Home"
+ ],
+ "grp.robert-wyatt.name": "Robert Wyatt",
+ "alb.robert-wyatt-1970-the-end-of-an-ear.tip": "Studio",
+ "alb.robert-wyatt-1970-the-end-of-an-ear.tr": [
+  "Las Vegas Tango Part I",
+  "To Mark Everywhere",
+  "To Caravan and Brother Jim"
+ ],
+ "alb.robert-wyatt-1974-rock-bottom.tip": "Studio",
+ "alb.robert-wyatt-1975-ruth-is-stranger-than-richard.tip": "Studio",
+ "alb.robert-wyatt-1975-ruth-is-stranger-than-richard.tr": [
+  "Soup Song",
+  "Muddy Mouse / Solar Flares",
+  "Team Spirit"
+ ],
+ "alb.robert-wyatt-1985-old-rottenhat.oncelik": "Optional.",
+ "alb.robert-wyatt-1985-old-rottenhat.tip": "Studio",
+ "alb.robert-wyatt-1985-old-rottenhat.tr": [
+  "Alliance",
+  "The United States of Amnesia",
+  "East Timor"
+ ],
+ "alb.robert-wyatt-1991-dondestan.oncelik": "Optional.",
+ "alb.robert-wyatt-1991-dondestan.tip": "Studio",
+ "alb.robert-wyatt-1991-dondestan.tr": [
+  "Costa",
+  "Lisp Service",
+  "Dondestan"
+ ],
+ "alb.robert-wyatt-1997-shleep.tip": "Studio",
+ "alb.robert-wyatt-1997-shleep.tr": [
+  "Heaps of Sheeps",
+  "Free Will and Testament",
+  "Maryan"
+ ],
+ "alb.robert-wyatt-2003-cuckooland.oncelik": "Empfohlen.",
+ "alb.robert-wyatt-2003-cuckooland.tip": "Studio",
+ "alb.robert-wyatt-2003-cuckooland.tr": [
+  "Just a Bit",
+  "Old Europe",
+  "Forest"
+ ],
+ "alb.robert-wyatt-2007-comicopera.oncelik": "Empfohlen.",
+ "alb.robert-wyatt-2007-comicopera.tip": "Studio",
+ "alb.robert-wyatt-2007-comicopera.tr": [
+  "Just as You Are",
+  "Out of the Blue",
+  "Hasta Siempre Comandante"
+ ],
+ "grp.the-wilde-flowers.name": "The Wilde Flowers",
+ "alb.the-wilde-flowers-1994-the-wilde-flowers.tip": "Archivkompilation",
+ "alb.steve-hillage-1975-fish-rising.oncelik": "Empfohlen.",
+ "alb.steve-hillage-1975-fish-rising.tip": "Studio",
+ "alb.steve-hillage-1975-fish-rising.tr": [
+  "Solar Musick Suite",
+  "Fish",
+  "Meditation of the Snake"
+ ],
+ "alb.steve-hillage-1976-l.tip": "Studio",
+ "alb.steve-hillage-1976-l.prod": "Todd Rundgren",
+ "alb.steve-hillage-1976-l.tr": [
+  "Hurdy Gurdy Man",
+  "Electrick Gypsies",
+  "It's All Too Much"
+ ],
+ "alb.steve-hillage-1977-motivation-radio.oncelik": "Empfohlen.",
+ "alb.steve-hillage-1977-motivation-radio.tip": "Studio",
+ "alb.steve-hillage-1977-motivation-radio.prod": "Malcolm Cecil",
+ "alb.steve-hillage-1977-motivation-radio.tr": [
+  "Hello Dawn",
+  "Motivation",
+  "Light in the Sky"
+ ],
+ "alb.steve-hillage-1979-rainbow-dome-musick.tip": "Studio",
+ "alb.steve-hillage-1979-rainbow-dome-musick.tr": [
+  "Garden of Paradise",
+  "Four Ever Rainbow"
+ ],
+ "alb.steve-hillage-1991-system-7.tip": "Studio (System 7)",
+ "grp.phil-manzanera-quiet-sun-801.name": "Phil Manzanera / Quiet Sun / 801",
+ "alb.phil-manzanera-1975-mainstream.tip": "Studio (Quiet Sun)",
+ "alb.phil-manzanera-1975-mainstream.kadro": "Phil Manzanera, Bill MacCormick, Charles Hayward, Dave Jarrett + Brian Eno",
+ "alb.phil-manzanera-1975-mainstream.tr": [
+  "Sol Caliente",
+  "Mummy Was an Asteroid, Daddy Was a Small Non-Stick Kitchen Utensil",
+  "Rongwrong"
+ ],
+ "alb.phil-manzanera-1975-diamond-head.oncelik": "Empfohlen.",
+ "alb.phil-manzanera-1975-diamond-head.tip": "Studio",
+ "alb.phil-manzanera-1976-801-live.tip": "Live (801)",
+ "alb.phil-manzanera-1976-801-live.kadro": "Manzanera, Brian Eno, Bill MacCormick, Francis Monkman, Simon Phillips, Lloyd Watson",
+ "alb.phil-manzanera-1976-801-live.tr": [
+  "Tomorrow Never Knows",
+  "East of Asteroid",
+  "Baby's on Fire",
+  "Third Uncle"
+ ],
+ "grp.uk.name": "UK",
+ "alb.uk-1978-u-k.tip": "Studio",
+ "alb.uk-1979-danger-money.tip": "Studio",
+ "grp.asia.name": "Asia",
+ "alb.asia-1982-asia.tip": "Studio",
+ "alb.asia-1983-alpha.tip": "Studio",
+ "alb.asia-1985-astra.tip": "Studio",
+ "alb.asia-1992-aqua.tip": "Studio",
+ "alb.asia-1992-aqua.tr": [
+  "Who Will Stop the Rain",
+  "Aqua Part One/Two",
+  "Back in Town"
+ ],
+ "alb.asia-1994-aria.tip": "Studio",
+ "alb.asia-1994-aria.tr": [
+  "Anytime",
+  "Are You Big Enough",
+  "Desire"
+ ],
+ "alb.asia-1996-arena.oncelik": "Optional.",
+ "alb.asia-1996-arena.tip": "Studio",
+ "alb.asia-1996-arena.tr": [
+  "Arena",
+  "Two Sides of the Moon",
+  "The Day Before the War"
+ ],
+ "alb.asia-2008-phoenix.tip": "Studio",
+ "alb.asia-2008-phoenix.kadro": "John Wetton, Steve Howe, Carl Palmer, Geoff Downes",
+ "alb.asia-2008-phoenix.tr": [
+  "Never Again",
+  "An Extraordinary Life",
+  "Sleeping Giant / No Way Back / Reprise"
+ ],
+ "alb.asia-2010-omega.oncelik": "Optional.",
+ "alb.asia-2010-omega.tip": "Studio",
+ "alb.asia-2010-omega.tr": [
+  "Finger on the Trigger",
+  "Holy War",
+  "I'm Still the Same"
+ ],
+ "alb.asia-2012-xxx.oncelik": "Optional.",
+ "alb.asia-2012-xxx.tip": "Studio",
+ "alb.asia-2012-xxx.tr": [
+  "Tomorrow the World",
+  "Face on the Bridge",
+  "Judas"
+ ],
+ "alb.asia-2014-gravitas.oncelik": "Optional.",
+ "alb.asia-2014-gravitas.tip": "Studio",
+ "alb.asia-2014-gravitas.kadro": "Wetton, Palmer, Downes, Sam Coulson",
+ "alb.asia-2014-gravitas.tr": [
+  "Valkyrie",
+  "Gravitas",
+  "The Closer I Get to You"
+ ],
+ "grp.gtr.name": "GTR",
+ "alb.gtr-1986-gtr.tip": "Studio",
+ "alb.buggles-1980-the-age-of-plastic.tip": "Studio",
+ "alb.buggles-1981-adventures-in-modern-recording.tip": "Studio",
+ "grp.bruford.name": "Bruford",
+ "alb.bruford-1978-feels-good-to-me.tip": "Studio",
+ "alb.bruford-1979-one-of-a-kind.tip": "Studio",
+ "alb.bruford-1980-gradually-going-tornado.tip": "Studio",
+ "grp.bill-bruford-s-earthworks.name": "Bill Bruford's Earthworks",
+ "alb.bill-bruford-s-earthworks-1987-earthworks.tip": "Studio",
+ "alb.bill-bruford-s-earthworks-1989-dig.tip": "Studio",
+ "alb.bill-bruford-s-earthworks-1989-dig.tr": [
+  "Pilgrims' Way",
+  "Stromboli Kicks",
+  "Gjballa"
+ ],
+ "alb.bill-bruford-s-earthworks-1991-all-heaven-broke-loose.tip": "Studio",
+ "alb.bill-bruford-s-earthworks-1991-all-heaven-broke-loose.tr": [
+  "Candles Still Flicker in Romania's Dark",
+  "Psalm",
+  "Splashing Out"
+ ],
+ "alb.bill-bruford-s-earthworks-1999-a-part-and-yet-apart.oncelik": "Empfohlen.",
+ "alb.bill-bruford-s-earthworks-1999-a-part-and-yet-apart.tip": "Studio",
+ "alb.bill-bruford-s-earthworks-2001-the-sound-of-surprise.oncelik": "Empfohlen.",
+ "alb.bill-bruford-s-earthworks-2001-the-sound-of-surprise.tip": "Studio",
+ "grp.jethro-tull.name": "Jethro Tull",
+ "alb.jethro-tull-1968-this-was.tip": "Studio",
+ "alb.jethro-tull-1968-this-was.kadro": "Ian Anderson, Mick Abrahams, Glenn Cornick, Clive Bunker",
+ "alb.jethro-tull-1969-stand-up.tip": "Studio",
+ "alb.jethro-tull-1969-stand-up.kadro": "Anderson, Martin Barre, Glenn Cornick, Clive Bunker",
+ "alb.jethro-tull-1970-benefit.tip": "Studio",
+ "alb.jethro-tull-1970-benefit.kadro": "Anderson, Barre, Cornick, Bunker, John Evan",
+ "alb.jethro-tull-1971-aqualung.oncelik": "Essenziell — nie auslassen.",
+ "alb.jethro-tull-1971-aqualung.tip": "Studio",
+ "alb.jethro-tull-1971-aqualung.kadro": "Anderson, Barre, Jeffrey Hammond, Clive Bunker, John Evan",
+ "alb.jethro-tull-1972-thick-as-a-brick.tip": "Studio",
+ "alb.jethro-tull-1972-thick-as-a-brick.kadro": "Anderson, Barre, Hammond, John Evan, Barriemore Barlow",
+ "alb.jethro-tull-1973-a-passion-play.tip": "Studio",
+ "alb.jethro-tull-1973-a-passion-play.kadro": "Anderson, Barre, Hammond, Evan, Barlow",
+ "alb.jethro-tull-1974-war-child.tip": "Studio",
+ "alb.jethro-tull-1974-war-child.kadro": "Anderson, Barre, Hammond, Evan, Barlow",
+ "alb.jethro-tull-1975-minstrel-in-the-gallery.tip": "Studio",
+ "alb.jethro-tull-1975-minstrel-in-the-gallery.kadro": "Anderson, Barre, Hammond, Evan, Barlow",
+ "alb.jethro-tull-1977-songs-from-the-wood.tip": "Studio",
+ "alb.jethro-tull-1977-songs-from-the-wood.kadro": "Anderson, Barre, John Glascock, Evan, Barlow, David Palmer",
+ "alb.jethro-tull-1978-heavy-horses.oncelik": "Empfohlen.",
+ "alb.jethro-tull-1978-heavy-horses.tip": "Studio",
+ "alb.jethro-tull-1978-heavy-horses.kadro": "Anderson, Barre, Glascock, Evan, Barlow, Palmer + Darryl Way (keman)",
+ "alb.jethro-tull-1979-stormwatch.tip": "Studio",
+ "alb.jethro-tull-1980-a.tip": "Studio",
+ "alb.jethro-tull-1980-a.kadro": "Anderson, Barre, Dave Pegg, Eddie Jobson, Mark Craney",
+ "alb.jethro-tull-1980-a.tr": [
+  "Black Sunday",
+  "Fylingdale Flyer",
+  "And Further On"
+ ],
+ "alb.jethro-tull-1982-the-broadsword-and-the-beast.tip": "Studio",
+ "alb.jethro-tull-1982-the-broadsword-and-the-beast.kadro": "Anderson, Barre, Pegg, Peter-John Vettese, Gerry Conway",
+ "alb.jethro-tull-1982-the-broadsword-and-the-beast.tr": [
+  "Broadsword",
+  "Beastie",
+  "Fallen on Hard Times",
+  "Clasp"
+ ],
+ "alb.jethro-tull-1987-crest-of-a-knave.tip": "Studio",
+ "alb.jethro-tull-1987-crest-of-a-knave.kadro": "Anderson, Barre, Pegg (+ Gerry Conway, Doane Perry)",
+ "alb.jethro-tull-1995-roots-to-branches.tip": "Studio",
+ "alb.jethro-tull-1995-roots-to-branches.kadro": "Anderson, Barre, Andrew Giddings, Dave Pegg / Steve Bailey, Doane Perry",
+ "alb.jethro-tull-1995-roots-to-branches.tr": [
+  "Roots to Branches",
+  "Rare and Precious Chain",
+  "Dangerous Veils",
+  "Beside Myself"
+ ],
+ "alb.jethro-tull-1999-j-tull-dot-com.oncelik": "Optional.",
+ "alb.jethro-tull-1999-j-tull-dot-com.tip": "Studio",
+ "alb.jethro-tull-1999-j-tull-dot-com.kadro": "Anderson, Barre, Giddings, Jonathan Noyce, Doane Perry",
+ "alb.jethro-tull-1999-j-tull-dot-com.tr": [
+  "Spiral",
+  "Dot Com",
+  "Hunt by Numbers"
+ ],
+ "alb.jethro-tull-2003-the-jethro-tull-christmas-album.tr": [
+  "Birthday Card at Christmas",
+  "A Christmas Song",
+  "Weathercock"
+ ],
+ "grp.gentle-giant.name": "Gentle Giant",
+ "alb.gentle-giant-1970-gentle-giant.tip": "Studio",
+ "alb.gentle-giant-1971-acquiring-the-taste.tip": "Studio",
+ "alb.gentle-giant-1972-three-friends.tip": "Studio",
+ "alb.gentle-giant-1972-octopus.tip": "Studio",
+ "alb.gentle-giant-1972-octopus.kadro": "Derek, Ray, Phil Shulman, Kerry Minnear, Gary Green, John Weathers",
+ "alb.gentle-giant-1973-in-a-glass-house.oncelik": "Essenziell.",
+ "alb.gentle-giant-1973-in-a-glass-house.tip": "Studio",
+ "alb.gentle-giant-1973-in-a-glass-house.kadro": "Derek & Ray Shulman, Minnear, Green, Weathers",
+ "alb.gentle-giant-1974-the-power-and-the-glory.tip": "Studio",
+ "alb.gentle-giant-1974-the-power-and-the-glory.kadro": "Derek & Ray Shulman, Minnear, Green, Weathers",
+ "alb.gentle-giant-1975-free-hand.tip": "Studio",
+ "alb.gentle-giant-1975-free-hand.kadro": "Derek & Ray Shulman, Minnear, Green, Weathers",
+ "alb.gentle-giant-1976-interview.tip": "Studio",
+ "alb.gentle-giant-1977-the-missing-piece.tip": "Studio",
+ "alb.gentle-giant-1978-giant-for-a-day.tip": "Studio",
+ "alb.gentle-giant-1978-giant-for-a-day.tr": [
+  "Giant for a Day",
+  "Words from the Wise",
+  "Thank You"
+ ],
+ "alb.gentle-giant-1980-civilian.tip": "Studio",
+ "grp.van-der-graaf-generator.name": "Van der Graaf Generator",
+ "alb.van-der-graaf-generator-1969-the-aerosol-grey-machine.tip": "Studio",
+ "alb.van-der-graaf-generator-1969-the-aerosol-grey-machine.kadro": "Peter Hammill, Hugh Banton, Keith Ellis, Guy Evans",
+ "alb.van-der-graaf-generator-1970-the-least-we-can-do-is-wave-to-each-other.oncelik": "Empfohlen.",
+ "alb.van-der-graaf-generator-1970-the-least-we-can-do-is-wave-to-each-other.tip": "Studio",
+ "alb.van-der-graaf-generator-1970-the-least-we-can-do-is-wave-to-each-other.kadro": "Hammill, Banton, Evans, David Jackson, Nic Potter",
+ "alb.van-der-graaf-generator-1970-h-to-he-who-am-the-only-one.oncelik": "Empfohlen.",
+ "alb.van-der-graaf-generator-1970-h-to-he-who-am-the-only-one.tip": "Studio",
+ "alb.van-der-graaf-generator-1970-h-to-he-who-am-the-only-one.kadro": "Hammill, Banton, Evans, Jackson, Nic Potter + Robert Fripp",
+ "alb.van-der-graaf-generator-1971-pawn-hearts.oncelik": "Essenziell — nie auslassen.",
+ "alb.van-der-graaf-generator-1971-pawn-hearts.tip": "Studio",
+ "alb.van-der-graaf-generator-1971-pawn-hearts.kadro": "Hammill, Banton, Evans, Jackson + Robert Fripp",
+ "alb.van-der-graaf-generator-1975-godbluff.tip": "Studio",
+ "alb.van-der-graaf-generator-1975-godbluff.kadro": "Hammill, Banton, Evans, Jackson",
+ "alb.van-der-graaf-generator-1976-still-life.oncelik": "Essenziell.",
+ "alb.van-der-graaf-generator-1976-still-life.tip": "Studio",
+ "alb.van-der-graaf-generator-1976-still-life.kadro": "Hammill, Banton, Evans, Jackson",
+ "alb.van-der-graaf-generator-1976-world-record.oncelik": "Empfohlen.",
+ "alb.van-der-graaf-generator-1976-world-record.tip": "Studio",
+ "alb.van-der-graaf-generator-1976-world-record.kadro": "Hammill, Banton, Evans, Jackson",
+ "alb.van-der-graaf-generator-1978-vital.tip": "Live",
+ "alb.van-der-graaf-generator-1978-vital.tr": [
+  "Ship of Fools",
+  "Still Life",
+  "Nadir's Big Chance"
+ ],
+ "alb.van-der-graaf-generator-2005-present.oncelik": "Empfohlen.",
+ "alb.van-der-graaf-generator-2005-present.tip": "Studio (Doppel-CD)",
+ "alb.van-der-graaf-generator-2005-present.kadro": "Hammill, Banton, Evans, Jackson",
+ "alb.van-der-graaf-generator-2005-present.tr": [
+  "Every Bloody Emperor",
+  "Nutter Alert",
+  "Abandon Ship!"
+ ],
+ "alb.van-der-graaf-generator-2008-trisector.oncelik": "Optional.",
+ "alb.van-der-graaf-generator-2008-trisector.tip": "Studio",
+ "alb.van-der-graaf-generator-2008-trisector.kadro": "Hammill, Banton, Evans",
+ "alb.van-der-graaf-generator-2008-trisector.tr": [
+  "The Hurlyburly",
+  "Interference Patterns",
+  "Over the Hill"
+ ],
+ "alb.van-der-graaf-generator-2011-a-grounding-in-numbers.oncelik": "Optional.",
+ "alb.van-der-graaf-generator-2011-a-grounding-in-numbers.tip": "Studio",
+ "alb.van-der-graaf-generator-2011-a-grounding-in-numbers.kadro": "Hammill, Banton, Evans",
+ "alb.van-der-graaf-generator-2011-a-grounding-in-numbers.tr": [
+  "Mathematics",
+  "Mr. Sands",
+  "Snake Oil"
+ ],
+ "alb.van-der-graaf-generator-2016-do-not-disturb.tip": "Studio",
+ "alb.van-der-graaf-generator-2016-do-not-disturb.kadro": "Hammill, Banton, Evans",
+ "alb.van-der-graaf-generator-2016-do-not-disturb.tr": [
+  "Alfa Berlina",
+  "Room 1210",
+  "Go"
+ ],
+ "grp.camel.name": "Camel",
+ "alb.camel-1973-camel.oncelik": "Optional.",
+ "alb.camel-1973-camel.tip": "Studio",
+ "alb.camel-1973-camel.kadro": "Andrew Latimer, Peter Bardens, Doug Ferguson, Andy Ward",
+ "alb.camel-1974-mirage.oncelik": "Essenziell.",
+ "alb.camel-1974-mirage.tip": "Studio",
+ "alb.camel-1974-mirage.kadro": "Latimer, Bardens, Ferguson, Ward",
+ "alb.camel-1975-the-snow-goose.tip": "Studio",
+ "alb.camel-1975-the-snow-goose.kadro": "Latimer, Bardens, Ferguson, Ward + David Bedford (orkestrasyon)",
+ "alb.camel-1976-moonmadness.tip": "Studio",
+ "alb.camel-1976-moonmadness.kadro": "Latimer, Bardens, Ferguson, Ward",
+ "alb.camel-1977-rain-dances.oncelik": "Empfohlen.",
+ "alb.camel-1977-rain-dances.tip": "Studio",
+ "alb.camel-1978-breathless.oncelik": "Optional.",
+ "alb.camel-1978-breathless.tip": "Studio",
+ "alb.camel-1978-breathless.kadro": "Latimer, Bardens, Sinclair, Ward, Collins",
+ "alb.camel-1979-i-can-see-your-house-from-here.tip": "Studio",
+ "alb.camel-1979-i-can-see-your-house-from-here.kadro": "Latimer, Ward, Colin Bass, Jan Schelhaas, Kit Watkins",
+ "alb.camel-1981-nude.tip": "Studio",
+ "alb.camel-1981-nude.kadro": "Latimer, Ward, Colin Bass, Duncan Mackay + Mel Collins, Jan Schelhaas",
+ "alb.camel-1982-the-single-factor.tip": "Studio",
+ "alb.camel-1982-the-single-factor.tr": [
+  "Sasquatch",
+  "Heroes",
+  "Selva"
+ ],
+ "alb.camel-1984-stationary-traveller.tip": "Studio",
+ "alb.camel-1991-dust-and-dreams.oncelik": "Empfohlen.",
+ "alb.camel-1991-dust-and-dreams.tip": "Studio",
+ "alb.camel-1991-dust-and-dreams.tr": [
+  "Go West",
+  "Rose of Sharon",
+  "End of the Line"
+ ],
+ "alb.camel-1996-harbour-of-tears.tip": "Studio",
+ "alb.camel-1996-harbour-of-tears.kadro": "Andrew Latimer, Colin Bass, Mickey Simmonds + konuklar",
+ "alb.camel-1996-harbour-of-tears.tr": [
+  "Irish Air",
+  "Harbour of Tears",
+  "Send Home the Slates",
+  "Coming of Age"
+ ],
+ "alb.camel-1999-rajaz.tip": "Studio",
+ "alb.camel-2002-a-nod-and-a-wink.tip": "Studio",
+ "alb.camel-2002-a-nod-and-a-wink.kadro": "Andrew Latimer, Colin Bass, Guy LeBlanc, Denis Clement",
+ "alb.camel-2002-a-nod-and-a-wink.tr": [
+  "A Nod and the Wink",
+  "For Today",
+  "Squigely Fair"
+ ],
+ "grp.renaissance.name": "Renaissance",
+ "alb.renaissance-1972-prologue.tip": "Studio",
+ "alb.renaissance-1973-ashes-are-burning.tip": "Studio",
+ "alb.renaissance-1974-turn-of-the-cards.tip": "Studio",
+ "alb.renaissance-1975-scheherazade-and-other-stories.tip": "Studio",
+ "alb.renaissance-1976-live-at-carnegie-hall.oncelik": "Essenziell.",
+ "alb.renaissance-1976-live-at-carnegie-hall.tip": "Live",
+ "alb.renaissance-1976-live-at-carnegie-hall.tr": [
+  "Song of Scheherazade",
+  "Mother Russia",
+  "Ashes Are Burning"
+ ],
+ "alb.renaissance-1977-novella.tip": "Studio",
+ "alb.renaissance-1977-novella.tr": [
+  "Can You Hear Me?",
+  "The Sisters",
+  "Midas Man"
+ ],
+ "alb.renaissance-1978-a-song-for-all-seasons.tip": "Studio",
+ "alb.renaissance-2013-grandine-il-vento-symphony-of-light.oncelik": "Optional.",
+ "alb.renaissance-2013-grandine-il-vento-symphony-of-light.tip": "Studio",
+ "alb.renaissance-2013-grandine-il-vento-symphony-of-light.tr": [
+  "Symphony of Light",
+  "Grandine il vento",
+  "Blood Silver Like Moonlight"
+ ],
+ "grp.curved-air.name": "Curved Air",
+ "alb.curved-air-1970-air-conditioning.tip": "Studio",
+ "alb.curved-air-1971-second-album.tip": "Studio",
+ "alb.curved-air-1972-phantasmagoria.tip": "Studio",
+ "alb.curved-air-1973-air-cut.tip": "Studio",
+ "grp.greenslade.name": "Greenslade",
+ "alb.greenslade-1973-greenslade.tip": "Studio",
+ "alb.greenslade-1973-greenslade.tr": [
+  "Feathered Friends",
+  "An English Western",
+  "Sundance"
+ ],
+ "alb.greenslade-1973-bedside-manners-are-extra.tip": "Studio",
+ "alb.greenslade-1974-spyglass-guest.tip": "Studio",
+ "alb.greenslade-1975-time-and-tide.tip": "Studio",
+ "alb.greenslade-1975-time-and-tide.tr": [
+  "Animal Farm",
+  "Newsworth",
+  "Time"
+ ],
+ "grp.gryphon.name": "Gryphon",
+ "alb.gryphon-1973-gryphon.tip": "Studio",
+ "alb.gryphon-1973-gryphon.tr": [
+  "Kemp's Jig",
+  "Sir Gavin Grimbold",
+  "The Unquiet Grave"
+ ],
+ "alb.gryphon-1974-midnight-mushrumps.tip": "Studio",
+ "alb.gryphon-1974-red-queen-to-gryphon-three.tip": "Studio",
+ "alb.gryphon-1975-raindance.tip": "Studio",
+ "alb.gryphon-1975-raindance.tr": [
+  "Raindance",
+  "Down the Dog",
+  "Le Cambrioleur Est Dans Le Mouchoir"
+ ],
+ "alb.gryphon-1977-treason.tip": "Studio",
+ "alb.gryphon-1977-treason.tr": [
+  "Spring Song",
+  "Le Martin Pêcheur",
+  "Falero Lady"
+ ],
+ "grp.family.name": "Family",
+ "alb.family-1968-music-in-a-doll-s-house.tip": "Studio",
+ "alb.family-1968-music-in-a-doll-s-house.tr": [
+  "The Chase",
+  "Mellowing Grey",
+  "Old Songs New Songs"
+ ],
+ "alb.family-1969-family-entertainment.tip": "Studio",
+ "alb.family-1970-a-song-for-me.tip": "Studio",
+ "alb.family-1970-a-song-for-me.tr": [
+  "Drowned in Wine",
+  "A Song for Me",
+  "The Cat and the Rat"
+ ],
+ "alb.family-1970-anyway.tip": "Studio",
+ "alb.family-1970-anyway.tr": [
+  "Good News Bad News",
+  "Holding the Compass",
+  "Strange Band"
+ ],
+ "alb.family-1971-fearless.tip": "Studio",
+ "alb.family-1972-bandstand.tip": "Studio",
+ "grp.focus.name": "Focus",
+ "alb.focus-1970-in-and-out-of-focus.tip": "Studio",
+ "alb.focus-1971-moving-waves.tip": "Studio",
+ "alb.focus-1972-focus-3.tip": "Studio",
+ "alb.focus-1974-hamburger-concerto.tip": "Studio",
+ "alb.focus-1975-mother-focus.oncelik": "Verzichtbar.",
+ "alb.focus-1975-mother-focus.tip": "Studio",
+ "alb.focus-1975-mother-focus.tr": [
+  "Mother Focus",
+  "I Need a Bathroom"
+ ],
+ "alb.focus-2002-focus-8.oncelik": "Optional.",
+ "alb.focus-2002-focus-8.tip": "Studio",
+ "alb.focus-2012-focus-x.oncelik": "Optional.",
+ "alb.focus-2012-focus-x.tip": "Studio",
+ "grp.barclay-james-harvest.name": "Barclay James Harvest",
+ "alb.barclay-james-harvest-1970-barclay-james-harvest.tip": "Studio",
+ "alb.barclay-james-harvest-1970-barclay-james-harvest.tr": [
+  "Taking Some Time On",
+  "Mother Dear",
+  "Dark Now My Sky"
+ ],
+ "alb.barclay-james-harvest-1971-once-again.tip": "Studio",
+ "alb.barclay-james-harvest-1972-baby-james-harvest.tip": "Studio",
+ "alb.barclay-james-harvest-1974-everyone-is-everybody-else.tip": "Studio",
+ "alb.barclay-james-harvest-1975-time-honoured-ghosts.tip": "Studio",
+ "alb.barclay-james-harvest-1976-octoberon.oncelik": "Empfohlen.",
+ "alb.barclay-james-harvest-1976-octoberon.tip": "Studio",
+ "alb.barclay-james-harvest-1976-octoberon.tr": [
+  "The World Goes On",
+  "Rock 'n' Roll Star",
+  "Suicide?"
+ ],
+ "alb.barclay-james-harvest-1977-gone-to-earth.oncelik": "Essenziell.",
+ "alb.barclay-james-harvest-1977-gone-to-earth.tip": "Studio",
+ "alb.barclay-james-harvest-1977-gone-to-earth.tr": [
+  "Hymn",
+  "Poor Man's Moody Blues",
+  "Spirit on the Water"
+ ],
+ "alb.barclay-james-harvest-2013-north.oncelik": "Optional.",
+ "alb.barclay-james-harvest-2013-north.tip": "Studio",
+ "grp.henry-cow.name": "Henry Cow",
+ "alb.henry-cow-1973-legend-leg-end.tip": "Studio",
+ "alb.henry-cow-1974-unrest.tip": "Studio",
+ "alb.henry-cow-1975-in-praise-of-learning.tip": "Studio",
+ "alb.henry-cow-1979-western-culture.tip": "Studio",
+ "alb.henry-cow-1979-western-culture.tr": [
+  "Industry",
+  "The Decay of Cities",
+  "Falling Away"
+ ],
+ "grp.art-bears.name": "Art Bears",
+ "alb.art-bears-1978-hopes-and-fears.tip": "Studio",
+ "alb.art-bears-1979-winter-songs.tip": "Studio",
+ "alb.art-bears-1979-winter-songs.tr": [
+  "The Bath of Stars",
+  "First Things First",
+  "Winter/War"
+ ],
+ "alb.art-bears-1981-the-world-as-it-is-today.tip": "Studio",
+ "alb.art-bears-1981-the-world-as-it-is-today.tr": [
+  "The Song of Investment Capital Overseas",
+  "Truth",
+  "Albion, Awake!"
+ ],
+ "grp.this-heat.name": "This Heat",
+ "alb.this-heat-1979-this-heat.tip": "Studio",
+ "alb.this-heat-1981-deceit.tip": "Studio",
+ "alb.ian-anderson-1983-walk-into-light.tip": "Studio",
+ "alb.ian-anderson-1983-walk-into-light.tr": [
+  "Fly by Night",
+  "Made in England",
+  "Walk into Light"
+ ],
+ "alb.ian-anderson-1995-divinities-twelve-dances-with-god.oncelik": "Optional.",
+ "alb.ian-anderson-1995-divinities-twelve-dances-with-god.tip": "Klassik/Instrumental",
+ "alb.ian-anderson-1995-divinities-twelve-dances-with-god.tr": [
+  "In a Stone Circle",
+  "In Sight of the Minaret",
+  "At Their Father's Knee"
+ ],
+ "alb.ian-anderson-2000-the-secret-language-of-birds.oncelik": "Empfohlen.",
+ "alb.ian-anderson-2000-the-secret-language-of-birds.tip": "Studio",
+ "alb.ian-anderson-2000-the-secret-language-of-birds.tr": [
+  "The Secret Language of Birds",
+  "The Water Carrier",
+  "Boris Dancing"
+ ],
+ "alb.ian-anderson-2012-thick-as-a-brick-2.tip": "Studio",
+ "alb.ian-anderson-2012-thick-as-a-brick-2.tr": [
+  "From a Pebble Thrown",
+  "Banker Bets, Banker Wins",
+  "A Change of Horses",
+  "Wootton Bassett Town"
+ ],
+ "alb.ian-anderson-2014-homo-erraticus.oncelik": "Empfohlen.",
+ "alb.ian-anderson-2014-homo-erraticus.tip": "Studio",
+ "alb.ian-anderson-2014-homo-erraticus.tr": [
+  "Doggerland",
+  "The Turnpike Inn",
+  "Enter the Uninvited"
+ ],
+ "alb.peter-hammill-1971-fool-s-mate.oncelik": "Empfohlen.",
+ "alb.peter-hammill-1971-fool-s-mate.tip": "Studio",
+ "alb.peter-hammill-1974-the-silent-corner-and-the-empty-stage.oncelik": "Essenziell.",
+ "alb.peter-hammill-1974-the-silent-corner-and-the-empty-stage.tip": "Studio",
+ "alb.peter-hammill-1974-the-silent-corner-and-the-empty-stage.tr": [
+  "Modern",
+  "A Louse Is Not a Home",
+  "Red Shift"
+ ],
+ "alb.peter-hammill-1975-nadir-s-big-chance.tip": "Studio",
+ "alb.peter-hammill-1975-nadir-s-big-chance.tr": [
+  "Nadir's Big Chance",
+  "Birthday Special",
+  "Airport"
+ ],
+ "alb.peter-hammill-1980-a-black-box.oncelik": "Essenziell.",
+ "alb.peter-hammill-1980-a-black-box.tip": "Studio",
+ "alb.peter-hammill-1980-a-black-box.tr": [
+  "Flight",
+  "Losing Faith in Words",
+  "The Jargon King"
+ ],
+ "alb.peter-hammill-2004-incoherence.oncelik": "Empfohlen.",
+ "alb.peter-hammill-2004-incoherence.tip": "Studio",
+ "alb.peter-hammill-2004-incoherence.tr": [
+  "Incoherence"
+ ],
+ "grp.ten-years-after.name": "Ten Years After",
+ "alb.ten-years-after-1968-undead.oncelik": "Empfohlen.",
+ "alb.ten-years-after-1968-undead.tip": "Live",
+ "alb.ten-years-after-1968-undead.tr": [
+  "I'm Going Home",
+  "Woodchopper's Ball",
+  "I May Be Wrong, But I Won't Be Wrong Always"
+ ],
+ "alb.ten-years-after-1969-stonedhenge.oncelik": "Optional.",
+ "alb.ten-years-after-1969-stonedhenge.tip": "Studio",
+ "alb.ten-years-after-1969-stonedhenge.tr": [
+  "Going to Try",
+  "Hear Me Calling",
+  "Speed Kills"
+ ],
+ "alb.ten-years-after-1969-ssssh.oncelik": "Empfohlen.",
+ "alb.ten-years-after-1969-ssssh.tip": "Studio",
+ "alb.ten-years-after-1969-ssssh.tr": [
+  "Good Morning Little Schoolgirl",
+  "I Woke Up This Morning",
+  "Stoned Woman"
+ ],
+ "alb.ten-years-after-1970-cricklewood-green.oncelik": "Essenziell.",
+ "alb.ten-years-after-1970-cricklewood-green.tip": "Studio",
+ "alb.ten-years-after-1970-cricklewood-green.tr": [
+  "Love Like a Man",
+  "50,000 Miles Beneath My Brain",
+  "Me and My Baby"
+ ],
+ "alb.ten-years-after-1971-a-space-in-time.oncelik": "Essenziell.",
+ "alb.ten-years-after-1971-a-space-in-time.tip": "Studio",
+ "alb.ten-years-after-1971-a-space-in-time.tr": [
+  "I'd Love to Change the World",
+  "One of These Days",
+  "Hard Monkeys"
+ ],
+ "grp.marillion.name": "Marillion",
+ "alb.marillion-1983-script-for-a-jester-s-tear.oncelik": "Essenziell.",
+ "alb.marillion-1983-script-for-a-jester-s-tear.tip": "Studio",
+ "alb.marillion-1983-script-for-a-jester-s-tear.kadro": "Fish, Steve Rothery, Mark Kelly, Pete Trewavas, Mick Pointer",
+ "alb.marillion-1983-script-for-a-jester-s-tear.prod": "Nick Tauber",
+ "alb.marillion-1984-fugazi.oncelik": "Optional.",
+ "alb.marillion-1984-fugazi.tip": "Studio",
+ "alb.marillion-1984-fugazi.kadro": "Fish, Rothery, Kelly, Trewavas, Ian Mosley",
+ "alb.marillion-1985-misplaced-childhood.tip": "Studio",
+ "alb.marillion-1985-misplaced-childhood.kadro": "Fish, Rothery, Kelly, Trewavas, Mosley",
+ "alb.marillion-1985-misplaced-childhood.prod": "Chris Kimsey",
+ "alb.marillion-1987-clutching-at-straws.tip": "Studio",
+ "alb.marillion-1987-clutching-at-straws.kadro": "Fish, Rothery, Kelly, Trewavas, Mosley",
+ "alb.marillion-1989-seasons-end.tip": "Studio",
+ "alb.marillion-1989-seasons-end.kadro": "Steve Hogarth, Rothery, Kelly, Trewavas, Mosley",
+ "alb.marillion-1991-holidays-in-eden.tip": "Studio",
+ "alb.marillion-1994-brave.tip": "Studio",
+ "alb.marillion-1995-afraid-of-sunlight.oncelik": "Essenziell.",
+ "alb.marillion-1995-afraid-of-sunlight.tip": "Studio",
+ "alb.marillion-1995-afraid-of-sunlight.kadro": "Hogarth, Rothery, Kelly, Trewavas, Mosley",
+ "alb.marillion-1995-afraid-of-sunlight.prod": "Dave Meegan",
+ "alb.marillion-1997-this-strange-engine.oncelik": "Empfohlen.",
+ "alb.marillion-1997-this-strange-engine.tip": "Studio",
+ "alb.marillion-1997-this-strange-engine.kadro": "Hogarth, Rothery, Kelly, Trewavas, Mosley",
+ "alb.marillion-1998-radiation.oncelik": "Optional.",
+ "alb.marillion-1998-radiation.tip": "Studio",
+ "alb.marillion-1998-radiation.tr": [
+  "Cathedral Wall",
+  "A Few Words for the Dead",
+  "These Chains"
+ ],
+ "alb.marillion-2001-anoraknophobia.tip": "Studio",
+ "alb.marillion-2001-anoraknophobia.tr": [
+  "Quartz",
+  "This Is the 21st Century",
+  "When I Meet God"
+ ],
+ "alb.marillion-2004-marbles.tip": "Studio",
+ "alb.marillion-2004-marbles.kadro": "Hogarth, Rothery, Kelly, Trewavas, Mosley",
+ "alb.marillion-2004-marbles.prod": "Dave Meegan",
+ "alb.marillion-2007-somewhere-else.oncelik": "Verzichtbar.",
+ "alb.marillion-2007-somewhere-else.tip": "Studio",
+ "alb.marillion-2007-somewhere-else.tr": [
+  "The Other Half",
+  "Most Toys",
+  "Faith"
+ ],
+ "alb.marillion-2008-happiness-is-the-road.oncelik": "Optional.",
+ "alb.marillion-2008-happiness-is-the-road.tip": "Studio (Doppel-CD)",
+ "alb.marillion-2008-happiness-is-the-road.tr": [
+  "Essence",
+  "Real Tears for Sale",
+  "Whatever Is Wrong with You"
+ ],
+ "alb.marillion-2012-sounds-that-can-t-be-made.oncelik": "Empfohlen.",
+ "alb.marillion-2012-sounds-that-can-t-be-made.tip": "Studio",
+ "alb.marillion-2012-sounds-that-can-t-be-made.tr": [
+  "Gaza",
+  "Montreal",
+  "The Sky Above the Rain"
+ ],
+ "alb.marillion-2016-f-e-a-r.tip": "Studio",
+ "alb.marillion-2016-f-e-a-r.kadro": "Hogarth, Rothery, Kelly, Trewavas, Mosley",
+ "alb.marillion-2016-f-e-a-r.prod": "Michael Hunter",
+ "alb.marillion-2016-f-e-a-r.tr": [
+  "El Dorado",
+  "The Leavers",
+  "The New Kings"
+ ],
+ "grp.iq.name": "IQ",
+ "alb.iq-1983-tales-from-the-lush-attic.tip": "Studio",
+ "alb.iq-1985-the-wake.tip": "Studio",
+ "alb.iq-1987-nomzamo.tip": "Studio",
+ "alb.iq-1989-are-you-sitting-comfortably.tip": "Studio",
+ "alb.iq-1989-are-you-sitting-comfortably.tr": [
+  "War Heroes",
+  "Drive On",
+  "Nobody's Perfect"
+ ],
+ "alb.iq-1993-ever.tip": "Studio",
+ "alb.iq-1997-subterranea.oncelik": "Essenziell.",
+ "alb.iq-1997-subterranea.tip": "Studio (Doppel-CD)",
+ "alb.iq-1997-subterranea.tr": [
+  "Subterranea",
+  "The Sense in Sanity",
+  "The Narrow Margin"
+ ],
+ "alb.iq-2000-the-seventh-house.oncelik": "Empfohlen.",
+ "alb.iq-2000-the-seventh-house.tip": "Studio",
+ "alb.iq-2000-the-seventh-house.tr": [
+  "The Seventh House",
+  "Zero Hour",
+  "Guiding Light"
+ ],
+ "alb.iq-2004-dark-matter.oncelik": "Essenziell.",
+ "alb.iq-2004-dark-matter.tip": "Studio",
+ "alb.iq-2004-dark-matter.tr": [
+  "Sacred Sound",
+  "Harvest of Souls",
+  "Red Dust Shadow"
+ ],
+ "alb.iq-2009-frequency.oncelik": "Optional.",
+ "alb.iq-2009-frequency.tip": "Studio",
+ "alb.iq-2009-frequency.tr": [
+  "Frequency",
+  "Life Support",
+  "The Province"
+ ],
+ "alb.iq-2014-the-road-of-bones.tip": "Studio",
+ "alb.iq-2014-the-road-of-bones.tr": [
+  "From the Outside In",
+  "The Road of Bones",
+  "Without Walls"
+ ],
+ "alb.iq-2019-resistance.oncelik": "Empfohlen.",
+ "alb.iq-2019-resistance.tip": "Studio (Doppel-CD)",
+ "alb.iq-2019-resistance.tr": [
+  "A Missile",
+  "Stay Down",
+  "Fallout"
+ ],
+ "grp.pendragon.name": "Pendragon",
+ "alb.pendragon-1985-the-jewel.tip": "Studio",
+ "alb.pendragon-1985-the-jewel.tr": [
+  "Higher Circles",
+  "Alaska",
+  "The Black Knight"
+ ],
+ "alb.pendragon-1988-kowtow.tip": "Studio",
+ "alb.pendragon-1988-kowtow.tr": [
+  "Saved by You",
+  "2 a.m.",
+  "Kowtow"
+ ],
+ "alb.pendragon-1991-the-world.tip": "Studio",
+ "alb.pendragon-1993-the-window-of-life.tip": "Studio",
+ "alb.pendragon-1996-the-masquerade-overture.oncelik": "Essenziell.",
+ "alb.pendragon-1996-the-masquerade-overture.tip": "Studio",
+ "alb.pendragon-1996-the-masquerade-overture.tr": [
+  "The Pursuit of Excellence",
+  "Paintbox",
+  "The Masters of Illusion"
+ ],
+ "alb.pendragon-2001-not-of-this-world.oncelik": "Empfohlen.",
+ "alb.pendragon-2001-not-of-this-world.tip": "Studio",
+ "alb.pendragon-2008-pure.oncelik": "Empfohlen.",
+ "alb.pendragon-2008-pure.tip": "Studio",
+ "alb.pendragon-2008-pure.tr": [
+  "Indigo",
+  "Eraserhead",
+  "It's Only Me"
+ ],
+ "alb.pendragon-2020-love-over-fear.oncelik": "Optional.",
+ "alb.pendragon-2020-love-over-fear.tip": "Studio",
+ "alb.pendragon-2020-love-over-fear.tr": [
+  "Everything",
+  "Truth and Lies",
+  "Water"
+ ],
+ "grp.pallas.name": "Pallas",
+ "alb.pallas-1981-arrive-alive.tip": "Studio",
+ "alb.pallas-1984-the-sentinel.tip": "Studio",
+ "alb.pallas-1986-the-wedge.tip": "Studio",
+ "alb.pallas-1986-the-wedge.tr": [
+  "Throwing Stones at the Wind",
+  "Win or Lose",
+  "Just a Memory"
+ ],
+ "alb.twelfth-night-1982-fact-and-fiction.tip": "Studio",
+ "alb.twelfth-night-1984-art-and-illusion.tip": "Studio",
+ "alb.twelfth-night-1984-art-and-illusion.tr": [
+  "Art and Illusion",
+  "First New Day",
+  "The Honeymoon Is Over"
+ ],
+ "alb.twelfth-night-1986-twelfth-night-xii.tip": "Studio",
+ "alb.twelfth-night-1986-twelfth-night-xii.tr": [
+  "Take a Look",
+  "Blue Powder Monkey",
+  "Shame"
+ ],
+ "alb.fish-1990-vigil-in-a-wilderness-of-mirrors.oncelik": "Essenziell.",
+ "alb.fish-1990-vigil-in-a-wilderness-of-mirrors.tip": "Studio",
+ "alb.fish-1990-vigil-in-a-wilderness-of-mirrors.tr": [
+  "Vigil",
+  "Big Wedge",
+  "State of Mind",
+  "A Gentleman's Excuse Me"
+ ],
+ "alb.fish-1997-sunsets-on-empire.oncelik": "Empfohlen.",
+ "alb.fish-1997-sunsets-on-empire.tip": "Studio",
+ "alb.fish-1997-sunsets-on-empire.prod": "Steven Wilson",
+ "alb.fish-1997-sunsets-on-empire.tr": [
+  "The Perception of Johnny Punter",
+  "Goldfish and Clowns",
+  "Say It with Flowers"
+ ],
+ "alb.fish-2007-13th-star.oncelik": "Empfohlen.",
+ "alb.fish-2007-13th-star.tip": "Studio",
+ "alb.fish-2007-13th-star.tr": [
+  "Circle Line",
+  "Arc of the Curve",
+  "13th Star"
+ ],
+ "alb.fish-2013-a-feast-of-consequences.oncelik": "Essenziell.",
+ "alb.fish-2013-a-feast-of-consequences.tip": "Studio",
+ "alb.fish-2013-a-feast-of-consequences.tr": [
+  "High Wood",
+  "Crucifix Corner",
+  "A Feast of Consequences"
+ ],
+ "alb.fish-2020-weltschmerz.tip": "Studio (Doppel-CD)",
+ "grp.world-trade.name": "World Trade",
+ "alb.world-trade-1989-world-trade.tip": "Studio",
+ "alb.world-trade-1995-euphoria.tip": "Studio",
+ "grp.spock-s-beard.name": "Spock's Beard",
+ "alb.spock-s-beard-1995-the-light.tip": "Studio",
+ "alb.spock-s-beard-1996-beware-of-darkness.oncelik": "Empfohlen.",
+ "alb.spock-s-beard-1996-beware-of-darkness.tip": "Studio",
+ "alb.spock-s-beard-1996-beware-of-darkness.tr": [
+  "Beware of Darkness",
+  "Thoughts",
+  "The Doorway"
+ ],
+ "alb.spock-s-beard-1998-the-kindness-of-strangers.oncelik": "Essenziell.",
+ "alb.spock-s-beard-1998-the-kindness-of-strangers.tip": "Studio",
+ "alb.spock-s-beard-1998-the-kindness-of-strangers.tr": [
+  "The Good Don't Last",
+  "June",
+  "Harm's Way"
+ ],
+ "alb.spock-s-beard-2000-v.oncelik": "Essenziell.",
+ "alb.spock-s-beard-2000-v.tip": "Studio",
+ "alb.spock-s-beard-2002-snow.oncelik": "Essenziell.",
+ "alb.spock-s-beard-2002-snow.tip": "Studio (Doppel-CD)",
+ "alb.spock-s-beard-2002-snow.tr": [
+  "Made Alive/Overture",
+  "Open Wide the Flood Gates",
+  "I Will Go"
+ ],
+ "alb.spock-s-beard-2003-feel-euphoria.oncelik": "Optional.",
+ "alb.spock-s-beard-2003-feel-euphoria.tip": "Studio",
+ "alb.spock-s-beard-2003-feel-euphoria.tr": [
+  "Onomatopoeia",
+  "A Guy Named Sid",
+  "Ghosts of Autumn"
+ ],
+ "alb.spock-s-beard-2013-brief-nocturnes-and-dreamless-sleep.oncelik": "Empfohlen.",
+ "alb.spock-s-beard-2013-brief-nocturnes-and-dreamless-sleep.tip": "Studio",
+ "alb.spock-s-beard-2013-brief-nocturnes-and-dreamless-sleep.tr": [
+  "Hiding Out",
+  "Waiting for Me",
+  "Something Very Strange"
+ ],
+ "alb.echolyn-1991-echolyn.tip": "Studio",
+ "alb.echolyn-1991-echolyn.tr": [
+  "Stops Through Streets",
+  "Memoirs from Between",
+  "Carpe Diem"
+ ],
+ "alb.echolyn-1992-suffocating-the-bloom.tip": "Studio",
+ "alb.echolyn-1995-as-the-world.tip": "Studio",
+ "alb.echolyn-2002-mei.tip": "Studio",
+ "alb.echolyn-2002-mei.tr": [
+  "Mei"
+ ],
+ "alb.echolyn-2012-echolyn-window.oncelik": "Empfohlen.",
+ "alb.echolyn-2012-echolyn-window.tip": "Studio (Doppel-CD)",
+ "alb.echolyn-2012-echolyn-window.tr": [
+  "Island",
+  "Some Memorial",
+  "When the Sky Comes Home"
+ ],
+ "alb.echolyn-2015-i-heard-you-listening.oncelik": "Optional.",
+ "alb.echolyn-2015-i-heard-you-listening.tip": "Studio",
+ "grp.kansas.name": "Kansas",
+ "alb.kansas-1974-kansas.tip": "Studio",
+ "alb.kansas-1975-song-for-america.tip": "Studio",
+ "alb.kansas-1975-masque.tip": "Studio",
+ "alb.kansas-1976-leftoverture.tip": "Studio",
+ "alb.kansas-1977-point-of-know-return.tip": "Studio",
+ "alb.kansas-1979-monolith.tip": "Studio",
+ "alb.kansas-1979-monolith.tr": [
+  "People of the South Wind",
+  "Angels Have Fallen",
+  "Reason to Be"
+ ],
+ "alb.kansas-1986-power.oncelik": "Optional.",
+ "alb.kansas-1986-power.tip": "Studio",
+ "alb.kansas-1986-power.kadro": "Steve Walsh, Rich Williams, Phil Ehart, Steve Morse, Billy Greer",
+ "alb.kansas-1986-power.tr": [
+  "Silhouettes in Disguise",
+  "All I Wanted",
+  "Taking in the View"
+ ],
+ "alb.kansas-2000-somewhere-to-elsewhere.oncelik": "Empfohlen.",
+ "alb.kansas-2000-somewhere-to-elsewhere.tip": "Studio",
+ "alb.kansas-2000-somewhere-to-elsewhere.tr": [
+  "Icarus II",
+  "Myriad",
+  "Grand Fun Alley"
+ ],
+ "alb.kansas-2016-the-prelude-implicit.oncelik": "Empfohlen.",
+ "alb.kansas-2016-the-prelude-implicit.tip": "Studio",
+ "alb.kansas-2016-the-prelude-implicit.tr": [
+  "With This Heart",
+  "The Voyage of Eight Eighteen",
+  "Section 60"
+ ],
+ "grp.rush.name": "Rush",
+ "alb.rush-1974-rush.tip": "Studio",
+ "alb.rush-1974-rush.kadro": "Geddy Lee, Alex Lifeson, John Rutsey",
+ "alb.rush-1974-rush.tr": [
+  "Working Man",
+  "Finding My Way",
+  "In the Mood"
+ ],
+ "alb.rush-1975-fly-by-night.tip": "Studio",
+ "alb.rush-1975-fly-by-night.kadro": "Geddy Lee, Alex Lifeson, Neil Peart",
+ "alb.rush-1975-fly-by-night.prod": "Terry Brown",
+ "alb.rush-1975-caress-of-steel.oncelik": "Optional.",
+ "alb.rush-1975-caress-of-steel.tip": "Studio",
+ "alb.rush-1975-caress-of-steel.kadro": "Lee, Lifeson, Peart",
+ "alb.rush-1975-caress-of-steel.tr": [
+  "Bastille Day",
+  "The Necromancer",
+  "The Fountain of Lamneth"
+ ],
+ "alb.rush-1976-2112.oncelik": "Essenziell — nie auslassen.",
+ "alb.rush-1976-2112.tip": "Studio",
+ "alb.rush-1976-2112.kadro": "Lee, Lifeson, Peart",
+ "alb.rush-1976-2112.prod": "Terry Brown",
+ "alb.rush-1977-a-farewell-to-kings.oncelik": "Empfohlen.",
+ "alb.rush-1977-a-farewell-to-kings.tip": "Studio",
+ "alb.rush-1977-a-farewell-to-kings.kadro": "Lee, Lifeson, Peart",
+ "alb.rush-1977-a-farewell-to-kings.prod": "Terry Brown",
+ "alb.rush-1978-hemispheres.tip": "Studio",
+ "alb.rush-1978-hemispheres.kadro": "Lee, Lifeson, Peart",
+ "alb.rush-1978-hemispheres.prod": "Terry Brown",
+ "alb.rush-1980-permanent-waves.oncelik": "Essenziell.",
+ "alb.rush-1980-permanent-waves.tip": "Studio",
+ "alb.rush-1980-permanent-waves.kadro": "Lee, Lifeson, Peart",
+ "alb.rush-1980-permanent-waves.prod": "Terry Brown",
+ "alb.rush-1981-moving-pictures.tip": "Studio",
+ "alb.rush-1981-moving-pictures.kadro": "Lee, Lifeson, Peart",
+ "alb.rush-1981-moving-pictures.prod": "Terry Brown",
+ "alb.rush-1982-signals.oncelik": "Empfohlen.",
+ "alb.rush-1982-signals.tip": "Studio",
+ "alb.rush-1982-signals.kadro": "Lee, Lifeson, Peart",
+ "alb.rush-1982-signals.prod": "Terry Brown",
+ "alb.rush-1984-grace-under-pressure.tip": "Studio",
+ "alb.rush-1984-grace-under-pressure.kadro": "Lee, Lifeson, Peart",
+ "alb.rush-1984-grace-under-pressure.prod": "Peter Henderson & Rush",
+ "alb.rush-1984-grace-under-pressure.tr": [
+  "Distant Early Warning",
+  "Red Sector A",
+  "The Body Electric"
+ ],
+ "alb.rush-1985-power-windows.oncelik": "Optional.",
+ "alb.rush-1985-power-windows.tip": "Studio",
+ "alb.rush-1985-power-windows.kadro": "Lee, Lifeson, Peart",
+ "alb.rush-1985-power-windows.prod": "Peter Collins & Rush",
+ "alb.rush-1985-power-windows.tr": [
+  "The Big Money",
+  "Marathon",
+  "Manhattan Project"
+ ],
+ "alb.rush-1987-hold-your-fire.oncelik": "Optional.",
+ "alb.rush-1987-hold-your-fire.tip": "Studio",
+ "alb.rush-1987-hold-your-fire.kadro": "Lee, Lifeson, Peart",
+ "alb.rush-1987-hold-your-fire.prod": "Peter Collins & Rush",
+ "alb.rush-1987-hold-your-fire.tr": [
+  "Time Stand Still",
+  "Force Ten",
+  "Mission"
+ ],
+ "alb.rush-1989-presto.oncelik": "Optional.",
+ "alb.rush-1989-presto.tip": "Studio",
+ "alb.rush-1989-presto.kadro": "Lee, Lifeson, Peart",
+ "alb.rush-1989-presto.prod": "Rupert Hine",
+ "alb.rush-1989-presto.tr": [
+  "Show Don't Tell",
+  "The Pass",
+  "Presto"
+ ],
+ "alb.rush-1991-roll-the-bones.oncelik": "Optional.",
+ "alb.rush-1991-roll-the-bones.tip": "Studio",
+ "alb.rush-1991-roll-the-bones.kadro": "Lee, Lifeson, Peart",
+ "alb.rush-1991-roll-the-bones.prod": "Rupert Hine",
+ "alb.rush-1991-roll-the-bones.tr": [
+  "Dreamline",
+  "Roll the Bones",
+  "Bravado"
+ ],
+ "alb.rush-1993-counterparts.tip": "Studio",
+ "alb.rush-1993-counterparts.kadro": "Lee, Lifeson, Peart",
+ "alb.rush-1993-counterparts.prod": "Peter Collins & Rush",
+ "alb.rush-1993-counterparts.tr": [
+  "Animate",
+  "Stick It Out",
+  "Nobody's Hero"
+ ],
+ "alb.rush-1996-test-for-echo.oncelik": "Optional.",
+ "alb.rush-1996-test-for-echo.tip": "Studio",
+ "alb.rush-1996-test-for-echo.kadro": "Lee, Lifeson, Peart",
+ "alb.rush-1996-test-for-echo.prod": "Peter Collins & Rush",
+ "alb.rush-1996-test-for-echo.tr": [
+  "Test for Echo",
+  "Driven",
+  "Resist"
+ ],
+ "alb.rush-2002-vapor-trails.tip": "Studio",
+ "alb.rush-2002-vapor-trails.kadro": "Lee, Lifeson, Peart",
+ "alb.rush-2002-vapor-trails.prod": "Paul Northfield & Rush",
+ "alb.rush-2007-snakes-arrows.oncelik": "Optional.",
+ "alb.rush-2007-snakes-arrows.tip": "Studio",
+ "alb.rush-2007-snakes-arrows.kadro": "Lee, Lifeson, Peart",
+ "alb.rush-2007-snakes-arrows.prod": "Nick Raskulinecz & Rush",
+ "alb.rush-2007-snakes-arrows.tr": [
+  "Far Cry",
+  "The Main Monkey Business",
+  "Workin' Them Angels"
+ ],
+ "alb.rush-2012-clockwork-angels.tip": "Studio",
+ "alb.rush-2012-clockwork-angels.kadro": "Lee, Lifeson, Peart",
+ "alb.rush-2012-clockwork-angels.prod": "Nick Raskulinecz & Rush",
+ "grp.hawkwind.name": "Hawkwind",
+ "alb.hawkwind-1971-in-search-of-space.tip": "Studio",
+ "alb.hawkwind-1972-doremi-fasol-latido.tip": "Studio",
+ "alb.hawkwind-1973-space-ritual.oncelik": "Essenziell.",
+ "alb.hawkwind-1973-space-ritual.tip": "Live (Doppel-LP)",
+ "alb.hawkwind-1973-space-ritual.kadro": "Dave Brock, Nik Turner, Lemmy, Simon King, Del Dettmar, Dik Mik, Robert Calvert",
+ "alb.hawkwind-1973-space-ritual.tr": [
+  "Master of the Universe",
+  "Brainstorm",
+  "Orgone Accumulator"
+ ],
+ "alb.hawkwind-1974-hall-of-the-mountain-grill.tip": "Studio",
+ "alb.hawkwind-1975-warrior-on-the-edge-of-time.tip": "Studio",
+ "alb.hawkwind-1977-quark-strangeness-and-charm.oncelik": "Empfohlen.",
+ "alb.hawkwind-1977-quark-strangeness-and-charm.tip": "Studio",
+ "alb.hawkwind-1977-quark-strangeness-and-charm.tr": [
+  "Spirit of the Age",
+  "Quark, Strangeness and Charm",
+  "Damnation Alley"
+ ],
+ "alb.hawkwind-1980-levitation.oncelik": "Optional.",
+ "alb.hawkwind-1980-levitation.tip": "Studio",
+ "alb.hawkwind-1980-levitation.tr": [
+  "Levitation",
+  "Motorway City",
+  "Who's Gonna Win the War"
+ ],
+ "alb.hawkwind-2017-into-the-woods.oncelik": "Optional.",
+ "alb.hawkwind-2017-into-the-woods.tip": "Studio",
+ "grp.happy-the-man.name": "Happy the Man",
+ "alb.happy-the-man-1977-happy-the-man.tip": "Studio",
+ "alb.happy-the-man-1978-crafty-hands.tip": "Studio",
+ "grp.nektar.name": "Nektar",
+ "alb.nektar-1971-journey-to-the-centre-of-the-eye.oncelik": "Empfohlen.",
+ "alb.nektar-1971-journey-to-the-centre-of-the-eye.tip": "Studio",
+ "alb.nektar-1971-journey-to-the-centre-of-the-eye.tr": [
+  "Prelude",
+  "Astronaut's Nightmare",
+  "Burn Out My Eyes"
+ ],
+ "alb.nektar-1972-a-tab-in-the-ocean.oncelik": "Essenziell.",
+ "alb.nektar-1972-a-tab-in-the-ocean.tip": "Studio",
+ "alb.nektar-1972-a-tab-in-the-ocean.tr": [
+  "A Tab in the Ocean",
+  "Desolation Valley / Waves",
+  "Crying in the Dark"
+ ],
+ "alb.nektar-1973-sounds-like-this.oncelik": "Optional.",
+ "alb.nektar-1973-sounds-like-this.tr": [
+  "Good Day",
+  "Wings",
+  "Do You Believe in Magic?"
+ ],
+ "alb.nektar-1973-remember-the-future.tip": "Studio",
+ "alb.nektar-1975-recycled.oncelik": "Empfohlen.",
+ "alb.nektar-1975-recycled.tip": "Studio",
+ "alb.nektar-1975-recycled.tr": [
+  "Recycled",
+  "Flight to Reality",
+  "It's All Over"
+ ],
+ "grp.pavlov-s-dog.name": "Pavlov's Dog",
+ "alb.pavlov-s-dog-1975-pampered-menial.oncelik": "Essenziell.",
+ "alb.pavlov-s-dog-1975-pampered-menial.tip": "Studio",
+ "alb.pavlov-s-dog-1975-pampered-menial.prod": "Sandy Pearlman & Murray Krugman",
+ "alb.pavlov-s-dog-1975-pampered-menial.tr": [
+  "Julia",
+  "Late November",
+  "Song Dance",
+  "Episode"
+ ],
+ "alb.pavlov-s-dog-1976-at-the-sound-of-the-bell.oncelik": "Empfohlen.",
+ "alb.pavlov-s-dog-1976-at-the-sound-of-the-bell.tip": "Studio",
+ "alb.pavlov-s-dog-1976-at-the-sound-of-the-bell.kadro": "David Surkamp + Bill Bruford, Michael Brecker, Andy Mackay",
+ "grp.the-flower-kings.name": "The Flower Kings",
+ "alb.the-flower-kings-1995-back-in-the-world-of-adventures.tip": "Studio",
+ "alb.the-flower-kings-1997-stardust-we-are.oncelik": "Essenziell.",
+ "alb.the-flower-kings-1997-stardust-we-are.tip": "Studio (Doppel-CD)",
+ "alb.the-flower-kings-1997-stardust-we-are.tr": [
+  "In the Eyes of the World",
+  "Stardust We Are",
+  "Church of Your Heart"
+ ],
+ "alb.the-flower-kings-1999-flower-power.oncelik": "Empfohlen.",
+ "alb.the-flower-kings-1999-flower-power.tip": "Studio (Doppel-CD)",
+ "alb.the-flower-kings-1999-flower-power.tr": [
+  "Garden of Dreams",
+  "Deaf, Numb & Blind"
+ ],
+ "alb.the-flower-kings-2002-unfold-the-future.oncelik": "Empfohlen.",
+ "alb.the-flower-kings-2002-unfold-the-future.tip": "Studio (Doppel-CD)",
+ "alb.the-flower-kings-2002-unfold-the-future.tr": [
+  "The Truth Will Set You Free",
+  "Silent Inferno"
+ ],
+ "alb.the-flower-kings-2012-banks-of-eden.oncelik": "Optional.",
+ "alb.the-flower-kings-2012-banks-of-eden.tip": "Studio",
+ "alb.the-flower-kings-2012-banks-of-eden.tr": [
+  "Numbers",
+  "For the Love of Gold"
+ ],
+ "grp.anglagard.name": "Änglagård",
+ "alb.anglagard-1992-hybris.tip": "Studio",
+ "alb.anglagard-1994-epilog.tip": "Studio",
+ "alb.anglagard-2012-viljans-oga.oncelik": "Essenziell.",
+ "alb.anglagard-2012-viljans-oga.tip": "Studio",
+ "alb.anglagard-2012-viljans-oga.tr": [
+  "Ur vilande",
+  "Sorgmantel",
+  "Längtans klocka"
+ ],
+ "grp.anekdoten.name": "Anekdoten",
+ "alb.anekdoten-1993-vemod.tip": "Studio",
+ "alb.anekdoten-1995-nucleus.tip": "Studio",
+ "alb.anekdoten-1995-nucleus.tr": [
+  "Nucleus",
+  "Harvest",
+  "Raphael"
+ ],
+ "alb.anekdoten-1999-from-within.oncelik": "Empfohlen.",
+ "alb.anekdoten-1999-from-within.tip": "Studio",
+ "alb.anekdoten-1999-from-within.tr": [
+  "From Within",
+  "Kiss of Life",
+  "Groundbound"
+ ],
+ "alb.anekdoten-2003-gravity.oncelik": "Optional.",
+ "alb.anekdoten-2003-gravity.tip": "Studio",
+ "alb.anekdoten-2003-gravity.tr": [
+  "Monolith",
+  "Gravity",
+  "The War Is Over"
+ ],
+ "alb.anekdoten-2007-a-time-of-day.oncelik": "Empfohlen.",
+ "alb.anekdoten-2007-a-time-of-day.tip": "Studio",
+ "alb.anekdoten-2007-a-time-of-day.tr": [
+  "The Great Unknown",
+  "A Sky About to Rain",
+  "In for a Ride"
+ ],
+ "alb.anekdoten-2015-until-all-the-ghosts-are-gone.oncelik": "Essenziell.",
+ "alb.anekdoten-2015-until-all-the-ghosts-are-gone.tip": "Studio",
+ "alb.anekdoten-2015-until-all-the-ghosts-are-gone.tr": [
+  "Shooting Star",
+  "Get Out Alive",
+  "Until All the Ghosts Are Gone"
+ ],
+ "grp.porcupine-tree.name": "Porcupine Tree",
+ "alb.porcupine-tree-1995-the-sky-moves-sideways.tip": "Studio",
+ "alb.porcupine-tree-1995-the-sky-moves-sideways.kadro": "Steven Wilson, Richard Barbieri, Colin Edwin, Chris Maitland",
+ "alb.porcupine-tree-1996-signify.oncelik": "Optional.",
+ "alb.porcupine-tree-1996-signify.tip": "Studio",
+ "alb.porcupine-tree-1996-signify.tr": [
+  "Signify",
+  "Waiting Phase One",
+  "Sleep of No Dreaming"
+ ],
+ "alb.porcupine-tree-1999-stupid-dream.oncelik": "Essenziell.",
+ "alb.porcupine-tree-1999-stupid-dream.tip": "Studio",
+ "alb.porcupine-tree-1999-stupid-dream.tr": [
+  "Even Less",
+  "Piano Lessons",
+  "Stranger by the Minute",
+  "Baby Dream in Cellophane"
+ ],
+ "alb.porcupine-tree-2000-lightbulb-sun.oncelik": "Empfohlen.",
+ "alb.porcupine-tree-2000-lightbulb-sun.tip": "Studio",
+ "alb.porcupine-tree-2000-lightbulb-sun.tr": [
+  "Lightbulb Sun",
+  "Shesmovedon",
+  "Russia on Ice",
+  "Feel So Low"
+ ],
+ "alb.porcupine-tree-2002-in-absentia.tip": "Studio",
+ "alb.porcupine-tree-2002-in-absentia.kadro": "Wilson, Barbieri, Edwin, Gavin Harrison",
+ "alb.porcupine-tree-2002-in-absentia.tr": [
+  "Blackest Eyes",
+  "Trains",
+  "The Sound of Muzak",
+  "Gravity Eyelids"
+ ],
+ "alb.porcupine-tree-2005-deadwing.oncelik": "Empfohlen.",
+ "alb.porcupine-tree-2005-deadwing.tip": "Studio",
+ "alb.porcupine-tree-2005-deadwing.tr": [
+  "Arriving Somewhere but Not Here",
+  "Lazarus",
+  "Deadwing",
+  "Shallow"
+ ],
+ "alb.porcupine-tree-2007-fear-of-a-blank-planet.oncelik": "Essenziell — nie auslassen.",
+ "alb.porcupine-tree-2007-fear-of-a-blank-planet.tip": "Studio",
+ "alb.porcupine-tree-2009-the-incident.tip": "Studio (Doppel-CD)",
+ "alb.porcupine-tree-2009-the-incident.tr": [
+  "The Incident",
+  "Time Flies",
+  "I Drive the Hearse"
+ ],
+ "alb.steven-wilson-2008-insurgentes.oncelik": "Optional.",
+ "alb.steven-wilson-2008-insurgentes.tip": "Studio",
+ "alb.steven-wilson-2008-insurgentes.tr": [
+  "Harmony Korine",
+  "Abandoner",
+  "Veneno Para las Hadas"
+ ],
+ "alb.steven-wilson-2011-grace-for-drowning.oncelik": "Empfohlen.",
+ "alb.steven-wilson-2011-grace-for-drowning.tip": "Studio (Doppel-CD)",
+ "alb.steven-wilson-2011-grace-for-drowning.kadro": "Wilson + Jordan Rudess, Steve Hackett, Tony Levin, Pat Mastelotto, Theo Travis",
+ "alb.steven-wilson-2011-grace-for-drowning.tr": [
+  "Deform to Form a Star",
+  "Remainder the Black Dog",
+  "Raider II"
+ ],
+ "alb.steven-wilson-2013-the-raven-that-refused-to-sing-and-other-stories.oncelik": "Essenziell — nie auslassen.",
+ "alb.steven-wilson-2013-the-raven-that-refused-to-sing-and-other-stories.tip": "Studio",
+ "alb.steven-wilson-2013-the-raven-that-refused-to-sing-and-other-stories.kadro": "Wilson, Guthrie Govan, Marco Minnemann, Nick Beggs, Adam Holzman, Theo Travis",
+ "alb.steven-wilson-2013-the-raven-that-refused-to-sing-and-other-stories.tr": [
+  "Luminol",
+  "Drive Home",
+  "The Watchmaker",
+  "The Raven That Refused to Sing"
+ ],
+ "alb.steven-wilson-2015-hand-cannot-erase.tip": "Studio",
+ "alb.steven-wilson-2015-hand-cannot-erase.tr": [
+  "3 Years Older",
+  "Hand Cannot Erase",
+  "Routine",
+  "Ancestral"
+ ],
+ "alb.steven-wilson-2017-to-the-bone.oncelik": "Empfohlen.",
+ "alb.steven-wilson-2017-to-the-bone.tip": "Studio",
+ "grp.transatlantic.name": "Transatlantic",
+ "alb.transatlantic-2000-smpt-e.oncelik": "Essenziell.",
+ "alb.transatlantic-2000-smpt-e.tip": "Studio",
+ "alb.transatlantic-2001-bridge-across-forever.oncelik": "Essenziell.",
+ "alb.transatlantic-2001-bridge-across-forever.tip": "Studio",
+ "alb.transatlantic-2001-bridge-across-forever.tr": [
+  "Duel with the Devil",
+  "Suite Charlotte Pike",
+  "Stranger in Your Soul"
+ ],
+ "alb.transatlantic-2009-the-whirlwind.tip": "Studio",
+ "alb.transatlantic-2014-kaleidoscope.oncelik": "Optional.",
+ "alb.transatlantic-2014-kaleidoscope.tip": "Studio",
+ "alb.transatlantic-2014-kaleidoscope.tr": [
+  "Into the Blue",
+  "Shine",
+  "Kaleidoscope"
+ ],
+ "alb.neal-morse-2003-testimony.oncelik": "Empfohlen.",
+ "alb.neal-morse-2003-testimony.tip": "Studio (Doppel-CD)",
+ "alb.neal-morse-2003-testimony.kadro": "Neal Morse + Mike Portnoy",
+ "alb.neal-morse-2003-testimony.tr": [
+  "Prologue",
+  "The Land of Beginning Again",
+  "Oh Lord My God",
+  "Sing It High"
+ ],
+ "alb.neal-morse-2007-sola-scriptura.oncelik": "Empfohlen.",
+ "alb.neal-morse-2007-sola-scriptura.tip": "Studio",
+ "alb.neal-morse-2007-sola-scriptura.tr": [
+  "The Door",
+  "The Conflict",
+  "The Conclusion"
+ ],
+ "alb.neal-morse-2016-the-similitude-of-a-dream.oncelik": "Essenziell.",
+ "alb.neal-morse-2016-the-similitude-of-a-dream.tip": "Studio (Doppel-CD)",
+ "alb.neal-morse-2016-the-similitude-of-a-dream.kadro": "Neal Morse, Mike Portnoy, Randy George, Eric Gillette, Bill Hubauer",
+ "alb.neal-morse-2019-the-great-adventure.oncelik": "Optional.",
+ "alb.neal-morse-2019-the-great-adventure.tip": "Studio (Doppel-CD)",
+ "alb.neal-morse-2019-the-great-adventure.tr": [
+  "Welcome to the World",
+  "Vanity Fair",
+  "A Love That Never Dies"
+ ],
+ "grp.dream-theater.name": "Dream Theater",
+ "alb.dream-theater-1989-when-dream-and-day-unite.oncelik": "Optional.",
+ "alb.dream-theater-1989-when-dream-and-day-unite.tip": "Studio",
+ "alb.dream-theater-1989-when-dream-and-day-unite.kadro": "Charlie Dominici, John Petrucci, John Myung, Kevin Moore, Mike Portnoy",
+ "alb.dream-theater-1989-when-dream-and-day-unite.tr": [
+  "A Fortune in Lies",
+  "The Killing Hand",
+  "Only a Matter of Time"
+ ],
+ "alb.dream-theater-1992-images-and-words.oncelik": "Essenziell — nie auslassen.",
+ "alb.dream-theater-1992-images-and-words.tip": "Studio",
+ "alb.dream-theater-1992-images-and-words.kadro": "James LaBrie, Petrucci, Myung, Kevin Moore, Portnoy",
+ "alb.dream-theater-1992-images-and-words.tr": [
+  "Pull Me Under",
+  "Metropolis—Part I: The Miracle and the Sleeper",
+  "Take the Time",
+  "Learning to Live"
+ ],
+ "alb.dream-theater-1994-awake.oncelik": "Empfohlen.",
+ "alb.dream-theater-1994-awake.tip": "Studio",
+ "alb.dream-theater-1994-awake.tr": [
+  "6:00",
+  "Caught in a Web",
+  "Space-Dye Vest"
+ ],
+ "alb.dream-theater-1995-a-change-of-seasons.oncelik": "Empfohlen.",
+ "alb.dream-theater-1995-a-change-of-seasons.tip": "EP",
+ "alb.dream-theater-1995-a-change-of-seasons.kadro": "LaBrie, Petrucci, Myung, Derek Sherinian, Portnoy",
+ "alb.dream-theater-1999-metropolis-pt-2-scenes-from-a-memory.tip": "Studio",
+ "alb.dream-theater-1999-metropolis-pt-2-scenes-from-a-memory.kadro": "LaBrie, Petrucci, Myung, Jordan Rudess, Portnoy",
+ "alb.dream-theater-1999-metropolis-pt-2-scenes-from-a-memory.tr": [
+  "Overture 1928",
+  "The Dance of Eternity",
+  "Home",
+  "Finally Free"
+ ],
+ "alb.dream-theater-2002-six-degrees-of-inner-turbulence.oncelik": "Empfohlen.",
+ "alb.dream-theater-2002-six-degrees-of-inner-turbulence.tip": "Studio (Doppel-CD)",
+ "alb.dream-theater-2002-six-degrees-of-inner-turbulence.tr": [
+  "The Glass Prison",
+  "Blind Faith",
+  "Six Degrees of Inner Turbulence"
+ ],
+ "alb.dream-theater-2005-octavarium.oncelik": "Empfohlen.",
+ "alb.dream-theater-2005-octavarium.tip": "Studio",
+ "alb.dream-theater-2005-octavarium.tr": [
+  "Octavarium",
+  "Panic Attack",
+  "The Answer Lies Within"
+ ],
+ "alb.dream-theater-2016-the-astonishing.tip": "Studio (Doppel-CD)",
+ "alb.dream-theater-2016-the-astonishing.kadro": "LaBrie, Petrucci, Myung, Rudess, Mike Mangini",
+ "alb.dream-theater-2016-the-astonishing.tr": [
+  "The Gift of Music",
+  "Moment of Betrayal",
+  "Our New World"
+ ],
+ "alb.dream-theater-2019-distance-over-time.oncelik": "Empfohlen.",
+ "alb.dream-theater-2019-distance-over-time.tip": "Studio",
+ "alb.dream-theater-2019-distance-over-time.tr": [
+  "Untethered Angel",
+  "Pale Blue Dot",
+  "At Wit's End"
+ ]
+}

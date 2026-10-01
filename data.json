@@ -1,0 +1,5230 @@
+[
+{
+"no": 1,
+"groups": []
+},
+{
+"no": 2,
+"groups": [
+{
+"id": "the-syndicats",
+"artist": "The Syndicats",
+"albums": []
+},
+{
+"id": "tomorrow",
+"artist": "Tomorrow",
+"albums": [
+{
+"id": "tomorrow-1968-tomorrow",
+"t": "Tomorrow",
+"y": 1968,
+"cov": "kapaklar/tomorrow-1968-tomorrow.jpg"
+}
+]
+},
+{
+"id": "bodast",
+"artist": "Bodast",
+"albums": [
+{
+"id": "bodast-1981-the-bodast-tapes",
+"t": "The Bodast Tapes",
+"y": 1981,
+"cov": "kapaklar/bodast-1981-the-bodast-tapes.jpg"
+}
+]
+},
+{
+"id": "the-strawbs-wakeman-koku",
+"artist": "The Strawbs",
+"albums": [
+{
+"id": "the-strawbs-1970-dragonfly",
+"t": "Dragonfly",
+"y": 1970,
+"cov": "kapaklar/the-strawbs-1970-dragonfly.jpg"
+},
+{
+"id": "the-strawbs-1970-just-a-collection-of-antiques-and-curios",
+"t": "Just a Collection of Antiques and Curios",
+"y": 1970
+},
+{
+"id": "the-strawbs-1971-from-the-witchwood",
+"t": "From the Witchwood",
+"y": 1971
+},
+{
+"id": "the-strawbs-1972-grave-new-world",
+"t": "Grave New World",
+"y": 1972,
+"onc": "temel"
+},
+{
+"id": "the-strawbs-1973-bursting-at-the-seams",
+"t": "Bursting at the Seams",
+"y": 1973,
+"onc": "onerilir",
+"cov": "kapaklar/the-strawbs-1973-bursting-at-the-seams.jpg"
+},
+{
+"id": "the-strawbs-1974-hero-and-heroine",
+"t": "Hero and Heroine",
+"y": 1974,
+"onc": "temel",
+"cov": "kapaklar/the-strawbs-1974-hero-and-heroine.jpg"
+},
+{
+"id": "the-strawbs-2017-the-ferryman-s-curse",
+"t": "The Ferryman's Curse",
+"y": 2017,
+"onc": "istege",
+"cov": "kapaklar/the-strawbs-2017-the-ferryman-s-curse.jpg"
+}
+]
+}
+]
+},
+{
+"no": 3,
+"groups": [
+{
+"id": "the-nice",
+"artist": "The Nice",
+"albums": [
+{
+"id": "the-nice-1968-the-thoughts-of-emerlist-davjack",
+"t": "The Thoughts of Emerlist Davjack",
+"y": 1968,
+"cov": "kapaklar/the-nice-1968-the-thoughts-of-emerlist-davjack.jpg"
+},
+{
+"id": "the-nice-1968-ars-longa-vita-brevis",
+"t": "Ars Longa Vita Brevis",
+"y": 1968,
+"cov": "kapaklar/the-nice-1968-ars-longa-vita-brevis.jpg"
+},
+{
+"id": "the-nice-1969-nice",
+"t": "Nice",
+"y": 1969,
+"cov": "kapaklar/the-nice-1969-nice.jpg"
+},
+{
+"id": "the-nice-1970-five-bridges",
+"t": "Five Bridges",
+"y": 1970,
+"cov": "kapaklar/the-nice-1970-five-bridges.jpg"
+}
+]
+},
+{
+"id": "procol-harum",
+"artist": "Procol Harum",
+"albums": [
+{
+"id": "procol-harum-1967-procol-harum",
+"t": "Procol Harum",
+"y": 1967,
+"cov": "kapaklar/procol-harum-1967-procol-harum.jpg"
+},
+{
+"id": "procol-harum-1968-shine-on-brightly",
+"t": "Shine On Brightly",
+"y": 1968,
+"cov": "kapaklar/procol-harum-1968-shine-on-brightly.jpg"
+},
+{
+"id": "procol-harum-1969-a-salty-dog",
+"t": "A Salty Dog",
+"y": 1969,
+"cov": "kapaklar/procol-harum-1969-a-salty-dog.jpg"
+},
+{
+"id": "procol-harum-1970-home",
+"t": "Home",
+"y": 1970,
+"cov": "kapaklar/procol-harum-1970-home.jpg"
+},
+{
+"id": "procol-harum-1971-broken-barricades",
+"t": "Broken Barricades",
+"y": 1971,
+"cov": "kapaklar/procol-harum-1971-broken-barricades.jpg"
+},
+{
+"id": "procol-harum-1972-procol-harum-live-with-the-edmonton-symphony-orchestra",
+"t": "Procol Harum Live with the Edmonton Symphony Orchestra",
+"y": 1972,
+"onc": "temel",
+"cov": "kapaklar/procol-harum-1972-procol-harum-live-with-the-edmonton-symphony-orchestra.jpg"
+},
+{
+"id": "procol-harum-1973-grand-hotel",
+"t": "Grand Hotel",
+"y": 1973,
+"onc": "onerilir",
+"cov": "kapaklar/procol-harum-1973-grand-hotel.jpg"
+},
+{
+"id": "procol-harum-1991-the-prodigal-stranger",
+"t": "The Prodigal Stranger",
+"y": 1991,
+"onc": "istege",
+"cov": "kapaklar/procol-harum-1991-the-prodigal-stranger.jpg"
+},
+{
+"id": "procol-harum-2017-novum",
+"t": "Novum",
+"y": 2017,
+"onc": "istege",
+"cov": "kapaklar/procol-harum-2017-novum.jpg"
+}
+]
+},
+{
+"id": "moody-blues",
+"artist": "Moody Blues",
+"albums": [
+{
+"id": "moody-blues-1967-days-of-future-passed",
+"t": "Days of Future Passed",
+"y": 1967,
+"cov": "kapaklar/moody-blues-1967-days-of-future-passed.jpg"
+},
+{
+"id": "moody-blues-1968-in-search-of-the-lost-chord",
+"t": "In Search of the Lost Chord",
+"y": 1968,
+"cov": "kapaklar/moody-blues-1968-in-search-of-the-lost-chord.jpg"
+},
+{
+"id": "moody-blues-1969-on-the-threshold-of-a-dream",
+"t": "On the Threshold of a Dream",
+"y": 1969,
+"cov": "kapaklar/moody-blues-1969-on-the-threshold-of-a-dream.jpg"
+},
+{
+"id": "moody-blues-1969-to-our-children-s-children-s-children",
+"t": "To Our Children's Children's Children",
+"y": 1969,
+"cov": "kapaklar/moody-blues-1969-to-our-children-s-children-s-children.jpg"
+},
+{
+"id": "moody-blues-1970-a-question-of-balance",
+"t": "A Question of Balance",
+"y": 1970,
+"cov": "kapaklar/moody-blues-1970-a-question-of-balance.jpg"
+},
+{
+"id": "moody-blues-1971-every-good-boy-deserves-favour",
+"t": "Every Good Boy Deserves Favour",
+"y": 1971,
+"cov": "kapaklar/moody-blues-1971-every-good-boy-deserves-favour.jpg"
+},
+{
+"id": "moody-blues-1972-seventh-sojourn",
+"t": "Seventh Sojourn",
+"y": 1972,
+"cov": "kapaklar/moody-blues-1972-seventh-sojourn.jpg"
+},
+{
+"id": "moody-blues-1978-octave",
+"t": "Octave",
+"y": 1978,
+"onc": "istege",
+"cov": "kapaklar/moody-blues-1978-octave.jpg"
+},
+{
+"id": "moody-blues-1981-long-distance-voyager",
+"t": "Long Distance Voyager",
+"y": 1981,
+"onc": "onerilir",
+"cov": "kapaklar/moody-blues-1981-long-distance-voyager.jpg"
+},
+{
+"id": "moody-blues-1999-strange-times",
+"t": "Strange Times",
+"y": 1999,
+"onc": "istege",
+"cov": "kapaklar/moody-blues-1999-strange-times.jpg"
+},
+{
+"id": "moody-blues-2003-december",
+"t": "December",
+"y": 2003,
+"onc": "ikincil",
+"cov": "kapaklar/moody-blues-2003-december.jpg"
+}
+]
+},
+{
+"id": "the-crazy-world-of-arthur-brown-kingdom-come",
+"artist": "Arthur Brown",
+"albums": [
+{
+"id": "arthur-brown-1968-the-crazy-world-of-arthur-brown",
+"t": "The Crazy World of Arthur Brown",
+"y": 1968,
+"onc": "temel"
+},
+{
+"id": "arthur-brown-1971-galactic-zoo-dossier",
+"t": "Galactic Zoo Dossier",
+"y": 1971,
+"onc": "istege",
+"cov": "kapaklar/arthur-brown-1971-galactic-zoo-dossier.jpg"
+},
+{
+"id": "arthur-brown-1973-journey",
+"t": "Journey",
+"y": 1973,
+"onc": "onerilir",
+"cov": "kapaklar/arthur-brown-1973-journey.jpg"
+}
+]
+},
+{
+"id": "pearls-before-swine",
+"artist": "Pearls Before Swine",
+"albums": [
+{
+"id": "pearls-before-swine-1967-one-nation-underground",
+"t": "One Nation Underground",
+"y": 1967,
+"onc": "temel",
+"cov": "kapaklar/pearls-before-swine-1967-one-nation-underground.jpg"
+},
+{
+"id": "pearls-before-swine-1968-balaklava",
+"t": "Balaklava",
+"y": 1968,
+"onc": "temel",
+"cov": "kapaklar/pearls-before-swine-1968-balaklava.jpg"
+},
+{
+"id": "pearls-before-swine-1969-these-things-too",
+"t": "These Things Too",
+"y": 1969,
+"onc": "istege",
+"cov": "kapaklar/pearls-before-swine-1969-these-things-too.jpg"
+}
+]
+},
+{
+"id": "aphrodite-s-child",
+"artist": "Aphrodite's Child",
+"albums": [
+{
+"id": "aphrodite-s-child-1968-end-of-the-world",
+"t": "End of the World",
+"y": 1968,
+"onc": "istege",
+"cov": "kapaklar/aphrodite-s-child-1968-end-of-the-world.jpg"
+},
+{
+"id": "aphrodite-s-child-1969-it-s-five-o-clock",
+"t": "It's Five O'Clock",
+"y": 1969,
+"onc": "istege",
+"cov": "kapaklar/aphrodite-s-child-1969-it-s-five-o-clock.jpg"
+},
+{
+"id": "aphrodite-s-child-1972-666",
+"t": "666",
+"y": 1972,
+"onc": "temel",
+"cov": "kapaklar/aphrodite-s-child-1972-666.jpg"
+}
+]
+}
+]
+},
+{
+"no": 4,
+"groups": [
+{
+"id": "king-crimson",
+"artist": "King Crimson",
+"albums": [
+{
+"id": "king-crimson-1969-in-the-court-of-the-crimson-king",
+"t": "In the Court of the Crimson King",
+"y": 1969,
+"onc": "temel",
+"e": 0,
+"cov": "kapaklar/king-crimson-1969-in-the-court-of-the-crimson-king.jpg"
+},
+{
+"id": "king-crimson-1970-in-the-wake-of-poseidon",
+"t": "In the Wake of Poseidon",
+"y": 1970,
+"onc": "onerilir",
+"e": 0,
+"cov": "kapaklar/king-crimson-1970-in-the-wake-of-poseidon.jpg"
+},
+{
+"id": "king-crimson-1970-lizard",
+"t": "Lizard",
+"y": 1970,
+"onc": "istege",
+"e": 0,
+"cov": "kapaklar/king-crimson-1970-lizard.jpg"
+},
+{
+"id": "king-crimson-1971-islands",
+"t": "Islands",
+"y": 1971,
+"onc": "onerilir",
+"e": 0,
+"cov": "kapaklar/king-crimson-1971-islands.jpg"
+},
+{
+"id": "king-crimson-1973-larks-tongues-in-aspic",
+"t": "Larks' Tongues in Aspic",
+"y": 1973,
+"onc": "temel",
+"e": 1,
+"cov": "kapaklar/king-crimson-1973-larks-tongues-in-aspic.jpg"
+},
+{
+"id": "king-crimson-1974-starless-and-bible-black",
+"t": "Starless and Bible Black",
+"y": 1974,
+"onc": "onerilir",
+"e": 1,
+"cov": "kapaklar/king-crimson-1974-starless-and-bible-black.jpg"
+},
+{
+"id": "king-crimson-1974-red",
+"t": "Red",
+"y": 1974,
+"onc": "temel",
+"e": 1,
+"cov": "kapaklar/king-crimson-1974-red.jpg"
+},
+{
+"id": "king-crimson-1975-usa",
+"t": "USA",
+"y": 1975,
+"onc": "onerilir",
+"e": 1,
+"cov": "kapaklar/king-crimson-1975-usa.jpg"
+},
+{
+"id": "king-crimson-1981-discipline",
+"t": "Discipline",
+"y": 1981,
+"onc": "temel",
+"e": 2,
+"cov": "kapaklar/king-crimson-1981-discipline.jpg"
+},
+{
+"id": "king-crimson-1982-beat",
+"t": "Beat",
+"y": 1982,
+"onc": "istege",
+"e": 2,
+"cov": "kapaklar/king-crimson-1982-beat.jpg"
+},
+{
+"id": "king-crimson-1984-three-of-a-perfect-pair",
+"t": "Three of a Perfect Pair",
+"y": 1984,
+"onc": "istege",
+"e": 2,
+"cov": "kapaklar/king-crimson-1984-three-of-a-perfect-pair.jpg"
+},
+{
+"id": "king-crimson-1995-thrak",
+"t": "THRAK",
+"y": 1995,
+"onc": "onerilir",
+"e": 3,
+"cov": "kapaklar/king-crimson-1995-thrak.jpg"
+},
+{
+"id": "king-crimson-2000-the-construkction-of-light",
+"t": "The ConstruKction of Light",
+"y": 2000,
+"onc": "istege",
+"e": 3,
+"cov": "kapaklar/king-crimson-2000-the-construkction-of-light.jpg"
+},
+{
+"id": "king-crimson-2003-the-power-to-believe",
+"t": "The Power to Believe",
+"y": 2003,
+"onc": "temel",
+"e": 3,
+"cov": "kapaklar/king-crimson-2003-the-power-to-believe.jpg"
+},
+{
+"id": "king-crimson-2016-radical-action-to-unseat-the-hold-of-monkey-mind",
+"t": "Radical Action to Unseat the Hold of Monkey Mind",
+"y": 2016,
+"onc": "onerilir",
+"e": 4,
+"cov": "kapaklar/king-crimson-2016-radical-action-to-unseat-the-hold-of-monkey-mind.jpg"
+},
+{
+"id": "king-crimson-2018-meltdown-live-in-mexico-city",
+"t": "Meltdown: Live in Mexico City",
+"y": 2018,
+"onc": "istege",
+"e": 4,
+"cov": "kapaklar/king-crimson-2018-meltdown-live-in-mexico-city.jpg"
+}
+],
+"eras": [
+{
+"yil": "1969–1972",
+"from": 1969,
+"to": 1972
+},
+{
+"yil": "1973–1975",
+"from": 1973,
+"to": 1975
+},
+{
+"yil": "1981–1984",
+"from": 1981,
+"to": 1984
+},
+{
+"yil": "1994–2003",
+"from": 1994,
+"to": 2003
+},
+{
+"yil": "2013–2021",
+"from": 2013,
+"to": 2021
+}
+]
+},
+{
+"id": "robert-fripp-solo-ve-ortaklklar",
+"artist": "Robert Fripp",
+"albums": [
+{
+"id": "robert-fripp-1973-no-pussyfooting",
+"t": "(No Pussyfooting)",
+"y": 1973,
+"onc": "onerilir",
+"cov": "kapaklar/robert-fripp-1973-no-pussyfooting.jpg"
+},
+{
+"id": "robert-fripp-1975-evening-star",
+"t": "Evening Star",
+"y": 1975,
+"onc": "onerilir",
+"cov": "kapaklar/robert-fripp-1975-evening-star.jpg"
+},
+{
+"id": "robert-fripp-1979-exposure",
+"t": "Exposure",
+"y": 1979,
+"onc": "temel",
+"cov": "kapaklar/robert-fripp-1979-exposure.jpg"
+},
+{
+"id": "robert-fripp-1982-i-advance-masked",
+"t": "I Advance Masked",
+"y": 1982,
+"onc": "istege",
+"cov": "kapaklar/robert-fripp-1982-i-advance-masked.jpg"
+},
+{
+"id": "robert-fripp-1993-the-first-day",
+"t": "The First Day",
+"y": 1993,
+"onc": "onerilir",
+"cov": "kapaklar/robert-fripp-1993-the-first-day.jpg"
+}
+]
+},
+{
+"id": "john-wetton-solo",
+"artist": "John Wetton",
+"albums": [
+{
+"id": "john-wetton-1980-caught-in-the-crossfire",
+"t": "Caught in the Crossfire",
+"y": 1980,
+"onc": "istege",
+"cov": "kapaklar/john-wetton-1980-caught-in-the-crossfire.jpg"
+},
+{
+"id": "john-wetton-1997-arkangel",
+"t": "Arkangel",
+"y": 1997,
+"onc": "onerilir",
+"cov": "kapaklar/john-wetton-1997-arkangel.jpg"
+},
+{
+"id": "john-wetton-2005-icon",
+"t": "Icon",
+"y": 2005,
+"onc": "istege",
+"cov": "kapaklar/john-wetton-2005-icon.jpg"
+},
+{
+"id": "john-wetton-2011-raised-in-captivity",
+"t": "Raised in Captivity",
+"y": 2011,
+"onc": "onerilir",
+"cov": "kapaklar/john-wetton-2011-raised-in-captivity.jpg"
+}
+]
+},
+{
+"id": "21st-century-schizoid-band",
+"artist": "21st Century Schizoid Band",
+"albums": [
+{
+"id": "21st-century-schizoid-band-2002-official-bootleg-volume-one",
+"t": "Official Bootleg Volume One",
+"y": 2002,
+"onc": "istege"
+},
+{
+"id": "21st-century-schizoid-band-2011-a-scarcity-of-miracles",
+"t": "A Scarcity of Miracles",
+"y": 2011,
+"onc": "onerilir"
+}
+]
+},
+{
+"id": "projekcts",
+"artist": "ProjeKcts",
+"albums": [
+{
+"id": "projekcts-1998-space-groove",
+"t": "Space Groove",
+"y": 1998,
+"onc": "istege"
+},
+{
+"id": "projekcts-1999-masque",
+"t": "Masque",
+"y": 1999,
+"onc": "istege"
+},
+{
+"id": "projekcts-1999-the-projekcts",
+"t": "The ProjeKcts",
+"y": 1999,
+"onc": "ikincil"
+}
+]
+},
+{
+"id": "stick-men-the-crimson-projekct",
+"artist": "Stick Men",
+"albums": [
+{
+"id": "stick-men-2010-soup",
+"t": "Soup",
+"y": 2010,
+"onc": "onerilir",
+"cov": "kapaklar/stick-men-2010-soup.jpg"
+},
+{
+"id": "stick-men-2014-live-in-tokyo",
+"t": "Live in Tokyo",
+"y": 2014,
+"onc": "onerilir"
+},
+{
+"id": "stick-men-2016-prog-noir",
+"t": "Prog Noir",
+"y": 2016,
+"onc": "istege",
+"cov": "kapaklar/stick-men-2016-prog-noir.jpg"
+}
+]
+}
+]
+},
+{
+"no": 5,
+"groups": [
+{
+"id": "yes",
+"artist": "Yes",
+"albums": [
+{
+"id": "yes-1969-yes",
+"t": "Yes",
+"y": 1969,
+"onc": "istege",
+"e": 0,
+"cov": "kapaklar/yes-1969-yes.jpg",
+"crit": [
+{
+"src": "AllMusic",
+"url": "https://www.allmusic.com/artist/yes-mn0000685647"
+}
+]
+},
+{
+"id": "yes-1970-time-and-a-word",
+"t": "Time and a Word",
+"y": 1970,
+"onc": "istege",
+"e": 0,
+"cov": "kapaklar/yes-1970-time-and-a-word.jpg",
+"crit": [
+{
+"src": "AllMusic",
+"url": "https://www.allmusic.com/artist/yes-mn0000685647"
+}
+]
+},
+{
+"id": "yes-1971-the-yes-album",
+"t": "The Yes Album",
+"y": 1971,
+"onc": "temel",
+"e": 1,
+"cov": "kapaklar/yes-1971-the-yes-album.jpg",
+"crit": [
+{
+"src": "AllMusic / genel kanı",
+"url": "https://www.allmusic.com/artist/yes-mn0000685647"
+}
+]
+},
+{
+"id": "yes-1971-fragile",
+"t": "Fragile",
+"y": 1971,
+"onc": "temel",
+"e": 1,
+"cov": "kapaklar/yes-1971-fragile.jpg",
+"crit": [
+{
+"src": "AllMusic (Rick Wakeman biyografisi)",
+"url": "https://www.allmusic.com/artist/rick-wakeman-mn0000300245"
+},
+{
+"src": "Progrography (albüm incelemesi)",
+"url": "https://progrography.com/yes/review-yes-fragile-1971/"
+},
+{
+"src": "1001 Albums You Must Hear Before You Die",
+"url": "http://1001albumsyoumusthearbeforeyoudie.wikidot.com/yes-fragile"
+}
+]
+},
+{
+"id": "yes-1972-close-to-the-edge",
+"t": "Close to the Edge",
+"y": 1972,
+"onc": "temel",
+"e": 1,
+"cov": "kapaklar/yes-1972-close-to-the-edge.jpg",
+"crit": [
+{
+"src": "AllMusic (Dave Thompson)",
+"url": "https://www.albumoftheyear.org/album/9077-yes-close-to-the-edge.php"
+},
+{
+"src": "Pitchfork (Chris Dahlen)",
+"url": "https://www.albumoftheyear.org/album/9077-yes-close-to-the-edge.php"
+},
+{
+"src": "Rolling Stone (dönemin eleştirisi)",
+"url": "https://www.albumoftheyear.org/album/9077-yes-close-to-the-edge.php"
+}
+]
+},
+{
+"id": "yes-1973-yessongs",
+"t": "Yessongs",
+"y": 1973,
+"onc": "onerilir",
+"e": 1,
+"cov": "kapaklar/yes-1973-yessongs.jpg"
+},
+{
+"id": "yes-1973-tales-from-topographic-oceans",
+"t": "Tales from Topographic Oceans",
+"y": 1973,
+"onc": "temel",
+"e": 1,
+"cov": "kapaklar/yes-1973-tales-from-topographic-oceans.jpg",
+"crit": [
+{
+"src": "Rolling Stone (Gordon Fletcher)",
+"url": "https://ultimateclassicrock.com/yes-tales-of-topographic-oceans/"
+},
+{
+"src": "Melody Maker (Chris Welch)",
+"url": "https://ultimateclassicrock.com/yes-tales-of-topographic-oceans/"
+},
+{
+"src": "Progression dergisi (John Covach, 1996)",
+"url": "https://culture.fandom.com/wiki/Tales_from_Topographic_Oceans"
+},
+{
+"src": "Rick Wakeman (bandın kendi üyesi)",
+"url": "https://nigelleaney.medium.com/tales-from-topographic-oceans-812a6d8ba32a"
+}
+]
+},
+{
+"id": "yes-1974-relayer",
+"t": "Relayer",
+"y": 1974,
+"onc": "temel",
+"e": 1,
+"cov": "kapaklar/yes-1974-relayer.jpg",
+"crit": [
+{
+"src": "Genel eleştirel kanı (AllMusic/Wikipedia sentezi)",
+"url": "https://en.wikipedia.org/wiki/Relayer"
+}
+]
+},
+{
+"id": "yes-1975-yesterdays",
+"t": "Yesterdays",
+"y": 1975,
+"e": 2,
+"cov": "kapaklar/yes-1975-yesterdays.jpg"
+},
+{
+"id": "yes-1977-going-for-the-one",
+"t": "Going for the One",
+"y": 1977,
+"onc": "temel",
+"e": 2,
+"cov": "kapaklar/yes-1977-going-for-the-one.jpg"
+},
+{
+"id": "yes-1978-tormato",
+"t": "Tormato",
+"y": 1978,
+"e": 2,
+"cov": "kapaklar/yes-1978-tormato.jpg"
+},
+{
+"id": "yes-1980-yesshows",
+"t": "Yesshows",
+"y": 1980,
+"e": 3,
+"cov": "kapaklar/yes-1980-yesshows.jpg"
+},
+{
+"id": "yes-1980-drama",
+"t": "Drama",
+"y": 1980,
+"onc": "onerilir",
+"e": 3,
+"cov": "kapaklar/yes-1980-drama.jpg"
+},
+{
+"id": "yes-1981-classic-yes",
+"t": "Classic Yes",
+"y": 1981,
+"onc": "atla",
+"e": 3,
+"cov": "kapaklar/yes-1981-classic-yes.jpg"
+},
+{
+"id": "yes-1983-90125",
+"t": "90125",
+"y": 1983,
+"onc": "temel",
+"e": 3,
+"cov": "kapaklar/yes-1983-90125.jpg",
+"crit": [
+{
+"src": "AllMusic",
+"url": "https://www.allmusic.com/album/90125-mw0000196430"
+},
+{
+"src": "AllMusic ('Owner of a Lonely Heart' inceleme)",
+"url": "https://www.allmusic.com/song/mt0005215362"
+}
+]
+},
+{
+"id": "yes-1985-9012live-the-solos",
+"t": "9012Live: The Solos",
+"y": 1985,
+"e": 3,
+"cov": "kapaklar/yes-1985-9012live-the-solos.jpg"
+},
+{
+"id": "yes-1987-big-generator",
+"t": "Big Generator",
+"y": 1987,
+"e": 3,
+"cov": "kapaklar/yes-1987-big-generator.jpg"
+},
+{
+"id": "yes-1991-union",
+"t": "Union",
+"y": 1991,
+"e": 4,
+"cov": "kapaklar/yes-1991-union.jpg",
+"crit": [
+{
+"src": "Ultimate Classic Rock",
+"url": "https://ultimateclassicrock.com/yes-union/"
+},
+{
+"src": "Bill Bruford (bandın kendi üyesi)",
+"url": "https://www.progarchives.com/album-reviews.asp?id=1839"
+}
+]
+},
+{
+"id": "yes-1991-yesyears",
+"t": "Yesyears",
+"y": 1991,
+"onc": "atla",
+"e": 4
+},
+{
+"id": "yes-1993-symphonic-music-of-yes",
+"t": "Symphonic Music of Yes",
+"y": 1993,
+"e": 4,
+"cov": "kapaklar/yes-1993-symphonic-music-of-yes.jpg"
+},
+{
+"id": "yes-1994-talk",
+"t": "Talk",
+"y": 1994,
+"e": 4,
+"cov": "kapaklar/yes-1994-talk.jpg"
+},
+{
+"id": "yes-1994-an-evening-of-yes-music-plus",
+"t": "An Evening of Yes Music Plus",
+"y": 1994,
+"e": 4,
+"cov": "kapaklar/yes-1994-an-evening-of-yes-music-plus.jpg"
+},
+{
+"id": "yes-1996-keys-to-ascension",
+"t": "Keys to Ascension",
+"y": 1996,
+"onc": "temel",
+"e": 5,
+"cov": "kapaklar/yes-1996-keys-to-ascension.jpg"
+},
+{
+"id": "yes-1997-keys-to-ascension-2",
+"t": "Keys to Ascension 2",
+"y": 1997,
+"onc": "temel",
+"e": 5,
+"cov": "kapaklar/yes-1997-keys-to-ascension-2.jpg"
+},
+{
+"id": "yes-1997-open-your-eyes",
+"t": "Open Your Eyes",
+"y": 1997,
+"e": 5,
+"cov": "kapaklar/yes-1997-open-your-eyes.jpg"
+},
+{
+"id": "yes-1998-beyond-and-before",
+"t": "Beyond and Before",
+"y": 1998,
+"onc": "atla",
+"e": 5
+},
+{
+"id": "yes-1999-the-ladder",
+"t": "The Ladder",
+"y": 1999,
+"e": 5,
+"cov": "kapaklar/yes-1999-the-ladder.jpg"
+},
+{
+"id": "yes-2000-house-of-yes-live-from-house-of-blues",
+"t": "House of Yes: Live from House of Blues",
+"y": 2000,
+"e": 5,
+"cov": "kapaklar/yes-2000-house-of-yes-live-from-house-of-blues.jpg"
+},
+{
+"id": "yes-2001-keystudio",
+"t": "Keystudio",
+"y": 2001,
+"e": 5
+},
+{
+"id": "yes-2001-magnification",
+"t": "Magnification",
+"y": 2001,
+"e": 5,
+"cov": "kapaklar/yes-2001-magnification.jpg"
+},
+{
+"id": "yes-2002-in-a-word-yes-1969",
+"t": "In a Word: Yes (1969-)",
+"y": 2002,
+"onc": "istege",
+"e": 5,
+"cov": "kapaklar/yes-2002-in-a-word-yes-1969.jpg"
+},
+{
+"id": "yes-2003-the-ultimate-yes-35th-anniversary-collection",
+"t": "The Ultimate Yes: 35th Anniversary Collection",
+"y": 2003,
+"onc": "atla",
+"e": 6,
+"cov": "kapaklar/yes-2003-the-ultimate-yes-35th-anniversary-collection.jpg"
+},
+{
+"id": "yes-2005-the-word-is-live",
+"t": "The Word Is Live",
+"y": 2005,
+"e": 6,
+"cov": "kapaklar/yes-2005-the-word-is-live.jpg"
+},
+{
+"id": "yes-2011-fly-from-here",
+"t": "Fly from Here",
+"y": 2011,
+"onc": "temel",
+"e": 6,
+"cov": "kapaklar/yes-2011-fly-from-here.jpg"
+},
+{
+"id": "yes-2013-like-it-is-yes-at-the-bristol-hippodrome",
+"t": "Like It Is: Yes at the Bristol Hippodrome",
+"y": 2013,
+"e": 7
+},
+{
+"id": "yes-2014-heaven-earth",
+"t": "Heaven & Earth",
+"y": 2014,
+"e": 7
+},
+{
+"id": "yes-2015-like-it-is-yes-at-the-mesa-arts-center",
+"t": "Like It Is: Yes at the Mesa Arts Center",
+"y": 2015,
+"e": 7
+},
+{
+"id": "yes-2017-topographic-drama-live-across-america",
+"t": "Topographic Drama – Live Across America",
+"y": 2017,
+"e": 7,
+"cov": "kapaklar/yes-2017-topographic-drama-live-across-america.jpg"
+},
+{
+"id": "yes-2018-fly-from-here-return-trip",
+"t": "Fly from Here – Return Trip",
+"y": 2018,
+"onc": "temel",
+"e": 7,
+"cov": "kapaklar/yes-2018-fly-from-here-return-trip.jpg"
+},
+{
+"id": "yes-2019-from-a-page",
+"t": "From a Page",
+"y": 2019,
+"e": 7,
+"cov": "kapaklar/yes-2019-from-a-page.jpg"
+},
+{
+"id": "yes-2021-the-quest",
+"t": "The Quest",
+"y": 2021,
+"onc": "temel",
+"e": 8,
+"cov": "kapaklar/yes-2021-the-quest.jpg",
+"crit": [
+{
+"src": "The Progressive Aspect (Alex Driessen)",
+"url": "https://theprogressiveaspect.net/blog/2023/05/08/yes-mirror-to-the-sky/"
+}
+]
+},
+{
+"id": "yes-2023-mirror-to-the-sky",
+"t": "Mirror to the Sky",
+"y": 2023,
+"onc": "temel",
+"e": 8,
+"cov": "kapaklar/yes-2023-mirror-to-the-sky.jpg",
+"crit": [
+{
+"src": "Louder Sound",
+"url": "https://en.wikipedia.org/wiki/Mirror_to_the_Sky_(song)"
+},
+{
+"src": "Sonic Perspectives",
+"url": "https://www.sonicperspectives.com/album-reviews/yes-mirror-to-the-sky/"
+},
+{
+"src": "The Progressive Aspect",
+"url": "https://theprogressiveaspect.net/blog/2023/05/08/yes-mirror-to-the-sky/"
+}
+]
+},
+{
+"id": "yes-2023-yessingles",
+"t": "Yessingles",
+"y": 2023,
+"e": 8,
+"cov": "kapaklar/yes-2023-yessingles.jpg"
+},
+{
+"id": "yes-2026-from-a-page-expanded-remastered-edition",
+"t": "From a Page (Expanded & Remastered Edition)",
+"y": 2026,
+"e": 8,
+"crit": [
+{
+"src": "Louder Sound",
+"url": "https://www.loudersound.com/music/albums/yes-to-release-expanded-and-remastered-edition-of-from-a-page-in-april"
+}
+]
+},
+{
+"id": "yes-2026-aurora",
+"t": "Aurora",
+"y": 2026,
+"onc": "temel",
+"e": 8,
+"cov": "kapaklar/yes-2026-aurora.jpg"
+}
+],
+"tarih_src": "Kaynak: Edward Macan, \"Rocking the Classics: English Progressive Rock and the Counterculture\" (Oxford University Press, 1997)",
+"eras": [
+{
+"yil": "1969–1970",
+"from": 1969,
+"to": 1970
+},
+{
+"yil": "1971–1974",
+"from": 1971,
+"to": 1974
+},
+{
+"yil": "1975–1979",
+"from": 1975,
+"to": 1979
+},
+{
+"yil": "1980–1989",
+"from": 1980,
+"to": 1989
+},
+{
+"yil": "1991–1996",
+"from": 1991,
+"to": 1996
+},
+{
+"yil": "1996–2002",
+"from": 1996,
+"to": 2002
+},
+{
+"yil": "2003–2011",
+"from": 2003,
+"to": 2011
+},
+{
+"yil": "2013–2019",
+"from": 2013,
+"to": 2019
+},
+{
+"yil": "2021–2026",
+"from": 2021,
+"to": 2026
+}
+]
+},
+{
+"id": "anderson-bruford-wakeman-howe-abwh",
+"artist": "Anderson Bruford Wakeman Howe",
+"albums": [
+{
+"id": "anderson-bruford-wakeman-howe-1989-anderson-bruford-wakeman-howe",
+"t": "Anderson Bruford Wakeman Howe",
+"y": 1989,
+"cov": "kapaklar/anderson-bruford-wakeman-howe-1989-anderson-bruford-wakeman-howe.jpg"
+}
+]
+},
+{
+"id": "flash",
+"artist": "Flash",
+"albums": [
+{
+"id": "flash-1972-flash",
+"t": "Flash",
+"y": 1972,
+"cov": "kapaklar/flash-1972-flash.jpg"
+},
+{
+"id": "flash-1972-in-the-can",
+"t": "In the Can",
+"y": 1972,
+"cov": "kapaklar/flash-1972-in-the-can.jpg"
+},
+{
+"id": "flash-1973-out-of-our-hands",
+"t": "Out of Our Hands",
+"y": 1973,
+"cov": "kapaklar/flash-1973-out-of-our-hands.jpg"
+}
+]
+},
+{
+"id": "rick-wakeman-solo",
+"artist": "Rick Wakeman",
+"albums": [
+{
+"id": "rick-wakeman-1973-the-six-wives-of-henry-viii",
+"t": "The Six Wives of Henry VIII",
+"y": 1973,
+"onc": "temel",
+"cov": "kapaklar/rick-wakeman-1973-the-six-wives-of-henry-viii.jpg"
+},
+{
+"id": "rick-wakeman-1974-journey-to-the-centre-of-the-earth",
+"t": "Journey to the Centre of the Earth",
+"y": 1974,
+"onc": "temel",
+"cov": "kapaklar/rick-wakeman-1974-journey-to-the-centre-of-the-earth.jpg"
+},
+{
+"id": "rick-wakeman-1975-the-myths-and-legends-of-king-arthur-and-the-knights-of-the-round-table",
+"t": "The Myths and Legends of King Arthur and the Knights of the Round Table",
+"y": 1975,
+"onc": "onerilir",
+"cov": "kapaklar/rick-wakeman-1975-the-myths-and-legends-of-king-arthur-and-the-knights-of-the-round-table.jpg"
+},
+{
+"id": "rick-wakeman-1976-no-earthly-connection",
+"t": "No Earthly Connection",
+"y": 1976,
+"onc": "istege",
+"cov": "kapaklar/rick-wakeman-1976-no-earthly-connection.jpg"
+},
+{
+"id": "rick-wakeman-1977-criminal-record",
+"t": "Criminal Record",
+"y": 1977,
+"onc": "onerilir",
+"cov": "kapaklar/rick-wakeman-1977-criminal-record.jpg"
+},
+{
+"id": "rick-wakeman-1999-return-to-the-centre-of-the-earth",
+"t": "Return to the Centre of the Earth",
+"y": 1999,
+"onc": "istege",
+"cov": "kapaklar/rick-wakeman-1999-return-to-the-centre-of-the-earth.jpg"
+}
+]
+},
+{
+"id": "steve-howe-solo",
+"artist": "Steve Howe",
+"albums": [
+{
+"id": "steve-howe-1975-beginnings",
+"t": "Beginnings",
+"y": 1975,
+"onc": "istege",
+"cov": "kapaklar/steve-howe-1975-beginnings.jpg"
+},
+{
+"id": "steve-howe-1979-the-steve-howe-album",
+"t": "The Steve Howe Album",
+"y": 1979,
+"onc": "onerilir",
+"cov": "kapaklar/steve-howe-1979-the-steve-howe-album.jpg"
+},
+{
+"id": "steve-howe-1991-turbulence",
+"t": "Turbulence",
+"y": 1991,
+"onc": "istege",
+"cov": "kapaklar/steve-howe-1991-turbulence.jpg"
+},
+{
+"id": "steve-howe-2003-elements",
+"t": "Elements",
+"y": 2003,
+"onc": "istege"
+},
+{
+"id": "steve-howe-2011-time",
+"t": "Time",
+"y": 2011,
+"onc": "onerilir"
+}
+]
+},
+{
+"id": "jon-anderson-solo",
+"artist": "Jon Anderson",
+"albums": [
+{
+"id": "jon-anderson-1976-olias-of-sunhillow",
+"t": "Olias of Sunhillow",
+"y": 1976,
+"onc": "onerilir",
+"cov": "kapaklar/jon-anderson-1976-olias-of-sunhillow.jpg"
+},
+{
+"id": "jon-anderson-1980-short-stories",
+"t": "Short Stories",
+"y": 1980,
+"onc": "istege",
+"cov": "kapaklar/jon-anderson-1980-short-stories.jpg"
+},
+{
+"id": "jon-anderson-1981-the-friends-of-mr-cairo",
+"t": "The Friends of Mr Cairo",
+"y": 1981,
+"onc": "onerilir",
+"cov": "kapaklar/jon-anderson-1981-the-friends-of-mr-cairo.jpg"
+},
+{
+"id": "jon-anderson-2011-survival-other-stories",
+"t": "Survival & Other Stories",
+"y": 2011,
+"onc": "istege",
+"cov": "kapaklar/jon-anderson-2011-survival-other-stories.jpg"
+},
+{
+"id": "jon-anderson-2016-invention-of-knowledge",
+"t": "Invention of Knowledge",
+"y": 2016,
+"onc": "temel"
+},
+{
+"id": "jon-anderson-2019-1000-hands-chapter-one",
+"t": "1000 Hands: Chapter One",
+"y": 2019,
+"onc": "istege"
+}
+]
+},
+{
+"id": "chris-squire-solo",
+"artist": "Chris Squire",
+"albums": [
+{
+"id": "chris-squire-1975-fish-out-of-water",
+"t": "Fish Out of Water",
+"y": 1975,
+"onc": "temel",
+"cov": "kapaklar/chris-squire-1975-fish-out-of-water.jpg"
+},
+{
+"id": "chris-squire-2007-chris-squire-s-swiss-choir",
+"t": "Chris Squire's Swiss Choir",
+"y": 2007,
+"onc": "ikincil",
+"cov": "kapaklar/chris-squire-2007-chris-squire-s-swiss-choir.jpg"
+},
+{
+"id": "chris-squire-2012-a-life-within-a-day",
+"t": "A Life Within a Day",
+"y": 2012,
+"onc": "istege",
+"cov": "kapaklar/chris-squire-2012-a-life-within-a-day.jpg"
+}
+]
+}
+]
+},
+{
+"no": 6,
+"groups": [
+{
+"id": "emerson-lake-palmer-elp",
+"artist": "Emerson, Lake & Palmer",
+"albums": [
+{
+"id": "emerson-lake-palmer-1970-emerson-lake-palmer",
+"t": "Emerson, Lake & Palmer",
+"y": 1970,
+"onc": "onerilir",
+"e": 0,
+"cov": "kapaklar/emerson-lake-palmer-1970-emerson-lake-palmer.jpg"
+},
+{
+"id": "emerson-lake-palmer-1971-tarkus",
+"t": "Tarkus",
+"y": 1971,
+"onc": "temel",
+"e": 0,
+"cov": "kapaklar/emerson-lake-palmer-1971-tarkus.jpg"
+},
+{
+"id": "emerson-lake-palmer-1971-pictures-at-an-exhibition",
+"t": "Pictures at an Exhibition",
+"y": 1971,
+"onc": "temel",
+"e": 0,
+"cov": "kapaklar/emerson-lake-palmer-1971-pictures-at-an-exhibition.jpg"
+},
+{
+"id": "emerson-lake-palmer-1972-trilogy",
+"t": "Trilogy",
+"y": 1972,
+"onc": "onerilir",
+"e": 0,
+"cov": "kapaklar/emerson-lake-palmer-1972-trilogy.jpg"
+},
+{
+"id": "emerson-lake-palmer-1973-brain-salad-surgery",
+"t": "Brain Salad Surgery",
+"y": 1973,
+"onc": "temel",
+"e": 0,
+"cov": "kapaklar/emerson-lake-palmer-1973-brain-salad-surgery.jpg"
+},
+{
+"id": "emerson-lake-palmer-1974-welcome-back-my-friends-to-the-show-that-never-ends-ladies-and-gentlemen",
+"t": "Welcome Back My Friends to the Show That Never Ends – Ladies and Gentlemen",
+"y": 1974,
+"onc": "ikincil",
+"e": 0,
+"cov": "kapaklar/emerson-lake-palmer-1974-welcome-back-my-friends-to-the-show-that-never-ends-ladies-and-gentlemen.jpg"
+},
+{
+"id": "emerson-lake-palmer-1977-works-volume-1",
+"t": "Works Volume 1",
+"y": 1977,
+"onc": "istege",
+"e": 1,
+"cov": "kapaklar/emerson-lake-palmer-1977-works-volume-1.jpg"
+},
+{
+"id": "emerson-lake-palmer-1977-works-volume-2",
+"t": "Works Volume 2",
+"y": 1977,
+"onc": "atla",
+"e": 1,
+"cov": "kapaklar/emerson-lake-palmer-1977-works-volume-2.jpg"
+},
+{
+"id": "emerson-lake-palmer-1978-love-beach",
+"t": "Love Beach",
+"y": 1978,
+"onc": "atla",
+"e": 1,
+"cov": "kapaklar/emerson-lake-palmer-1978-love-beach.jpg"
+},
+{
+"id": "emerson-lake-palmer-1992-black-moon",
+"t": "Black Moon",
+"y": 1992,
+"onc": "istege",
+"e": 2,
+"cov": "kapaklar/emerson-lake-palmer-1992-black-moon.jpg"
+},
+{
+"id": "emerson-lake-palmer-1994-in-the-hot-seat",
+"t": "In the Hot Seat",
+"y": 1994,
+"onc": "atla",
+"e": 2,
+"cov": "kapaklar/emerson-lake-palmer-1994-in-the-hot-seat.jpg"
+}
+],
+"eras": [
+{
+"yil": "1970–1974",
+"from": 1970,
+"to": 1974
+},
+{
+"yil": "1977–1979",
+"from": 1977,
+"to": 1979
+},
+{
+"yil": "1992–1994",
+"from": 1992,
+"to": 1994
+}
+]
+},
+{
+"id": "atomic-rooster-yan-dugum",
+"artist": "Atomic Rooster",
+"albums": [
+{
+"id": "atomic-rooster-1970-atomic-rooster",
+"t": "Atomic Rooster",
+"y": 1970,
+"cov": "kapaklar/atomic-rooster-1970-atomic-rooster.jpg"
+},
+{
+"id": "atomic-rooster-1970-death-walks-behind-you",
+"t": "Death Walks Behind You",
+"y": 1970,
+"cov": "kapaklar/atomic-rooster-1970-death-walks-behind-you.jpg"
+},
+{
+"id": "atomic-rooster-1971-in-hearing-of-atomic-rooster",
+"t": "In Hearing of Atomic Rooster",
+"y": 1971,
+"cov": "kapaklar/atomic-rooster-1971-in-hearing-of-atomic-rooster.jpg"
+}
+]
+},
+{
+"id": "refugee",
+"artist": "Refugee",
+"albums": [
+{
+"id": "refugee-1974-refugee",
+"t": "Refugee",
+"y": 1974,
+"cov": "kapaklar/refugee-1974-refugee.jpg"
+}
+]
+},
+{
+"id": "emerson-lake-powell-3",
+"artist": "Emerson, Lake & Powell",
+"albums": [
+{
+"id": "emerson-lake-powell-1986-emerson-lake-powell",
+"t": "Emerson, Lake & Powell",
+"y": 1986,
+"onc": "onerilir",
+"cov": "kapaklar/emerson-lake-powell-1986-emerson-lake-powell.jpg"
+},
+{
+"id": "emerson-lake-powell-1988-to-the-power-of-three",
+"t": "To the Power of Three",
+"y": 1988,
+"onc": "istege"
+}
+]
+}
+]
+},
+{
+"no": 7,
+"groups": [
+{
+"id": "genesis",
+"artist": "Genesis",
+"albums": [
+{
+"id": "genesis-1969-from-genesis-to-revelation",
+"t": "From Genesis to Revelation",
+"y": 1969,
+"onc": "atla",
+"e": 0,
+"cov": "kapaklar/genesis-1969-from-genesis-to-revelation.jpg"
+},
+{
+"id": "genesis-1970-trespass",
+"t": "Trespass",
+"y": 1970,
+"onc": "onerilir",
+"e": 0,
+"cov": "kapaklar/genesis-1970-trespass.jpg"
+},
+{
+"id": "genesis-1971-nursery-cryme",
+"t": "Nursery Cryme",
+"y": 1971,
+"onc": "onerilir",
+"e": 1,
+"cov": "kapaklar/genesis-1971-nursery-cryme.jpg"
+},
+{
+"id": "genesis-1972-foxtrot",
+"t": "Foxtrot",
+"y": 1972,
+"onc": "temel",
+"e": 1,
+"cov": "kapaklar/genesis-1972-foxtrot.jpg"
+},
+{
+"id": "genesis-1973-selling-england-by-the-pound",
+"t": "Selling England by the Pound",
+"y": 1973,
+"onc": "temel",
+"e": 1,
+"cov": "kapaklar/genesis-1973-selling-england-by-the-pound.jpg"
+},
+{
+"id": "genesis-1974-the-lamb-lies-down-on-broadway",
+"t": "The Lamb Lies Down on Broadway",
+"y": 1974,
+"onc": "temel",
+"e": 1,
+"cov": "kapaklar/genesis-1974-the-lamb-lies-down-on-broadway.jpg"
+},
+{
+"id": "genesis-1976-a-trick-of-the-tail",
+"t": "A Trick of the Tail",
+"y": 1976,
+"onc": "temel",
+"e": 2,
+"cov": "kapaklar/genesis-1976-a-trick-of-the-tail.jpg"
+},
+{
+"id": "genesis-1976-wind-wuthering",
+"t": "Wind & Wuthering",
+"y": 1976,
+"onc": "onerilir",
+"e": 2,
+"cov": "kapaklar/genesis-1976-wind-wuthering.jpg"
+},
+{
+"id": "genesis-1977-seconds-out",
+"t": "Seconds Out",
+"y": 1977,
+"onc": "onerilir",
+"e": 2,
+"cov": "kapaklar/genesis-1977-seconds-out.jpg"
+},
+{
+"id": "genesis-1978-and-then-there-were-three",
+"t": "...And Then There Were Three...",
+"y": 1978,
+"onc": "istege",
+"e": 2,
+"cov": "kapaklar/genesis-1978-and-then-there-were-three.jpg"
+},
+{
+"id": "genesis-1980-duke",
+"t": "Duke",
+"y": 1980,
+"onc": "onerilir",
+"e": 2,
+"cov": "kapaklar/genesis-1980-duke.jpg"
+},
+{
+"id": "genesis-1981-abacab",
+"t": "Abacab",
+"y": 1981,
+"onc": "istege",
+"e": 3,
+"cov": "kapaklar/genesis-1981-abacab.jpg"
+},
+{
+"id": "genesis-1983-genesis",
+"t": "Genesis",
+"y": 1983,
+"onc": "istege",
+"e": 3,
+"cov": "kapaklar/genesis-1983-genesis.jpg"
+},
+{
+"id": "genesis-1986-invisible-touch",
+"t": "Invisible Touch",
+"y": 1986,
+"onc": "istege",
+"e": 3,
+"cov": "kapaklar/genesis-1986-invisible-touch.jpg"
+},
+{
+"id": "genesis-1991-we-can-t-dance",
+"t": "We Can't Dance",
+"y": 1991,
+"onc": "istege",
+"e": 3,
+"cov": "kapaklar/genesis-1991-we-can-t-dance.jpg"
+},
+{
+"id": "genesis-1997-calling-all-stations",
+"t": "Calling All Stations",
+"y": 1997,
+"onc": "istege",
+"e": 4,
+"cov": "kapaklar/genesis-1997-calling-all-stations.jpg"
+},
+{
+"id": "genesis-2007-live-over-europe-2007",
+"t": "Live Over Europe 2007",
+"y": 2007,
+"onc": "ikincil",
+"e": 4,
+"cov": "kapaklar/genesis-2007-live-over-europe-2007.jpg"
+}
+],
+"eras": [
+{
+"yil": "1969–1970",
+"from": 1969,
+"to": 1970
+},
+{
+"yil": "1971–1975",
+"from": 1971,
+"to": 1975
+},
+{
+"yil": "1976–1980",
+"from": 1976,
+"to": 1980
+},
+{
+"yil": "1981–1992",
+"from": 1981,
+"to": 1992
+},
+{
+"yil": "1997–2007",
+"from": 1997,
+"to": 2007
+}
+]
+},
+{
+"id": "peter-gabriel-solo-dugum",
+"artist": "Peter Gabriel",
+"albums": [
+{
+"id": "peter-gabriel-1977-peter-gabriel-car",
+"t": "Peter Gabriel (Car)",
+"y": 1977,
+"onc": "onerilir",
+"e": 0,
+"cov": "kapaklar/peter-gabriel-1977-peter-gabriel-car.jpg"
+},
+{
+"id": "peter-gabriel-1978-peter-gabriel-scratch",
+"t": "Peter Gabriel (Scratch)",
+"y": 1978,
+"onc": "istege",
+"e": 0,
+"cov": "kapaklar/peter-gabriel-1978-peter-gabriel-scratch.jpg"
+},
+{
+"id": "peter-gabriel-1980-peter-gabriel-melt",
+"t": "Peter Gabriel (Melt)",
+"y": 1980,
+"onc": "temel",
+"e": 0,
+"cov": "kapaklar/peter-gabriel-1980-peter-gabriel-melt.jpg"
+},
+{
+"id": "peter-gabriel-1982-peter-gabriel-security",
+"t": "Peter Gabriel (Security)",
+"y": 1982,
+"onc": "onerilir",
+"e": 0,
+"cov": "kapaklar/peter-gabriel-1982-peter-gabriel-security.jpg"
+},
+{
+"id": "peter-gabriel-1986-so",
+"t": "So",
+"y": 1986,
+"onc": "temel",
+"e": 1,
+"cov": "kapaklar/peter-gabriel-1986-so.jpg"
+},
+{
+"id": "peter-gabriel-1989-passion",
+"t": "Passion",
+"y": 1989,
+"onc": "onerilir",
+"e": 1,
+"cov": "kapaklar/peter-gabriel-1989-passion.jpg"
+},
+{
+"id": "peter-gabriel-1992-us",
+"t": "Us",
+"y": 1992,
+"onc": "onerilir",
+"e": 1,
+"cov": "kapaklar/peter-gabriel-1992-us.jpg"
+},
+{
+"id": "peter-gabriel-2000-ovo",
+"t": "OVO",
+"y": 2000,
+"onc": "istege",
+"e": 2,
+"cov": "kapaklar/peter-gabriel-2000-ovo.jpg"
+},
+{
+"id": "peter-gabriel-2002-up",
+"t": "Up",
+"y": 2002,
+"onc": "onerilir",
+"e": 2,
+"cov": "kapaklar/peter-gabriel-2002-up.jpg"
+},
+{
+"id": "peter-gabriel-2010-scratch-my-back",
+"t": "Scratch My Back",
+"y": 2010,
+"onc": "istege",
+"e": 2,
+"cov": "kapaklar/peter-gabriel-2010-scratch-my-back.jpg"
+},
+{
+"id": "peter-gabriel-2011-new-blood",
+"t": "New Blood",
+"y": 2011,
+"onc": "istege",
+"e": 2,
+"cov": "kapaklar/peter-gabriel-2011-new-blood.jpg"
+}
+],
+"eras": [
+{
+"yil": "1977–1982",
+"from": 1977,
+"to": 1982
+},
+{
+"yil": "1985–1993",
+"from": 1985,
+"to": 1993
+},
+{
+"yil": "2000–2011",
+"from": 2000,
+"to": 2011
+}
+]
+},
+{
+"id": "steve-hackett-solo-dugum",
+"artist": "Steve Hackett",
+"albums": [
+{
+"id": "steve-hackett-1975-voyage-of-the-acolyte",
+"t": "Voyage of the Acolyte",
+"y": 1975,
+"cov": "kapaklar/steve-hackett-1975-voyage-of-the-acolyte.jpg"
+},
+{
+"id": "steve-hackett-1978-please-don-t-touch",
+"t": "Please Don't Touch",
+"y": 1978,
+"cov": "kapaklar/steve-hackett-1978-please-don-t-touch.jpg"
+},
+{
+"id": "steve-hackett-1979-spectral-mornings",
+"t": "Spectral Mornings",
+"y": 1979,
+"cov": "kapaklar/steve-hackett-1979-spectral-mornings.jpg"
+},
+{
+"id": "steve-hackett-1980-defector",
+"t": "Defector",
+"y": 1980,
+"cov": "kapaklar/steve-hackett-1980-defector.jpg"
+},
+{
+"id": "steve-hackett-1981-cured",
+"t": "Cured",
+"y": 1981,
+"cov": "kapaklar/steve-hackett-1981-cured.jpg"
+},
+{
+"id": "steve-hackett-1983-highly-strung",
+"t": "Highly Strung",
+"y": 1983,
+"cov": "kapaklar/steve-hackett-1983-highly-strung.jpg"
+},
+{
+"id": "steve-hackett-1983-bay-of-kings",
+"t": "Bay of Kings",
+"y": 1983,
+"cov": "kapaklar/steve-hackett-1983-bay-of-kings.jpg"
+},
+{
+"id": "steve-hackett-1984-till-we-have-faces",
+"t": "Till We Have Faces",
+"y": 1984,
+"cov": "kapaklar/steve-hackett-1984-till-we-have-faces.jpg"
+},
+{
+"id": "steve-hackett-1993-guitar-noir",
+"t": "Guitar Noir",
+"y": 1993,
+"onc": "istege",
+"cov": "kapaklar/steve-hackett-1993-guitar-noir.jpg"
+},
+{
+"id": "steve-hackett-1996-genesis-revisited",
+"t": "Genesis Revisited",
+"y": 1996,
+"onc": "onerilir"
+},
+{
+"id": "steve-hackett-1999-darktown",
+"t": "Darktown",
+"y": 1999,
+"onc": "onerilir",
+"cov": "kapaklar/steve-hackett-1999-darktown.jpg"
+},
+{
+"id": "steve-hackett-2003-to-watch-the-storms",
+"t": "To Watch the Storms",
+"y": 2003,
+"onc": "istege",
+"cov": "kapaklar/steve-hackett-2003-to-watch-the-storms.jpg"
+},
+{
+"id": "steve-hackett-2011-beyond-the-shrouded-horizon",
+"t": "Beyond the Shrouded Horizon",
+"y": 2011,
+"onc": "onerilir",
+"cov": "kapaklar/steve-hackett-2011-beyond-the-shrouded-horizon.jpg"
+},
+{
+"id": "steve-hackett-2012-genesis-revisited-ii",
+"t": "Genesis Revisited II",
+"y": 2012,
+"onc": "onerilir",
+"cov": "kapaklar/steve-hackett-2012-genesis-revisited-ii.jpg"
+},
+{
+"id": "steve-hackett-2015-wolflight",
+"t": "Wolflight",
+"y": 2015,
+"onc": "onerilir",
+"cov": "kapaklar/steve-hackett-2015-wolflight.jpg"
+},
+{
+"id": "steve-hackett-2017-the-night-siren",
+"t": "The Night Siren",
+"y": 2017,
+"onc": "onerilir",
+"cov": "kapaklar/steve-hackett-2017-the-night-siren.jpg"
+},
+{
+"id": "steve-hackett-2019-at-the-edge-of-light",
+"t": "At the Edge of Light",
+"y": 2019,
+"onc": "istege",
+"cov": "kapaklar/steve-hackett-2019-at-the-edge-of-light.jpg"
+}
+]
+},
+{
+"id": "brand-x",
+"artist": "Brand X",
+"albums": [
+{
+"id": "brand-x-1976-unorthodox-behaviour",
+"t": "Unorthodox Behaviour",
+"y": 1976,
+"cov": "kapaklar/brand-x-1976-unorthodox-behaviour.jpg"
+},
+{
+"id": "brand-x-1977-moroccan-roll",
+"t": "Moroccan Roll",
+"y": 1977,
+"cov": "kapaklar/brand-x-1977-moroccan-roll.jpg"
+},
+{
+"id": "brand-x-1978-masques",
+"t": "Masques",
+"y": 1978,
+"cov": "kapaklar/brand-x-1978-masques.jpg"
+},
+{
+"id": "brand-x-1979-product",
+"t": "Product",
+"y": 1979,
+"cov": "kapaklar/brand-x-1979-product.jpg"
+},
+{
+"id": "brand-x-1980-do-they-hurt",
+"t": "Do They Hurt?",
+"y": 1980,
+"onc": "istege",
+"cov": "kapaklar/brand-x-1980-do-they-hurt.jpg"
+},
+{
+"id": "brand-x-1997-manifest-destiny",
+"t": "Manifest Destiny",
+"y": 1997,
+"onc": "istege",
+"cov": "kapaklar/brand-x-1997-manifest-destiny.jpg"
+}
+]
+},
+{
+"id": "anthony-phillips",
+"artist": "Anthony Phillips",
+"albums": [
+{
+"id": "anthony-phillips-1977-the-geese-the-ghost",
+"t": "The Geese & the Ghost",
+"y": 1977,
+"onc": "temel",
+"cov": "kapaklar/anthony-phillips-1977-the-geese-the-ghost.jpg"
+},
+{
+"id": "anthony-phillips-1978-wise-after-the-event",
+"t": "Wise After the Event",
+"y": 1978,
+"onc": "istege",
+"cov": "kapaklar/anthony-phillips-1978-wise-after-the-event.jpg"
+},
+{
+"id": "anthony-phillips-1978-private-parts-pieces",
+"t": "Private Parts & Pieces",
+"y": 1978,
+"onc": "istege",
+"cov": "kapaklar/anthony-phillips-1978-private-parts-pieces.jpg"
+},
+{
+"id": "anthony-phillips-1979-sides",
+"t": "Sides",
+"y": 1979,
+"onc": "istege",
+"cov": "kapaklar/anthony-phillips-1979-sides.jpg"
+},
+{
+"id": "anthony-phillips-1990-slow-dance",
+"t": "Slow Dance",
+"y": 1990,
+"onc": "onerilir",
+"cov": "kapaklar/anthony-phillips-1990-slow-dance.jpg"
+}
+]
+}
+]
+},
+{
+"no": 16,
+"groups": [
+{
+"id": "pink-floyd",
+"artist": "Pink Floyd",
+"albums": [
+{
+"id": "pink-floyd-1967-the-piper-at-the-gates-of-dawn",
+"t": "The Piper at the Gates of Dawn",
+"y": 1967,
+"onc": "temel",
+"e": 0,
+"cov": "kapaklar/pink-floyd-1967-the-piper-at-the-gates-of-dawn.jpg"
+},
+{
+"id": "pink-floyd-1968-a-saucerful-of-secrets",
+"t": "A Saucerful of Secrets",
+"y": 1968,
+"onc": "onerilir",
+"e": 0,
+"cov": "kapaklar/pink-floyd-1968-a-saucerful-of-secrets.jpg"
+},
+{
+"id": "pink-floyd-1969-more",
+"t": "More",
+"y": 1969,
+"onc": "istege",
+"e": 1,
+"cov": "kapaklar/pink-floyd-1969-more.jpg"
+},
+{
+"id": "pink-floyd-1969-ummagumma",
+"t": "Ummagumma",
+"y": 1969,
+"onc": "istege",
+"e": 1,
+"cov": "kapaklar/pink-floyd-1969-ummagumma.jpg"
+},
+{
+"id": "pink-floyd-1970-atom-heart-mother",
+"t": "Atom Heart Mother",
+"y": 1970,
+"onc": "istege",
+"e": 1,
+"cov": "kapaklar/pink-floyd-1970-atom-heart-mother.jpg"
+},
+{
+"id": "pink-floyd-1971-meddle",
+"t": "Meddle",
+"y": 1971,
+"onc": "temel",
+"e": 1,
+"cov": "kapaklar/pink-floyd-1971-meddle.jpg"
+},
+{
+"id": "pink-floyd-1973-the-dark-side-of-the-moon",
+"t": "The Dark Side of the Moon",
+"y": 1973,
+"onc": "temel",
+"e": 2,
+"cov": "kapaklar/pink-floyd-1973-the-dark-side-of-the-moon.jpg"
+},
+{
+"id": "pink-floyd-1975-wish-you-were-here",
+"t": "Wish You Were Here",
+"y": 1975,
+"onc": "temel",
+"e": 2,
+"cov": "kapaklar/pink-floyd-1975-wish-you-were-here.jpg"
+},
+{
+"id": "pink-floyd-1977-animals",
+"t": "Animals",
+"y": 1977,
+"onc": "temel",
+"e": 2,
+"cov": "kapaklar/pink-floyd-1977-animals.jpg"
+},
+{
+"id": "pink-floyd-1979-the-wall",
+"t": "The Wall",
+"y": 1979,
+"onc": "temel",
+"e": 2,
+"cov": "kapaklar/pink-floyd-1979-the-wall.jpg"
+},
+{
+"id": "pink-floyd-1983-the-final-cut",
+"t": "The Final Cut",
+"y": 1983,
+"onc": "istege",
+"e": 2,
+"cov": "kapaklar/pink-floyd-1983-the-final-cut.jpg"
+},
+{
+"id": "pink-floyd-1987-a-momentary-lapse-of-reason",
+"t": "A Momentary Lapse of Reason",
+"y": 1987,
+"onc": "istege",
+"e": 3,
+"cov": "kapaklar/pink-floyd-1987-a-momentary-lapse-of-reason.jpg"
+},
+{
+"id": "pink-floyd-1994-the-division-bell",
+"t": "The Division Bell",
+"y": 1994,
+"onc": "onerilir",
+"e": 3,
+"cov": "kapaklar/pink-floyd-1994-the-division-bell.jpg"
+},
+{
+"id": "pink-floyd-1995-pulse",
+"t": "Pulse",
+"y": 1995,
+"onc": "ikincil",
+"e": 3
+},
+{
+"id": "pink-floyd-2014-the-endless-river",
+"t": "The Endless River",
+"y": 2014,
+"onc": "istege",
+"e": 3,
+"cov": "kapaklar/pink-floyd-2014-the-endless-river.jpg"
+}
+],
+"eras": [
+{
+"yil": "1967–1968",
+"from": 1967,
+"to": 1968
+},
+{
+"yil": "1969–1972",
+"from": 1969,
+"to": 1972
+},
+{
+"yil": "1973–1983",
+"from": 1973,
+"to": 1983
+},
+{
+"yil": "1987–2014",
+"from": 1987,
+"to": 2014
+}
+]
+},
+{
+"id": "david-gilmour-solo",
+"artist": "David Gilmour",
+"albums": [
+{
+"id": "david-gilmour-1978-david-gilmour",
+"t": "David Gilmour",
+"y": 1978,
+"onc": "istege",
+"cov": "kapaklar/david-gilmour-1978-david-gilmour.jpg"
+},
+{
+"id": "david-gilmour-1984-about-face",
+"t": "About Face",
+"y": 1984,
+"onc": "istege",
+"cov": "kapaklar/david-gilmour-1984-about-face.jpg"
+},
+{
+"id": "david-gilmour-2006-on-an-island",
+"t": "On an Island",
+"y": 2006,
+"onc": "temel",
+"cov": "kapaklar/david-gilmour-2006-on-an-island.jpg"
+},
+{
+"id": "david-gilmour-2008-live-in-gdansk",
+"t": "Live in Gdańsk",
+"y": 2008,
+"onc": "onerilir",
+"cov": "kapaklar/david-gilmour-2008-live-in-gdansk.jpg"
+},
+{
+"id": "david-gilmour-2015-rattle-that-lock",
+"t": "Rattle That Lock",
+"y": 2015,
+"onc": "istege",
+"cov": "kapaklar/david-gilmour-2015-rattle-that-lock.jpg"
+}
+]
+},
+{
+"id": "roger-waters-solo",
+"artist": "Roger Waters",
+"albums": [
+{
+"id": "roger-waters-1984-the-pros-and-cons-of-hitch-hiking",
+"t": "The Pros and Cons of Hitch Hiking",
+"y": 1984,
+"onc": "istege",
+"cov": "kapaklar/roger-waters-1984-the-pros-and-cons-of-hitch-hiking.jpg"
+},
+{
+"id": "roger-waters-1987-radio-k-a-o-s",
+"t": "Radio K.A.O.S.",
+"y": 1987,
+"onc": "istege",
+"cov": "kapaklar/roger-waters-1987-radio-k-a-o-s.jpg"
+},
+{
+"id": "roger-waters-1992-amused-to-death",
+"t": "Amused to Death",
+"y": 1992,
+"onc": "temel"
+},
+{
+"id": "roger-waters-2017-is-this-the-life-we-really-want",
+"t": "Is This the Life We Really Want?",
+"y": 2017,
+"onc": "onerilir"
+}
+]
+},
+{
+"id": "nick-mason-solo-ve-saucerful-of-secrets",
+"artist": "Nick Mason",
+"albums": [
+{
+"id": "nick-mason-1981-nick-mason-s-fictitious-sports",
+"t": "Nick Mason's Fictitious Sports",
+"y": 1981,
+"onc": "onerilir",
+"cov": "kapaklar/nick-mason-1981-nick-mason-s-fictitious-sports.jpg"
+},
+{
+"id": "nick-mason-1985-profiles",
+"t": "Profiles",
+"y": 1985,
+"onc": "istege",
+"cov": "kapaklar/nick-mason-1985-profiles.jpg"
+},
+{
+"id": "nick-mason-2020-live-at-the-roundhouse",
+"t": "Live at the Roundhouse",
+"y": 2020,
+"onc": "onerilir",
+"cov": "kapaklar/nick-mason-2020-live-at-the-roundhouse.jpg"
+}
+]
+}
+]
+},
+{
+"no": 8,
+"groups": [
+{
+"id": "soft-machine",
+"artist": "Soft Machine",
+"albums": [
+{
+"id": "soft-machine-1968-the-soft-machine",
+"t": "The Soft Machine",
+"y": 1968,
+"cov": "kapaklar/soft-machine-1968-the-soft-machine.jpg"
+},
+{
+"id": "soft-machine-1969-volume-two",
+"t": "Volume Two",
+"y": 1969,
+"cov": "kapaklar/soft-machine-1969-volume-two.jpg"
+},
+{
+"id": "soft-machine-1970-third",
+"t": "Third",
+"y": 1970,
+"cov": "kapaklar/soft-machine-1970-third.jpg"
+},
+{
+"id": "soft-machine-1971-fourth",
+"t": "Fourth",
+"y": 1971,
+"cov": "kapaklar/soft-machine-1971-fourth.jpg"
+},
+{
+"id": "soft-machine-1972-fifth",
+"t": "Fifth",
+"y": 1972,
+"cov": "kapaklar/soft-machine-1972-fifth.jpg"
+},
+{
+"id": "soft-machine-1973-six",
+"t": "Six",
+"y": 1973,
+"cov": "kapaklar/soft-machine-1973-six.jpg"
+},
+{
+"id": "soft-machine-1973-seven",
+"t": "Seven",
+"y": 1973,
+"cov": "kapaklar/soft-machine-1973-seven.jpg"
+},
+{
+"id": "soft-machine-1975-bundles",
+"t": "Bundles",
+"y": 1975,
+"cov": "kapaklar/soft-machine-1975-bundles.jpg"
+},
+{
+"id": "soft-machine-1976-softs",
+"t": "Softs",
+"y": 1976,
+"onc": "istege",
+"cov": "kapaklar/soft-machine-1976-softs.jpg"
+},
+{
+"id": "soft-machine-2007-steam",
+"t": "Steam",
+"y": 2007,
+"onc": "istege"
+},
+{
+"id": "soft-machine-2018-hidden-details",
+"t": "Hidden Details",
+"y": 2018,
+"onc": "onerilir"
+}
+]
+},
+{
+"id": "caravan",
+"artist": "Caravan",
+"albums": [
+{
+"id": "caravan-1968-caravan",
+"t": "Caravan",
+"y": 1968,
+"cov": "kapaklar/caravan-1968-caravan.jpg"
+},
+{
+"id": "caravan-1970-if-i-could-do-it-all-over-again-i-d-do-it-all-over-you",
+"t": "If I Could Do It All Over Again, I'd Do It All Over You",
+"y": 1970
+},
+{
+"id": "caravan-1971-in-the-land-of-grey-and-pink",
+"t": "In the Land of Grey and Pink",
+"y": 1971,
+"cov": "kapaklar/caravan-1971-in-the-land-of-grey-and-pink.jpg"
+},
+{
+"id": "caravan-1972-waterloo-lily",
+"t": "Waterloo Lily",
+"y": 1972
+},
+{
+"id": "caravan-1973-for-girls-who-grow-plump-in-the-night",
+"t": "For Girls Who Grow Plump in the Night",
+"y": 1973
+},
+{
+"id": "caravan-1975-cunning-stunts",
+"t": "Cunning Stunts",
+"y": 1975,
+"cov": "kapaklar/caravan-1975-cunning-stunts.jpg"
+},
+{
+"id": "caravan-1976-blind-dog-at-st-dunstans",
+"t": "Blind Dog at St. Dunstans",
+"y": 1976,
+"onc": "istege",
+"cov": "kapaklar/caravan-1976-blind-dog-at-st-dunstans.jpg"
+},
+{
+"id": "caravan-1995-the-battle-of-hastings",
+"t": "The Battle of Hastings",
+"y": 1995,
+"onc": "istege",
+"cov": "kapaklar/caravan-1995-the-battle-of-hastings.jpg"
+},
+{
+"id": "caravan-2003-the-unauthorised-breakfast-item",
+"t": "The Unauthorised Breakfast Item",
+"y": 2003,
+"onc": "onerilir"
+},
+{
+"id": "caravan-2013-paradise-filter",
+"t": "Paradise Filter",
+"y": 2013,
+"onc": "istege"
+}
+]
+},
+{
+"id": "gong",
+"artist": "Gong",
+"albums": [
+{
+"id": "gong-1970-magick-brother",
+"t": "Magick Brother",
+"y": 1970,
+"cov": "kapaklar/gong-1970-magick-brother.jpg"
+},
+{
+"id": "gong-1971-camembert-electrique",
+"t": "Camembert Electrique",
+"y": 1971,
+"cov": "kapaklar/gong-1971-camembert-electrique.jpg"
+},
+{
+"id": "gong-1973-flying-teapot",
+"t": "Flying Teapot",
+"y": 1973,
+"cov": "kapaklar/gong-1973-flying-teapot.jpg"
+},
+{
+"id": "gong-1973-angel-s-egg",
+"t": "Angel's Egg",
+"y": 1973
+},
+{
+"id": "gong-1974-you",
+"t": "You",
+"y": 1974,
+"cov": "kapaklar/gong-1974-you.jpg"
+},
+{
+"id": "gong-1976-shamal",
+"t": "Shamal",
+"y": 1976,
+"cov": "kapaklar/gong-1976-shamal.jpg"
+},
+{
+"id": "gong-1976-gazeuse",
+"t": "Gazeuse!",
+"y": 1976,
+"onc": "onerilir",
+"cov": "kapaklar/gong-1976-gazeuse.jpg"
+},
+{
+"id": "gong-2000-zero-to-infinity",
+"t": "Zero to Infinity",
+"y": 2000,
+"onc": "istege",
+"cov": "kapaklar/gong-2000-zero-to-infinity.jpg"
+},
+{
+"id": "gong-2009-2032",
+"t": "2032",
+"y": 2009,
+"onc": "istege",
+"cov": "kapaklar/gong-2009-2032.jpg"
+},
+{
+"id": "gong-2016-rejoice-i-m-dead",
+"t": "Rejoice! I'm Dead!",
+"y": 2016,
+"onc": "onerilir",
+"cov": "kapaklar/gong-2016-rejoice-i-m-dead.jpg"
+},
+{
+"id": "gong-2019-the-universe-also-collapses",
+"t": "The Universe Also Collapses",
+"y": 2019,
+"onc": "onerilir",
+"cov": "kapaklar/gong-2019-the-universe-also-collapses.jpg"
+}
+]
+},
+{
+"id": "hatfield-and-the-north-national-health-alt-dugumler",
+"artist": "Hatfield and the North / National Health",
+"albums": [
+{
+"id": "hatfield-and-the-north-national-health-1974-hatfield-and-the-north",
+"t": "Hatfield and the North",
+"y": 1974
+},
+{
+"id": "hatfield-and-the-north-national-health-1975-the-rotters-club",
+"t": "The Rotters' Club",
+"y": 1975,
+"cov": "kapaklar/hatfield-and-the-north-national-health-1975-the-rotters-club.jpg"
+},
+{
+"id": "hatfield-and-the-north-national-health-1978-national-health",
+"t": "National Health",
+"y": 1978
+},
+{
+"id": "hatfield-and-the-north-national-health-1978-of-queues-and-cures",
+"t": "Of Queues and Cures",
+"y": 1978
+},
+{
+"id": "hatfield-and-the-north-national-health-1982-d-s-al-coda",
+"t": "D.S. al Coda",
+"y": 1982,
+"onc": "onerilir"
+}
+]
+},
+{
+"id": "egg",
+"artist": "Egg",
+"albums": [
+{
+"id": "egg-1970-egg",
+"t": "Egg",
+"y": 1970,
+"cov": "kapaklar/egg-1970-egg.jpg"
+},
+{
+"id": "egg-1971-the-polite-force",
+"t": "The Polite Force",
+"y": 1971,
+"cov": "kapaklar/egg-1971-the-polite-force.jpg"
+},
+{
+"id": "egg-1974-the-civil-surface",
+"t": "The Civil Surface",
+"y": 1974,
+"cov": "kapaklar/egg-1974-the-civil-surface.jpg"
+}
+]
+},
+{
+"id": "khan",
+"artist": "Khan",
+"albums": [
+{
+"id": "khan-1972-space-shanty",
+"t": "Space Shanty",
+"y": 1972,
+"cov": "kapaklar/khan-1972-space-shanty.jpg"
+}
+]
+},
+{
+"id": "matching-mole",
+"artist": "Matching Mole",
+"albums": [
+{
+"id": "matching-mole-1972-matching-mole",
+"t": "Matching Mole",
+"y": 1972,
+"cov": "kapaklar/matching-mole-1972-matching-mole.jpg"
+},
+{
+"id": "matching-mole-1972-matching-mole-s-little-red-record",
+"t": "Matching Mole's Little Red Record",
+"y": 1972,
+"cov": "kapaklar/matching-mole-1972-matching-mole-s-little-red-record.jpg"
+}
+]
+},
+{
+"id": "kevin-ayers",
+"artist": "Kevin Ayers",
+"albums": [
+{
+"id": "kevin-ayers-1969-joy-of-a-toy",
+"t": "Joy of a Toy",
+"y": 1969,
+"cov": "kapaklar/kevin-ayers-1969-joy-of-a-toy.jpg"
+},
+{
+"id": "kevin-ayers-1970-shooting-at-the-moon",
+"t": "Shooting at the Moon",
+"y": 1970,
+"cov": "kapaklar/kevin-ayers-1970-shooting-at-the-moon.jpg"
+},
+{
+"id": "kevin-ayers-1971-whatevershebringswesing",
+"t": "Whatevershebringswesing",
+"y": 1971,
+"onc": "onerilir",
+"cov": "kapaklar/kevin-ayers-1971-whatevershebringswesing.jpg"
+},
+{
+"id": "kevin-ayers-1973-bananamour",
+"t": "Bananamour",
+"y": 1973,
+"cov": "kapaklar/kevin-ayers-1973-bananamour.jpg"
+},
+{
+"id": "kevin-ayers-1974-the-confessions-of-dr-dream-and-other-stories",
+"t": "The Confessions of Dr. Dream and Other Stories",
+"y": 1974,
+"onc": "istege"
+},
+{
+"id": "kevin-ayers-2007-the-unfairground",
+"t": "The Unfairground",
+"y": 2007,
+"onc": "onerilir",
+"cov": "kapaklar/kevin-ayers-2007-the-unfairground.jpg"
+}
+]
+},
+{
+"id": "robert-wyatt",
+"artist": "Robert Wyatt",
+"albums": [
+{
+"id": "robert-wyatt-1970-the-end-of-an-ear",
+"t": "The End of an Ear",
+"y": 1970,
+"cov": "kapaklar/robert-wyatt-1970-the-end-of-an-ear.jpg"
+},
+{
+"id": "robert-wyatt-1974-rock-bottom",
+"t": "Rock Bottom",
+"y": 1974,
+"cov": "kapaklar/robert-wyatt-1974-rock-bottom.jpg"
+},
+{
+"id": "robert-wyatt-1975-ruth-is-stranger-than-richard",
+"t": "Ruth Is Stranger Than Richard",
+"y": 1975,
+"cov": "kapaklar/robert-wyatt-1975-ruth-is-stranger-than-richard.jpg"
+},
+{
+"id": "robert-wyatt-1985-old-rottenhat",
+"t": "Old Rottenhat",
+"y": 1985,
+"onc": "istege",
+"cov": "kapaklar/robert-wyatt-1985-old-rottenhat.jpg"
+},
+{
+"id": "robert-wyatt-1991-dondestan",
+"t": "Dondestan",
+"y": 1991,
+"onc": "istege",
+"cov": "kapaklar/robert-wyatt-1991-dondestan.jpg"
+},
+{
+"id": "robert-wyatt-1997-shleep",
+"t": "Shleep",
+"y": 1997,
+"onc": "temel",
+"cov": "kapaklar/robert-wyatt-1997-shleep.jpg"
+},
+{
+"id": "robert-wyatt-2003-cuckooland",
+"t": "Cuckooland",
+"y": 2003,
+"onc": "onerilir",
+"cov": "kapaklar/robert-wyatt-2003-cuckooland.jpg"
+},
+{
+"id": "robert-wyatt-2007-comicopera",
+"t": "Comicopera",
+"y": 2007,
+"onc": "onerilir",
+"cov": "kapaklar/robert-wyatt-2007-comicopera.jpg"
+}
+]
+},
+{
+"id": "the-wilde-flowers",
+"artist": "The Wilde Flowers",
+"albums": [
+{
+"id": "the-wilde-flowers-1994-the-wilde-flowers",
+"t": "The Wilde Flowers",
+"y": 1994,
+"onc": "istege"
+}
+]
+},
+{
+"id": "steve-hillage-solo-ve-system-7",
+"artist": "Steve Hillage",
+"albums": [
+{
+"id": "steve-hillage-1975-fish-rising",
+"t": "Fish Rising",
+"y": 1975,
+"onc": "onerilir",
+"cov": "kapaklar/steve-hillage-1975-fish-rising.jpg"
+},
+{
+"id": "steve-hillage-1976-l",
+"t": "L",
+"y": 1976,
+"onc": "temel",
+"cov": "kapaklar/steve-hillage-1976-l.jpg"
+},
+{
+"id": "steve-hillage-1977-motivation-radio",
+"t": "Motivation Radio",
+"y": 1977,
+"onc": "onerilir",
+"cov": "kapaklar/steve-hillage-1977-motivation-radio.jpg"
+},
+{
+"id": "steve-hillage-1979-rainbow-dome-musick",
+"t": "Rainbow Dome Musick",
+"y": 1979,
+"onc": "onerilir",
+"cov": "kapaklar/steve-hillage-1979-rainbow-dome-musick.jpg"
+},
+{
+"id": "steve-hillage-1991-system-7",
+"t": "System 7",
+"y": 1991,
+"onc": "istege"
+}
+]
+},
+{
+"id": "phil-manzanera-quiet-sun-801",
+"artist": "Phil Manzanera",
+"albums": [
+{
+"id": "phil-manzanera-1975-mainstream",
+"t": "Mainstream",
+"y": 1975,
+"onc": "temel",
+"cov": "kapaklar/phil-manzanera-1975-mainstream.jpg"
+},
+{
+"id": "phil-manzanera-1975-diamond-head",
+"t": "Diamond Head",
+"y": 1975,
+"onc": "onerilir",
+"cov": "kapaklar/phil-manzanera-1975-diamond-head.jpg"
+},
+{
+"id": "phil-manzanera-1976-801-live",
+"t": "801 Live",
+"y": 1976,
+"onc": "temel",
+"cov": "kapaklar/phil-manzanera-1976-801-live.jpg"
+}
+]
+}
+]
+},
+{
+"no": 9,
+"groups": [
+{
+"id": "uk",
+"artist": "UK",
+"albums": [
+{
+"id": "uk-1978-u-k",
+"t": "U.K.",
+"y": 1978,
+"cov": "kapaklar/uk-1978-u-k.jpg"
+},
+{
+"id": "uk-1979-danger-money",
+"t": "Danger Money",
+"y": 1979,
+"cov": "kapaklar/uk-1979-danger-money.jpg"
+}
+]
+},
+{
+"id": "asia",
+"artist": "Asia",
+"albums": [
+{
+"id": "asia-1982-asia",
+"t": "Asia",
+"y": 1982,
+"cov": "kapaklar/asia-1982-asia.jpg"
+},
+{
+"id": "asia-1983-alpha",
+"t": "Alpha",
+"y": 1983,
+"cov": "kapaklar/asia-1983-alpha.jpg"
+},
+{
+"id": "asia-1985-astra",
+"t": "Astra",
+"y": 1985,
+"cov": "kapaklar/asia-1985-astra.jpg"
+},
+{
+"id": "asia-1992-aqua",
+"t": "Aqua",
+"y": 1992,
+"cov": "kapaklar/asia-1992-aqua.jpg"
+},
+{
+"id": "asia-1994-aria",
+"t": "Aria",
+"y": 1994,
+"cov": "kapaklar/asia-1994-aria.jpg"
+},
+{
+"id": "asia-1996-arena",
+"t": "Arena",
+"y": 1996,
+"onc": "istege",
+"cov": "kapaklar/asia-1996-arena.jpg"
+},
+{
+"id": "asia-2008-phoenix",
+"t": "Phoenix",
+"y": 2008,
+"onc": "onerilir",
+"cov": "kapaklar/asia-2008-phoenix.jpg"
+},
+{
+"id": "asia-2010-omega",
+"t": "Omega",
+"y": 2010,
+"onc": "istege",
+"cov": "kapaklar/asia-2010-omega.jpg"
+},
+{
+"id": "asia-2012-xxx",
+"t": "XXX",
+"y": 2012,
+"onc": "istege",
+"cov": "kapaklar/asia-2012-xxx.jpg"
+},
+{
+"id": "asia-2014-gravitas",
+"t": "Gravitas",
+"y": 2014,
+"onc": "istege",
+"cov": "kapaklar/asia-2014-gravitas.jpg"
+}
+]
+},
+{
+"id": "gtr",
+"artist": "GTR",
+"albums": [
+{
+"id": "gtr-1986-gtr",
+"t": "GTR",
+"y": 1986,
+"cov": "kapaklar/gtr-1986-gtr.jpg"
+}
+]
+},
+{
+"id": "buggles-kopru-dugum",
+"artist": "Buggles",
+"albums": [
+{
+"id": "buggles-1980-the-age-of-plastic",
+"t": "The Age of Plastic",
+"y": 1980,
+"cov": "kapaklar/buggles-1980-the-age-of-plastic.jpg"
+},
+{
+"id": "buggles-1981-adventures-in-modern-recording",
+"t": "Adventures in Modern Recording",
+"y": 1981
+}
+]
+},
+{
+"id": "bad-company-foreigner-uye-gocu-uclar",
+"artist": "Bad Company / Foreigner",
+"albums": []
+},
+{
+"id": "bruford",
+"artist": "Bruford",
+"albums": [
+{
+"id": "bruford-1978-feels-good-to-me",
+"t": "Feels Good to Me",
+"y": 1978,
+"cov": "kapaklar/bruford-1978-feels-good-to-me.jpg"
+},
+{
+"id": "bruford-1979-one-of-a-kind",
+"t": "One of a Kind",
+"y": 1979,
+"cov": "kapaklar/bruford-1979-one-of-a-kind.jpg"
+},
+{
+"id": "bruford-1980-gradually-going-tornado",
+"t": "Gradually Going Tornado",
+"y": 1980,
+"cov": "kapaklar/bruford-1980-gradually-going-tornado.jpg"
+}
+]
+},
+{
+"id": "bill-bruford-s-earthworks",
+"artist": "Bill Bruford's Earthworks",
+"albums": [
+{
+"id": "bill-bruford-s-earthworks-1987-earthworks",
+"t": "Earthworks",
+"y": 1987,
+"cov": "kapaklar/bill-bruford-s-earthworks-1987-earthworks.jpg"
+},
+{
+"id": "bill-bruford-s-earthworks-1989-dig",
+"t": "Dig?",
+"y": 1989,
+"cov": "kapaklar/bill-bruford-s-earthworks-1989-dig.jpg"
+},
+{
+"id": "bill-bruford-s-earthworks-1991-all-heaven-broke-loose",
+"t": "All Heaven Broke Loose",
+"y": 1991,
+"cov": "kapaklar/bill-bruford-s-earthworks-1991-all-heaven-broke-loose.jpg"
+},
+{
+"id": "bill-bruford-s-earthworks-1999-a-part-and-yet-apart",
+"t": "A Part, and Yet Apart",
+"y": 1999,
+"onc": "onerilir",
+"cov": "kapaklar/bill-bruford-s-earthworks-1999-a-part-and-yet-apart.jpg"
+},
+{
+"id": "bill-bruford-s-earthworks-2001-the-sound-of-surprise",
+"t": "The Sound of Surprise",
+"y": 2001,
+"onc": "onerilir",
+"cov": "kapaklar/bill-bruford-s-earthworks-2001-the-sound-of-surprise.jpg"
+}
+]
+}
+]
+},
+{
+"no": 10,
+"groups": [
+{
+"id": "jethro-tull",
+"artist": "Jethro Tull",
+"albums": [
+{
+"id": "jethro-tull-1968-this-was",
+"t": "This Was",
+"y": 1968,
+"onc": "istege",
+"e": 0,
+"cov": "kapaklar/jethro-tull-1968-this-was.jpg"
+},
+{
+"id": "jethro-tull-1969-stand-up",
+"t": "Stand Up",
+"y": 1969,
+"onc": "onerilir",
+"e": 0,
+"cov": "kapaklar/jethro-tull-1969-stand-up.jpg"
+},
+{
+"id": "jethro-tull-1970-benefit",
+"t": "Benefit",
+"y": 1970,
+"onc": "istege",
+"e": 0,
+"cov": "kapaklar/jethro-tull-1970-benefit.jpg"
+},
+{
+"id": "jethro-tull-1971-aqualung",
+"t": "Aqualung",
+"y": 1971,
+"onc": "temel",
+"e": 0,
+"cov": "kapaklar/jethro-tull-1971-aqualung.jpg"
+},
+{
+"id": "jethro-tull-1972-thick-as-a-brick",
+"t": "Thick as a Brick",
+"y": 1972,
+"onc": "temel",
+"e": 1,
+"cov": "kapaklar/jethro-tull-1972-thick-as-a-brick.jpg"
+},
+{
+"id": "jethro-tull-1973-a-passion-play",
+"t": "A Passion Play",
+"y": 1973,
+"onc": "istege",
+"e": 1,
+"cov": "kapaklar/jethro-tull-1973-a-passion-play.jpg"
+},
+{
+"id": "jethro-tull-1974-war-child",
+"t": "War Child",
+"y": 1974,
+"onc": "istege",
+"e": 1,
+"cov": "kapaklar/jethro-tull-1974-war-child.jpg"
+},
+{
+"id": "jethro-tull-1975-minstrel-in-the-gallery",
+"t": "Minstrel in the Gallery",
+"y": 1975,
+"onc": "onerilir",
+"e": 1,
+"cov": "kapaklar/jethro-tull-1975-minstrel-in-the-gallery.jpg"
+},
+{
+"id": "jethro-tull-1977-songs-from-the-wood",
+"t": "Songs from the Wood",
+"y": 1977,
+"onc": "temel",
+"e": 2,
+"cov": "kapaklar/jethro-tull-1977-songs-from-the-wood.jpg"
+},
+{
+"id": "jethro-tull-1978-heavy-horses",
+"t": "Heavy Horses",
+"y": 1978,
+"onc": "onerilir",
+"e": 2,
+"cov": "kapaklar/jethro-tull-1978-heavy-horses.jpg"
+},
+{
+"id": "jethro-tull-1979-stormwatch",
+"t": "Stormwatch",
+"y": 1979,
+"onc": "onerilir",
+"e": 2,
+"cov": "kapaklar/jethro-tull-1979-stormwatch.jpg"
+},
+{
+"id": "jethro-tull-1980-a",
+"t": "A",
+"y": 1980,
+"onc": "istege",
+"e": 2
+},
+{
+"id": "jethro-tull-1982-the-broadsword-and-the-beast",
+"t": "The Broadsword and the Beast",
+"y": 1982,
+"onc": "onerilir",
+"e": 3,
+"cov": "kapaklar/jethro-tull-1982-the-broadsword-and-the-beast.jpg"
+},
+{
+"id": "jethro-tull-1987-crest-of-a-knave",
+"t": "Crest of a Knave",
+"y": 1987,
+"onc": "onerilir",
+"e": 3,
+"cov": "kapaklar/jethro-tull-1987-crest-of-a-knave.jpg"
+},
+{
+"id": "jethro-tull-1995-roots-to-branches",
+"t": "Roots to Branches",
+"y": 1995,
+"onc": "onerilir",
+"e": 4,
+"cov": "kapaklar/jethro-tull-1995-roots-to-branches.jpg"
+},
+{
+"id": "jethro-tull-1999-j-tull-dot-com",
+"t": "J-Tull Dot Com",
+"y": 1999,
+"onc": "istege",
+"e": 4,
+"cov": "kapaklar/jethro-tull-1999-j-tull-dot-com.jpg"
+},
+{
+"id": "jethro-tull-2003-the-jethro-tull-christmas-album",
+"t": "The Jethro Tull Christmas Album",
+"y": 2003,
+"onc": "ikincil",
+"e": 4,
+"cov": "kapaklar/jethro-tull-2003-the-jethro-tull-christmas-album.jpg"
+}
+],
+"eras": [
+{
+"yil": "1968–1971",
+"from": 1968,
+"to": 1971
+},
+{
+"yil": "1972–1976",
+"from": 1972,
+"to": 1976
+},
+{
+"yil": "1977–1980",
+"from": 1977,
+"to": 1980
+},
+{
+"yil": "1981–1991",
+"from": 1981,
+"to": 1991
+},
+{
+"yil": "1995–2020",
+"from": 1995,
+"to": 2020
+}
+]
+},
+{
+"id": "gentle-giant",
+"artist": "Gentle Giant",
+"albums": [
+{
+"id": "gentle-giant-1970-gentle-giant",
+"t": "Gentle Giant",
+"y": 1970,
+"e": 0,
+"cov": "kapaklar/gentle-giant-1970-gentle-giant.jpg"
+},
+{
+"id": "gentle-giant-1971-acquiring-the-taste",
+"t": "Acquiring the Taste",
+"y": 1971,
+"e": 0,
+"cov": "kapaklar/gentle-giant-1971-acquiring-the-taste.jpg"
+},
+{
+"id": "gentle-giant-1972-three-friends",
+"t": "Three Friends",
+"y": 1972,
+"e": 0,
+"cov": "kapaklar/gentle-giant-1972-three-friends.jpg"
+},
+{
+"id": "gentle-giant-1972-octopus",
+"t": "Octopus",
+"y": 1972,
+"onc": "temel",
+"e": 0,
+"cov": "kapaklar/gentle-giant-1972-octopus.jpg"
+},
+{
+"id": "gentle-giant-1973-in-a-glass-house",
+"t": "In a Glass House",
+"y": 1973,
+"onc": "temel",
+"e": 1,
+"cov": "kapaklar/gentle-giant-1973-in-a-glass-house.jpg"
+},
+{
+"id": "gentle-giant-1974-the-power-and-the-glory",
+"t": "The Power and the Glory",
+"y": 1974,
+"onc": "temel",
+"e": 1,
+"cov": "kapaklar/gentle-giant-1974-the-power-and-the-glory.jpg"
+},
+{
+"id": "gentle-giant-1975-free-hand",
+"t": "Free Hand",
+"y": 1975,
+"onc": "temel",
+"e": 1,
+"cov": "kapaklar/gentle-giant-1975-free-hand.jpg"
+},
+{
+"id": "gentle-giant-1976-interview",
+"t": "Interview",
+"y": 1976,
+"e": 1,
+"cov": "kapaklar/gentle-giant-1976-interview.jpg"
+},
+{
+"id": "gentle-giant-1977-the-missing-piece",
+"t": "The Missing Piece",
+"y": 1977,
+"e": 2,
+"cov": "kapaklar/gentle-giant-1977-the-missing-piece.jpg"
+},
+{
+"id": "gentle-giant-1978-giant-for-a-day",
+"t": "Giant for a Day!",
+"y": 1978,
+"e": 2,
+"cov": "kapaklar/gentle-giant-1978-giant-for-a-day.jpg"
+},
+{
+"id": "gentle-giant-1980-civilian",
+"t": "Civilian",
+"y": 1980,
+"onc": "atla",
+"e": 2,
+"cov": "kapaklar/gentle-giant-1980-civilian.jpg"
+}
+],
+"eras": [
+{
+"yil": "1970–1972",
+"from": 1970,
+"to": 1972
+},
+{
+"yil": "1973–1976",
+"from": 1973,
+"to": 1976
+},
+{
+"yil": "1977–1980",
+"from": 1977,
+"to": 1980
+}
+]
+},
+{
+"id": "van-der-graaf-generator",
+"artist": "Van der Graaf Generator",
+"albums": [
+{
+"id": "van-der-graaf-generator-1969-the-aerosol-grey-machine",
+"t": "The Aerosol Grey Machine",
+"y": 1969,
+"onc": "istege",
+"e": 0
+},
+{
+"id": "van-der-graaf-generator-1970-the-least-we-can-do-is-wave-to-each-other",
+"t": "The Least We Can Do Is Wave to Each Other",
+"y": 1970,
+"onc": "onerilir",
+"e": 0,
+"cov": "kapaklar/van-der-graaf-generator-1970-the-least-we-can-do-is-wave-to-each-other.jpg"
+},
+{
+"id": "van-der-graaf-generator-1970-h-to-he-who-am-the-only-one",
+"t": "H to He, Who Am the Only One",
+"y": 1970,
+"onc": "onerilir",
+"e": 0,
+"cov": "kapaklar/van-der-graaf-generator-1970-h-to-he-who-am-the-only-one.jpg"
+},
+{
+"id": "van-der-graaf-generator-1971-pawn-hearts",
+"t": "Pawn Hearts",
+"y": 1971,
+"onc": "temel",
+"e": 0,
+"cov": "kapaklar/van-der-graaf-generator-1971-pawn-hearts.jpg"
+},
+{
+"id": "van-der-graaf-generator-1975-godbluff",
+"t": "Godbluff",
+"y": 1975,
+"onc": "temel",
+"e": 1,
+"cov": "kapaklar/van-der-graaf-generator-1975-godbluff.jpg"
+},
+{
+"id": "van-der-graaf-generator-1976-still-life",
+"t": "Still Life",
+"y": 1976,
+"onc": "temel",
+"e": 1,
+"cov": "kapaklar/van-der-graaf-generator-1976-still-life.jpg"
+},
+{
+"id": "van-der-graaf-generator-1976-world-record",
+"t": "World Record",
+"y": 1976,
+"onc": "onerilir",
+"e": 1,
+"cov": "kapaklar/van-der-graaf-generator-1976-world-record.jpg"
+},
+{
+"id": "van-der-graaf-generator-1978-vital",
+"t": "Vital",
+"y": 1978,
+"onc": "istege",
+"e": 1,
+"cov": "kapaklar/van-der-graaf-generator-1978-vital.jpg"
+},
+{
+"id": "van-der-graaf-generator-2005-present",
+"t": "Present",
+"y": 2005,
+"onc": "onerilir",
+"e": 2,
+"cov": "kapaklar/van-der-graaf-generator-2005-present.jpg"
+},
+{
+"id": "van-der-graaf-generator-2008-trisector",
+"t": "Trisector",
+"y": 2008,
+"onc": "istege",
+"e": 2,
+"cov": "kapaklar/van-der-graaf-generator-2008-trisector.jpg"
+},
+{
+"id": "van-der-graaf-generator-2011-a-grounding-in-numbers",
+"t": "A Grounding in Numbers",
+"y": 2011,
+"onc": "istege",
+"e": 2,
+"cov": "kapaklar/van-der-graaf-generator-2011-a-grounding-in-numbers.jpg"
+},
+{
+"id": "van-der-graaf-generator-2016-do-not-disturb",
+"t": "Do Not Disturb",
+"y": 2016,
+"onc": "onerilir",
+"e": 2,
+"cov": "kapaklar/van-der-graaf-generator-2016-do-not-disturb.jpg"
+}
+],
+"eras": [
+{
+"yil": "1969–1972",
+"from": 1969,
+"to": 1972
+},
+{
+"yil": "1975–1978",
+"from": 1975,
+"to": 1978
+},
+{
+"yil": "2005–2016",
+"from": 2005,
+"to": 2016
+}
+]
+},
+{
+"id": "camel",
+"artist": "Camel",
+"albums": [
+{
+"id": "camel-1973-camel",
+"t": "Camel",
+"y": 1973,
+"onc": "istege",
+"e": 0,
+"cov": "kapaklar/camel-1973-camel.jpg"
+},
+{
+"id": "camel-1974-mirage",
+"t": "Mirage",
+"y": 1974,
+"onc": "temel",
+"e": 0,
+"cov": "kapaklar/camel-1974-mirage.jpg"
+},
+{
+"id": "camel-1975-the-snow-goose",
+"t": "The Snow Goose",
+"y": 1975,
+"onc": "temel",
+"e": 0,
+"cov": "kapaklar/camel-1975-the-snow-goose.jpg"
+},
+{
+"id": "camel-1976-moonmadness",
+"t": "Moonmadness",
+"y": 1976,
+"onc": "temel",
+"e": 0,
+"cov": "kapaklar/camel-1976-moonmadness.jpg"
+},
+{
+"id": "camel-1977-rain-dances",
+"t": "Rain Dances",
+"y": 1977,
+"onc": "onerilir",
+"e": 1,
+"cov": "kapaklar/camel-1977-rain-dances.jpg"
+},
+{
+"id": "camel-1978-breathless",
+"t": "Breathless",
+"y": 1978,
+"onc": "istege",
+"e": 1,
+"cov": "kapaklar/camel-1978-breathless.jpg"
+},
+{
+"id": "camel-1979-i-can-see-your-house-from-here",
+"t": "I Can See Your House from Here",
+"y": 1979,
+"onc": "istege",
+"e": 1,
+"cov": "kapaklar/camel-1979-i-can-see-your-house-from-here.jpg"
+},
+{
+"id": "camel-1981-nude",
+"t": "Nude",
+"y": 1981,
+"onc": "onerilir",
+"e": 2,
+"cov": "kapaklar/camel-1981-nude.jpg"
+},
+{
+"id": "camel-1982-the-single-factor",
+"t": "The Single Factor",
+"y": 1982,
+"onc": "atla",
+"e": 2,
+"cov": "kapaklar/camel-1982-the-single-factor.jpg"
+},
+{
+"id": "camel-1984-stationary-traveller",
+"t": "Stationary Traveller",
+"y": 1984,
+"onc": "onerilir",
+"e": 2,
+"cov": "kapaklar/camel-1984-stationary-traveller.jpg"
+},
+{
+"id": "camel-1991-dust-and-dreams",
+"t": "Dust and Dreams",
+"y": 1991,
+"onc": "onerilir",
+"e": 3,
+"cov": "kapaklar/camel-1991-dust-and-dreams.jpg"
+},
+{
+"id": "camel-1996-harbour-of-tears",
+"t": "Harbour of Tears",
+"y": 1996,
+"onc": "temel",
+"e": 3,
+"cov": "kapaklar/camel-1996-harbour-of-tears.jpg"
+},
+{
+"id": "camel-1999-rajaz",
+"t": "Rajaz",
+"y": 1999,
+"onc": "onerilir",
+"e": 3,
+"cov": "kapaklar/camel-1999-rajaz.jpg"
+},
+{
+"id": "camel-2002-a-nod-and-a-wink",
+"t": "A Nod and a Wink",
+"y": 2002,
+"onc": "istege",
+"e": 3
+}
+],
+"eras": [
+{
+"yil": "1973–1976",
+"from": 1973,
+"to": 1976
+},
+{
+"yil": "1977–1979",
+"from": 1977,
+"to": 1979
+},
+{
+"yil": "1981–1984",
+"from": 1981,
+"to": 1984
+},
+{
+"yil": "1991–2002",
+"from": 1991,
+"to": 2002
+}
+]
+},
+{
+"id": "renaissance",
+"artist": "Renaissance",
+"albums": [
+{
+"id": "renaissance-1972-prologue",
+"t": "Prologue",
+"y": 1972,
+"cov": "kapaklar/renaissance-1972-prologue.jpg"
+},
+{
+"id": "renaissance-1973-ashes-are-burning",
+"t": "Ashes Are Burning",
+"y": 1973,
+"cov": "kapaklar/renaissance-1973-ashes-are-burning.jpg"
+},
+{
+"id": "renaissance-1974-turn-of-the-cards",
+"t": "Turn of the Cards",
+"y": 1974,
+"cov": "kapaklar/renaissance-1974-turn-of-the-cards.jpg"
+},
+{
+"id": "renaissance-1975-scheherazade-and-other-stories",
+"t": "Scheherazade and Other Stories",
+"y": 1975,
+"cov": "kapaklar/renaissance-1975-scheherazade-and-other-stories.jpg"
+},
+{
+"id": "renaissance-1976-live-at-carnegie-hall",
+"t": "Live at Carnegie Hall",
+"y": 1976,
+"onc": "temel",
+"cov": "kapaklar/renaissance-1976-live-at-carnegie-hall.jpg"
+},
+{
+"id": "renaissance-1977-novella",
+"t": "Novella",
+"y": 1977,
+"cov": "kapaklar/renaissance-1977-novella.jpg"
+},
+{
+"id": "renaissance-1978-a-song-for-all-seasons",
+"t": "A Song for All Seasons",
+"y": 1978,
+"cov": "kapaklar/renaissance-1978-a-song-for-all-seasons.jpg"
+},
+{
+"id": "renaissance-2013-grandine-il-vento-symphony-of-light",
+"t": "Grandine il Vento / Symphony of Light",
+"y": 2013,
+"onc": "istege"
+}
+]
+},
+{
+"id": "curved-air",
+"artist": "Curved Air",
+"albums": [
+{
+"id": "curved-air-1970-air-conditioning",
+"t": "Air Conditioning",
+"y": 1970,
+"cov": "kapaklar/curved-air-1970-air-conditioning.jpg"
+},
+{
+"id": "curved-air-1971-second-album",
+"t": "Second Album",
+"y": 1971,
+"cov": "kapaklar/curved-air-1971-second-album.jpg"
+},
+{
+"id": "curved-air-1972-phantasmagoria",
+"t": "Phantasmagoria",
+"y": 1972,
+"cov": "kapaklar/curved-air-1972-phantasmagoria.jpg"
+},
+{
+"id": "curved-air-1973-air-cut",
+"t": "Air Cut",
+"y": 1973,
+"cov": "kapaklar/curved-air-1973-air-cut.jpg"
+}
+]
+},
+{
+"id": "greenslade",
+"artist": "Greenslade",
+"albums": [
+{
+"id": "greenslade-1973-greenslade",
+"t": "Greenslade",
+"y": 1973,
+"cov": "kapaklar/greenslade-1973-greenslade.jpg"
+},
+{
+"id": "greenslade-1973-bedside-manners-are-extra",
+"t": "Bedside Manners Are Extra",
+"y": 1973,
+"cov": "kapaklar/greenslade-1973-bedside-manners-are-extra.jpg"
+},
+{
+"id": "greenslade-1974-spyglass-guest",
+"t": "Spyglass Guest",
+"y": 1974,
+"cov": "kapaklar/greenslade-1974-spyglass-guest.jpg"
+},
+{
+"id": "greenslade-1975-time-and-tide",
+"t": "Time and Tide",
+"y": 1975,
+"cov": "kapaklar/greenslade-1975-time-and-tide.jpg"
+}
+]
+},
+{
+"id": "gryphon",
+"artist": "Gryphon",
+"albums": [
+{
+"id": "gryphon-1973-gryphon",
+"t": "Gryphon",
+"y": 1973,
+"cov": "kapaklar/gryphon-1973-gryphon.jpg"
+},
+{
+"id": "gryphon-1974-midnight-mushrumps",
+"t": "Midnight Mushrumps",
+"y": 1974,
+"cov": "kapaklar/gryphon-1974-midnight-mushrumps.jpg"
+},
+{
+"id": "gryphon-1974-red-queen-to-gryphon-three",
+"t": "Red Queen to Gryphon Three",
+"y": 1974,
+"cov": "kapaklar/gryphon-1974-red-queen-to-gryphon-three.jpg"
+},
+{
+"id": "gryphon-1975-raindance",
+"t": "Raindance",
+"y": 1975,
+"cov": "kapaklar/gryphon-1975-raindance.jpg"
+},
+{
+"id": "gryphon-1977-treason",
+"t": "Treason",
+"y": 1977
+}
+]
+},
+{
+"id": "family",
+"artist": "Family",
+"albums": [
+{
+"id": "family-1968-music-in-a-doll-s-house",
+"t": "Music in a Doll's House",
+"y": 1968,
+"cov": "kapaklar/family-1968-music-in-a-doll-s-house.jpg"
+},
+{
+"id": "family-1969-family-entertainment",
+"t": "Family Entertainment",
+"y": 1969,
+"cov": "kapaklar/family-1969-family-entertainment.jpg"
+},
+{
+"id": "family-1970-a-song-for-me",
+"t": "A Song for Me",
+"y": 1970,
+"cov": "kapaklar/family-1970-a-song-for-me.jpg"
+},
+{
+"id": "family-1970-anyway",
+"t": "Anyway",
+"y": 1970,
+"cov": "kapaklar/family-1970-anyway.jpg"
+},
+{
+"id": "family-1971-fearless",
+"t": "Fearless",
+"y": 1971,
+"cov": "kapaklar/family-1971-fearless.jpg"
+},
+{
+"id": "family-1972-bandstand",
+"t": "Bandstand",
+"y": 1972,
+"cov": "kapaklar/family-1972-bandstand.jpg"
+}
+]
+},
+{
+"id": "focus",
+"artist": "Focus",
+"albums": [
+{
+"id": "focus-1970-in-and-out-of-focus",
+"t": "In and Out of Focus",
+"y": 1970,
+"cov": "kapaklar/focus-1970-in-and-out-of-focus.jpg"
+},
+{
+"id": "focus-1971-moving-waves",
+"t": "Moving Waves",
+"y": 1971,
+"cov": "kapaklar/focus-1971-moving-waves.jpg"
+},
+{
+"id": "focus-1972-focus-3",
+"t": "Focus 3",
+"y": 1972,
+"cov": "kapaklar/focus-1972-focus-3.jpg"
+},
+{
+"id": "focus-1974-hamburger-concerto",
+"t": "Hamburger Concerto",
+"y": 1974,
+"cov": "kapaklar/focus-1974-hamburger-concerto.jpg"
+},
+{
+"id": "focus-1975-mother-focus",
+"t": "Mother Focus",
+"y": 1975,
+"onc": "atla",
+"cov": "kapaklar/focus-1975-mother-focus.jpg"
+},
+{
+"id": "focus-2002-focus-8",
+"t": "Focus 8",
+"y": 2002,
+"onc": "istege"
+},
+{
+"id": "focus-2012-focus-x",
+"t": "Focus X",
+"y": 2012,
+"onc": "istege"
+}
+]
+},
+{
+"id": "barclay-james-harvest",
+"artist": "Barclay James Harvest",
+"albums": [
+{
+"id": "barclay-james-harvest-1970-barclay-james-harvest",
+"t": "Barclay James Harvest",
+"y": 1970,
+"cov": "kapaklar/barclay-james-harvest-1970-barclay-james-harvest.jpg"
+},
+{
+"id": "barclay-james-harvest-1971-once-again",
+"t": "Once Again",
+"y": 1971,
+"cov": "kapaklar/barclay-james-harvest-1971-once-again.jpg"
+},
+{
+"id": "barclay-james-harvest-1972-baby-james-harvest",
+"t": "Baby James Harvest",
+"y": 1972,
+"cov": "kapaklar/barclay-james-harvest-1972-baby-james-harvest.jpg"
+},
+{
+"id": "barclay-james-harvest-1974-everyone-is-everybody-else",
+"t": "Everyone Is Everybody Else",
+"y": 1974,
+"cov": "kapaklar/barclay-james-harvest-1974-everyone-is-everybody-else.jpg"
+},
+{
+"id": "barclay-james-harvest-1975-time-honoured-ghosts",
+"t": "Time Honoured Ghosts",
+"y": 1975,
+"cov": "kapaklar/barclay-james-harvest-1975-time-honoured-ghosts.jpg"
+},
+{
+"id": "barclay-james-harvest-1976-octoberon",
+"t": "Octoberon",
+"y": 1976,
+"onc": "onerilir",
+"cov": "kapaklar/barclay-james-harvest-1976-octoberon.jpg"
+},
+{
+"id": "barclay-james-harvest-1977-gone-to-earth",
+"t": "Gone to Earth",
+"y": 1977,
+"onc": "temel",
+"cov": "kapaklar/barclay-james-harvest-1977-gone-to-earth.jpg"
+},
+{
+"id": "barclay-james-harvest-2013-north",
+"t": "North",
+"y": 2013,
+"onc": "istege",
+"cov": "kapaklar/barclay-james-harvest-2013-north.jpg"
+}
+]
+},
+{
+"id": "henry-cow",
+"artist": "Henry Cow",
+"albums": [
+{
+"id": "henry-cow-1973-legend-leg-end",
+"t": "Legend (Leg End)",
+"y": 1973,
+"cov": "kapaklar/henry-cow-1973-legend-leg-end.jpg"
+},
+{
+"id": "henry-cow-1974-unrest",
+"t": "Unrest",
+"y": 1974,
+"cov": "kapaklar/henry-cow-1974-unrest.jpg"
+},
+{
+"id": "henry-cow-1975-in-praise-of-learning",
+"t": "In Praise of Learning",
+"y": 1975,
+"cov": "kapaklar/henry-cow-1975-in-praise-of-learning.jpg"
+},
+{
+"id": "henry-cow-1979-western-culture",
+"t": "Western Culture",
+"y": 1979,
+"cov": "kapaklar/henry-cow-1979-western-culture.jpg"
+}
+]
+},
+{
+"id": "art-bears",
+"artist": "Art Bears",
+"albums": [
+{
+"id": "art-bears-1978-hopes-and-fears",
+"t": "Hopes and Fears",
+"y": 1978,
+"cov": "kapaklar/art-bears-1978-hopes-and-fears.jpg"
+},
+{
+"id": "art-bears-1979-winter-songs",
+"t": "Winter Songs",
+"y": 1979,
+"cov": "kapaklar/art-bears-1979-winter-songs.jpg"
+},
+{
+"id": "art-bears-1981-the-world-as-it-is-today",
+"t": "The World as It Is Today",
+"y": 1981,
+"cov": "kapaklar/art-bears-1981-the-world-as-it-is-today.jpg"
+}
+]
+},
+{
+"id": "this-heat",
+"artist": "This Heat",
+"albums": [
+{
+"id": "this-heat-1979-this-heat",
+"t": "This Heat",
+"y": 1979,
+"cov": "kapaklar/this-heat-1979-this-heat.jpg"
+},
+{
+"id": "this-heat-1981-deceit",
+"t": "Deceit",
+"y": 1981,
+"cov": "kapaklar/this-heat-1981-deceit.jpg"
+}
+]
+},
+{
+"id": "ian-anderson-solo",
+"artist": "Ian Anderson",
+"albums": [
+{
+"id": "ian-anderson-1983-walk-into-light",
+"t": "Walk into Light",
+"y": 1983,
+"onc": "atla",
+"cov": "kapaklar/ian-anderson-1983-walk-into-light.jpg"
+},
+{
+"id": "ian-anderson-1995-divinities-twelve-dances-with-god",
+"t": "Divinities: Twelve Dances with God",
+"y": 1995,
+"onc": "istege",
+"cov": "kapaklar/ian-anderson-1995-divinities-twelve-dances-with-god.jpg"
+},
+{
+"id": "ian-anderson-2000-the-secret-language-of-birds",
+"t": "The Secret Language of Birds",
+"y": 2000,
+"onc": "onerilir",
+"cov": "kapaklar/ian-anderson-2000-the-secret-language-of-birds.jpg"
+},
+{
+"id": "ian-anderson-2012-thick-as-a-brick-2",
+"t": "Thick as a Brick 2",
+"y": 2012,
+"onc": "temel",
+"cov": "kapaklar/ian-anderson-2012-thick-as-a-brick-2.jpg"
+},
+{
+"id": "ian-anderson-2014-homo-erraticus",
+"t": "Homo Erraticus",
+"y": 2014,
+"onc": "onerilir",
+"cov": "kapaklar/ian-anderson-2014-homo-erraticus.jpg"
+}
+]
+},
+{
+"id": "peter-hammill-solo",
+"artist": "Peter Hammill",
+"albums": [
+{
+"id": "peter-hammill-1971-fool-s-mate",
+"t": "Fool's Mate",
+"y": 1971,
+"onc": "onerilir"
+},
+{
+"id": "peter-hammill-1974-the-silent-corner-and-the-empty-stage",
+"t": "The Silent Corner and the Empty Stage",
+"y": 1974,
+"onc": "temel",
+"cov": "kapaklar/peter-hammill-1974-the-silent-corner-and-the-empty-stage.jpg"
+},
+{
+"id": "peter-hammill-1975-nadir-s-big-chance",
+"t": "Nadir's Big Chance",
+"y": 1975,
+"onc": "temel",
+"cov": "kapaklar/peter-hammill-1975-nadir-s-big-chance.jpg"
+},
+{
+"id": "peter-hammill-1980-a-black-box",
+"t": "A Black Box",
+"y": 1980,
+"onc": "temel",
+"cov": "kapaklar/peter-hammill-1980-a-black-box.jpg"
+},
+{
+"id": "peter-hammill-2004-incoherence",
+"t": "Incoherence",
+"y": 2004,
+"onc": "onerilir",
+"cov": "kapaklar/peter-hammill-2004-incoherence.jpg"
+}
+]
+}
+]
+},
+{
+"no": 17,
+"groups": [
+{
+"id": "ten-years-after",
+"artist": "Ten Years After",
+"albums": [
+{
+"id": "ten-years-after-1968-undead",
+"t": "Undead",
+"y": 1968,
+"onc": "onerilir",
+"cov": "kapaklar/ten-years-after-1968-undead.jpg"
+},
+{
+"id": "ten-years-after-1969-stonedhenge",
+"t": "Stonedhenge",
+"y": 1969,
+"onc": "istege",
+"cov": "kapaklar/ten-years-after-1969-stonedhenge.jpg"
+},
+{
+"id": "ten-years-after-1969-ssssh",
+"t": "Ssssh",
+"y": 1969,
+"onc": "onerilir",
+"cov": "kapaklar/ten-years-after-1969-ssssh.jpg"
+},
+{
+"id": "ten-years-after-1970-cricklewood-green",
+"t": "Cricklewood Green",
+"y": 1970,
+"onc": "temel",
+"cov": "kapaklar/ten-years-after-1970-cricklewood-green.jpg"
+},
+{
+"id": "ten-years-after-1971-a-space-in-time",
+"t": "A Space in Time",
+"y": 1971,
+"onc": "temel",
+"cov": "kapaklar/ten-years-after-1971-a-space-in-time.jpg"
+}
+]
+}
+]
+},
+{
+"no": 11,
+"groups": [
+{
+"id": "marillion",
+"artist": "Marillion",
+"albums": [
+{
+"id": "marillion-1983-script-for-a-jester-s-tear",
+"t": "Script for a Jester's Tear",
+"y": 1983,
+"onc": "temel",
+"e": 0,
+"cov": "kapaklar/marillion-1983-script-for-a-jester-s-tear.jpg"
+},
+{
+"id": "marillion-1984-fugazi",
+"t": "Fugazi",
+"y": 1984,
+"onc": "istege",
+"e": 0,
+"cov": "kapaklar/marillion-1984-fugazi.jpg"
+},
+{
+"id": "marillion-1985-misplaced-childhood",
+"t": "Misplaced Childhood",
+"y": 1985,
+"onc": "temel",
+"e": 0,
+"cov": "kapaklar/marillion-1985-misplaced-childhood.jpg"
+},
+{
+"id": "marillion-1987-clutching-at-straws",
+"t": "Clutching at Straws",
+"y": 1987,
+"onc": "temel",
+"e": 0,
+"cov": "kapaklar/marillion-1987-clutching-at-straws.jpg"
+},
+{
+"id": "marillion-1989-seasons-end",
+"t": "Seasons End",
+"y": 1989,
+"onc": "onerilir",
+"e": 1,
+"cov": "kapaklar/marillion-1989-seasons-end.jpg"
+},
+{
+"id": "marillion-1991-holidays-in-eden",
+"t": "Holidays in Eden",
+"y": 1991,
+"onc": "istege",
+"e": 1,
+"cov": "kapaklar/marillion-1991-holidays-in-eden.jpg"
+},
+{
+"id": "marillion-1994-brave",
+"t": "Brave",
+"y": 1994,
+"onc": "temel",
+"e": 1,
+"cov": "kapaklar/marillion-1994-brave.jpg"
+},
+{
+"id": "marillion-1995-afraid-of-sunlight",
+"t": "Afraid of Sunlight",
+"y": 1995,
+"onc": "temel",
+"e": 1,
+"cov": "kapaklar/marillion-1995-afraid-of-sunlight.jpg"
+},
+{
+"id": "marillion-1997-this-strange-engine",
+"t": "This Strange Engine",
+"y": 1997,
+"onc": "onerilir",
+"e": 2,
+"cov": "kapaklar/marillion-1997-this-strange-engine.jpg"
+},
+{
+"id": "marillion-1998-radiation",
+"t": "Radiation",
+"y": 1998,
+"onc": "istege",
+"e": 2,
+"cov": "kapaklar/marillion-1998-radiation.jpg"
+},
+{
+"id": "marillion-2001-anoraknophobia",
+"t": "Anoraknophobia",
+"y": 2001,
+"onc": "istege",
+"e": 2,
+"cov": "kapaklar/marillion-2001-anoraknophobia.jpg"
+},
+{
+"id": "marillion-2004-marbles",
+"t": "Marbles",
+"y": 2004,
+"onc": "temel",
+"e": 2,
+"cov": "kapaklar/marillion-2004-marbles.jpg"
+},
+{
+"id": "marillion-2007-somewhere-else",
+"t": "Somewhere Else",
+"y": 2007,
+"onc": "atla",
+"e": 2,
+"cov": "kapaklar/marillion-2007-somewhere-else.jpg"
+},
+{
+"id": "marillion-2008-happiness-is-the-road",
+"t": "Happiness Is the Road",
+"y": 2008,
+"onc": "istege",
+"e": 2,
+"cov": "kapaklar/marillion-2008-happiness-is-the-road.jpg"
+},
+{
+"id": "marillion-2012-sounds-that-can-t-be-made",
+"t": "Sounds That Can't Be Made",
+"y": 2012,
+"onc": "onerilir",
+"e": 2,
+"cov": "kapaklar/marillion-2012-sounds-that-can-t-be-made.jpg"
+},
+{
+"id": "marillion-2016-f-e-a-r",
+"t": "F.E.A.R.",
+"y": 2016,
+"onc": "temel",
+"e": 2,
+"cov": "kapaklar/marillion-2016-f-e-a-r.jpg"
+}
+],
+"eras": [
+{
+"yil": "1983–1987",
+"from": 1983,
+"to": 1987
+},
+{
+"yil": "1989–1995",
+"from": 1989,
+"to": 1995
+},
+{
+"yil": "1997–2016",
+"from": 1997,
+"to": 2016
+}
+]
+},
+{
+"id": "iq",
+"artist": "IQ",
+"albums": [
+{
+"id": "iq-1983-tales-from-the-lush-attic",
+"t": "Tales from the Lush Attic",
+"y": 1983,
+"cov": "kapaklar/iq-1983-tales-from-the-lush-attic.jpg"
+},
+{
+"id": "iq-1985-the-wake",
+"t": "The Wake",
+"y": 1985,
+"cov": "kapaklar/iq-1985-the-wake.jpg"
+},
+{
+"id": "iq-1987-nomzamo",
+"t": "Nomzamo",
+"y": 1987,
+"cov": "kapaklar/iq-1987-nomzamo.jpg"
+},
+{
+"id": "iq-1989-are-you-sitting-comfortably",
+"t": "Are You Sitting Comfortably?",
+"y": 1989,
+"cov": "kapaklar/iq-1989-are-you-sitting-comfortably.jpg"
+},
+{
+"id": "iq-1993-ever",
+"t": "Ever",
+"y": 1993,
+"cov": "kapaklar/iq-1993-ever.jpg"
+},
+{
+"id": "iq-1997-subterranea",
+"t": "Subterranea",
+"y": 1997,
+"onc": "temel",
+"cov": "kapaklar/iq-1997-subterranea.jpg"
+},
+{
+"id": "iq-2000-the-seventh-house",
+"t": "The Seventh House",
+"y": 2000,
+"onc": "onerilir",
+"cov": "kapaklar/iq-2000-the-seventh-house.jpg"
+},
+{
+"id": "iq-2004-dark-matter",
+"t": "Dark Matter",
+"y": 2004,
+"onc": "temel",
+"cov": "kapaklar/iq-2004-dark-matter.jpg"
+},
+{
+"id": "iq-2009-frequency",
+"t": "Frequency",
+"y": 2009,
+"onc": "istege",
+"cov": "kapaklar/iq-2009-frequency.jpg"
+},
+{
+"id": "iq-2014-the-road-of-bones",
+"t": "The Road of Bones",
+"y": 2014,
+"onc": "temel",
+"cov": "kapaklar/iq-2014-the-road-of-bones.jpg"
+},
+{
+"id": "iq-2019-resistance",
+"t": "Resistance",
+"y": 2019,
+"onc": "onerilir",
+"cov": "kapaklar/iq-2019-resistance.jpg"
+}
+]
+},
+{
+"id": "pendragon",
+"artist": "Pendragon",
+"albums": [
+{
+"id": "pendragon-1985-the-jewel",
+"t": "The Jewel",
+"y": 1985,
+"cov": "kapaklar/pendragon-1985-the-jewel.jpg"
+},
+{
+"id": "pendragon-1988-kowtow",
+"t": "Kowtow",
+"y": 1988,
+"cov": "kapaklar/pendragon-1988-kowtow.jpg"
+},
+{
+"id": "pendragon-1991-the-world",
+"t": "The World",
+"y": 1991,
+"cov": "kapaklar/pendragon-1991-the-world.jpg"
+},
+{
+"id": "pendragon-1993-the-window-of-life",
+"t": "The Window of Life",
+"y": 1993,
+"cov": "kapaklar/pendragon-1993-the-window-of-life.jpg"
+},
+{
+"id": "pendragon-1996-the-masquerade-overture",
+"t": "The Masquerade Overture",
+"y": 1996,
+"onc": "temel",
+"cov": "kapaklar/pendragon-1996-the-masquerade-overture.jpg"
+},
+{
+"id": "pendragon-2001-not-of-this-world",
+"t": "Not of This World",
+"y": 2001,
+"onc": "onerilir",
+"cov": "kapaklar/pendragon-2001-not-of-this-world.jpg"
+},
+{
+"id": "pendragon-2008-pure",
+"t": "Pure",
+"y": 2008,
+"onc": "onerilir",
+"cov": "kapaklar/pendragon-2008-pure.jpg"
+},
+{
+"id": "pendragon-2020-love-over-fear",
+"t": "Love Over Fear",
+"y": 2020,
+"onc": "istege",
+"cov": "kapaklar/pendragon-2020-love-over-fear.jpg"
+}
+]
+},
+{
+"id": "pallas",
+"artist": "Pallas",
+"albums": [
+{
+"id": "pallas-1981-arrive-alive",
+"t": "Arrive Alive",
+"y": 1981,
+"cov": "kapaklar/pallas-1981-arrive-alive.jpg"
+},
+{
+"id": "pallas-1984-the-sentinel",
+"t": "The Sentinel",
+"y": 1984
+},
+{
+"id": "pallas-1986-the-wedge",
+"t": "The Wedge",
+"y": 1986
+}
+]
+},
+{
+"id": "twelfth-night-ksa-not",
+"artist": "Twelfth Night",
+"albums": [
+{
+"id": "twelfth-night-1982-fact-and-fiction",
+"t": "Fact and Fiction",
+"y": 1982,
+"cov": "kapaklar/twelfth-night-1982-fact-and-fiction.jpg"
+},
+{
+"id": "twelfth-night-1984-art-and-illusion",
+"t": "Art and Illusion",
+"y": 1984,
+"cov": "kapaklar/twelfth-night-1984-art-and-illusion.jpg"
+},
+{
+"id": "twelfth-night-1986-twelfth-night-xii",
+"t": "Twelfth Night (XII)",
+"y": 1986,
+"cov": "kapaklar/twelfth-night-1986-twelfth-night-xii.jpg"
+}
+]
+},
+{
+"id": "fish-solo",
+"artist": "Fish",
+"albums": [
+{
+"id": "fish-1990-vigil-in-a-wilderness-of-mirrors",
+"t": "Vigil in a Wilderness of Mirrors",
+"y": 1990,
+"onc": "temel",
+"cov": "kapaklar/fish-1990-vigil-in-a-wilderness-of-mirrors.jpg"
+},
+{
+"id": "fish-1997-sunsets-on-empire",
+"t": "Sunsets on Empire",
+"y": 1997,
+"onc": "onerilir"
+},
+{
+"id": "fish-2007-13th-star",
+"t": "13th Star",
+"y": 2007,
+"onc": "onerilir",
+"cov": "kapaklar/fish-2007-13th-star.jpg"
+},
+{
+"id": "fish-2013-a-feast-of-consequences",
+"t": "A Feast of Consequences",
+"y": 2013,
+"onc": "temel",
+"cov": "kapaklar/fish-2013-a-feast-of-consequences.jpg"
+},
+{
+"id": "fish-2020-weltschmerz",
+"t": "Weltschmerz",
+"y": 2020,
+"onc": "temel",
+"cov": "kapaklar/fish-2020-weltschmerz.jpg"
+}
+]
+}
+]
+},
+{
+"no": 12,
+"groups": [
+{
+"id": "world-trade",
+"artist": "World Trade",
+"albums": [
+{
+"id": "world-trade-1989-world-trade",
+"t": "World Trade",
+"y": 1989,
+"cov": "kapaklar/world-trade-1989-world-trade.jpg"
+},
+{
+"id": "world-trade-1995-euphoria",
+"t": "Euphoria",
+"y": 1995,
+"cov": "kapaklar/world-trade-1995-euphoria.jpg"
+}
+]
+},
+{
+"id": "spock-s-beard",
+"artist": "Spock's Beard",
+"albums": [
+{
+"id": "spock-s-beard-1995-the-light",
+"t": "The Light",
+"y": 1995,
+"cov": "kapaklar/spock-s-beard-1995-the-light.jpg"
+},
+{
+"id": "spock-s-beard-1996-beware-of-darkness",
+"t": "Beware of Darkness",
+"y": 1996,
+"onc": "onerilir",
+"cov": "kapaklar/spock-s-beard-1996-beware-of-darkness.jpg"
+},
+{
+"id": "spock-s-beard-1998-the-kindness-of-strangers",
+"t": "The Kindness of Strangers",
+"y": 1998,
+"onc": "temel",
+"cov": "kapaklar/spock-s-beard-1998-the-kindness-of-strangers.jpg"
+},
+{
+"id": "spock-s-beard-2000-v",
+"t": "V",
+"y": 2000,
+"onc": "temel",
+"cov": "kapaklar/spock-s-beard-2000-v.jpg"
+},
+{
+"id": "spock-s-beard-2002-snow",
+"t": "Snow",
+"y": 2002,
+"onc": "temel"
+},
+{
+"id": "spock-s-beard-2003-feel-euphoria",
+"t": "Feel Euphoria",
+"y": 2003,
+"onc": "istege",
+"cov": "kapaklar/spock-s-beard-2003-feel-euphoria.jpg"
+},
+{
+"id": "spock-s-beard-2013-brief-nocturnes-and-dreamless-sleep",
+"t": "Brief Nocturnes and Dreamless Sleep",
+"y": 2013,
+"onc": "onerilir",
+"cov": "kapaklar/spock-s-beard-2013-brief-nocturnes-and-dreamless-sleep.jpg"
+}
+]
+},
+{
+"id": "echolyn-ksa-not",
+"artist": "Echolyn",
+"albums": [
+{
+"id": "echolyn-1991-echolyn",
+"t": "Echolyn",
+"y": 1991,
+"cov": "kapaklar/echolyn-1991-echolyn.jpg"
+},
+{
+"id": "echolyn-1992-suffocating-the-bloom",
+"t": "Suffocating the Bloom",
+"y": 1992
+},
+{
+"id": "echolyn-1995-as-the-world",
+"t": "As the World",
+"y": 1995
+},
+{
+"id": "echolyn-2002-mei",
+"t": "Mei",
+"y": 2002,
+"onc": "temel"
+},
+{
+"id": "echolyn-2012-echolyn-window",
+"t": "Echolyn (\"Window\")",
+"y": 2012,
+"onc": "onerilir",
+"cov": "kapaklar/echolyn-2012-echolyn-window.jpg"
+},
+{
+"id": "echolyn-2015-i-heard-you-listening",
+"t": "I Heard You Listening",
+"y": 2015,
+"onc": "istege"
+}
+]
+}
+]
+},
+{
+"no": 13,
+"groups": [
+{
+"id": "kansas",
+"artist": "Kansas",
+"albums": [
+{
+"id": "kansas-1974-kansas",
+"t": "Kansas",
+"y": 1974,
+"cov": "kapaklar/kansas-1974-kansas.jpg"
+},
+{
+"id": "kansas-1975-song-for-america",
+"t": "Song for America",
+"y": 1975,
+"cov": "kapaklar/kansas-1975-song-for-america.jpg"
+},
+{
+"id": "kansas-1975-masque",
+"t": "Masque",
+"y": 1975,
+"cov": "kapaklar/kansas-1975-masque.jpg"
+},
+{
+"id": "kansas-1976-leftoverture",
+"t": "Leftoverture",
+"y": 1976,
+"cov": "kapaklar/kansas-1976-leftoverture.jpg"
+},
+{
+"id": "kansas-1977-point-of-know-return",
+"t": "Point of Know Return",
+"y": 1977,
+"cov": "kapaklar/kansas-1977-point-of-know-return.jpg"
+},
+{
+"id": "kansas-1979-monolith",
+"t": "Monolith",
+"y": 1979,
+"cov": "kapaklar/kansas-1979-monolith.jpg"
+},
+{
+"id": "kansas-1986-power",
+"t": "Power",
+"y": 1986,
+"onc": "istege",
+"cov": "kapaklar/kansas-1986-power.jpg"
+},
+{
+"id": "kansas-2000-somewhere-to-elsewhere",
+"t": "Somewhere to Elsewhere",
+"y": 2000,
+"onc": "onerilir",
+"cov": "kapaklar/kansas-2000-somewhere-to-elsewhere.jpg"
+},
+{
+"id": "kansas-2016-the-prelude-implicit",
+"t": "The Prelude Implicit",
+"y": 2016,
+"onc": "onerilir",
+"cov": "kapaklar/kansas-2016-the-prelude-implicit.jpg"
+}
+]
+},
+{
+"id": "rush",
+"artist": "Rush",
+"albums": [
+{
+"id": "rush-1974-rush",
+"t": "Rush",
+"y": 1974,
+"onc": "istege",
+"e": 0,
+"cov": "kapaklar/rush-1974-rush.jpg"
+},
+{
+"id": "rush-1975-fly-by-night",
+"t": "Fly by Night",
+"y": 1975,
+"onc": "onerilir",
+"e": 0,
+"cov": "kapaklar/rush-1975-fly-by-night.jpg"
+},
+{
+"id": "rush-1975-caress-of-steel",
+"t": "Caress of Steel",
+"y": 1975,
+"onc": "istege",
+"e": 0,
+"cov": "kapaklar/rush-1975-caress-of-steel.jpg"
+},
+{
+"id": "rush-1976-2112",
+"t": "2112",
+"y": 1976,
+"onc": "temel",
+"e": 1,
+"cov": "kapaklar/rush-1976-2112.jpg"
+},
+{
+"id": "rush-1977-a-farewell-to-kings",
+"t": "A Farewell to Kings",
+"y": 1977,
+"onc": "onerilir",
+"e": 1,
+"cov": "kapaklar/rush-1977-a-farewell-to-kings.jpg"
+},
+{
+"id": "rush-1978-hemispheres",
+"t": "Hemispheres",
+"y": 1978,
+"onc": "temel",
+"e": 1,
+"cov": "kapaklar/rush-1978-hemispheres.jpg"
+},
+{
+"id": "rush-1980-permanent-waves",
+"t": "Permanent Waves",
+"y": 1980,
+"onc": "temel",
+"e": 2,
+"cov": "kapaklar/rush-1980-permanent-waves.jpg"
+},
+{
+"id": "rush-1981-moving-pictures",
+"t": "Moving Pictures",
+"y": 1981,
+"onc": "temel",
+"e": 2,
+"cov": "kapaklar/rush-1981-moving-pictures.jpg"
+},
+{
+"id": "rush-1982-signals",
+"t": "Signals",
+"y": 1982,
+"onc": "onerilir",
+"e": 2,
+"cov": "kapaklar/rush-1982-signals.jpg"
+},
+{
+"id": "rush-1984-grace-under-pressure",
+"t": "Grace Under Pressure",
+"y": 1984,
+"onc": "onerilir",
+"e": 2,
+"cov": "kapaklar/rush-1984-grace-under-pressure.jpg"
+},
+{
+"id": "rush-1985-power-windows",
+"t": "Power Windows",
+"y": 1985,
+"onc": "istege",
+"e": 3,
+"cov": "kapaklar/rush-1985-power-windows.jpg"
+},
+{
+"id": "rush-1987-hold-your-fire",
+"t": "Hold Your Fire",
+"y": 1987,
+"onc": "istege",
+"e": 3,
+"cov": "kapaklar/rush-1987-hold-your-fire.jpg"
+},
+{
+"id": "rush-1989-presto",
+"t": "Presto",
+"y": 1989,
+"onc": "istege",
+"e": 3,
+"cov": "kapaklar/rush-1989-presto.jpg"
+},
+{
+"id": "rush-1991-roll-the-bones",
+"t": "Roll the Bones",
+"y": 1991,
+"onc": "istege",
+"e": 4,
+"cov": "kapaklar/rush-1991-roll-the-bones.jpg"
+},
+{
+"id": "rush-1993-counterparts",
+"t": "Counterparts",
+"y": 1993,
+"onc": "onerilir",
+"e": 4,
+"cov": "kapaklar/rush-1993-counterparts.jpg"
+},
+{
+"id": "rush-1996-test-for-echo",
+"t": "Test for Echo",
+"y": 1996,
+"onc": "istege",
+"e": 4,
+"cov": "kapaklar/rush-1996-test-for-echo.jpg"
+},
+{
+"id": "rush-2002-vapor-trails",
+"t": "Vapor Trails",
+"y": 2002,
+"onc": "onerilir",
+"e": 4,
+"cov": "kapaklar/rush-2002-vapor-trails.jpg"
+},
+{
+"id": "rush-2007-snakes-arrows",
+"t": "Snakes & Arrows",
+"y": 2007,
+"onc": "istege",
+"e": 4,
+"cov": "kapaklar/rush-2007-snakes-arrows.jpg"
+},
+{
+"id": "rush-2012-clockwork-angels",
+"t": "Clockwork Angels",
+"y": 2012,
+"onc": "temel",
+"e": 4,
+"cov": "kapaklar/rush-2012-clockwork-angels.jpg"
+}
+],
+"eras": [
+{
+"yil": "1974–1975",
+"from": 1974,
+"to": 1975
+},
+{
+"yil": "1976–1978",
+"from": 1976,
+"to": 1978
+},
+{
+"yil": "1980–1984",
+"from": 1980,
+"to": 1984
+},
+{
+"yil": "1985–1989",
+"from": 1985,
+"to": 1989
+},
+{
+"yil": "1991–2012",
+"from": 1991,
+"to": 2012
+}
+]
+},
+{
+"id": "hawkwind",
+"artist": "Hawkwind",
+"albums": [
+{
+"id": "hawkwind-1971-in-search-of-space",
+"t": "In Search of Space",
+"y": 1971,
+"cov": "kapaklar/hawkwind-1971-in-search-of-space.jpg"
+},
+{
+"id": "hawkwind-1972-doremi-fasol-latido",
+"t": "Doremi Fasol Latido",
+"y": 1972,
+"cov": "kapaklar/hawkwind-1972-doremi-fasol-latido.jpg"
+},
+{
+"id": "hawkwind-1973-space-ritual",
+"t": "Space Ritual",
+"y": 1973,
+"onc": "temel",
+"cov": "kapaklar/hawkwind-1973-space-ritual.jpg"
+},
+{
+"id": "hawkwind-1974-hall-of-the-mountain-grill",
+"t": "Hall of the Mountain Grill",
+"y": 1974,
+"cov": "kapaklar/hawkwind-1974-hall-of-the-mountain-grill.jpg"
+},
+{
+"id": "hawkwind-1975-warrior-on-the-edge-of-time",
+"t": "Warrior on the Edge of Time",
+"y": 1975,
+"cov": "kapaklar/hawkwind-1975-warrior-on-the-edge-of-time.jpg"
+},
+{
+"id": "hawkwind-1977-quark-strangeness-and-charm",
+"t": "Quark, Strangeness and Charm",
+"y": 1977,
+"onc": "onerilir",
+"cov": "kapaklar/hawkwind-1977-quark-strangeness-and-charm.jpg"
+},
+{
+"id": "hawkwind-1980-levitation",
+"t": "Levitation",
+"y": 1980,
+"onc": "istege",
+"cov": "kapaklar/hawkwind-1980-levitation.jpg"
+},
+{
+"id": "hawkwind-2017-into-the-woods",
+"t": "Into the Woods",
+"y": 2017,
+"onc": "istege",
+"cov": "kapaklar/hawkwind-2017-into-the-woods.jpg"
+}
+]
+},
+{
+"id": "happy-the-man",
+"artist": "Happy the Man",
+"albums": [
+{
+"id": "happy-the-man-1977-happy-the-man",
+"t": "Happy the Man",
+"y": 1977,
+"cov": "kapaklar/happy-the-man-1977-happy-the-man.jpg"
+},
+{
+"id": "happy-the-man-1978-crafty-hands",
+"t": "Crafty Hands",
+"y": 1978,
+"cov": "kapaklar/happy-the-man-1978-crafty-hands.jpg"
+}
+]
+},
+{
+"id": "nektar",
+"artist": "Nektar",
+"albums": [
+{
+"id": "nektar-1971-journey-to-the-centre-of-the-eye",
+"t": "Journey to the Centre of the Eye",
+"y": 1971,
+"onc": "onerilir",
+"cov": "kapaklar/nektar-1971-journey-to-the-centre-of-the-eye.jpg"
+},
+{
+"id": "nektar-1972-a-tab-in-the-ocean",
+"t": "A Tab in the Ocean",
+"y": 1972,
+"onc": "temel",
+"cov": "kapaklar/nektar-1972-a-tab-in-the-ocean.jpg"
+},
+{
+"id": "nektar-1973-sounds-like-this",
+"t": "...Sounds Like This",
+"y": 1973,
+"onc": "istege",
+"cov": "kapaklar/nektar-1973-sounds-like-this.jpg"
+},
+{
+"id": "nektar-1973-remember-the-future",
+"t": "Remember the Future",
+"y": 1973,
+"onc": "temel",
+"cov": "kapaklar/nektar-1973-remember-the-future.jpg"
+},
+{
+"id": "nektar-1975-recycled",
+"t": "Recycled",
+"y": 1975,
+"onc": "onerilir",
+"cov": "kapaklar/nektar-1975-recycled.jpg"
+}
+]
+},
+{
+"id": "pavlov-s-dog",
+"artist": "Pavlov's Dog",
+"albums": [
+{
+"id": "pavlov-s-dog-1975-pampered-menial",
+"t": "Pampered Menial",
+"y": 1975,
+"onc": "temel",
+"cov": "kapaklar/pavlov-s-dog-1975-pampered-menial.jpg"
+},
+{
+"id": "pavlov-s-dog-1976-at-the-sound-of-the-bell",
+"t": "At the Sound of the Bell",
+"y": 1976,
+"onc": "onerilir",
+"cov": "kapaklar/pavlov-s-dog-1976-at-the-sound-of-the-bell.jpg"
+}
+]
+}
+]
+},
+{
+"no": 14,
+"groups": [
+{
+"id": "the-flower-kings",
+"artist": "The Flower Kings",
+"albums": [
+{
+"id": "the-flower-kings-1995-back-in-the-world-of-adventures",
+"t": "Back in the World of Adventures",
+"y": 1995,
+"cov": "kapaklar/the-flower-kings-1995-back-in-the-world-of-adventures.jpg"
+},
+{
+"id": "the-flower-kings-1997-stardust-we-are",
+"t": "Stardust We Are",
+"y": 1997,
+"onc": "temel",
+"cov": "kapaklar/the-flower-kings-1997-stardust-we-are.jpg"
+},
+{
+"id": "the-flower-kings-1999-flower-power",
+"t": "Flower Power",
+"y": 1999,
+"onc": "onerilir",
+"cov": "kapaklar/the-flower-kings-1999-flower-power.jpg"
+},
+{
+"id": "the-flower-kings-2002-unfold-the-future",
+"t": "Unfold the Future",
+"y": 2002,
+"onc": "onerilir",
+"cov": "kapaklar/the-flower-kings-2002-unfold-the-future.jpg"
+},
+{
+"id": "the-flower-kings-2012-banks-of-eden",
+"t": "Banks of Eden",
+"y": 2012,
+"onc": "istege",
+"cov": "kapaklar/the-flower-kings-2012-banks-of-eden.jpg"
+}
+]
+},
+{
+"id": "anglagard",
+"artist": "Änglagård",
+"albums": [
+{
+"id": "anglagard-1992-hybris",
+"t": "Hybris",
+"y": 1992
+},
+{
+"id": "anglagard-1994-epilog",
+"t": "Epilog",
+"y": 1994
+},
+{
+"id": "anglagard-2012-viljans-oga",
+"t": "Viljans öga",
+"y": 2012,
+"onc": "temel"
+}
+]
+},
+{
+"id": "anekdoten",
+"artist": "Anekdoten",
+"albums": [
+{
+"id": "anekdoten-1993-vemod",
+"t": "Vemod",
+"y": 1993,
+"cov": "kapaklar/anekdoten-1993-vemod.jpg"
+},
+{
+"id": "anekdoten-1995-nucleus",
+"t": "Nucleus",
+"y": 1995,
+"cov": "kapaklar/anekdoten-1995-nucleus.jpg"
+},
+{
+"id": "anekdoten-1999-from-within",
+"t": "From Within",
+"y": 1999,
+"onc": "onerilir",
+"cov": "kapaklar/anekdoten-1999-from-within.jpg"
+},
+{
+"id": "anekdoten-2003-gravity",
+"t": "Gravity",
+"y": 2003,
+"onc": "istege",
+"cov": "kapaklar/anekdoten-2003-gravity.jpg"
+},
+{
+"id": "anekdoten-2007-a-time-of-day",
+"t": "A Time of Day",
+"y": 2007,
+"onc": "onerilir",
+"cov": "kapaklar/anekdoten-2007-a-time-of-day.jpg"
+},
+{
+"id": "anekdoten-2015-until-all-the-ghosts-are-gone",
+"t": "Until All the Ghosts Are Gone",
+"y": 2015,
+"onc": "temel",
+"cov": "kapaklar/anekdoten-2015-until-all-the-ghosts-are-gone.jpg"
+}
+]
+}
+]
+},
+{
+"no": 18,
+"groups": [
+{
+"id": "porcupine-tree",
+"artist": "Porcupine Tree",
+"albums": [
+{
+"id": "porcupine-tree-1995-the-sky-moves-sideways",
+"t": "The Sky Moves Sideways",
+"y": 1995,
+"onc": "onerilir",
+"cov": "kapaklar/porcupine-tree-1995-the-sky-moves-sideways.jpg"
+},
+{
+"id": "porcupine-tree-1996-signify",
+"t": "Signify",
+"y": 1996,
+"onc": "istege",
+"cov": "kapaklar/porcupine-tree-1996-signify.jpg"
+},
+{
+"id": "porcupine-tree-1999-stupid-dream",
+"t": "Stupid Dream",
+"y": 1999,
+"onc": "temel",
+"cov": "kapaklar/porcupine-tree-1999-stupid-dream.jpg"
+},
+{
+"id": "porcupine-tree-2000-lightbulb-sun",
+"t": "Lightbulb Sun",
+"y": 2000,
+"onc": "onerilir",
+"cov": "kapaklar/porcupine-tree-2000-lightbulb-sun.jpg"
+},
+{
+"id": "porcupine-tree-2002-in-absentia",
+"t": "In Absentia",
+"y": 2002,
+"onc": "temel",
+"cov": "kapaklar/porcupine-tree-2002-in-absentia.jpg"
+},
+{
+"id": "porcupine-tree-2005-deadwing",
+"t": "Deadwing",
+"y": 2005,
+"onc": "onerilir",
+"cov": "kapaklar/porcupine-tree-2005-deadwing.jpg"
+},
+{
+"id": "porcupine-tree-2007-fear-of-a-blank-planet",
+"t": "Fear of a Blank Planet",
+"y": 2007,
+"onc": "temel",
+"cov": "kapaklar/porcupine-tree-2007-fear-of-a-blank-planet.jpg"
+},
+{
+"id": "porcupine-tree-2009-the-incident",
+"t": "The Incident",
+"y": 2009,
+"onc": "onerilir"
+}
+]
+},
+{
+"id": "steven-wilson-solo",
+"artist": "Steven Wilson",
+"albums": [
+{
+"id": "steven-wilson-2008-insurgentes",
+"t": "Insurgentes",
+"y": 2008,
+"onc": "istege",
+"cov": "kapaklar/steven-wilson-2008-insurgentes.jpg"
+},
+{
+"id": "steven-wilson-2011-grace-for-drowning",
+"t": "Grace for Drowning",
+"y": 2011,
+"onc": "onerilir",
+"cov": "kapaklar/steven-wilson-2011-grace-for-drowning.jpg"
+},
+{
+"id": "steven-wilson-2013-the-raven-that-refused-to-sing-and-other-stories",
+"t": "The Raven That Refused to Sing (And Other Stories)",
+"y": 2013,
+"onc": "temel",
+"cov": "kapaklar/steven-wilson-2013-the-raven-that-refused-to-sing-and-other-stories.jpg"
+},
+{
+"id": "steven-wilson-2015-hand-cannot-erase",
+"t": "Hand. Cannot. Erase.",
+"y": 2015,
+"onc": "temel",
+"cov": "kapaklar/steven-wilson-2015-hand-cannot-erase.jpg"
+},
+{
+"id": "steven-wilson-2017-to-the-bone",
+"t": "To the Bone",
+"y": 2017,
+"onc": "onerilir"
+}
+]
+},
+{
+"id": "transatlantic",
+"artist": "Transatlantic",
+"albums": [
+{
+"id": "transatlantic-2000-smpt-e",
+"t": "SMPT:e",
+"y": 2000,
+"onc": "temel",
+"cov": "kapaklar/transatlantic-2000-smpt-e.jpg"
+},
+{
+"id": "transatlantic-2001-bridge-across-forever",
+"t": "Bridge Across Forever",
+"y": 2001,
+"onc": "temel",
+"cov": "kapaklar/transatlantic-2001-bridge-across-forever.jpg"
+},
+{
+"id": "transatlantic-2009-the-whirlwind",
+"t": "The Whirlwind",
+"y": 2009,
+"onc": "onerilir",
+"cov": "kapaklar/transatlantic-2009-the-whirlwind.jpg"
+},
+{
+"id": "transatlantic-2014-kaleidoscope",
+"t": "Kaleidoscope",
+"y": 2014,
+"onc": "istege",
+"cov": "kapaklar/transatlantic-2014-kaleidoscope.jpg"
+}
+]
+},
+{
+"id": "neal-morse-solo-ve-neal-morse-band",
+"artist": "Neal Morse",
+"albums": [
+{
+"id": "neal-morse-2003-testimony",
+"t": "Testimony",
+"y": 2003,
+"onc": "onerilir",
+"cov": "kapaklar/neal-morse-2003-testimony.jpg"
+},
+{
+"id": "neal-morse-2007-sola-scriptura",
+"t": "Sola Scriptura",
+"y": 2007,
+"onc": "onerilir",
+"cov": "kapaklar/neal-morse-2007-sola-scriptura.jpg"
+},
+{
+"id": "neal-morse-2016-the-similitude-of-a-dream",
+"t": "The Similitude of a Dream",
+"y": 2016,
+"onc": "temel",
+"cov": "kapaklar/neal-morse-2016-the-similitude-of-a-dream.jpg"
+},
+{
+"id": "neal-morse-2019-the-great-adventure",
+"t": "The Great Adventure",
+"y": 2019,
+"onc": "istege",
+"cov": "kapaklar/neal-morse-2019-the-great-adventure.jpg"
+}
+]
+},
+{
+"id": "dream-theater",
+"artist": "Dream Theater",
+"albums": [
+{
+"id": "dream-theater-1989-when-dream-and-day-unite",
+"t": "When Dream and Day Unite",
+"y": 1989,
+"onc": "istege",
+"cov": "kapaklar/dream-theater-1989-when-dream-and-day-unite.jpg"
+},
+{
+"id": "dream-theater-1992-images-and-words",
+"t": "Images and Words",
+"y": 1992,
+"onc": "temel",
+"cov": "kapaklar/dream-theater-1992-images-and-words.jpg"
+},
+{
+"id": "dream-theater-1994-awake",
+"t": "Awake",
+"y": 1994,
+"onc": "onerilir",
+"cov": "kapaklar/dream-theater-1994-awake.jpg"
+},
+{
+"id": "dream-theater-1995-a-change-of-seasons",
+"t": "A Change of Seasons",
+"y": 1995,
+"onc": "onerilir",
+"cov": "kapaklar/dream-theater-1995-a-change-of-seasons.jpg"
+},
+{
+"id": "dream-theater-1999-metropolis-pt-2-scenes-from-a-memory",
+"t": "Metropolis Pt. 2: Scenes from a Memory",
+"y": 1999,
+"onc": "temel",
+"cov": "kapaklar/dream-theater-1999-metropolis-pt-2-scenes-from-a-memory.jpg"
+},
+{
+"id": "dream-theater-2002-six-degrees-of-inner-turbulence",
+"t": "Six Degrees of Inner Turbulence",
+"y": 2002,
+"onc": "onerilir",
+"cov": "kapaklar/dream-theater-2002-six-degrees-of-inner-turbulence.jpg"
+},
+{
+"id": "dream-theater-2005-octavarium",
+"t": "Octavarium",
+"y": 2005,
+"onc": "onerilir",
+"cov": "kapaklar/dream-theater-2005-octavarium.jpg"
+},
+{
+"id": "dream-theater-2016-the-astonishing",
+"t": "The Astonishing",
+"y": 2016,
+"onc": "istege",
+"cov": "kapaklar/dream-theater-2016-the-astonishing.jpg"
+},
+{
+"id": "dream-theater-2019-distance-over-time",
+"t": "Distance over Time",
+"y": 2019,
+"onc": "onerilir",
+"cov": "kapaklar/dream-theater-2019-distance-over-time.jpg"
+}
+]
+}
+]
+},
+{
+"no": 15,
+"groups": [
+{
+"id": "agn-buyuk-kavsaklar-genisletilmis-ozet",
+"artist": "Ağın Büyük Kavşakları",
+"albums": []
+},
+{
+"id": "uc-kusagn-ses-akrabalg-etki-haritas",
+"artist": "Üç Kuşağın Ses Akrabalığı",
+"albums": []
+}
+]
+}
+]
