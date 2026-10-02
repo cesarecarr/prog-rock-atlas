@@ -1,4 +1,4 @@
-/* Prog Rock Atlas — v3 (liste çalar) / v2: diller, platformlar, çalar, kişisel listeler */
+/* Prog Rock Atlas — v4 (çalar düzeltmeleri) / v3 (liste çalar) / v2: diller, platformlar, çalar, kişisel listeler */
 let DATA=[], T={}, F={}, U={}, LANG="tr", NDATA=null, TRK=null;
 const PLATS=[["spotify","#1DB954"],["apple","#fa233b"],["youtube","#ff3b30"],["tidal","#33b5e5"]];
 const store={get(k,d){try{const v=localStorage.getItem("atlas."+k);return v===null?d:JSON.parse(v);}catch(e){return d;}},
@@ -154,9 +154,22 @@ async function openAlbum(aid,tab){
   if(location.hash!=="#a="+aid)history.pushState({a:aid},"","#a="+aid);
 }
 function renderAlbum(){
+  albSpReset();
   const {g,a}=findAlbum(CUR.id);const tr=TRK[a.id]||{tr:[]};const pl=PLAT||"spotify";
   const era=(g.eras&&g.eras[a.e||0])?g.eras[a.e||0]:null;
   const others=PLATS.map(p=>p[0]).filter(p=>p!==pl).map(p=>`<a class="btn small ghost" href="${p==="spotify"&&tr.sp?"https://open.spotify.com/album/"+tr.sp:p==="youtube"&&tr.yt?"https://www.youtube.com/playlist?list="+tr.yt:p==="apple"&&tr.am?tr.am:searchURL(p,g.artist,a.t)}" target="_blank" rel="noopener"><span class="plat-dot" style="background:${platColor(p)}"></span>${esc(platName(p))}</a>`).join("");
+  $("albview").innerHTML=`<div class="page">
+    <button class="backbtn" onclick="history.back()">${esc(u("nav.back"))}</button>
+    <div class="albhead">${img(a.cov)}<div><div class="g" translate="no">${esc(g.name)}</div><h2 translate="no">${esc(a.t)}</h2>
+      <div class="y">${a.y}${a.tip?" · "+esc(a.tip):""}${era?" · "+esc(era.t):""}</div><div style="margin-top:6px">${badge(a)}</div></div></div>
+    <div class="player" id="player">${playerHTML(pl,tr,g.artist,a.t,CUR.track)}</div>
+    <div class="otherp">${others}</div>
+    <div class="tabs" id="albtabs">${albTabsHTML()}</div>
+    <div id="albbody">${albBodyHTML()}</div></div>`;
+}
+function albTabsHTML(){return `${[["tracks","album.tab.tracks"],["about","album.tab.about"],["lineup","album.tab.lineup"]].map(([k,l])=>`<button class="${CUR.tab===k?"on":""}" onclick="albTab('${k}')">${esc(u(l))}</button>`).join("")}`;}
+function albBodyHTML(){
+  const {g,a}=findAlbum(CUR.id);const tr=TRK[a.id]||{tr:[]};const pl=PLAT||"spotify";
   let body="";
   if(CUR.tab==="tracks"){
     if(!tr.tr.length)body=`<p class="muted" style="padding:12px 0">${esc(u("album.notracks"))}</p>`;
@@ -178,18 +191,31 @@ function renderAlbum(){
     body=`${a.kadro?`<p class="kadro" style="margin-top:12px"><b>${u("album.lineup")}:</b> ${esc(a.kadro)}</p>`:""}${a.prod?`<p class="kadro"><b>${u("album.prod")}:</b> ${esc(a.prod)}</p>`:""}
       ${(!a.kadro&&!a.prod)?`<p class="muted" style="padding:12px 0">—</p>`:""}`;
   }
-  $("albview").innerHTML=`<div class="page">
-    <button class="backbtn" onclick="history.back()">${esc(u("nav.back"))}</button>
-    <div class="albhead">${img(a.cov)}<div><div class="g" translate="no">${esc(g.name)}</div><h2 translate="no">${esc(a.t)}</h2>
-      <div class="y">${a.y}${a.tip?" · "+esc(a.tip):""}${era?" · "+esc(era.t):""}</div><div style="margin-top:6px">${badge(a)}</div></div></div>
-    <div class="player" id="player">${playerHTML(pl,tr,g.artist,a.t,CUR.track)}</div>
-    <div class="otherp">${others}</div>
-    <div class="tabs">${[["tracks","album.tab.tracks"],["about","album.tab.about"],["lineup","album.tab.lineup"]].map(([k,l])=>`<button class="${CUR.tab===k?"on":""}" onclick="albTab('${k}')">${esc(u(l))}</button>`).join("")}</div>
-    ${body}</div>`;
+  return body;
 }
-function albTab(k){CUR.tab=k;renderAlbum();}
-function playTrack(i){qPause();CUR.track=i;const {g,a}=findAlbum(CUR.id);$("player").innerHTML=playerHTML(PLAT||"spotify",TRK[a.id]||{tr:[]},g.artist,a.t,i);$("albview").scrollTo({top:0,behavior:"smooth"});}
-function closeAlbum(silent){if(!CUR)return;CUR=null;$("albview").classList.remove("show");$("albview").innerHTML="";document.body.style.overflow="";layoutDock();
+function updAlbBody(){if(!CUR||!$("albbody"))return renderAlbum();$("albtabs").innerHTML=albTabsHTML();$("albbody").innerHTML=albBodyHTML();}
+function albTab(k){CUR.tab=k;updAlbBody();}
+let ALBC=null;
+function albSpReset(){try{if(ALBC)ALBC.destroy();}catch(e){}ALBC=null;}
+function spCtl(api,el,uri,h,onCtl){/* denetleyici + yüklenince çal */
+  return new Promise(res=>api.createController(el,{uri,width:"100%",height:h},c=>{c._pend=true;
+    c.addListener("ready",()=>{if(c._pend){c._pend=false;try{c.play();}catch(e){}}});
+    setTimeout(()=>{if(c._pend){c._pend=false;try{c.play();}catch(e){}}},2500);
+    if(onCtl)onCtl(c);res(c);}));}
+function spLoad(c,uri){c._pend=true;c.loadUri(uri);setTimeout(()=>{if(c._pend){c._pend=false;try{c.play();}catch(e){}}},1500);}
+async function playTrack(i){
+  qPause();CUR.track=i;const {g,a}=findAlbum(CUR.id);const tr=TRK[a.id]||{tr:[]};const t=tr.tr[i];const pl=PLAT||"spotify";
+  $("albview").scrollTo({top:0,behavior:"smooth"});
+  if(pl==="spotify"&&t&&t.sp){
+    try{const api=await loadSP();const uri="spotify:track:"+t.sp;
+      if(ALBC&&document.body.contains(ALBC._el))spLoad(ALBC,uri);
+      else{albSpReset();$("player").innerHTML='<div id="albsp"></div>';const el=$("albsp");
+        ALBC=await spCtl(api,el,uri,152);ALBC._el=$("player").firstElementChild;}
+      return;}catch(e){console.error(e);}
+  }
+  albSpReset();$("player").innerHTML=playerHTML(pl,tr,g.artist,a.t,i);
+}
+function closeAlbum(silent){if(!CUR)return;albSpReset();CUR=null;$("albview").classList.remove("show");$("albview").innerHTML="";document.body.style.overflow="";layoutDock();
   if(!silent)window.scrollTo(0,SCROLLY);}
 window.addEventListener("popstate",()=>{const m=location.hash.match(/^#a=(.+)$/);if(m){if(!CUR||CUR.id!==m[1])openAlbum(m[1]);}else closeAlbum();});
 
@@ -223,7 +249,7 @@ function saveAdd(){
         else if(note){const x=l.items.find(x=>x.aid===a.id&&x.i===i);x.note=note;}});}
     else if(ADD.orig.has(l.id)){l.items=l.items.filter(x=>!(x.aid===a.id&&ADD.idx.includes(x.i)));}
   });
-  saveLists();closeAdd();toast(u("add.saved"));if(CUR)renderAlbum();
+  saveLists();closeAdd();toast(u("add.saved"));if(CUR)updAlbBody();
 }
 function closeAdd(){$("addsheet").classList.remove("show");$("addbg").classList.remove("show");ADD=null;}
 let OPENLIST=null;
@@ -279,6 +305,7 @@ async function qPlay(lid,k){
   if(VIEW==="lists"&&OPENLIST===lid)renderLists();
 }
 async function playItem(x){
+  try{if(ALBC)ALBC.pause();}catch(e){}
   const e=qEng(x),d=qIds(x);
   try{if(e==="yt")await ytPlay(d.yt);else if(e==="sp")await spPlay(d.sp);}catch(err){console.error(err);toast(u("dock.error"));}
 }
@@ -295,10 +322,9 @@ async function spPlay(id){
   const api=await loadSP();const uri="spotify:track:"+id;
   SPST={t0:Date.now(),started:false,done:false,last:0};
   if(ENG!=="sp"||!SPC){resetPlayer();$("dkpl").innerHTML='<div id="spp"></div>';ENG="sp";$("dkpl").className="dk-pl sp";
-    await new Promise(res=>api.createController($("spp"),{uri,width:"100%",height:80},c=>{SPC=c;
-      c.addListener("ready",()=>{try{c.play();}catch(e){}});c.addListener("playback_update",spUpd);res();}));
+    SPC=await spCtl(api,$("spp"),uri,80,c=>c.addListener("playback_update",spUpd));
     layoutDock();}
-  else{SPC.loadUri(uri);setTimeout(()=>{try{SPC.play();}catch(e){}},700);}
+  else spLoad(SPC,uri);
 }
 function spUpd(e){const d=e&&e.data;if(!d||!SPST||!d.duration)return;
   if(Date.now()-SPST.t0<1200)return;
