@@ -4,8 +4,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#15121f">
-<title>Progressive Rock Ağ Atlası</title>
-<link rel="manifest" href="data:application/json;base64,eyJuYW1lIjogIlByb2dyZXNzaXZlIFJvY2sgQVx1MDExZiBBdGxhc1x1MDEzMSIsICJzaG9ydF9uYW1lIjogIlByb2cgQXRsYXMiLCAic3RhcnRfdXJsIjogIi4iLCAiZGlzcGxheSI6ICJzdGFuZGFsb25lIiwgImJhY2tncm91bmRfY29sb3IiOiAiIzE1MTIxZiIsICJ0aGVtZV9jb2xvciI6ICIjMTUxMjFmIiwgImljb25zIjogW119">
+<title>Prog Rock Atlas</title>
+<link rel="manifest" href="manifest.json">
 <style>
   :root{
     --bg:#15121f; --bg2:#1d1830; --panel:#241d3a; --panel2:#2c2444;
@@ -157,199 +157,122 @@
   .crit a{color:var(--amber); font-size:11px; text-decoration:none}
   .langsel{margin-left:auto;background:var(--panel2);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:3px 6px;font-size:12px}
   .brand{display:flex;align-items:baseline;gap:10px}
+  /* ---- v2 ---- */
+  main{max-width:820px;margin:0 auto}
+  header .inner,.count-bar{max-width:820px;margin-left:auto;margin-right:auto}
+  body{padding-bottom:calc(76px + env(safe-area-inset-bottom))}
+  .tabbar{position:fixed;left:0;right:0;bottom:0;z-index:80;display:grid;grid-template-columns:repeat(3,1fr);
+    background:var(--bg2);border-top:1px solid var(--line);padding-bottom:env(safe-area-inset-bottom)}
+  .tabbar button{background:none;border:0;color:var(--muted);font-weight:600;font-size:11px;font-family:inherit;padding:10px 0 12px;display:flex;flex-direction:column;align-items:center;gap:4px;cursor:pointer}
+  .tabbar button.on{color:var(--amber)}
+  .tabbar svg{width:22px;height:22px}
+  .view{display:none}.view.on{display:block}
+  .plat-dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:5px;vertical-align:1px}
+  .platbadge{font-size:11px;color:var(--muted);margin-left:8px;white-space:nowrap;cursor:pointer}
+  .page{max-width:820px;margin:0 auto;padding:calc(16px + env(safe-area-inset-top)) 16px 24px}
+  .page h1{font-family:Georgia,serif;font-size:26px;margin-bottom:14px}
+  .btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;border-radius:12px;border:1px solid var(--line);
+    background:var(--panel);color:var(--ink);font-weight:600;font-size:14px;font-family:inherit;padding:11px 14px;cursor:pointer;text-decoration:none;min-height:44px}
+  .btn.primary{background:var(--amber);color:#1a1505;border-color:var(--amber)}
+  .btn.ghost{background:transparent}
+  .btn.small{min-height:34px;padding:6px 10px;font-size:13px;border-radius:9px}
+  .btn.danger{color:#e08a9a;border-color:rgba(194,66,90,.5);background:transparent}
+  .optgrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+  .opt{display:flex;align-items:center;gap:10px;border:1px solid var(--line);background:var(--panel);border-radius:12px;padding:12px;min-height:52px;cursor:pointer;color:var(--ink);font-weight:600;font-size:14px;font-family:inherit;text-align:left}
+  .opt.on{border:2px solid var(--amber)}
+  .opt small{display:block;font-weight:400;font-size:11.5px;color:var(--muted);margin-top:2px}
+  .welcome{position:fixed;inset:0;z-index:200;background:var(--bg);overflow:auto;display:none}
+  .welcome.show{display:block}
+  .welcome .page{display:flex;flex-direction:column;gap:22px;min-height:100%}
+  .welcome .big{font-family:Georgia,serif;font-size:34px;line-height:1.1}
+  .welcome .yr2{color:var(--amber);letter-spacing:3px;font-size:12px;font-weight:600}
+  .lbl{font-size:12px;letter-spacing:1.5px;color:var(--amber);font-weight:600;text-transform:uppercase;margin:4px 0 8px}
+  .albview{position:fixed;inset:0;z-index:120;background:var(--bg);overflow:auto;display:none;padding-bottom:calc(80px + env(safe-area-inset-bottom))}
+  .albview.show{display:block}
+  .albhead{display:flex;gap:14px;align-items:flex-end;margin:6px 0 14px}
+  .albhead img,.albhead .ph{width:120px;height:120px;border-radius:10px;flex-shrink:0;object-fit:cover}
+  .albhead .ph{font-size:40px}
+  .albhead .g{color:var(--amber);font-size:12.5px;font-weight:600}
+  .albhead h2{font-family:Georgia,serif;font-size:22px;line-height:1.15;margin:3px 0}
+  .albhead .y{font-size:13px;color:var(--muted)}
+  .backbtn{background:none;border:0;color:var(--ink);font-weight:600;font-size:15px;font-family:inherit;padding:8px 0;cursor:pointer}
+  .player{border-radius:12px;overflow:hidden;background:#0f0d17;border:1px solid #2a2340;margin-bottom:6px}
+  .player iframe{display:block;width:100%;border:0}
+  .noid{padding:14px;font-size:13px;color:var(--muted);display:flex;flex-direction:column;gap:10px;align-items:flex-start}
+  .otherp{display:flex;gap:6px;flex-wrap:wrap;margin:8px 0 4px}
+  .tabs{display:flex;border-bottom:1px solid var(--line);margin:14px 0 6px}
+  .tabs button{background:none;border:0;color:var(--muted);font-weight:600;font-size:14px;font-family:inherit;padding:10px 14px;cursor:pointer;border-bottom:2px solid transparent}
+  .tabs button.on{color:var(--ink);border-bottom-color:var(--amber)}
+  .trk{display:flex;align-items:center;gap:10px;padding:7px 0;border-bottom:1px solid var(--panel)}
+  .trk .n{width:30px;font-size:12.5px;color:var(--faint);text-align:right;flex-shrink:0}
+  .trk .tt{flex-grow:1;min-width:0}
+  .trk .tt div:first-child{font-size:14.5px;line-height:1.3}
+  .trk .tt div+div{font-size:12px;color:var(--faint)}
+  .ib{width:40px;height:40px;border-radius:50%;border:1px solid var(--line);background:transparent;color:var(--ink);display:flex;align-items:center;justify-content:center;cursor:pointer;flex-shrink:0;font-size:16px;text-decoration:none}
+  .ib.in{background:rgba(224,168,78,.18);border-color:transparent;color:var(--amber)}
+  .ib.pl{color:var(--amber2)}
+  .disc{font-size:12px;color:var(--amber2);margin:12px 0 2px;letter-spacing:1px}
+  .addsheet{position:fixed;left:0;right:0;bottom:0;z-index:160;background:var(--bg2);border-top:1px solid var(--line);border-radius:20px 20px 0 0;
+    padding:10px 18px calc(22px + env(safe-area-inset-bottom));max-height:85vh;overflow:auto;transform:translateY(105%);transition:transform .25s}
+  .addsheet.show{transform:none}
+  .addbg{position:fixed;inset:0;z-index:150;background:rgba(5,4,10,.7);display:none}.addbg.show{display:block}
+  .addsheet .grab{width:38px;height:4px;border-radius:2px;background:var(--line);margin:0 auto 12px}
+  .chk{display:flex;align-items:center;gap:12px;min-height:50px;border-bottom:1px solid var(--panel);cursor:pointer}
+  .chk .box{width:22px;height:22px;border-radius:6px;border:1.5px solid var(--faint);display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:14px}
+  .chk.on .box{background:var(--amber);border-color:var(--amber);color:#1a1505}
+  .chk .nm{flex-grow:1}.chk .ct{font-size:12px;color:var(--muted)}
+  .inp{width:100%;background:var(--panel);border:1px solid var(--line);color:var(--ink);border-radius:10px;padding:10px 12px;font-size:14px;font-family:inherit;outline:none}
+  .inp:focus{border-color:var(--amber)}
+  textarea.inp{resize:vertical;min-height:54px}
+  .row{display:flex;gap:8px;align-items:center}
+  .lcard{display:flex;align-items:center;gap:12px;padding:10px;border-radius:14px;background:var(--bg2);margin-bottom:10px;cursor:pointer}
+  .coll{width:60px;height:60px;display:grid;grid-template-columns:1fr 1fr;gap:2px;border-radius:8px;overflow:hidden;flex-shrink:0;background:var(--panel2)}
+  .coll img{width:100%;height:100%;object-fit:cover}.coll div{background:var(--panel2)}
+  .lcard .nm{font-weight:600;font-size:15.5px}.lcard .mt{font-size:12px;color:var(--muted);margin-top:3px}
+  .litem{display:flex;gap:10px;align-items:center;padding:8px 0;border-bottom:1px solid var(--panel)}
+  .litem img,.litem .ph{width:42px;height:42px;border-radius:6px;flex-shrink:0;object-fit:cover;font-size:16px}
+  .litem .tt{flex-grow:1;min-width:0}.litem .tt div:first-child{font-size:14px}
+  .litem .tt div+div{font-size:12px;color:var(--faint)}
+  .litem .note{font-size:12px;color:var(--amber2);font-style:italic}
+  .mini{display:flex;flex-direction:column;gap:2px}
+  .mini button{background:none;border:0;color:var(--faint);cursor:pointer;font-size:12px;padding:2px 6px}
+  .box2{background:var(--panel);border-radius:14px;padding:14px;margin:16px 0;display:flex;flex-direction:column;gap:10px}
+  .toast{position:fixed;left:50%;bottom:calc(90px + env(safe-area-inset-bottom));transform:translateX(-50%);background:var(--amber);color:#1a1505;font-weight:600;font-size:13px;padding:8px 14px;border-radius:20px;z-index:300;display:none}
+  .linklist a{display:block;color:var(--amber2);font-size:13px;padding:5px 0;word-break:break-all}
+  .muted{color:var(--muted);font-size:13px;line-height:1.5}
+  .alb .addq{margin-left:6px}
+  .toTop{bottom:calc(90px + env(safe-area-inset-bottom)) !important}
+
+  .langsel{margin-left:auto;background:var(--panel2);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:3px 6px;font-size:12px}
+  .brand{display:flex;align-items:baseline;gap:8px}
 </style>
 </head>
 <body>
+<div id="v-atlas" class="view on">
 <header>
-  <div class="brand"><h1>Prog Rock Ağ Atlası</h1><span class="yr">1967–2020</span><select id="lang" class="langsel" aria-label="Language"><option value="tr">TR</option><option value="en">EN</option><option value="de">DE</option></select></div>
-  <input class="search" id="q" placeholder="Albüm, grup, parça ya da müzisyen ara…" autocomplete="off">
+  <div class="brand"><h1>Prog Rock Atlas</h1><span class="yr">1967–2020</span><span class="platbadge" id="platbadge"></span><select id="lang" class="langsel" aria-label="Language"><option value="tr">TR</option><option value="en">EN</option><option value="de">DE</option></select></div>
+  <input class="search" id="q" autocomplete="off">
   <div class="filters" id="filters"></div>
 </header>
 <div class="count-bar" id="countbar"></div>
-<main id="main"></main>
-<div class="sheet-bg" id="sheetbg"></div>
-<div class="sheet" id="sheet"></div>
-<button class="install" id="install">📲 Ana ekrana ekle</button>
+<main id="main"><div class="empty">…</div></main>
+</div>
+<div id="v-lists" class="view"></div>
+<div id="v-settings" class="view"></div>
+<div class="albview" id="albview"></div>
+<div class="addbg" id="addbg"></div>
+<div class="addsheet" id="addsheet"></div>
+<div class="welcome" id="welcome"></div>
+<nav class="tabbar" id="tabbar"></nav>
+<div class="toast" id="toast"></div>
+<button class="install" id="install"></button>
 <button class="toTop" id="toTop">↑</button>
+<script src="app.js"></script>
 <script>
-
-let DATA=[], T={}, F={}, U={}, LANG="tr";
-const LANGS=[["tr","TR"],["en","EN"],["de","DE"]];
-function u(k,p){let s=U[k]||k; if(p)for(const x in p)s=s.replace("{"+x+"}",p[x]); return s;}
-function tx(k){return T[k]!==undefined?T[k]:F[k];}
-function detectLang(){
-  try{const s=localStorage.getItem("atlas.lang"); if(s)return s;}catch(e){}
-  const n=(navigator.language||"en").slice(0,2).toLowerCase();
-  return ["tr","de"].includes(n)?n:"en";
-}
-async function getJSON(p){const r=await fetch(p,{cache:"no-cache"}); if(!r.ok)throw new Error(p); return r.json();}
-function build(N){
-  return N.map(s=>{const sk="sec."+s.no;
-    return {no:s.no,title:tx(sk+".title")||"",intro:tx(sk+".intro")||"",html:tx(sk+".html")||"",
-      groups:s.groups.map(g=>{const gk="grp."+g.id, f={};
-        ["kurulus","hikaye","dna","uyeler","gecisler","etki","ipucu"].forEach(x=>{const v=tx(gk+"."+x); if(v)f[x]=v;});
-        if(tx(gk+".tarih"))f.tarih={txt:tx(gk+".tarih"),src:g.tarih_src||""};
-        const out={name:tx(gk+".name")||g.id,artist:g.artist,f};
-        if(g.eras)out.eras=g.eras.map((e,i)=>({yil:e.yil,from:e.from,to:e.to,t:tx(gk+".era."+i+".t")||"",note:tx(gk+".era."+i+".note")||""}));
-        out.albums=g.albums.map(a=>{const ak="alb."+a.id, o={t:a.t,y:a.y,onc:a.onc,e:a.e,cov:a.cov};
-          ["an","dn","oncelik","tip","kadro","prod","detay","tr"].forEach(x=>{const v=tx(ak+"."+x); if(v)o[x]=v;});
-          if(a.crit){const ct=tx(ak+".crit")||[]; o.crit=a.crit.map((c,i)=>({src:c.src,url:c.url,txt:ct[i]||""}));}
-          return o;});
-        return out;})};});
-}
-let NDATA=null;
-async function setLang(l){
-  LANG=l; try{localStorage.setItem("atlas.lang",l);}catch(e){}
-  document.documentElement.lang=l;
-  const fb=l==="de"?"en":(l==="en"?null:null);
-  const [ui,txt,fbt]=await Promise.all([getJSON("ui_"+l+".json"),getJSON("metin_"+l+".json"),fb?getJSON("metin_"+fb+".json"):Promise.resolve({})]);
-  U=ui; T=txt; F=fbt;
-  if(!NDATA)NDATA=await getJSON("data.json");
-  DATA=build(NDATA);
-  document.title=u("app.title");
-  document.querySelector(".brand h1").textContent=u("app.title");
-  document.getElementById("q").placeholder=u("search.placeholder");
-  document.getElementById("install").textContent=u("install");
-  document.getElementById("lang").value=l;
-  initChips(); render();
-}
-let activeFilter="all", query="", coreOnly=false;
-const filterEl=document.getElementById("filters");
-const shortName=t=>t.replace(/ — .*/,"").replace(/\(.*\)/,"").replace(/:.*$/,"").replace(/^(The|Das|Die|Der) /,"").replace(/ (Universe|Evreni)$/,"").replace(/-Universum$/,"").trim();
-function initChips(){
-  let chips=[["all",u("filter.all")],["core",u("filter.core")]]; DATA.forEach(s=>chips.push([s.no,shortName(s.title)]));
-  filterEl.innerHTML=chips.map(([id,lb])=>`<div class="chip ${String(id)===String(activeFilter)||(id==='core'&&coreOnly)?'on':''} ${id==='core'?'core':''}" data-f="${id}">${esc(lb)}</div>`).join("");
-  filterEl.querySelectorAll(".chip").forEach(c=>c.onclick=()=>{
-    if(c.dataset.f==="core"){coreOnly=!coreOnly;c.classList.toggle("on",coreOnly);render();return;}
-    activeFilter=c.dataset.f;
-    filterEl.querySelectorAll(".chip:not(.core)").forEach(x=>x.classList.remove("on"));
-    c.classList.add("on"); window.scrollTo(0,0); render();
-  });
-}
-document.getElementById("q").addEventListener("input",e=>{query=e.target.value.toLowerCase();render();});
-const ph='<div class="ph">♪</div>';
-function img(cov){return cov?`<img loading="lazy" src="${cov}" alt="">`:ph;}
-const ONC={temel:"b-temel",onerilir:"b-oner",istege:"b-ist",ikincil:"b-ik",atla:"b-atla"};
-function badge(a){const o=ONC[a.onc];return o?`<span class="badge ${o}">${esc(u("onc."+a.onc))}</span>`:"";}
-function isStudio(t){return !t||["stüdyo","studio","Studio"].includes(t);}
-function tipPill(a){return isStudio(a.tip)?"":`<span class="pill">${esc(a.tip)}</span>`;}
-function albMatch(g,a){
-  if(coreOnly&&a.onc!=="temel")return false;
-  if(!query)return true;
-  return (a.t+" "+g.name+" "+(a.tr||[]).join(" ")+" "+(a.kadro||"")+" "+a.y).toLowerCase().includes(query);}
-function esc(s){return String(s==null?"":s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");}
-function albRow(s,gi,g,a){const ai=g.albums.indexOf(a);
-  return `<div class="alb" onclick="openSheet(${s.no},${gi},${ai})">${img(a.cov)}
-    <div class="alb-info"><div class="t" translate="no">${esc(a.t)}</div><div class="y">${a.y}${tipPill(a)}${badge(a)}</div></div>
-    <span class="go">›</span></div>`;}
-function render(){
-  const main=document.getElementById("main");
-  let html="",any=false,totA=0;
-  const filtering=!!query||coreOnly;
-  DATA.forEach(s=>{
-    if(activeFilter!=="all"&&String(s.no)!==String(activeFilter))return;
-    const hasRealGroups=s.groups.some(g=>g.albums.length>0);
-    if(s.html&&!hasRealGroups){
-      if(filtering)return;
-      any=true;
-      html+=`<div class="sec-title">${esc(shortName(s.title))}</div>`;
-      if(s.intro)html+=`<p class="sec-intro">${esc(s.intro)}</p>`;
-      html+=`<div class="special">${s.html}</div>`;
-      return;
-    }
-    let secHtml="",secHas=false;
-    s.groups.forEach((g,gi)=>{
-      const albs=g.albums.filter(a=>albMatch(g,a));
-      if(albs.length===0)return;
-      secHas=true;any=true;totA+=albs.length;
-      const gid=`g_${s.no}_${gi}`,open=filtering?"open":"";
-      const f=g.f;
-      const extra=[f.uyeler?`<p class="gfield"><b>${u("f.uyeler")}:</b> ${esc(f.uyeler)}</p>`:"",
-        f.gecisler?`<p class="gfield"><b>${u("f.gecisler")}:</b> ${esc(f.gecisler)}</p>`:"",
-        f.etki?`<p class="gfield"><b>${u("f.etki")}:</b> ${esc(f.etki)}</p>`:"",
-        (f.ipucu&&f.ipucu.length)?`<div class="tipbox"><div class="tlabel" style="margin-top:0">${u("f.ipucu")}</div><ul>${f.ipucu.map(t=>`<li>${esc(t)}</li>`).join("")}</ul></div>`:"",
-        f.tarih?`<div class="histbox">${esc(f.tarih.txt)}<span class="src">${esc(f.tarih.src)}</span></div>`:""].join("");
-      let list="";
-      if(g.eras&&g.eras.length){
-        g.eras.forEach((e,ei)=>{
-          const ea=albs.filter(a=>(a.e||0)===ei); if(!ea.length)return;
-          list+=`<div class="era-h"><span class="era-t">${esc(e.t)}</span><span class="era-y">${esc(e.yil)}</span></div>`;
-          if(e.note&&!filtering)list+=`<p class="era-note">${esc(e.note)}</p>`;
-          list+=ea.map(a=>albRow(s,gi,g,a)).join("");
-        });
-      }else list=albs.map(a=>albRow(s,gi,g,a)).join("");
-      secHtml+=`<div class="group ${open}" id="${gid}">
-        <div class="group-head" onclick="tg('${gid}')">
-          <h2 translate="no">${esc(g.name)}</h2><span class="cnt">${u("group.albums",{n:g.albums.length})}</span><span class="arr">▶</span></div>
-        <div class="group-body">
-          ${f.kurulus?`<p class="gfield"><b>${u("f.kurulus")}:</b> ${esc(f.kurulus)}</p>`:""}
-          ${f.hikaye?`<p class="gfield hik" onclick="this.classList.toggle('full')"><b>${u("f.hikaye")}:</b> ${esc(f.hikaye)}</p>`:""}
-          ${f.dna?`<p class="gfield"><b>${u("f.dna")}:</b> ${esc(f.dna)}</p>`:""}
-          ${extra?`<span class="gmore" onclick="tgMore(event,'${gid}_x')">${u("group.more")}${f.ipucu?" · "+u("group.tips"):""}</span>
-                   <div class="gextra" id="${gid}_x">${extra}</div>`:""}
-          ${list}
-        </div></div>`;
-    });
-    if(secHas){html+=`<div class="sec-title">${esc(shortName(s.title))}</div>`;
-      if(s.intro&&activeFilter!=="all")html+=`<p class="sec-intro">${esc(s.intro)}</p>`;
-      html+=secHtml;
-      if(s.html&&!filtering)html+=`<div class="special">${s.html}</div>`;}
-  });
-  document.getElementById("countbar").textContent=any?u("count.albums",{n:totA})+(coreOnly?" · "+u("count.coreonly"):""):"";
-  main.innerHTML=any?html:`<div class="empty">${esc(u("empty"))}</div>`;
-}
-function tg(id){document.getElementById(id).classList.toggle("open");}
-function tgMore(e,id){e.stopPropagation();document.getElementById(id).classList.toggle("show");}
-function openSheet(sn,gi,ai){
-  const s=DATA.find(x=>x.no===sn),g=s.groups[gi],a=g.albums[ai];
-  const bare=a.t.replace(/\s*\(.*?\)\s*/g," ").trim();
-  const sp=`https://open.spotify.com/search/${encodeURIComponent("album:"+bare+" artist:"+g.artist)}`;
-  const td=`https://tidal.com/search?q=${encodeURIComponent(g.artist+" "+bare)}`;
-  const am=`https://music.apple.com/search?term=${encodeURIComponent(g.artist+" "+bare)}`;
-  const yt=`https://www.youtube.com/results?search_query=${encodeURIComponent(g.artist+" "+bare+" full album")}`;
-  const era=(g.eras&&g.eras[a.e||0])?g.eras[a.e||0]:null;
-  const sheet=document.getElementById("sheet");
-  sheet.innerHTML=`<div class="grab"></div>
-    <div class="sheet-hd">${img(a.cov)}
-      <div class="meta"><div class="gname" translate="no">${esc(g.name)}</div>
-        <div class="tt" translate="no">${esc(a.t)}</div><div class="yy">${a.y}${a.tip?` · ${esc(a.tip)}`:""}</div>
-        ${era?`<div class="yy era-small">${esc(era.t)} (${esc(era.yil)})</div>`:""}
-        <div style="margin-top:5px">${badge(a)}</div></div></div>
-    <div class="sheet-bd">
-      ${a.kadro?`<p class="kadro"><b>${u("album.lineup")}:</b> ${esc(a.kadro)}</p>`:""}
-      ${a.prod?`<p class="kadro"><b>${u("album.prod")}:</b> ${esc(a.prod)}</p>`:""}
-      ${a.an?`<p class="an">${esc(a.an)}</p>`:""}
-      ${a.dn?`<div class="dnbox"><div class="tlabel" style="margin-top:0">${u("album.note")}</div>${esc(a.dn)}</div>`:""}
-      ${(a.detay&&a.detay.length)?`<div class="tlabel">${u("album.details")}</div><ul class="detay">${a.detay.map(t=>`<li>${esc(t)}</li>`).join("")}</ul>`:""}
-      ${a.oncelik?`<div class="oncbox"><b>${u("album.priority")}:</b> ${esc(a.oncelik)}</div>`:""}
-      ${(a.crit&&a.crit.length)?`<div class="tlabel">${u("album.critics")}</div>${a.crit.map(c=>`<div class="crit"><span class="csrc">${esc(c.src)}</span>${esc(c.txt)}${c.url?` <a href="${esc(c.url)}" target="_blank" rel="noopener">${u("album.source")}</a>`:""}</div>`).join("")}`:""}
-      ${(a.tr&&a.tr.length)?`<div class="tlabel">${u("album.highlights")}</div>
-        <ul class="tracks">${a.tr.map(t=>`<li>${esc(t)}</li>`).join("")}</ul>`:""}
-      <div class="plinks">
-        <a class="plink sp" href="${sp}" target="_blank" rel="noopener">Spotify</a>
-        <a class="plink am" href="${am}" target="_blank" rel="noopener">Apple Music</a>
-        <a class="plink td" href="${td}" target="_blank" rel="noopener">Tidal</a>
-        <a class="plink yt" href="${yt}" target="_blank" rel="noopener">YouTube</a></div></div>`;
-  sheet.scrollTop=0;
-  document.getElementById("sheetbg").classList.add("show");
-  sheet.classList.add("show");
-}
-function closeSheet(){document.getElementById("sheet").classList.remove("show");
-  document.getElementById("sheetbg").classList.remove("show");}
-document.getElementById("sheetbg").onclick=closeSheet;
 const toTop=document.getElementById("toTop");
 window.addEventListener("scroll",()=>{toTop.style.display=window.scrollY>600?"block":"none";});
 toTop.onclick=()=>window.scrollTo({top:0,behavior:"smooth"});
-let dp;window.addEventListener("beforeinstallprompt",e=>{e.preventDefault();dp=e;
-  document.getElementById("install").style.display="block";});
-document.getElementById("install").onclick=async()=>{if(!dp)return;dp.prompt();await dp.userChoice;
-  dp=null;document.getElementById("install").style.display="none";};
-if("serviceWorker" in navigator){
-  const sw='self.addEventListener("install",e=>self.skipWaiting());self.addEventListener("activate",e=>self.clients.claim());';
-  navigator.serviceWorker.register(URL.createObjectURL(new Blob([sw],{type:"text/javascript"}))).catch(()=>{});
-}
-document.getElementById("lang").onchange=e=>setLang(e.target.value);
-document.getElementById("main").innerHTML='<div class="empty">…</div>';
-setLang(detectLang()).catch(err=>{console.error(err);document.getElementById("main").innerHTML='<div class="empty">Veri yüklenemedi / Could not load data. (http/https)</div>';});
+let dp;window.addEventListener("beforeinstallprompt",e=>{e.preventDefault();dp=e;document.getElementById("install").style.display="block";});
+document.getElementById("install").onclick=async()=>{if(!dp)return;dp.prompt();await dp.userChoice;dp=null;document.getElementById("install").style.display="none";};
 </script>
 </body></html>
