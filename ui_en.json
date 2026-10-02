@@ -106,5 +106,15 @@
  "settings.import.err": "Could not read the file.",
  "settings.never": "none yet",
  "settings.about.text": "603 albums · 97 bands · track lists from MusicBrainz, platform matches from Spotify, Apple and YouTube Music searches.",
- "nav.back": "‹ Back"
+ "nav.back": "‹ Back",
+ "lists.play": "Play list",
+ "lists.play.hint": "Tap a track to play in order from there · Tap the cover to open the album.",
+ "lists.play.yt": "Apple Music and Tidal can't play lists in order; lists play via YouTube.",
+ "lists.toalbum": "Go to album",
+ "dock.prev": "Previous",
+ "dock.next": "Next",
+ "dock.close": "Close",
+ "dock.ended": "End of list",
+ "dock.none": "No playable tracks in this list.",
+ "dock.error": "Player could not load"
 }

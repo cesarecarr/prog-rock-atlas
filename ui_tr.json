@@ -106,5 +106,15 @@
  "settings.import.err": "Dosya okunamadı.",
  "settings.never": "henüz yok",
  "settings.about.text": "603 albüm · 97 grup · parça listeleri MusicBrainz, platform eşleştirmeleri Spotify, Apple ve YouTube Music aramalarından.",
- "nav.back": "‹ Geri"
+ "nav.back": "‹ Geri",
+ "lists.play": "Listeyi çal",
+ "lists.play.hint": "Parçaya dokun: oradan itibaren sırayla çalar · Kapağa dokun: albüm sayfası.",
+ "lists.play.yt": "Apple Music ve Tidal'da sıralı çalma yok; listeler YouTube üzerinden çalınır.",
+ "lists.toalbum": "Albüme git",
+ "dock.prev": "Önceki",
+ "dock.next": "Sonraki",
+ "dock.close": "Kapat",
+ "dock.ended": "Liste bitti",
+ "dock.none": "Bu listede çalınabilen parça yok.",
+ "dock.error": "Çalar yüklenemedi"
 }

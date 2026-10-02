@@ -1,4 +1,4 @@
-/* Prog Rock Atlas — v2: diller, platformlar, çalar, kişisel listeler */
+/* Prog Rock Atlas — v3 (liste çalar) / v2: diller, platformlar, çalar, kişisel listeler */
 let DATA=[], T={}, F={}, U={}, LANG="tr", NDATA=null, TRK=null;
 const PLATS=[["spotify","#1DB954"],["apple","#fa233b"],["youtube","#ff3b30"],["tidal","#33b5e5"]];
 const store={get(k,d){try{const v=localStorage.getItem("atlas."+k);return v===null?d:JSON.parse(v);}catch(e){return d;}},
@@ -150,7 +150,7 @@ async function openAlbum(aid,tab){
   CUR={id:aid,tab:tab||"tracks",track:null};
   await loadTracks();
   renderAlbum();
-  $("albview").classList.add("show");$("albview").scrollTop=0;document.body.style.overflow="hidden";
+  $("albview").classList.add("show");$("albview").scrollTop=0;document.body.style.overflow="hidden";layoutDock();
   if(location.hash!=="#a="+aid)history.pushState({a:aid},"","#a="+aid);
 }
 function renderAlbum(){
@@ -188,8 +188,8 @@ function renderAlbum(){
     ${body}</div>`;
 }
 function albTab(k){CUR.tab=k;renderAlbum();}
-function playTrack(i){CUR.track=i;const {g,a}=findAlbum(CUR.id);$("player").innerHTML=playerHTML(PLAT||"spotify",TRK[a.id]||{tr:[]},g.artist,a.t,i);$("albview").scrollTo({top:0,behavior:"smooth"});}
-function closeAlbum(silent){if(!CUR)return;CUR=null;$("albview").classList.remove("show");$("albview").innerHTML="";document.body.style.overflow="";
+function playTrack(i){qPause();CUR.track=i;const {g,a}=findAlbum(CUR.id);$("player").innerHTML=playerHTML(PLAT||"spotify",TRK[a.id]||{tr:[]},g.artist,a.t,i);$("albview").scrollTo({top:0,behavior:"smooth"});}
+function closeAlbum(silent){if(!CUR)return;CUR=null;$("albview").classList.remove("show");$("albview").innerHTML="";document.body.style.overflow="";layoutDock();
   if(!silent)window.scrollTo(0,SCROLLY);}
 window.addEventListener("popstate",()=>{const m=location.hash.match(/^#a=(.+)$/);if(m){if(!CUR||CUR.id!==m[1])openAlbum(m[1]);}else closeAlbum();});
 
@@ -235,7 +235,9 @@ function renderLists(){
     const ytIds=l.items.map(x=>x.yt).filter(Boolean).slice(0,50);const spIt=l.items.filter(x=>x.sp);
     v.innerHTML=`<div class="page"><button class="backbtn" onclick="OPENLIST=null;renderLists()">${esc(u("nav.back"))}</button>
       <h1>${esc(l.name)}</h1><div class="muted" style="margin:-8px 0 12px">${u("lists.tracks",{n:l.items.length})} · ${fmtLong(listDur(l))}</div>
-      ${l.items.length?l.items.map((x,k)=>`<div class="litem">${img(x.cov)}<div class="tt" onclick="openAlbum('${x.aid}')" style="cursor:pointer"><div translate="no">${esc(x.t)}</div><div translate="no">${esc(x.art)} · ${esc(x.alb)} · ${fmt(x.s)}</div>${x.note?`<div class="note">${esc(x.note)}</div>`:""}</div>
+      ${l.items.length?`<button class="btn primary" style="width:100%;margin-bottom:6px" onclick="qPlay('${l.id}',0)">▶ ${esc(u("lists.play"))}</button>
+        <p class="muted" style="font-size:12px;margin-bottom:8px">${esc(u("lists.play.hint"))}${(PLAT==="apple"||PLAT==="tidal")?" "+esc(u("lists.play.yt")):""}</p>`:""}
+      ${l.items.length?l.items.map((x,k)=>`<div class="litem ${Q&&Q.lid===l.id&&Q.cur.aid===x.aid&&Q.cur.i===x.i?"now":""}"><span class="cov" onclick="openAlbum('${x.aid}')" title="${esc(u("lists.toalbum"))}">${img(x.cov)}</span><div class="tt" onclick="qPlay('${l.id}',${k})" style="cursor:pointer"><div translate="no">${esc(x.t)}</div><div translate="no">${esc(x.art)} · ${esc(x.alb)} · ${fmt(x.s)}</div>${x.note?`<div class="note">${esc(x.note)}</div>`:""}</div>
         <div class="mini"><button onclick="mv('${l.id}',${k},-1)">▲</button><button onclick="mv('${l.id}',${k},1)">▼</button></div>
         <button class="ib" title="${esc(u("lists.remove"))}" onclick="rmItem('${l.id}',${k})">✕</button></div>`).join(""):`<p class="muted">${esc(u("lists.emptylist"))}</p>`}
       ${l.items.length?`<div class="box2"><div class="lbl" style="margin:0">${esc(u("lists.export"))}</div>
@@ -250,11 +252,83 @@ function renderLists(){
 }
 function newList(){const n=prompt(u("add.namehint"));if(!n||!n.trim())return;LISTS.push({id:uid(),name:n.trim(),created:Date.now(),items:[]});saveLists();renderLists();}
 function renameList(id){const l=LISTS.find(x=>x.id===id);const n=prompt(u("lists.rename"),l.name);if(!n||!n.trim())return;l.name=n.trim();saveLists();renderLists();}
-function delList(id){if(!confirm(u("lists.confirmdelete")))return;LISTS=LISTS.filter(x=>x.id!==id);saveLists();OPENLIST=null;renderLists();}
-function rmItem(id,k){const l=LISTS.find(x=>x.id===id);l.items.splice(k,1);saveLists();renderLists();}
-function mv(id,k,d){const l=LISTS.find(x=>x.id===id);const j=k+d;if(j<0||j>=l.items.length)return;[l.items[k],l.items[j]]=[l.items[j],l.items[k]];saveLists();renderLists();}
+function delList(id){if(!confirm(u("lists.confirmdelete")))return;if(Q&&Q.lid===id)qClose();LISTS=LISTS.filter(x=>x.id!==id);saveLists();OPENLIST=null;renderLists();}
+function rmItem(id,k){const l=LISTS.find(x=>x.id===id);l.items.splice(k,1);saveLists();renderLists();if(Q&&Q.lid===id&&qIdx()>=0)renderDock();}
+function mv(id,k,d){const l=LISTS.find(x=>x.id===id);const j=k+d;if(j<0||j>=l.items.length)return;[l.items[k],l.items[j]]=[l.items[j],l.items[k]];saveLists();renderLists();if(Q&&Q.lid===id)renderDock();}
 function copyList(id){const l=LISTS.find(x=>x.id===id);const txt=l.name+"\n\n"+l.items.map((x,k)=>`${k+1}. ${x.art} — ${x.t} (${x.alb}, ${x.y})${x.note?" — "+x.note:""}`).join("\n");
   (navigator.clipboard?navigator.clipboard.writeText(txt):Promise.reject()).then(()=>toast(u("lists.copied"))).catch(()=>prompt("",txt));}
+
+
+/* ---------- v3: liste çalar (sıralı çalma) ---------- */
+let Q=null,ENG=null,YTP=null,SPC=null,SPST=null,ytReady=null,spReady=null;
+function loadYT(){if(!ytReady)ytReady=new Promise((res,rej)=>{if(window.YT&&YT.Player)return res();window.onYouTubeIframeAPIReady=res;const s=document.createElement("script");s.src="https://www.youtube.com/iframe_api";s.onerror=()=>{ytReady=null;rej(new Error("yt"));};document.head.appendChild(s);});return ytReady;}
+function loadSP(){if(!spReady)spReady=new Promise((res,rej)=>{window.onSpotifyIframeApiReady=api=>res(api);const s=document.createElement("script");s.src="https://open.spotify.com/embed/iframe-api/v1";s.async=true;s.onerror=()=>{spReady=null;rej(new Error("sp"));};document.head.appendChild(s);});return spReady;}
+function qList(){return Q&&LISTS.find(l=>l.id===Q.lid);}
+function qIds(x){const t=TRK&&TRK[x.aid]&&TRK[x.aid].tr?TRK[x.aid].tr[x.i]:null;return {sp:(t&&t.sp)||x.sp||null,yt:(t&&t.yt)||x.yt||null};}
+function qPref(){return PLAT==="spotify"?"sp":"yt";}
+function qEng(x){const d=qIds(x),p=qPref();if(p==="sp")return d.sp?"sp":d.yt?"yt":null;return d.yt?"yt":d.sp?"sp":null;}
+function qIdx(){const l=qList();if(!l)return -1;const k=l.items.findIndex(x=>x.aid===Q.cur.aid&&x.i===Q.cur.i);return k;}
+function resetPlayer(){try{if(YTP)YTP.destroy();}catch(e){}try{if(SPC)SPC.destroy();}catch(e){}YTP=null;SPC=null;ENG=null;$("dkpl").innerHTML="";}
+async function qPlay(lid,k){
+  await loadTracks();
+  const l=LISTS.find(x=>x.id===lid);if(!l||!l.items.length)return;
+  let j=k;while(j<l.items.length&&!qEng(l.items[j]))j++;
+  if(j>=l.items.length){toast(u("dock.none"));return;}
+  Q={lid,k:j,cur:{aid:l.items[j].aid,i:l.items[j].i}};
+  renderDock();playItem(l.items[j]);
+  if(VIEW==="lists"&&OPENLIST===lid)renderLists();
+}
+async function playItem(x){
+  const e=qEng(x),d=qIds(x);
+  try{if(e==="yt")await ytPlay(d.yt);else if(e==="sp")await spPlay(d.sp);}catch(err){console.error(err);toast(u("dock.error"));}
+}
+async function ytPlay(id){
+  await loadYT();
+  if(ENG!=="yt"||!YTP){resetPlayer();$("dkpl").innerHTML='<div id="ytp"></div>';ENG="yt";
+    YTP=new YT.Player("ytp",{host:"https://www.youtube-nocookie.com",videoId:id,width:"100%",height:"100%",
+      playerVars:{autoplay:1,playsinline:1,rel:0,modestbranding:1},
+      events:{onReady:ev=>ev.target.playVideo(),onStateChange:ev=>{if(ev.data===0)qNext(true);},onError:()=>setTimeout(()=>qNext(true),800)}});
+    $("dkpl").className="dk-pl yt";layoutDock();}
+  else YTP.loadVideoById(id);
+}
+async function spPlay(id){
+  const api=await loadSP();const uri="spotify:track:"+id;
+  SPST={t0:Date.now(),started:false,done:false,last:0};
+  if(ENG!=="sp"||!SPC){resetPlayer();$("dkpl").innerHTML='<div id="spp"></div>';ENG="sp";$("dkpl").className="dk-pl sp";
+    await new Promise(res=>api.createController($("spp"),{uri,width:"100%",height:80},c=>{SPC=c;
+      c.addListener("ready",()=>{try{c.play();}catch(e){}});c.addListener("playback_update",spUpd);res();}));
+    layoutDock();}
+  else{SPC.loadUri(uri);setTimeout(()=>{try{SPC.play();}catch(e){}},700);}
+}
+function spUpd(e){const d=e&&e.data;if(!d||!SPST||!d.duration)return;
+  if(Date.now()-SPST.t0<1200)return;
+  if(!d.isPaused&&d.position>0)SPST.started=true;
+  const nearEnd=d.position>=d.duration-700||(d.isPaused&&SPST.last>=d.duration-1500);
+  if(SPST.started&&!SPST.done&&nearEnd){SPST.done=true;setTimeout(()=>qNext(true),300);}
+  SPST.last=d.position;}
+function qNext(auto){const l=qList();if(!l)return;let k=qIdx();if(k<0)k=Q.k-1;let j=k+1;
+  while(j<l.items.length&&!qEng(l.items[j]))j++;
+  if(j>=l.items.length){if(auto)toast(u("dock.ended"));return;}
+  Q.k=j;Q.cur={aid:l.items[j].aid,i:l.items[j].i};renderDock();playItem(l.items[j]);if(VIEW==="lists"&&OPENLIST===Q.lid)renderLists();}
+function qPrev(){const l=qList();if(!l)return;let k=qIdx();if(k<0)k=Q.k;let j=k-1;
+  while(j>=0&&!qEng(l.items[j]))j--;if(j<0)return;
+  Q.k=j;Q.cur={aid:l.items[j].aid,i:l.items[j].i};renderDock();playItem(l.items[j]);if(VIEW==="lists"&&OPENLIST===Q.lid)renderLists();}
+function qPause(){try{if(ENG==="yt"&&YTP)YTP.pauseVideo();if(ENG==="sp"&&SPC)SPC.pause();}catch(e){}}
+function qClose(){resetPlayer();const lid=Q&&Q.lid;Q=null;$("dock").classList.remove("show");layoutDock();if(VIEW==="lists"&&OPENLIST===lid)renderLists();}
+function renderDock(){
+  const l=qList();if(!l){qClose();return;}let k=qIdx();const x=k>=0?l.items[k]:null;
+  $("dkhd").innerHTML=x?`${img(x.cov)}<div class="dk-t" onclick="openAlbum('${x.aid}')"><div translate="no">${esc(x.t)}</div><div><span translate="no">${esc(x.art)}</span> · ${esc(l.name)} · ${k+1}/${l.items.length}</div></div>
+    <button class="ib" title="${esc(u("dock.prev"))}" onclick="qPrev()">⏮</button><button class="ib" title="${esc(u("dock.next"))}" onclick="qNext()">⏭</button><button class="ib" title="${esc(u("dock.close"))}" onclick="qClose()">✕</button>`:"";
+  $("dock").classList.add("show");layoutDock();
+}
+function layoutDock(){
+  const d=$("dock"),on=d.classList.contains("show"),alb=$("albview").classList.contains("show");
+  const tb=alb?0:$("tabbar").offsetHeight;d.style.bottom=tb+"px";
+  const h=on?d.offsetHeight:0;
+  document.body.style.paddingBottom=`calc(${76+h}px + env(safe-area-inset-bottom))`;
+  $("albview").style.paddingBottom=`calc(${80+h}px + env(safe-area-inset-bottom))`;
+}
+window.addEventListener("resize",()=>{if(Q)layoutDock();});
 
 /* ---------- ayarlar ---------- */
 function renderSettings(){

@@ -106,5 +106,15 @@
  "settings.import.err": "Datei konnte nicht gelesen werden.",
  "settings.never": "noch keine",
  "settings.about.text": "603 Alben · 97 Bands · Titellisten von MusicBrainz, Plattform-Zuordnungen aus Suchen bei Spotify, Apple und YouTube Music.",
- "nav.back": "‹ Zurück"
+ "nav.back": "‹ Zurück",
+ "lists.play": "Liste abspielen",
+ "lists.play.hint": "Titel antippen: ab dort der Reihe nach abspielen · Cover antippen: zum Album.",
+ "lists.play.yt": "Apple Music und Tidal können Listen nicht der Reihe nach abspielen; Listen laufen über YouTube.",
+ "lists.toalbum": "Zum Album",
+ "dock.prev": "Zurück",
+ "dock.next": "Weiter",
+ "dock.close": "Schließen",
+ "dock.ended": "Ende der Liste",
+ "dock.none": "Keine abspielbaren Titel in dieser Liste.",
+ "dock.error": "Player konnte nicht geladen werden"
 }

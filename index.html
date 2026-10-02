@@ -245,6 +245,24 @@
 
   .langsel{margin-left:auto;background:var(--panel2);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:3px 6px;font-size:12px}
   .brand{display:flex;align-items:baseline;gap:8px}
+  /* ---- v3: liste çalar ---- */
+  .dock{position:fixed;left:0;right:0;bottom:62px;z-index:130;background:var(--bg2);border-top:1px solid var(--amber);box-shadow:0 -6px 20px rgba(0,0,0,.45);display:none}
+  .dock.show{display:block}
+  .dock .in{max-width:820px;margin:0 auto;padding:8px 12px 10px}
+  .dk-hd{display:flex;align-items:center;gap:8px;margin-bottom:8px}
+  .dk-hd img,.dk-hd .ph{width:40px;height:40px;border-radius:6px;object-fit:cover;flex-shrink:0;font-size:15px}
+  .dk-hd .ib{width:36px;height:36px;font-size:14px}
+  .dk-t{flex-grow:1;min-width:0;cursor:pointer}
+  .dk-t div{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .dk-t div:first-child{font-size:14px;font-weight:600}
+  .dk-t div+div{font-size:11.5px;color:var(--muted)}
+  .dk-pl{border-radius:10px;overflow:hidden;background:#0f0d17}
+  .dk-pl iframe{display:block;width:100%;border:0}
+  .dk-pl.yt{aspect-ratio:16/9;max-height:28vh;max-width:calc(28vh*16/9);margin:0 auto}
+  .dk-pl.yt iframe{height:100%}
+  .litem .cov{cursor:pointer;display:block;flex-shrink:0}
+  .litem.now{background:rgba(224,168,78,.1);border-radius:8px}
+  .litem.now .tt div:first-child{color:var(--amber)}
 </style>
 </head>
 <body>
@@ -263,6 +281,7 @@
 <div class="addbg" id="addbg"></div>
 <div class="addsheet" id="addsheet"></div>
 <div class="welcome" id="welcome"></div>
+<div class="dock" id="dock"><div class="in"><div class="dk-hd" id="dkhd"></div><div class="dk-pl" id="dkpl"></div></div></div>
 <nav class="tabbar" id="tabbar"></nav>
 <div class="toast" id="toast"></div>
 <button class="install" id="install"></button>
