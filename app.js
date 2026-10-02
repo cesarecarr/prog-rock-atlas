@@ -1,4 +1,4 @@
-/* Prog Rock Atlas — v4 (çalar düzeltmeleri) / v3 (liste çalar) / v2: diller, platformlar, çalar, kişisel listeler */
+/* Prog Rock Atlas — v5 (tek çalar) / v4 (çalar düzeltmeleri) / v3 (liste çalar) / v2: diller, platformlar, çalar, kişisel listeler */
 let DATA=[], T={}, F={}, U={}, LANG="tr", NDATA=null, TRK=null;
 const PLATS=[["spotify","#1DB954"],["apple","#fa233b"],["youtube","#ff3b30"],["tidal","#33b5e5"]];
 const store={get(k,d){try{const v=localStorage.getItem("atlas."+k);return v===null?d:JSON.parse(v);}catch(e){return d;}},
@@ -143,6 +143,7 @@ function playerHTML(pl,tr,artist,title,trackIdx){
   const msg=pl==="tidal"?"":`<div>${esc(u("album.noid",{p:platName(pl)}))}</div>`;
   return `<div class="noid">${msg}<a class="btn small" href="${searchURL(pl,artist,title)}" target="_blank" rel="noopener">${esc(u("album.search",{p:platName(pl)}))}</a></div>`;
 }
+function albPlayable(pl,tr){return (pl==="spotify"||pl==="youtube")&&(tr.tr||[]).some(t=>t.sp||t.yt);}
 function trackHasPlay(pl,t){return (pl==="spotify"&&t.sp)||(pl==="youtube"&&t.yt);}
 async function openAlbum(aid,tab){
   const f=findAlbum(aid);if(!f)return;const {g,a}=f;
@@ -162,7 +163,7 @@ function renderAlbum(){
     <button class="backbtn" onclick="history.back()">${esc(u("nav.back"))}</button>
     <div class="albhead">${img(a.cov)}<div><div class="g" translate="no">${esc(g.name)}</div><h2 translate="no">${esc(a.t)}</h2>
       <div class="y">${a.y}${a.tip?" · "+esc(a.tip):""}${era?" · "+esc(era.t):""}</div><div style="margin-top:6px">${badge(a)}</div></div></div>
-    <div class="player" id="player">${playerHTML(pl,tr,g.artist,a.t,CUR.track)}</div>
+    ${albPlayable(pl,tr)?`<button class="btn primary" style="width:100%" onclick="playTrack(0)">▶ ${esc(u("album.playalbum"))}</button>`:`<div class="player" id="player">${playerHTML(pl,tr,g.artist,a.t,null)}</div>`}
     <div class="otherp">${others}</div>
     <div class="tabs" id="albtabs">${albTabsHTML()}</div>
     <div id="albbody">${albBodyHTML()}</div></div>`;
@@ -176,8 +177,8 @@ function albBodyHTML(){
     else{const multi=new Set(tr.tr.map(t=>t.d)).size>1;let lastD=null;
       body=tr.tr.map((t,i)=>{let h="";if(multi&&t.d!==lastD){h+=`<div class="disc">CD ${t.d}</div>`;lastD=t.d;}
         const inl=inAnyList(a.id,i);
-        h+=`<div class="trk"><span class="n">${t.n}</span><div class="tt"><div translate="no">${esc(t.t)}</div><div>${fmt(t.s)}</div></div>
-          ${trackHasPlay(pl,t)?`<button class="ib pl" title="${esc(u("track.play"))}" onclick="playTrack(${i})">▶</button>`:""}
+        const now=Q&&Q.lid==="alb:"+a.id&&Q.cur.i===i;h+=`<div class="trk ${now?"now":""}"><span class="n">${now?"♪":t.n}</span><div class="tt"><div translate="no">${esc(t.t)}</div><div>${fmt(t.s)}</div></div>
+          ${albPlayable(pl,tr)&&(t.sp||t.yt)?`<button class="ib pl" title="${esc(u("track.play"))}" onclick="playTrack(${i})">▶</button>`:""}
           <button class="ib ${inl?"in":""}" title="${esc(u(inl?"track.remove":"track.add"))}" onclick="openAdd([${i}])">${inl?"✓":"＋"}</button></div>`;return h;}).join("")
         +`<div style="margin-top:14px"><button class="btn" style="width:100%" onclick="openAdd(${JSON.stringify(tr.tr.map((_,i)=>i))})">＋ ${esc(u("album.addall"))}</button></div>`;}
   }else if(CUR.tab==="about"){
@@ -203,18 +204,7 @@ function spCtl(api,el,uri,h,onCtl){/* denetleyici + yüklenince çal */
     setTimeout(()=>{if(c._pend){c._pend=false;try{c.play();}catch(e){}}},2500);
     if(onCtl)onCtl(c);res(c);}));}
 function spLoad(c,uri){c._pend=true;c.loadUri(uri);setTimeout(()=>{if(c._pend){c._pend=false;try{c.play();}catch(e){}}},1500);}
-async function playTrack(i){
-  qPause();CUR.track=i;const {g,a}=findAlbum(CUR.id);const tr=TRK[a.id]||{tr:[]};const t=tr.tr[i];const pl=PLAT||"spotify";
-  $("albview").scrollTo({top:0,behavior:"smooth"});
-  if(pl==="spotify"&&t&&t.sp){
-    try{const api=await loadSP();const uri="spotify:track:"+t.sp;
-      if(ALBC&&document.body.contains(ALBC._el))spLoad(ALBC,uri);
-      else{albSpReset();$("player").innerHTML='<div id="albsp"></div>';const el=$("albsp");
-        ALBC=await spCtl(api,el,uri,152);ALBC._el=$("player").firstElementChild;}
-      return;}catch(e){console.error(e);}
-  }
-  albSpReset();$("player").innerHTML=playerHTML(pl,tr,g.artist,a.t,i);
-}
+function playTrack(i){qPlay("alb:"+CUR.id,i);}
 function closeAlbum(silent){if(!CUR)return;albSpReset();CUR=null;$("albview").classList.remove("show");$("albview").innerHTML="";document.body.style.overflow="";layoutDock();
   if(!silent)window.scrollTo(0,SCROLLY);}
 window.addEventListener("popstate",()=>{const m=location.hash.match(/^#a=(.+)$/);if(m){if(!CUR||CUR.id!==m[1])openAlbum(m[1]);}else closeAlbum();});
@@ -289,7 +279,10 @@ function copyList(id){const l=LISTS.find(x=>x.id===id);const txt=l.name+"\n\n"+l
 let Q=null,ENG=null,YTP=null,SPC=null,SPST=null,ytReady=null,spReady=null;
 function loadYT(){if(!ytReady)ytReady=new Promise((res,rej)=>{if(window.YT&&YT.Player)return res();window.onYouTubeIframeAPIReady=res;const s=document.createElement("script");s.src="https://www.youtube.com/iframe_api";s.onerror=()=>{ytReady=null;rej(new Error("yt"));};document.head.appendChild(s);});return ytReady;}
 function loadSP(){if(!spReady)spReady=new Promise((res,rej)=>{window.onSpotifyIframeApiReady=api=>res(api);const s=document.createElement("script");s.src="https://open.spotify.com/embed/iframe-api/v1";s.async=true;s.onerror=()=>{spReady=null;rej(new Error("sp"));};document.head.appendChild(s);});return spReady;}
-function qList(){return Q&&LISTS.find(l=>l.id===Q.lid);}
+function albList(aid){const f=findAlbum(aid);const tr=(TRK&&TRK[aid]&&TRK[aid].tr)||[];if(!f)return null;
+  return {id:"alb:"+aid,name:f.a.t,album:true,items:tr.map((t,i)=>({aid,i,t:t.t,alb:f.a.t,art:f.g.artist,y:f.a.y,s:t.s||0,sp:t.sp||null,yt:t.yt||null,cov:f.a.cov||null}))};}
+function qSrc(lid){return lid.startsWith("alb:")?albList(lid.slice(4)):LISTS.find(l=>l.id===lid);}
+function qList(){return Q&&qSrc(Q.lid);}
 function qIds(x){const t=TRK&&TRK[x.aid]&&TRK[x.aid].tr?TRK[x.aid].tr[x.i]:null;return {sp:(t&&t.sp)||x.sp||null,yt:(t&&t.yt)||x.yt||null};}
 function qPref(){return PLAT==="spotify"?"sp":"yt";}
 function qEng(x){const d=qIds(x),p=qPref();if(p==="sp")return d.sp?"sp":d.yt?"yt":null;return d.yt?"yt":d.sp?"sp":null;}
@@ -297,7 +290,7 @@ function qIdx(){const l=qList();if(!l)return -1;const k=l.items.findIndex(x=>x.a
 function resetPlayer(){try{if(YTP)YTP.destroy();}catch(e){}try{if(SPC)SPC.destroy();}catch(e){}YTP=null;SPC=null;ENG=null;$("dkpl").innerHTML="";}
 async function qPlay(lid,k){
   await loadTracks();
-  const l=LISTS.find(x=>x.id===lid);if(!l||!l.items.length)return;
+  const l=qSrc(lid);if(!l||!l.items.length)return;
   let j=k;while(j<l.items.length&&!qEng(l.items[j]))j++;
   if(j>=l.items.length){toast(u("dock.none"));return;}
   Q={lid,k:j,cur:{aid:l.items[j].aid,i:l.items[j].i}};
@@ -340,12 +333,13 @@ function qPrev(){const l=qList();if(!l)return;let k=qIdx();if(k<0)k=Q.k;let j=k-
   while(j>=0&&!qEng(l.items[j]))j--;if(j<0)return;
   Q.k=j;Q.cur={aid:l.items[j].aid,i:l.items[j].i};renderDock();playItem(l.items[j]);if(VIEW==="lists"&&OPENLIST===Q.lid)renderLists();}
 function qPause(){try{if(ENG==="yt"&&YTP)YTP.pauseVideo();if(ENG==="sp"&&SPC)SPC.pause();}catch(e){}}
-function qClose(){resetPlayer();const lid=Q&&Q.lid;Q=null;$("dock").classList.remove("show");layoutDock();if(VIEW==="lists"&&OPENLIST===lid)renderLists();}
+function qClose(){resetPlayer();const lid=Q&&Q.lid;Q=null;$("dock").classList.remove("show");layoutDock();if(CUR&&$("albbody"))updAlbBody();if(VIEW==="lists"&&OPENLIST===lid)renderLists();}
 function renderDock(){
   const l=qList();if(!l){qClose();return;}let k=qIdx();const x=k>=0?l.items[k]:null;
   $("dkhd").innerHTML=x?`${img(x.cov)}<div class="dk-t" onclick="openAlbum('${x.aid}')"><div translate="no">${esc(x.t)}</div><div><span translate="no">${esc(x.art)}</span> · ${esc(l.name)} · ${k+1}/${l.items.length}</div></div>
     <button class="ib" title="${esc(u("dock.prev"))}" onclick="qPrev()">⏮</button><button class="ib" title="${esc(u("dock.next"))}" onclick="qNext()">⏭</button><button class="ib" title="${esc(u("dock.close"))}" onclick="qClose()">✕</button>`:"";
   $("dock").classList.add("show");layoutDock();
+  if(CUR&&$("albbody"))updAlbBody();
 }
 function layoutDock(){
   const d=$("dock"),on=d.classList.contains("show"),alb=$("albview").classList.contains("show");

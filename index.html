@@ -260,6 +260,7 @@
   .dk-pl iframe{display:block;width:100%;border:0}
   .dk-pl.yt{aspect-ratio:16/9;max-height:28vh;max-width:calc(28vh*16/9);margin:0 auto}
   .dk-pl.yt iframe{height:100%}
+  .trk.now .tt div:first-child,.trk.now .n{color:var(--amber)}
   .litem .cov{cursor:pointer;display:block;flex-shrink:0}
   .litem.now{background:rgba(224,168,78,.1);border-radius:8px}
   .litem.now .tt div:first-child{color:var(--amber)}
@@ -286,7 +287,7 @@
 <div class="toast" id="toast"></div>
 <button class="install" id="install"></button>
 <button class="toTop" id="toTop">↑</button>
-<script src="app.js?v=4"></script>
+<script src="app.js?v=5"></script>
 <script>
 const toTop=document.getElementById("toTop");
 window.addEventListener("scroll",()=>{toTop.style.display=window.scrollY>600?"block":"none";});
