@@ -1,4 +1,4 @@
-/* Prog Rock Atlas — v5 (tek çalar) / v4 (çalar düzeltmeleri) / v3 (liste çalar) / v2: diller, platformlar, çalar, kişisel listeler */
+/* Prog Rock Atlas — v7 (hesap + eşitleme) / v6 (Spotify önizleme algılama) / v5 (tek çalar) / v4 (çalar düzeltmeleri) / v3 (liste çalar) / v2: diller, platformlar, çalar, kişisel listeler */
 let DATA=[], T={}, F={}, U={}, LANG="tr", NDATA=null, TRK=null;
 const PLATS=[["spotify","#1DB954"],["apple","#fa233b"],["youtube","#ff3b30"],["tidal","#33b5e5"]];
 const store={get(k,d){try{const v=localStorage.getItem("atlas."+k);return v===null?d:JSON.parse(v);}catch(e){return d;}},
@@ -211,7 +211,54 @@ window.addEventListener("popstate",()=>{const m=location.hash.match(/^#a=(.+)$/)
 
 /* ---------- listeler (cihazda saklanır) ---------- */
 let LISTS=store.get("lists",[]);
-function saveLists(){store.set("lists",LISTS);}
+function saveLists(){store.set("lists",LISTS);if(ACCT.api)ACCT.api.push();}
+
+/* ---------- v7: hesap (Google girişi, Firestore eşitleme) ---------- */
+const ACCT={st:"off",user:null,api:null,p:null};
+function acctOn(){const c=window.FIREBASE_CONFIG;return !!(c&&c.apiKey&&c.projectId);}
+const ACCT_HOOKS={
+  getLists:()=>LISTS,
+  setLists:arr=>{LISTS=arr;store.set("lists",LISTS);acctRefresh(true);},
+  onState:(st,user)=>{ACCT.st=st;ACCT.user=user;if(st==="on"||st==="sync")store.set("acct",true);if(st==="out")store.set("acct",false);acctRefresh(false);},
+  toast:m=>toast(m),t:(k,p)=>u(k,p)};
+function loadAcct(){if(!acctOn())return Promise.resolve(null);
+  if(!ACCT.p){if(ACCT.st==="off")ACCT.st="loading";
+    ACCT.p=import("./hesap.js?v=7").then(m=>m.start(window.FIREBASE_CONFIG,ACCT_HOOKS)).then(api=>{ACCT.api=api;return api;})
+      .catch(e=>{console.error(e);ACCT.p=null;ACCT.st="err";acctRefresh(false);return null;});}
+  return ACCT.p;}
+function acctRefresh(lists){
+  if(lists){if(Q&&!Q.lid.startsWith("alb:")&&!LISTS.find(l=>l.id===Q.lid))qClose();else if(Q)renderDock();
+    if(CUR&&$("albbody"))updAlbBody();}
+  if(VIEW==="lists")renderLists();
+  if(VIEW==="settings"&&$("acctbox")){const y=window.scrollY;renderSettings();window.scrollTo(0,y);}}
+async function acctSignIn(){const api=ACCT.api||await loadAcct();if(api)api.signIn();else toast(u("acct.err.login"));}
+async function acctSignOut(){if(!ACCT.api||!confirm(u("acct.signout.confirm")))return;await ACCT.api.signOut();toast(u("acct.signedout"));}
+async function acctDelete(){if(!ACCT.api||!confirm(u("acct.delete.confirm")))return;
+  try{const ok=await ACCT.api.deleteAccount();if(ok){store.set("acct",false);toast(u("acct.deleted"));}}
+  catch(e){console.error(e);toast(u("acct.err.delete"));}}
+function acctHTML(){const s=ACCT.st,us=ACCT.user;
+  if(us&&(s==="on"||s==="sync"||s==="err")){
+    const pic=us.photoURL?`<img src="${esc(us.photoURL)}" alt="" referrerpolicy="no-referrer">`:`<span class="ph">${esc((us.displayName||us.email||"?").slice(0,1))}</span>`;
+    return `<div class="acct">${pic}<div class="who"><div>${esc(us.displayName||"")}</div><div class="muted">${esc(us.email||"")}</div></div></div>
+      <div class="acct-st ${s}">${esc(u("acct.st."+s))}</div>
+      <div class="row" style="flex-wrap:wrap;margin-top:10px"><button class="btn small ghost" onclick="acctSignOut()">${esc(u("acct.signout"))}</button>
+      <button class="btn small danger" onclick="acctDelete()">${esc(u("acct.delete"))}</button></div>`;}
+  return `<p class="muted" style="margin-bottom:10px">${esc(u("acct.why"))}</p>
+    <button class="btn gbtn" onclick="acctSignIn()">${GICON}<span>${esc(u("acct.google"))}</span></button>
+    ${s==="err"?`<div class="acct-st err">${esc(u("acct.st.err"))}</div>`:""}
+    <p class="muted" style="font-size:12px;margin-top:8px">${u("acct.consent",{link:`<a href="#" onclick="showPrivacy();return false">${esc(u("privacy.link"))}</a>`})}</p>`;}
+const GICON='<svg width="18" height="18" viewBox="0 0 48 48" aria-hidden="true"><path fill="#FFC107" d="M43.6 20.5H42V20H24v8h11.3C33.7 32.7 29.2 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 12.9 4 4 12.9 4 24s8.9 20 20 20 20-8.9 20-20c0-1.3-.1-2.4-.4-3.5z"/><path fill="#FF3D00" d="M6.3 14.7l6.6 4.8C14.7 15.1 19 12 24 12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 16.3 4 9.7 8.3 6.3 14.7z"/><path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.4-5.2l-6.2-5.2C29.2 35.1 26.7 36 24 36c-5.2 0-9.6-3.3-11.3-8l-6.5 5C9.5 39.6 16.2 44 24 44z"/><path fill="#1976D2" d="M43.6 20.5H42V20H24v8h11.3c-.8 2.2-2.2 4.2-4.1 5.6l6.2 5.2C37 39.2 44 34 44 24c0-1.3-.1-2.4-.4-3.5z"/></svg>';
+function acctListsBanner(){if(!acctOn())return "";
+  if(ACCT.user&&ACCT.st==="on")return `<div class="cloudline">☁ ${esc(u("acct.lists.on"))}</div>`;
+  if(ACCT.user)return "";
+  return `<div class="cloudline off" onclick="go('settings')">☁ ${esc(u("acct.lists.off"))} <span>›</span></div>`;}
+function showPrivacy(){const o=window.SITE_OWNER||{};const p=$("privview");
+  const who=esc([o.name,o.city].filter(Boolean).join(", ")||"—");
+  p.innerHTML=`<div class="page"><button class="backbtn" onclick="hidePrivacy()">${esc(u("nav.back"))}</button><h1>${esc(u("privacy.title"))}</h1>
+    <div class="privtext">${u("privacy.body",{who,email:o.email?`<a href="mailto:${esc(o.email)}">${esc(o.email)}</a>`:"—"})}</div>
+    <p class="muted" style="margin-top:18px">${esc(u("privacy.updated"))}</p></div>`;
+  p.classList.add("show");p.scrollTop=0;}
+function hidePrivacy(){$("privview").classList.remove("show");}
 function uid(){return Date.now().toString(36)+Math.random().toString(36).slice(2,6);}
 function inAnyList(aid,i){return LISTS.some(l=>l.items.some(x=>x.aid===aid&&x.i===i));}
 let ADD=null;
@@ -264,6 +311,7 @@ function renderLists(){
     return;}
   v.innerHTML=`<div class="page"><div class="row" style="justify-content:space-between;margin-bottom:14px"><h1 style="margin:0">${esc(u("lists.title"))}</h1>
     <button class="btn small" onclick="newList()">＋ ${esc(u("lists.new"))}</button></div>
+    ${acctListsBanner()}
     ${LISTS.length?LISTS.map(l=>`<div class="lcard" onclick="OPENLIST='${l.id}';renderLists();window.scrollTo(0,0)">${collage(l)}<div style="flex-grow:1"><div class="nm">${esc(l.name)}</div><div class="mt">${u("lists.tracks",{n:l.items.length})} · ${fmtLong(listDur(l))}</div></div><span class="go">›</span></div>`).join(""):`<p class="muted">${esc(u("lists.empty"))}</p>`}</div>`;
 }
 function newList(){const n=prompt(u("add.namehint"));if(!n||!n.trim())return;LISTS.push({id:uid(),name:n.trim(),created:Date.now(),items:[]});saveLists();renderLists();}
@@ -372,7 +420,9 @@ window.addEventListener("resize",()=>{if(Q)layoutDock();});
 /* ---------- ayarlar ---------- */
 function renderSettings(){
   const last=store.get("lastBackup",null);
+  if(acctOn())loadAcct();
   $("v-settings").innerHTML=`<div class="page"><h1>${esc(u("tab.settings"))}</h1>
+    ${acctOn()?`<div class="lbl">${esc(u("acct.title"))}</div><div class="box2" id="acctbox" style="margin-top:0;margin-bottom:22px">${acctHTML()}</div>`:""}
     <div class="lbl">${esc(u("settings.language"))}</div>
     <div class="optgrid" style="grid-template-columns:repeat(3,1fr)">${[["tr","Türkçe"],["en","English"],["de","Deutsch"]].map(([k,n])=>`<button class="opt ${LANG===k?"on":""}" onclick="setLang('${k}')">${n}</button>`).join("")}</div>
     <div class="lbl" style="margin-top:22px">${esc(u("settings.platform"))}</div>
@@ -385,12 +435,13 @@ function renderSettings(){
     <details class="sphelp" id="sphelp"><summary>${esc(u("sp.help.title"))}</summary>
       <ol>${[1,2,3,4,5,6].map(i=>`<li>${u("sp.help."+i)}</li>`).join("")}</ol></details>
     <div class="lbl" style="margin-top:22px">${esc(u("settings.backup"))}</div>
-    <p class="muted" style="margin-bottom:10px">${esc(u("settings.backup.note"))}</p>
+    <p class="muted" style="margin-bottom:10px">${esc(u(ACCT.user?"acct.backup.note":"settings.backup.note"))}</p>
     <div style="display:flex;flex-direction:column;gap:8px">
       <button class="btn" onclick="exportLists()">↓ ${esc(u("settings.export"))}</button>
       <label class="btn">↑ ${esc(u("settings.import"))}<input type="file" accept="application/json,.json" style="display:none" onchange="importLists(this)"></label>
       <div class="muted">${esc(u("settings.lastbackup",{d:last?new Date(last).toLocaleDateString(LANG):u("settings.never")}))}</div></div>
-    <div class="lbl" style="margin-top:22px">${esc(u("settings.about"))}</div><p class="muted">${esc(u("settings.about.text"))}</p></div>`;
+    <div class="lbl" style="margin-top:22px">${esc(u("settings.about"))}</div><p class="muted">${esc(u("settings.about.text"))}</p>
+    ${acctOn()?`<p style="margin-top:10px"><a href="#" class="plink" onclick="showPrivacy();return false">${esc(u("privacy.title"))} ›</a></p>`:""}</div>`;
 }
 function setPlat(p){PLAT=p;store.set("platform",p);renderPlatBadge();if($("v-settings").classList.contains("on"))renderSettings();toast(u("settings.saved"));}
 function exportLists(){const blob=new Blob([JSON.stringify({app:"prog-rock-atlas",v:1,date:new Date().toISOString(),lists:LISTS},null,1)],{type:"application/json"});
@@ -422,6 +473,7 @@ $("addbg").onclick=closeAdd;
 (async()=>{
   try{await setLang(detectLang());}catch(err){console.error(err);$("main").innerHTML='<div class="empty">Veri yüklenemedi / Could not load data (http/https).</div>';return;}
   if(!PLAT)showWelcome();
+  if(acctOn()&&store.get("acct",false))loadAcct();
   const m=location.hash.match(/^#a=(.+)$/);if(m)openAlbum(m[1]);
   loadTracks();
 })();
