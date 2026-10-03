@@ -116,5 +116,21 @@
  "dock.close": "Schließen",
  "dock.ended": "Ende der Liste",
  "dock.none": "Keine abspielbaren Titel in dieser Liste.",
- "dock.error": "Player konnte nicht geladen werden"
+ "dock.error": "Player konnte nicht geladen werden",
+ "sp.prev.msg": "Spotify spielt nur eine 30-Sekunden-Vorschau: Der Browser gibt deine Spotify-Anmeldung nicht an den eingebetteten Player weiter.",
+ "sp.prev.yt": "Auf YouTube abspielen",
+ "sp.prev.how": "So behebst du es",
+ "sp.prev.open": "In Spotify öffnen",
+ "sp.prev.switched": "Spotify lieferte nur eine Vorschau – zu YouTube gewechselt",
+ "sp.set.title": "Spotify: ganze Titel",
+ "sp.set.note": "Was soll passieren, wenn Spotify nur Vorschauen spielt? (Die App erkennt das an der Titellänge.)",
+ "sp.set.stay": "Bei Spotify bleiben, warnen",
+ "sp.set.yt": "Automatisch zu YouTube wechseln",
+ "sp.help.title": "Warum nur 30 Sekunden? Lösung Schritt für Schritt",
+ "sp.help.1": "Melde dich im selben Browser auf <b>open.spotify.com</b> bei Spotify an (die Spotify-Desktop-App zählt nicht). Lade diese Seite danach mit <b>Strg+F5</b> neu.",
+ "sp.help.2": "Der Player kommt von Spotifys Website, daher behandelt der Browser die Anmeldung als <b>Drittanbieter-Cookie</b>; sind diese blockiert, erreicht die Anmeldung den Player nicht. Im privaten/Inkognito-Fenster klappt es nie.",
+ "sp.help.3": "<b>Chrome:</b> Einstellungen → Datenschutz und Sicherheit → Drittanbieter-Cookies → „Websites, die Drittanbieter-Cookies verwenden dürfen“ → Hinzufügen: <b>[*.]cesarecarr.github.io</b>. (Oder über das Augen-Symbol in der Adressleiste für diese Seite erlauben.)",
+ "sp.help.4": "<b>Edge:</b> Einstellungen → Cookies und Websiteberechtigungen → Cookies verwalten → <b>[*.]spotify.com</b> unter „Zulassen“ eintragen; bei Tracking-Verhinderung „Streng“ diese Seite zu den Ausnahmen hinzufügen. <b>Firefox:</b> Schild-Symbol in der Adressleiste → Schutz vor Aktivitätenverfolgung für diese Seite aus. <b>Brave:</b> Löwen-Symbol → Shields für diese Seite aus.",
+ "sp.help.5": "<b>Safari / iPhone:</b> Wegen strenger Cookie-Regeln meist nur Vorschauen. Am Handy wird YouTube empfohlen.",
+ "sp.help.6": "Ganze Titel sind mit Spotify <b>Premium</b> sicher; bei kostenlosen Konten garantiert Spotify das nicht. Hilft nichts, oben „Automatisch zu YouTube wechseln“ wählen."
 }

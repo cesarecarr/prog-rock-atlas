@@ -116,5 +116,21 @@
  "dock.close": "Kapat",
  "dock.ended": "Liste bitti",
  "dock.none": "Bu listede çalınabilen parça yok.",
- "dock.error": "Çalar yüklenemedi"
+ "dock.error": "Çalar yüklenemedi",
+ "sp.prev.msg": "Spotify yalnız 30 sn önizleme veriyor: tarayıcı, gömülü çalara Spotify girişini iletmiyor.",
+ "sp.prev.yt": "YouTube'dan çal",
+ "sp.prev.how": "Nasıl düzeltilir?",
+ "sp.prev.open": "Spotify'da aç",
+ "sp.prev.switched": "Spotify önizleme verdi, YouTube'a geçildi",
+ "sp.set.title": "Spotify: tam parça",
+ "sp.set.note": "Spotify yalnız önizleme verirse ne olsun? (Uygulama bunu parçanın süresinden anlar.)",
+ "sp.set.stay": "Spotify'da kal, uyar",
+ "sp.set.yt": "Otomatik YouTube'a geç",
+ "sp.help.title": "Neden yalnız 30 sn çalıyor? Adım adım çözüm",
+ "sp.help.1": "Aynı tarayıcıda <b>open.spotify.com</b> adresinde Spotify'a giriş yap (masaüstü Spotify uygulaması sayılmaz). Sonra bu sayfayı <b>Ctrl+F5</b> ile yenile.",
+ "sp.help.2": "Çalar Spotify'ın sitesinden geldiği için tarayıcı onu <b>üçüncü taraf çerezi</b> sayar; bunlar engelliyse giriş çalara ulaşmaz. Gizli/özel sekmede hiç çalışmaz.",
+ "sp.help.3": "<b>Chrome:</b> Ayarlar → Gizlilik ve güvenlik → Üçüncü taraf çerezleri → \"Üçüncü taraf çerezlerine izin verilen siteler\" → Ekle: <b>[*.]cesarecarr.github.io</b>. (Ya da adres çubuğundaki göz simgesinden bu site için izin ver.)",
+ "sp.help.4": "<b>Edge:</b> Ayarlar → Çerezler ve site izinleri → Çerezleri yönet → \"İzin ver\" listesine <b>[*.]spotify.com</b> ekle; İzleme önleme \"Katı\" ise bu siteyi Özel durumlar'a ekle. <b>Firefox:</b> adres çubuğundaki kalkan → bu sitede İzleme Korumasını kapat. <b>Brave:</b> aslan simgesi → bu sitede Shields'i kapat.",
+ "sp.help.5": "<b>Safari / iPhone:</b> çerez kısıtlamaları sıkı olduğu için çoğunlukla yalnız önizleme çalar. Telefonda YouTube seçmen önerilir.",
+ "sp.help.6": "Tam parça Spotify <b>Premium</b> hesapta kesin; ücretsiz hesapta Spotify bunu garanti etmiyor. Olmuyorsa yukarıdan \"Otomatik YouTube'a geç\"i seç."
 }

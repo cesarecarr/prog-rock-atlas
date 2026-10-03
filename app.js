@@ -285,9 +285,11 @@ function qSrc(lid){return lid.startsWith("alb:")?albList(lid.slice(4)):LISTS.fin
 function qList(){return Q&&qSrc(Q.lid);}
 function qIds(x){const t=TRK&&TRK[x.aid]&&TRK[x.aid].tr?TRK[x.aid].tr[x.i]:null;return {sp:(t&&t.sp)||x.sp||null,yt:(t&&t.yt)||x.yt||null};}
 function qPref(){return PLAT==="spotify"?"sp":"yt";}
-function qEng(x){const d=qIds(x),p=qPref();if(p==="sp")return d.sp?"sp":d.yt?"yt":null;return d.yt?"yt":d.sp?"sp":null;}
+let SPYT=false;/* bu oturumda Spotify önizleme verdi → YouTube tercih */
+let SPFB=store.get("spFallback",false);
+function qEng(x){const d=qIds(x),p=(qPref()==="sp"&&SPYT)?"yt":qPref();if(p==="sp")return d.sp?"sp":d.yt?"yt":null;return d.yt?"yt":d.sp?"sp":null;}
 function qIdx(){const l=qList();if(!l)return -1;const k=l.items.findIndex(x=>x.aid===Q.cur.aid&&x.i===Q.cur.i);return k;}
-function resetPlayer(){try{if(YTP)YTP.destroy();}catch(e){}try{if(SPC)SPC.destroy();}catch(e){}YTP=null;SPC=null;ENG=null;$("dkpl").innerHTML="";}
+function resetPlayer(){hideSpNote();try{if(YTP)YTP.destroy();}catch(e){}try{if(SPC)SPC.destroy();}catch(e){}YTP=null;SPC=null;ENG=null;$("dkpl").innerHTML="";}
 async function qPlay(lid,k){
   await loadTracks();
   const l=qSrc(lid);if(!l||!l.items.length)return;
@@ -319,12 +321,29 @@ async function spPlay(id){
     layoutDock();}
   else spLoad(SPC,uri);
 }
+function curItem(){const l=qList();const k=l?qIdx():-1;return k>=0?l.items[k]:null;}
 function spUpd(e){const d=e&&e.data;if(!d||!SPST||!d.duration)return;
+  if(!SPST.chk&&d.duration>1000){SPST.chk=true;const x=curItem();const real=((x&&x.s)||0)*1000;
+    if(d.duration<=31000&&(real===0||real>d.duration+5000))onSpPreview(x);}
   if(Date.now()-SPST.t0<1200)return;
   if(!d.isPaused&&d.position>0)SPST.started=true;
   const nearEnd=d.position>=d.duration-700||(d.isPaused&&SPST.last>=d.duration-1500);
   if(SPST.started&&!SPST.done&&nearEnd){SPST.done=true;setTimeout(()=>qNext(true),300);}
   SPST.last=d.position;}
+function onSpPreview(x){
+  if(SPFB&&x&&qIds(x).yt){SPYT=true;toast(u("sp.prev.switched"));playItem(x);return;}
+  showSpNote(x);}
+function showSpNote(x){const n=$("dknote");if(!n)return;const id=x&&qIds(x).sp;
+  n.innerHTML=`<div class="dn-t">${esc(u("sp.prev.msg"))}</div><div class="dn-b">
+    ${x&&qIds(x).yt?`<button class="btn small primary" onclick="spUseYT()">▶ ${esc(u("sp.prev.yt"))}</button>`:""}
+    <button class="btn small ghost" onclick="spHelp()">${esc(u("sp.prev.how"))}</button>
+    ${id?`<a class="btn small ghost" href="https://open.spotify.com/track/${id}" target="_blank" rel="noopener">${esc(u("sp.prev.open"))} ↗</a>`:""}
+    <button class="ib" title="${esc(u("dock.close"))}" onclick="hideSpNote()">✕</button></div>`;
+  n.classList.add("show");layoutDock();}
+function hideSpNote(){const n=$("dknote");if(n){n.classList.remove("show");n.innerHTML="";}layoutDock();}
+function spUseYT(){SPYT=true;hideSpNote();const x=curItem();if(x)playItem(x);}
+function spHelp(){go("settings");setTimeout(()=>{const h=$("sphelp");if(h){h.open=true;h.scrollIntoView({behavior:"smooth",block:"start"});}},50);}
+function setSpFB(v){SPFB=v;store.set("spFallback",v);renderSettings();toast(u("settings.saved"));}
 function qNext(auto){const l=qList();if(!l)return;let k=qIdx();if(k<0)k=Q.k-1;let j=k+1;
   while(j<l.items.length&&!qEng(l.items[j]))j++;
   if(j>=l.items.length){if(auto)toast(u("dock.ended"));return;}
@@ -358,6 +377,13 @@ function renderSettings(){
     <div class="optgrid" style="grid-template-columns:repeat(3,1fr)">${[["tr","Türkçe"],["en","English"],["de","Deutsch"]].map(([k,n])=>`<button class="opt ${LANG===k?"on":""}" onclick="setLang('${k}')">${n}</button>`).join("")}</div>
     <div class="lbl" style="margin-top:22px">${esc(u("settings.platform"))}</div>
     <div class="optgrid">${PLATS.map(([p,c])=>`<button class="opt ${PLAT===p?"on":""}" onclick="setPlat('${p}')"><span class="plat-dot" style="background:${c}"></span>${esc(platName(p))}</button>`).join("")}</div>
+    <div class="lbl" style="margin-top:22px">${esc(u("sp.set.title"))}</div>
+    <p class="muted" style="margin-bottom:10px">${esc(u("sp.set.note"))}</p>
+    <div class="optgrid" style="grid-template-columns:repeat(2,1fr)">
+      <button class="opt ${SPFB?"":"on"}" onclick="setSpFB(false)">${esc(u("sp.set.stay"))}</button>
+      <button class="opt ${SPFB?"on":""}" onclick="setSpFB(true)">${esc(u("sp.set.yt"))}</button></div>
+    <details class="sphelp" id="sphelp"><summary>${esc(u("sp.help.title"))}</summary>
+      <ol>${[1,2,3,4,5,6].map(i=>`<li>${u("sp.help."+i)}</li>`).join("")}</ol></details>
     <div class="lbl" style="margin-top:22px">${esc(u("settings.backup"))}</div>
     <p class="muted" style="margin-bottom:10px">${esc(u("settings.backup.note"))}</p>
     <div style="display:flex;flex-direction:column;gap:8px">

@@ -256,6 +256,16 @@
   .dk-t div{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
   .dk-t div:first-child{font-size:14px;font-weight:600}
   .dk-t div+div{font-size:11.5px;color:var(--muted)}
+  .dk-note{display:none;background:rgba(224,168,78,.12);border:1px solid rgba(224,168,78,.45);border-radius:10px;padding:8px 10px;margin-bottom:8px;font-size:12.5px}
+  .dk-note.show{display:block}
+  .dk-note .dn-t{margin-bottom:6px;line-height:1.4}
+  .dk-note .dn-b{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+  .dk-note .dn-b .ib{width:30px;height:30px;font-size:12px;margin-left:auto}
+  .sphelp{margin-top:10px;border:1px solid var(--line);border-radius:12px;background:var(--panel);padding:10px 12px}
+  .sphelp summary{cursor:pointer;font-weight:600;font-size:14px}
+  .sphelp ol{margin:10px 0 4px;padding-left:20px;font-size:13.5px;line-height:1.5;color:var(--ink)}
+  .sphelp li{margin-bottom:8px}
+  .sphelp b{color:var(--amber)}
   .dk-pl{border-radius:10px;overflow:hidden;background:#0f0d17}
   .dk-pl iframe{display:block;width:100%;border:0}
   .dk-pl.yt{aspect-ratio:16/9;max-height:28vh;max-width:calc(28vh*16/9);margin:0 auto}
@@ -282,12 +292,12 @@
 <div class="addbg" id="addbg"></div>
 <div class="addsheet" id="addsheet"></div>
 <div class="welcome" id="welcome"></div>
-<div class="dock" id="dock"><div class="in"><div class="dk-hd" id="dkhd"></div><div class="dk-pl" id="dkpl"></div></div></div>
+<div class="dock" id="dock"><div class="in"><div class="dk-hd" id="dkhd"></div><div class="dk-note" id="dknote"></div><div class="dk-pl" id="dkpl"></div></div></div>
 <nav class="tabbar" id="tabbar"></nav>
 <div class="toast" id="toast"></div>
 <button class="install" id="install"></button>
 <button class="toTop" id="toTop">↑</button>
-<script src="app.js?v=5"></script>
+<script src="app.js?v=6"></script>
 <script>
 const toTop=document.getElementById("toTop");
 window.addEventListener("scroll",()=>{toTop.style.display=window.scrollY>600?"block":"none";});

@@ -116,5 +116,21 @@
  "dock.close": "Close",
  "dock.ended": "End of list",
  "dock.none": "No playable tracks in this list.",
- "dock.error": "Player could not load"
+ "dock.error": "Player could not load",
+ "sp.prev.msg": "Spotify is only playing a 30-second preview: your browser isn't passing your Spotify login to the embedded player.",
+ "sp.prev.yt": "Play on YouTube",
+ "sp.prev.how": "How to fix",
+ "sp.prev.open": "Open in Spotify",
+ "sp.prev.switched": "Spotify gave a preview, switched to YouTube",
+ "sp.set.title": "Spotify: full tracks",
+ "sp.set.note": "What should happen if Spotify only plays previews? (The app detects this from the track length.)",
+ "sp.set.stay": "Stay on Spotify, warn me",
+ "sp.set.yt": "Switch to YouTube automatically",
+ "sp.help.title": "Why only 30 seconds? Step-by-step fix",
+ "sp.help.1": "Log in to Spotify at <b>open.spotify.com</b> in this same browser (the desktop Spotify app doesn't count). Then reload this page with <b>Ctrl+F5</b>.",
+ "sp.help.2": "The player is served from Spotify's site, so the browser treats its login as a <b>third-party cookie</b>; if those are blocked, the login never reaches the player. Private/incognito windows never work.",
+ "sp.help.3": "<b>Chrome:</b> Settings → Privacy and security → Third-party cookies → \"Sites allowed to use third-party cookies\" → Add: <b>[*.]cesarecarr.github.io</b>. (Or allow it for this site via the eye icon in the address bar.)",
+ "sp.help.4": "<b>Edge:</b> Settings → Cookies and site permissions → Manage cookies → add <b>[*.]spotify.com</b> to \"Allow\"; if Tracking prevention is \"Strict\", add this site to Exceptions. <b>Firefox:</b> shield icon in the address bar → turn off Tracking Protection for this site. <b>Brave:</b> lion icon → Shields down for this site.",
+ "sp.help.5": "<b>Safari / iPhone:</b> strict cookie rules mean it usually plays previews only. On phones, YouTube is recommended.",
+ "sp.help.6": "Full tracks are certain with Spotify <b>Premium</b>; Spotify doesn't guarantee them on free accounts. If nothing helps, choose \"Switch to YouTube automatically\" above."
 }
