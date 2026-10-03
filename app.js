@@ -223,7 +223,7 @@ const ACCT_HOOKS={
   toast:m=>toast(m),t:(k,p)=>u(k,p)};
 function loadAcct(){if(!acctOn())return Promise.resolve(null);
   if(!ACCT.p){if(ACCT.st==="off")ACCT.st="loading";
-    ACCT.p=import("./hesap.js?v=7").then(m=>m.start(window.FIREBASE_CONFIG,ACCT_HOOKS)).then(api=>{ACCT.api=api;return api;})
+    ACCT.p=import("./hesap.js?v=8").then(m=>m.start(window.FIREBASE_CONFIG,ACCT_HOOKS)).then(api=>{ACCT.api=api;return api;})
       .catch(e=>{console.error(e);ACCT.p=null;ACCT.st="err";acctRefresh(false);return null;});}
   return ACCT.p;}
 function acctRefresh(lists){
@@ -334,8 +334,11 @@ function qList(){return Q&&qSrc(Q.lid);}
 function qIds(x){const t=TRK&&TRK[x.aid]&&TRK[x.aid].tr?TRK[x.aid].tr[x.i]:null;return {sp:(t&&t.sp)||x.sp||null,yt:(t&&t.yt)||x.yt||null};}
 function qPref(){return PLAT==="spotify"?"sp":"yt";}
 let SPYT=false;/* bu oturumda Spotify önizleme verdi → YouTube tercih */
+/* v8: telefon/tablet — Spotify gömülü çalar orada yalnız 30 sn önizleme verir */
+const MOB=/Android|iPhone|iPad|iPod|Mobile/i.test(navigator.userAgent)||(navigator.platform==="MacIntel"&&navigator.maxTouchPoints>1);
+function spMob(){return MOB&&PLAT==="spotify";}
 let SPFB=store.get("spFallback",false);
-function qEng(x){const d=qIds(x),p=(qPref()==="sp"&&SPYT)?"yt":qPref();if(p==="sp")return d.sp?"sp":d.yt?"yt":null;return d.yt?"yt":d.sp?"sp":null;}
+function qEng(x){const d=qIds(x),p=(qPref()==="sp"&&(SPYT||MOB))?"yt":qPref();if(p==="sp")return d.sp?"sp":d.yt?"yt":null;return d.yt?"yt":d.sp?"sp":null;}
 function qIdx(){const l=qList();if(!l)return -1;const k=l.items.findIndex(x=>x.aid===Q.cur.aid&&x.i===Q.cur.i);return k;}
 function resetPlayer(){hideSpNote();try{if(YTP)YTP.destroy();}catch(e){}try{if(SPC)SPC.destroy();}catch(e){}YTP=null;SPC=null;ENG=null;$("dkpl").innerHTML="";}
 async function qPlay(lid,k){
@@ -382,9 +385,9 @@ function onSpPreview(x){
   if(SPFB&&x&&qIds(x).yt){SPYT=true;toast(u("sp.prev.switched"));playItem(x);return;}
   showSpNote(x);}
 function showSpNote(x){const n=$("dknote");if(!n)return;const id=x&&qIds(x).sp;
-  n.innerHTML=`<div class="dn-t">${esc(u("sp.prev.msg"))}</div><div class="dn-b">
+  n.innerHTML=`<div class="dn-t">${esc(u(MOB?"sp.prev.mob":"sp.prev.msg"))}</div><div class="dn-b">
     ${x&&qIds(x).yt?`<button class="btn small primary" onclick="spUseYT()">▶ ${esc(u("sp.prev.yt"))}</button>`:""}
-    <button class="btn small ghost" onclick="spHelp()">${esc(u("sp.prev.how"))}</button>
+    ${MOB?"":`<button class="btn small ghost" onclick="spHelp()">${esc(u("sp.prev.how"))}</button>`}
     ${id?`<a class="btn small ghost" href="https://open.spotify.com/track/${id}" target="_blank" rel="noopener">${esc(u("sp.prev.open"))} ↗</a>`:""}
     <button class="ib" title="${esc(u("dock.close"))}" onclick="hideSpNote()">✕</button></div>`;
   n.classList.add("show");layoutDock();}
@@ -405,6 +408,8 @@ function renderDock(){
   const l=qList();if(!l){qClose();return;}let k=qIdx();const x=k>=0?l.items[k]:null;
   $("dkhd").innerHTML=x?`${img(x.cov)}<div class="dk-t" onclick="openAlbum('${x.aid}')"><div translate="no">${esc(x.t)}</div><div><span translate="no">${esc(x.art)}</span> · ${esc(l.name)} · ${k+1}/${l.items.length}</div></div>
     <button class="ib" title="${esc(u("dock.prev"))}" onclick="qPrev()">⏮</button><button class="ib" title="${esc(u("dock.next"))}" onclick="qNext()">⏭</button><button class="ib" title="${esc(u("dock.close"))}" onclick="qClose()">✕</button>`:"";
+  const sid=x&&spMob()?qIds(x).sp:null;const ds=$("dksp");
+  if(ds){ds.innerHTML=sid&&qEng(x)==="yt"?`<span>${esc(u("sp.mob.dock"))}</span><a href="https://open.spotify.com/track/${sid}" target="_blank" rel="noopener"><span class="plat-dot" style="background:#1DB954"></span>${esc(u("sp.mob.open"))} ↗</a>`:"";ds.classList.toggle("show",!!ds.innerHTML);}
   $("dock").classList.add("show");layoutDock();
   if(CUR&&$("albbody"))updAlbBody();
 }
@@ -428,12 +433,12 @@ function renderSettings(){
     <div class="lbl" style="margin-top:22px">${esc(u("settings.platform"))}</div>
     <div class="optgrid">${PLATS.map(([p,c])=>`<button class="opt ${PLAT===p?"on":""}" onclick="setPlat('${p}')"><span class="plat-dot" style="background:${c}"></span>${esc(platName(p))}</button>`).join("")}</div>
     <div class="lbl" style="margin-top:22px">${esc(u("sp.set.title"))}</div>
-    <p class="muted" style="margin-bottom:10px">${esc(u("sp.set.note"))}</p>
+    ${MOB?`<p class="muted" id="sphelp">${esc(u("sp.mob.set"))}</p>`:`<p class="muted" style="margin-bottom:10px">${esc(u("sp.set.note"))}</p>
     <div class="optgrid" style="grid-template-columns:repeat(2,1fr)">
       <button class="opt ${SPFB?"":"on"}" onclick="setSpFB(false)">${esc(u("sp.set.stay"))}</button>
       <button class="opt ${SPFB?"on":""}" onclick="setSpFB(true)">${esc(u("sp.set.yt"))}</button></div>
     <details class="sphelp" id="sphelp"><summary>${esc(u("sp.help.title"))}</summary>
-      <ol>${[1,2,3,4,5,6].map(i=>`<li>${u("sp.help."+i)}</li>`).join("")}</ol></details>
+      <ol>${[1,2,3,4,5,6].map(i=>`<li>${u("sp.help."+i)}</li>`).join("")}</ol></details>`}
     <div class="lbl" style="margin-top:22px">${esc(u("settings.backup"))}</div>
     <p class="muted" style="margin-bottom:10px">${esc(u(ACCT.user?"acct.backup.note":"settings.backup.note"))}</p>
     <div style="display:flex;flex-direction:column;gap:8px">
