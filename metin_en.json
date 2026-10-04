@@ -4536,14 +4536,14 @@
  "alb.pink-floyd-1969-more.kadro": "Waters, Gilmour, Wright, Mason",
  "alb.pink-floyd-1969-ummagumma.kadro": "Waters, Gilmour, Wright, Mason",
  "alb.pink-floyd-1970-atom-heart-mother.tip": "studio",
- "alb.pink-floyd-1970-atom-heart-mother.kadro": "Waters, Gilmour, Wright, Mason + Ron Geesin (orkestrasyon), John Alldis Korosu",
+ "alb.pink-floyd-1970-atom-heart-mother.kadro": "Waters, Gilmour, Wright, Mason + Ron Geesin (orchestration), John Alldis Choir",
  "alb.pink-floyd-1971-meddle.tip": "studio",
  "alb.pink-floyd-1971-meddle.kadro": "Waters, Gilmour, Wright, Mason",
  "alb.pink-floyd-1973-the-dark-side-of-the-moon.tip": "studio",
  "alb.pink-floyd-1973-the-dark-side-of-the-moon.kadro": "Waters, Gilmour, Wright, Mason + Clare Torry, Dick Parry",
  "alb.pink-floyd-1975-wish-you-were-here.oncelik": "Essential — never skip.",
  "alb.pink-floyd-1975-wish-you-were-here.tip": "studio",
- "alb.pink-floyd-1975-wish-you-were-here.kadro": "Waters, Gilmour, Wright, Mason + Roy Harper ('Have a Cigar' vokali), Dick Parry",
+ "alb.pink-floyd-1975-wish-you-were-here.kadro": "Waters, Gilmour, Wright, Mason + Roy Harper (vocals on 'Have a Cigar'), Dick Parry",
  "alb.pink-floyd-1977-animals.tip": "studio",
  "alb.pink-floyd-1977-animals.kadro": "Waters, Gilmour, Wright, Mason",
  "alb.pink-floyd-1979-the-wall.tip": "studio (double LP)",
@@ -4570,7 +4570,7 @@
  "alb.david-gilmour-1984-about-face.tip": "studio",
  "alb.david-gilmour-1984-about-face.prod": "Bob Ezrin & David Gilmour",
  "alb.david-gilmour-2006-on-an-island.tip": "studio",
- "alb.david-gilmour-2006-on-an-island.kadro": "Gilmour + Richard Wright, Phil Manzanera, Guy Pratt, Robert Wyatt (kornet), David Crosby, Graham Nash",
+ "alb.david-gilmour-2006-on-an-island.kadro": "Gilmour + Richard Wright, Phil Manzanera, Guy Pratt, Robert Wyatt (cornet), David Crosby, Graham Nash",
  "alb.david-gilmour-2006-on-an-island.tr": [
   "On an Island",
   "Castellorizon",
@@ -4998,7 +4998,7 @@
  "alb.jethro-tull-1977-songs-from-the-wood.kadro": "Anderson, Barre, John Glascock, Evan, Barlow, David Palmer",
  "alb.jethro-tull-1978-heavy-horses.oncelik": "Recommended.",
  "alb.jethro-tull-1978-heavy-horses.tip": "studio",
- "alb.jethro-tull-1978-heavy-horses.kadro": "Anderson, Barre, Glascock, Evan, Barlow, Palmer + Darryl Way (keman)",
+ "alb.jethro-tull-1978-heavy-horses.kadro": "Anderson, Barre, Glascock, Evan, Barlow, Palmer + Darryl Way (violin)",
  "alb.jethro-tull-1979-stormwatch.tip": "studio",
  "alb.jethro-tull-1980-a.tip": "studio",
  "alb.jethro-tull-1980-a.kadro": "Anderson, Barre, Dave Pegg, Eddie Jobson, Mark Craney",
@@ -5125,7 +5125,7 @@
  "alb.camel-1974-mirage.tip": "studio",
  "alb.camel-1974-mirage.kadro": "Latimer, Bardens, Ferguson, Ward",
  "alb.camel-1975-the-snow-goose.tip": "studio",
- "alb.camel-1975-the-snow-goose.kadro": "Latimer, Bardens, Ferguson, Ward + David Bedford (orkestrasyon)",
+ "alb.camel-1975-the-snow-goose.kadro": "Latimer, Bardens, Ferguson, Ward + David Bedford (orchestration)",
  "alb.camel-1976-moonmadness.tip": "studio",
  "alb.camel-1976-moonmadness.kadro": "Latimer, Bardens, Ferguson, Ward",
  "alb.camel-1977-rain-dances.oncelik": "Recommended.",
@@ -6308,7 +6308,7 @@
  "alb.deep-purple-1969-concerto-for-group-and-orchestra.an": "Jon Lord's three-movement concerto, performed at the Royal Albert Hall on 24 September 1969; an early landmark of rock meeting the orchestra.",
  "alb.deep-purple-1969-concerto-for-group-and-orchestra.oncelik": "Recommended — the prog link of the Purple story.",
  "alb.deep-purple-1969-concerto-for-group-and-orchestra.tip": "live (orchestral)",
- "alb.deep-purple-1969-concerto-for-group-and-orchestra.kadro": "Gillan, Blackmore, Lord, Glover, Paice + Royal Philharmonic Orchestra, Dirigent: Malcolm Arnold",
+ "alb.deep-purple-1969-concerto-for-group-and-orchestra.kadro": "Gillan, Blackmore, Lord, Glover, Paice + Royal Philharmonic Orchestra, cond. Malcolm Arnold",
  "alb.deep-purple-1969-concerto-for-group-and-orchestra.prod": "Deep Purple",
  "alb.deep-purple-1969-concerto-for-group-and-orchestra.detay": [
   "Malcolm Arnold, the composer of The Bridge on the River Kwai score, conducted and championed the project."
@@ -6927,7 +6927,7 @@
  "alb.syd-barrett-1988-opel.an": "Previously unreleased outtakes and alternate versions from the 1968–70 sessions; for those who want more.",
  "alb.syd-barrett-1988-opel.oncelik": "Optional.",
  "alb.syd-barrett-1988-opel.tip": "compilation (outtakes)",
- "alb.syd-barrett-1988-opel.kadro": "Barrett und die Sessionmusiker von 1968–70",
+ "alb.syd-barrett-1988-opel.kadro": "Barrett and the session musicians of 1968–70",
  "alb.syd-barrett-1988-opel.tr": [
   "Opel",
   "Clowns & Jugglers",
@@ -7017,7 +7017,7 @@
  "alb.roxy-music-1979-manifesto.an": "The comeback after a three-year break; disco-tinged 'Dance Away' and 'Angel Eyes'.",
  "alb.roxy-music-1979-manifesto.oncelik": "Optional.",
  "alb.roxy-music-1979-manifesto.tip": "studio",
- "alb.roxy-music-1979-manifesto.kadro": "Ferry, Mackay, Manzanera, Thompson + Studiomusiker",
+ "alb.roxy-music-1979-manifesto.kadro": "Ferry, Mackay, Manzanera, Thompson + session players",
  "alb.roxy-music-1979-manifesto.prod": "Roxy Music",
  "alb.roxy-music-1979-manifesto.tr": [
   "Manifesto",
@@ -7028,7 +7028,7 @@
  "alb.roxy-music-1980-flesh-and-blood.an": "Smooth and commercial: 'Over You', 'Oh Yeah' and 'Same Old Scene'.",
  "alb.roxy-music-1980-flesh-and-blood.oncelik": "Optional.",
  "alb.roxy-music-1980-flesh-and-blood.tip": "studio",
- "alb.roxy-music-1980-flesh-and-blood.kadro": "Ferry, Mackay, Manzanera + Studiomusiker",
+ "alb.roxy-music-1980-flesh-and-blood.kadro": "Ferry, Mackay, Manzanera + session players",
  "alb.roxy-music-1980-flesh-and-blood.prod": "Rhett Davies, Roxy Music",
  "alb.roxy-music-1980-flesh-and-blood.tr": [
   "Oh Yeah",
@@ -7038,7 +7038,7 @@
  "alb.roxy-music-1982-avalon.an": "The final studio album: a luxurious, atmospheric sound that defined sophisticated 1980s pop.",
  "alb.roxy-music-1982-avalon.oncelik": "Recommended.",
  "alb.roxy-music-1982-avalon.tip": "studio",
- "alb.roxy-music-1982-avalon.kadro": "Ferry, Mackay, Manzanera + Studiomusiker",
+ "alb.roxy-music-1982-avalon.kadro": "Ferry, Mackay, Manzanera + session players",
  "alb.roxy-music-1982-avalon.prod": "Rhett Davies, Roxy Music",
  "alb.roxy-music-1982-avalon.tr": [
   "More Than This",
@@ -7067,7 +7067,7 @@
  "alb.brian-eno-1974-here-come-the-warm-jets.an": "A glam art-rock debut full of treated guitars; Fripp's solo on 'Baby's on Fire' is famous.",
  "alb.brian-eno-1974-here-come-the-warm-jets.oncelik": "Essential.",
  "alb.brian-eno-1974-here-come-the-warm-jets.tip": "studio",
- "alb.brian-eno-1974-here-come-the-warm-jets.kadro": "Eno + Robert Fripp, Phil Manzanera, Andy Mackay, Paul Thompson, Chris Spedding u. a.",
+ "alb.brian-eno-1974-here-come-the-warm-jets.kadro": "Eno + Robert Fripp, Phil Manzanera, Andy Mackay, Paul Thompson, Chris Spedding and others",
  "alb.brian-eno-1974-here-come-the-warm-jets.prod": "Brian Eno",
  "alb.brian-eno-1974-here-come-the-warm-jets.tr": [
   "Baby's on Fire",
@@ -7078,7 +7078,7 @@
  "alb.brian-eno-1974-taking-tiger-mountain-by-strategy.an": "A loose concept album inspired by postcards of a Chinese revolutionary opera; catchy, strange and inventive.",
  "alb.brian-eno-1974-taking-tiger-mountain-by-strategy.oncelik": "Recommended.",
  "alb.brian-eno-1974-taking-tiger-mountain-by-strategy.tip": "studio",
- "alb.brian-eno-1974-taking-tiger-mountain-by-strategy.kadro": "Eno + Phil Manzanera, Robert Wyatt u. a.",
+ "alb.brian-eno-1974-taking-tiger-mountain-by-strategy.kadro": "Eno + Phil Manzanera, Robert Wyatt and others",
  "alb.brian-eno-1974-taking-tiger-mountain-by-strategy.prod": "Brian Eno",
  "alb.brian-eno-1974-taking-tiger-mountain-by-strategy.tr": [
   "Burning Airlines Give You So Much More",
@@ -7100,7 +7100,7 @@
  "alb.brian-eno-1977-before-and-after-science.an": "His last song album of the 1970s: a busy, rhythmic first side and a calm, ambient second side.",
  "alb.brian-eno-1977-before-and-after-science.oncelik": "Recommended.",
  "alb.brian-eno-1977-before-and-after-science.tip": "studio",
- "alb.brian-eno-1977-before-and-after-science.kadro": "Eno + Phil Collins, Percy Jones, Robert Fripp, Fred Frith, Phil Manzanera u. a.",
+ "alb.brian-eno-1977-before-and-after-science.kadro": "Eno + Phil Collins, Percy Jones, Robert Fripp, Fred Frith, Phil Manzanera and others",
  "alb.brian-eno-1977-before-and-after-science.prod": "Brian Eno, Rhett Davies",
  "alb.brian-eno-1977-before-and-after-science.tr": [
   "King's Lead Hat",
@@ -7111,7 +7111,7 @@
  "alb.brian-eno-1975-discreet-music.an": "A half-hour piece built from two delayed synthesizer lines, plus variations on Pachelbel's Canon; the birth of ambient.",
  "alb.brian-eno-1975-discreet-music.oncelik": "Recommended.",
  "alb.brian-eno-1975-discreet-music.tip": "studio (ambient)",
- "alb.brian-eno-1975-discreet-music.kadro": "Eno; Seite zwei mit dem Cockpit Ensemble",
+ "alb.brian-eno-1975-discreet-music.kadro": "Eno; side two with the Cockpit Ensemble",
  "alb.brian-eno-1975-discreet-music.prod": "Brian Eno",
  "alb.brian-eno-1975-discreet-music.tr": [
   "Discreet Music",
@@ -7121,7 +7121,7 @@
  "alb.brian-eno-1978-ambient-1-music-for-airports.an": "The album that named ambient music: four slow, looping pieces meant to calm an airport terminal.",
  "alb.brian-eno-1978-ambient-1-music-for-airports.oncelik": "Recommended — the founding ambient record.",
  "alb.brian-eno-1978-ambient-1-music-for-airports.tip": "studio (ambient)",
- "alb.brian-eno-1978-ambient-1-music-for-airports.kadro": "Eno + Robert Wyatt (Klavier), Rhett Davies",
+ "alb.brian-eno-1978-ambient-1-music-for-airports.kadro": "Eno + Robert Wyatt (piano), Rhett Davies",
  "alb.brian-eno-1978-ambient-1-music-for-airports.prod": "Brian Eno",
  "alb.brian-eno-1978-ambient-1-music-for-airports.tr": [
   "1/1",
@@ -7143,7 +7143,7 @@
  "alb.brian-eno-1981-my-life-in-the-bush-of-ghosts.an": "With David Byrne: found voices and radio recordings over funk and world rhythms; a landmark of sampling.",
  "alb.brian-eno-1981-my-life-in-the-bush-of-ghosts.oncelik": "Optional.",
  "alb.brian-eno-1981-my-life-in-the-bush-of-ghosts.tip": "studio (Eno & Byrne)",
- "alb.brian-eno-1981-my-life-in-the-bush-of-ghosts.kadro": "Brian Eno, David Byrne + Gäste",
+ "alb.brian-eno-1981-my-life-in-the-bush-of-ghosts.kadro": "Brian Eno, David Byrne + guests",
  "alb.brian-eno-1981-my-life-in-the-bush-of-ghosts.prod": "Brian Eno, David Byrne",
  "alb.brian-eno-1981-my-life-in-the-bush-of-ghosts.tr": [
   "Regiment",
@@ -7183,7 +7183,7 @@
  "alb.mike-oldfield-1973-tubular-bells.an": "The 49-minute instrumental that launched Virgin Records, with almost every instrument played by the 19-year-old Oldfield; its opening became famous through The Exorcist.",
  "alb.mike-oldfield-1973-tubular-bells.oncelik": "Essential — never skip.",
  "alb.mike-oldfield-1973-tubular-bells.tip": "studio",
- "alb.mike-oldfield-1973-tubular-bells.kadro": "Oldfield (fast alle Instrumente) + Viv Stanshall (Zeremonienmeister), Sally Oldfield, Steve Broughton",
+ "alb.mike-oldfield-1973-tubular-bells.kadro": "Oldfield (almost all instruments) + Viv Stanshall (master of ceremonies), Sally Oldfield, Steve Broughton",
  "alb.mike-oldfield-1973-tubular-bells.prod": "Tom Newman, Simon Heyworth, Mike Oldfield",
  "alb.mike-oldfield-1973-tubular-bells.detay": [
   "Viv Stanshall of the Bonzo Dog Doo-Dah Band announces the instruments in the finale of Part One."
@@ -7195,7 +7195,7 @@
  "alb.mike-oldfield-1974-hergest-ridge.an": "A calmer, pastoral follow-up named after a hill near his Herefordshire retreat; it replaced Tubular Bells at No. 1 in the UK.",
  "alb.mike-oldfield-1974-hergest-ridge.oncelik": "Recommended.",
  "alb.mike-oldfield-1974-hergest-ridge.tip": "studio",
- "alb.mike-oldfield-1974-hergest-ridge.kadro": "Oldfield + Gäste",
+ "alb.mike-oldfield-1974-hergest-ridge.kadro": "Oldfield + guests",
  "alb.mike-oldfield-1974-hergest-ridge.prod": "Tom Newman, Mike Oldfield",
  "alb.mike-oldfield-1974-hergest-ridge.tr": [
   "Hergest Ridge, Part One",
@@ -7204,7 +7204,7 @@
  "alb.mike-oldfield-1975-ommadawn.an": "Celtic folk and African drums in two long parts; for many listeners his finest work.",
  "alb.mike-oldfield-1975-ommadawn.oncelik": "Essential.",
  "alb.mike-oldfield-1975-ommadawn.tip": "studio",
- "alb.mike-oldfield-1975-ommadawn.kadro": "Oldfield + Paddy Moloney (Uilleann Pipes), Jabula (afrikanische Trommeln), Pierre Moerlen, Sally Oldfield",
+ "alb.mike-oldfield-1975-ommadawn.kadro": "Oldfield + Paddy Moloney (uilleann pipes), Jabula (African drums), Pierre Moerlen, Sally Oldfield",
  "alb.mike-oldfield-1975-ommadawn.prod": "Mike Oldfield",
  "alb.mike-oldfield-1975-ommadawn.tr": [
   "Ommadawn, Part One",
@@ -7214,7 +7214,7 @@
  "alb.mike-oldfield-1978-incantations.an": "A 72-minute double album of hypnotic, minimalist-influenced movements with choir and orchestra; Maddy Prior sings lines from Longfellow's Hiawatha.",
  "alb.mike-oldfield-1978-incantations.oncelik": "Recommended.",
  "alb.mike-oldfield-1978-incantations.tip": "studio (double LP)",
- "alb.mike-oldfield-1978-incantations.kadro": "Oldfield + Pierre Moerlen, Maddy Prior, Chor und Orchester",
+ "alb.mike-oldfield-1978-incantations.kadro": "Oldfield + Pierre Moerlen, Maddy Prior, choir and orchestra",
  "alb.mike-oldfield-1978-incantations.prod": "Mike Oldfield",
  "alb.mike-oldfield-1978-incantations.tr": [
   "Incantations, Part One",
@@ -7225,7 +7225,7 @@
  "alb.mike-oldfield-1979-exposed.an": "Live from the 1979 European tour with a large ensemble: Incantations and Tubular Bells in full.",
  "alb.mike-oldfield-1979-exposed.oncelik": "Optional.",
  "alb.mike-oldfield-1979-exposed.tip": "live (double LP)",
- "alb.mike-oldfield-1979-exposed.kadro": "Oldfield + großes Ensemble, u. a. Pierre Moerlen",
+ "alb.mike-oldfield-1979-exposed.kadro": "Oldfield + a large ensemble incl. Pierre Moerlen",
  "alb.mike-oldfield-1979-exposed.prod": "Mike Oldfield",
  "alb.mike-oldfield-1979-exposed.tr": [
   "Incantations",
@@ -7235,7 +7235,7 @@
  "alb.mike-oldfield-1979-platinum.an": "Side one a disco-tinged suite ending with Philip Glass's 'North Star', side two shorter pieces.",
  "alb.mike-oldfield-1979-platinum.oncelik": "Optional.",
  "alb.mike-oldfield-1979-platinum.tip": "studio",
- "alb.mike-oldfield-1979-platinum.kadro": "Oldfield + Pierre Moerlen, Morris Pert u. a.",
+ "alb.mike-oldfield-1979-platinum.kadro": "Oldfield + Pierre Moerlen, Morris Pert and others",
  "alb.mike-oldfield-1979-platinum.prod": "Mike Oldfield",
  "alb.mike-oldfield-1979-platinum.tr": [
   "Platinum",
@@ -7268,7 +7268,7 @@
  "alb.mike-oldfield-1990-amarok.an": "A single hour-long piece, a deliberately anti-commercial statement in his dispute with Virgin; dense, playful and unpredictable.",
  "alb.mike-oldfield-1990-amarok.oncelik": "Recommended.",
  "alb.mike-oldfield-1990-amarok.tip": "studio",
- "alb.mike-oldfield-1990-amarok.kadro": "Oldfield + Gäste",
+ "alb.mike-oldfield-1990-amarok.kadro": "Oldfield + guests",
  "alb.mike-oldfield-1990-amarok.prod": "Mike Oldfield, Tom Newman",
  "alb.mike-oldfield-1990-amarok.tr": [
   "Amarok"
@@ -7276,7 +7276,7 @@
  "alb.mike-oldfield-1992-tubular-bells-ii.an": "A re-imagining of the original produced by Trevor Horn; his first album for WEA.",
  "alb.mike-oldfield-1992-tubular-bells-ii.oncelik": "Optional.",
  "alb.mike-oldfield-1992-tubular-bells-ii.tip": "studio",
- "alb.mike-oldfield-1992-tubular-bells-ii.kadro": "Oldfield + Gäste",
+ "alb.mike-oldfield-1992-tubular-bells-ii.kadro": "Oldfield + guests",
  "alb.mike-oldfield-1992-tubular-bells-ii.prod": "Trevor Horn, Tom Newman, Mike Oldfield",
  "alb.mike-oldfield-1992-tubular-bells-ii.tr": [
   "Sentinel",
@@ -7287,7 +7287,7 @@
  "alb.mike-oldfield-1994-the-songs-of-distant-earth.an": "Inspired by Arthur C. Clarke's novel; ambient and new-age textures.",
  "alb.mike-oldfield-1994-the-songs-of-distant-earth.oncelik": "Optional.",
  "alb.mike-oldfield-1994-the-songs-of-distant-earth.tip": "studio",
- "alb.mike-oldfield-1994-the-songs-of-distant-earth.kadro": "Oldfield + Gäste",
+ "alb.mike-oldfield-1994-the-songs-of-distant-earth.kadro": "Oldfield + guests",
  "alb.mike-oldfield-1994-the-songs-of-distant-earth.prod": "Mike Oldfield",
  "alb.mike-oldfield-1994-the-songs-of-distant-earth.tr": [
   "Let There Be Light",
@@ -7313,7 +7313,7 @@
  "alb.vangelis-1975-heaven-and-hell.an": "His first album from Nemo Studios: a symphonic suite with choir in which Jon Anderson sings 'So Long Ago, So Clear'. Parts were used in Carl Sagan's Cosmos.",
  "alb.vangelis-1975-heaven-and-hell.oncelik": "Essential — the closest Vangelis came to symphonic prog.",
  "alb.vangelis-1975-heaven-and-hell.tip": "studio",
- "alb.vangelis-1975-heaven-and-hell.kadro": "Vangelis + Jon Anderson (Gesang), English Chamber Choir, Vana Veroutis",
+ "alb.vangelis-1975-heaven-and-hell.kadro": "Vangelis + Jon Anderson (vocals), English Chamber Choir, Vana Veroutis",
  "alb.vangelis-1975-heaven-and-hell.prod": "Vangelis",
  "alb.vangelis-1975-heaven-and-hell.tr": [
   "Heaven and Hell, Part 1",
@@ -7428,7 +7428,7 @@
  "alb.kate-bush-1978-the-kick-inside.oncelik": "Recommended.",
  "alb.kate-bush-1978-the-kick-inside.tip": "studio",
  "alb.kate-bush-1978-the-kick-inside.kadro": "Bush + Ian Bairnson, David Paton, Stuart Elliott, Andrew Powell",
- "alb.kate-bush-1978-the-kick-inside.prod": "Andrew Powell (zwei Stücke: David Gilmour)",
+ "alb.kate-bush-1978-the-kick-inside.prod": "Andrew Powell (two tracks: David Gilmour)",
  "alb.kate-bush-1978-the-kick-inside.tr": [
   "Wuthering Heights",
   "The Man with the Child in His Eyes",
@@ -7449,7 +7449,7 @@
  "alb.kate-bush-1980-never-for-ever.an": "Her first co-production and the first UK No. 1 album by a British female solo artist; first steps with the Fairlight.",
  "alb.kate-bush-1980-never-for-ever.oncelik": "Recommended.",
  "alb.kate-bush-1980-never-for-ever.tip": "studio",
- "alb.kate-bush-1980-never-for-ever.kadro": "Bush + Bairnson, Elliott, Del Palmer u. a.",
+ "alb.kate-bush-1980-never-for-ever.kadro": "Bush + Bairnson, Elliott, Del Palmer and others",
  "alb.kate-bush-1980-never-for-ever.prod": "Kate Bush, Jon Kelly",
  "alb.kate-bush-1980-never-for-ever.tr": [
   "Babooshka",
@@ -7460,7 +7460,7 @@
  "alb.kate-bush-1982-the-dreaming.an": "Her first self-produced album: radical, percussive and densely layered — an art-rock record in all but name.",
  "alb.kate-bush-1982-the-dreaming.oncelik": "Essential — Kate Bush at her most experimental.",
  "alb.kate-bush-1982-the-dreaming.tip": "studio",
- "alb.kate-bush-1982-the-dreaming.kadro": "Bush + Del Palmer, Preston Heyman, Stuart Elliott u. a.",
+ "alb.kate-bush-1982-the-dreaming.kadro": "Bush + Del Palmer, Preston Heyman, Stuart Elliott and others",
  "alb.kate-bush-1982-the-dreaming.prod": "Kate Bush",
  "alb.kate-bush-1982-the-dreaming.tr": [
   "Sat in Your Lap",
@@ -7471,7 +7471,7 @@
  "alb.kate-bush-1985-hounds-of-love.an": "Her masterpiece: side one five singles-calibre songs ('Running Up That Hill', 'Cloudbusting'), side two the seven-part suite 'The Ninth Wave'.",
  "alb.kate-bush-1985-hounds-of-love.oncelik": "Essential — never skip.",
  "alb.kate-bush-1985-hounds-of-love.tip": "studio",
- "alb.kate-bush-1985-hounds-of-love.kadro": "Bush + Del Palmer, Charlie Morgan, Stuart Elliott, Eberhard Weber u. a.",
+ "alb.kate-bush-1985-hounds-of-love.kadro": "Bush + Del Palmer, Charlie Morgan, Stuart Elliott, Eberhard Weber and others",
  "alb.kate-bush-1985-hounds-of-love.prod": "Kate Bush",
  "alb.kate-bush-1985-hounds-of-love.detay": [
   "'The Ninth Wave' follows a woman adrift in the sea at night, between sleep and drowning.",
@@ -7486,7 +7486,7 @@
  "alb.kate-bush-1989-the-sensual-world.an": "Warmer and more personal: the Joyce-inspired title track, the voices of Trio Bulgarka and Gilmour's guitar on 'Love and Anger' and 'Rocket's Tail'.",
  "alb.kate-bush-1989-the-sensual-world.oncelik": "Recommended.",
  "alb.kate-bush-1989-the-sensual-world.tip": "studio",
- "alb.kate-bush-1989-the-sensual-world.kadro": "Bush + Trio Bulgarka, David Gilmour, Nigel Kennedy, Del Palmer u. a.",
+ "alb.kate-bush-1989-the-sensual-world.kadro": "Bush + Trio Bulgarka, David Gilmour, Nigel Kennedy, Del Palmer and others",
  "alb.kate-bush-1989-the-sensual-world.prod": "Kate Bush",
  "alb.kate-bush-1989-the-sensual-world.tr": [
   "The Sensual World",
@@ -7497,7 +7497,7 @@
  "alb.kate-bush-1993-the-red-shoes.an": "Long and uneven, with guests Prince, Eric Clapton and Jeff Beck.",
  "alb.kate-bush-1993-the-red-shoes.oncelik": "Optional.",
  "alb.kate-bush-1993-the-red-shoes.tip": "studio",
- "alb.kate-bush-1993-the-red-shoes.kadro": "Bush + Prince, Eric Clapton, Jeff Beck u. a.",
+ "alb.kate-bush-1993-the-red-shoes.kadro": "Bush + Prince, Eric Clapton, Jeff Beck and others",
  "alb.kate-bush-1993-the-red-shoes.prod": "Kate Bush",
  "alb.kate-bush-1993-the-red-shoes.tr": [
   "Rubberband Girl",
@@ -7508,7 +7508,7 @@
  "alb.kate-bush-2005-aerial.an": "The comeback after twelve years; the second disc, 'A Sky of Honey', is a song cycle following a summer day from dawn to dawn.",
  "alb.kate-bush-2005-aerial.oncelik": "Recommended.",
  "alb.kate-bush-2005-aerial.tip": "studio (double CD)",
- "alb.kate-bush-2005-aerial.kadro": "Bush + Del Palmer, Dan McIntosh, John Giblin, Peter Erskine u. a.",
+ "alb.kate-bush-2005-aerial.kadro": "Bush + Del Palmer, Dan McIntosh, John Giblin, Peter Erskine and others",
  "alb.kate-bush-2005-aerial.prod": "Kate Bush",
  "alb.kate-bush-2005-aerial.tr": [
   "King of the Mountain",
@@ -7519,7 +7519,7 @@
  "alb.kate-bush-2011-director-s-cut.an": "New recordings of songs from The Sensual World and The Red Shoes.",
  "alb.kate-bush-2011-director-s-cut.oncelik": "Optional.",
  "alb.kate-bush-2011-director-s-cut.tip": "studio",
- "alb.kate-bush-2011-director-s-cut.kadro": "Bush + Del Palmer, Steve Gadd u. a.",
+ "alb.kate-bush-2011-director-s-cut.kadro": "Bush + Del Palmer, Steve Gadd and others",
  "alb.kate-bush-2011-director-s-cut.prod": "Kate Bush",
  "alb.kate-bush-2011-director-s-cut.tr": [
   "This Woman's Work",
@@ -7529,7 +7529,7 @@
  "alb.kate-bush-2011-50-words-for-snow.an": "Seven long, slow, piano-led pieces on a winter theme; quiet and hypnotic.",
  "alb.kate-bush-2011-50-words-for-snow.oncelik": "Recommended.",
  "alb.kate-bush-2011-50-words-for-snow.tip": "studio",
- "alb.kate-bush-2011-50-words-for-snow.kadro": "Bush + Steve Gadd, Elton John, Stephen Fry u. a.",
+ "alb.kate-bush-2011-50-words-for-snow.kadro": "Bush + Steve Gadd, Elton John, Stephen Fry and others",
  "alb.kate-bush-2011-50-words-for-snow.prod": "Kate Bush",
  "alb.kate-bush-2011-50-words-for-snow.tr": [
   "Snowflake",
