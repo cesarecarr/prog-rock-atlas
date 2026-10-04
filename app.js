@@ -1,4 +1,4 @@
-/* Prog Rock Atlas — v7 (hesap + eşitleme) / v6 (Spotify önizleme algılama) / v5 (tek çalar) / v4 (çalar düzeltmeleri) / v3 (liste çalar) / v2: diller, platformlar, çalar, kişisel listeler */
+/* Prog Rock Atlas — v13 (müzisyen sayfaları) / v7 (hesap + eşitleme) / v6 (Spotify önizleme algılama) / v5 (tek çalar) / v4 (çalar düzeltmeleri) / v3 (liste çalar) / v2: diller, platformlar, çalar, kişisel listeler */
 let DATA=[], T={}, F={}, U={}, LANG="tr", NDATA=null, TRK=null;
 const PLATS=[["spotify","#1DB954"],["apple","#fa233b"],["youtube","#ff3b30"],["tidal","#33b5e5"]];
 const store={get(k,d){try{const v=localStorage.getItem("atlas."+k);return v===null?d:JSON.parse(v);}catch(e){return d;}},
@@ -32,6 +32,15 @@ function build(N){
         return out;})};});
 }
 function findAlbum(aid){for(const s of DATA)for(let gi=0;gi<s.groups.length;gi++){const g=s.groups[gi];const a=g.albums.find(x=>x.id===aid);if(a)return {s,g,a};}return null;}
+/* v13: yapılandırılmış kadro (Wikipedia) ve müzisyen sayfaları */
+let KAD=null,MUSALB=null,KADTXT=null;
+async function loadKadro(){if(!KAD){try{KAD=await getJSON("kadro.json");}catch(e){KAD={m:{},a:{}};}
+  MUSALB={};KADTXT={};for(const aid in KAD.a){const rows=KAD.a[aid];KADTXT[aid]=rows.map(r=>(KAD.m[r[0]]||[""])[0]).join(" ").toLowerCase();
+    for(const r of rows)(MUSALB[r[0]]=MUSALB[r[0]]||[]).push([aid,r[1],r[2]]);}
+  if(query&&$("v-atlas")&&$("v-atlas").classList.contains("on"))render();}
+  return KAD;}
+function musName(mid){return ((KAD&&KAD.m[mid])||[mid])[0];}
+function rolTxt(r){return r?r.split(",").map(x=>u("rol."+x)).join(", "):"";}
 async function loadTracks(){if(!TRK){try{TRK=await getJSON("parcalar.json");}catch(e){TRK={};}if(listIdxFix(LISTS))store.set("lists",LISTS);}return TRK;}
 /* v9: bazı albümlerin parça listesi düzeltildi; listelerdeki parça sırasını ada göre yeniden bul */
 function tnorm(t){return String(t||"").normalize("NFKD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[^a-z0-9]+/g,"");}
@@ -57,7 +66,7 @@ async function setLang(l){
   renderTabbar();renderPlatBadge();initChips();render();
   if($("v-lists").classList.contains("on"))renderLists();
   if($("v-settings").classList.contains("on"))renderSettings();
-  if(CUR)openAlbum(CUR.id,CUR.tab);
+  if(CUR&&CUR.m)openMus(CUR.m);else if(CUR)openAlbum(CUR.id,CUR.tab);
 }
 
 /* ---------- alt menü ---------- */
@@ -114,7 +123,7 @@ function badge(a){const o=ONC[a.onc];return o?`<span class="badge ${o}">${esc(u(
 function isStudio(t){return !t||["stüdyo","studio","Studio"].includes(t);}
 function tipPill(a){return isStudio(a.tip)?"":`<span class="pill">${esc(a.tip)}</span>`;}
 function albMatch(g,a){if(coreOnly&&a.onc!=="temel")return false;if(!query)return true;
-  return (a.t+" "+g.name+" "+(a.tr||[]).join(" ")+" "+(a.kadro||"")+" "+a.y).toLowerCase().includes(query);}
+  return (a.t+" "+g.name+" "+(a.tr||[]).join(" ")+" "+(a.kadro||"")+" "+((KADTXT&&KADTXT[a.id])||"")+" "+a.y).toLowerCase().includes(query);}
 function albRow(g,a){return `<div class="alb" onclick="openAlbum('${a.id}')">${img(a.cov)}
     <div class="alb-info"><div class="t" translate="no">${esc(a.t)}</div><div class="y">${a.y}${tipPill(a)}${badge(a)}</div></div><span class="go">›</span></div>`;}
 function render(){
@@ -173,7 +182,7 @@ async function openAlbum(aid,tab){
   const f=findAlbum(aid);if(!f)return;const {g,a}=f;
   if(!CUR)SCROLLY=window.scrollY;
   CUR={id:aid,tab:tab||"tracks",track:null};
-  await loadTracks();
+  await Promise.all([loadTracks(),loadKadro()]);
   renderAlbum();
   $("albview").classList.add("show");$("albview").scrollTop=0;document.body.style.overflow="hidden";layoutDock();
   if(location.hash!=="#a="+aid){history.pushState({a:aid},"","#a="+aid);ALBLEN=history.length;}
@@ -181,7 +190,7 @@ async function openAlbum(aid,tab){
 }
 /* v9: Geri düğmesi — gömülü çalarlar geçmişe kayıt eklediyse tek tek geri gitmek yerine doğrudan üst ekrana dön */
 let ALBLEN=0;
-function albBack(){if(ALBLEN&&history.length===ALBLEN&&history.state&&history.state.a){history.back();return;}
+function albBack(){if(ALBLEN&&history.length===ALBLEN&&history.state&&(history.state.a||history.state.m)){history.back();return;}
   closeAlbum();ALBLEN=0;try{history.replaceState(null,"",location.pathname+location.search);}catch(e){}}
 function renderAlbum(){
   albSpReset();
@@ -218,8 +227,15 @@ function albBodyHTML(){
       ${(a.crit&&a.crit.length)?`<div class="tlabel">${u("album.critics")}</div>${a.crit.map(c=>`<div class="crit"><span class="csrc">${esc(c.src)}</span>${esc(c.txt)}${c.url?` <a href="${esc(c.url)}" target="_blank" rel="noopener">${u("album.source")}</a>`:""}</div>`).join("")}`:""}
       ${(a.tr&&a.tr.length)?`<div class="tlabel">${u("album.highlights")}</div><ul class="tracks">${a.tr.map(t=>`<li>${esc(t)}</li>`).join("")}</ul>`:""}`;
   }else{
+    const rows=KAD&&KAD.a[a.id];
+    if(rows&&rows.length){
+      const grp=[["kadro.members",rows.filter(r=>!r[2]&&r[1]!=="prod")],["kadro.guests",rows.filter(r=>r[2]&&r[1]!=="prod")],["kadro.production",rows.filter(r=>r[1]==="prod")]];
+      body=grp.filter(x=>x[1].length).map(([l,L])=>`<div class="tlabel">${esc(u(l))}</div>`+L.map(r=>{const n=(MUSALB[r[0]]||[]).length;
+        return `<div class="krow" onclick="openMus('${r[0]}')"><div class="kt"><div translate="no">${esc(musName(r[0]))}</div><div>${esc(rolTxt(r[1]))}</div></div>${n>1?`<span class="kc">${esc(u(n===1?"mus.album1":"mus.albums",{n}))}</span>`:""}<span class="go">›</span></div>`;}).join("")).join("")
+        +`<p class="muted ksrc">${esc(u("kadro.tap"))} · ${esc(u("kadro.src"))}</p>`;
+    }else{
     body=`${a.kadro?`<p class="kadro" style="margin-top:12px"><b>${u("album.lineup")}:</b> ${esc(a.kadro)}</p>`:""}${a.prod?`<p class="kadro"><b>${u("album.prod")}:</b> ${esc(a.prod)}</p>`:""}
-      ${(!a.kadro&&!a.prod)?`<p class="muted" style="padding:12px 0">—</p>`:""}`;
+      ${(!a.kadro&&!a.prod)?`<p class="muted" style="padding:12px 0">—</p>`:""}`;}
   }
   return body;
 }
@@ -236,7 +252,33 @@ function spLoad(c,uri){c._pend=true;c.loadUri(uri);setTimeout(()=>{if(c._pend){c
 function playTrack(i){qPlay("alb:"+CUR.id,i);}
 function closeAlbum(silent){if(!CUR)return;albSpReset();CUR=null;ALBLEN=0;$("albview").classList.remove("show");$("albview").innerHTML="";document.body.style.overflow="";layoutDock();
   if(!silent)window.scrollTo(0,SCROLLY);}
-window.addEventListener("popstate",()=>{const m=location.hash.match(/^#a=(.+)$/);if(m){if(!CUR||CUR.id!==m[1])openAlbum(m[1]);}else closeAlbum();});
+async function openMus(mid){
+  await loadKadro();if(!KAD.m[mid])return;
+  if(!CUR)SCROLLY=window.scrollY;
+  albSpReset();CUR={id:null,m:mid,tab:"tracks"};
+  renderMus();
+  $("albview").classList.add("show");$("albview").scrollTop=0;document.body.style.overflow="hidden";layoutDock();
+  if(location.hash!=="#m="+mid){history.pushState({m:mid},"","#m="+mid);ALBLEN=history.length;}
+  else if(!ALBLEN)ALBLEN=history.length;
+}
+function renderMus(){
+  const mid=CUR.m,m=KAD.m[mid],wiki=m[1]||m[0];
+  const L=(MUSALB[mid]||[]).map(([aid,r,k])=>{const f=findAlbum(aid);return f?{g:f.g,a:f.a,r,k}:null;}).filter(Boolean)
+    .sort((x,y)=>x.a.y-y.a.y||x.g.name.localeCompare(y.g.name));
+  const gs=[];for(const x of L){const o=gs.find(z=>z.g===x.g);if(o)o.n++;else gs.push({g:x.g,n:1});}
+  $("albview").innerHTML=`<div class="page">
+    <button class="backbtn" onclick="albBack()">${esc(u("nav.back"))}</button>
+    <div class="mushead"><h2 translate="no">${esc(m[0])}</h2>
+      <div class="y">${esc(u(L.length===1?"mus.album1":"mus.albums",{n:L.length}))} · <a href="https://en.wikipedia.org/wiki/${encodeURIComponent(wiki.replace(/ /g,"_"))}" target="_blank" rel="noopener">Wikipedia ↗</a></div>
+      <div class="musg">${gs.map(x=>`<span class="pill" translate="no">${esc(x.g.name)} <b>${x.n}</b></span>`).join("")}</div></div>
+    ${L.map(x=>`<div class="alb" onclick="openAlbum('${x.a.id}')">${img(x.a.cov)}
+      <div class="alb-info"><div class="t" translate="no">${esc(x.a.t)}</div>
+      <div class="y">${x.a.y} · <span translate="no">${esc(x.g.name)}</span></div>
+      <div class="y mr">${esc(rolTxt(x.r))}${x.k?` · <i>${esc(u("mus.guest"))}</i>`:""}</div></div><span class="go">›</span></div>`).join("")}
+    <p class="muted ksrc">${esc(u("kadro.src"))}</p></div>`;
+}
+window.addEventListener("popstate",()=>{const m=location.hash.match(/^#a=(.+)$/),mm=location.hash.match(/^#m=(.+)$/);
+  if(m){if(!CUR||CUR.id!==m[1])openAlbum(m[1]);}else if(mm){if(!CUR||CUR.m!==mm[1])openMus(mm[1]);}else closeAlbum();});
 
 /* ---------- listeler (cihazda saklanır) ---------- */
 let LISTS=store.get("lists",[]);
@@ -252,7 +294,7 @@ const ACCT_HOOKS={
   toast:m=>toast(m),t:(k,p)=>u(k,p)};
 function loadAcct(){if(!acctOn())return Promise.resolve(null);
   if(!ACCT.p){if(ACCT.st==="off")ACCT.st="loading";
-    ACCT.p=import("./hesap.js?v=11").then(m=>m.start(window.FIREBASE_CONFIG,ACCT_HOOKS)).then(api=>{ACCT.api=api;return api;})
+    ACCT.p=import("./hesap.js?v=13").then(m=>m.start(window.FIREBASE_CONFIG,ACCT_HOOKS)).then(api=>{ACCT.api=api;return api;})
       .catch(e=>{console.error(e);ACCT.p=null;ACCT.st="err";acctRefresh(false);return null;});}
   return ACCT.p;}
 function acctRefresh(lists){
@@ -508,6 +550,6 @@ $("addbg").onclick=closeAdd;
   try{await setLang(detectLang());}catch(err){console.error(err);$("main").innerHTML='<div class="empty">Veri yüklenemedi / Could not load data (http/https).</div>';return;}
   if(!PLAT)showWelcome();
   if(acctOn()&&store.get("acct",false))loadAcct();
-  const m=location.hash.match(/^#a=(.+)$/);if(m)openAlbum(m[1]);
-  loadTracks();
+  const m=location.hash.match(/^#a=(.+)$/),mm=location.hash.match(/^#m=(.+)$/);if(m)openAlbum(m[1]);else if(mm)openMus(mm[1]);
+  loadTracks();loadKadro();
 })();
