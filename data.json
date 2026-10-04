@@ -2184,6 +2184,33 @@
 ]
 },
 {
+"id": "syd-barrett-solo",
+"artist": "Syd Barrett",
+"albums": [
+{
+"id": "syd-barrett-1970-the-madcap-laughs",
+"t": "The Madcap Laughs",
+"y": 1970,
+"onc": "temel",
+"cov": "kapaklar/syd-barrett-1970-the-madcap-laughs.jpg"
+},
+{
+"id": "syd-barrett-1970-barrett",
+"t": "Barrett",
+"y": 1970,
+"onc": "onerilir",
+"cov": "kapaklar/syd-barrett-1970-barrett.jpg"
+},
+{
+"id": "syd-barrett-1988-opel",
+"t": "Opel",
+"y": 1988,
+"onc": "istege",
+"cov": "kapaklar/syd-barrett-1988-opel.jpg"
+}
+]
+},
+{
 "id": "david-gilmour-solo",
 "artist": "David Gilmour",
 "albums": [
@@ -4016,6 +4043,957 @@
 "y": 1971,
 "onc": "temel",
 "cov": "kapaklar/ten-years-after-1971-a-space-in-time.jpg"
+}
+]
+},
+{
+"id": "deep-purple",
+"artist": "Deep Purple",
+"albums": [
+{
+"id": "deep-purple-1968-shades-of-deep-purple",
+"t": "Shades of Deep Purple",
+"y": 1968,
+"onc": "istege",
+"e": 0,
+"cov": "kapaklar/deep-purple-1968-shades-of-deep-purple.jpg"
+},
+{
+"id": "deep-purple-1968-the-book-of-taliesyn",
+"t": "The Book of Taliesyn",
+"y": 1968,
+"onc": "istege",
+"e": 0,
+"cov": "kapaklar/deep-purple-1968-the-book-of-taliesyn.jpg"
+},
+{
+"id": "deep-purple-1969-deep-purple",
+"t": "Deep Purple",
+"y": 1969,
+"onc": "onerilir",
+"e": 0,
+"cov": "kapaklar/deep-purple-1969-deep-purple.jpg"
+},
+{
+"id": "deep-purple-1969-concerto-for-group-and-orchestra",
+"t": "Concerto for Group and Orchestra",
+"y": 1969,
+"onc": "onerilir",
+"e": 1,
+"cov": "kapaklar/deep-purple-1969-concerto-for-group-and-orchestra.jpg"
+},
+{
+"id": "deep-purple-1970-deep-purple-in-rock",
+"t": "Deep Purple in Rock",
+"y": 1970,
+"onc": "temel",
+"e": 1,
+"cov": "kapaklar/deep-purple-1970-deep-purple-in-rock.jpg"
+},
+{
+"id": "deep-purple-1971-fireball",
+"t": "Fireball",
+"y": 1971,
+"onc": "onerilir",
+"e": 1,
+"cov": "kapaklar/deep-purple-1971-fireball.jpg"
+},
+{
+"id": "deep-purple-1972-machine-head",
+"t": "Machine Head",
+"y": 1972,
+"onc": "temel",
+"e": 1,
+"cov": "kapaklar/deep-purple-1972-machine-head.jpg"
+},
+{
+"id": "deep-purple-1972-made-in-japan",
+"t": "Made in Japan",
+"y": 1972,
+"onc": "temel",
+"e": 1,
+"cov": "kapaklar/deep-purple-1972-made-in-japan.jpg"
+},
+{
+"id": "deep-purple-1973-who-do-we-think-we-are",
+"t": "Who Do We Think We Are",
+"y": 1973,
+"onc": "istege",
+"e": 1,
+"cov": "kapaklar/deep-purple-1973-who-do-we-think-we-are.jpg"
+},
+{
+"id": "deep-purple-1974-burn",
+"t": "Burn",
+"y": 1974,
+"onc": "onerilir",
+"e": 2,
+"cov": "kapaklar/deep-purple-1974-burn.jpg"
+},
+{
+"id": "deep-purple-1974-stormbringer",
+"t": "Stormbringer",
+"y": 1974,
+"onc": "istege",
+"e": 2,
+"cov": "kapaklar/deep-purple-1974-stormbringer.jpg"
+},
+{
+"id": "deep-purple-1975-come-taste-the-band",
+"t": "Come Taste the Band",
+"y": 1975,
+"onc": "istege",
+"e": 2,
+"cov": "kapaklar/deep-purple-1975-come-taste-the-band.jpg"
+},
+{
+"id": "deep-purple-1984-perfect-strangers",
+"t": "Perfect Strangers",
+"y": 1984,
+"onc": "onerilir",
+"e": 3,
+"cov": "kapaklar/deep-purple-1984-perfect-strangers.jpg"
+},
+{
+"id": "deep-purple-1996-purpendicular",
+"t": "Purpendicular",
+"y": 1996,
+"onc": "istege",
+"e": 3,
+"cov": "kapaklar/deep-purple-1996-purpendicular.jpg"
+}
+],
+"eras": [
+{
+"yil": "1968–1969",
+"from": 1968,
+"to": 1969
+},
+{
+"yil": "1969–1973",
+"from": 1969,
+"to": 1973
+},
+{
+"yil": "1974–1975",
+"from": 1974,
+"to": 1975
+},
+{
+"yil": "1984–1996",
+"from": 1984,
+"to": 1996
+}
+]
+},
+{
+"id": "uriah-heep",
+"artist": "Uriah Heep",
+"albums": [
+{
+"id": "uriah-heep-1970-very-eavy-very-umble",
+"t": "Very 'eavy... Very 'umble",
+"y": 1970,
+"onc": "onerilir",
+"e": 0,
+"cov": "kapaklar/uriah-heep-1970-very-eavy-very-umble.jpg"
+},
+{
+"id": "uriah-heep-1971-salisbury",
+"t": "Salisbury",
+"y": 1971,
+"onc": "onerilir",
+"e": 0,
+"cov": "kapaklar/uriah-heep-1971-salisbury.jpg"
+},
+{
+"id": "uriah-heep-1971-look-at-yourself",
+"t": "Look at Yourself",
+"y": 1971,
+"onc": "temel",
+"e": 0,
+"cov": "kapaklar/uriah-heep-1971-look-at-yourself.jpg"
+},
+{
+"id": "uriah-heep-1972-demons-and-wizards",
+"t": "Demons and Wizards",
+"y": 1972,
+"onc": "temel",
+"e": 0,
+"cov": "kapaklar/uriah-heep-1972-demons-and-wizards.jpg"
+},
+{
+"id": "uriah-heep-1972-the-magician-s-birthday",
+"t": "The Magician's Birthday",
+"y": 1972,
+"onc": "onerilir",
+"e": 0,
+"cov": "kapaklar/uriah-heep-1972-the-magician-s-birthday.jpg"
+},
+{
+"id": "uriah-heep-1973-uriah-heep-live",
+"t": "Uriah Heep Live",
+"y": 1973,
+"onc": "istege",
+"e": 0
+},
+{
+"id": "uriah-heep-1973-sweet-freedom",
+"t": "Sweet Freedom",
+"y": 1973,
+"onc": "istege",
+"e": 0,
+"cov": "kapaklar/uriah-heep-1973-sweet-freedom.jpg"
+},
+{
+"id": "uriah-heep-1974-wonderworld",
+"t": "Wonderworld",
+"y": 1974,
+"onc": "istege",
+"e": 0,
+"cov": "kapaklar/uriah-heep-1974-wonderworld.jpg"
+},
+{
+"id": "uriah-heep-1975-return-to-fantasy",
+"t": "Return to Fantasy",
+"y": 1975,
+"onc": "onerilir",
+"e": 0,
+"cov": "kapaklar/uriah-heep-1975-return-to-fantasy.jpg"
+},
+{
+"id": "uriah-heep-1976-high-and-mighty",
+"t": "High and Mighty",
+"y": 1976,
+"onc": "atla",
+"e": 0,
+"cov": "kapaklar/uriah-heep-1976-high-and-mighty.jpg"
+},
+{
+"id": "uriah-heep-1977-firefly",
+"t": "Firefly",
+"y": 1977,
+"onc": "istege",
+"e": 1,
+"cov": "kapaklar/uriah-heep-1977-firefly.jpg"
+},
+{
+"id": "uriah-heep-1982-abominog",
+"t": "Abominog",
+"y": 1982,
+"onc": "istege",
+"e": 1,
+"cov": "kapaklar/uriah-heep-1982-abominog.jpg"
+},
+{
+"id": "uriah-heep-1995-sea-of-light",
+"t": "Sea of Light",
+"y": 1995,
+"onc": "istege",
+"e": 2
+},
+{
+"id": "uriah-heep-2008-wake-the-sleeper",
+"t": "Wake the Sleeper",
+"y": 2008,
+"onc": "istege",
+"e": 2,
+"cov": "kapaklar/uriah-heep-2008-wake-the-sleeper.jpg"
+}
+],
+"eras": [
+{
+"yil": "1970–1976",
+"from": 1970,
+"to": 1976
+},
+{
+"yil": "1977–1982",
+"from": 1977,
+"to": 1982
+},
+{
+"yil": "1995–2008",
+"from": 1995,
+"to": 2008
+}
+]
+},
+{
+"id": "wishbone-ash",
+"artist": "Wishbone Ash",
+"albums": [
+{
+"id": "wishbone-ash-1970-wishbone-ash",
+"t": "Wishbone Ash",
+"y": 1970,
+"onc": "onerilir",
+"cov": "kapaklar/wishbone-ash-1970-wishbone-ash.jpg"
+},
+{
+"id": "wishbone-ash-1971-pilgrimage",
+"t": "Pilgrimage",
+"y": 1971,
+"onc": "onerilir",
+"cov": "kapaklar/wishbone-ash-1971-pilgrimage.jpg"
+},
+{
+"id": "wishbone-ash-1972-argus",
+"t": "Argus",
+"y": 1972,
+"onc": "temel",
+"cov": "kapaklar/wishbone-ash-1972-argus.jpg"
+},
+{
+"id": "wishbone-ash-1973-live-dates",
+"t": "Live Dates",
+"y": 1973,
+"onc": "onerilir",
+"cov": "kapaklar/wishbone-ash-1973-live-dates.jpg"
+},
+{
+"id": "wishbone-ash-1973-wishbone-four",
+"t": "Wishbone Four",
+"y": 1973,
+"onc": "istege",
+"cov": "kapaklar/wishbone-ash-1973-wishbone-four.jpg"
+},
+{
+"id": "wishbone-ash-1974-there-s-the-rub",
+"t": "There's the Rub",
+"y": 1974,
+"onc": "istege",
+"cov": "kapaklar/wishbone-ash-1974-there-s-the-rub.jpg"
+},
+{
+"id": "wishbone-ash-1976-new-england",
+"t": "New England",
+"y": 1976,
+"onc": "istege",
+"cov": "kapaklar/wishbone-ash-1976-new-england.jpg"
+},
+{
+"id": "wishbone-ash-1981-number-the-brave",
+"t": "Number the Brave",
+"y": 1981,
+"onc": "istege",
+"cov": "kapaklar/wishbone-ash-1981-number-the-brave.jpg"
+},
+{
+"id": "wishbone-ash-1987-nouveau-calls",
+"t": "Nouveau Calls",
+"y": 1987,
+"onc": "istege",
+"cov": "kapaklar/wishbone-ash-1987-nouveau-calls.jpg"
+}
+]
+},
+{
+"id": "budgie",
+"artist": "Budgie",
+"albums": [
+{
+"id": "budgie-1971-budgie",
+"t": "Budgie",
+"y": 1971,
+"onc": "onerilir",
+"cov": "kapaklar/budgie-1971-budgie.jpg"
+},
+{
+"id": "budgie-1972-squawk",
+"t": "Squawk",
+"y": 1972,
+"onc": "istege",
+"cov": "kapaklar/budgie-1972-squawk.jpg"
+},
+{
+"id": "budgie-1973-never-turn-your-back-on-a-friend",
+"t": "Never Turn Your Back on a Friend",
+"y": 1973,
+"onc": "temel",
+"cov": "kapaklar/budgie-1973-never-turn-your-back-on-a-friend.jpg"
+},
+{
+"id": "budgie-1974-in-for-the-kill",
+"t": "In for the Kill!",
+"y": 1974,
+"onc": "onerilir",
+"cov": "kapaklar/budgie-1974-in-for-the-kill.jpg"
+},
+{
+"id": "budgie-1975-bandolier",
+"t": "Bandolier",
+"y": 1975,
+"onc": "istege",
+"cov": "kapaklar/budgie-1975-bandolier.jpg"
+},
+{
+"id": "budgie-1976-if-i-were-brittania-i-d-waive-the-rules",
+"t": "If I Were Brittania I'd Waive the Rules",
+"y": 1976,
+"onc": "istege",
+"cov": "kapaklar/budgie-1976-if-i-were-brittania-i-d-waive-the-rules.jpg"
+},
+{
+"id": "budgie-1980-power-supply",
+"t": "Power Supply",
+"y": 1980,
+"onc": "istege",
+"cov": "kapaklar/budgie-1980-power-supply.jpg"
+}
+]
+},
+{
+"id": "rainbow",
+"artist": "Rainbow",
+"albums": [
+{
+"id": "rainbow-1975-ritchie-blackmore-s-rainbow",
+"t": "Ritchie Blackmore's Rainbow",
+"y": 1975,
+"onc": "onerilir",
+"cov": "kapaklar/rainbow-1975-ritchie-blackmore-s-rainbow.jpg"
+},
+{
+"id": "rainbow-1976-rising",
+"t": "Rising",
+"y": 1976,
+"onc": "temel",
+"cov": "kapaklar/rainbow-1976-rising.jpg"
+},
+{
+"id": "rainbow-1977-on-stage",
+"t": "On Stage",
+"y": 1977,
+"onc": "istege",
+"cov": "kapaklar/rainbow-1977-on-stage.jpg"
+},
+{
+"id": "rainbow-1978-long-live-rock-n-roll",
+"t": "Long Live Rock 'n' Roll",
+"y": 1978,
+"onc": "onerilir",
+"cov": "kapaklar/rainbow-1978-long-live-rock-n-roll.jpg"
+},
+{
+"id": "rainbow-1979-down-to-earth",
+"t": "Down to Earth",
+"y": 1979,
+"onc": "istege",
+"cov": "kapaklar/rainbow-1979-down-to-earth.jpg"
+},
+{
+"id": "rainbow-1981-difficult-to-cure",
+"t": "Difficult to Cure",
+"y": 1981,
+"onc": "istege",
+"cov": "kapaklar/rainbow-1981-difficult-to-cure.jpg"
+},
+{
+"id": "rainbow-1983-bent-out-of-shape",
+"t": "Bent Out of Shape",
+"y": 1983,
+"onc": "istege",
+"cov": "kapaklar/rainbow-1983-bent-out-of-shape.jpg"
+}
+]
+}
+]
+},
+{
+"no": 19,
+"groups": [
+{
+"id": "roxy-music",
+"artist": "Roxy Music",
+"albums": [
+{
+"id": "roxy-music-1972-roxy-music",
+"t": "Roxy Music",
+"y": 1972,
+"onc": "temel",
+"e": 0,
+"cov": "kapaklar/roxy-music-1972-roxy-music.jpg"
+},
+{
+"id": "roxy-music-1973-for-your-pleasure",
+"t": "For Your Pleasure",
+"y": 1973,
+"onc": "temel",
+"e": 0,
+"cov": "kapaklar/roxy-music-1973-for-your-pleasure.jpg"
+},
+{
+"id": "roxy-music-1973-stranded",
+"t": "Stranded",
+"y": 1973,
+"onc": "onerilir",
+"e": 1,
+"cov": "kapaklar/roxy-music-1973-stranded.jpg"
+},
+{
+"id": "roxy-music-1974-country-life",
+"t": "Country Life",
+"y": 1974,
+"onc": "onerilir",
+"e": 1,
+"cov": "kapaklar/roxy-music-1974-country-life.jpg"
+},
+{
+"id": "roxy-music-1975-siren",
+"t": "Siren",
+"y": 1975,
+"onc": "istege",
+"e": 1,
+"cov": "kapaklar/roxy-music-1975-siren.jpg"
+},
+{
+"id": "roxy-music-1976-viva",
+"t": "Viva!",
+"y": 1976,
+"onc": "istege",
+"e": 1,
+"cov": "kapaklar/roxy-music-1976-viva.jpg"
+},
+{
+"id": "roxy-music-1979-manifesto",
+"t": "Manifesto",
+"y": 1979,
+"onc": "istege",
+"e": 2,
+"cov": "kapaklar/roxy-music-1979-manifesto.jpg"
+},
+{
+"id": "roxy-music-1980-flesh-and-blood",
+"t": "Flesh and Blood",
+"y": 1980,
+"onc": "istege",
+"e": 2,
+"cov": "kapaklar/roxy-music-1980-flesh-and-blood.jpg"
+},
+{
+"id": "roxy-music-1982-avalon",
+"t": "Avalon",
+"y": 1982,
+"onc": "onerilir",
+"e": 2,
+"cov": "kapaklar/roxy-music-1982-avalon.jpg"
+}
+],
+"eras": [
+{
+"yil": "1972–1973",
+"from": 1972,
+"to": 1973
+},
+{
+"yil": "1973–1976",
+"from": 1973,
+"to": 1976
+},
+{
+"yil": "1979–1982",
+"from": 1979,
+"to": 1982
+}
+]
+},
+{
+"id": "brian-eno",
+"artist": "Brian Eno",
+"albums": [
+{
+"id": "brian-eno-1974-here-come-the-warm-jets",
+"t": "Here Come the Warm Jets",
+"y": 1974,
+"onc": "temel",
+"e": 0,
+"cov": "kapaklar/brian-eno-1974-here-come-the-warm-jets.jpg"
+},
+{
+"id": "brian-eno-1974-taking-tiger-mountain-by-strategy",
+"t": "Taking Tiger Mountain (By Strategy)",
+"y": 1974,
+"onc": "onerilir",
+"e": 0,
+"cov": "kapaklar/brian-eno-1974-taking-tiger-mountain-by-strategy.jpg"
+},
+{
+"id": "brian-eno-1975-another-green-world",
+"t": "Another Green World",
+"y": 1975,
+"onc": "temel",
+"e": 0,
+"cov": "kapaklar/brian-eno-1975-another-green-world.jpg"
+},
+{
+"id": "brian-eno-1977-before-and-after-science",
+"t": "Before and After Science",
+"y": 1977,
+"onc": "onerilir",
+"e": 0,
+"cov": "kapaklar/brian-eno-1977-before-and-after-science.jpg"
+},
+{
+"id": "brian-eno-1975-discreet-music",
+"t": "Discreet Music",
+"y": 1975,
+"onc": "onerilir",
+"e": 1,
+"cov": "kapaklar/brian-eno-1975-discreet-music.jpg"
+},
+{
+"id": "brian-eno-1978-ambient-1-music-for-airports",
+"t": "Ambient 1: Music for Airports",
+"y": 1978,
+"onc": "onerilir",
+"e": 1,
+"cov": "kapaklar/brian-eno-1978-ambient-1-music-for-airports.jpg"
+},
+{
+"id": "brian-eno-1983-apollo-atmospheres-and-soundtracks",
+"t": "Apollo: Atmospheres and Soundtracks",
+"y": 1983,
+"onc": "istege",
+"e": 1,
+"cov": "kapaklar/brian-eno-1983-apollo-atmospheres-and-soundtracks.jpg"
+},
+{
+"id": "brian-eno-1981-my-life-in-the-bush-of-ghosts",
+"t": "My Life in the Bush of Ghosts",
+"y": 1981,
+"onc": "istege",
+"e": 2,
+"cov": "kapaklar/brian-eno-1981-my-life-in-the-bush-of-ghosts.jpg"
+},
+{
+"id": "brian-eno-2005-another-day-on-earth",
+"t": "Another Day on Earth",
+"y": 2005,
+"onc": "istege",
+"e": 2,
+"cov": "kapaklar/brian-eno-2005-another-day-on-earth.jpg"
+}
+],
+"eras": [
+{
+"yil": "1974–1977",
+"from": 1974,
+"to": 1977
+},
+{
+"yil": "1975–1983",
+"from": 1975,
+"to": 1983
+},
+{
+"yil": "1981–2005",
+"from": 1981,
+"to": 2005
+}
+]
+},
+{
+"id": "mike-oldfield",
+"artist": "Mike Oldfield",
+"albums": [
+{
+"id": "mike-oldfield-1973-tubular-bells",
+"t": "Tubular Bells",
+"y": 1973,
+"onc": "temel",
+"e": 0,
+"cov": "kapaklar/mike-oldfield-1973-tubular-bells.jpg"
+},
+{
+"id": "mike-oldfield-1974-hergest-ridge",
+"t": "Hergest Ridge",
+"y": 1974,
+"onc": "onerilir",
+"e": 0,
+"cov": "kapaklar/mike-oldfield-1974-hergest-ridge.jpg"
+},
+{
+"id": "mike-oldfield-1975-ommadawn",
+"t": "Ommadawn",
+"y": 1975,
+"onc": "temel",
+"e": 0,
+"cov": "kapaklar/mike-oldfield-1975-ommadawn.jpg"
+},
+{
+"id": "mike-oldfield-1978-incantations",
+"t": "Incantations",
+"y": 1978,
+"onc": "onerilir",
+"e": 0,
+"cov": "kapaklar/mike-oldfield-1978-incantations.jpg"
+},
+{
+"id": "mike-oldfield-1979-exposed",
+"t": "Exposed",
+"y": 1979,
+"onc": "istege",
+"e": 1,
+"cov": "kapaklar/mike-oldfield-1979-exposed.jpg"
+},
+{
+"id": "mike-oldfield-1979-platinum",
+"t": "Platinum",
+"y": 1979,
+"onc": "istege",
+"e": 1,
+"cov": "kapaklar/mike-oldfield-1979-platinum.jpg"
+},
+{
+"id": "mike-oldfield-1982-five-miles-out",
+"t": "Five Miles Out",
+"y": 1982,
+"onc": "onerilir",
+"e": 1,
+"cov": "kapaklar/mike-oldfield-1982-five-miles-out.jpg"
+},
+{
+"id": "mike-oldfield-1983-crises",
+"t": "Crises",
+"y": 1983,
+"onc": "onerilir",
+"e": 1,
+"cov": "kapaklar/mike-oldfield-1983-crises.jpg"
+},
+{
+"id": "mike-oldfield-1990-amarok",
+"t": "Amarok",
+"y": 1990,
+"onc": "onerilir",
+"e": 2,
+"cov": "kapaklar/mike-oldfield-1990-amarok.jpg"
+},
+{
+"id": "mike-oldfield-1992-tubular-bells-ii",
+"t": "Tubular Bells II",
+"y": 1992,
+"onc": "istege",
+"e": 2,
+"cov": "kapaklar/mike-oldfield-1992-tubular-bells-ii.jpg"
+},
+{
+"id": "mike-oldfield-1994-the-songs-of-distant-earth",
+"t": "The Songs of Distant Earth",
+"y": 1994,
+"onc": "istege",
+"e": 2,
+"cov": "kapaklar/mike-oldfield-1994-the-songs-of-distant-earth.jpg"
+}
+],
+"eras": [
+{
+"yil": "1973–1978",
+"from": 1973,
+"to": 1978
+},
+{
+"yil": "1979–1983",
+"from": 1979,
+"to": 1983
+},
+{
+"yil": "1990–1994",
+"from": 1990,
+"to": 1994
+}
+]
+},
+{
+"id": "vangelis",
+"artist": "Vangelis",
+"albums": [
+{
+"id": "vangelis-1975-heaven-and-hell",
+"t": "Heaven and Hell",
+"y": 1975,
+"onc": "temel",
+"e": 0,
+"cov": "kapaklar/vangelis-1975-heaven-and-hell.jpg"
+},
+{
+"id": "vangelis-1976-albedo-0-39",
+"t": "Albedo 0.39",
+"y": 1976,
+"onc": "onerilir",
+"e": 0,
+"cov": "kapaklar/vangelis-1976-albedo-0-39.jpg"
+},
+{
+"id": "vangelis-1977-spiral",
+"t": "Spiral",
+"y": 1977,
+"onc": "istege",
+"e": 0,
+"cov": "kapaklar/vangelis-1977-spiral.jpg"
+},
+{
+"id": "vangelis-1979-china",
+"t": "China",
+"y": 1979,
+"onc": "onerilir",
+"e": 0,
+"cov": "kapaklar/vangelis-1979-china.jpg"
+},
+{
+"id": "vangelis-1981-chariots-of-fire",
+"t": "Chariots of Fire",
+"y": 1981,
+"onc": "onerilir",
+"e": 1,
+"cov": "kapaklar/vangelis-1981-chariots-of-fire.jpg"
+},
+{
+"id": "vangelis-1994-blade-runner",
+"t": "Blade Runner",
+"y": 1994,
+"onc": "temel",
+"e": 1,
+"cov": "kapaklar/vangelis-1994-blade-runner.jpg"
+},
+{
+"id": "vangelis-1983-antarctica",
+"t": "Antarctica",
+"y": 1983,
+"onc": "istege",
+"e": 1,
+"cov": "kapaklar/vangelis-1983-antarctica.jpg"
+},
+{
+"id": "vangelis-1992-1492-conquest-of-paradise",
+"t": "1492: Conquest of Paradise",
+"y": 1992,
+"onc": "istege",
+"e": 1,
+"cov": "kapaklar/vangelis-1992-1492-conquest-of-paradise.jpg"
+},
+{
+"id": "vangelis-2001-mythodea",
+"t": "Mythodea",
+"y": 2001,
+"onc": "istege",
+"e": 1,
+"cov": "kapaklar/vangelis-2001-mythodea.jpg"
+}
+],
+"eras": [
+{
+"yil": "1975–1979",
+"from": 1975,
+"to": 1979
+},
+{
+"yil": "1981–2001",
+"from": 1981,
+"to": 2001
+}
+]
+},
+{
+"id": "kate-bush",
+"artist": "Kate Bush",
+"albums": [
+{
+"id": "kate-bush-1978-the-kick-inside",
+"t": "The Kick Inside",
+"y": 1978,
+"onc": "onerilir",
+"e": 0,
+"cov": "kapaklar/kate-bush-1978-the-kick-inside.jpg"
+},
+{
+"id": "kate-bush-1978-lionheart",
+"t": "Lionheart",
+"y": 1978,
+"onc": "istege",
+"e": 0,
+"cov": "kapaklar/kate-bush-1978-lionheart.jpg"
+},
+{
+"id": "kate-bush-1980-never-for-ever",
+"t": "Never for Ever",
+"y": 1980,
+"onc": "onerilir",
+"e": 0,
+"cov": "kapaklar/kate-bush-1980-never-for-ever.jpg"
+},
+{
+"id": "kate-bush-1982-the-dreaming",
+"t": "The Dreaming",
+"y": 1982,
+"onc": "temel",
+"e": 1,
+"cov": "kapaklar/kate-bush-1982-the-dreaming.jpg"
+},
+{
+"id": "kate-bush-1985-hounds-of-love",
+"t": "Hounds of Love",
+"y": 1985,
+"onc": "temel",
+"e": 1,
+"cov": "kapaklar/kate-bush-1985-hounds-of-love.jpg"
+},
+{
+"id": "kate-bush-1989-the-sensual-world",
+"t": "The Sensual World",
+"y": 1989,
+"onc": "onerilir",
+"e": 1,
+"cov": "kapaklar/kate-bush-1989-the-sensual-world.jpg"
+},
+{
+"id": "kate-bush-1993-the-red-shoes",
+"t": "The Red Shoes",
+"y": 1993,
+"onc": "istege",
+"e": 1,
+"cov": "kapaklar/kate-bush-1993-the-red-shoes.jpg"
+},
+{
+"id": "kate-bush-2005-aerial",
+"t": "Aerial",
+"y": 2005,
+"onc": "onerilir",
+"e": 2,
+"cov": "kapaklar/kate-bush-2005-aerial.jpg"
+},
+{
+"id": "kate-bush-2011-director-s-cut",
+"t": "Director's Cut",
+"y": 2011,
+"onc": "istege",
+"e": 2,
+"cov": "kapaklar/kate-bush-2011-director-s-cut.jpg"
+},
+{
+"id": "kate-bush-2011-50-words-for-snow",
+"t": "50 Words for Snow",
+"y": 2011,
+"onc": "onerilir",
+"e": 2,
+"cov": "kapaklar/kate-bush-2011-50-words-for-snow.jpg"
+}
+],
+"eras": [
+{
+"yil": "1978–1980",
+"from": 1978,
+"to": 1980
+},
+{
+"yil": "1982–1993",
+"from": 1982,
+"to": 1993
+},
+{
+"yil": "2005–2011",
+"from": 2005,
+"to": 2011
 }
 ]
 }

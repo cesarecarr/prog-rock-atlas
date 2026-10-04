@@ -88,7 +88,24 @@ function initChips(){
   fe.querySelectorAll(".chip").forEach(c=>c.onclick=()=>{
     if(c.dataset.f==="core"){coreOnly=!coreOnly;c.classList.toggle("on",coreOnly);render();return;}
     activeFilter=c.dataset.f;fe.querySelectorAll(".chip:not(.core)").forEach(x=>x.classList.remove("on"));
-    c.classList.add("on");window.scrollTo(0,0);render();});
+    c.classList.add("on");c.scrollIntoView({inline:"nearest",block:"nearest"});window.scrollTo(0,0);render();});
+  chipNav();
+}
+// v11: masaüstünde filtre bandı — oklar, fare tekerleği ve sürükleyerek kaydırma
+let chipNavOk=false;
+function chipNav(){
+  const fe=$("filters"),pv=$("fprev"),nx=$("fnext");if(!fe||!pv||!nx)return;
+  const upd=()=>{const m=fe.scrollWidth-fe.clientWidth;pv.classList.toggle("show",fe.scrollLeft>4);nx.classList.toggle("show",fe.scrollLeft<m-4);};
+  upd();if(chipNavOk)return;chipNavOk=true;
+  const step=()=>Math.max(160,fe.clientWidth*0.7);
+  pv.onclick=()=>fe.scrollBy({left:-step(),behavior:"smooth"});
+  nx.onclick=()=>fe.scrollBy({left:step(),behavior:"smooth"});
+  fe.addEventListener("scroll",upd,{passive:true});window.addEventListener("resize",upd);
+  fe.addEventListener("wheel",e=>{if(Math.abs(e.deltaY)>Math.abs(e.deltaX)&&fe.scrollWidth>fe.clientWidth){fe.scrollLeft+=e.deltaY;e.preventDefault();}},{passive:false});
+  let x0=null,s0=0,moved=false;
+  fe.addEventListener("mousedown",e=>{if(e.button!==0)return;x0=e.clientX;s0=fe.scrollLeft;moved=false;});
+  window.addEventListener("mousemove",e=>{if(x0===null)return;const dx=e.clientX-x0;if(!moved&&Math.abs(dx)>5){moved=true;fe.classList.add("drag");}if(moved)fe.scrollLeft=s0-dx;});
+  window.addEventListener("mouseup",()=>{if(x0===null)return;x0=null;setTimeout(()=>fe.classList.remove("drag"),0);});
 }
 const ph='<div class="ph">♪</div>';
 function img(cov){return cov?`<img loading="lazy" src="${cov}" alt="">`:ph;}
@@ -235,7 +252,7 @@ const ACCT_HOOKS={
   toast:m=>toast(m),t:(k,p)=>u(k,p)};
 function loadAcct(){if(!acctOn())return Promise.resolve(null);
   if(!ACCT.p){if(ACCT.st==="off")ACCT.st="loading";
-    ACCT.p=import("./hesap.js?v=9").then(m=>m.start(window.FIREBASE_CONFIG,ACCT_HOOKS)).then(api=>{ACCT.api=api;return api;})
+    ACCT.p=import("./hesap.js?v=11").then(m=>m.start(window.FIREBASE_CONFIG,ACCT_HOOKS)).then(api=>{ACCT.api=api;return api;})
       .catch(e=>{console.error(e);ACCT.p=null;ACCT.st="err";acctRefresh(false);return null;});}
   return ACCT.p;}
 function acctRefresh(lists){

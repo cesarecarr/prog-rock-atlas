@@ -31,6 +31,13 @@
   .search:focus{border-color:var(--amber)}
   .filters{display:flex; gap:6px; overflow-x:auto; margin-top:9px; padding-bottom:2px;
     scrollbar-width:none} .filters::-webkit-scrollbar{display:none}
+  .fwrap{position:relative}
+  .fnav{display:none; position:absolute; top:9px; bottom:2px; z-index:2; width:34px; border:0; padding:0;
+    color:var(--amber); font-size:26px; font-weight:700; line-height:1; cursor:pointer; left:0;
+    background:linear-gradient(90deg,var(--bg) 55%,transparent)}
+  .fnav.r{left:auto; right:0; background:linear-gradient(270deg,var(--bg) 55%,transparent)}
+  .fnav:hover{color:var(--ink)}
+  @media (hover:hover) and (pointer:fine){ .fnav.show{display:block} .filters{cursor:grab} .filters.drag{cursor:grabbing} .filters.drag .chip{pointer-events:none} }
   .chip{flex:0 0 auto; background:var(--panel); border:1px solid var(--line);
     color:var(--muted); font-size:12px; padding:5px 11px; border-radius:14px;
     white-space:nowrap; cursor:pointer; transition:.15s}
@@ -303,7 +310,7 @@
 <header>
   <div class="brand"><h1>Prog Rock Atlas</h1><span class="yr">1967–2020</span><span class="platbadge" id="platbadge"></span><select id="lang" class="langsel" aria-label="Language"><option value="tr">TR</option><option value="en">EN</option><option value="de">DE</option></select></div>
   <input class="search" id="q" autocomplete="off">
-  <div class="filters" id="filters"></div>
+  <div class="fwrap"><button class="fnav" id="fprev" aria-label="‹">‹</button><div class="filters" id="filters"></div><button class="fnav r" id="fnext" aria-label="›">›</button></div>
 </header>
 <div class="count-bar" id="countbar"></div>
 <main id="main"><div class="empty">…</div></main>
@@ -320,8 +327,8 @@
 <div class="toast" id="toast"></div>
 <button class="install" id="install"></button>
 <button class="toTop" id="toTop">↑</button>
-<script src="firebase-config.js?v=9"></script>
-<script src="app.js?v=9"></script>
+<script src="firebase-config.js?v=11"></script>
+<script src="app.js?v=11"></script>
 <script>
 const toTop=document.getElementById("toTop");
 window.addEventListener("scroll",()=>{toTop.style.display=window.scrollY>600?"block":"none";});
