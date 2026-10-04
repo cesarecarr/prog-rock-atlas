@@ -48,18 +48,21 @@
 {
 "id": "the-strawbs-1970-just-a-collection-of-antiques-and-curios",
 "t": "Just a Collection of Antiques and Curios",
-"y": 1970
+"y": 1970,
+"cov": "kapaklar/the-strawbs-1970-just-a-collection-of-antiques-and-curios.jpg"
 },
 {
 "id": "the-strawbs-1971-from-the-witchwood",
 "t": "From the Witchwood",
-"y": 1971
+"y": 1971,
+"cov": "kapaklar/the-strawbs-1971-from-the-witchwood.jpg"
 },
 {
 "id": "the-strawbs-1972-grave-new-world",
 "t": "Grave New World",
 "y": 1972,
-"onc": "temel"
+"onc": "temel",
+"cov": "kapaklar/the-strawbs-1972-grave-new-world.jpg"
 },
 {
 "id": "the-strawbs-1973-bursting-at-the-seams",
@@ -267,7 +270,8 @@
 "id": "arthur-brown-1968-the-crazy-world-of-arthur-brown",
 "t": "The Crazy World of Arthur Brown",
 "y": 1968,
-"onc": "temel"
+"onc": "temel",
+"cov": "kapaklar/arthur-brown-1968-the-crazy-world-of-arthur-brown.jpg"
 },
 {
 "id": "arthur-brown-1971-galactic-zoo-dossier",
@@ -588,13 +592,15 @@
 "id": "21st-century-schizoid-band-2002-official-bootleg-volume-one",
 "t": "Official Bootleg Volume One",
 "y": 2002,
-"onc": "istege"
+"onc": "istege",
+"cov": "kapaklar/21st-century-schizoid-band-2002-official-bootleg-volume-one.jpg"
 },
 {
 "id": "21st-century-schizoid-band-2011-a-scarcity-of-miracles",
 "t": "A Scarcity of Miracles",
 "y": 2011,
-"onc": "onerilir"
+"onc": "onerilir",
+"cov": "kapaklar/21st-century-schizoid-band-2011-a-scarcity-of-miracles.jpg"
 }
 ]
 },
@@ -606,19 +612,22 @@
 "id": "projekcts-1998-space-groove",
 "t": "Space Groove",
 "y": 1998,
-"onc": "istege"
+"onc": "istege",
+"cov": "kapaklar/projekcts-1998-space-groove.jpg"
 },
 {
 "id": "projekcts-1999-masque",
 "t": "Masque",
 "y": 1999,
-"onc": "istege"
+"onc": "istege",
+"cov": "kapaklar/projekcts-1999-masque.jpg"
 },
 {
 "id": "projekcts-1999-the-projekcts",
 "t": "The ProjeKcts",
 "y": 1999,
-"onc": "ikincil"
+"onc": "ikincil",
+"cov": "kapaklar/projekcts-1999-the-projekcts.jpg"
 }
 ]
 },
@@ -637,7 +646,8 @@
 "id": "stick-men-2014-live-in-tokyo",
 "t": "Live in Tokyo",
 "y": 2014,
-"onc": "onerilir"
+"onc": "onerilir",
+"cov": "kapaklar/stick-men-2014-live-in-tokyo.jpg"
 },
 {
 "id": "stick-men-2016-prog-noir",
@@ -890,7 +900,8 @@
 "t": "Yesyears",
 "y": 1991,
 "onc": "atla",
-"e": 4
+"e": 4,
+"cov": "kapaklar/yes-1991-yesyears.jpg"
 },
 {
 "id": "yes-1993-symphonic-music-of-yes",
@@ -941,7 +952,8 @@
 "t": "Beyond and Before",
 "y": 1998,
 "onc": "atla",
-"e": 5
+"e": 5,
+"cov": "kapaklar/yes-1998-beyond-and-before.jpg"
 },
 {
 "id": "yes-1999-the-ladder",
@@ -961,7 +973,8 @@
 "id": "yes-2001-keystudio",
 "t": "Keystudio",
 "y": 2001,
-"e": 5
+"e": 5,
+"cov": "kapaklar/yes-2001-keystudio.jpg"
 },
 {
 "id": "yes-2001-magnification",
@@ -1005,19 +1018,22 @@
 "id": "yes-2013-like-it-is-yes-at-the-bristol-hippodrome",
 "t": "Like It Is: Yes at the Bristol Hippodrome",
 "y": 2013,
-"e": 7
+"e": 7,
+"cov": "kapaklar/yes-2013-like-it-is-yes-at-the-bristol-hippodrome.jpg"
 },
 {
 "id": "yes-2014-heaven-earth",
 "t": "Heaven & Earth",
 "y": 2014,
-"e": 7
+"e": 7,
+"cov": "kapaklar/yes-2014-heaven-earth.jpg"
 },
 {
 "id": "yes-2015-like-it-is-yes-at-the-mesa-arts-center",
 "t": "Like It Is: Yes at the Mesa Arts Center",
 "y": 2015,
-"e": 7
+"e": 7,
+"cov": "kapaklar/yes-2015-like-it-is-yes-at-the-mesa-arts-center.jpg"
 },
 {
 "id": "yes-2017-topographic-drama-live-across-america",
@@ -1094,7 +1110,8 @@
 "src": "Louder Sound",
 "url": "https://www.loudersound.com/music/albums/yes-to-release-expanded-and-remastered-edition-of-from-a-page-in-april"
 }
-]
+],
+"cov": "kapaklar/yes-2026-from-a-page-expanded-remastered-edition.jpg"
 },
 {
 "id": "yes-2026-aurora",
@@ -1267,13 +1284,15 @@
 "id": "steve-howe-2003-elements",
 "t": "Elements",
 "y": 2003,
-"onc": "istege"
+"onc": "istege",
+"cov": "kapaklar/steve-howe-2003-elements.jpg"
 },
 {
 "id": "steve-howe-2011-time",
 "t": "Time",
 "y": 2011,
-"onc": "onerilir"
+"onc": "onerilir",
+"cov": "kapaklar/steve-howe-2011-time.jpg"
 }
 ]
 },
@@ -1313,13 +1332,15 @@
 "id": "jon-anderson-2016-invention-of-knowledge",
 "t": "Invention of Knowledge",
 "y": 2016,
-"onc": "temel"
+"onc": "temel",
+"cov": "kapaklar/jon-anderson-2016-invention-of-knowledge.jpg"
 },
 {
 "id": "jon-anderson-2019-1000-hands-chapter-one",
 "t": "1000 Hands: Chapter One",
 "y": 2019,
-"onc": "istege"
+"onc": "istege",
+"cov": "kapaklar/jon-anderson-2019-1000-hands-chapter-one.jpg"
 }
 ]
 },
@@ -1517,7 +1538,8 @@
 "id": "emerson-lake-powell-1988-to-the-power-of-three",
 "t": "To the Power of Three",
 "y": 1988,
-"onc": "istege"
+"onc": "istege",
+"cov": "kapaklar/emerson-lake-powell-1988-to-the-power-of-three.jpg"
 }
 ]
 }
@@ -1869,7 +1891,8 @@
 "id": "steve-hackett-1996-genesis-revisited",
 "t": "Genesis Revisited",
 "y": 1996,
-"onc": "onerilir"
+"onc": "onerilir",
+"cov": "kapaklar/steve-hackett-1996-genesis-revisited.jpg"
 },
 {
 "id": "steve-hackett-1999-darktown",
@@ -2125,7 +2148,8 @@
 "t": "Pulse",
 "y": 1995,
 "onc": "ikincil",
-"e": 3
+"e": 3,
+"cov": "kapaklar/pink-floyd-1995-pulse.jpg"
 },
 {
 "id": "pink-floyd-2014-the-endless-river",
@@ -2222,13 +2246,15 @@
 "id": "roger-waters-1992-amused-to-death",
 "t": "Amused to Death",
 "y": 1992,
-"onc": "temel"
+"onc": "temel",
+"cov": "kapaklar/roger-waters-1992-amused-to-death.jpg"
 },
 {
 "id": "roger-waters-2017-is-this-the-life-we-really-want",
 "t": "Is This the Life We Really Want?",
 "y": 2017,
-"onc": "onerilir"
+"onc": "onerilir",
+"cov": "kapaklar/roger-waters-2017-is-this-the-life-we-really-want.jpg"
 }
 ]
 },
@@ -2327,13 +2353,15 @@
 "id": "soft-machine-2007-steam",
 "t": "Steam",
 "y": 2007,
-"onc": "istege"
+"onc": "istege",
+"cov": "kapaklar/soft-machine-2007-steam.jpg"
 },
 {
 "id": "soft-machine-2018-hidden-details",
 "t": "Hidden Details",
 "y": 2018,
-"onc": "onerilir"
+"onc": "onerilir",
+"cov": "kapaklar/soft-machine-2018-hidden-details.jpg"
 }
 ]
 },
@@ -2350,7 +2378,8 @@
 {
 "id": "caravan-1970-if-i-could-do-it-all-over-again-i-d-do-it-all-over-you",
 "t": "If I Could Do It All Over Again, I'd Do It All Over You",
-"y": 1970
+"y": 1970,
+"cov": "kapaklar/caravan-1970-if-i-could-do-it-all-over-again-i-d-do-it-all-over-you.jpg"
 },
 {
 "id": "caravan-1971-in-the-land-of-grey-and-pink",
@@ -2361,12 +2390,14 @@
 {
 "id": "caravan-1972-waterloo-lily",
 "t": "Waterloo Lily",
-"y": 1972
+"y": 1972,
+"cov": "kapaklar/caravan-1972-waterloo-lily.jpg"
 },
 {
 "id": "caravan-1973-for-girls-who-grow-plump-in-the-night",
 "t": "For Girls Who Grow Plump in the Night",
-"y": 1973
+"y": 1973,
+"cov": "kapaklar/caravan-1973-for-girls-who-grow-plump-in-the-night.jpg"
 },
 {
 "id": "caravan-1975-cunning-stunts",
@@ -2392,13 +2423,15 @@
 "id": "caravan-2003-the-unauthorised-breakfast-item",
 "t": "The Unauthorised Breakfast Item",
 "y": 2003,
-"onc": "onerilir"
+"onc": "onerilir",
+"cov": "kapaklar/caravan-2003-the-unauthorised-breakfast-item.jpg"
 },
 {
 "id": "caravan-2013-paradise-filter",
 "t": "Paradise Filter",
 "y": 2013,
-"onc": "istege"
+"onc": "istege",
+"cov": "kapaklar/caravan-2013-paradise-filter.jpg"
 }
 ]
 },
@@ -2427,7 +2460,8 @@
 {
 "id": "gong-1973-angel-s-egg",
 "t": "Angel's Egg",
-"y": 1973
+"y": 1973,
+"cov": "kapaklar/gong-1973-angel-s-egg.jpg"
 },
 {
 "id": "gong-1974-you",
@@ -2485,7 +2519,8 @@
 {
 "id": "hatfield-and-the-north-national-health-1974-hatfield-and-the-north",
 "t": "Hatfield and the North",
-"y": 1974
+"y": 1974,
+"cov": "kapaklar/hatfield-and-the-north-national-health-1974-hatfield-and-the-north.jpg"
 },
 {
 "id": "hatfield-and-the-north-national-health-1975-the-rotters-club",
@@ -2496,18 +2531,21 @@
 {
 "id": "hatfield-and-the-north-national-health-1978-national-health",
 "t": "National Health",
-"y": 1978
+"y": 1978,
+"cov": "kapaklar/hatfield-and-the-north-national-health-1978-national-health.jpg"
 },
 {
 "id": "hatfield-and-the-north-national-health-1978-of-queues-and-cures",
 "t": "Of Queues and Cures",
-"y": 1978
+"y": 1978,
+"cov": "kapaklar/hatfield-and-the-north-national-health-1978-of-queues-and-cures.jpg"
 },
 {
 "id": "hatfield-and-the-north-national-health-1982-d-s-al-coda",
 "t": "D.S. al Coda",
 "y": 1982,
-"onc": "onerilir"
+"onc": "onerilir",
+"cov": "kapaklar/hatfield-and-the-north-national-health-1982-d-s-al-coda.jpg"
 }
 ]
 },
@@ -2598,7 +2636,8 @@
 "id": "kevin-ayers-1974-the-confessions-of-dr-dream-and-other-stories",
 "t": "The Confessions of Dr. Dream and Other Stories",
 "y": 1974,
-"onc": "istege"
+"onc": "istege",
+"cov": "kapaklar/kevin-ayers-1974-the-confessions-of-dr-dream-and-other-stories.jpg"
 },
 {
 "id": "kevin-ayers-2007-the-unfairground",
@@ -2676,7 +2715,8 @@
 "id": "the-wilde-flowers-1994-the-wilde-flowers",
 "t": "The Wilde Flowers",
 "y": 1994,
-"onc": "istege"
+"onc": "istege",
+"cov": "kapaklar/the-wilde-flowers-1994-the-wilde-flowers.jpg"
 }
 ]
 },
@@ -2716,7 +2756,8 @@
 "id": "steve-hillage-1991-system-7",
 "t": "System 7",
 "y": 1991,
-"onc": "istege"
+"onc": "istege",
+"cov": "kapaklar/steve-hillage-1991-system-7.jpg"
 }
 ]
 },
@@ -2866,7 +2907,8 @@
 {
 "id": "buggles-1981-adventures-in-modern-recording",
 "t": "Adventures in Modern Recording",
-"y": 1981
+"y": 1981,
+"cov": "kapaklar/buggles-1981-adventures-in-modern-recording.jpg"
 }
 ]
 },
@@ -3039,7 +3081,8 @@
 "t": "A",
 "y": 1980,
 "onc": "istege",
-"e": 2
+"e": 2,
+"cov": "kapaklar/jethro-tull-1980-a.jpg"
 },
 {
 "id": "jethro-tull-1982-the-broadsword-and-the-beast",
@@ -3224,7 +3267,8 @@
 "t": "The Aerosol Grey Machine",
 "y": 1969,
 "onc": "istege",
-"e": 0
+"e": 0,
+"cov": "kapaklar/van-der-graaf-generator-1969-the-aerosol-grey-machine.jpg"
 },
 {
 "id": "van-der-graaf-generator-1970-the-least-we-can-do-is-wave-to-each-other",
@@ -3446,7 +3490,8 @@
 "t": "A Nod and a Wink",
 "y": 2002,
 "onc": "istege",
-"e": 3
+"e": 3,
+"cov": "kapaklar/camel-2002-a-nod-and-a-wink.jpg"
 }
 ],
 "eras": [
@@ -3523,7 +3568,8 @@
 "id": "renaissance-2013-grandine-il-vento-symphony-of-light",
 "t": "Grandine il Vento / Symphony of Light",
 "y": 2013,
-"onc": "istege"
+"onc": "istege",
+"cov": "kapaklar/renaissance-2013-grandine-il-vento-symphony-of-light.jpg"
 }
 ]
 },
@@ -3618,7 +3664,8 @@
 {
 "id": "gryphon-1977-treason",
 "t": "Treason",
-"y": 1977
+"y": 1977,
+"cov": "kapaklar/gryphon-1977-treason.jpg"
 }
 ]
 },
@@ -3703,13 +3750,15 @@
 "id": "focus-2002-focus-8",
 "t": "Focus 8",
 "y": 2002,
-"onc": "istege"
+"onc": "istege",
+"cov": "kapaklar/focus-2002-focus-8.jpg"
 },
 {
 "id": "focus-2012-focus-x",
 "t": "Focus X",
 "y": 2012,
-"onc": "istege"
+"onc": "istege",
+"cov": "kapaklar/focus-2012-focus-x.jpg"
 }
 ]
 },
@@ -3891,7 +3940,8 @@
 "id": "peter-hammill-1971-fool-s-mate",
 "t": "Fool's Mate",
 "y": 1971,
-"onc": "onerilir"
+"onc": "onerilir",
+"cov": "kapaklar/peter-hammill-1971-fool-s-mate.jpg"
 },
 {
 "id": "peter-hammill-1974-the-silent-corner-and-the-empty-stage",
@@ -4274,12 +4324,14 @@
 {
 "id": "pallas-1984-the-sentinel",
 "t": "The Sentinel",
-"y": 1984
+"y": 1984,
+"cov": "kapaklar/pallas-1984-the-sentinel.jpg"
 },
 {
 "id": "pallas-1986-the-wedge",
 "t": "The Wedge",
-"y": 1986
+"y": 1986,
+"cov": "kapaklar/pallas-1986-the-wedge.jpg"
 }
 ]
 },
@@ -4322,7 +4374,8 @@
 "id": "fish-1997-sunsets-on-empire",
 "t": "Sunsets on Empire",
 "y": 1997,
-"onc": "onerilir"
+"onc": "onerilir",
+"cov": "kapaklar/fish-1997-sunsets-on-empire.jpg"
 },
 {
 "id": "fish-2007-13th-star",
@@ -4405,7 +4458,8 @@
 "id": "spock-s-beard-2002-snow",
 "t": "Snow",
 "y": 2002,
-"onc": "temel"
+"onc": "temel",
+"cov": "kapaklar/spock-s-beard-2002-snow.jpg"
 },
 {
 "id": "spock-s-beard-2003-feel-euphoria",
@@ -4436,18 +4490,21 @@
 {
 "id": "echolyn-1992-suffocating-the-bloom",
 "t": "Suffocating the Bloom",
-"y": 1992
+"y": 1992,
+"cov": "kapaklar/echolyn-1992-suffocating-the-bloom.jpg"
 },
 {
 "id": "echolyn-1995-as-the-world",
 "t": "As the World",
-"y": 1995
+"y": 1995,
+"cov": "kapaklar/echolyn-1995-as-the-world.jpg"
 },
 {
 "id": "echolyn-2002-mei",
 "t": "Mei",
 "y": 2002,
-"onc": "temel"
+"onc": "temel",
+"cov": "kapaklar/echolyn-2002-mei.jpg"
 },
 {
 "id": "echolyn-2012-echolyn-window",
@@ -4460,7 +4517,8 @@
 "id": "echolyn-2015-i-heard-you-listening",
 "t": "I Heard You Listening",
 "y": 2015,
-"onc": "istege"
+"onc": "istege",
+"cov": "kapaklar/echolyn-2015-i-heard-you-listening.jpg"
 }
 ]
 }
@@ -4906,18 +4964,21 @@
 {
 "id": "anglagard-1992-hybris",
 "t": "Hybris",
-"y": 1992
+"y": 1992,
+"cov": "kapaklar/anglagard-1992-hybris.jpg"
 },
 {
 "id": "anglagard-1994-epilog",
 "t": "Epilog",
-"y": 1994
+"y": 1994,
+"cov": "kapaklar/anglagard-1994-epilog.jpg"
 },
 {
 "id": "anglagard-2012-viljans-oga",
 "t": "Viljans öga",
 "y": 2012,
-"onc": "temel"
+"onc": "temel",
+"cov": "kapaklar/anglagard-2012-viljans-oga.jpg"
 }
 ]
 },
@@ -5029,7 +5090,8 @@
 "id": "porcupine-tree-2009-the-incident",
 "t": "The Incident",
 "y": 2009,
-"onc": "onerilir"
+"onc": "onerilir",
+"cov": "kapaklar/porcupine-tree-2009-the-incident.jpg"
 }
 ]
 },
@@ -5069,7 +5131,8 @@
 "id": "steven-wilson-2017-to-the-bone",
 "t": "To the Bone",
 "y": 2017,
-"onc": "onerilir"
+"onc": "onerilir",
+"cov": "kapaklar/steven-wilson-2017-to-the-bone.jpg"
 }
 ]
 },
