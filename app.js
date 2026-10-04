@@ -32,7 +32,14 @@ function build(N){
         return out;})};});
 }
 function findAlbum(aid){for(const s of DATA)for(let gi=0;gi<s.groups.length;gi++){const g=s.groups[gi];const a=g.albums.find(x=>x.id===aid);if(a)return {s,g,a};}return null;}
-async function loadTracks(){if(!TRK){try{TRK=await getJSON("parcalar.json");}catch(e){TRK={};}}return TRK;}
+async function loadTracks(){if(!TRK){try{TRK=await getJSON("parcalar.json");}catch(e){TRK={};}if(listIdxFix(LISTS))store.set("lists",LISTS);}return TRK;}
+/* v9: bazı albümlerin parça listesi düzeltildi; listelerdeki parça sırasını ada göre yeniden bul */
+function tnorm(t){return String(t||"").normalize("NFKD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[^a-z0-9]+/g,"");}
+function listIdxFix(lists){if(!TRK||!lists)return false;let ch=false;
+  for(const l of lists)for(const x of (l.items||[])){const tr=TRK[x.aid]&&TRK[x.aid].tr;if(!tr||!tr.length)continue;
+    const cur=tr[x.i];if(cur&&tnorm(cur.t)===tnorm(x.t))continue;
+    const k=tr.findIndex(t=>tnorm(t.t)===tnorm(x.t));if(k>=0&&k!==x.i){x.i=k;ch=true;}}
+  return ch;}
 
 /* ---------- dil ---------- */
 async function setLang(l){
@@ -152,15 +159,20 @@ async function openAlbum(aid,tab){
   await loadTracks();
   renderAlbum();
   $("albview").classList.add("show");$("albview").scrollTop=0;document.body.style.overflow="hidden";layoutDock();
-  if(location.hash!=="#a="+aid)history.pushState({a:aid},"","#a="+aid);
+  if(location.hash!=="#a="+aid){history.pushState({a:aid},"","#a="+aid);ALBLEN=history.length;}
+  else if(!ALBLEN)ALBLEN=history.length;
 }
+/* v9: Geri düğmesi — gömülü çalarlar geçmişe kayıt eklediyse tek tek geri gitmek yerine doğrudan üst ekrana dön */
+let ALBLEN=0;
+function albBack(){if(ALBLEN&&history.length===ALBLEN&&history.state&&history.state.a){history.back();return;}
+  closeAlbum();ALBLEN=0;try{history.replaceState(null,"",location.pathname+location.search);}catch(e){}}
 function renderAlbum(){
   albSpReset();
   const {g,a}=findAlbum(CUR.id);const tr=TRK[a.id]||{tr:[]};const pl=PLAT||"spotify";
   const era=(g.eras&&g.eras[a.e||0])?g.eras[a.e||0]:null;
   const others=PLATS.map(p=>p[0]).filter(p=>p!==pl).map(p=>`<a class="btn small ghost" href="${p==="spotify"&&tr.sp?"https://open.spotify.com/album/"+tr.sp:p==="youtube"&&tr.yt?"https://www.youtube.com/playlist?list="+tr.yt:p==="apple"&&tr.am?tr.am:searchURL(p,g.artist,a.t)}" target="_blank" rel="noopener"><span class="plat-dot" style="background:${platColor(p)}"></span>${esc(platName(p))}</a>`).join("");
   $("albview").innerHTML=`<div class="page">
-    <button class="backbtn" onclick="history.back()">${esc(u("nav.back"))}</button>
+    <button class="backbtn" onclick="albBack()">${esc(u("nav.back"))}</button>
     <div class="albhead">${img(a.cov)}<div><div class="g" translate="no">${esc(g.name)}</div><h2 translate="no">${esc(a.t)}</h2>
       <div class="y">${a.y}${a.tip?" · "+esc(a.tip):""}${era?" · "+esc(era.t):""}</div><div style="margin-top:6px">${badge(a)}</div></div></div>
     ${albPlayable(pl,tr)?`<button class="btn primary" style="width:100%" onclick="playTrack(0)">▶ ${esc(u("album.playalbum"))}</button>`:`<div class="player" id="player">${playerHTML(pl,tr,g.artist,a.t,null)}</div>`}
@@ -205,7 +217,7 @@ function spCtl(api,el,uri,h,onCtl){/* denetleyici + yüklenince çal */
     if(onCtl)onCtl(c);res(c);}));}
 function spLoad(c,uri){c._pend=true;c.loadUri(uri);setTimeout(()=>{if(c._pend){c._pend=false;try{c.play();}catch(e){}}},1500);}
 function playTrack(i){qPlay("alb:"+CUR.id,i);}
-function closeAlbum(silent){if(!CUR)return;albSpReset();CUR=null;$("albview").classList.remove("show");$("albview").innerHTML="";document.body.style.overflow="";layoutDock();
+function closeAlbum(silent){if(!CUR)return;albSpReset();CUR=null;ALBLEN=0;$("albview").classList.remove("show");$("albview").innerHTML="";document.body.style.overflow="";layoutDock();
   if(!silent)window.scrollTo(0,SCROLLY);}
 window.addEventListener("popstate",()=>{const m=location.hash.match(/^#a=(.+)$/);if(m){if(!CUR||CUR.id!==m[1])openAlbum(m[1]);}else closeAlbum();});
 
@@ -218,12 +230,12 @@ const ACCT={st:"off",user:null,api:null,p:null};
 function acctOn(){const c=window.FIREBASE_CONFIG;return !!(c&&c.apiKey&&c.projectId);}
 const ACCT_HOOKS={
   getLists:()=>LISTS,
-  setLists:arr=>{LISTS=arr;store.set("lists",LISTS);acctRefresh(true);},
+  setLists:arr=>{LISTS=arr;listIdxFix(LISTS);store.set("lists",LISTS);acctRefresh(true);},
   onState:(st,user)=>{ACCT.st=st;ACCT.user=user;if(st==="on"||st==="sync")store.set("acct",true);if(st==="out")store.set("acct",false);acctRefresh(false);},
   toast:m=>toast(m),t:(k,p)=>u(k,p)};
 function loadAcct(){if(!acctOn())return Promise.resolve(null);
   if(!ACCT.p){if(ACCT.st==="off")ACCT.st="loading";
-    ACCT.p=import("./hesap.js?v=8").then(m=>m.start(window.FIREBASE_CONFIG,ACCT_HOOKS)).then(api=>{ACCT.api=api;return api;})
+    ACCT.p=import("./hesap.js?v=9").then(m=>m.start(window.FIREBASE_CONFIG,ACCT_HOOKS)).then(api=>{ACCT.api=api;return api;})
       .catch(e=>{console.error(e);ACCT.p=null;ACCT.st="err";acctRefresh(false);return null;});}
   return ACCT.p;}
 function acctRefresh(lists){
@@ -357,7 +369,7 @@ async function playItem(x){
 }
 async function ytPlay(id){
   await loadYT();
-  if(ENG!=="yt"||!YTP){resetPlayer();$("dkpl").innerHTML='<div id="ytp"></div>';ENG="yt";
+  if(ENG!=="yt"||!YTP||!MOB){resetPlayer();$("dkpl").innerHTML='<div id="ytp"></div>';ENG="yt";
     YTP=new YT.Player("ytp",{host:"https://www.youtube-nocookie.com",videoId:id,width:"100%",height:"100%",
       playerVars:{autoplay:1,playsinline:1,rel:0,modestbranding:1},
       events:{onReady:ev=>ev.target.playVideo(),onStateChange:ev=>{if(ev.data===0)qNext(true);},onError:()=>setTimeout(()=>qNext(true),800)}});
@@ -367,7 +379,7 @@ async function ytPlay(id){
 async function spPlay(id){
   const api=await loadSP();const uri="spotify:track:"+id;
   SPST={t0:Date.now(),started:false,done:false,last:0};
-  if(ENG!=="sp"||!SPC){resetPlayer();$("dkpl").innerHTML='<div id="spp"></div>';ENG="sp";$("dkpl").className="dk-pl sp";
+  if(ENG!=="sp"||!SPC||!MOB){resetPlayer();$("dkpl").innerHTML='<div id="spp"></div>';ENG="sp";$("dkpl").className="dk-pl sp";
     SPC=await spCtl(api,$("spp"),uri,80,c=>c.addListener("playback_update",spUpd));
     layoutDock();}
   else spLoad(SPC,uri);
