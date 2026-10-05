@@ -1,4 +1,4 @@
-/* Prog Rock Atlas — v13 (müzisyen sayfaları) / v7 (hesap + eşitleme) / v6 (Spotify önizleme algılama) / v5 (tek çalar) / v4 (çalar düzeltmeleri) / v3 (liste çalar) / v2: diller, platformlar, çalar, kişisel listeler */
+/* Prog Rock Atlas — v14 (ana sayfa bağlantısı, gezinme yığını, müzisyen hap bilgileri) / v13 (müzisyen sayfaları) / v7 (hesap + eşitleme) / v6 (Spotify önizleme algılama) / v5 (tek çalar) / v4 (çalar düzeltmeleri) / v3 (liste çalar) / v2: diller, platformlar, çalar, kişisel listeler */
 let DATA=[], T={}, F={}, U={}, LANG="tr", NDATA=null, TRK=null;
 const PLATS=[["spotify","#1DB954"],["apple","#fa233b"],["youtube","#ff3b30"],["tidal","#33b5e5"]];
 const store={get(k,d){try{const v=localStorage.getItem("atlas."+k);return v===null?d:JSON.parse(v);}catch(e){return d;}},
@@ -59,14 +59,14 @@ async function setLang(l){
   if(!NDATA)NDATA=await getJSON("data.json");
   DATA=build(NDATA);
   document.title=u("app.title");
-  document.querySelector(".brand h1").textContent=u("app.title");
+  document.querySelector(".brand h1 a").textContent=u("app.title");
   $("q").placeholder=u("search.placeholder");
   $("install").textContent=u("install");
   $("lang").value=l;
   renderTabbar();renderPlatBadge();initChips();render();
   if($("v-lists").classList.contains("on"))renderLists();
   if($("v-settings").classList.contains("on"))renderSettings();
-  if(CUR&&CUR.m)openMus(CUR.m);else if(CUR)openAlbum(CUR.id,CUR.tab);
+  if(CUR&&CUR.m)openMus(CUR.m,"pop");else if(CUR)openAlbum(CUR.id,CUR.tab,"pop");
 }
 
 /* ---------- alt menü ---------- */
@@ -84,6 +84,11 @@ function go(v){
   if(v==="lists"){OPENLIST=null;renderLists();} if(v==="settings")renderSettings();
   renderTabbar();window.scrollTo(0,0);
 }
+/* v14: başlık = ana sayfa — açık albüm/müzisyen sayfasını kapat, aramayı ve filtreleri sıfırla */
+function goHome(e){if(e)e.preventDefault();
+  const had=!!CUR;go("atlas");
+  if(had||location.hash){try{history.pushState(null,"",location.pathname+location.search);}catch(x){}}
+  query="";$("q").value="";activeFilter="all";coreOnly=false;initChips();render();window.scrollTo(0,0);}
 function renderPlatBadge(){const b=$("platbadge");if(!PLAT){b.innerHTML="";return;}
   b.innerHTML=`<span class="plat-dot" style="background:${platColor(PLAT)}"></span>${esc(platName(PLAT))}`;}
 
@@ -178,27 +183,40 @@ function playerHTML(pl,tr,artist,title,trackIdx){
 }
 function albPlayable(pl,tr){return (pl==="spotify"||pl==="youtube")&&(tr.tr||[]).some(t=>t.sp||t.yt);}
 function trackHasPlay(pl,t){return (pl==="spotify"&&t.sp)||(pl==="youtube"&&t.yt);}
-async function openAlbum(aid,tab){
-  const f=findAlbum(aid);if(!f)return;const {g,a}=f;
+/* v14: gezinme yığını — albüm › müzisyen › albüm … Geri her zaman bir önceki ekrana (ve o ekranın sekmesine/kaydırma yerine) döner.
+   mode: undefined = yeni ekran (yığına ekle), "pop" = geri/ileri ya da yeniden çizim (geçmişe dokunma),
+         "replace" = elle geri (geçerli geçmiş kaydını değiştir), "init" = sayfa açılışı */
+let NAV=[],ALBLEN=0;
+function navTop(){return NAV[NAV.length-1];}
+function navSet(e,mode){
+  if(mode==="pop"||mode==="replace"){if(!NAV.length)NAV.push(e);else Object.assign(navTop(),e);}
+  else{if(mode==="init"||!CUR)NAV=[];else if(navTop())navTop().y=$("albview").scrollTop;if(mode==="init")e.i=1;NAV.push(e);}
+  /* i: sayfa bu adresle açıldı — bu kayıttan history.back() siteden çıkarır, o yüzden elle kapatılır */
+  const h=e.a?"#a="+e.a:"#m="+e.m,st={a:e.a||null,m:e.m||null,tab:navTop().tab||null,d:NAV.length,i:NAV.length===1&&NAV[0].i?1:0};
+  try{if(mode==="pop"){}else if(mode==="replace"||mode==="init"||location.hash===h&&!CUR)history.replaceState(st,"",h);else history.pushState(st,"",h);}catch(x){}
+  ALBLEN=history.length;}
+async function openAlbum(aid,tab,mode,y){
+  const f=findAlbum(aid);if(!f)return;
   if(!CUR)SCROLLY=window.scrollY;
+  navSet({a:aid,tab:tab||"tracks"},mode);
   CUR={id:aid,tab:tab||"tracks",track:null};
   await Promise.all([loadTracks(),loadKadro()]);
   renderAlbum();
-  $("albview").classList.add("show");$("albview").scrollTop=0;document.body.style.overflow="hidden";layoutDock();
-  if(location.hash!=="#a="+aid){history.pushState({a:aid},"","#a="+aid);ALBLEN=history.length;}
-  else if(!ALBLEN)ALBLEN=history.length;
+  $("albview").classList.add("show");$("albview").scrollTop=y||0;document.body.style.overflow="hidden";layoutDock();
 }
-/* v9: Geri düğmesi — gömülü çalarlar geçmişe kayıt eklediyse tek tek geri gitmek yerine doğrudan üst ekrana dön */
-let ALBLEN=0;
-function albBack(){if(ALBLEN&&history.length===ALBLEN&&history.state&&(history.state.a||history.state.m)){history.back();return;}
-  closeAlbum();ALBLEN=0;try{history.replaceState(null,"",location.pathname+location.search);}catch(e){}}
+function navShow(p,mode){if(p.m)openMus(p.m,mode,p.y);else openAlbum(p.a,p.tab,mode,p.y);}
+function albBack(){const d=NAV.length;
+  if(d&&history.length===ALBLEN&&history.state&&history.state.d===d&&!history.state.i){history.back();return;}
+  NAV.pop();const p=navTop();
+  if(p){navShow(p,"replace");return;}
+  closeAlbum();try{history.replaceState(null,"",location.pathname+location.search);}catch(e){}}
 function renderAlbum(){
   albSpReset();
   const {g,a}=findAlbum(CUR.id);const tr=TRK[a.id]||{tr:[]};const pl=PLAT||"spotify";
   const era=(g.eras&&g.eras[a.e||0])?g.eras[a.e||0]:null;
   const others=PLATS.map(p=>p[0]).filter(p=>p!==pl).map(p=>`<a class="btn small ghost" href="${p==="spotify"&&tr.sp?"https://open.spotify.com/album/"+tr.sp:p==="youtube"&&tr.yt?"https://www.youtube.com/playlist?list="+tr.yt:p==="apple"&&tr.am?tr.am:searchURL(p,g.artist,a.t)}" target="_blank" rel="noopener"><span class="plat-dot" style="background:${platColor(p)}"></span>${esc(platName(p))}</a>`).join("");
   $("albview").innerHTML=`<div class="page">
-    <button class="backbtn" onclick="albBack()">${esc(u("nav.back"))}</button>
+    <div class="navrow"><button class="backbtn" onclick="albBack()">${esc(u("nav.back"))}</button><a class="homebtn" href="./" onclick="goHome(event)" translate="no">${esc(u("app.title"))} ⌂</a></div>
     <div class="albhead">${img(a.cov)}<div><div class="g" translate="no">${esc(g.name)}</div><h2 translate="no">${esc(a.t)}</h2>
       <div class="y">${a.y}${a.tip?" · "+esc(a.tip):""}${era?" · "+esc(era.t):""}</div><div style="margin-top:6px">${badge(a)}</div></div></div>
     ${albPlayable(pl,tr)?`<button class="btn primary" style="width:100%" onclick="playTrack(0)">▶ ${esc(u("album.playalbum"))}</button>`:`<div class="player" id="player">${playerHTML(pl,tr,g.artist,a.t,null)}</div>`}
@@ -240,7 +258,9 @@ function albBodyHTML(){
   return body;
 }
 function updAlbBody(){if(!CUR||!$("albbody"))return renderAlbum();$("albtabs").innerHTML=albTabsHTML();$("albbody").innerHTML=albBodyHTML();}
-function albTab(k){CUR.tab=k;updAlbBody();}
+function albTab(k){CUR.tab=k;const t=navTop();if(t&&t.a)t.tab=k;
+  try{const s=history.state;if(s&&s.a===CUR.id&&s.d===NAV.length)history.replaceState(Object.assign({},s,{tab:k}),"",location.hash);}catch(e){}
+  updAlbBody();}
 let ALBC=null;
 function albSpReset(){try{if(ALBC)ALBC.destroy();}catch(e){}ALBC=null;}
 function spCtl(api,el,uri,h,onCtl){/* denetleyici + yüklenince çal */
@@ -250,26 +270,31 @@ function spCtl(api,el,uri,h,onCtl){/* denetleyici + yüklenince çal */
     if(onCtl)onCtl(c);res(c);}));}
 function spLoad(c,uri){c._pend=true;c.loadUri(uri);setTimeout(()=>{if(c._pend){c._pend=false;try{c.play();}catch(e){}}},1500);}
 function playTrack(i){qPlay("alb:"+CUR.id,i);}
-function closeAlbum(silent){if(!CUR)return;albSpReset();CUR=null;ALBLEN=0;$("albview").classList.remove("show");$("albview").innerHTML="";document.body.style.overflow="";layoutDock();
+function closeAlbum(silent){NAV=[];if(!CUR)return;albSpReset();CUR=null;ALBLEN=0;$("albview").classList.remove("show");$("albview").innerHTML="";document.body.style.overflow="";layoutDock();
   if(!silent)window.scrollTo(0,SCROLLY);}
-async function openMus(mid){
-  await loadKadro();if(!KAD.m[mid])return;
+async function openMus(mid,mode,y){
+  await Promise.all([loadKadro(),loadBio()]);if(!KAD.m[mid])return;
   if(!CUR)SCROLLY=window.scrollY;
+  navSet({m:mid},mode);
   albSpReset();CUR={id:null,m:mid,tab:"tracks"};
   renderMus();
-  $("albview").classList.add("show");$("albview").scrollTop=0;document.body.style.overflow="hidden";layoutDock();
-  if(location.hash!=="#m="+mid){history.pushState({m:mid},"","#m="+mid);ALBLEN=history.length;}
-  else if(!ALBLEN)ALBLEN=history.length;
+  $("albview").classList.add("show");$("albview").scrollTop=y||0;document.body.style.overflow="hidden";layoutDock();
 }
+/* v14: müzisyen hap bilgisi (Wikipedia girişinden 3–5 cümle) — bio_<dil>.json, yoksa İngilizce */
+const BIO={};
+function loadBio(){const ls=[...new Set([LANG,"en"])];
+  return Promise.all(ls.map(l=>BIO[l]?BIO[l]:(BIO[l]=getJSON("bio_"+l+".json").catch(()=>({}))).then(x=>BIO[l]=x)));}
+function bioOf(mid){for(const l of [LANG,"en"]){const b=BIO[l];if(b&&!(b instanceof Promise)&&b[mid])return {t:b[mid],l};}return null;}
 function renderMus(){
   const mid=CUR.m,m=KAD.m[mid],wiki=m[1]||m[0];
   const L=(MUSALB[mid]||[]).map(([aid,r,k])=>{const f=findAlbum(aid);return f?{g:f.g,a:f.a,r,k}:null;}).filter(Boolean)
     .sort((x,y)=>x.a.y-y.a.y||x.g.name.localeCompare(y.g.name));
   const gs=[];for(const x of L){const o=gs.find(z=>z.g===x.g);if(o)o.n++;else gs.push({g:x.g,n:1});}
   $("albview").innerHTML=`<div class="page">
-    <button class="backbtn" onclick="albBack()">${esc(u("nav.back"))}</button>
+    <div class="navrow"><button class="backbtn" onclick="albBack()">${esc(u("nav.back"))}</button><a class="homebtn" href="./" onclick="goHome(event)" translate="no">${esc(u("app.title"))} ⌂</a></div>
     <div class="mushead"><h2 translate="no">${esc(m[0])}</h2>
       <div class="y">${esc(u(L.length===1?"mus.album1":"mus.albums",{n:L.length}))} · <a href="https://en.wikipedia.org/wiki/${encodeURIComponent(wiki.replace(/ /g,"_"))}" target="_blank" rel="noopener">Wikipedia ↗</a></div>
+      ${(b=>b?`<p class="bio" lang="${b.l}">${esc(b.t)}</p>`:"")(bioOf(mid))}
       <div class="musg">${gs.map(x=>`<span class="pill" translate="no">${esc(x.g.name)} <b>${x.n}</b></span>`).join("")}</div></div>
     ${L.map(x=>`<div class="alb" onclick="openAlbum('${x.a.id}')">${img(x.a.cov)}
       <div class="alb-info"><div class="t" translate="no">${esc(x.a.t)}</div>
@@ -277,8 +302,13 @@ function renderMus(){
       <div class="y mr">${esc(rolTxt(x.r))}${x.k?` · <i>${esc(u("mus.guest"))}</i>`:""}</div></div><span class="go">›</span></div>`).join("")}
     <p class="muted ksrc">${esc(u("kadro.src"))}</p></div>`;
 }
-window.addEventListener("popstate",()=>{const m=location.hash.match(/^#a=(.+)$/),mm=location.hash.match(/^#m=(.+)$/);
-  if(m){if(!CUR||CUR.id!==m[1])openAlbum(m[1]);}else if(mm){if(!CUR||CUR.m!==mm[1])openMus(mm[1]);}else closeAlbum();});
+window.addEventListener("popstate",e=>{const s=e.state;
+  if(s&&s.d&&(s.a||s.m)){const old=NAV[s.d-1],same=old&&old.a==s.a&&old.m==s.m;
+    NAV.length=Math.min(NAV.length,s.d-1);const p=same?old:{a:s.a,m:s.m,tab:s.tab||"tracks"};NAV.push(p);
+    if(CUR&&(p.m?CUR.m===p.m:CUR.id===p.a&&CUR.tab===p.tab))return;
+    navShow(p,"pop");return;}
+  const m=location.hash.match(/^#a=(.+)$/),mm=location.hash.match(/^#m=(.+)$/);
+  if(m){if(!CUR||CUR.id!==m[1])openAlbum(m[1],null,CUR?undefined:"init");}else if(mm){if(!CUR||CUR.m!==mm[1])openMus(mm[1],CUR?undefined:"init");}else closeAlbum();});
 
 /* ---------- listeler (cihazda saklanır) ---------- */
 let LISTS=store.get("lists",[]);
@@ -550,6 +580,8 @@ $("addbg").onclick=closeAdd;
   try{await setLang(detectLang());}catch(err){console.error(err);$("main").innerHTML='<div class="empty">Veri yüklenemedi / Could not load data (http/https).</div>';return;}
   if(!PLAT)showWelcome();
   if(acctOn()&&store.get("acct",false))loadAcct();
-  const m=location.hash.match(/^#a=(.+)$/),mm=location.hash.match(/^#m=(.+)$/);if(m)openAlbum(m[1]);else if(mm)openMus(mm[1]);
+  const m=location.hash.match(/^#a=(.+)$/),mm=location.hash.match(/^#m=(.+)$/),hs=history.state;
+  if(m)openAlbum(m[1],hs&&hs.a===m[1]&&hs.tab||null,"init");else if(mm)openMus(mm[1],"init");
+  $("home").onclick=goHome;
   loadTracks();loadKadro();
 })();

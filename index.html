@@ -202,6 +202,9 @@
   .albhead .g{color:var(--amber);font-size:12.5px;font-weight:600}
   .albhead h2{font-family:Georgia,serif;font-size:22px;line-height:1.15;margin:3px 0}
   .albhead .y{font-size:13px;color:var(--muted)}
+  .navrow{display:flex;align-items:center;justify-content:space-between;gap:10px}
+  .homebtn{font-family:Georgia,serif;font-size:13px;color:var(--muted);text-decoration:none;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .homebtn:hover{color:var(--amber)}
   .backbtn{background:none;border:0;color:var(--ink);font-weight:600;font-size:15px;font-family:inherit;padding:8px 0;cursor:pointer}
   .player{border-radius:12px;overflow:hidden;background:#0f0d17;border:1px solid #2a2340;margin-bottom:6px}
   .player iframe{display:block;width:100%;border:0}
@@ -220,6 +223,9 @@
   .krow .go,.alb .go{color:var(--faint)}
   .ksrc{font-size:11.5px;margin-top:14px}
   .mushead{margin:6px 0 14px}
+  .brand h1 a.home{color:inherit;text-decoration:none;cursor:pointer}
+  .brand h1 a.home:hover{color:var(--amber)}
+  .mushead .bio{font-size:14px;line-height:1.55;margin:10px 0 2px;color:var(--ink)}
   .mushead h2{font-family:Georgia,serif;font-size:26px;line-height:1.15;margin:3px 0 4px}
   .mushead .y{font-size:13px;color:var(--muted)}
   .mushead a{color:var(--amber)}
@@ -324,7 +330,7 @@
 <body>
 <div id="v-atlas" class="view on">
 <header>
-  <div class="brand"><h1>Prog Rock Atlas</h1><span class="yr">1967–2020</span><span class="platbadge" id="platbadge"></span><select id="lang" class="langsel" aria-label="Language"><option value="tr">TR</option><option value="en">EN</option><option value="de">DE</option></select></div>
+  <div class="brand"><h1><a href="./" id="home" class="home" title="Home">Prog Rock Atlas</a></h1><span class="yr">1967–2020</span><span class="platbadge" id="platbadge"></span><select id="lang" class="langsel" aria-label="Language"><option value="tr">TR</option><option value="en">EN</option><option value="de">DE</option></select></div>
   <input class="search" id="q" autocomplete="off">
   <div class="fwrap"><button class="fnav" id="fprev" aria-label="‹">‹</button><div class="filters" id="filters"></div><button class="fnav r" id="fnext" aria-label="›">›</button></div>
 </header>
@@ -343,8 +349,8 @@
 <div class="toast" id="toast"></div>
 <button class="install" id="install"></button>
 <button class="toTop" id="toTop">↑</button>
-<script src="firebase-config.js?v=13"></script>
-<script src="app.js?v=13"></script>
+<script src="firebase-config.js?v=14"></script>
+<script src="app.js?v=14"></script>
 <script>
 const toTop=document.getElementById("toTop");
 window.addEventListener("scroll",()=>{toTop.style.display=window.scrollY>600?"block":"none";});
