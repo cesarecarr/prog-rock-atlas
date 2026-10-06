@@ -1,4 +1,4 @@
-/* Prog Rock Atlas — v14 (ana sayfa bağlantısı, gezinme yığını, müzisyen hap bilgileri) / v13 (müzisyen sayfaları) / v7 (hesap + eşitleme) / v6 (Spotify önizleme algılama) / v5 (tek çalar) / v4 (çalar düzeltmeleri) / v3 (liste çalar) / v2: diller, platformlar, çalar, kişisel listeler */
+/* Prog Rock Atlas — v16 (masaüstü: pencere gizliyken sıradaki parçaya geçiş) / v14 (ana sayfa bağlantısı, gezinme yığını, müzisyen hap bilgileri) / v13 (müzisyen sayfaları) / v7 (hesap + eşitleme) / v6 (Spotify önizleme algılama) / v5 (tek çalar) / v4 (çalar düzeltmeleri) / v3 (liste çalar) / v2: diller, platformlar, çalar, kişisel listeler */
 let DATA=[], T={}, F={}, U={}, LANG="tr", NDATA=null, TRK=null;
 const PLATS=[["spotify","#1DB954"],["apple","#fa233b"],["youtube","#ff3b30"],["tidal","#33b5e5"]];
 const store={get(k,d){try{const v=localStorage.getItem("atlas."+k);return v===null?d:JSON.parse(v);}catch(e){return d;}},
@@ -456,9 +456,12 @@ async function playItem(x){
   const e=qEng(x),d=qIds(x);
   try{if(e==="yt")await ytPlay(d.yt);else if(e==="sp")await spPlay(d.sp);}catch(err){console.error(err);toast(u("dock.error"));}
 }
+/* v16: masaüstünde pencere gizli/simge durumundayken yeni iframe açılırsa tarayıcı sesi pencere görünene kadar başlatmıyor.
+   Gizliyken mevcut çaları yeniden kullan (telefondaki gibi); görünürken v9'daki gibi yeni iframe (Geri tuşu geçmişi temiz kalsın). */
+function reusePl(){return MOB||document.hidden;}
 async function ytPlay(id){
   await loadYT();
-  if(ENG!=="yt"||!YTP||!MOB){resetPlayer();$("dkpl").innerHTML='<div id="ytp"></div>';ENG="yt";
+  if(ENG!=="yt"||!YTP||!reusePl()){resetPlayer();$("dkpl").innerHTML='<div id="ytp"></div>';ENG="yt";
     YTP=new YT.Player("ytp",{host:"https://www.youtube-nocookie.com",videoId:id,width:"100%",height:"100%",
       playerVars:{autoplay:1,playsinline:1,rel:0,modestbranding:1},
       events:{onReady:ev=>ev.target.playVideo(),onStateChange:ev=>{if(ev.data===0)qNext(true);},onError:()=>setTimeout(()=>qNext(true),800)}});
@@ -468,7 +471,7 @@ async function ytPlay(id){
 async function spPlay(id){
   const api=await loadSP();const uri="spotify:track:"+id;
   SPST={t0:Date.now(),started:false,done:false,last:0};
-  if(ENG!=="sp"||!SPC||!MOB){resetPlayer();$("dkpl").innerHTML='<div id="spp"></div>';ENG="sp";$("dkpl").className="dk-pl sp";
+  if(ENG!=="sp"||!SPC||!reusePl()){resetPlayer();$("dkpl").innerHTML='<div id="spp"></div>';ENG="sp";$("dkpl").className="dk-pl sp";
     SPC=await spCtl(api,$("spp"),uri,80,c=>c.addListener("playback_update",spUpd));
     layoutDock();}
   else spLoad(SPC,uri);
