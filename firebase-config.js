@@ -13,7 +13,7 @@ window.FIREBASE_CONFIG = {
 
 /* Gizlilik metninde "sorumlu kişi" olarak görünecek bilgiler */
 window.SITE_OWNER = {
-  name: "",   /* ör. "Barış …" */
-  city: "",   /* ör. "Wien, Österreich" */
-  email: ""   /* gizlilik soruları için iletişim adresi */
+  name: "Cesare A. Carr",
+  city: "Wien, Österreich",
+  email: "cesareacarr@gmail.com"
 };

@@ -342,6 +342,54 @@
 "cov": "kapaklar/aphrodite-s-child-1972-666.jpg"
 }
 ]
+},
+{
+"id": "the-doors",
+"artist": "The Doors",
+"albums": [
+{
+"id": "the-doors-1967-the-doors",
+"t": "The Doors",
+"y": 1967,
+"onc": "temel",
+"cov": "kapaklar/the-doors-1967-the-doors.jpg"
+},
+{
+"id": "the-doors-1967-strange-days",
+"t": "Strange Days",
+"y": 1967,
+"onc": "onerilir",
+"cov": "kapaklar/the-doors-1967-strange-days.jpg"
+},
+{
+"id": "the-doors-1968-waiting-for-the-sun",
+"t": "Waiting for the Sun",
+"y": 1968,
+"onc": "istege",
+"cov": "kapaklar/the-doors-1968-waiting-for-the-sun.jpg"
+},
+{
+"id": "the-doors-1969-the-soft-parade",
+"t": "The Soft Parade",
+"y": 1969,
+"onc": "istege",
+"cov": "kapaklar/the-doors-1969-the-soft-parade.jpg"
+},
+{
+"id": "the-doors-1970-morrison-hotel",
+"t": "Morrison Hotel",
+"y": 1970,
+"onc": "onerilir",
+"cov": "kapaklar/the-doors-1970-morrison-hotel.jpg"
+},
+{
+"id": "the-doors-1971-l-a-woman",
+"t": "L.A. Woman",
+"y": 1971,
+"onc": "temel",
+"cov": "kapaklar/the-doors-1971-l-a-woman.jpg"
+}
+]
 }
 ]
 },
@@ -4047,6 +4095,164 @@
 ]
 },
 {
+"id": "led-zeppelin",
+"artist": "Led Zeppelin",
+"albums": [
+{
+"id": "led-zeppelin-1969-led-zeppelin",
+"t": "Led Zeppelin",
+"y": 1969,
+"onc": "temel",
+"cov": "kapaklar/led-zeppelin-1969-led-zeppelin.jpg"
+},
+{
+"id": "led-zeppelin-1969-led-zeppelin-ii",
+"t": "Led Zeppelin II",
+"y": 1969,
+"onc": "temel",
+"cov": "kapaklar/led-zeppelin-1969-led-zeppelin-ii.jpg"
+},
+{
+"id": "led-zeppelin-1970-led-zeppelin-iii",
+"t": "Led Zeppelin III",
+"y": 1970,
+"onc": "onerilir",
+"cov": "kapaklar/led-zeppelin-1970-led-zeppelin-iii.jpg"
+},
+{
+"id": "led-zeppelin-1971-led-zeppelin-iv",
+"t": "Led Zeppelin IV",
+"y": 1971,
+"onc": "temel",
+"cov": "kapaklar/led-zeppelin-1971-led-zeppelin-iv.jpg"
+},
+{
+"id": "led-zeppelin-1973-houses-of-the-holy",
+"t": "Houses of the Holy",
+"y": 1973,
+"onc": "onerilir",
+"cov": "kapaklar/led-zeppelin-1973-houses-of-the-holy.jpg"
+},
+{
+"id": "led-zeppelin-1975-physical-graffiti",
+"t": "Physical Graffiti",
+"y": 1975,
+"onc": "temel",
+"cov": "kapaklar/led-zeppelin-1975-physical-graffiti.jpg"
+},
+{
+"id": "led-zeppelin-1976-presence",
+"t": "Presence",
+"y": 1976,
+"onc": "istege",
+"cov": "kapaklar/led-zeppelin-1976-presence.jpg"
+},
+{
+"id": "led-zeppelin-1979-in-through-the-out-door",
+"t": "In Through the Out Door",
+"y": 1979,
+"onc": "istege",
+"cov": "kapaklar/led-zeppelin-1979-in-through-the-out-door.jpg"
+}
+]
+},
+{
+"id": "jimmy-page",
+"artist": "Jimmy Page",
+"albums": [
+{
+"id": "jimmy-page-1982-death-wish-ii",
+"t": "Death Wish II",
+"y": 1982,
+"onc": "istege",
+"cov": "kapaklar/jimmy-page-1982-death-wish-ii.jpg"
+},
+{
+"id": "jimmy-page-1985-the-firm",
+"t": "The Firm",
+"y": 1985,
+"onc": "istege",
+"cov": "kapaklar/jimmy-page-1985-the-firm.jpg"
+},
+{
+"id": "jimmy-page-1988-outrider",
+"t": "Outrider",
+"y": 1988,
+"onc": "istege",
+"cov": "kapaklar/jimmy-page-1988-outrider.jpg"
+},
+{
+"id": "jimmy-page-1993-coverdale-page",
+"t": "Coverdale-Page",
+"y": 1993,
+"onc": "istege",
+"cov": "kapaklar/jimmy-page-1993-coverdale-page.jpg"
+},
+{
+"id": "jimmy-page-1994-no-quarter-unledded",
+"t": "No Quarter (Unledded)",
+"y": 1994,
+"onc": "onerilir",
+"cov": "kapaklar/jimmy-page-1994-no-quarter-unledded.jpg"
+},
+{
+"id": "jimmy-page-1998-walking-into-clarksdale",
+"t": "Walking into Clarksdale",
+"y": 1998,
+"onc": "istege",
+"cov": "kapaklar/jimmy-page-1998-walking-into-clarksdale.jpg"
+}
+]
+},
+{
+"id": "robert-plant",
+"artist": "Robert Plant",
+"albums": [
+{
+"id": "robert-plant-1982-pictures-at-eleven",
+"t": "Pictures at Eleven",
+"y": 1982,
+"onc": "istege",
+"cov": "kapaklar/robert-plant-1982-pictures-at-eleven.jpg"
+},
+{
+"id": "robert-plant-1983-the-principle-of-moments",
+"t": "The Principle of Moments",
+"y": 1983,
+"onc": "onerilir",
+"cov": "kapaklar/robert-plant-1983-the-principle-of-moments.jpg"
+},
+{
+"id": "robert-plant-1988-now-and-zen",
+"t": "Now and Zen",
+"y": 1988,
+"onc": "istege",
+"cov": "kapaklar/robert-plant-1988-now-and-zen.jpg"
+},
+{
+"id": "robert-plant-1993-fate-of-nations",
+"t": "Fate of Nations",
+"y": 1993,
+"onc": "onerilir",
+"cov": "kapaklar/robert-plant-1993-fate-of-nations.jpg"
+},
+{
+"id": "robert-plant-2005-mighty-rearranger",
+"t": "Mighty ReArranger",
+"y": 2005,
+"onc": "onerilir",
+"cov": "kapaklar/robert-plant-2005-mighty-rearranger.jpg"
+},
+{
+"id": "robert-plant-2007-raising-sand",
+"t": "Raising Sand",
+"y": 2007,
+"onc": "onerilir",
+"cov": "kapaklar/robert-plant-2007-raising-sand.jpg"
+}
+]
+},
+{
 "id": "deep-purple",
 "artist": "Deep Purple",
 "albums": [
@@ -4994,6 +5200,258 @@
 "yil": "2005–2011",
 "from": 2005,
 "to": 2011
+}
+]
+}
+]
+},
+{
+"no": 20,
+"groups": [
+{
+"id": "frank-zappa",
+"artist": "Frank Zappa",
+"albums": [
+{
+"id": "frank-zappa-1966-freak-out",
+"t": "Freak Out!",
+"y": 1966,
+"onc": "temel",
+"e": 0,
+"cov": "kapaklar/frank-zappa-1966-freak-out.jpg"
+},
+{
+"id": "frank-zappa-1967-absolutely-free",
+"t": "Absolutely Free",
+"y": 1967,
+"onc": "istege",
+"e": 0,
+"cov": "kapaklar/frank-zappa-1967-absolutely-free.jpg"
+},
+{
+"id": "frank-zappa-1968-we-re-only-in-it-for-the-money",
+"t": "We're Only in It for the Money",
+"y": 1968,
+"onc": "temel",
+"e": 0,
+"cov": "kapaklar/frank-zappa-1968-we-re-only-in-it-for-the-money.jpg"
+},
+{
+"id": "frank-zappa-1968-lumpy-gravy",
+"t": "Lumpy Gravy",
+"y": 1968,
+"onc": "istege",
+"e": 0,
+"cov": "kapaklar/frank-zappa-1968-lumpy-gravy.jpg"
+},
+{
+"id": "frank-zappa-1969-uncle-meat",
+"t": "Uncle Meat",
+"y": 1969,
+"onc": "onerilir",
+"e": 0,
+"cov": "kapaklar/frank-zappa-1969-uncle-meat.jpg"
+},
+{
+"id": "frank-zappa-1969-hot-rats",
+"t": "Hot Rats",
+"y": 1969,
+"onc": "temel",
+"e": 1,
+"cov": "kapaklar/frank-zappa-1969-hot-rats.jpg"
+},
+{
+"id": "frank-zappa-1972-waka-jawaka",
+"t": "Waka/Jawaka",
+"y": 1972,
+"onc": "istege",
+"e": 1,
+"cov": "kapaklar/frank-zappa-1972-waka-jawaka.jpg"
+},
+{
+"id": "frank-zappa-1972-the-grand-wazoo",
+"t": "The Grand Wazoo",
+"y": 1972,
+"onc": "onerilir",
+"e": 1,
+"cov": "kapaklar/frank-zappa-1972-the-grand-wazoo.jpg"
+},
+{
+"id": "frank-zappa-1973-over-nite-sensation",
+"t": "Over-Nite Sensation",
+"y": 1973,
+"onc": "onerilir",
+"e": 2,
+"cov": "kapaklar/frank-zappa-1973-over-nite-sensation.jpg"
+},
+{
+"id": "frank-zappa-1974-apostrophe",
+"t": "Apostrophe (')",
+"y": 1974,
+"onc": "onerilir",
+"e": 2,
+"cov": "kapaklar/frank-zappa-1974-apostrophe.jpg"
+},
+{
+"id": "frank-zappa-1974-roxy-elsewhere",
+"t": "Roxy & Elsewhere",
+"y": 1974,
+"onc": "temel",
+"e": 2,
+"cov": "kapaklar/frank-zappa-1974-roxy-elsewhere.jpg"
+},
+{
+"id": "frank-zappa-1975-one-size-fits-all",
+"t": "One Size Fits All",
+"y": 1975,
+"onc": "temel",
+"e": 2,
+"cov": "kapaklar/frank-zappa-1975-one-size-fits-all.jpg"
+},
+{
+"id": "frank-zappa-1976-zoot-allures",
+"t": "Zoot Allures",
+"y": 1976,
+"onc": "istege",
+"e": 2,
+"cov": "kapaklar/frank-zappa-1976-zoot-allures.jpg"
+},
+{
+"id": "frank-zappa-1979-sheik-yerbouti",
+"t": "Sheik Yerbouti",
+"y": 1979,
+"onc": "istege",
+"e": 2,
+"cov": "kapaklar/frank-zappa-1979-sheik-yerbouti.jpg"
+},
+{
+"id": "frank-zappa-1979-joe-s-garage-acts-i-ii-iii",
+"t": "Joe's Garage: Acts I, II & III",
+"y": 1979,
+"onc": "onerilir",
+"e": 2,
+"cov": "kapaklar/frank-zappa-1979-joe-s-garage-acts-i-ii-iii.jpg"
+},
+{
+"id": "frank-zappa-1981-shut-up-n-play-yer-guitar",
+"t": "Shut Up 'n Play Yer Guitar",
+"y": 1981,
+"onc": "istege",
+"e": 3,
+"cov": "kapaklar/frank-zappa-1981-shut-up-n-play-yer-guitar.jpg"
+},
+{
+"id": "frank-zappa-1986-jazz-from-hell",
+"t": "Jazz from Hell",
+"y": 1986,
+"onc": "istege",
+"e": 3,
+"cov": "kapaklar/frank-zappa-1986-jazz-from-hell.jpg"
+},
+{
+"id": "frank-zappa-1993-the-yellow-shark",
+"t": "The Yellow Shark",
+"y": 1993,
+"onc": "onerilir",
+"e": 3,
+"cov": "kapaklar/frank-zappa-1993-the-yellow-shark.jpg"
+}
+],
+"eras": [
+{
+"yil": "1966–1969",
+"from": 1966,
+"to": 1969
+},
+{
+"yil": "1969–1972",
+"from": 1969,
+"to": 1972
+},
+{
+"yil": "1973–1979",
+"from": 1973,
+"to": 1979
+},
+{
+"yil": "1980–1993",
+"from": 1980,
+"to": 1993
+}
+]
+},
+{
+"id": "captain-beefheart",
+"artist": "Captain Beefheart",
+"albums": [
+{
+"id": "captain-beefheart-1967-safe-as-milk",
+"t": "Safe as Milk",
+"y": 1967,
+"onc": "onerilir",
+"cov": "kapaklar/captain-beefheart-1967-safe-as-milk.jpg"
+},
+{
+"id": "captain-beefheart-1969-trout-mask-replica",
+"t": "Trout Mask Replica",
+"y": 1969,
+"onc": "temel",
+"cov": "kapaklar/captain-beefheart-1969-trout-mask-replica.jpg"
+},
+{
+"id": "captain-beefheart-1970-lick-my-decals-off-baby",
+"t": "Lick My Decals Off, Baby",
+"y": 1970,
+"onc": "onerilir",
+"cov": "kapaklar/captain-beefheart-1970-lick-my-decals-off-baby.jpg"
+},
+{
+"id": "captain-beefheart-1972-clear-spot",
+"t": "Clear Spot",
+"y": 1972,
+"onc": "istege",
+"cov": "kapaklar/captain-beefheart-1972-clear-spot.jpg"
+},
+{
+"id": "captain-beefheart-1980-doc-at-the-radar-station",
+"t": "Doc at the Radar Station",
+"y": 1980,
+"onc": "istege",
+"cov": "kapaklar/captain-beefheart-1980-doc-at-the-radar-station.jpg"
+}
+]
+},
+{
+"id": "jean-luc-ponty",
+"artist": "Jean-Luc Ponty",
+"albums": [
+{
+"id": "jean-luc-ponty-1970-king-kong-jean-luc-ponty-plays-the-music-of-frank-zappa",
+"t": "King Kong: Jean-Luc Ponty Plays the Music of Frank Zappa",
+"y": 1970,
+"onc": "onerilir",
+"cov": "kapaklar/jean-luc-ponty-1970-king-kong-jean-luc-ponty-plays-the-music-of-frank-zappa.jpg"
+},
+{
+"id": "jean-luc-ponty-1976-imaginary-voyage",
+"t": "Imaginary Voyage",
+"y": 1976,
+"onc": "onerilir",
+"cov": "kapaklar/jean-luc-ponty-1976-imaginary-voyage.jpg"
+},
+{
+"id": "jean-luc-ponty-1977-enigmatic-ocean",
+"t": "Enigmatic Ocean",
+"y": 1977,
+"onc": "temel",
+"cov": "kapaklar/jean-luc-ponty-1977-enigmatic-ocean.jpg"
+},
+{
+"id": "jean-luc-ponty-1978-cosmic-messenger",
+"t": "Cosmic Messenger",
+"y": 1978,
+"onc": "istege",
+"cov": "kapaklar/jean-luc-ponty-1978-cosmic-messenger.jpg"
 }
 ]
 }

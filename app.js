@@ -282,18 +282,23 @@ async function openMus(mid,mode,y){
 }
 /* v14: müzisyen hap bilgisi (Wikipedia girişinden 3–5 cümle) — bio_<dil>.json, yoksa İngilizce */
 const BIO={};
+/* v18: bio_link.json = doğrulanmış Wikipedia maddeleri {mid:{en,de,tr}} — link sitenin dilinde; doğrulanmamışta link yok */
+let BLINK=null;
 function loadBio(){const ls=[...new Set([LANG,"en"])];
-  return Promise.all(ls.map(l=>BIO[l]?BIO[l]:(BIO[l]=getJSON("bio_"+l+".json").catch(()=>({}))).then(x=>BIO[l]=x)));}
+  const pl=BLINK?Promise.resolve(BLINK):(BLINK=getJSON("bio_link.json").catch(()=>({}))).then(x=>BLINK=x);
+  return Promise.all([pl,...ls.map(l=>BIO[l]?BIO[l]:(BIO[l]=getJSON("bio_"+l+".json").catch(()=>({}))).then(x=>BIO[l]=x))]);}
+function wikiOf(mid){const L=BLINK&&!(BLINK instanceof Promise)?BLINK[mid]:null;if(!L)return null;
+  const l=L[LANG]?LANG:"en";return `https://${l}.wikipedia.org/wiki/${encodeURIComponent(L[l].replace(/ /g,"_"))}`;}
 function bioOf(mid){for(const l of [LANG,"en"]){const b=BIO[l];if(b&&!(b instanceof Promise)&&b[mid])return {t:b[mid],l};}return null;}
 function renderMus(){
-  const mid=CUR.m,m=KAD.m[mid],wiki=m[1]||m[0];
+  const mid=CUR.m,m=KAD.m[mid],wiki=wikiOf(mid);
   const L=(MUSALB[mid]||[]).map(([aid,r,k])=>{const f=findAlbum(aid);return f?{g:f.g,a:f.a,r,k}:null;}).filter(Boolean)
     .sort((x,y)=>x.a.y-y.a.y||x.g.name.localeCompare(y.g.name));
   const gs=[];for(const x of L){const o=gs.find(z=>z.g===x.g);if(o)o.n++;else gs.push({g:x.g,n:1});}
   $("albview").innerHTML=`<div class="page">
     <div class="navrow"><button class="backbtn" onclick="albBack()">${esc(u("nav.back"))}</button><a class="homebtn" href="./" onclick="goHome(event)" translate="no">${esc(u("app.title"))} ⌂</a></div>
     <div class="mushead"><h2 translate="no">${esc(m[0])}</h2>
-      <div class="y">${esc(u(L.length===1?"mus.album1":"mus.albums",{n:L.length}))} · <a href="https://en.wikipedia.org/wiki/${encodeURIComponent(wiki.replace(/ /g,"_"))}" target="_blank" rel="noopener">Wikipedia ↗</a></div>
+      <div class="y">${esc(u(L.length===1?"mus.album1":"mus.albums",{n:L.length}))}${wiki?` · <a href="${wiki}" target="_blank" rel="noopener">Wikipedia ↗</a>`:""}</div>
       ${(b=>b?`<p class="bio" lang="${b.l}">${esc(b.t)}</p>`:"")(bioOf(mid))}
       <div class="musg">${gs.map(x=>`<span class="pill" translate="no">${esc(x.g.name)} <b>${x.n}</b></span>`).join("")}</div></div>
     ${L.map(x=>`<div class="alb" onclick="openAlbum('${x.a.id}')">${img(x.a.cov)}
