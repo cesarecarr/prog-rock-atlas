@@ -280,16 +280,16 @@ async function openMus(mid,mode,y){
   renderMus();
   $("albview").classList.add("show");$("albview").scrollTop=y||0;document.body.style.overflow="hidden";layoutDock();
 }
-/* v14: müzisyen hap bilgisi (Wikipedia girişinden 3–5 cümle) — bio_<dil>.json, yoksa İngilizce */
+/* v14: müzisyen hap bilgisi (Wikipedia girişinden 3–5 cümle) — bio_<dil>.json (v19: her dilde tam; başka dile düşmez) */
 const BIO={};
 /* v18: bio_link.json = doğrulanmış Wikipedia maddeleri {mid:{en,de,tr}} — link sitenin dilinde; doğrulanmamışta link yok */
 let BLINK=null;
-function loadBio(){const ls=[...new Set([LANG,"en"])];
+function loadBio(){const ls=[LANG];
   const pl=BLINK?Promise.resolve(BLINK):(BLINK=getJSON("bio_link.json").catch(()=>({}))).then(x=>BLINK=x);
   return Promise.all([pl,...ls.map(l=>BIO[l]?BIO[l]:(BIO[l]=getJSON("bio_"+l+".json").catch(()=>({}))).then(x=>BIO[l]=x))]);}
 function wikiOf(mid){const L=BLINK&&!(BLINK instanceof Promise)?BLINK[mid]:null;if(!L)return null;
   const l=L[LANG]?LANG:"en";return `https://${l}.wikipedia.org/wiki/${encodeURIComponent(L[l].replace(/ /g,"_"))}`;}
-function bioOf(mid){for(const l of [LANG,"en"]){const b=BIO[l];if(b&&!(b instanceof Promise)&&b[mid])return {t:b[mid],l};}return null;}
+function bioOf(mid){const b=BIO[LANG];return b&&!(b instanceof Promise)&&b[mid]?{t:b[mid],l:LANG}:null;}  /* v19: yalnız sitenin dilinde; İngilizceye düşmez */
 function renderMus(){
   const mid=CUR.m,m=KAD.m[mid],wiki=wikiOf(mid);
   const L=(MUSALB[mid]||[]).map(([aid,r,k])=>{const f=findAlbum(aid);return f?{g:f.g,a:f.a,r,k}:null;}).filter(Boolean)
