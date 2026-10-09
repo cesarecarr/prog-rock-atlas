@@ -558,6 +558,32 @@
 ]
 },
 {
+"id": "mcdonald-and-giles",
+"artist": "McDonald and Giles",
+"albums": [
+{
+"id": "mcdonald-and-giles-1971-mcdonald-and-giles",
+"t": "McDonald and Giles",
+"y": 1971,
+"onc": "onerilir",
+"cov": "kapaklar/mcdonald-and-giles-1971-mcdonald-and-giles.jpg"
+}
+]
+},
+{
+"id": "peter-sinfield",
+"artist": "Peter Sinfield",
+"albums": [
+{
+"id": "peter-sinfield-1973-still",
+"t": "Still",
+"y": 1973,
+"onc": "istege",
+"cov": "kapaklar/peter-sinfield-1973-still.jpg"
+}
+]
+},
+{
 "id": "robert-fripp-solo-ve-ortaklklar",
 "artist": "Robert Fripp",
 "albums": [
@@ -703,6 +729,84 @@
 "y": 2016,
 "onc": "istege",
 "cov": "kapaklar/stick-men-2016-prog-noir.jpg"
+}
+]
+},
+{
+"id": "adrian-belew",
+"artist": "Adrian Belew",
+"albums": [
+{
+"id": "adrian-belew-1982-lone-rhino",
+"t": "Lone Rhino",
+"y": 1982,
+"onc": "onerilir",
+"cov": "kapaklar/adrian-belew-1982-lone-rhino.jpg"
+},
+{
+"id": "adrian-belew-1983-twang-bar-king",
+"t": "Twang Bar King",
+"y": 1983,
+"onc": "istege",
+"cov": "kapaklar/adrian-belew-1983-twang-bar-king.jpg"
+},
+{
+"id": "adrian-belew-1990-young-lions",
+"t": "Young Lions",
+"y": 1990,
+"onc": "istege",
+"cov": "kapaklar/adrian-belew-1990-young-lions.jpg"
+},
+{
+"id": "adrian-belew-2005-side-one",
+"t": "Side One",
+"y": 2005,
+"onc": "onerilir",
+"cov": "kapaklar/adrian-belew-2005-side-one.jpg"
+},
+{
+"id": "adrian-belew-2009-e",
+"t": "e",
+"y": 2009,
+"onc": "onerilir"
+}
+]
+},
+{
+"id": "tony-levin",
+"artist": "Tony Levin",
+"albums": [
+{
+"id": "tony-levin-1998-bruford-levin-upper-extremities",
+"t": "Bruford Levin Upper Extremities",
+"y": 1998,
+"onc": "onerilir"
+},
+{
+"id": "tony-levin-2000-waters-of-eden",
+"t": "Waters of Eden",
+"y": 2000,
+"onc": "onerilir",
+"cov": "kapaklar/tony-levin-2000-waters-of-eden.jpg"
+},
+{
+"id": "tony-levin-2002-pieces-of-the-sun",
+"t": "Pieces of the Sun",
+"y": 2002,
+"onc": "istege",
+"cov": "kapaklar/tony-levin-2002-pieces-of-the-sun.jpg"
+},
+{
+"id": "tony-levin-2011-levin-torn-white",
+"t": "Levin Torn White",
+"y": 2011,
+"onc": "istege"
+},
+{
+"id": "tony-levin-2013-levin-minnemann-rudess",
+"t": "Levin Minnemann Rudess",
+"y": 2013,
+"onc": "onerilir"
 }
 ]
 }
@@ -1418,6 +1522,100 @@
 "cov": "kapaklar/chris-squire-2012-a-life-within-a-day.jpg"
 }
 ]
+},
+{
+"id": "patrick-moraz",
+"artist": "Patrick Moraz",
+"albums": [
+{
+"id": "patrick-moraz-1971-mainhorse",
+"t": "Mainhorse",
+"y": 1971,
+"onc": "istege",
+"cov": "kapaklar/patrick-moraz-1971-mainhorse.jpg"
+},
+{
+"id": "patrick-moraz-1976-the-story-of-i",
+"t": "The Story of I",
+"y": 1976,
+"onc": "onerilir",
+"cov": "kapaklar/patrick-moraz-1976-the-story-of-i.jpg"
+},
+{
+"id": "patrick-moraz-1977-out-in-the-sun",
+"t": "Out in the Sun",
+"y": 1977,
+"onc": "istege",
+"cov": "kapaklar/patrick-moraz-1977-out-in-the-sun.jpg"
+},
+{
+"id": "patrick-moraz-1983-music-for-piano-and-drums",
+"t": "Music for Piano and Drums",
+"y": 1983,
+"onc": "onerilir",
+"cov": "kapaklar/patrick-moraz-1983-music-for-piano-and-drums.jpg"
+},
+{
+"id": "patrick-moraz-1985-flags",
+"t": "Flags",
+"y": 1985,
+"onc": "istege",
+"cov": "kapaklar/patrick-moraz-1985-flags.jpg"
+}
+]
+},
+{
+"id": "trevor-rabin",
+"artist": "Trevor Rabin",
+"albums": [
+{
+"id": "trevor-rabin-1989-can-t-look-away",
+"t": "Can't Look Away",
+"y": 1989,
+"onc": "onerilir",
+"cov": "kapaklar/trevor-rabin-1989-can-t-look-away.jpg"
+},
+{
+"id": "trevor-rabin-2012-jacaranda",
+"t": "Jacaranda",
+"y": 2012,
+"onc": "istege",
+"cov": "kapaklar/trevor-rabin-2012-jacaranda.jpg"
+},
+{
+"id": "trevor-rabin-2018-live-at-the-apollo",
+"t": "Live at the Apollo",
+"y": 2018,
+"onc": "onerilir"
+},
+{
+"id": "trevor-rabin-2023-rio",
+"t": "Rio",
+"y": 2023,
+"onc": "istege",
+"cov": "kapaklar/trevor-rabin-2023-rio.jpg"
+}
+]
+},
+{
+"id": "billy-sherwood",
+"artist": "Billy Sherwood",
+"albums": [
+{
+"id": "billy-sherwood-2007-circa-2007",
+"t": "Circa: 2007",
+"y": 2007,
+"onc": "istege",
+"cov": "kapaklar/billy-sherwood-2007-circa-2007.jpg"
+},
+{
+"id": "billy-sherwood-2015-citizen",
+"t": "Citizen",
+"y": 2015,
+"onc": "onerilir",
+"cov": "kapaklar/billy-sherwood-2015-citizen.jpg"
+}
+]
 }
 ]
 },
@@ -1532,6 +1730,40 @@
 "yil": "1992–1994",
 "from": 1992,
 "to": 1994
+}
+]
+},
+{
+"id": "keith-emerson",
+"artist": "Keith Emerson",
+"albums": [
+{
+"id": "keith-emerson-1980-inferno",
+"t": "Inferno",
+"y": 1980,
+"onc": "onerilir",
+"cov": "kapaklar/keith-emerson-1980-inferno.jpg"
+},
+{
+"id": "keith-emerson-1981-nighthawks",
+"t": "Nighthawks",
+"y": 1981,
+"onc": "istege",
+"cov": "kapaklar/keith-emerson-1981-nighthawks.jpg"
+},
+{
+"id": "keith-emerson-1981-honky",
+"t": "Honky",
+"y": 1981,
+"onc": "istege",
+"cov": "kapaklar/keith-emerson-1981-honky.jpg"
+},
+{
+"id": "keith-emerson-1995-changing-states",
+"t": "Changing States",
+"y": 1995,
+"onc": "istege",
+"cov": "kapaklar/keith-emerson-1995-changing-states.jpg"
 }
 ]
 },
@@ -2077,6 +2309,66 @@
 "cov": "kapaklar/anthony-phillips-1990-slow-dance.jpg"
 }
 ]
+},
+{
+"id": "tony-banks",
+"artist": "Tony Banks",
+"albums": [
+{
+"id": "tony-banks-1979-a-curious-feeling",
+"t": "A Curious Feeling",
+"y": 1979,
+"onc": "onerilir",
+"cov": "kapaklar/tony-banks-1979-a-curious-feeling.jpg"
+},
+{
+"id": "tony-banks-1983-the-fugitive",
+"t": "The Fugitive",
+"y": 1983,
+"onc": "istege",
+"cov": "kapaklar/tony-banks-1983-the-fugitive.jpg"
+},
+{
+"id": "tony-banks-1991-still",
+"t": "Still",
+"y": 1991,
+"onc": "istege",
+"cov": "kapaklar/tony-banks-1991-still.jpg"
+},
+{
+"id": "tony-banks-2004-seven-a-suite-for-orchestra",
+"t": "Seven: A Suite for Orchestra",
+"y": 2004,
+"onc": "istege",
+"cov": "kapaklar/tony-banks-2004-seven-a-suite-for-orchestra.jpg"
+}
+]
+},
+{
+"id": "mike-rutherford",
+"artist": "Mike Rutherford",
+"albums": [
+{
+"id": "mike-rutherford-1980-smallcreep-s-day",
+"t": "Smallcreep's Day",
+"y": 1980,
+"onc": "onerilir"
+},
+{
+"id": "mike-rutherford-1985-mike-the-mechanics",
+"t": "Mike + The Mechanics",
+"y": 1985,
+"onc": "onerilir",
+"cov": "kapaklar/mike-rutherford-1985-mike-the-mechanics.jpg"
+},
+{
+"id": "mike-rutherford-1988-living-years",
+"t": "Living Years",
+"y": 1988,
+"onc": "istege",
+"cov": "kapaklar/mike-rutherford-1988-living-years.jpg"
+}
+]
 }
 ]
 },
@@ -2357,6 +2649,32 @@
 "y": 2020,
 "onc": "onerilir",
 "cov": "kapaklar/nick-mason-2020-live-at-the-roundhouse.jpg"
+}
+]
+},
+{
+"id": "richard-wright",
+"artist": "Richard Wright",
+"albums": [
+{
+"id": "richard-wright-1978-wet-dream",
+"t": "Wet Dream",
+"y": 1978,
+"onc": "onerilir",
+"cov": "kapaklar/richard-wright-1978-wet-dream.jpg"
+},
+{
+"id": "richard-wright-1984-identity",
+"t": "Identity",
+"y": 1984,
+"onc": "istege"
+},
+{
+"id": "richard-wright-1996-broken-china",
+"t": "Broken China",
+"y": 1996,
+"onc": "onerilir",
+"cov": "kapaklar/richard-wright-1996-broken-china.jpg"
 }
 ]
 }
@@ -2883,6 +3201,66 @@
 "t": "Danger Money",
 "y": 1979,
 "cov": "kapaklar/uk-1979-danger-money.jpg"
+}
+]
+},
+{
+"id": "eddie-jobson",
+"artist": "Eddie Jobson",
+"albums": [
+{
+"id": "eddie-jobson-1985-theme-of-secrets",
+"t": "Theme of Secrets",
+"y": 1985,
+"onc": "istege",
+"cov": "kapaklar/eddie-jobson-1985-theme-of-secrets.jpg"
+},
+{
+"id": "eddie-jobson-2009-radiation",
+"t": "Radiation",
+"y": 2009,
+"onc": "istege"
+}
+]
+},
+{
+"id": "allan-holdsworth",
+"artist": "Allan Holdsworth",
+"albums": [
+{
+"id": "allan-holdsworth-1982-i-o-u",
+"t": "I.O.U.",
+"y": 1982,
+"onc": "onerilir",
+"cov": "kapaklar/allan-holdsworth-1982-i-o-u.jpg"
+},
+{
+"id": "allan-holdsworth-1983-road-games",
+"t": "Road Games",
+"y": 1983,
+"onc": "istege",
+"cov": "kapaklar/allan-holdsworth-1983-road-games.jpg"
+},
+{
+"id": "allan-holdsworth-1985-metal-fatigue",
+"t": "Metal Fatigue",
+"y": 1985,
+"onc": "temel",
+"cov": "kapaklar/allan-holdsworth-1985-metal-fatigue.jpg"
+},
+{
+"id": "allan-holdsworth-1986-atavachron",
+"t": "Atavachron",
+"y": 1986,
+"onc": "onerilir",
+"cov": "kapaklar/allan-holdsworth-1986-atavachron.jpg"
+},
+{
+"id": "allan-holdsworth-1989-secrets",
+"t": "Secrets",
+"y": 1989,
+"onc": "istege",
+"cov": "kapaklar/allan-holdsworth-1989-secrets.jpg"
 }
 ]
 },
@@ -5097,6 +5475,26 @@
 "yil": "1981–2001",
 "from": 1981,
 "to": 2001
+}
+]
+},
+{
+"id": "jon-and-vangelis",
+"artist": "Jon and Vangelis",
+"albums": [
+{
+"id": "jon-and-vangelis-1983-private-collection",
+"t": "Private Collection",
+"y": 1983,
+"onc": "onerilir",
+"cov": "kapaklar/jon-and-vangelis-1983-private-collection.jpg"
+},
+{
+"id": "jon-and-vangelis-1991-page-of-life",
+"t": "Page of Life",
+"y": 1991,
+"onc": "istege",
+"cov": "kapaklar/jon-and-vangelis-1991-page-of-life.jpg"
 }
 ]
 },
