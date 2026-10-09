@@ -2677,6 +2677,47 @@
 "cov": "kapaklar/richard-wright-1996-broken-china.jpg"
 }
 ]
+},
+{
+"id": "alan-parsons-project",
+"artist": "The Alan Parsons Project",
+"albums": [
+{
+"id": "the-alan-parsons-project-1976-tales-of-mystery-and-imagination",
+"t": "Tales of Mystery and Imagination",
+"y": 1976,
+"onc": "temel",
+"cov": "kapaklar/the-alan-parsons-project-1976-tales-of-mystery-and-imagination.jpg"
+},
+{
+"id": "the-alan-parsons-project-1977-i-robot",
+"t": "I Robot",
+"y": 1977,
+"onc": "onerilir",
+"cov": "kapaklar/the-alan-parsons-project-1977-i-robot.jpg"
+},
+{
+"id": "the-alan-parsons-project-1978-pyramid",
+"t": "Pyramid",
+"y": 1978,
+"onc": "istege",
+"cov": "kapaklar/the-alan-parsons-project-1978-pyramid.jpg"
+},
+{
+"id": "the-alan-parsons-project-1980-the-turn-of-a-friendly-card",
+"t": "The Turn of a Friendly Card",
+"y": 1980,
+"onc": "onerilir",
+"cov": "kapaklar/the-alan-parsons-project-1980-the-turn-of-a-friendly-card.jpg"
+},
+{
+"id": "the-alan-parsons-project-1982-eye-in-the-sky",
+"t": "Eye in the Sky",
+"y": 1982,
+"onc": "istege",
+"cov": "kapaklar/the-alan-parsons-project-1982-eye-in-the-sky.jpg"
+}
+]
 }
 ]
 },
@@ -2755,6 +2796,33 @@
 "y": 2018,
 "onc": "onerilir",
 "cov": "kapaklar/soft-machine-2018-hidden-details.jpg"
+}
+]
+},
+{
+"id": "hugh-hopper",
+"artist": "Hugh Hopper",
+"albums": [
+{
+"id": "hugh-hopper-1973-1984",
+"t": "1984",
+"y": 1973,
+"onc": "onerilir",
+"cov": "kapaklar/hugh-hopper-1973-1984.jpg"
+},
+{
+"id": "hugh-hopper-1977-hopper-tunity-box",
+"t": "Hopper Tunity Box",
+"y": 1977,
+"onc": "onerilir",
+"cov": "kapaklar/hugh-hopper-1977-hopper-tunity-box.jpg"
+},
+{
+"id": "hugh-hopper-1979-soft-heap",
+"t": "Soft Heap",
+"y": 1979,
+"onc": "istege",
+"cov": "kapaklar/hugh-hopper-1979-soft-heap.jpg"
 }
 ]
 },
@@ -2906,6 +2974,74 @@
 ]
 },
 {
+"id": "daevid-allen",
+"artist": "Daevid Allen",
+"albums": [
+{
+"id": "daevid-allen-1971-banana-moon",
+"t": "Banana Moon",
+"y": 1971,
+"onc": "onerilir",
+"cov": "kapaklar/daevid-allen-1971-banana-moon.jpg"
+},
+{
+"id": "daevid-allen-1976-good-morning",
+"t": "Good Morning",
+"y": 1976,
+"onc": "istege",
+"cov": "kapaklar/daevid-allen-1976-good-morning.jpg"
+},
+{
+"id": "daevid-allen-1977-now-is-the-happiest-time-of-your-life",
+"t": "Now Is the Happiest Time of Your Life",
+"y": 1977,
+"onc": "istege",
+"cov": "kapaklar/daevid-allen-1977-now-is-the-happiest-time-of-your-life.jpg"
+},
+{
+"id": "daevid-allen-1978-live-floating-anarchy-1977",
+"t": "Live Floating Anarchy 1977",
+"y": 1978,
+"onc": "onerilir",
+"cov": "kapaklar/daevid-allen-1978-live-floating-anarchy-1977.jpg"
+}
+]
+},
+{
+"id": "pierre-moerlen-s-gong",
+"artist": "Pierre Moerlen's Gong",
+"albums": [
+{
+"id": "pierre-moerlen-s-gong-1978-expresso-ii",
+"t": "Expresso II",
+"y": 1978,
+"onc": "onerilir",
+"cov": "kapaklar/pierre-moerlen-s-gong-1978-expresso-ii.jpg"
+},
+{
+"id": "pierre-moerlen-s-gong-1979-downwind",
+"t": "Downwind",
+"y": 1979,
+"onc": "onerilir",
+"cov": "kapaklar/pierre-moerlen-s-gong-1979-downwind.jpg"
+},
+{
+"id": "pierre-moerlen-s-gong-1979-time-is-the-key",
+"t": "Time Is the Key",
+"y": 1979,
+"onc": "istege",
+"cov": "kapaklar/pierre-moerlen-s-gong-1979-time-is-the-key.jpg"
+},
+{
+"id": "pierre-moerlen-s-gong-1981-leave-it-open",
+"t": "Leave It Open",
+"y": 1981,
+"onc": "istege",
+"cov": "kapaklar/pierre-moerlen-s-gong-1981-leave-it-open.jpg"
+}
+]
+},
+{
 "id": "hatfield-and-the-north-national-health-alt-dugumler",
 "artist": "Hatfield and the North / National Health",
 "albums": [
@@ -2939,6 +3075,59 @@
 "y": 1982,
 "onc": "onerilir",
 "cov": "kapaklar/hatfield-and-the-north-national-health-1982-d-s-al-coda.jpg"
+}
+]
+},
+{
+"id": "gilgamesh",
+"artist": "Gilgamesh",
+"albums": [
+{
+"id": "gilgamesh-1975-gilgamesh",
+"t": "Gilgamesh",
+"y": 1975,
+"onc": "temel",
+"cov": "kapaklar/gilgamesh-1975-gilgamesh.jpg"
+},
+{
+"id": "gilgamesh-1978-another-fine-tune-you-ve-got-me-into",
+"t": "Another Fine Tune You've Got Me Into",
+"y": 1978,
+"onc": "onerilir",
+"cov": "kapaklar/gilgamesh-1978-another-fine-tune-you-ve-got-me-into.jpg"
+}
+]
+},
+{
+"id": "dave-stewart-barbara-gaskin",
+"artist": "Dave Stewart & Barbara Gaskin",
+"albums": [
+{
+"id": "dave-stewart-barbara-gaskin-1990-the-big-idea",
+"t": "The Big Idea",
+"y": 1990,
+"onc": "istege",
+"cov": "kapaklar/dave-stewart-barbara-gaskin-1990-the-big-idea.jpg"
+},
+{
+"id": "dave-stewart-barbara-gaskin-1991-spin",
+"t": "Spin",
+"y": 1991,
+"onc": "istege",
+"cov": "kapaklar/dave-stewart-barbara-gaskin-1991-spin.jpg"
+},
+{
+"id": "dave-stewart-barbara-gaskin-2009-green-and-blue",
+"t": "Green and Blue",
+"y": 2009,
+"onc": "onerilir"
+},
+{
+"id": "dave-stewart-barbara-gaskin-2018-star-clocks",
+"t": "Star Clocks",
+"y": 2018,
+"onc": "istege",
+"cov": "kapaklar/dave-stewart-barbara-gaskin-2018-star-clocks.jpg"
 }
 ]
 },
@@ -4057,6 +4246,32 @@
 ]
 },
 {
+"id": "darryl-way-s-wolf",
+"artist": "Darryl Way's Wolf",
+"albums": [
+{
+"id": "darryl-way-s-wolf-1973-canis-lupus",
+"t": "Canis Lupus",
+"y": 1973,
+"onc": "onerilir",
+"cov": "kapaklar/darryl-way-s-wolf-1973-canis-lupus.jpg"
+},
+{
+"id": "darryl-way-s-wolf-1973-saturation-point",
+"t": "Saturation Point",
+"y": 1973,
+"onc": "onerilir"
+},
+{
+"id": "darryl-way-s-wolf-1974-night-music",
+"t": "Night Music",
+"y": 1974,
+"onc": "istege",
+"cov": "kapaklar/darryl-way-s-wolf-1974-night-music.jpg"
+}
+]
+},
+{
 "id": "greenslade",
 "artist": "Greenslade",
 "albums": [
@@ -4273,6 +4488,19 @@
 ]
 },
 {
+"id": "woolly-wolstenholme",
+"artist": "Woolly Wolstenholme",
+"albums": [
+{
+"id": "woolly-wolstenholme-1980-maestoso",
+"t": "Maestoso",
+"y": 1980,
+"onc": "onerilir",
+"cov": "kapaklar/woolly-wolstenholme-1980-maestoso.jpg"
+}
+]
+},
+{
 "id": "henry-cow",
 "artist": "Henry Cow",
 "albums": [
@@ -4303,6 +4531,33 @@
 ]
 },
 {
+"id": "slapp-happy",
+"artist": "Slapp Happy",
+"albums": [
+{
+"id": "slapp-happy-1972-sort-of",
+"t": "Sort Of",
+"y": 1972,
+"onc": "istege",
+"cov": "kapaklar/slapp-happy-1972-sort-of.jpg"
+},
+{
+"id": "slapp-happy-1974-slapp-happy",
+"t": "Slapp Happy",
+"y": 1974,
+"onc": "onerilir",
+"cov": "kapaklar/slapp-happy-1974-slapp-happy.jpg"
+},
+{
+"id": "slapp-happy-1975-desperate-straights",
+"t": "Desperate Straights",
+"y": 1975,
+"onc": "onerilir",
+"cov": "kapaklar/slapp-happy-1975-desperate-straights.jpg"
+}
+]
+},
+{
 "id": "art-bears",
 "artist": "Art Bears",
 "albums": [
@@ -4323,6 +4578,85 @@
 "t": "The World as It Is Today",
 "y": 1981,
 "cov": "kapaklar/art-bears-1981-the-world-as-it-is-today.jpg"
+}
+]
+},
+{
+"id": "fred-frith",
+"artist": "Fred Frith",
+"albums": [
+{
+"id": "fred-frith-1974-guitar-solos",
+"t": "Guitar Solos",
+"y": 1974,
+"onc": "istege",
+"cov": "kapaklar/fred-frith-1974-guitar-solos.jpg"
+},
+{
+"id": "fred-frith-1980-gravity",
+"t": "Gravity",
+"y": 1980,
+"onc": "onerilir",
+"cov": "kapaklar/fred-frith-1980-gravity.jpg"
+},
+{
+"id": "fred-frith-1981-speechless",
+"t": "Speechless",
+"y": 1981,
+"onc": "istege",
+"cov": "kapaklar/fred-frith-1981-speechless.jpg"
+}
+]
+},
+{
+"id": "chris-cutler",
+"artist": "Chris Cutler",
+"albums": [
+{
+"id": "chris-cutler-1982-man-or-monkey",
+"t": "Man or Monkey",
+"y": 1982,
+"onc": "istege",
+"cov": "kapaklar/chris-cutler-1982-man-or-monkey.jpg"
+},
+{
+"id": "chris-cutler-1984-work-resumed-on-the-tower",
+"t": "Work Resumed on the Tower",
+"y": 1984,
+"onc": "onerilir",
+"cov": "kapaklar/chris-cutler-1984-work-resumed-on-the-tower.jpg"
+},
+{
+"id": "chris-cutler-1986-letters-home",
+"t": "Letters Home",
+"y": 1986,
+"onc": "onerilir",
+"cov": "kapaklar/chris-cutler-1986-letters-home.jpg"
+}
+]
+},
+{
+"id": "lindsay-cooper",
+"artist": "Lindsay Cooper",
+"albums": [
+{
+"id": "lindsay-cooper-1980-rags",
+"t": "Rags",
+"y": 1980,
+"onc": "onerilir"
+},
+{
+"id": "lindsay-cooper-1983-the-golddiggers",
+"t": "The Golddiggers",
+"y": 1983,
+"onc": "istege"
+},
+{
+"id": "lindsay-cooper-1991-oh-moscow",
+"t": "Oh Moscow",
+"y": 1991,
+"onc": "onerilir",
+"cov": "kapaklar/lindsay-cooper-1991-oh-moscow.jpg"
 }
 ]
 },
@@ -5385,6 +5719,39 @@
 "yil": "1990–1994",
 "from": 1990,
 "to": 1994
+}
+]
+},
+{
+"id": "david-bedford",
+"artist": "David Bedford",
+"albums": [
+{
+"id": "david-bedford-1972-nurses-song-with-elephants",
+"t": "Nurses Song with Elephants",
+"y": 1972,
+"onc": "istege",
+"cov": "kapaklar/david-bedford-1972-nurses-song-with-elephants.jpg"
+},
+{
+"id": "david-bedford-1974-star-s-end",
+"t": "Star's End",
+"y": 1974,
+"onc": "onerilir"
+},
+{
+"id": "david-bedford-1975-the-rime-of-the-ancient-mariner",
+"t": "The Rime of the Ancient Mariner",
+"y": 1975,
+"onc": "onerilir",
+"cov": "kapaklar/david-bedford-1975-the-rime-of-the-ancient-mariner.jpg"
+},
+{
+"id": "david-bedford-1976-the-odyssey",
+"t": "The Odyssey",
+"y": 1976,
+"onc": "istege",
+"cov": "kapaklar/david-bedford-1976-the-odyssey.jpg"
 }
 ]
 },
