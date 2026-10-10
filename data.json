@@ -4756,49 +4756,8 @@
 ]
 },
 {
-"no": 17,
+"no": 26,
 "groups": [
-{
-"id": "ten-years-after",
-"artist": "Ten Years After",
-"albums": [
-{
-"id": "ten-years-after-1968-undead",
-"t": "Undead",
-"y": 1968,
-"onc": "onerilir",
-"cov": "kapaklar/ten-years-after-1968-undead.jpg"
-},
-{
-"id": "ten-years-after-1969-stonedhenge",
-"t": "Stonedhenge",
-"y": 1969,
-"onc": "istege",
-"cov": "kapaklar/ten-years-after-1969-stonedhenge.jpg"
-},
-{
-"id": "ten-years-after-1969-ssssh",
-"t": "Ssssh",
-"y": 1969,
-"onc": "onerilir",
-"cov": "kapaklar/ten-years-after-1969-ssssh.jpg"
-},
-{
-"id": "ten-years-after-1970-cricklewood-green",
-"t": "Cricklewood Green",
-"y": 1970,
-"onc": "temel",
-"cov": "kapaklar/ten-years-after-1970-cricklewood-green.jpg"
-},
-{
-"id": "ten-years-after-1971-a-space-in-time",
-"t": "A Space in Time",
-"y": 1971,
-"onc": "temel",
-"cov": "kapaklar/ten-years-after-1971-a-space-in-time.jpg"
-}
-]
-},
 {
 "id": "led-zeppelin",
 "artist": "Led Zeppelin",
@@ -4954,6 +4913,52 @@
 "y": 2007,
 "onc": "onerilir",
 "cov": "kapaklar/robert-plant-2007-raising-sand.jpg"
+}
+]
+}
+]
+},
+{
+"no": 17,
+"groups": [
+{
+"id": "ten-years-after",
+"artist": "Ten Years After",
+"albums": [
+{
+"id": "ten-years-after-1968-undead",
+"t": "Undead",
+"y": 1968,
+"onc": "onerilir",
+"cov": "kapaklar/ten-years-after-1968-undead.jpg"
+},
+{
+"id": "ten-years-after-1969-stonedhenge",
+"t": "Stonedhenge",
+"y": 1969,
+"onc": "istege",
+"cov": "kapaklar/ten-years-after-1969-stonedhenge.jpg"
+},
+{
+"id": "ten-years-after-1969-ssssh",
+"t": "Ssssh",
+"y": 1969,
+"onc": "onerilir",
+"cov": "kapaklar/ten-years-after-1969-ssssh.jpg"
+},
+{
+"id": "ten-years-after-1970-cricklewood-green",
+"t": "Cricklewood Green",
+"y": 1970,
+"onc": "temel",
+"cov": "kapaklar/ten-years-after-1970-cricklewood-green.jpg"
+},
+{
+"id": "ten-years-after-1971-a-space-in-time",
+"t": "A Space in Time",
+"y": 1971,
+"onc": "temel",
+"cov": "kapaklar/ten-years-after-1971-a-space-in-time.jpg"
 }
 ]
 },
