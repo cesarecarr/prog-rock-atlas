@@ -2897,151 +2897,6 @@
 ]
 },
 {
-"id": "gong",
-"artist": "Gong",
-"albums": [
-{
-"id": "gong-1970-magick-brother",
-"t": "Magick Brother",
-"y": 1970,
-"cov": "kapaklar/gong-1970-magick-brother.jpg"
-},
-{
-"id": "gong-1971-camembert-electrique",
-"t": "Camembert Electrique",
-"y": 1971,
-"cov": "kapaklar/gong-1971-camembert-electrique.jpg"
-},
-{
-"id": "gong-1973-flying-teapot",
-"t": "Flying Teapot",
-"y": 1973,
-"cov": "kapaklar/gong-1973-flying-teapot.jpg"
-},
-{
-"id": "gong-1973-angel-s-egg",
-"t": "Angel's Egg",
-"y": 1973,
-"cov": "kapaklar/gong-1973-angel-s-egg.jpg"
-},
-{
-"id": "gong-1974-you",
-"t": "You",
-"y": 1974,
-"cov": "kapaklar/gong-1974-you.jpg"
-},
-{
-"id": "gong-1976-shamal",
-"t": "Shamal",
-"y": 1976,
-"cov": "kapaklar/gong-1976-shamal.jpg"
-},
-{
-"id": "gong-1976-gazeuse",
-"t": "Gazeuse!",
-"y": 1976,
-"onc": "onerilir",
-"cov": "kapaklar/gong-1976-gazeuse.jpg"
-},
-{
-"id": "gong-2000-zero-to-infinity",
-"t": "Zero to Infinity",
-"y": 2000,
-"onc": "istege",
-"cov": "kapaklar/gong-2000-zero-to-infinity.jpg"
-},
-{
-"id": "gong-2009-2032",
-"t": "2032",
-"y": 2009,
-"onc": "istege",
-"cov": "kapaklar/gong-2009-2032.jpg"
-},
-{
-"id": "gong-2016-rejoice-i-m-dead",
-"t": "Rejoice! I'm Dead!",
-"y": 2016,
-"onc": "onerilir",
-"cov": "kapaklar/gong-2016-rejoice-i-m-dead.jpg"
-},
-{
-"id": "gong-2019-the-universe-also-collapses",
-"t": "The Universe Also Collapses",
-"y": 2019,
-"onc": "onerilir",
-"cov": "kapaklar/gong-2019-the-universe-also-collapses.jpg"
-}
-]
-},
-{
-"id": "daevid-allen",
-"artist": "Daevid Allen",
-"albums": [
-{
-"id": "daevid-allen-1971-banana-moon",
-"t": "Banana Moon",
-"y": 1971,
-"onc": "onerilir",
-"cov": "kapaklar/daevid-allen-1971-banana-moon.jpg"
-},
-{
-"id": "daevid-allen-1976-good-morning",
-"t": "Good Morning",
-"y": 1976,
-"onc": "istege",
-"cov": "kapaklar/daevid-allen-1976-good-morning.jpg"
-},
-{
-"id": "daevid-allen-1977-now-is-the-happiest-time-of-your-life",
-"t": "Now Is the Happiest Time of Your Life",
-"y": 1977,
-"onc": "istege",
-"cov": "kapaklar/daevid-allen-1977-now-is-the-happiest-time-of-your-life.jpg"
-},
-{
-"id": "daevid-allen-1978-live-floating-anarchy-1977",
-"t": "Live Floating Anarchy 1977",
-"y": 1978,
-"onc": "onerilir",
-"cov": "kapaklar/daevid-allen-1978-live-floating-anarchy-1977.jpg"
-}
-]
-},
-{
-"id": "pierre-moerlen-s-gong",
-"artist": "Pierre Moerlen's Gong",
-"albums": [
-{
-"id": "pierre-moerlen-s-gong-1978-expresso-ii",
-"t": "Expresso II",
-"y": 1978,
-"onc": "onerilir",
-"cov": "kapaklar/pierre-moerlen-s-gong-1978-expresso-ii.jpg"
-},
-{
-"id": "pierre-moerlen-s-gong-1979-downwind",
-"t": "Downwind",
-"y": 1979,
-"onc": "onerilir",
-"cov": "kapaklar/pierre-moerlen-s-gong-1979-downwind.jpg"
-},
-{
-"id": "pierre-moerlen-s-gong-1979-time-is-the-key",
-"t": "Time Is the Key",
-"y": 1979,
-"onc": "istege",
-"cov": "kapaklar/pierre-moerlen-s-gong-1979-time-is-the-key.jpg"
-},
-{
-"id": "pierre-moerlen-s-gong-1981-leave-it-open",
-"t": "Leave It Open",
-"y": 1981,
-"onc": "istege",
-"cov": "kapaklar/pierre-moerlen-s-gong-1981-leave-it-open.jpg"
-}
-]
-},
-{
 "id": "hatfield-and-the-north-national-health-alt-dugumler",
 "artist": "Hatfield and the North / National Health",
 "albums": [
@@ -3301,6 +3156,156 @@
 "cov": "kapaklar/the-wilde-flowers-1994-the-wilde-flowers.jpg"
 }
 ]
+}
+]
+},
+{
+"no": 25,
+"groups": [
+{
+"id": "gong",
+"artist": "Gong",
+"albums": [
+{
+"id": "gong-1970-magick-brother",
+"t": "Magick Brother",
+"y": 1970,
+"cov": "kapaklar/gong-1970-magick-brother.jpg"
+},
+{
+"id": "gong-1971-camembert-electrique",
+"t": "Camembert Electrique",
+"y": 1971,
+"cov": "kapaklar/gong-1971-camembert-electrique.jpg"
+},
+{
+"id": "gong-1973-flying-teapot",
+"t": "Flying Teapot",
+"y": 1973,
+"cov": "kapaklar/gong-1973-flying-teapot.jpg"
+},
+{
+"id": "gong-1973-angel-s-egg",
+"t": "Angel's Egg",
+"y": 1973,
+"cov": "kapaklar/gong-1973-angel-s-egg.jpg"
+},
+{
+"id": "gong-1974-you",
+"t": "You",
+"y": 1974,
+"cov": "kapaklar/gong-1974-you.jpg"
+},
+{
+"id": "gong-1976-shamal",
+"t": "Shamal",
+"y": 1976,
+"cov": "kapaklar/gong-1976-shamal.jpg"
+},
+{
+"id": "gong-1976-gazeuse",
+"t": "Gazeuse!",
+"y": 1976,
+"onc": "onerilir",
+"cov": "kapaklar/gong-1976-gazeuse.jpg"
+},
+{
+"id": "gong-2000-zero-to-infinity",
+"t": "Zero to Infinity",
+"y": 2000,
+"onc": "istege",
+"cov": "kapaklar/gong-2000-zero-to-infinity.jpg"
+},
+{
+"id": "gong-2009-2032",
+"t": "2032",
+"y": 2009,
+"onc": "istege",
+"cov": "kapaklar/gong-2009-2032.jpg"
+},
+{
+"id": "gong-2016-rejoice-i-m-dead",
+"t": "Rejoice! I'm Dead!",
+"y": 2016,
+"onc": "onerilir",
+"cov": "kapaklar/gong-2016-rejoice-i-m-dead.jpg"
+},
+{
+"id": "gong-2019-the-universe-also-collapses",
+"t": "The Universe Also Collapses",
+"y": 2019,
+"onc": "onerilir",
+"cov": "kapaklar/gong-2019-the-universe-also-collapses.jpg"
+}
+]
+},
+{
+"id": "daevid-allen",
+"artist": "Daevid Allen",
+"albums": [
+{
+"id": "daevid-allen-1971-banana-moon",
+"t": "Banana Moon",
+"y": 1971,
+"onc": "onerilir",
+"cov": "kapaklar/daevid-allen-1971-banana-moon.jpg"
+},
+{
+"id": "daevid-allen-1976-good-morning",
+"t": "Good Morning",
+"y": 1976,
+"onc": "istege",
+"cov": "kapaklar/daevid-allen-1976-good-morning.jpg"
+},
+{
+"id": "daevid-allen-1977-now-is-the-happiest-time-of-your-life",
+"t": "Now Is the Happiest Time of Your Life",
+"y": 1977,
+"onc": "istege",
+"cov": "kapaklar/daevid-allen-1977-now-is-the-happiest-time-of-your-life.jpg"
+},
+{
+"id": "daevid-allen-1978-live-floating-anarchy-1977",
+"t": "Live Floating Anarchy 1977",
+"y": 1978,
+"onc": "onerilir",
+"cov": "kapaklar/daevid-allen-1978-live-floating-anarchy-1977.jpg"
+}
+]
+},
+{
+"id": "pierre-moerlen-s-gong",
+"artist": "Pierre Moerlen's Gong",
+"albums": [
+{
+"id": "pierre-moerlen-s-gong-1978-expresso-ii",
+"t": "Expresso II",
+"y": 1978,
+"onc": "onerilir",
+"cov": "kapaklar/pierre-moerlen-s-gong-1978-expresso-ii.jpg"
+},
+{
+"id": "pierre-moerlen-s-gong-1979-downwind",
+"t": "Downwind",
+"y": 1979,
+"onc": "onerilir",
+"cov": "kapaklar/pierre-moerlen-s-gong-1979-downwind.jpg"
+},
+{
+"id": "pierre-moerlen-s-gong-1979-time-is-the-key",
+"t": "Time Is the Key",
+"y": 1979,
+"onc": "istege",
+"cov": "kapaklar/pierre-moerlen-s-gong-1979-time-is-the-key.jpg"
+},
+{
+"id": "pierre-moerlen-s-gong-1981-leave-it-open",
+"t": "Leave It Open",
+"y": 1981,
+"onc": "istege",
+"cov": "kapaklar/pierre-moerlen-s-gong-1981-leave-it-open.jpg"
+}
+]
 },
 {
 "id": "steve-hillage-solo-ve-system-7",
@@ -3340,33 +3345,6 @@
 "y": 1991,
 "onc": "istege",
 "cov": "kapaklar/steve-hillage-1991-system-7.jpg"
-}
-]
-},
-{
-"id": "phil-manzanera-quiet-sun-801",
-"artist": "Phil Manzanera",
-"albums": [
-{
-"id": "phil-manzanera-1975-mainstream",
-"t": "Mainstream",
-"y": 1975,
-"onc": "temel",
-"cov": "kapaklar/phil-manzanera-1975-mainstream.jpg"
-},
-{
-"id": "phil-manzanera-1975-diamond-head",
-"t": "Diamond Head",
-"y": 1975,
-"onc": "onerilir",
-"cov": "kapaklar/phil-manzanera-1975-diamond-head.jpg"
-},
-{
-"id": "phil-manzanera-1976-801-live",
-"t": "801 Live",
-"y": 1976,
-"onc": "temel",
-"cov": "kapaklar/phil-manzanera-1976-801-live.jpg"
 }
 ]
 }
@@ -3624,7 +3602,7 @@
 ]
 },
 {
-"no": 10,
+"no": 22,
 "groups": [
 {
 "id": "jethro-tull",
@@ -3796,110 +3774,51 @@
 ]
 },
 {
-"id": "gentle-giant",
-"artist": "Gentle Giant",
+"id": "ian-anderson-solo",
+"artist": "Ian Anderson",
 "albums": [
 {
-"id": "gentle-giant-1970-gentle-giant",
-"t": "Gentle Giant",
-"y": 1970,
-"e": 0,
-"cov": "kapaklar/gentle-giant-1970-gentle-giant.jpg"
-},
-{
-"id": "gentle-giant-1971-acquiring-the-taste",
-"t": "Acquiring the Taste",
-"y": 1971,
-"e": 0,
-"cov": "kapaklar/gentle-giant-1971-acquiring-the-taste.jpg"
-},
-{
-"id": "gentle-giant-1972-three-friends",
-"t": "Three Friends",
-"y": 1972,
-"e": 0,
-"cov": "kapaklar/gentle-giant-1972-three-friends.jpg"
-},
-{
-"id": "gentle-giant-1972-octopus",
-"t": "Octopus",
-"y": 1972,
-"onc": "temel",
-"e": 0,
-"cov": "kapaklar/gentle-giant-1972-octopus.jpg"
-},
-{
-"id": "gentle-giant-1973-in-a-glass-house",
-"t": "In a Glass House",
-"y": 1973,
-"onc": "temel",
-"e": 1,
-"cov": "kapaklar/gentle-giant-1973-in-a-glass-house.jpg"
-},
-{
-"id": "gentle-giant-1974-the-power-and-the-glory",
-"t": "The Power and the Glory",
-"y": 1974,
-"onc": "temel",
-"e": 1,
-"cov": "kapaklar/gentle-giant-1974-the-power-and-the-glory.jpg"
-},
-{
-"id": "gentle-giant-1975-free-hand",
-"t": "Free Hand",
-"y": 1975,
-"onc": "temel",
-"e": 1,
-"cov": "kapaklar/gentle-giant-1975-free-hand.jpg"
-},
-{
-"id": "gentle-giant-1976-interview",
-"t": "Interview",
-"y": 1976,
-"e": 1,
-"cov": "kapaklar/gentle-giant-1976-interview.jpg"
-},
-{
-"id": "gentle-giant-1977-the-missing-piece",
-"t": "The Missing Piece",
-"y": 1977,
-"e": 2,
-"cov": "kapaklar/gentle-giant-1977-the-missing-piece.jpg"
-},
-{
-"id": "gentle-giant-1978-giant-for-a-day",
-"t": "Giant for a Day!",
-"y": 1978,
-"e": 2,
-"cov": "kapaklar/gentle-giant-1978-giant-for-a-day.jpg"
-},
-{
-"id": "gentle-giant-1980-civilian",
-"t": "Civilian",
-"y": 1980,
+"id": "ian-anderson-1983-walk-into-light",
+"t": "Walk into Light",
+"y": 1983,
 "onc": "atla",
-"e": 2,
-"cov": "kapaklar/gentle-giant-1980-civilian.jpg"
+"cov": "kapaklar/ian-anderson-1983-walk-into-light.jpg"
+},
+{
+"id": "ian-anderson-1995-divinities-twelve-dances-with-god",
+"t": "Divinities: Twelve Dances with God",
+"y": 1995,
+"onc": "istege",
+"cov": "kapaklar/ian-anderson-1995-divinities-twelve-dances-with-god.jpg"
+},
+{
+"id": "ian-anderson-2000-the-secret-language-of-birds",
+"t": "The Secret Language of Birds",
+"y": 2000,
+"onc": "onerilir",
+"cov": "kapaklar/ian-anderson-2000-the-secret-language-of-birds.jpg"
+},
+{
+"id": "ian-anderson-2012-thick-as-a-brick-2",
+"t": "Thick as a Brick 2",
+"y": 2012,
+"onc": "temel",
+"cov": "kapaklar/ian-anderson-2012-thick-as-a-brick-2.jpg"
+},
+{
+"id": "ian-anderson-2014-homo-erraticus",
+"t": "Homo Erraticus",
+"y": 2014,
+"onc": "onerilir",
+"cov": "kapaklar/ian-anderson-2014-homo-erraticus.jpg"
 }
-],
-"eras": [
-{
-"yil": "1970–1972",
-"from": 1970,
-"to": 1972
-},
-{
-"yil": "1973–1976",
-"from": 1973,
-"to": 1976
-},
-{
-"yil": "1977–1980",
-"from": 1977,
-"to": 1980
+]
 }
 ]
 },
+{
+"no": 23,
+"groups": [
 {
 "id": "van-der-graaf-generator",
 "artist": "Van der Graaf Generator",
@@ -4016,6 +3935,157 @@
 "yil": "2005–2016",
 "from": 2005,
 "to": 2016
+}
+]
+},
+{
+"id": "peter-hammill-solo",
+"artist": "Peter Hammill",
+"albums": [
+{
+"id": "peter-hammill-1971-fool-s-mate",
+"t": "Fool's Mate",
+"y": 1971,
+"onc": "onerilir",
+"cov": "kapaklar/peter-hammill-1971-fool-s-mate.jpg"
+},
+{
+"id": "peter-hammill-1974-the-silent-corner-and-the-empty-stage",
+"t": "The Silent Corner and the Empty Stage",
+"y": 1974,
+"onc": "temel",
+"cov": "kapaklar/peter-hammill-1974-the-silent-corner-and-the-empty-stage.jpg"
+},
+{
+"id": "peter-hammill-1975-nadir-s-big-chance",
+"t": "Nadir's Big Chance",
+"y": 1975,
+"onc": "temel",
+"cov": "kapaklar/peter-hammill-1975-nadir-s-big-chance.jpg"
+},
+{
+"id": "peter-hammill-1980-a-black-box",
+"t": "A Black Box",
+"y": 1980,
+"onc": "temel",
+"cov": "kapaklar/peter-hammill-1980-a-black-box.jpg"
+},
+{
+"id": "peter-hammill-2004-incoherence",
+"t": "Incoherence",
+"y": 2004,
+"onc": "onerilir",
+"cov": "kapaklar/peter-hammill-2004-incoherence.jpg"
+}
+]
+}
+]
+},
+{
+"no": 10,
+"groups": [
+{
+"id": "gentle-giant",
+"artist": "Gentle Giant",
+"albums": [
+{
+"id": "gentle-giant-1970-gentle-giant",
+"t": "Gentle Giant",
+"y": 1970,
+"e": 0,
+"cov": "kapaklar/gentle-giant-1970-gentle-giant.jpg"
+},
+{
+"id": "gentle-giant-1971-acquiring-the-taste",
+"t": "Acquiring the Taste",
+"y": 1971,
+"e": 0,
+"cov": "kapaklar/gentle-giant-1971-acquiring-the-taste.jpg"
+},
+{
+"id": "gentle-giant-1972-three-friends",
+"t": "Three Friends",
+"y": 1972,
+"e": 0,
+"cov": "kapaklar/gentle-giant-1972-three-friends.jpg"
+},
+{
+"id": "gentle-giant-1972-octopus",
+"t": "Octopus",
+"y": 1972,
+"onc": "temel",
+"e": 0,
+"cov": "kapaklar/gentle-giant-1972-octopus.jpg"
+},
+{
+"id": "gentle-giant-1973-in-a-glass-house",
+"t": "In a Glass House",
+"y": 1973,
+"onc": "temel",
+"e": 1,
+"cov": "kapaklar/gentle-giant-1973-in-a-glass-house.jpg"
+},
+{
+"id": "gentle-giant-1974-the-power-and-the-glory",
+"t": "The Power and the Glory",
+"y": 1974,
+"onc": "temel",
+"e": 1,
+"cov": "kapaklar/gentle-giant-1974-the-power-and-the-glory.jpg"
+},
+{
+"id": "gentle-giant-1975-free-hand",
+"t": "Free Hand",
+"y": 1975,
+"onc": "temel",
+"e": 1,
+"cov": "kapaklar/gentle-giant-1975-free-hand.jpg"
+},
+{
+"id": "gentle-giant-1976-interview",
+"t": "Interview",
+"y": 1976,
+"e": 1,
+"cov": "kapaklar/gentle-giant-1976-interview.jpg"
+},
+{
+"id": "gentle-giant-1977-the-missing-piece",
+"t": "The Missing Piece",
+"y": 1977,
+"e": 2,
+"cov": "kapaklar/gentle-giant-1977-the-missing-piece.jpg"
+},
+{
+"id": "gentle-giant-1978-giant-for-a-day",
+"t": "Giant for a Day!",
+"y": 1978,
+"e": 2,
+"cov": "kapaklar/gentle-giant-1978-giant-for-a-day.jpg"
+},
+{
+"id": "gentle-giant-1980-civilian",
+"t": "Civilian",
+"y": 1980,
+"onc": "atla",
+"e": 2,
+"cov": "kapaklar/gentle-giant-1980-civilian.jpg"
+}
+],
+"eras": [
+{
+"yil": "1970–1972",
+"from": 1970,
+"to": 1972
+},
+{
+"yil": "1973–1976",
+"from": 1973,
+"to": 1976
+},
+{
+"yil": "1977–1980",
+"from": 1977,
+"to": 1980
 }
 ]
 },
@@ -4499,7 +4569,12 @@
 "cov": "kapaklar/woolly-wolstenholme-1980-maestoso.jpg"
 }
 ]
+}
+]
 },
+{
+"no": 24,
+"groups": [
 {
 "id": "henry-cow",
 "artist": "Henry Cow",
@@ -4675,88 +4750,6 @@
 "t": "Deceit",
 "y": 1981,
 "cov": "kapaklar/this-heat-1981-deceit.jpg"
-}
-]
-},
-{
-"id": "ian-anderson-solo",
-"artist": "Ian Anderson",
-"albums": [
-{
-"id": "ian-anderson-1983-walk-into-light",
-"t": "Walk into Light",
-"y": 1983,
-"onc": "atla",
-"cov": "kapaklar/ian-anderson-1983-walk-into-light.jpg"
-},
-{
-"id": "ian-anderson-1995-divinities-twelve-dances-with-god",
-"t": "Divinities: Twelve Dances with God",
-"y": 1995,
-"onc": "istege",
-"cov": "kapaklar/ian-anderson-1995-divinities-twelve-dances-with-god.jpg"
-},
-{
-"id": "ian-anderson-2000-the-secret-language-of-birds",
-"t": "The Secret Language of Birds",
-"y": 2000,
-"onc": "onerilir",
-"cov": "kapaklar/ian-anderson-2000-the-secret-language-of-birds.jpg"
-},
-{
-"id": "ian-anderson-2012-thick-as-a-brick-2",
-"t": "Thick as a Brick 2",
-"y": 2012,
-"onc": "temel",
-"cov": "kapaklar/ian-anderson-2012-thick-as-a-brick-2.jpg"
-},
-{
-"id": "ian-anderson-2014-homo-erraticus",
-"t": "Homo Erraticus",
-"y": 2014,
-"onc": "onerilir",
-"cov": "kapaklar/ian-anderson-2014-homo-erraticus.jpg"
-}
-]
-},
-{
-"id": "peter-hammill-solo",
-"artist": "Peter Hammill",
-"albums": [
-{
-"id": "peter-hammill-1971-fool-s-mate",
-"t": "Fool's Mate",
-"y": 1971,
-"onc": "onerilir",
-"cov": "kapaklar/peter-hammill-1971-fool-s-mate.jpg"
-},
-{
-"id": "peter-hammill-1974-the-silent-corner-and-the-empty-stage",
-"t": "The Silent Corner and the Empty Stage",
-"y": 1974,
-"onc": "temel",
-"cov": "kapaklar/peter-hammill-1974-the-silent-corner-and-the-empty-stage.jpg"
-},
-{
-"id": "peter-hammill-1975-nadir-s-big-chance",
-"t": "Nadir's Big Chance",
-"y": 1975,
-"onc": "temel",
-"cov": "kapaklar/peter-hammill-1975-nadir-s-big-chance.jpg"
-},
-{
-"id": "peter-hammill-1980-a-black-box",
-"t": "A Black Box",
-"y": 1980,
-"onc": "temel",
-"cov": "kapaklar/peter-hammill-1980-a-black-box.jpg"
-},
-{
-"id": "peter-hammill-2004-incoherence",
-"t": "Incoherence",
-"y": 2004,
-"onc": "onerilir",
-"cov": "kapaklar/peter-hammill-2004-incoherence.jpg"
 }
 ]
 }
@@ -5513,6 +5506,33 @@
 "yil": "1979–1982",
 "from": 1979,
 "to": 1982
+}
+]
+},
+{
+"id": "phil-manzanera-quiet-sun-801",
+"artist": "Phil Manzanera",
+"albums": [
+{
+"id": "phil-manzanera-1975-mainstream",
+"t": "Mainstream",
+"y": 1975,
+"onc": "temel",
+"cov": "kapaklar/phil-manzanera-1975-mainstream.jpg"
+},
+{
+"id": "phil-manzanera-1975-diamond-head",
+"t": "Diamond Head",
+"y": 1975,
+"onc": "onerilir",
+"cov": "kapaklar/phil-manzanera-1975-diamond-head.jpg"
+},
+{
+"id": "phil-manzanera-1976-801-live",
+"t": "801 Live",
+"y": 1976,
+"onc": "temel",
+"cov": "kapaklar/phil-manzanera-1976-801-live.jpg"
 }
 ]
 },

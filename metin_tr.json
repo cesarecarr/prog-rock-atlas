@@ -2710,7 +2710,7 @@
   "Fearless"
  ],
  "sec.8.title": "Canterbury Scene",
- "sec.8.intro": "Jazz-rock, mizah ve İngiliz tuhaflığının kesiştiği alt-ağ. Soft Machine merkezdir; üyeler Caravan, Hatfield, National Health, Gong arasında sürekli dolaşır.",
+ "sec.8.intro": "Jazz-rock, mizah ve İngiliz tuhaflığının kesiştiği alt-ağ. Soft Machine merkezdir; üyeler Caravan, Hatfield and the North, National Health, Egg ve Matching Mole arasında sürekli dolaşır. Daevid Allen'ın kurduğu Fransız-psikedelik kol Gong artık ayrı bir bölümde.",
  "grp.soft-machine.name": "Soft Machine",
  "grp.soft-machine.kurulus": "1966, Canterbury. Robert Wyatt, Kevin Ayers, Mike Ratledge, Daevid Allen ile kuruldu. Psychedelia'dan jazz-fusion'a evrildi.",
  "grp.soft-machine.hikaye": "Canterbury sahnesinin merkez düğümü. 1966'da Daevid Allen, Robert Wyatt, Kevin Ayers ve Mike Ratledge tarafından Wilde Flowers'ın kalıntılarından kuruldu; adı William Burroughs'un romanından alındı. Önce Pink Floyd'la birlikte Londra underground'ının psychedelic grubu, sonra İngiliz caz-rock'ının öncüsü oldu. Allen Fransa'da kalınca Gong'u, Ayers solo kariyerini, Wyatt 1971'de ayrılıp Matching Mole'u kurdu. 70'lerde Karl Jenkins ve John Marshall (Nucleus kökenli) ile tamamen fusion bir gruba dönüştü; Ratledge'in 1976'da ayrılmasıyla tek kurucu üye kalmadı. 2000'lerde Soft Machine Legacy adıyla Elton Dean, Hugh Hopper, John Marshall ve Theo Travis ile yeniden sahneye çıktı; 2015'ten sonra yeniden Soft Machine adını aldı.",
@@ -9386,5 +9386,14 @@
   "Sirius",
   "Eye in the Sky",
   "Old and Wise"
- ]
+ ],
+ "sec.22.title": "Jethro Tull Evreni",
+ "sec.22.intro": "Ian Anderson'ın flütü, folk melodileri ve blues kökleri Jethro Tull'u prog içinde kendine ait bir dünya yaptı: This Was'ın blues'undan Thick as a Brick ve A Passion Play konsept albümlerine ve yetmişlerin sonundaki folk-rock üçlemesine. Anderson'ın solo albümleri aynı çizgiyi Thick as a Brick 2'ye kadar sürdürür.",
+ "sec.23.title": "Van der Graaf Evreni",
+ "sec.23.intro": "İngiliz prog'unun en karanlık ve en yoğun köşesi: Peter Hammill'in sesi ve sözleri, Hugh Banton'ın orgu, David Jackson'ın saksafonları ve Guy Evans'ın davulu — solo gitar olmadan. Van der Graaf Generator ile Hammill'in solo işleri elli yıldır paralel ilerliyor; aralarındaki sınır hiçbir zaman keskin olmadı.",
+ "sec.24.title": "Rock in Opposition — Henry Cow ve Avangart",
+ "sec.24.intro": "1978'de Henry Cow, Kıta Avrupası'ndan dört grubu Rock in Opposition adıyla Londra'ya davet etti: müzik endüstrisine karşı bir hareket ve kendine ait bir üslup — çağdaş klasik müzikten ve serbest doğaçlamadan beslenen, bestelenmiş, disonant, siyasi duyarlı bir rock. Henry Cow üyelerinin (Fred Frith, Chris Cutler, Lindsay Cooper) çevresinde Art Bears, Slapp Happy'nin şarkı odaklı sapağı ve hemen yanında This Heat'in post-punk deneyleri gelişti.",
+ "sec.25.title": "Gong Evreni",
+ "sec.25.intro": "İngiltere'ye yeniden girişine izin verilmeyince Soft Machine'den ayrılmak zorunda kalan Avustralyalı Daevid Allen, Gong'u Fransa'da kurdu: psikedelik space rock, 'pothead pixie'ler ve uçan çaydanlıklarla dolu Radio Gnome mitolojisi ve Steve Hillage'ın glissando gitarı. Allen ayrıldıktan sonra Pierre Moerlen grubu perküsyon ağırlıklı bir jazz-rock topluluğuna dönüştürdü; Hillage ise kozmik yanı solo işlerine, sonra da System 7'nin dans müziğine taşıdı.",
+ "sec.10.intro": "Aynı senfonik ve folk kaynaklardan beslenen bağımsız gruplar: Gentle Giant'ın kontrpuanı, Camel'ın melodik enstrümantalleri, Renaissance'ın klasik sesi, Curved Air'in kemanı, Gryphon'un ortaçağ çalgıları, Fairport Convention'ın folk rock'ı ve Barclay James Harvest ile Family'nin pastoral rock'ı. Jethro Tull, Van der Graaf Generator ve Rock in Opposition çevresi artık kendi bölümlerinde."
 }

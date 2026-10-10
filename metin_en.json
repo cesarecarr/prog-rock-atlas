@@ -2317,7 +2317,7 @@
  "alb.nick-mason-2020-live-at-the-roundhouse.an": "Saucerful of Secrets' 2019 concerts: 'Interstellar Overdrive', 'Lucifer Sam', sections of 'Atom Heart Mother' and 'Echoes'. An energetic live recording that revives the Barrett era.",
  "alb.nick-mason-2020-live-at-the-roundhouse.oncelik": "Recommended — to hear early Floyd on stage.",
  "sec.8.title": "The Canterbury Scene",
- "sec.8.intro": "A sub-network where jazz-rock, humour and English eccentricity intersect. Soft Machine is at the centre; members constantly circulate between Caravan, Hatfield, National Health and Gong.",
+ "sec.8.intro": "A sub-network where jazz-rock, humour and English eccentricity intersect. Soft Machine is at the centre; members constantly circulate between Caravan, Hatfield and the North, National Health, Egg and Matching Mole. Gong, the Franco-psychedelic branch founded by Daevid Allen, now has its own section.",
  "grp.soft-machine.kurulus": "1966, Canterbury. Formed by Robert Wyatt, Kevin Ayers, Mike Ratledge and Daevid Allen. Evolved from psychedelia to jazz fusion.",
  "grp.soft-machine.hikaye": "The central node of the Canterbury scene. Formed in 1966 by Daevid Allen, Robert Wyatt, Kevin Ayers and Mike Ratledge from what was left of the Wilde Flowers; the name came from William Burroughs's novel. First a psychedelic band of the London underground alongside Pink Floyd, then a pioneer of British jazz-rock. When Allen stayed in France he formed Gong; Ayers went solo, and Wyatt left in 1971 to form Matching Mole. In the '70s, with Karl Jenkins and John Marshall (from Nucleus), it became an all-out fusion band; when Ratledge left in 1976 no founding member remained. In the 2000s it returned to the stage as Soft Machine Legacy with Elton Dean, Hugh Hopper, John Marshall and Theo Travis, taking back the Soft Machine name after 2015.",
  "grp.soft-machine.dna": "Fuzz-organ textures, asymmetric time signatures, jazz improvisation, deadpan English humour.",
@@ -9386,5 +9386,14 @@
   "Sirius",
   "Eye in the Sky",
   "Old and Wise"
- ]
+ ],
+ "sec.22.title": "The Jethro Tull Universe",
+ "sec.22.intro": "Ian Anderson's flute, folk melodies and blues roots made Jethro Tull a world of its own within prog: from the blues of This Was to the concept albums Thick as a Brick and A Passion Play and the folk-rock trilogy of the late seventies. Anderson's solo albums continue the same line, up to the sequel Thick as a Brick 2.",
+ "sec.23.title": "The Van der Graaf Universe",
+ "sec.23.intro": "The darkest and most intense corner of English prog: Peter Hammill's voice and lyrics, Hugh Banton's organ, David Jackson's saxophones and Guy Evans's drums, without a lead guitar. Van der Graaf Generator and Hammill's solo work have run in parallel for fifty years; the boundary between them was never sharp.",
+ "sec.24.title": "Rock in Opposition — Henry Cow and the Avant-Garde",
+ "sec.24.intro": "In 1978 Henry Cow invited four bands from the continent to London under the name Rock in Opposition: a movement against the music industry, and a style of its own — composed, dissonant, politically engaged rock that borrows from contemporary classical music and free improvisation. Around the members of Henry Cow (Fred Frith, Chris Cutler, Lindsay Cooper) grew Art Bears, the song-based detour of Slapp Happy and, close by, the post-punk experiments of This Heat.",
+ "sec.25.title": "The Gong Universe",
+ "sec.25.intro": "Daevid Allen, an Australian who had to leave Soft Machine when he was refused re-entry into Britain, founded Gong in France: psychedelic space rock, the Radio Gnome mythology of pothead pixies and flying teapots, and Steve Hillage's glissando guitar. After Allen left, Pierre Moerlen turned the band into a percussion-led jazz-rock group, while Hillage carried the cosmic side into his solo work and later into the dance music of System 7.",
+ "sec.10.intro": "Independent bands fed by the same symphonic and folk sources: Gentle Giant's counterpoint, Camel's melodic instrumentals, Renaissance's classical voice, Curved Air's violin, Gryphon's medieval instruments, Fairport Convention's folk rock and the pastoral rock of Barclay James Harvest and Family. Jethro Tull, Van der Graaf Generator and the Rock in Opposition circle now have sections of their own."
 }

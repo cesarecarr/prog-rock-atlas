@@ -2317,7 +2317,7 @@
  "alb.nick-mason-2020-live-at-the-roundhouse.an": "Die Konzerte von Saucerful of Secrets 2019: „Interstellar Overdrive“, „Lucifer Sam“, Teile von „Atom Heart Mother“ und „Echoes“. Eine energiegeladene Liveaufnahme, die die Barrett-Ära wiederbelebt.",
  "alb.nick-mason-2020-live-at-the-roundhouse.oncelik": "Empfohlen — um die frühen Floyd auf der Bühne zu hören.",
  "sec.8.title": "Die Canterbury-Szene",
- "sec.8.intro": "Ein Subnetzwerk, in dem sich Jazzrock, Humor und englische Exzentrik kreuzen. Soft Machine steht im Zentrum; die Mitglieder zirkulieren ständig zwischen Caravan, Hatfield, National Health und Gong.",
+ "sec.8.intro": "Ein Subnetzwerk, in dem sich Jazzrock, Humor und englische Exzentrik kreuzen. Soft Machine steht im Zentrum; die Mitglieder zirkulieren ständig zwischen Caravan, Hatfield and the North, National Health, Egg und Matching Mole. Gong, der von Daevid Allen gegründete französisch-psychedelische Zweig, hat jetzt einen eigenen Abschnitt.",
  "grp.soft-machine.kurulus": "1966, Canterbury. Gegründet von Robert Wyatt, Kevin Ayers, Mike Ratledge und Daevid Allen. Entwickelte sich von der Psychedelia zur Jazz-Fusion.",
  "grp.soft-machine.hikaye": "Der zentrale Knoten der Canterbury-Szene. 1966 von Daevid Allen, Robert Wyatt, Kevin Ayers und Mike Ratledge aus den Resten der Wilde Flowers gegründet; der Name stammt aus einem Roman von William Burroughs. Zuerst eine Psychedelic-Band des Londoner Underground neben Pink Floyd, dann ein Pionier des britischen Jazzrock. Als Allen in Frankreich blieb, gründete er Gong; Ayers ging solo, und Wyatt stieg 1971 aus, um Matching Mole zu gründen. In den 70ern wurde sie mit Karl Jenkins und John Marshall (von Nucleus) zur reinen Fusion-Band; als Ratledge 1976 ging, war kein Gründungsmitglied mehr übrig. In den 2000ern kehrte sie als Soft Machine Legacy mit Elton Dean, Hugh Hopper, John Marshall und Theo Travis auf die Bühne zurück und nahm nach 2015 wieder den Namen Soft Machine an.",
  "grp.soft-machine.dna": "Fuzz-Orgel-Texturen, asymmetrische Taktarten, Jazzimprovisation, trockener englischer Humor.",
@@ -9386,5 +9386,14 @@
   "Sirius",
   "Eye in the Sky",
   "Old and Wise"
- ]
+ ],
+ "sec.22.title": "Das Jethro-Tull-Universum",
+ "sec.22.intro": "Ian Andersons Flöte, Folkmelodien und Blueswurzeln machten Jethro Tull zu einer eigenen Welt innerhalb des Prog: vom Blues von This Was über die Konzeptalben Thick as a Brick und A Passion Play bis zur Folkrock-Trilogie der späten Siebziger. Andersons Soloalben setzen dieselbe Linie fort, bis zur Fortsetzung Thick as a Brick 2.",
+ "sec.23.title": "Das Van-der-Graaf-Universum",
+ "sec.23.intro": "Die dunkelste und intensivste Ecke des englischen Prog: Peter Hammills Stimme und Texte, Hugh Bantons Orgel, David Jacksons Saxofone und Guy Evans' Schlagzeug, ohne Leadgitarre. Van der Graaf Generator und Hammills Soloarbeit laufen seit fünfzig Jahren parallel; die Grenze zwischen beiden war nie scharf.",
+ "sec.24.title": "Rock in Opposition — Henry Cow und die Avantgarde",
+ "sec.24.intro": "1978 lud Henry Cow vier Bands vom Kontinent unter dem Namen Rock in Opposition nach London ein: eine Bewegung gegen die Musikindustrie und ein eigener Stil — komponierter, dissonanter, politisch engagierter Rock, der bei der zeitgenössischen Klassik und der freien Improvisation borgt. Um die Mitglieder von Henry Cow (Fred Frith, Chris Cutler, Lindsay Cooper) wuchsen Art Bears, der songorientierte Abstecher von Slapp Happy und gleich daneben die Post-Punk-Experimente von This Heat.",
+ "sec.25.title": "Das Gong-Universum",
+ "sec.25.intro": "Daevid Allen, ein Australier, der Soft Machine verlassen musste, weil ihm die Wiedereinreise nach Großbritannien verweigert wurde, gründete Gong in Frankreich: psychedelischer Space Rock, die Radio-Gnome-Mythologie mit Pothead Pixies und fliegenden Teekannen und Steve Hillages Glissando-Gitarre. Nach Allens Weggang machte Pierre Moerlen die Band zu einer perkussionsbetonten Jazzrock-Gruppe, während Hillage die kosmische Seite in seine Soloarbeit und später in die Tanzmusik von System 7 trug.",
+ "sec.10.intro": "Unabhängige Bands, gespeist aus denselben symphonischen und folkigen Quellen: der Kontrapunkt von Gentle Giant, die melodischen Instrumentals von Camel, die klassische Stimme von Renaissance, die Geige von Curved Air, die mittelalterlichen Instrumente von Gryphon, der Folkrock von Fairport Convention und der pastorale Rock von Barclay James Harvest und Family. Jethro Tull, Van der Graaf Generator und der Kreis um Rock in Opposition haben jetzt eigene Abschnitte."
 }
