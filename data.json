@@ -390,6 +390,40 @@
 "cov": "kapaklar/the-doors-1971-l-a-woman.jpg"
 }
 ]
+},
+{
+"id": "eric-burdon-the-animals",
+"artist": "Eric Burdon & The Animals",
+"albums": [
+{
+"id": "eric-burdon-the-animals-1967-winds-of-change",
+"t": "Winds of Change",
+"y": 1967,
+"onc": "onerilir",
+"cov": "kapaklar/eric-burdon-the-animals-1967-winds-of-change.jpg"
+},
+{
+"id": "eric-burdon-the-animals-1968-the-twain-shall-meet",
+"t": "The Twain Shall Meet",
+"y": 1968,
+"onc": "onerilir",
+"cov": "kapaklar/eric-burdon-the-animals-1968-the-twain-shall-meet.jpg"
+},
+{
+"id": "eric-burdon-the-animals-1968-every-one-of-us",
+"t": "Every One of Us",
+"y": 1968,
+"onc": "istege",
+"cov": "kapaklar/eric-burdon-the-animals-1968-every-one-of-us.jpg"
+},
+{
+"id": "eric-burdon-the-animals-1968-love-is",
+"t": "Love Is",
+"y": 1968,
+"onc": "onerilir",
+"cov": "kapaklar/eric-burdon-the-animals-1968-love-is.jpg"
+}
+]
 }
 ]
 },
@@ -1399,6 +1433,20 @@
 "cov": "kapaklar/rick-wakeman-1977-criminal-record.jpg"
 },
 {
+"id": "rick-wakeman-1977-white-rock",
+"t": "White Rock",
+"y": 1977,
+"onc": "ikincil",
+"cov": "kapaklar/rick-wakeman-1977-white-rock.jpg"
+},
+{
+"id": "rick-wakeman-1981-1984",
+"t": "1984",
+"y": 1981,
+"onc": "istege",
+"cov": "kapaklar/rick-wakeman-1981-1984.jpg"
+},
+{
 "id": "rick-wakeman-1999-return-to-the-centre-of-the-earth",
 "t": "Return to the Centre of the Earth",
 "y": 1999,
@@ -1460,18 +1508,18 @@
 "cov": "kapaklar/jon-anderson-1976-olias-of-sunhillow.jpg"
 },
 {
-"id": "jon-anderson-1980-short-stories",
-"t": "Short Stories",
+"id": "jon-anderson-1980-song-of-seven",
+"t": "Song of Seven",
 "y": 1980,
-"onc": "istege",
-"cov": "kapaklar/jon-anderson-1980-short-stories.jpg"
+"onc": "ikincil",
+"cov": "kapaklar/jon-anderson-1980-song-of-seven.jpg"
 },
 {
-"id": "jon-anderson-1981-the-friends-of-mr-cairo",
-"t": "The Friends of Mr Cairo",
-"y": 1981,
-"onc": "onerilir",
-"cov": "kapaklar/jon-anderson-1981-the-friends-of-mr-cairo.jpg"
+"id": "jon-anderson-1982-animation",
+"t": "Animation",
+"y": 1982,
+"onc": "ikincil",
+"cov": "kapaklar/jon-anderson-1982-animation.jpg"
 },
 {
 "id": "jon-anderson-2011-survival-other-stories",
@@ -2088,6 +2136,14 @@
 "onc": "istege",
 "e": 2,
 "cov": "kapaklar/peter-gabriel-2011-new-blood.jpg"
+},
+{
+"id": "peter-gabriel-2023-i-o",
+"t": "i/o",
+"y": 2023,
+"onc": "onerilir",
+"cov": "kapaklar/peter-gabriel-2023-i-o.jpg",
+"e": 2
 }
 ],
 "eras": [
@@ -2102,9 +2158,9 @@
 "to": 1993
 },
 {
-"yil": "2000–2011",
+"yil": "2000–2023",
 "from": 2000,
-"to": 2011
+"to": 2023
 }
 ]
 },
@@ -2428,6 +2484,14 @@
 "cov": "kapaklar/pink-floyd-1971-meddle.jpg"
 },
 {
+"id": "pink-floyd-1972-obscured-by-clouds",
+"t": "Obscured by Clouds",
+"y": 1972,
+"onc": "istege",
+"cov": "kapaklar/pink-floyd-1972-obscured-by-clouds.jpg",
+"e": 1
+},
+{
 "id": "pink-floyd-1973-the-dark-side-of-the-moon",
 "t": "The Dark Side of the Moon",
 "y": 1973,
@@ -2588,6 +2652,13 @@
 "y": 2015,
 "onc": "istege",
 "cov": "kapaklar/david-gilmour-2015-rattle-that-lock.jpg"
+},
+{
+"id": "david-gilmour-2024-luck-and-strange",
+"t": "Luck and Strange",
+"y": 2024,
+"onc": "onerilir",
+"cov": "kapaklar/david-gilmour-2024-luck-and-strange.jpg"
 }
 ]
 },
@@ -2596,11 +2667,25 @@
 "artist": "Roger Waters",
 "albums": [
 {
+"id": "roger-waters-1970-music-from-the-body",
+"t": "Music from The Body",
+"y": 1970,
+"onc": "istege",
+"cov": "kapaklar/roger-waters-1970-music-from-the-body.jpg"
+},
+{
 "id": "roger-waters-1984-the-pros-and-cons-of-hitch-hiking",
 "t": "The Pros and Cons of Hitch Hiking",
 "y": 1984,
 "onc": "istege",
 "cov": "kapaklar/roger-waters-1984-the-pros-and-cons-of-hitch-hiking.jpg"
+},
+{
+"id": "roger-waters-1986-when-the-wind-blows",
+"t": "When the Wind Blows",
+"y": 1986,
+"onc": "ikincil",
+"cov": "kapaklar/roger-waters-1986-when-the-wind-blows.jpg"
 },
 {
 "id": "roger-waters-1987-radio-k-a-o-s",
@@ -2617,11 +2702,25 @@
 "cov": "kapaklar/roger-waters-1992-amused-to-death.jpg"
 },
 {
+"id": "roger-waters-2005-ca-ira",
+"t": "Ça Ira",
+"y": 2005,
+"onc": "ikincil",
+"cov": "kapaklar/roger-waters-2005-ca-ira.jpg"
+},
+{
 "id": "roger-waters-2017-is-this-the-life-we-really-want",
 "t": "Is This the Life We Really Want?",
 "y": 2017,
 "onc": "onerilir",
 "cov": "kapaklar/roger-waters-2017-is-this-the-life-we-really-want.jpg"
+},
+{
+"id": "roger-waters-2023-the-dark-side-of-the-moon-redux",
+"t": "The Dark Side of the Moon Redux",
+"y": 2023,
+"onc": "istege",
+"cov": "kapaklar/roger-waters-2023-the-dark-side-of-the-moon-redux.jpg"
 }
 ]
 },
@@ -2704,6 +2803,13 @@
 "cov": "kapaklar/the-alan-parsons-project-1978-pyramid.jpg"
 },
 {
+"id": "the-alan-parsons-project-1979-eve",
+"t": "Eve",
+"y": 1979,
+"onc": "istege",
+"cov": "kapaklar/the-alan-parsons-project-1979-eve.jpg"
+},
+{
 "id": "the-alan-parsons-project-1980-the-turn-of-a-friendly-card",
 "t": "The Turn of a Friendly Card",
 "y": 1980,
@@ -2716,6 +2822,34 @@
 "y": 1982,
 "onc": "istege",
 "cov": "kapaklar/the-alan-parsons-project-1982-eye-in-the-sky.jpg"
+},
+{
+"id": "the-alan-parsons-project-1984-ammonia-avenue",
+"t": "Ammonia Avenue",
+"y": 1984,
+"onc": "istege",
+"cov": "kapaklar/the-alan-parsons-project-1984-ammonia-avenue.jpg"
+},
+{
+"id": "the-alan-parsons-project-1985-vulture-culture",
+"t": "Vulture Culture",
+"y": 1985,
+"onc": "ikincil",
+"cov": "kapaklar/the-alan-parsons-project-1985-vulture-culture.jpg"
+},
+{
+"id": "the-alan-parsons-project-1985-stereotomy",
+"t": "Stereotomy",
+"y": 1985,
+"onc": "ikincil",
+"cov": "kapaklar/the-alan-parsons-project-1985-stereotomy.jpg"
+},
+{
+"id": "the-alan-parsons-project-1987-gaudi",
+"t": "Gaudi",
+"y": 1987,
+"onc": "istege",
+"cov": "kapaklar/the-alan-parsons-project-1987-gaudi.jpg"
 }
 ]
 }
@@ -3333,6 +3467,13 @@
 "cov": "kapaklar/steve-hillage-1977-motivation-radio.jpg"
 },
 {
+"id": "steve-hillage-1978-green",
+"t": "Green",
+"y": 1978,
+"onc": "onerilir",
+"cov": "kapaklar/steve-hillage-1978-green.jpg"
+},
+{
 "id": "steve-hillage-1979-rainbow-dome-musick",
 "t": "Rainbow Dome Musick",
 "y": 1979,
@@ -3880,6 +4021,14 @@
 "cov": "kapaklar/van-der-graaf-generator-1976-world-record.jpg"
 },
 {
+"id": "van-der-graaf-generator-1977-the-quiet-zone-the-pleasure-dome",
+"t": "The Quiet Zone/The Pleasure Dome",
+"y": 1977,
+"onc": "onerilir",
+"cov": "kapaklar/van-der-graaf-generator-1977-the-quiet-zone-the-pleasure-dome.jpg",
+"e": 1
+},
+{
 "id": "van-der-graaf-generator-1978-vital",
 "t": "Vital",
 "y": 1978,
@@ -4234,6 +4383,20 @@
 "artist": "Renaissance",
 "albums": [
 {
+"id": "renaissance-1969-renaissance",
+"t": "Renaissance",
+"y": 1969,
+"onc": "istege",
+"cov": "kapaklar/renaissance-1969-renaissance.jpg"
+},
+{
+"id": "renaissance-1971-illusion",
+"t": "Illusion",
+"y": 1971,
+"onc": "istege",
+"cov": "kapaklar/renaissance-1971-illusion.jpg"
+},
+{
 "id": "renaissance-1972-prologue",
 "t": "Prologue",
 "y": 1972,
@@ -4480,6 +4643,13 @@
 "t": "Bandstand",
 "y": 1972,
 "cov": "kapaklar/family-1972-bandstand.jpg"
+},
+{
+"id": "family-1973-it-s-only-a-movie",
+"t": "It's Only a Movie",
+"y": 1973,
+"onc": "ikincil",
+"cov": "kapaklar/family-1973-it-s-only-a-movie.jpg"
 }
 ]
 },
@@ -4530,6 +4700,13 @@
 "y": 1977,
 "onc": "temel",
 "cov": "kapaklar/barclay-james-harvest-1977-gone-to-earth.jpg"
+},
+{
+"id": "barclay-james-harvest-1978-xii",
+"t": "XII",
+"y": 1978,
+"onc": "istege",
+"cov": "kapaklar/barclay-james-harvest-1978-xii.jpg"
 },
 {
 "id": "barclay-james-harvest-2013-north",
@@ -4834,6 +5011,13 @@
 "y": 1979,
 "onc": "istege",
 "cov": "kapaklar/led-zeppelin-1979-in-through-the-out-door.jpg"
+},
+{
+"id": "led-zeppelin-1982-coda",
+"t": "Coda",
+"y": 1982,
+"onc": "istege",
+"cov": "kapaklar/led-zeppelin-1982-coda.jpg"
 }
 ]
 },
@@ -5155,6 +5339,14 @@
 "onc": "istege",
 "e": 3,
 "cov": "kapaklar/deep-purple-1996-purpendicular.jpg"
+},
+{
+"id": "deep-purple-2013-now-what",
+"t": "Now What?!",
+"y": 2013,
+"onc": "onerilir",
+"cov": "kapaklar/deep-purple-2013-now-what.jpg",
+"e": 3
 }
 ],
 "eras": [
@@ -5174,9 +5366,9 @@
 "to": 1975
 },
 {
-"yil": "1984–1996",
+"yil": "1984–2013",
 "from": 1984,
-"to": 1996
+"to": 2013
 }
 ]
 },
@@ -5733,6 +5925,22 @@
 "cov": "kapaklar/brian-eno-1978-ambient-1-music-for-airports.jpg"
 },
 {
+"id": "brian-eno-1978-music-for-films",
+"t": "Music for Films",
+"y": 1978,
+"onc": "istege",
+"cov": "kapaklar/brian-eno-1978-music-for-films.jpg",
+"e": 1
+},
+{
+"id": "brian-eno-1982-ambient-4-on-land",
+"t": "Ambient 4: On Land",
+"y": 1982,
+"onc": "onerilir",
+"cov": "kapaklar/brian-eno-1982-ambient-4-on-land.jpg",
+"e": 1
+},
+{
 "id": "brian-eno-1983-apollo-atmospheres-and-soundtracks",
 "t": "Apollo: Atmospheres and Soundtracks",
 "y": 1983,
@@ -5772,6 +5980,61 @@
 "yil": "1981–2005",
 "from": 1981,
 "to": 2005
+}
+]
+},
+{
+"id": "david-bowie",
+"artist": "David Bowie",
+"albums": [
+{
+"id": "david-bowie-1971-hunky-dory",
+"t": "Hunky Dory",
+"y": 1971,
+"onc": "onerilir",
+"cov": "kapaklar/david-bowie-1971-hunky-dory.jpg"
+},
+{
+"id": "david-bowie-1976-station-to-station",
+"t": "Station to Station",
+"y": 1976,
+"onc": "temel",
+"cov": "kapaklar/david-bowie-1976-station-to-station.jpg"
+},
+{
+"id": "david-bowie-1977-low",
+"t": "Low",
+"y": 1977,
+"onc": "temel",
+"cov": "kapaklar/david-bowie-1977-low.jpg"
+},
+{
+"id": "david-bowie-1977-heroes",
+"t": "\"Heroes\"",
+"y": 1977,
+"onc": "onerilir",
+"cov": "kapaklar/david-bowie-1977-heroes.jpg"
+},
+{
+"id": "david-bowie-1979-lodger",
+"t": "Lodger",
+"y": 1979,
+"onc": "istege",
+"cov": "kapaklar/david-bowie-1979-lodger.jpg"
+},
+{
+"id": "david-bowie-1980-scary-monsters-and-super-creeps",
+"t": "Scary Monsters (and Super Creeps)",
+"y": 1980,
+"onc": "onerilir",
+"cov": "kapaklar/david-bowie-1980-scary-monsters-and-super-creeps.jpg"
+},
+{
+"id": "david-bowie-2016-blackstar",
+"t": "Blackstar",
+"y": 2016,
+"onc": "onerilir",
+"cov": "kapaklar/david-bowie-2016-blackstar.jpg"
 }
 ]
 },
@@ -5828,6 +6091,14 @@
 "cov": "kapaklar/mike-oldfield-1979-platinum.jpg"
 },
 {
+"id": "mike-oldfield-1980-qe2",
+"t": "QE2",
+"y": 1980,
+"onc": "istege",
+"cov": "kapaklar/mike-oldfield-1980-qe2.jpg",
+"e": 1
+},
+{
 "id": "mike-oldfield-1982-five-miles-out",
 "t": "Five Miles Out",
 "y": 1982,
@@ -5842,6 +6113,14 @@
 "onc": "onerilir",
 "e": 1,
 "cov": "kapaklar/mike-oldfield-1983-crises.jpg"
+},
+{
+"id": "mike-oldfield-1984-discovery",
+"t": "Discovery",
+"y": 1984,
+"onc": "istege",
+"cov": "kapaklar/mike-oldfield-1984-discovery.jpg",
+"e": 1
 },
 {
 "id": "mike-oldfield-1990-amarok",
@@ -5866,6 +6145,14 @@
 "onc": "istege",
 "e": 2,
 "cov": "kapaklar/mike-oldfield-1994-the-songs-of-distant-earth.jpg"
+},
+{
+"id": "mike-oldfield-2017-return-to-ommadawn",
+"t": "Return to Ommadawn",
+"y": 2017,
+"onc": "onerilir",
+"cov": "kapaklar/mike-oldfield-2017-return-to-ommadawn.jpg",
+"e": 2
 }
 ],
 "eras": [
@@ -5875,14 +6162,14 @@
 "to": 1978
 },
 {
-"yil": "1979–1983",
+"yil": "1979–1984",
 "from": 1979,
-"to": 1983
+"to": 1984
 },
 {
-"yil": "1990–1994",
+"yil": "1990–2017",
 "from": 1990,
-"to": 1994
+"to": 2017
 }
 ]
 },
@@ -6013,6 +6300,20 @@
 "id": "jon-and-vangelis",
 "artist": "Jon and Vangelis",
 "albums": [
+{
+"id": "jon-anderson-1980-short-stories",
+"t": "Short Stories",
+"y": 1980,
+"onc": "istege",
+"cov": "kapaklar/jon-anderson-1980-short-stories.jpg"
+},
+{
+"id": "jon-anderson-1981-the-friends-of-mr-cairo",
+"t": "The Friends of Mr Cairo",
+"y": 1981,
+"onc": "onerilir",
+"cov": "kapaklar/jon-anderson-1981-the-friends-of-mr-cairo.jpg"
+},
 {
 "id": "jon-and-vangelis-1983-private-collection",
 "t": "Private Collection",
@@ -6342,11 +6643,25 @@
 "cov": "kapaklar/captain-beefheart-1972-clear-spot.jpg"
 },
 {
+"id": "captain-beefheart-1978-shiny-beast-bat-chain-puller",
+"t": "Shiny Beast (Bat Chain Puller)",
+"y": 1978,
+"onc": "onerilir",
+"cov": "kapaklar/captain-beefheart-1978-shiny-beast-bat-chain-puller.jpg"
+},
+{
 "id": "captain-beefheart-1980-doc-at-the-radar-station",
 "t": "Doc at the Radar Station",
 "y": 1980,
 "onc": "istege",
 "cov": "kapaklar/captain-beefheart-1980-doc-at-the-radar-station.jpg"
+},
+{
+"id": "captain-beefheart-1982-ice-cream-for-crow",
+"t": "Ice Cream for Crow",
+"y": 1982,
+"onc": "istege",
+"cov": "kapaklar/captain-beefheart-1982-ice-cream-for-crow.jpg"
 }
 ]
 },
@@ -6540,7 +6855,8 @@
 "id": "magma-1970-magma",
 "t": "Magma",
 "y": 1970,
-"onc": "istege"
+"onc": "istege",
+"cov": "kapaklar/magma-1970-magma.jpg"
 },
 {
 "id": "magma-1973-mekanik-destruktiw-kommandoh",
@@ -6800,6 +7116,14 @@
 "onc": "temel",
 "e": 2,
 "cov": "kapaklar/marillion-2016-f-e-a-r.jpg"
+},
+{
+"id": "marillion-2022-an-hour-before-it-s-dark",
+"t": "An Hour Before It's Dark",
+"y": 2022,
+"onc": "onerilir",
+"cov": "kapaklar/marillion-2022-an-hour-before-it-s-dark.jpg",
+"e": 2
 }
 ],
 "eras": [
@@ -6814,9 +7138,9 @@
 "to": 1995
 },
 {
-"yil": "1997–2016",
+"yil": "1997–2022",
 "from": 1997,
-"to": 2016
+"to": 2022
 }
 ]
 },
@@ -6941,11 +7265,25 @@
 "cov": "kapaklar/pendragon-2001-not-of-this-world.jpg"
 },
 {
+"id": "pendragon-2005-believe",
+"t": "Believe",
+"y": 2005,
+"onc": "onerilir",
+"cov": "kapaklar/pendragon-2005-believe.jpg"
+},
+{
 "id": "pendragon-2008-pure",
 "t": "Pure",
 "y": 2008,
 "onc": "onerilir",
 "cov": "kapaklar/pendragon-2008-pure.jpg"
+},
+{
+"id": "pendragon-2011-passion",
+"t": "Passion",
+"y": 2011,
+"onc": "istege",
+"cov": "kapaklar/pendragon-2011-passion.jpg"
 },
 {
 "id": "pendragon-2020-love-over-fear",
@@ -7014,6 +7352,13 @@
 "y": 1990,
 "onc": "temel",
 "cov": "kapaklar/fish-1990-vigil-in-a-wilderness-of-mirrors.jpg"
+},
+{
+"id": "fish-1991-internal-exile",
+"t": "Internal Exile",
+"y": 1991,
+"onc": "istege",
+"cov": "kapaklar/fish-1991-internal-exile.jpg"
 },
 {
 "id": "fish-1997-sunsets-on-empire",
@@ -7161,6 +7506,13 @@
 "cov": "kapaklar/spock-s-beard-1998-the-kindness-of-strangers.jpg"
 },
 {
+"id": "spock-s-beard-1999-day-for-night",
+"t": "Day for Night",
+"y": 1999,
+"onc": "onerilir",
+"cov": "kapaklar/spock-s-beard-1999-day-for-night.jpg"
+},
+{
 "id": "spock-s-beard-2000-v",
 "t": "V",
 "y": 2000,
@@ -7279,6 +7631,13 @@
 "t": "Monolith",
 "y": 1979,
 "cov": "kapaklar/kansas-1979-monolith.jpg"
+},
+{
+"id": "kansas-1980-audio-visions",
+"t": "Audio-Visions",
+"y": 1980,
+"onc": "ikincil",
+"cov": "kapaklar/kansas-1980-audio-visions.jpg"
 },
 {
 "id": "kansas-1986-power",
@@ -7493,6 +7852,13 @@
 "artist": "Hawkwind",
 "albums": [
 {
+"id": "hawkwind-1970-hawkwind",
+"t": "Hawkwind",
+"y": 1970,
+"onc": "istege",
+"cov": "kapaklar/hawkwind-1970-hawkwind.jpg"
+},
+{
 "id": "hawkwind-1971-in-search-of-space",
 "t": "In Search of Space",
 "y": 1971,
@@ -7597,6 +7963,13 @@
 "cov": "kapaklar/nektar-1973-remember-the-future.jpg"
 },
 {
+"id": "nektar-1974-down-to-earth",
+"t": "Down to Earth",
+"y": 1974,
+"onc": "istege",
+"cov": "kapaklar/nektar-1974-down-to-earth.jpg"
+},
+{
 "id": "nektar-1975-recycled",
 "t": "Recycled",
 "y": 1975,
@@ -7641,6 +8014,13 @@
 "cov": "kapaklar/the-flower-kings-1995-back-in-the-world-of-adventures.jpg"
 },
 {
+"id": "the-flower-kings-1996-retropolis",
+"t": "Retropolis",
+"y": 1996,
+"onc": "onerilir",
+"cov": "kapaklar/the-flower-kings-1996-retropolis.jpg"
+},
+{
 "id": "the-flower-kings-1997-stardust-we-are",
 "t": "Stardust We Are",
 "y": 1997,
@@ -7655,11 +8035,25 @@
 "cov": "kapaklar/the-flower-kings-1999-flower-power.jpg"
 },
 {
+"id": "the-flower-kings-2000-space-revolver",
+"t": "Space Revolver",
+"y": 2000,
+"onc": "onerilir",
+"cov": "kapaklar/the-flower-kings-2000-space-revolver.jpg"
+},
+{
 "id": "the-flower-kings-2002-unfold-the-future",
 "t": "Unfold the Future",
 "y": 2002,
 "onc": "onerilir",
 "cov": "kapaklar/the-flower-kings-2002-unfold-the-future.jpg"
+},
+{
+"id": "the-flower-kings-2006-paradox-hotel",
+"t": "Paradox Hotel",
+"y": 2006,
+"onc": "onerilir",
+"cov": "kapaklar/the-flower-kings-2006-paradox-hotel.jpg"
 },
 {
 "id": "the-flower-kings-2012-banks-of-eden",
@@ -7751,6 +8145,20 @@
 "artist": "Porcupine Tree",
 "albums": [
 {
+"id": "porcupine-tree-1992-on-the-sunday-of-life",
+"t": "On the Sunday of Life...",
+"y": 1992,
+"onc": "istege",
+"cov": "kapaklar/porcupine-tree-1992-on-the-sunday-of-life.jpg"
+},
+{
+"id": "porcupine-tree-1993-up-the-downstair",
+"t": "Up the Downstair",
+"y": 1993,
+"onc": "istege",
+"cov": "kapaklar/porcupine-tree-1993-up-the-downstair.jpg"
+},
+{
 "id": "porcupine-tree-1995-the-sky-moves-sideways",
 "t": "The Sky Moves Sideways",
 "y": 1995,
@@ -7805,6 +8213,13 @@
 "y": 2009,
 "onc": "onerilir",
 "cov": "kapaklar/porcupine-tree-2009-the-incident.jpg"
+},
+{
+"id": "porcupine-tree-2022-closure-continuation",
+"t": "Closure/Continuation",
+"y": 2022,
+"onc": "onerilir",
+"cov": "kapaklar/porcupine-tree-2022-closure-continuation.jpg"
 }
 ]
 },
@@ -7846,6 +8261,20 @@
 "y": 2017,
 "onc": "onerilir",
 "cov": "kapaklar/steven-wilson-2017-to-the-bone.jpg"
+},
+{
+"id": "steven-wilson-2021-the-future-bites",
+"t": "The Future Bites",
+"y": 2021,
+"onc": "istege",
+"cov": "kapaklar/steven-wilson-2021-the-future-bites.jpg"
+},
+{
+"id": "steven-wilson-2023-the-harmony-codex",
+"t": "The Harmony Codex",
+"y": 2023,
+"onc": "onerilir",
+"cov": "kapaklar/steven-wilson-2023-the-harmony-codex.jpg"
 }
 ]
 },
@@ -7982,6 +8411,13 @@
 "y": 2014,
 "onc": "istege",
 "cov": "kapaklar/transatlantic-2014-kaleidoscope.jpg"
+},
+{
+"id": "transatlantic-2021-the-absolute-universe-forevermore",
+"t": "The Absolute Universe: Forevermore",
+"y": 2021,
+"onc": "istege",
+"cov": "kapaklar/transatlantic-2021-the-absolute-universe-forevermore.jpg"
 }
 ]
 },
@@ -8066,11 +8502,32 @@
 "cov": "kapaklar/dream-theater-2002-six-degrees-of-inner-turbulence.jpg"
 },
 {
+"id": "dream-theater-2003-train-of-thought",
+"t": "Train of Thought",
+"y": 2003,
+"onc": "istege",
+"cov": "kapaklar/dream-theater-2003-train-of-thought.jpg"
+},
+{
 "id": "dream-theater-2005-octavarium",
 "t": "Octavarium",
 "y": 2005,
 "onc": "onerilir",
 "cov": "kapaklar/dream-theater-2005-octavarium.jpg"
+},
+{
+"id": "dream-theater-2007-systematic-chaos",
+"t": "Systematic Chaos",
+"y": 2007,
+"onc": "istege",
+"cov": "kapaklar/dream-theater-2007-systematic-chaos.jpg"
+},
+{
+"id": "dream-theater-2009-black-clouds-silver-linings",
+"t": "Black Clouds & Silver Linings",
+"y": 2009,
+"onc": "onerilir",
+"cov": "kapaklar/dream-theater-2009-black-clouds-silver-linings.jpg"
 },
 {
 "id": "dream-theater-2016-the-astonishing",
