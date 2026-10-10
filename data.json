@@ -4408,6 +4408,40 @@
 ]
 },
 {
+"id": "fairport-convention",
+"artist": "Fairport Convention",
+"albums": [
+{
+"id": "fairport-convention-1969-what-we-did-on-our-holidays",
+"t": "What We Did on Our Holidays",
+"y": 1969,
+"onc": "istege",
+"cov": "kapaklar/fairport-convention-1969-what-we-did-on-our-holidays.jpg"
+},
+{
+"id": "fairport-convention-1969-unhalfbricking",
+"t": "Unhalfbricking",
+"y": 1969,
+"onc": "onerilir",
+"cov": "kapaklar/fairport-convention-1969-unhalfbricking.jpg"
+},
+{
+"id": "fairport-convention-1969-liege-lief",
+"t": "Liege & Lief",
+"y": 1969,
+"onc": "temel",
+"cov": "kapaklar/fairport-convention-1969-liege-lief.jpg"
+},
+{
+"id": "fairport-convention-1970-full-house",
+"t": "Full House",
+"y": 1970,
+"onc": "onerilir",
+"cov": "kapaklar/fairport-convention-1970-full-house.jpg"
+}
+]
+},
+{
 "id": "family",
 "artist": "Family",
 "albums": [
@@ -4446,57 +4480,6 @@
 "t": "Bandstand",
 "y": 1972,
 "cov": "kapaklar/family-1972-bandstand.jpg"
-}
-]
-},
-{
-"id": "focus",
-"artist": "Focus",
-"albums": [
-{
-"id": "focus-1970-in-and-out-of-focus",
-"t": "In and Out of Focus",
-"y": 1970,
-"cov": "kapaklar/focus-1970-in-and-out-of-focus.jpg"
-},
-{
-"id": "focus-1971-moving-waves",
-"t": "Moving Waves",
-"y": 1971,
-"cov": "kapaklar/focus-1971-moving-waves.jpg"
-},
-{
-"id": "focus-1972-focus-3",
-"t": "Focus 3",
-"y": 1972,
-"cov": "kapaklar/focus-1972-focus-3.jpg"
-},
-{
-"id": "focus-1974-hamburger-concerto",
-"t": "Hamburger Concerto",
-"y": 1974,
-"cov": "kapaklar/focus-1974-hamburger-concerto.jpg"
-},
-{
-"id": "focus-1975-mother-focus",
-"t": "Mother Focus",
-"y": 1975,
-"onc": "atla",
-"cov": "kapaklar/focus-1975-mother-focus.jpg"
-},
-{
-"id": "focus-2002-focus-8",
-"t": "Focus 8",
-"y": 2002,
-"onc": "istege",
-"cov": "kapaklar/focus-2002-focus-8.jpg"
-},
-{
-"id": "focus-2012-focus-x",
-"t": "Focus X",
-"y": 2012,
-"onc": "istege",
-"cov": "kapaklar/focus-2012-focus-x.jpg"
 }
 ]
 },
@@ -4759,6 +4742,40 @@
 "no": 26,
 "groups": [
 {
+"id": "the-yardbirds",
+"artist": "The Yardbirds",
+"albums": [
+{
+"id": "the-yardbirds-1964-five-live-yardbirds",
+"t": "Five Live Yardbirds",
+"y": 1964,
+"onc": "istege",
+"cov": "kapaklar/the-yardbirds-1964-five-live-yardbirds.jpg"
+},
+{
+"id": "the-yardbirds-1965-having-a-rave-up-with-the-yardbirds",
+"t": "Having a Rave Up with The Yardbirds",
+"y": 1965,
+"onc": "onerilir",
+"cov": "kapaklar/the-yardbirds-1965-having-a-rave-up-with-the-yardbirds.jpg"
+},
+{
+"id": "the-yardbirds-1966-roger-the-engineer",
+"t": "Roger the Engineer",
+"y": 1966,
+"onc": "temel",
+"cov": "kapaklar/the-yardbirds-1966-roger-the-engineer.jpg"
+},
+{
+"id": "the-yardbirds-1967-little-games",
+"t": "Little Games",
+"y": 1967,
+"onc": "istege",
+"cov": "kapaklar/the-yardbirds-1967-little-games.jpg"
+}
+]
+},
+{
 "id": "led-zeppelin",
 "artist": "Led Zeppelin",
 "albums": [
@@ -4963,6 +4980,67 @@
 ]
 },
 {
+"id": "blodwyn-pig",
+"artist": "Blodwyn Pig",
+"albums": [
+{
+"id": "blodwyn-pig-1969-ahead-rings-out",
+"t": "Ahead Rings Out",
+"y": 1969,
+"onc": "onerilir",
+"cov": "kapaklar/blodwyn-pig-1969-ahead-rings-out.jpg"
+},
+{
+"id": "blodwyn-pig-1970-getting-to-this",
+"t": "Getting to This",
+"y": 1970,
+"onc": "istege",
+"cov": "kapaklar/blodwyn-pig-1970-getting-to-this.jpg"
+}
+]
+},
+{
+"id": "colosseum",
+"artist": "Colosseum",
+"albums": [
+{
+"id": "colosseum-1969-valentyne-suite",
+"t": "Valentyne Suite",
+"y": 1969,
+"onc": "temel",
+"cov": "kapaklar/colosseum-1969-valentyne-suite.jpg"
+},
+{
+"id": "colosseum-1970-daughter-of-time",
+"t": "Daughter of Time",
+"y": 1970,
+"onc": "istege",
+"cov": "kapaklar/colosseum-1970-daughter-of-time.jpg"
+},
+{
+"id": "colosseum-1971-colosseum-live",
+"t": "Colosseum Live",
+"y": 1971,
+"onc": "onerilir",
+"cov": "kapaklar/colosseum-1971-colosseum-live.jpg"
+},
+{
+"id": "colosseum-1976-strange-new-flesh",
+"t": "Strange New Flesh",
+"y": 1976,
+"onc": "onerilir",
+"cov": "kapaklar/colosseum-1976-strange-new-flesh.jpg"
+},
+{
+"id": "colosseum-1977-electric-savage",
+"t": "Electric Savage",
+"y": 1977,
+"onc": "onerilir",
+"cov": "kapaklar/colosseum-1977-electric-savage.jpg"
+}
+]
+},
+{
 "id": "deep-purple",
 "artist": "Deep Purple",
 "albums": [
@@ -5103,6 +5181,40 @@
 ]
 },
 {
+"id": "jon-lord",
+"artist": "Jon Lord",
+"albums": [
+{
+"id": "jon-lord-1971-gemini-suite",
+"t": "Gemini Suite",
+"y": 1971,
+"onc": "onerilir",
+"cov": "kapaklar/jon-lord-1971-gemini-suite.jpg"
+},
+{
+"id": "jon-lord-1974-windows",
+"t": "Windows",
+"y": 1974,
+"onc": "istege",
+"cov": "kapaklar/jon-lord-1974-windows.jpg"
+},
+{
+"id": "jon-lord-1976-sarabande",
+"t": "Sarabande",
+"y": 1976,
+"onc": "onerilir",
+"cov": "kapaklar/jon-lord-1976-sarabande.jpg"
+},
+{
+"id": "jon-lord-1982-before-i-forget",
+"t": "Before I Forget",
+"y": 1982,
+"onc": "istege",
+"cov": "kapaklar/jon-lord-1982-before-i-forget.jpg"
+}
+]
+},
+{
 "id": "uriah-heep",
 "artist": "Uriah Heep",
 "albums": [
@@ -5232,6 +5344,33 @@
 "yil": "1995–2008",
 "from": 1995,
 "to": 2008
+}
+]
+},
+{
+"id": "lucifer-s-friend",
+"artist": "Lucifer's Friend",
+"albums": [
+{
+"id": "lucifer-s-friend-1970-lucifer-s-friend",
+"t": "Lucifer's Friend",
+"y": 1970,
+"onc": "onerilir",
+"cov": "kapaklar/lucifer-s-friend-1970-lucifer-s-friend.jpg"
+},
+{
+"id": "lucifer-s-friend-1972-where-the-groupies-killed-the-blues",
+"t": "Where the Groupies Killed the Blues",
+"y": 1972,
+"onc": "onerilir",
+"cov": "kapaklar/lucifer-s-friend-1972-where-the-groupies-killed-the-blues.jpg"
+},
+{
+"id": "lucifer-s-friend-1974-banquet",
+"t": "Banquet",
+"y": 1974,
+"onc": "istege",
+"cov": "kapaklar/lucifer-s-friend-1974-banquet.jpg"
 }
 ]
 },
@@ -6244,6 +6383,286 @@
 "cov": "kapaklar/jean-luc-ponty-1978-cosmic-messenger.jpg"
 }
 ]
+},
+{
+"id": "mahavishnu-orchestra",
+"artist": "Mahavishnu Orchestra",
+"albums": [
+{
+"id": "mahavishnu-orchestra-1971-the-inner-mounting-flame",
+"t": "The Inner Mounting Flame",
+"y": 1971,
+"onc": "temel",
+"cov": "kapaklar/mahavishnu-orchestra-1971-the-inner-mounting-flame.jpg"
+},
+{
+"id": "mahavishnu-orchestra-1973-birds-of-fire",
+"t": "Birds of Fire",
+"y": 1973,
+"onc": "temel",
+"cov": "kapaklar/mahavishnu-orchestra-1973-birds-of-fire.jpg"
+},
+{
+"id": "mahavishnu-orchestra-1973-between-nothingness-eternity",
+"t": "Between Nothingness & Eternity",
+"y": 1973,
+"onc": "istege",
+"cov": "kapaklar/mahavishnu-orchestra-1973-between-nothingness-eternity.jpg"
+},
+{
+"id": "mahavishnu-orchestra-1974-apocalypse",
+"t": "Apocalypse",
+"y": 1974,
+"onc": "onerilir",
+"cov": "kapaklar/mahavishnu-orchestra-1974-apocalypse.jpg"
+},
+{
+"id": "mahavishnu-orchestra-1975-visions-of-the-emerald-beyond",
+"t": "Visions of the Emerald Beyond",
+"y": 1975,
+"onc": "istege",
+"cov": "kapaklar/mahavishnu-orchestra-1975-visions-of-the-emerald-beyond.jpg"
+}
+]
+},
+{
+"id": "dixie-dregs",
+"artist": "Dixie Dregs",
+"albums": [
+{
+"id": "dixie-dregs-1977-free-fall",
+"t": "Free Fall",
+"y": 1977,
+"onc": "onerilir",
+"cov": "kapaklar/dixie-dregs-1977-free-fall.jpg"
+},
+{
+"id": "dixie-dregs-1978-what-if",
+"t": "What If",
+"y": 1978,
+"onc": "temel",
+"cov": "kapaklar/dixie-dregs-1978-what-if.jpg"
+},
+{
+"id": "dixie-dregs-1979-night-of-the-living-dregs",
+"t": "Night of the Living Dregs",
+"y": 1979,
+"onc": "onerilir",
+"cov": "kapaklar/dixie-dregs-1979-night-of-the-living-dregs.jpg"
+},
+{
+"id": "dixie-dregs-1980-dregs-of-the-earth",
+"t": "Dregs of the Earth",
+"y": 1980,
+"onc": "istege",
+"cov": "kapaklar/dixie-dregs-1980-dregs-of-the-earth.jpg"
+}
+]
+}
+]
+},
+{
+"no": 21,
+"groups": [
+{
+"id": "banco-del-mutuo-soccorso",
+"artist": "Banco del Mutuo Soccorso",
+"albums": [
+{
+"id": "banco-del-mutuo-soccorso-1972-banco-del-mutuo-soccorso",
+"t": "Banco del Mutuo Soccorso",
+"y": 1972,
+"onc": "temel",
+"cov": "kapaklar/banco-del-mutuo-soccorso-1972-banco-del-mutuo-soccorso.jpg"
+},
+{
+"id": "banco-del-mutuo-soccorso-1972-darwin",
+"t": "Darwin!",
+"y": 1972,
+"onc": "temel",
+"cov": "kapaklar/banco-del-mutuo-soccorso-1972-darwin.jpg"
+},
+{
+"id": "banco-del-mutuo-soccorso-1973-io-sono-nato-libero",
+"t": "Io sono nato libero",
+"y": 1973,
+"onc": "onerilir",
+"cov": "kapaklar/banco-del-mutuo-soccorso-1973-io-sono-nato-libero.jpg"
+},
+{
+"id": "banco-del-mutuo-soccorso-1976-come-in-un-ultima-cena",
+"t": "Come in un'ultima cena",
+"y": 1976,
+"onc": "istege",
+"cov": "kapaklar/banco-del-mutuo-soccorso-1976-come-in-un-ultima-cena.jpg"
+}
+]
+},
+{
+"id": "le-orme",
+"artist": "Le Orme",
+"albums": [
+{
+"id": "le-orme-1971-collage",
+"t": "Collage",
+"y": 1971,
+"onc": "onerilir",
+"cov": "kapaklar/le-orme-1971-collage.jpg"
+},
+{
+"id": "le-orme-1972-uomo-di-pezza",
+"t": "Uomo di pezza",
+"y": 1972,
+"onc": "onerilir",
+"cov": "kapaklar/le-orme-1972-uomo-di-pezza.jpg"
+},
+{
+"id": "le-orme-1973-felona-e-sorona",
+"t": "Felona e Sorona",
+"y": 1973,
+"onc": "temel",
+"cov": "kapaklar/le-orme-1973-felona-e-sorona.jpg"
+},
+{
+"id": "le-orme-1974-contrappunti",
+"t": "Contrappunti",
+"y": 1974,
+"onc": "istege",
+"cov": "kapaklar/le-orme-1974-contrappunti.jpg"
+}
+]
+},
+{
+"id": "magma",
+"artist": "Magma",
+"albums": [
+{
+"id": "magma-1970-magma",
+"t": "Magma",
+"y": 1970,
+"onc": "istege"
+},
+{
+"id": "magma-1973-mekanik-destruktiw-kommandoh",
+"t": "Mëkanïk Dëstruktïẁ Kömmandöh",
+"y": 1973,
+"onc": "temel",
+"cov": "kapaklar/magma-1973-mekanik-destruktiw-kommandoh.jpg"
+},
+{
+"id": "magma-1974-kohntarkosz",
+"t": "Köhntarkösz",
+"y": 1974,
+"onc": "onerilir",
+"cov": "kapaklar/magma-1974-kohntarkosz.jpg"
+},
+{
+"id": "magma-1975-live-hhai",
+"t": "Live/Hhaï",
+"y": 1975,
+"onc": "onerilir",
+"cov": "kapaklar/magma-1975-live-hhai.jpg"
+},
+{
+"id": "magma-1976-udu-wudu",
+"t": "Üdü Ẁüdü",
+"y": 1976,
+"onc": "istege",
+"cov": "kapaklar/magma-1976-udu-wudu.jpg"
+}
+]
+},
+{
+"id": "cluster-harmonia",
+"artist": "Cluster & Harmonia",
+"albums": [
+{
+"id": "cluster-harmonia-1974-zuckerzeit",
+"t": "Zuckerzeit",
+"y": 1974,
+"onc": "onerilir",
+"cov": "kapaklar/cluster-harmonia-1974-zuckerzeit.jpg"
+},
+{
+"id": "cluster-harmonia-1974-musik-von-harmonia",
+"t": "Musik von Harmonia",
+"y": 1974,
+"onc": "onerilir",
+"cov": "kapaklar/cluster-harmonia-1974-musik-von-harmonia.jpg"
+},
+{
+"id": "cluster-harmonia-1975-deluxe",
+"t": "Deluxe",
+"y": 1975,
+"onc": "onerilir",
+"cov": "kapaklar/cluster-harmonia-1975-deluxe.jpg"
+},
+{
+"id": "cluster-harmonia-1977-cluster-eno",
+"t": "Cluster & Eno",
+"y": 1977,
+"onc": "onerilir",
+"cov": "kapaklar/cluster-harmonia-1977-cluster-eno.jpg"
+},
+{
+"id": "cluster-harmonia-1978-after-the-heat",
+"t": "After the Heat",
+"y": 1978,
+"onc": "istege",
+"cov": "kapaklar/cluster-harmonia-1978-after-the-heat.jpg"
+}
+]
+},
+{
+"id": "focus",
+"artist": "Focus",
+"albums": [
+{
+"id": "focus-1970-in-and-out-of-focus",
+"t": "In and Out of Focus",
+"y": 1970,
+"cov": "kapaklar/focus-1970-in-and-out-of-focus.jpg"
+},
+{
+"id": "focus-1971-moving-waves",
+"t": "Moving Waves",
+"y": 1971,
+"cov": "kapaklar/focus-1971-moving-waves.jpg"
+},
+{
+"id": "focus-1972-focus-3",
+"t": "Focus 3",
+"y": 1972,
+"cov": "kapaklar/focus-1972-focus-3.jpg"
+},
+{
+"id": "focus-1974-hamburger-concerto",
+"t": "Hamburger Concerto",
+"y": 1974,
+"cov": "kapaklar/focus-1974-hamburger-concerto.jpg"
+},
+{
+"id": "focus-1975-mother-focus",
+"t": "Mother Focus",
+"y": 1975,
+"onc": "atla",
+"cov": "kapaklar/focus-1975-mother-focus.jpg"
+},
+{
+"id": "focus-2002-focus-8",
+"t": "Focus 8",
+"y": 2002,
+"onc": "istege",
+"cov": "kapaklar/focus-2002-focus-8.jpg"
+},
+{
+"id": "focus-2012-focus-x",
+"t": "Focus X",
+"y": 2012,
+"onc": "istege",
+"cov": "kapaklar/focus-2012-focus-x.jpg"
+}
+]
 }
 ]
 },
@@ -6623,6 +7042,74 @@
 "y": 2020,
 "onc": "temel",
 "cov": "kapaklar/fish-2020-weltschmerz.jpg"
+}
+]
+},
+{
+"id": "it-bites",
+"artist": "It Bites",
+"albums": [
+{
+"id": "it-bites-1986-the-big-lad-in-the-windmill",
+"t": "The Big Lad in the Windmill",
+"y": 1986,
+"onc": "istege",
+"cov": "kapaklar/it-bites-1986-the-big-lad-in-the-windmill.jpg"
+},
+{
+"id": "it-bites-1988-once-around-the-world",
+"t": "Once Around the World",
+"y": 1988,
+"onc": "temel",
+"cov": "kapaklar/it-bites-1988-once-around-the-world.jpg"
+},
+{
+"id": "it-bites-1989-eat-me-in-st-louis",
+"t": "Eat Me in St. Louis",
+"y": 1989,
+"onc": "istege",
+"cov": "kapaklar/it-bites-1989-eat-me-in-st-louis.jpg"
+},
+{
+"id": "it-bites-2008-the-tall-ships",
+"t": "The Tall Ships",
+"y": 2008,
+"onc": "onerilir",
+"cov": "kapaklar/it-bites-2008-the-tall-ships.jpg"
+}
+]
+},
+{
+"id": "arena",
+"artist": "Arena",
+"albums": [
+{
+"id": "arena-1995-songs-from-the-lion-s-cage",
+"t": "Songs from the Lion's Cage",
+"y": 1995,
+"onc": "istege",
+"cov": "kapaklar/arena-1995-songs-from-the-lion-s-cage.jpg"
+},
+{
+"id": "arena-1998-the-visitor",
+"t": "The Visitor",
+"y": 1998,
+"onc": "temel",
+"cov": "kapaklar/arena-1998-the-visitor.jpg"
+},
+{
+"id": "arena-2000-immortal",
+"t": "Immortal?",
+"y": 2000,
+"onc": "istege",
+"cov": "kapaklar/arena-2000-immortal.jpg"
+},
+{
+"id": "arena-2003-contagion",
+"t": "Contagion",
+"y": 2003,
+"onc": "onerilir",
+"cov": "kapaklar/arena-2003-contagion.jpg"
 }
 ]
 }
@@ -7363,6 +7850,108 @@
 ]
 },
 {
+"id": "opeth",
+"artist": "Opeth",
+"albums": [
+{
+"id": "opeth-2001-blackwater-park",
+"t": "Blackwater Park",
+"y": 2001,
+"onc": "temel",
+"cov": "kapaklar/opeth-2001-blackwater-park.jpg"
+},
+{
+"id": "opeth-2003-damnation",
+"t": "Damnation",
+"y": 2003,
+"onc": "onerilir",
+"cov": "kapaklar/opeth-2003-damnation.jpg"
+},
+{
+"id": "opeth-2005-ghost-reveries",
+"t": "Ghost Reveries",
+"y": 2005,
+"onc": "onerilir",
+"cov": "kapaklar/opeth-2005-ghost-reveries.jpg"
+},
+{
+"id": "opeth-2011-heritage",
+"t": "Heritage",
+"y": 2011,
+"onc": "onerilir",
+"cov": "kapaklar/opeth-2011-heritage.jpg"
+},
+{
+"id": "opeth-2014-pale-communion",
+"t": "Pale Communion",
+"y": 2014,
+"onc": "onerilir",
+"cov": "kapaklar/opeth-2014-pale-communion.jpg"
+}
+]
+},
+{
+"id": "tool",
+"artist": "Tool",
+"albums": [
+{
+"id": "tool-1996-nima",
+"t": "Ænima",
+"y": 1996,
+"onc": "onerilir",
+"cov": "kapaklar/tool-1996-nima.jpg"
+},
+{
+"id": "tool-2001-lateralus",
+"t": "Lateralus",
+"y": 2001,
+"onc": "temel",
+"cov": "kapaklar/tool-2001-lateralus.jpg"
+},
+{
+"id": "tool-2006-10-000-days",
+"t": "10,000 Days",
+"y": 2006,
+"onc": "onerilir",
+"cov": "kapaklar/tool-2006-10-000-days.jpg"
+},
+{
+"id": "tool-2019-fear-inoculum",
+"t": "Fear Inoculum",
+"y": 2019,
+"onc": "onerilir",
+"cov": "kapaklar/tool-2019-fear-inoculum.jpg"
+}
+]
+},
+{
+"id": "frost",
+"artist": "Frost*",
+"albums": [
+{
+"id": "frost-2006-milliontown",
+"t": "Milliontown",
+"y": 2006,
+"onc": "temel",
+"cov": "kapaklar/frost-2006-milliontown.jpg"
+},
+{
+"id": "frost-2008-experiments-in-mass-appeal",
+"t": "Experiments in Mass Appeal",
+"y": 2008,
+"onc": "onerilir",
+"cov": "kapaklar/frost-2008-experiments-in-mass-appeal.jpg"
+},
+{
+"id": "frost-2016-falling-satellites",
+"t": "Falling Satellites",
+"y": 2016,
+"onc": "onerilir",
+"cov": "kapaklar/frost-2016-falling-satellites.jpg"
+}
+]
+},
+{
 "id": "transatlantic",
 "artist": "Transatlantic",
 "albums": [
@@ -7496,6 +8085,26 @@
 "y": 2019,
 "onc": "onerilir",
 "cov": "kapaklar/dream-theater-2019-distance-over-time.jpg"
+}
+]
+},
+{
+"id": "liquid-tension-experiment",
+"artist": "Liquid Tension Experiment",
+"albums": [
+{
+"id": "liquid-tension-experiment-1998-liquid-tension-experiment",
+"t": "Liquid Tension Experiment",
+"y": 1998,
+"onc": "onerilir",
+"cov": "kapaklar/liquid-tension-experiment-1998-liquid-tension-experiment.jpg"
+},
+{
+"id": "liquid-tension-experiment-1999-liquid-tension-experiment-2",
+"t": "Liquid Tension Experiment 2",
+"y": 1999,
+"onc": "onerilir",
+"cov": "kapaklar/liquid-tension-experiment-1999-liquid-tension-experiment-2.jpg"
 }
 ]
 }
