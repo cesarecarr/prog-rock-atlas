@@ -5540,6 +5540,19 @@
 ]
 },
 {
+"id": "zarathustra",
+"artist": "Zarathustra",
+"albums": [
+{
+"id": "zarathustra-1972-zarathustra",
+"t": "Zarathustra",
+"y": 1972,
+"onc": "istege",
+"cov": "kapaklar/zarathustra-1972-zarathustra.jpg"
+}
+]
+},
+{
 "id": "lucifer-s-friend",
 "artist": "Lucifer's Friend",
 "albums": [
@@ -6889,47 +6902,6 @@
 ]
 },
 {
-"id": "cluster-harmonia",
-"artist": "Cluster & Harmonia",
-"albums": [
-{
-"id": "cluster-harmonia-1974-zuckerzeit",
-"t": "Zuckerzeit",
-"y": 1974,
-"onc": "onerilir",
-"cov": "kapaklar/cluster-harmonia-1974-zuckerzeit.jpg"
-},
-{
-"id": "cluster-harmonia-1974-musik-von-harmonia",
-"t": "Musik von Harmonia",
-"y": 1974,
-"onc": "onerilir",
-"cov": "kapaklar/cluster-harmonia-1974-musik-von-harmonia.jpg"
-},
-{
-"id": "cluster-harmonia-1975-deluxe",
-"t": "Deluxe",
-"y": 1975,
-"onc": "onerilir",
-"cov": "kapaklar/cluster-harmonia-1975-deluxe.jpg"
-},
-{
-"id": "cluster-harmonia-1977-cluster-eno",
-"t": "Cluster & Eno",
-"y": 1977,
-"onc": "onerilir",
-"cov": "kapaklar/cluster-harmonia-1977-cluster-eno.jpg"
-},
-{
-"id": "cluster-harmonia-1978-after-the-heat",
-"t": "After the Heat",
-"y": 1978,
-"onc": "istege",
-"cov": "kapaklar/cluster-harmonia-1978-after-the-heat.jpg"
-}
-]
-},
-{
 "id": "focus",
 "artist": "Focus",
 "albums": [
@@ -6977,6 +6949,467 @@
 "y": 2012,
 "onc": "istege",
 "cov": "kapaklar/focus-2012-focus-x.jpg"
+}
+]
+}
+]
+},
+{
+"no": 27,
+"groups": [
+{
+"id": "kraftwerk",
+"artist": "Kraftwerk",
+"albums": [
+{
+"id": "kraftwerk-1973-ralf-und-florian",
+"t": "Ralf und Florian",
+"y": 1973,
+"onc": "istege",
+"cov": "kapaklar/kraftwerk-1973-ralf-und-florian.jpg"
+},
+{
+"id": "kraftwerk-1974-autobahn",
+"t": "Autobahn",
+"y": 1974,
+"onc": "temel",
+"cov": "kapaklar/kraftwerk-1974-autobahn.jpg"
+},
+{
+"id": "kraftwerk-1975-radio-activity",
+"t": "Radio-Activity",
+"y": 1975,
+"onc": "onerilir",
+"cov": "kapaklar/kraftwerk-1975-radio-activity.jpg"
+},
+{
+"id": "kraftwerk-1977-trans-europe-express",
+"t": "Trans-Europe Express",
+"y": 1977,
+"onc": "temel",
+"cov": "kapaklar/kraftwerk-1977-trans-europe-express.jpg"
+},
+{
+"id": "kraftwerk-1978-the-man-machine",
+"t": "The Man-Machine",
+"y": 1978,
+"onc": "onerilir",
+"cov": "kapaklar/kraftwerk-1978-the-man-machine.jpg"
+},
+{
+"id": "kraftwerk-1981-computer-world",
+"t": "Computer World",
+"y": 1981,
+"onc": "onerilir",
+"cov": "kapaklar/kraftwerk-1981-computer-world.jpg"
+}
+]
+},
+{
+"id": "neu",
+"artist": "Neu!",
+"albums": [
+{
+"id": "neu-1972-neu",
+"t": "Neu!",
+"y": 1972,
+"onc": "temel",
+"cov": "kapaklar/neu-1972-neu.jpg"
+},
+{
+"id": "neu-1973-neu-2",
+"t": "Neu! 2",
+"y": 1973,
+"onc": "istege",
+"cov": "kapaklar/neu-1973-neu-2.jpg"
+},
+{
+"id": "neu-1975-neu-75",
+"t": "Neu! '75",
+"y": 1975,
+"onc": "onerilir",
+"cov": "kapaklar/neu-1975-neu-75.jpg"
+}
+]
+},
+{
+"id": "cluster-harmonia",
+"artist": "Cluster & Harmonia",
+"albums": [
+{
+"id": "cluster-harmonia-1974-zuckerzeit",
+"t": "Zuckerzeit",
+"y": 1974,
+"onc": "onerilir",
+"cov": "kapaklar/cluster-harmonia-1974-zuckerzeit.jpg"
+},
+{
+"id": "cluster-harmonia-1974-musik-von-harmonia",
+"t": "Musik von Harmonia",
+"y": 1974,
+"onc": "onerilir",
+"cov": "kapaklar/cluster-harmonia-1974-musik-von-harmonia.jpg"
+},
+{
+"id": "cluster-harmonia-1975-deluxe",
+"t": "Deluxe",
+"y": 1975,
+"onc": "onerilir",
+"cov": "kapaklar/cluster-harmonia-1975-deluxe.jpg"
+},
+{
+"id": "cluster-harmonia-1977-cluster-eno",
+"t": "Cluster & Eno",
+"y": 1977,
+"onc": "onerilir",
+"cov": "kapaklar/cluster-harmonia-1977-cluster-eno.jpg"
+},
+{
+"id": "cluster-harmonia-1978-after-the-heat",
+"t": "After the Heat",
+"y": 1978,
+"onc": "istege",
+"cov": "kapaklar/cluster-harmonia-1978-after-the-heat.jpg"
+}
+]
+},
+{
+"id": "can",
+"artist": "Can",
+"albums": [
+{
+"id": "can-1969-monster-movie",
+"t": "Monster Movie",
+"y": 1969,
+"onc": "onerilir",
+"cov": "kapaklar/can-1969-monster-movie.jpg"
+},
+{
+"id": "can-1971-tago-mago",
+"t": "Tago Mago",
+"y": 1971,
+"onc": "temel",
+"cov": "kapaklar/can-1971-tago-mago.jpg"
+},
+{
+"id": "can-1972-ege-bamyasi",
+"t": "Ege Bamyasi",
+"y": 1972,
+"onc": "onerilir",
+"cov": "kapaklar/can-1972-ege-bamyasi.jpg"
+},
+{
+"id": "can-1973-future-days",
+"t": "Future Days",
+"y": 1973,
+"onc": "temel",
+"cov": "kapaklar/can-1973-future-days.jpg"
+},
+{
+"id": "can-1974-soon-over-babaluma",
+"t": "Soon Over Babaluma",
+"y": 1974,
+"onc": "istege",
+"cov": "kapaklar/can-1974-soon-over-babaluma.jpg"
+}
+]
+},
+{
+"id": "faust",
+"artist": "Faust",
+"albums": [
+{
+"id": "faust-1971-faust",
+"t": "Faust",
+"y": 1971,
+"onc": "onerilir",
+"cov": "kapaklar/faust-1971-faust.jpg"
+},
+{
+"id": "faust-1972-so-far",
+"t": "So Far",
+"y": 1972,
+"onc": "onerilir",
+"cov": "kapaklar/faust-1972-so-far.jpg"
+},
+{
+"id": "faust-1973-the-faust-tapes",
+"t": "The Faust Tapes",
+"y": 1973,
+"onc": "istege",
+"cov": "kapaklar/faust-1973-the-faust-tapes.jpg"
+},
+{
+"id": "faust-1973-faust-iv",
+"t": "Faust IV",
+"y": 1973,
+"onc": "temel",
+"cov": "kapaklar/faust-1973-faust-iv.jpg"
+}
+]
+},
+{
+"id": "amon-duul-ii",
+"artist": "Amon Düül II",
+"albums": [
+{
+"id": "amon-duul-ii-1969-phallus-dei",
+"t": "Phallus Dei",
+"y": 1969,
+"onc": "onerilir",
+"cov": "kapaklar/amon-duul-ii-1969-phallus-dei.jpg"
+},
+{
+"id": "amon-duul-ii-1970-yeti",
+"t": "Yeti",
+"y": 1970,
+"onc": "temel",
+"cov": "kapaklar/amon-duul-ii-1970-yeti.jpg"
+},
+{
+"id": "amon-duul-ii-1971-tanz-der-lemminge",
+"t": "Tanz der Lemminge",
+"y": 1971,
+"onc": "onerilir",
+"cov": "kapaklar/amon-duul-ii-1971-tanz-der-lemminge.jpg"
+},
+{
+"id": "amon-duul-ii-1972-wolf-city",
+"t": "Wolf City",
+"y": 1972,
+"onc": "istege",
+"cov": "kapaklar/amon-duul-ii-1972-wolf-city.jpg"
+}
+]
+},
+{
+"id": "popol-vuh",
+"artist": "Popol Vuh",
+"albums": [
+{
+"id": "popol-vuh-1970-affenstunde",
+"t": "Affenstunde",
+"y": 1970,
+"onc": "onerilir",
+"cov": "kapaklar/popol-vuh-1970-affenstunde.jpg"
+},
+{
+"id": "popol-vuh-1972-hosianna-mantra",
+"t": "Hosianna Mantra",
+"y": 1972,
+"onc": "temel",
+"cov": "kapaklar/popol-vuh-1972-hosianna-mantra.jpg"
+},
+{
+"id": "popol-vuh-1974-einsjager-siebenjager",
+"t": "Einsjäger & Siebenjäger",
+"y": 1974,
+"onc": "istege",
+"cov": "kapaklar/popol-vuh-1974-einsjager-siebenjager.jpg"
+},
+{
+"id": "popol-vuh-1975-aguirre",
+"t": "Aguirre",
+"y": 1975,
+"onc": "onerilir",
+"cov": "kapaklar/popol-vuh-1975-aguirre.jpg"
+}
+]
+},
+{
+"id": "tangerine-dream",
+"artist": "Tangerine Dream",
+"albums": [
+{
+"id": "tangerine-dream-1972-zeit",
+"t": "Zeit",
+"y": 1972,
+"onc": "istege",
+"cov": "kapaklar/tangerine-dream-1972-zeit.jpg"
+},
+{
+"id": "tangerine-dream-1974-phaedra",
+"t": "Phaedra",
+"y": 1974,
+"onc": "temel",
+"cov": "kapaklar/tangerine-dream-1974-phaedra.jpg"
+},
+{
+"id": "tangerine-dream-1975-rubycon",
+"t": "Rubycon",
+"y": 1975,
+"onc": "temel",
+"cov": "kapaklar/tangerine-dream-1975-rubycon.jpg"
+},
+{
+"id": "tangerine-dream-1975-ricochet",
+"t": "Ricochet",
+"y": 1975,
+"onc": "istege",
+"cov": "kapaklar/tangerine-dream-1975-ricochet.jpg"
+},
+{
+"id": "tangerine-dream-1976-stratosfear",
+"t": "Stratosfear",
+"y": 1976,
+"onc": "onerilir",
+"cov": "kapaklar/tangerine-dream-1976-stratosfear.jpg"
+}
+]
+},
+{
+"id": "klaus-schulze",
+"artist": "Klaus Schulze",
+"albums": [
+{
+"id": "klaus-schulze-1972-irrlicht",
+"t": "Irrlicht",
+"y": 1972,
+"onc": "istege",
+"cov": "kapaklar/klaus-schulze-1972-irrlicht.jpg"
+},
+{
+"id": "klaus-schulze-1975-timewind",
+"t": "Timewind",
+"y": 1975,
+"onc": "temel",
+"cov": "kapaklar/klaus-schulze-1975-timewind.jpg"
+},
+{
+"id": "klaus-schulze-1976-moondawn",
+"t": "Moondawn",
+"y": 1976,
+"onc": "onerilir",
+"cov": "kapaklar/klaus-schulze-1976-moondawn.jpg"
+}
+]
+},
+{
+"id": "ash-ra-tempel",
+"artist": "Ash Ra Tempel",
+"albums": [
+{
+"id": "ash-ra-tempel-1971-ash-ra-tempel",
+"t": "Ash Ra Tempel",
+"y": 1971,
+"onc": "onerilir",
+"cov": "kapaklar/ash-ra-tempel-1971-ash-ra-tempel.jpg"
+},
+{
+"id": "ash-ra-tempel-1972-schwingungen",
+"t": "Schwingungen",
+"y": 1972,
+"onc": "istege",
+"cov": "kapaklar/ash-ra-tempel-1972-schwingungen.jpg"
+},
+{
+"id": "ash-ra-tempel-1973-join-inn",
+"t": "Join Inn",
+"y": 1973,
+"onc": "onerilir",
+"cov": "kapaklar/ash-ra-tempel-1973-join-inn.jpg"
+},
+{
+"id": "ash-ra-tempel-1975-inventions-for-electric-guitar",
+"t": "Inventions for Electric Guitar",
+"y": 1975,
+"onc": "onerilir",
+"cov": "kapaklar/ash-ra-tempel-1975-inventions-for-electric-guitar.jpg"
+}
+]
+},
+{
+"id": "eloy",
+"artist": "Eloy",
+"albums": [
+{
+"id": "eloy-1974-floating",
+"t": "Floating",
+"y": 1974,
+"onc": "istege",
+"cov": "kapaklar/eloy-1974-floating.jpg"
+},
+{
+"id": "eloy-1975-power-and-the-passion",
+"t": "Power and the Passion",
+"y": 1975,
+"onc": "onerilir",
+"cov": "kapaklar/eloy-1975-power-and-the-passion.jpg"
+},
+{
+"id": "eloy-1977-ocean",
+"t": "Ocean",
+"y": 1977,
+"onc": "temel",
+"cov": "kapaklar/eloy-1977-ocean.jpg"
+},
+{
+"id": "eloy-1979-silent-cries-and-mighty-echoes",
+"t": "Silent Cries and Mighty Echoes",
+"y": 1979,
+"onc": "onerilir",
+"cov": "kapaklar/eloy-1979-silent-cries-and-mighty-echoes.jpg"
+}
+]
+},
+{
+"id": "grobschnitt",
+"artist": "Grobschnitt",
+"albums": [
+{
+"id": "grobschnitt-1974-ballermann",
+"t": "Ballermann",
+"y": 1974,
+"onc": "onerilir",
+"cov": "kapaklar/grobschnitt-1974-ballermann.jpg"
+},
+{
+"id": "grobschnitt-1977-rockpommel-s-land",
+"t": "Rockpommel's Land",
+"y": 1977,
+"onc": "temel",
+"cov": "kapaklar/grobschnitt-1977-rockpommel-s-land.jpg"
+},
+{
+"id": "grobschnitt-1978-solar-music-live",
+"t": "Solar Music – Live",
+"y": 1978,
+"onc": "onerilir",
+"cov": "kapaklar/grobschnitt-1978-solar-music-live.jpg"
+}
+]
+},
+{
+"id": "jane",
+"artist": "Jane",
+"albums": [
+{
+"id": "jane-1972-together",
+"t": "Together",
+"y": 1972,
+"onc": "istege",
+"cov": "kapaklar/jane-1972-together.jpg"
+},
+{
+"id": "jane-1973-here-we-are",
+"t": "Here We Are",
+"y": 1973,
+"onc": "istege",
+"cov": "kapaklar/jane-1973-here-we-are.jpg"
+},
+{
+"id": "jane-1975-lady",
+"t": "Lady",
+"y": 1975,
+"onc": "onerilir",
+"cov": "kapaklar/jane-1975-lady.jpg"
+},
+{
+"id": "jane-1976-fire-water-earth-air",
+"t": "Fire, Water, Earth & Air",
+"y": 1976,
+"onc": "onerilir",
+"cov": "kapaklar/jane-1976-fire-water-earth-air.jpg"
 }
 ]
 }

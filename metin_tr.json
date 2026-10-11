@@ -4669,7 +4669,7 @@
   "Incoherence"
  ],
  "sec.17.title": "Hard Rock Kenarı — Blues ve Ağır Rock Komşuları",
- "sec.17.intro": "Prog'la aynı kulüplerde doğan ve aynı müzisyenleri paylaşan blues-rock ve hard rock grupları: Ten Years After, Mick Abrahams'ın Jethro Tull'dan sonra kurduğu Blodwyn Pig, Colosseum'un jazz-rock'ı, Deep Purple, Jon Lord'un orkestra eserleri, Uriah Heep (Ken Hensley, John Wetton), Almanya'dan Lucifer's Friend, Wishbone Ash, Budgie ve Rainbow (Cozy Powell, sonradan Emerson, Lake & Powell).",
+ "sec.17.intro": "Prog'la aynı kulüplerde doğan ve aynı müzisyenleri paylaşan blues-rock ve hard rock grupları: Ten Years After, Mick Abrahams'ın Jethro Tull'dan sonra kurduğu Blodwyn Pig, Colosseum'un jazz-rock'ı, Deep Purple, Jon Lord'un orkestra eserleri, Uriah Heep (Ken Hensley, John Wetton), Hamburglu Zarathustra'nın Hammond ağırlıklı ağır rock'ı, Almanya'dan Lucifer's Friend, Wishbone Ash, Budgie ve Rainbow (Cozy Powell, sonradan Emerson, Lake & Powell).",
  "grp.ten-years-after.name": "Ten Years After",
  "grp.ten-years-after.kurulus": "1966, Nottingham. Alvin Lee (gitar/vokal), Leo Lyons (bas), Ric Lee (davul), Chick Churchill (klavye).",
  "grp.ten-years-after.hikaye": "Alvin Lee'nin 'dünyanın en hızlı gitaristi' ünü, grubu blues-rock'ın öncü İngiliz gruplarından yaptı; 1969 Woodstock'taki 'I'm Going Home' performansı ve filmdeki yer alışı onları uluslararası yıldızlara dönüştürdü. Blues temelli olsalar da caz, psikedelik ve progressive denemeler (Ssssh, Cricklewood Green, A Space in Time) grubu 'proto-prog'un blues kanadına yerleştirir. 1974'te dağıldılar; 1988'de yeniden birleştiler. Alvin Lee 2003'te ayrıldı ve 2013'te öldü; grup Joe Gooch ve sonra Marcus Bonfanti ile devam etti.",
@@ -10343,8 +10343,8 @@
   "Another Dimension",
   "Liquid Dreams"
  ],
- "sec.21.title": "Kıta Avrupası — İtalyan Prog, Zeuhl ve Krautrock",
- "sec.21.intro": "Progresif rock hiçbir zaman yalnız İngiliz değildi. İtalya'da Banco del Mutuo Soccorso ve Le Orme (PFM'le birlikte) operadan ve Van der Graaf Generator turnelerinden beslenen kendi senfonik okullarını kurdu; ELP'nin Manticore şirketi ve Peter Hammill onları yurt dışına taşıdı. Fransa'da Christian Vander'in Magma'sı bir dil ve bir tür icat etti: Zeuhl. Almanya'da Cluster ve Harmonia, Neu!'dan Michael Rother'le birlikte, Brian Eno'yu Weser vadisine çeken elektronik 'kosmische' müziği yaptı. Hollanda'dan Focus — Thijs van Leer'in flütü ve yodeli, Jan Akkerman'ın gitarı — 'Hocus Pocus' ve 'Sylvia' ile İngiliz ve Amerikan listelerine girdi.",
+ "sec.21.title": "Kıta Avrupası — İtalyan Prog ve Zeuhl",
+ "sec.21.intro": "Progresif rock hiçbir zaman yalnız İngiliz değildi. İtalya'da Banco del Mutuo Soccorso ve Le Orme (PFM'le birlikte) operadan ve Van der Graaf Generator turnelerinden beslenen kendi senfonik okullarını kurdu; ELP'nin Manticore şirketi ve Peter Hammill onları yurt dışına taşıdı. Fransa'da Christian Vander'in Magma'sı bir dil ve bir tür icat etti: Zeuhl. Hollanda'dan Focus — Thijs van Leer'in flütü ve yodeli, Jan Akkerman'ın gitarı — 'Hocus Pocus' ve 'Sylvia' ile İngiliz ve Amerikan listelerine girdi.",
  "alb.pink-floyd-1972-obscured-by-clouds.an": "Barbet Schroeder'in La Vallée filmi için yazılan müzik; 1972 başında, Dark Side çalışmalarının ortasında Château d'Hérouville'de iki kısa oturumda kaydedildi. Uzun süitler yerine derli toplu şarkılar; Gilmour'un 'Childhood's End'i ve Waters'ın 'Free Four'u şimdiden bir sonraki albümü işaret ediyor.",
  "alb.pink-floyd-1972-obscured-by-clouds.oncelik": "İsteğe bağlı.",
  "alb.pink-floyd-1972-obscured-by-clouds.tip": "film müziği",
@@ -11019,5 +11019,626 @@
   "Blackstar",
   "Lazarus",
   "I Can't Give Everything Away"
- ]
+ ],
+ "grp.kraftwerk.name": "Kraftwerk",
+ "grp.kraftwerk.kurulus": "1970, Düsseldorf. Organisation'da birlikte çalan Ralf Hütter ve Florian Schneider tarafından kuruldu; 1970'ten itibaren kendi Kling Klang stüdyoları.",
+ "grp.kraftwerk.hikaye": "İlk üç albüm flüt, org ve canlı davullu deneysel krautrock'tu; 1971'de Michael Rother ve Klaus Dinger kısa bir süre grupta çaldı, sonra Neu!'yü kurmak için ayrıldı. Ralf und Florian (1973) elektronik melodiye yöneldi; 22 dakikalık başlık parçasıyla Autobahn (1974) uluslararası bir hit oldu. Elektronik perküsyonda Wolfgang Flür ve Karl Bartos'la klasik dörtlü Radio-Activity, Trans-Europe Express, The Man-Machine ve Computer World'ü yaptı — synth pop'u, electro'yu, hip hop'u ve techno'yu biçimlendiren bir dizi. Schneider 2008'de ayrıldı, 2020'de öldü; Hütter grubu sürdürüyor.",
+ "grp.kraftwerk.dna": "Minimal elektronik melodiler, vokoder ve robot sesleri, sekanslanmış ritimler, otoyol, tren, radyo ve bilgisayar temaları ve müzisyeni bir makine olarak gösteren bilinçli, ironik bir imaj.",
+ "grp.kraftwerk.uyeler": "Ralf Hütter (vokal, klavye), Florian Schneider (elektronik, flüt, vokal), Wolfgang Flür (elektronik perküsyon, 1973–87), Karl Bartos (elektronik perküsyon, 1975–90); ilk yıllarda Klaus Dinger ve Michael Rother (1971), Klaus Röder (1974).",
+ "grp.kraftwerk.gecisler": "Organisation (1969) → Kraftwerk (1970–). Michael Rother ve Klaus Dinger → Neu! (1971). İlk albümlerin ses mühendisi Conny Plank. Trans-Europe Express'te David Bowie ve Iggy Pop'un adı geçer; Bowie'nin \"Heroes\" albümündeki 'V-2 Schneider' Florian Schneider'a bir saygı duruşudur.",
+ "grp.kraftwerk.etki": "Muhtemelen en etkili Alman grubu: synth pop'un ve sonraki on yılların elektronik dans müziğinin şablonu.",
+ "grp.kraftwerk.ipucu": [
+  "Autobahn'ın başlık parçasını baştan sona dinle: 22 dakikalık bir araba yolculuğunun sesi.",
+  "Trans-Europe Express'in ardından aynı yıl kaydedilen Bowie'nin Low'unu dinle."
+ ],
+ "alb.kraftwerk-1973-ralf-und-florian.an": "Krautrock'tan elektronik melodiye geçiş: ritim makinesi, flüt ve ilk vokoder.",
+ "alb.kraftwerk-1973-ralf-und-florian.oncelik": "İsteğe bağlı.",
+ "alb.kraftwerk-1973-ralf-und-florian.tip": "stüdyo",
+ "alb.kraftwerk-1973-ralf-und-florian.kadro": "Ralf Hütter, Florian Schneider",
+ "alb.kraftwerk-1973-ralf-und-florian.prod": "Conny Plank, Ralf Hütter, Florian Schneider",
+ "alb.kraftwerk-1973-ralf-und-florian.tr": [
+  "Kristallo",
+  "Tanzmusik",
+  "Ananas Symphonie"
+ ],
+ "alb.kraftwerk-1974-autobahn.an": "Birinci yüzü kaplayan 22 dakikalık başlık parçası onları uluslararası yıldız yaptı ve elektronik çağı açtı.",
+ "alb.kraftwerk-1974-autobahn.oncelik": "Atlanmamalı.",
+ "alb.kraftwerk-1974-autobahn.tip": "stüdyo",
+ "alb.kraftwerk-1974-autobahn.kadro": "Ralf Hütter, Florian Schneider, Klaus Röder, Wolfgang Flür",
+ "alb.kraftwerk-1974-autobahn.prod": "Ralf Hütter, Florian Schneider",
+ "alb.kraftwerk-1974-autobahn.tr": [
+  "Autobahn",
+  "Kometenmelodie 1",
+  "Morgenspaziergang"
+ ],
+ "alb.kraftwerk-1975-radio-activity.an": "Radyo dalgaları ve radyoaktivite üzerine bir konsept albüm, kısa parçalar, gürültü ve melodiden kurulu; klasik dörtlüyle ilk albüm.",
+ "alb.kraftwerk-1975-radio-activity.oncelik": "Önerilir.",
+ "alb.kraftwerk-1975-radio-activity.tip": "stüdyo",
+ "alb.kraftwerk-1975-radio-activity.kadro": "Ralf Hütter, Florian Schneider, Wolfgang Flür, Karl Bartos",
+ "alb.kraftwerk-1975-radio-activity.prod": "Ralf Hütter, Florian Schneider",
+ "alb.kraftwerk-1975-radio-activity.tr": [
+  "Radioactivity",
+  "Antenna",
+  "Radioland",
+  "Ohm Sweet Ohm"
+ ],
+ "alb.kraftwerk-1977-trans-europe-express.an": "Trenlerin ve eski şehirlerin rüyası olarak Avrupa; başlık parçasında David Bowie ve Iggy Pop'un adı geçer.",
+ "alb.kraftwerk-1977-trans-europe-express.oncelik": "Atlanmamalı.",
+ "alb.kraftwerk-1977-trans-europe-express.tip": "stüdyo",
+ "alb.kraftwerk-1977-trans-europe-express.kadro": "Ralf Hütter, Florian Schneider, Wolfgang Flür, Karl Bartos",
+ "alb.kraftwerk-1977-trans-europe-express.prod": "Ralf Hütter, Florian Schneider",
+ "alb.kraftwerk-1977-trans-europe-express.tr": [
+  "Europe Endless",
+  "The Hall of Mirrors",
+  "Trans-Europe Express",
+  "Metal on Metal"
+ ],
+ "alb.kraftwerk-1978-the-man-machine.an": "En derli toplu ve en pop biçimli albüm: 'The Robots', 'Neon Lights' ve 'The Model'.",
+ "alb.kraftwerk-1978-the-man-machine.oncelik": "Önerilir.",
+ "alb.kraftwerk-1978-the-man-machine.tip": "stüdyo",
+ "alb.kraftwerk-1978-the-man-machine.kadro": "Ralf Hütter, Florian Schneider, Wolfgang Flür, Karl Bartos",
+ "alb.kraftwerk-1978-the-man-machine.prod": "Ralf Hütter, Florian Schneider",
+ "alb.kraftwerk-1978-the-man-machine.tr": [
+  "The Robots",
+  "Spacelab",
+  "Neon Lights",
+  "The Model"
+ ],
+ "alb.kraftwerk-1981-computer-world.an": "Kişisel bilgisayar çağının tam başında ev bilgisayarları, veri ve gözetim; electro'nun temel taşlarından.",
+ "alb.kraftwerk-1981-computer-world.oncelik": "Önerilir.",
+ "alb.kraftwerk-1981-computer-world.tip": "stüdyo",
+ "alb.kraftwerk-1981-computer-world.kadro": "Ralf Hütter, Florian Schneider, Wolfgang Flür, Karl Bartos",
+ "alb.kraftwerk-1981-computer-world.prod": "Ralf Hütter, Florian Schneider",
+ "alb.kraftwerk-1981-computer-world.tr": [
+  "Computer World",
+  "Pocket Calculator",
+  "Numbers",
+  "Computer Love"
+ ],
+ "grp.neu.name": "Neu!",
+ "grp.neu.kurulus": "1971, Düsseldorf. Kraftwerk'ten ayrılan Michael Rother (gitar) ve Klaus Dinger (davul); yapımcı Conny Plank.",
+ "grp.neu.hikaye": "Rother ve Dinger 1971'de birkaç ay Kraftwerk'te birlikte çalmıştı. Neu! adıyla Conny Plank'la, her biri birkaç günde kaydedilen üç albüm yaptılar: Neu! (1972), Neu! 2 (1973) ve Neu! '75. Dinger'in sabit, hep ileri akan davul kalıbı — sonradan 'motorik' adı verildi — ve Rother'in katmanlı gitarları krautrock'un imzası oldu. İkinci ve üçüncü albüm arasında Rother, Cluster'la birlikte Harmonia'ya katıldı; Dinger La Düsseldorf'u kurdu. Neu! '75 iki kişiliği ayırdı: birinci yüzde Rother'in ambient'i, ikinci yüzde Dinger'in proto-punk'ı.",
+ "grp.neu.dna": "'Motorik' ritim, uzun tekrarlı groove'lar, doku olarak kullanılan gitarlar, ambient ara bölümler ve '75'te punk'ı önceden haber veren ham, bağırışlı rock.",
+ "grp.neu.uyeler": "Michael Rother (gitar, bas, klavye), Klaus Dinger (davul, gitar, vokal); Neu! '75'te ayrıca Thomas Dinger ve Hans Lampe (davul).",
+ "grp.neu.gecisler": "Kraftwerk (1971) → Neu! (1971–75). Michael Rother → Harmonia (Cluster'la, 1973–76) → solo. Klaus Dinger → La Düsseldorf (Thomas Dinger ve Hans Lampe'yle).",
+ "grp.neu.etki": "Motorik ritim Bowie'nin Berlin albümlerinden post-punk'a (Joy Division, PiL), oradan Stereolab'e, Radiohead'e ve sayısız indie gruba uzanır.",
+ "grp.neu.ipucu": [
+  "'Hallogallo'yla başla: motorik ritmi tanımlayan on dakika.",
+  "Rother ile Dinger'in ayrıldığını duymak için Neu! '75'in iki yüzünü art arda dinle."
+ ],
+ "alb.neu-1972-neu.an": "İlk albüm: 'Hallogallo' motorik ritmi ortaya koyar, 'Weissensee' ve 'Im Glück' onun sessiz karşılığıdır.",
+ "alb.neu-1972-neu.oncelik": "Atlanmamalı.",
+ "alb.neu-1972-neu.tip": "stüdyo",
+ "alb.neu-1972-neu.kadro": "Michael Rother, Klaus Dinger",
+ "alb.neu-1972-neu.prod": "Conny Plank",
+ "alb.neu-1972-neu.tr": [
+  "Hallogallo",
+  "Weissensee",
+  "Negativland"
+ ],
+ "alb.neu-1973-neu-2.an": "Birinci yüz ilk albümü sürdürür ('Für immer'); bütçe bitince ikinci yüz bir single'ın hızlandırılmış ve yavaşlatılmış versiyonlarıyla doldurulmuş.",
+ "alb.neu-1973-neu-2.oncelik": "İsteğe bağlı.",
+ "alb.neu-1973-neu-2.tip": "stüdyo",
+ "alb.neu-1973-neu-2.kadro": "Michael Rother, Klaus Dinger",
+ "alb.neu-1973-neu-2.prod": "Conny Plank",
+ "alb.neu-1973-neu-2.tr": [
+  "Für immer",
+  "Lila Engel"
+ ],
+ "alb.neu-1975-neu-75.an": "Birinci yüzde Rother'in ambient 'Isi' ve 'Seeland'i, ikinci yüzde Dinger'in proto-punk 'Hero'su.",
+ "alb.neu-1975-neu-75.oncelik": "Önerilir.",
+ "alb.neu-1975-neu-75.tip": "stüdyo",
+ "alb.neu-1975-neu-75.kadro": "Michael Rother, Klaus Dinger, Thomas Dinger, Hans Lampe",
+ "alb.neu-1975-neu-75.prod": "Conny Plank",
+ "alb.neu-1975-neu-75.tr": [
+  "Isi",
+  "Seeland",
+  "Hero",
+  "After Eight"
+ ],
+ "grp.can.name": "Can",
+ "grp.can.kurulus": "1968, Köln. İkisi de Karlheinz Stockhausen'in öğrencisi olan Irmin Schmidt ve Holger Czukay, Michael Karoli ve Jaki Liebezeit'la kurdu.",
+ "grp.can.hikaye": "Schmidt (klavye) ve Czukay (bas) çağdaş klasik müzikten, Liebezeit (davul) free caz'dan, Karoli (gitar) rock'tan geliyordu. Amerikalı şarkıcı Malcolm Mooney'yle Monster Movie'yi (1969) kaydettiler; Mooney ayrılınca grup Damo Suzuki'yi Münih'te sokakta şarkı söylerken buldu ve onunla Tago Mago, Ege Bamyasi ve Future Days'i yaptı. Müzik, Köln yakınlarındaki bir şatodaki Inner Space stüdyolarında saatlerce doğaçlanır, Czukay da bantları kesip biçerek bitmiş parçalara dönüştürürdü. Suzuki 1973'te ayrıldı; grup Karoli ve Schmidt'in vokalleriyle sürdü, sonra Traffic'ten Rosko Gee ve Reebop Kwaku Baah'ı da alarak yetmişlerin sonuna kadar devam etti.",
+ "grp.can.dna": "Liebezeit'ın hipnotik, makine gibi davulu, bantta kurgulanan uzun kolektif doğaçlamalar, Czukay'ın minimal bası, Suzuki'nin yarı uydurma dilleri; Stockhausen'den, James Brown'dan ve Velvet Underground'dan gelen etkiler.",
+ "grp.can.uyeler": "Irmin Schmidt (klavye), Holger Czukay (bas, kurgu), Michael Karoli (gitar, vokal), Jaki Liebezeit (davul); vokalde Malcolm Mooney (1968–70) ve Damo Suzuki (1970–73); sonra Rosko Gee (bas) ve Reebop Kwaku Baah (perküsyon).",
+ "grp.can.gecisler": "Stockhausen'in dersleri (Schmidt, Czukay) → Can (1968–79). Rosko Gee ve Reebop Kwaku Baah Traffic'ten geldi. Czukay → solo işler, Jah Wobble ve David Sylvian'la ortak çalışmalar; Liebezeit → Phantom Band.",
+ "grp.can.etki": "Can'in groove'ları ve kurgu tekniği post-punk'ı (PiL, The Fall), elektronik müziği ve pek çok sonraki grubu biçimlendirdi; Ege Bamyasi adını Türkçeden alır.",
+ "grp.can.ipucu": [
+  "Tago Mago'daki 'Halleluhwah'yı dinle: tek bir davul kalıbı üzerinde 18 dakika.",
+  "Şarkıcının grubu nasıl değiştirdiğini duymak için Mooney'nin 'Yoo Doo Right'ını Suzuki'nin 'Bel Air'iyle karşılaştır."
+ ],
+ "alb.can-1969-monster-movie.an": "Malcolm Mooney'li ilk albüm: garaj rock ve trans, yirmi dakikalık 'Yoo Doo Right' ile kapanır.",
+ "alb.can-1969-monster-movie.oncelik": "Önerilir.",
+ "alb.can-1969-monster-movie.tip": "stüdyo",
+ "alb.can-1969-monster-movie.kadro": "Irmin Schmidt, Holger Czukay, Michael Karoli, Jaki Liebezeit, Malcolm Mooney",
+ "alb.can-1969-monster-movie.prod": "Can",
+ "alb.can-1969-monster-movie.tr": [
+  "Father Cannot Yell",
+  "Mary, Mary So Contrary",
+  "Yoo Doo Right"
+ ],
+ "alb.can-1971-tago-mago.an": "Damo Suzuki'li çift albüm: ilk plakta şarkılar, ikincide uzun 'Halleluhwah' ve bant deneyleri 'Aumgn' ile 'Peking O'.",
+ "alb.can-1971-tago-mago.oncelik": "Atlanmamalı.",
+ "alb.can-1971-tago-mago.tip": "stüdyo (çift LP)",
+ "alb.can-1971-tago-mago.kadro": "Irmin Schmidt, Holger Czukay, Michael Karoli, Jaki Liebezeit, Damo Suzuki",
+ "alb.can-1971-tago-mago.prod": "Can",
+ "alb.can-1971-tago-mago.tr": [
+  "Paperhouse",
+  "Mushroom",
+  "Halleluhwah",
+  "Aumgn"
+ ],
+ "alb.can-1972-ege-bamyasi.an": "Daha sıkı groove'lar ve Almanya'da hit olan 'Spoon'; adı Türkçe 'Ege bamyası'.",
+ "alb.can-1972-ege-bamyasi.oncelik": "Önerilir.",
+ "alb.can-1972-ege-bamyasi.tip": "stüdyo",
+ "alb.can-1972-ege-bamyasi.kadro": "Irmin Schmidt, Holger Czukay, Michael Karoli, Jaki Liebezeit, Damo Suzuki",
+ "alb.can-1972-ege-bamyasi.prod": "Can",
+ "alb.can-1972-ege-bamyasi.tr": [
+  "Pinch",
+  "Sing Swan Song",
+  "Vitamin C",
+  "Spoon"
+ ],
+ "alb.can-1973-future-days.an": "En ambient albüm, Suzuki'nin sonuncusu: başlık parçası ve yirmi dakikalık 'Bel Air'.",
+ "alb.can-1973-future-days.oncelik": "Atlanmamalı.",
+ "alb.can-1973-future-days.tip": "stüdyo",
+ "alb.can-1973-future-days.kadro": "Irmin Schmidt, Holger Czukay, Michael Karoli, Jaki Liebezeit, Damo Suzuki",
+ "alb.can-1973-future-days.prod": "Can",
+ "alb.can-1973-future-days.tr": [
+  "Future Days",
+  "Moonshake",
+  "Bel Air"
+ ],
+ "alb.can-1974-soon-over-babaluma.an": "Şarkıcısız: uzun, akışkan parçalarda Karoli'nin kemanı ve Schmidt'in klavyeleri.",
+ "alb.can-1974-soon-over-babaluma.oncelik": "İsteğe bağlı.",
+ "alb.can-1974-soon-over-babaluma.tip": "stüdyo",
+ "alb.can-1974-soon-over-babaluma.kadro": "Irmin Schmidt, Holger Czukay, Michael Karoli, Jaki Liebezeit",
+ "alb.can-1974-soon-over-babaluma.prod": "Can",
+ "alb.can-1974-soon-over-babaluma.tr": [
+  "Dizzy Dizzy",
+  "Chain Reaction",
+  "Quantum Physics"
+ ],
+ "grp.faust.name": "Faust",
+ "grp.faust.kurulus": "1971, Wümme (Aşağı Saksonya). Gazeteci ve yapımcı Uwe Nettelbeck'in Polydor sözleşmesiyle bir araya getirdiği grup, eski bir okul binasında çalıştı.",
+ "grp.faust.hikaye": "Polydor Beatles'a Alman bir cevap umuyordu; Nettelbeck ona kolaj ve gürültü yapan bir grup verdi. İlk albüm (1971) şeffaf plakta, röntgen filmi gibi bir kapakla çıktı; So Far (1972) şarkılar ekledi. İngiltere'de Virgin'le anlaşan Faust, yayımlanmamış kayıtlardan bir kolaj olan ve bir single fiyatına satılan The Faust Tapes'i (1973) çıkardı ve İngiltere'de tanındı; Faust IV, Virgin'in Manor stüdyosunda kaydedildi. Faust, Slapp Happy'nin ilk iki albümünde de çaldı. Grup yetmişlerin ortasında dağıldı ve 1990'da iki ayrı kadroyla geri döndü.",
+ "grp.faust.dna": "Basit şarkıların yanında bant kolajı ve musique concrète, gürültü ve drone'lar, bilinçli mizah ve provokasyon, grubun bir sanat kolektifi olduğu fikri.",
+ "grp.faust.uyeler": "Werner 'Zappi' Diermaier (davul), Hans Joachim Irmler (org), Jean-Hervé Péron (bas), Rudolf Sosna (gitar, klavye), Gunther Wüsthoff (saksafon, synthesizer), Arnulf Meifert (davul, 1971).",
+ "grp.faust.gecisler": "Faust → Slapp Happy'nin Sort Of (1972) ve Acnalbasac Noom albümlerinde arka grup → Slapp Happy ve Henry Cow (Rock in Opposition). Uwe Nettelbeck iki grubun da yapımcısıydı. The Faust Tapes ve Faust IV, Tubular Bells'in ve Henry Cow'un plak şirketi Virgin'den çıktı.",
+ "grp.faust.etki": "Faust kolajı ve gürültüyü rock'a soktu; endüstriyel müziğin ve Rock in Opposition çevresinin doğrudan atasıdır. Faust IV 'Krautrock' adlı bir parçayla açılır.",
+ "grp.faust.ipucu": [
+  "Faust IV'teki on iki dakikalık 'Krautrock'u dinle: grubun bu etikete ironik cevabı.",
+  "Ardından Slapp Happy'nin Sort Of'u: aynı müzisyenler bir pop grubu olarak."
+ ],
+ "alb.faust-1971-faust.an": "Gürültü, pop parçacıkları ve banttan üç uzun kolaj; şeffaf plakta, röntgen filmi gibi bir kapakla.",
+ "alb.faust-1971-faust.oncelik": "Önerilir.",
+ "alb.faust-1971-faust.tip": "stüdyo",
+ "alb.faust-1971-faust.kadro": "Werner Diermaier, Hans Joachim Irmler, Jean-Hervé Péron, Rudolf Sosna, Gunther Wüsthoff, Arnulf Meifert",
+ "alb.faust-1971-faust.prod": "Uwe Nettelbeck",
+ "alb.faust-1971-faust.tr": [
+  "Why Don't You Eat Carrots?",
+  "Meadow Meal",
+  "Miss Fortune"
+ ],
+ "alb.faust-1972-so-far.an": "Daha çok şarkı, daha çok biçim: 'It's a Rainy Day, Sunshine Girl'ün sekiz dakikalık groove'u.",
+ "alb.faust-1972-so-far.oncelik": "Önerilir.",
+ "alb.faust-1972-so-far.tip": "stüdyo",
+ "alb.faust-1972-so-far.kadro": "Werner Diermaier, Hans Joachim Irmler, Jean-Hervé Péron, Rudolf Sosna, Gunther Wüsthoff",
+ "alb.faust-1972-so-far.prod": "Uwe Nettelbeck",
+ "alb.faust-1972-so-far.tr": [
+  "It's a Rainy Day, Sunshine Girl",
+  "...In the Spirit",
+  "Mamie Is Blue"
+ ],
+ "alb.faust-1973-the-faust-tapes.an": "Virgin'in bir single fiyatına sattığı, yayımlanmamış kayıtlardan bir kolaj; pek çok İngiliz dinleyici için krautrock'la ilk karşılaşma.",
+ "alb.faust-1973-the-faust-tapes.oncelik": "İsteğe bağlı.",
+ "alb.faust-1973-the-faust-tapes.tip": "derleme (yayımlanmamış kayıtlar)",
+ "alb.faust-1973-the-faust-tapes.kadro": "Werner Diermaier, Hans Joachim Irmler, Jean-Hervé Péron, Rudolf Sosna, Gunther Wüsthoff",
+ "alb.faust-1973-the-faust-tapes.prod": "Uwe Nettelbeck",
+ "alb.faust-1973-the-faust-tapes.tr": [],
+ "alb.faust-1973-faust-iv.an": "Virgin'in Manor stüdyosunda kaydedildi: drone parçası 'Krautrock', şarkı 'Jennifer' ve 'The Sad Skinhead'.",
+ "alb.faust-1973-faust-iv.oncelik": "Atlanmamalı.",
+ "alb.faust-1973-faust-iv.tip": "stüdyo",
+ "alb.faust-1973-faust-iv.kadro": "Werner Diermaier, Hans Joachim Irmler, Jean-Hervé Péron, Rudolf Sosna, Gunther Wüsthoff",
+ "alb.faust-1973-faust-iv.prod": "Uwe Nettelbeck",
+ "alb.faust-1973-faust-iv.tr": [
+  "Krautrock",
+  "The Sad Skinhead",
+  "Jennifer"
+ ],
+ "grp.amon-duul-ii.name": "Amon Düül II",
+ "grp.amon-duul-ii.kurulus": "1968, Münih. Siyasi ve müzikal iki gruba ayrılan Amon Düül komününün müzikal kolu.",
+ "grp.amon-duul-ii.hikaye": "Komünün ilk grubu (Amon Düül) gevşek jam oturumları kaydederken Amon Düül II gerçek bir gruba dönüştü: gitarlarda Chris Karrer ve John Weinzierl, Renate Knaup'un sesi, iki davulcu ve Falk Rogner'in orgu. Phallus Dei (1969) ile çift albümler Yeti (1970) ve Tanz der Lemminge (1971) ağır psikedeliği, uzun süitleri, kemanı ve Doğu renklerini harmanladı; basçı Dave Anderson Yeti'den sonra ayrılıp Hawkwind'e katıldı. Wolf City (1972) daha derli topluydu. Yetmişlerin ortasından itibaren grup daha kısa rock şarkılarına yöneldi; birkaç kez yeniden bir araya geldi.",
+ "grp.amon-duul-ii.dna": "Uzun doğaçlama süitlerle ağır psikedelik rock, iki davulcu, keman ve sitar, Renate Knaup'un sözsüz şarkıları ve karanlık, mitik bir atmosfer.",
+ "grp.amon-duul-ii.uyeler": "Chris Karrer (gitar, keman, vokal), John Weinzierl (gitar), Renate Knaup (vokal), Falk Rogner (org), Peter Leopold (davul), Dieter Serfas (davul), Dave Anderson (bas, 1970'e kadar), Lothar Meid (bas, 1971'den itibaren).",
+ "grp.amon-duul-ii.gecisler": "Amon Düül komünü → Amon Düül II (1968–). Dave Anderson → Hawkwind (In Search of Space, 1971). Daniel Fichelscher → Popol Vuh. Lothar Meid → stüdyo çalışmaları, Embryo.",
+ "grp.amon-duul-ii.etki": "Yeti sık sık ilk büyük krautrock albümü sayılır; Amon Düül II'nin ağır rock ve uzun süit karışımı Hawkwind'e ve erken Pink Floyd'a paralel ilerler.",
+ "grp.amon-duul-ii.ipucu": [
+  "Yeti'deki 'Archangels Thunderbird'la başla, sonra albüme adını veren uzun doğaçlamaya geç.",
+  "Dave Anderson'ın basına kulak ver, sonra onu Hawkwind'in In Search of Space'inde dinle."
+ ],
+ "alb.amon-duul-ii-1969-phallus-dei.an": "Yirmi dakikalık başlık parçasıyla kapanan ilk albüm: kabile davulları, keman ve vahşi gitarlar.",
+ "alb.amon-duul-ii-1969-phallus-dei.oncelik": "Önerilir.",
+ "alb.amon-duul-ii-1969-phallus-dei.tip": "stüdyo",
+ "alb.amon-duul-ii-1969-phallus-dei.kadro": "Chris Karrer, John Weinzierl, Renate Knaup, Falk Rogner, Peter Leopold, Dave Anderson ve diğerleri",
+ "alb.amon-duul-ii-1969-phallus-dei.prod": "Olaf Kübler",
+ "alb.amon-duul-ii-1969-phallus-dei.tr": [
+  "Kanaan",
+  "Phallus Dei"
+ ],
+ "alb.amon-duul-ii-1970-yeti.an": "İlk plakta şarkılar ve süitler, ikincide uzun doğaçlamalar; grubun en bilinen albümü.",
+ "alb.amon-duul-ii-1970-yeti.oncelik": "Atlanmamalı.",
+ "alb.amon-duul-ii-1970-yeti.tip": "stüdyo (çift LP)",
+ "alb.amon-duul-ii-1970-yeti.kadro": "Chris Karrer, John Weinzierl, Renate Knaup, Falk Rogner, Peter Leopold, Dave Anderson ve diğerleri",
+ "alb.amon-duul-ii-1970-yeti.prod": "Olaf Kübler",
+ "alb.amon-duul-ii-1970-yeti.tr": [
+  "Archangels Thunderbird",
+  "Eye-Shaking King",
+  "Soap Shop Rock",
+  "Yeti"
+ ],
+ "alb.amon-duul-ii-1971-tanz-der-lemminge.an": "Plak yüzü boyunca süren üç süit ve bir doğaçlama plağı; en iddialı albüm.",
+ "alb.amon-duul-ii-1971-tanz-der-lemminge.oncelik": "Önerilir.",
+ "alb.amon-duul-ii-1971-tanz-der-lemminge.tip": "stüdyo (çift LP)",
+ "alb.amon-duul-ii-1971-tanz-der-lemminge.kadro": "Chris Karrer, John Weinzierl, Falk Rogner, Lothar Meid, Peter Leopold ve diğerleri",
+ "alb.amon-duul-ii-1971-tanz-der-lemminge.prod": "Olaf Kübler",
+ "alb.amon-duul-ii-1971-tanz-der-lemminge.tr": [
+  "Syntelman's March of the Roaring Seventies",
+  "Restless Skylight-Transistor-Child",
+  "Chewinggum Telegram"
+ ],
+ "alb.amon-duul-ii-1972-wolf-city.an": "Daha kısa ve şarkı odaklı; merkezde Renate Knaup'un sesi, 'Deutsch Nepal'de sitar.",
+ "alb.amon-duul-ii-1972-wolf-city.oncelik": "İsteğe bağlı.",
+ "alb.amon-duul-ii-1972-wolf-city.tip": "stüdyo",
+ "alb.amon-duul-ii-1972-wolf-city.kadro": "Chris Karrer, John Weinzierl, Renate Knaup, Falk Rogner, Lothar Meid, Peter Leopold ve diğerleri",
+ "alb.amon-duul-ii-1972-wolf-city.prod": "Olaf Kübler",
+ "alb.amon-duul-ii-1972-wolf-city.tr": [
+  "Surrounded by the Stars",
+  "Wolf City",
+  "Deutsch Nepal"
+ ],
+ "grp.popol-vuh.name": "Popol Vuh",
+ "grp.popol-vuh.kurulus": "1969, Münih. Piyanist Florian Fricke tarafından kuruldu; adını Mayaların kutsal kitabından alır.",
+ "grp.popol-vuh.hikaye": "Affenstunde (1970), Moog synthesizer üzerine kurulan ilk Alman albümlerinden biriydi. Fricke ardından Moog'u sattı ve piyanoya, koroya ve gitara yöneldi: Koreli şarkıcı Djong Yun ve gitarist Conny Veit'lı Hosianna Mantra (1972), rock davulu olmayan ruhani bir 'ayin'dir. Amon Düül II'den Daniel Fichelscher grubun gitaristi ve davulcusu oldu. Aguirre'den (1972, albüm 1975) itibaren Popol Vuh, Nosferatu ve Fitzcarraldo dahil Werner Herzog'un filmlerinin çoğunun müziğini yaptı. Fricke, Tangerine Dream'in Zeit albümünde de Moog çaldı. 2001'de öldü.",
+ "grp.popol-vuh.dna": "Meditatif, ruhani müzik: başta Moog drone'ları, sonra piyano, koro, sitar ve tambura, gitarlar ve el davulları; Hıristiyan ve Doğu mistisizmi yan yana.",
+ "grp.popol-vuh.uyeler": "Florian Fricke (piyano, Moog), Holger Trülzsch (perküsyon, ilk yıllar), Conny Veit (gitar), Djong Yun (vokal), Daniel Fichelscher (gitar, davul), Renate Knaup (vokal, konuk).",
+ "grp.popol-vuh.gecisler": "Florian Fricke → Tangerine Dream'in Zeit'ında Moog (1972). Daniel Fichelscher ve Renate Knaup ↔ Amon Düül II. Popol Vuh → Werner Herzog'un film müzikleri (Aguirre, Nosferatu, Fitzcarraldo).",
+ "grp.popol-vuh.etki": "Popol Vuh ambient'i ve new age müziğini önceden haber verdi ve krautrock'un sessiz ve ibadete yakın da olabileceğini gösterdi.",
+ "grp.popol-vuh.ipucu": [
+  "Affenstunde ile Hosianna Mantra'yı art arda dinle: Moog drone'larından piyanoya ve sese.",
+  "Herzog'un Aguirre'sinin açılış sahnesini Popol Vuh'un müziğiyle izle."
+ ],
+ "alb.popol-vuh-1970-affenstunde.an": "İlk Alman Moog albümlerinden biri: uzun drone'lar ve el perküsyonu.",
+ "alb.popol-vuh-1970-affenstunde.oncelik": "Önerilir.",
+ "alb.popol-vuh-1970-affenstunde.tip": "stüdyo",
+ "alb.popol-vuh-1970-affenstunde.kadro": "Florian Fricke, Holger Trülzsch, Frank Fiedler",
+ "alb.popol-vuh-1970-affenstunde.prod": "Gerhard Augustin",
+ "alb.popol-vuh-1970-affenstunde.tr": [
+  "Ich mache einen Spiegel",
+  "Affenstunde"
+ ],
+ "alb.popol-vuh-1972-hosianna-mantra.an": "Rock davulu olmayan ruhani bir albüm: piyano, ses, gitar, obua ve tambura.",
+ "alb.popol-vuh-1972-hosianna-mantra.oncelik": "Atlanmamalı.",
+ "alb.popol-vuh-1972-hosianna-mantra.tip": "stüdyo",
+ "alb.popol-vuh-1972-hosianna-mantra.kadro": "Florian Fricke, Djong Yun, Conny Veit, Robert Eliscu, Klaus Wiese",
+ "alb.popol-vuh-1972-hosianna-mantra.tr": [
+  "Ah!",
+  "Kyrie",
+  "Hosianna-Mantra"
+ ],
+ "alb.popol-vuh-1974-einsjager-siebenjager.an": "Gitar ağırlıklı ve daha ritmik; uzun başlık parçası grubun zirvelerinden.",
+ "alb.popol-vuh-1974-einsjager-siebenjager.oncelik": "İsteğe bağlı.",
+ "alb.popol-vuh-1974-einsjager-siebenjager.tip": "stüdyo",
+ "alb.popol-vuh-1974-einsjager-siebenjager.kadro": "Florian Fricke, Daniel Fichelscher, Djong Yun, Alois Gromer",
+ "alb.popol-vuh-1974-einsjager-siebenjager.tr": [
+  "Kleiner Krieger",
+  "Einsjäger & Siebenjäger"
+ ],
+ "alb.popol-vuh-1975-aguirre.an": "Werner Herzog'un Aguirre, Tanrının Gazabı filminin müziği: açılış sahnesinin 'koro orgu'.",
+ "alb.popol-vuh-1975-aguirre.oncelik": "Önerilir.",
+ "alb.popol-vuh-1975-aguirre.tip": "film müziği",
+ "alb.popol-vuh-1975-aguirre.kadro": "Florian Fricke, Daniel Fichelscher ve diğerleri",
+ "alb.popol-vuh-1975-aguirre.tr": [
+  "Aguirre I",
+  "Aguirre II"
+ ],
+ "grp.tangerine-dream.name": "Tangerine Dream",
+ "grp.tangerine-dream.kurulus": "1967, Batı Berlin. Edgar Froese tarafından kuruldu; ilk albüm Electronic Meditation'da (1970) davulda Klaus Schulze vardı.",
+ "grp.tangerine-dream.hikaye": "Ohr etiketindeki ilk albümler serbest psikedelikten uzun elektronik drone'lara geçti: dört çellist ve Moog'da Florian Fricke'yle çift albüm Zeit (1972), rock'ın en yavaş plaklarından biridir. Christopher Franke ve Peter Baumann'la klasik üçlü Virgin'le anlaştı; sekanslayıcılar üzerine kurulu Phaedra (1974) İngiltere'de ilk yirmiye girdi, ardından Rubycon, canlı Ricochet ve Stratosfear geldi. Yetmişlerin sonundan itibaren grup daha kısa parçalara ve film müziklerine yöneldi (Sorcerer, Thief, Risky Business). Froese grubu 2015'teki ölümüne kadar yönetti.",
+ "grp.tangerine-dream.dna": "Uzun, yavaş gelişen elektronik parçalar, Mellotron ve Moog, nabız gibi atan kalıplar kuran adımlı sekanslayıcılar, konserlerde doğaçlama ve güçlü bir uzam duygusu.",
+ "grp.tangerine-dream.uyeler": "Edgar Froese (gitar, klavye, 1967–2015), Christopher Franke (synthesizer, sekanslayıcı, 1971–88), Peter Baumann (klavye, 1971–77); ilk yıllarda Klaus Schulze (davul, 1969–70) ve Conrad Schnitzler (1969–70).",
+ "grp.tangerine-dream.gecisler": "Klaus Schulze (Tangerine Dream, 1969–70) → Ash Ra Tempel → solo. Florian Fricke (Popol Vuh) → Zeit'ta Moog. Virgin Records (Tubular Bells, Henry Cow) → Phaedra (1974). Tangerine Dream → film müzikleri (Sorcerer, Thief, Legend).",
+ "grp.tangerine-dream.etki": "Elektronik müziğin Berlin Okulu: sekanslayıcı müziği, ambient, trance ve elektronik film müziği buraya uzanır.",
+ "grp.tangerine-dream.ipucu": [
+  "Phaedra'yı karanlıkta dinle: başlık parçası akordu yavaş yavaş kayan tek bir sekanslayıcı kalıbından kurulu.",
+  "Rubycon'u aynı yılın Klaus Schulze albümü Timewind'le karşılaştır."
+ ],
+ "alb.tangerine-dream-1972-zeit.an": "'Dört bölümlük bir largo': dört çellist ve Popol Vuh'tan Florian Fricke'yle neredeyse durağan drone'lar.",
+ "alb.tangerine-dream-1972-zeit.oncelik": "İsteğe bağlı.",
+ "alb.tangerine-dream-1972-zeit.tip": "stüdyo (çift LP)",
+ "alb.tangerine-dream-1972-zeit.kadro": "Edgar Froese, Christopher Franke, Peter Baumann, Steve Schroyder, Florian Fricke (Moog) + konuklar",
+ "alb.tangerine-dream-1972-zeit.prod": "Rolf-Ulrich Kaiser",
+ "alb.tangerine-dream-1972-zeit.tr": [
+  "Birth of Liquid Plejades",
+  "Nebulous Dawn",
+  "Origin of Supernatural Probabilities",
+  "Zeit"
+ ],
+ "alb.tangerine-dream-1974-phaedra.an": "İlk Virgin albümü ve sekanslayıcılar üzerine kurulu ilk albüm; İngiltere'de sürpriz bir hit.",
+ "alb.tangerine-dream-1974-phaedra.oncelik": "Atlanmamalı.",
+ "alb.tangerine-dream-1974-phaedra.tip": "stüdyo",
+ "alb.tangerine-dream-1974-phaedra.kadro": "Edgar Froese, Christopher Franke, Peter Baumann",
+ "alb.tangerine-dream-1974-phaedra.prod": "Edgar Froese",
+ "alb.tangerine-dream-1974-phaedra.tr": [
+  "Phaedra",
+  "Mysterious Semblance at the Strand of Nightmares",
+  "Movements of a Visionary",
+  "Sequent C'"
+ ],
+ "alb.tangerine-dream-1975-rubycon.an": "Plak yüzü boyunca süren iki bölüm: sekanslayıcı nabızları, Mellotron koroları ve hazırlanmış piyano.",
+ "alb.tangerine-dream-1975-rubycon.oncelik": "Atlanmamalı.",
+ "alb.tangerine-dream-1975-rubycon.tip": "stüdyo",
+ "alb.tangerine-dream-1975-rubycon.kadro": "Edgar Froese, Christopher Franke, Peter Baumann",
+ "alb.tangerine-dream-1975-rubycon.prod": "Edgar Froese",
+ "alb.tangerine-dream-1975-rubycon.tr": [
+  "Rubycon, Part One",
+  "Rubycon, Part Two"
+ ],
+ "alb.tangerine-dream-1975-ricochet.an": "1975 Avrupa turnesinden kurgulandı: stüdyo albümlerinden daha çok gitar ve daha çok itki.",
+ "alb.tangerine-dream-1975-ricochet.oncelik": "İsteğe bağlı.",
+ "alb.tangerine-dream-1975-ricochet.tip": "canlı",
+ "alb.tangerine-dream-1975-ricochet.kadro": "Edgar Froese, Christopher Franke, Peter Baumann",
+ "alb.tangerine-dream-1975-ricochet.prod": "Edgar Froese",
+ "alb.tangerine-dream-1975-ricochet.tr": [
+  "Ricochet, Part One",
+  "Ricochet, Part Two"
+ ],
+ "alb.tangerine-dream-1976-stratosfear.an": "Daha kısa parçalar, melodi ve akustik gitar: film müziklerine doğru bir adım.",
+ "alb.tangerine-dream-1976-stratosfear.oncelik": "Önerilir.",
+ "alb.tangerine-dream-1976-stratosfear.tip": "stüdyo",
+ "alb.tangerine-dream-1976-stratosfear.kadro": "Edgar Froese, Christopher Franke, Peter Baumann",
+ "alb.tangerine-dream-1976-stratosfear.prod": "Edgar Froese",
+ "alb.tangerine-dream-1976-stratosfear.tr": [
+  "Stratosfear",
+  "The Big Sleep in Search of Hades",
+  "3 A.M. at the Border of the Marsh from Okefenokee",
+  "Invisible Limits"
+ ],
+ "grp.klaus-schulze.name": "Klaus Schulze",
+ "grp.klaus-schulze.kurulus": "1947, Berlin (2022'de öldü). Tangerine Dream (1969–70) ve Ash Ra Tempel'in (1970–71) davulcusu, 1972'den itibaren solo.",
+ "grp.klaus-schulze.hikaye": "Tangerine Dream'in ilk albümünde ve Ash Ra Tempel'in ilk albümünde davul çaldıktan sonra Schulze solo kariyere geçti: Irrlicht (1972) synthesizer kullanılmadan, bir org ve işlenmiş bir orkestra kaydıyla yapıldı. Yetmişlerin ortasından itibaren uzun synthesizer parçaları — Richard Wagner'e adanan Timewind (1975) ve davulcu Harald Großkopf'lu Moondawn (1976) — Tangerine Dream'in yanında Berlin Okulu'nu tanımladı. Stomu Yamashta, Steve Winwood ve Al Di Meola'yla Go süpergrubunda yer aldı, kendi plak şirketini yönetti ve altmıştan fazla albüm yayımladı. 2022'de öldü.",
+ "grp.klaus-schulze.dna": "Sekanslayıcı kalıpları üzerinde yavaşça büyüyen, plak yüzü boyunca süren elektronik parçalar, Moog ve modüler synthesizer'lar, Wagner'vari ölçek ve hipnotik, meditatif bir çekim.",
+ "grp.klaus-schulze.uyeler": "Klaus Schulze (synthesizer, org, davul); konuk Harald Großkopf (davul, Moondawn).",
+ "grp.klaus-schulze.gecisler": "Tangerine Dream (1969–70) → Ash Ra Tempel (1970–71; Join Inn'de yeniden, 1973) → solo (1972–2022). Go (1976, Stomu Yamashta, Steve Winwood, Al Di Meola, Michael Shrieve'le). Harald Großkopf → Ashra (Manuel Göttsching'le).",
+ "grp.klaus-schulze.etki": "Schulze, Tangerine Dream'le birlikte Berlin Okulu'nu kurdu; trance ve ambient müzisyenleri onu doğrudan bir kaynak olarak anar.",
+ "grp.klaus-schulze.ipucu": [
+  "Timewind'deki 'Bayreuth Return'ü dinle: tek bir sekanslayıcı kalıbı üzerinde otuz dakika.",
+  "Irrlicht'i Tangerine Dream'in Zeit'ıyla karşılaştır: aynı yıl, neredeyse hareketsiz müzik yapmanın iki yolu."
+ ],
+ "alb.klaus-schulze-1972-irrlicht.an": "Synthesizer'sız solo ilk albüm: org ve filtrelenmiş bir orkestra kaydı.",
+ "alb.klaus-schulze-1972-irrlicht.oncelik": "İsteğe bağlı.",
+ "alb.klaus-schulze-1972-irrlicht.tip": "stüdyo",
+ "alb.klaus-schulze-1972-irrlicht.kadro": "Klaus Schulze",
+ "alb.klaus-schulze-1972-irrlicht.prod": "Klaus Schulze",
+ "alb.klaus-schulze-1972-irrlicht.tr": [
+  "1. Satz: Ebene",
+  "3. Satz: Exil Sils Maria"
+ ],
+ "alb.klaus-schulze-1975-timewind.an": "Richard Wagner'e adanmış, plak yüzü boyunca süren iki parça: 'Bayreuth Return' ve 'Wahnfried 1883'.",
+ "alb.klaus-schulze-1975-timewind.oncelik": "Atlanmamalı.",
+ "alb.klaus-schulze-1975-timewind.tip": "stüdyo",
+ "alb.klaus-schulze-1975-timewind.kadro": "Klaus Schulze",
+ "alb.klaus-schulze-1975-timewind.prod": "Klaus Schulze",
+ "alb.klaus-schulze-1975-timewind.tr": [
+  "Bayreuth Return",
+  "Wahnfried 1883"
+ ],
+ "alb.klaus-schulze-1976-moondawn.an": "Moog modüler sistemiyle ilk albüm; canlı davulda Harald Großkopf.",
+ "alb.klaus-schulze-1976-moondawn.oncelik": "Önerilir.",
+ "alb.klaus-schulze-1976-moondawn.tip": "stüdyo",
+ "alb.klaus-schulze-1976-moondawn.kadro": "Klaus Schulze, Harald Großkopf",
+ "alb.klaus-schulze-1976-moondawn.prod": "Klaus Schulze",
+ "alb.klaus-schulze-1976-moondawn.tr": [
+  "Floating",
+  "Mindphaser"
+ ],
+ "grp.ash-ra-tempel.name": "Ash Ra Tempel",
+ "grp.ash-ra-tempel.kurulus": "1970, Berlin. Gitarist Manuel Göttsching ve basçı Hartmut Enke, davulda Klaus Schulze'yle kurdu.",
+ "grp.ash-ra-tempel.hikaye": "İlk albüm (1971) iki uzun parçadan oluşur: 'Amboss'un fırtınası ve 'Traummaschine'in sükûneti. Schulze ayrıldı; Schwingungen (1972) şarkıcı John L.'yi ve daha blues'lu bir yanı ekledi. 1973'te grup İsviçre'de Timothy Leary'yle Seven Up'ı kaydetti; Join Inn Göttsching, Enke ve Schulze'yi yeniden bir araya getirdi. Göttsching ardından gitar ve eko makineleriyle tek başına çalıştı: Inventions for Electric Guitar (1975) minimal müziği önceden haber verir, grup da Ashra adıyla sürdü. Sonraki E2-E4 (1984) elektronik dans müziğinin temel taşlarından biri oldu.",
+ "grp.ash-ra-tempel.dna": "Eko ve gecikmeli uzun gitar doğaçlamaları, kozmik drone'lar, psikedelik fırtınalar ve sonraları minimal, tekrarlanan gitar kalıpları.",
+ "grp.ash-ra-tempel.uyeler": "Manuel Göttsching (gitar, elektronik), Hartmut Enke (bas), Klaus Schulze (davul, org; 1970–71, 1973), Wolfgang Müller (davul, 1972), John L. (vokal, 1972), Rosi Müller (vokal, 1973).",
+ "grp.ash-ra-tempel.gecisler": "Klaus Schulze (Tangerine Dream) → Ash Ra Tempel → solo. Ash Ra Tempel → Seven Up (1973, Timothy Leary'yle) → Ashra (1976'dan itibaren, Harald Großkopf'la). Manuel Göttsching → E2-E4 (1984).",
+ "grp.ash-ra-tempel.etki": "Göttsching'in eko-gitar kalıpları krautrock'u minimal müziğe, ambient'e ve techno'ya bağlar.",
+ "grp.ash-ra-tempel.ipucu": [
+  "İlk albümdeki 'Amboss'la başla, sonra Inventions for Electric Guitar'daki 'Echo Waves'e geç: aynı gitarist, dört yıl arayla.",
+  "Join Inn'deki 'Freak'n'Roll'un ardından Klaus Schulze'nin Timewind'ini dinle."
+ ],
+ "alb.ash-ra-tempel-1971-ash-ra-tempel.an": "Plak yüzü boyunca süren iki parça: psikedelik fırtına 'Amboss' ve süzülen 'Traummaschine'.",
+ "alb.ash-ra-tempel-1971-ash-ra-tempel.oncelik": "Önerilir.",
+ "alb.ash-ra-tempel-1971-ash-ra-tempel.tip": "stüdyo",
+ "alb.ash-ra-tempel-1971-ash-ra-tempel.kadro": "Manuel Göttsching, Hartmut Enke, Klaus Schulze",
+ "alb.ash-ra-tempel-1971-ash-ra-tempel.tr": [
+  "Amboss",
+  "Traummaschine"
+ ],
+ "alb.ash-ra-tempel-1972-schwingungen.an": "Schulze'siz: blues renkli bir birinci yüz ve kozmik 'Suche & Liebe'.",
+ "alb.ash-ra-tempel-1972-schwingungen.oncelik": "İsteğe bağlı.",
+ "alb.ash-ra-tempel-1972-schwingungen.tip": "stüdyo",
+ "alb.ash-ra-tempel-1972-schwingungen.kadro": "Manuel Göttsching, Hartmut Enke, Wolfgang Müller, John L. ve diğerleri",
+ "alb.ash-ra-tempel-1972-schwingungen.tr": [
+  "Light: Look at Your Sun",
+  "Darkness: Flowers Must Die",
+  "Suche & Liebe"
+ ],
+ "alb.ash-ra-tempel-1973-join-inn.an": "İlk üçlü yeniden bir arada: jam 'Freak'n'Roll' ve ağır 'Jenseits'.",
+ "alb.ash-ra-tempel-1973-join-inn.oncelik": "Önerilir.",
+ "alb.ash-ra-tempel-1973-join-inn.tip": "stüdyo",
+ "alb.ash-ra-tempel-1973-join-inn.kadro": "Manuel Göttsching, Hartmut Enke, Klaus Schulze, Rosi Müller",
+ "alb.ash-ra-tempel-1973-join-inn.tr": [
+  "Freak'n'Roll",
+  "Jenseits"
+ ],
+ "alb.ash-ra-tempel-1975-inventions-for-electric-guitar.an": "Göttsching gitar ve eko makineleriyle yalnız: minimal müziği önceden haber veren tekrarlanan kalıplar.",
+ "alb.ash-ra-tempel-1975-inventions-for-electric-guitar.oncelik": "Önerilir.",
+ "alb.ash-ra-tempel-1975-inventions-for-electric-guitar.tip": "stüdyo",
+ "alb.ash-ra-tempel-1975-inventions-for-electric-guitar.kadro": "Manuel Göttsching",
+ "alb.ash-ra-tempel-1975-inventions-for-electric-guitar.prod": "Manuel Göttsching",
+ "alb.ash-ra-tempel-1975-inventions-for-electric-guitar.tr": [
+  "Echo Waves",
+  "Quasarsphere",
+  "Pluralis"
+ ],
+ "grp.eloy.name": "Eloy",
+ "grp.eloy.kurulus": "1969, Hannover. Grubun tek sabit üyesi olan gitarist ve şarkıcı Frank Bornemann tarafından kuruldu.",
+ "grp.eloy.hikaye": "Hard rock bir ilk albümün (1971) ardından Eloy, Pink Floyd'dan etkilenen uzun space rock'a yöneldi: Floating (1974) ve konsept albüm Power and the Passion (1975). Klaus-Peter Matziol (bas), Detlev Schmidtchen (klavye) ve Jürgen Rosenthal'lı (davul) yeni kadroyla Dawn (1976) ve Atlantis efsanesi üzerine bir konsept olan, en çok satan albümleri Ocean'ı (1977) yaptılar; Silent Cries and Mighty Echoes (1979) aynı çizgiyi sürdürdü. Eloy yetmişlerin ve seksenlerin en başarılı Alman prog gruplarındandı ve hâlâ faal.",
+ "grp.eloy.dna": "Pink Floyd ve Hawkwind çizgisinde space rock, uzun konsept parçalar, katmanlı klavyeler ve Mellotron, Bornemann'ın konuşarak ve şarkı söyleyerek anlatımı, bilimkurgu ve mitoloji temaları.",
+ "grp.eloy.uyeler": "Frank Bornemann (gitar, vokal), Manfred Wieczorke (klavye, yetmişler), Luitjen Janssen (bas), Fritz Randow (davul); 1976'dan itibaren Klaus-Peter Matziol (bas), Detlev Schmidtchen (klavye), Jürgen Rosenthal (davul, eski Scorpions); 1979'dan itibaren Hannes Folberth (klavye).",
+ "grp.eloy.gecisler": "Jürgen Rosenthal → Scorpions (1973–74) → Eloy (1976–79). Frank Bornemann → yapımcı (doksanlarda Guano Apes).",
+ "grp.eloy.etki": "Eloy senfonik space rock'ı Almanya'da popüler yaptı; yetmişlerin sonu Alman prog sahnesinin başlıca referans noktalarından biridir.",
+ "grp.eloy.ipucu": [
+  "Ocean'ı tek seferde dinle: Atlantis'in hikâyesini anlatan dört uzun parça.",
+  "'Poseidon's Creation'ı aynı yılın Pink Floyd albümü Animals'la karşılaştır."
+ ],
+ "alb.eloy-1974-floating.an": "Space rock'a dönüş: Hawkwind'e ve erken Pink Floyd'a yakın, gitar ağırlıklı uzun parçalar.",
+ "alb.eloy-1974-floating.oncelik": "İsteğe bağlı.",
+ "alb.eloy-1974-floating.tip": "stüdyo",
+ "alb.eloy-1974-floating.kadro": "Frank Bornemann, Manfred Wieczorke, Luitjen Janssen, Fritz Randow",
+ "alb.eloy-1974-floating.tr": [
+  "Floating",
+  "The Light from Deep Darkness",
+  "Castle in the Air"
+ ],
+ "alb.eloy-1975-power-and-the-passion.an": "On dördüncü yüzyıl Fransa'sına giden bir zaman yolcusu üzerine bir konsept albüm.",
+ "alb.eloy-1975-power-and-the-passion.oncelik": "Önerilir.",
+ "alb.eloy-1975-power-and-the-passion.tip": "stüdyo",
+ "alb.eloy-1975-power-and-the-passion.kadro": "Frank Bornemann, Manfred Wieczorke, Luitjen Janssen, Fritz Randow, Detlev Schwaar",
+ "alb.eloy-1975-power-and-the-passion.tr": [
+  "Journey into 1358",
+  "Love Over Six Centuries",
+  "Mutiny"
+ ],
+ "alb.eloy-1977-ocean.an": "Atlantis efsanesi üzerine dört uzun parça; grubun en bilinen albümü.",
+ "alb.eloy-1977-ocean.oncelik": "Atlanmamalı.",
+ "alb.eloy-1977-ocean.tip": "stüdyo",
+ "alb.eloy-1977-ocean.kadro": "Frank Bornemann, Klaus-Peter Matziol, Detlev Schmidtchen, Jürgen Rosenthal",
+ "alb.eloy-1977-ocean.tr": [
+  "Poseidon's Creation",
+  "Incarnation of Logos"
+ ],
+ "alb.eloy-1979-silent-cries-and-mighty-echoes.an": "Klasik dönemin sonuncusu: zengin klavyeler ve uzun 'The Apocalypse'.",
+ "alb.eloy-1979-silent-cries-and-mighty-echoes.oncelik": "Önerilir.",
+ "alb.eloy-1979-silent-cries-and-mighty-echoes.tip": "stüdyo",
+ "alb.eloy-1979-silent-cries-and-mighty-echoes.kadro": "Frank Bornemann, Klaus-Peter Matziol, Hannes Folberth, Jürgen Rosenthal",
+ "alb.eloy-1979-silent-cries-and-mighty-echoes.tr": [
+  "Astral Entrance",
+  "Master of Sensation",
+  "The Apocalypse",
+  "Pilot to Paradise"
+ ],
+ "grp.grobschnitt.name": "Grobschnitt",
+ "grp.grobschnitt.kurulus": "1970, Hagen. Yerel beat gruplarından doğdu; üyeler takma adlar kullanıyordu — Eroc, Lupo, Wildschwein, Mist, Popo.",
+ "grp.grobschnitt.hikaye": "Grobschnitt senfonik prog'u sahne komedisiyle birleştirdi: konserlerinde uzun parçalar, skeçler ve piroteknik bir aradaydı. Çift albüm Ballermann (1974), gösterilerinin çekirdeği olan doğaçlama süit 'Solar Music'in ilk stüdyo versiyonunu içeriyordu. Bir peri masalı konsept albümü olan Rockpommel's Land (1977) senfonik zirveleridir; Solar Music – Live (1978) sahne versiyonunu kaydetti. Seksenlerde grup Almanca pop rock'a yöneldi. Davulcu Eroc solo sanatçı ve mastering mühendisi olarak da tanındı.",
+ "grp.grobschnitt.dna": "İkiz gitarlar ve klavyelerle uzun senfonik süitler, doğaçlama space rock bölümleri ('Solar Music'), peri masalı konseptleri ve sahnede bol mizah.",
+ "grp.grobschnitt.uyeler": "Eroc (Joachim Ehrig, davul, elektronik), Lupo (Gerd-Otto Kühn, gitar), Wildschwein (Stefan Danielak, vokal, gitar), Mist (Volker Kahrs, klavye), Popo (Wolfgang Jäger, bas); sonra Milla Kapolke (bas).",
+ "grp.grobschnitt.gecisler": "Eroc → solo albümler (1975–) ve sonra pek çok Alman yeniden baskısının mastering mühendisi.",
+ "grp.grobschnitt.etki": "Grobschnitt yetmişler Alman rock'ının en sevilen canlı gruplarındandır; 'Solar Music' Alman space rock'ı için bir referans noktası olarak kalır.",
+ "grp.grobschnitt.ipucu": [
+  "Rockpommel's Land'i bütün olarak dinle: dört parçalık bir peri masalı.",
+  "Ballermann'daki stüdyo 'Solar Music'i 1978'in canlı versiyonuyla karşılaştır."
+ ],
+ "alb.grobschnitt-1974-ballermann.an": "Doğaçlama süit 'Solar Music'in ilk stüdyo versiyonunu içeren çift albüm.",
+ "alb.grobschnitt-1974-ballermann.oncelik": "Önerilir.",
+ "alb.grobschnitt-1974-ballermann.tip": "stüdyo (çift LP)",
+ "alb.grobschnitt-1974-ballermann.kadro": "Eroc, Lupo, Wildschwein, Mist, Popo",
+ "alb.grobschnitt-1974-ballermann.tr": [
+  "Solar-Music, Part 1",
+  "Solar-Music, Part 2",
+  "Nickel-Odeon"
+ ],
+ "alb.grobschnitt-1977-rockpommel-s-land.an": "Bir peri masalı konsept albümü, grubun senfonik zirvesi.",
+ "alb.grobschnitt-1977-rockpommel-s-land.oncelik": "Atlanmamalı.",
+ "alb.grobschnitt-1977-rockpommel-s-land.tip": "stüdyo",
+ "alb.grobschnitt-1977-rockpommel-s-land.kadro": "Eroc, Lupo, Wildschwein, Mist, Popo",
+ "alb.grobschnitt-1977-rockpommel-s-land.tr": [
+  "Ernie's Reise",
+  "Severity Town",
+  "Anywhere",
+  "Rockpommel's Land"
+ ],
+ "alb.grobschnitt-1978-solar-music-live.an": "Konserlerinin kalbindeki uzun space rock doğaçlaması 'Solar Music'in sahne versiyonu.",
+ "alb.grobschnitt-1978-solar-music-live.oncelik": "Önerilir.",
+ "alb.grobschnitt-1978-solar-music-live.tip": "canlı",
+ "alb.grobschnitt-1978-solar-music-live.kadro": "Eroc, Lupo, Wildschwein, Mist, Popo",
+ "alb.grobschnitt-1978-solar-music-live.tr": [
+  "Solar Music I",
+  "Mühlheim Special",
+  "Golden Mist"
+ ],
+ "grp.jane.name": "Jane",
+ "grp.jane.kurulus": "1970, Hannover. Gitarist Klaus Hess ve davulcu Peter Panka tarafından kuruldu.",
+ "grp.jane.hikaye": "Jane 1972'den itibaren Brain etiketi için kayıt yaptı: Together (1972) ve Here We Are (1973) org ağırlıklı ağır rock'tı; Lady (1975) ve konsept albüm Fire, Water, Earth & Air (1976) melodik gitarlı, Pink Floyd'a yakın uzun parçalara yöneldi. Hess ve Panka'nın etrafında kadrolar sık sık değişti; seksenlerde iki grup bu adı kullandı. Jane yetmişlerin en sevilen Alman rock gruplarındandı.",
+ "grp.jane.dna": "Melodik, yavaş yükselen gitar soloları, Hammond org ve synthesizer'lar, uzun atmosferik parçalar ve ağır rock temeli.",
+ "grp.jane.uyeler": "Klaus Hess (gitar), Peter Panka (davul, vokal), Werner Nadolny (org, flüt), Charly Maucher (bas), Bernd Pulst (vokal); kadrolar Hess ve Panka'nın etrafında sık sık değişti.",
+ "grp.jane.gecisler": "Jane (1970–) → seksenlerde ve doksanlarda Klaus Hess ve Peter Panka etrafında ayrı gruplar ('Peter Panka's Jane'). Eloy gibi Jane de Hannoverlıdır.",
+ "grp.jane.etki": "Jane, Alman yetmişler rock'ının krautrock ile hard rock arasındaki melodik, Floyd etkili yanını temsil eder.",
+ "grp.jane.ipucu": [
+  "Grubun dört element üzerine konsept albümü Fire, Water, Earth & Air'le başla.",
+  "Klaus Hess'in gitarını David Gilmour'un Wish You Were Here'deki gitarıyla karşılaştır."
+ ],
+ "alb.jane-1972-together.an": "Brain etiketindeki ilk albüm: uzun gitar bölümleriyle org ağırlıklı ağır rock.",
+ "alb.jane-1972-together.oncelik": "İsteğe bağlı.",
+ "alb.jane-1972-together.tip": "stüdyo",
+ "alb.jane-1972-together.kadro": "Klaus Hess, Peter Panka, Werner Nadolny, Charly Maucher, Bernd Pulst",
+ "alb.jane-1972-together.tr": [
+  "Daytime",
+  "Spain",
+  "Hangman"
+ ],
+ "alb.jane-1973-here-we-are.an": "İkinci albüm: daha ağır şarkılar ve ilk uzun, atmosferik parçalar.",
+ "alb.jane-1973-here-we-are.oncelik": "İsteğe bağlı.",
+ "alb.jane-1973-here-we-are.tip": "stüdyo",
+ "alb.jane-1973-here-we-are.kadro": "Klaus Hess, Peter Panka ve diğerleri",
+ "alb.jane-1973-here-we-are.tr": [
+  "Redskin",
+  "Here We Are"
+ ],
+ "alb.jane-1975-lady.an": "Melodik gitarlı, Floyd'a yakın uzun parçalara dönüş.",
+ "alb.jane-1975-lady.oncelik": "Önerilir.",
+ "alb.jane-1975-lady.tip": "stüdyo",
+ "alb.jane-1975-lady.kadro": "Klaus Hess, Peter Panka ve diğerleri",
+ "alb.jane-1975-lady.tr": [
+  "(Wishdream) Lady",
+  "Midnight Mover",
+  "Waiting for the Sunshine"
+ ],
+ "alb.jane-1976-fire-water-earth-air.an": "Dört element üzerine bir konsept albüm; grubun en bilinen işi.",
+ "alb.jane-1976-fire-water-earth-air.oncelik": "Önerilir.",
+ "alb.jane-1976-fire-water-earth-air.tip": "stüdyo",
+ "alb.jane-1976-fire-water-earth-air.kadro": "Klaus Hess, Peter Panka ve diğerleri",
+ "alb.jane-1976-fire-water-earth-air.tr": [
+  "Fire, Water, Earth & Air / Fire / Water",
+  "Earth (Angel)"
+ ],
+ "grp.zarathustra.name": "Zarathustra",
+ "grp.zarathustra.kurulus": "Yetmişlerin başı, Hamburg. 1972'de Metronome etiketiyle tek bir albüm yayımlayan kısa ömürlü bir grup.",
+ "grp.zarathustra.hikaye": "Zarathustra, Uriah Heep ve Deep Purple çizgisinde, prog'a açılan uzun parçalarla org ağırlıklı ağır rock çaldı. Tek albümleri Zarathustra (1972), Birth Control'ün de etiketi olan Metronome'dan çıktı; grup kısa süre sonra dağıldı ve albüm doksanlarda CD olarak yeniden basıldı.",
+ "grp.zarathustra.dna": "Klaus Werner'in Ken Hensley ve Jon Lord tarzı Hammond orgu, ağır gitar riffleri, armonili vokaller ve dokuz dakikalık 'Past Time' gibi uzun enstrümantal bölümler.",
+ "grp.zarathustra.uyeler": "Ernst Herzner (vokal), Wolfgang Reimer (gitar, vokal), Klaus Werner (org), Michael Just (bas, vokal), Wolfgang Behrmann (davul).",
+ "grp.zarathustra.gecisler": "Atlastaki başka gruplarla belgelenmiş bir bağı yok; bağlantı 1970–72'nin Hammond ağırlıklı hard rock'ının ortak sesi.",
+ "grp.zarathustra.etki": "Deep Purple ve Uriah Heep'in gölgesinde gelişen Alman org rock'ının tipik bir örneği.",
+ "grp.zarathustra.ipucu": [
+  "'Past Time'ı Uriah Heep'in Look at Yourself'inin ardından dinle.",
+  "Klaus Werner'in orgunu Jon Lord'un Deep Purple in Rock'taki orguyla karşılaştır."
+ ],
+ "alb.zarathustra-1972-zarathustra.an": "Tek albüm: uzun 'Past Time' ve 'Ormuzd'la Hammond ağırlıklı ağır rock.",
+ "alb.zarathustra-1972-zarathustra.oncelik": "İsteğe bağlı.",
+ "alb.zarathustra-1972-zarathustra.tip": "stüdyo",
+ "alb.zarathustra-1972-zarathustra.kadro": "Ernst Herzner, Wolfgang Reimer, Klaus Werner, Michael Just, Wolfgang Behrmann",
+ "alb.zarathustra-1972-zarathustra.tr": [
+  "Eternal Light",
+  "Past Time",
+  "Ormuzd"
+ ],
+ "sec.27.title": "Krautrock ve Alman Prog",
+ "sec.27.intro": "Altmışların sonundan itibaren Batı Alman grupları Anglo-Amerikan rock'tan koparak kendi dillerini kurdu: Düsseldorf'ta Kraftwerk ve Neu!, Köln'de Can, Wümme'de bir çiftlik evinde Faust, Münih'te Amon Düül II ve Popol Vuh, Berlin'de ise Tangerine Dream, Klaus Schulze ve Ash Ra Tempel'in elektronik 'kosmische Musik'i; Cluster ve Harmonia bu sahneyi Brian Eno'ya bağlar. Conny Plank'ın Köln yakınlarındaki stüdyosu ortak buluşma noktasıydı. Yanlarında Eloy, Grobschnitt ve Jane yetmişlerin Alman senfonik ve space prog'unu temsil eder."
 }

@@ -240,7 +240,7 @@
   "All the Seats Were Occupied"
  ],
  "sec.17.title": "Am Rand des Hardrock — Blues- und Heavy-Rock-Nachbarn",
- "sec.17.intro": "Bluesrock- und Hardrock-Bands, die in denselben Clubs wie der Prog entstanden und dieselben Musiker teilten: Ten Years After, Blodwyn Pig von Mick Abrahams nach seinem Abschied von Jethro Tull, der Jazzrock von Colosseum, Deep Purple, Jon Lords Orchesterwerke, Uriah Heep (Ken Hensley, John Wetton), Lucifer's Friend aus Deutschland, Wishbone Ash, Budgie und Rainbow (Cozy Powell, später bei Emerson, Lake & Powell).",
+ "sec.17.intro": "Bluesrock- und Hardrock-Bands, die in denselben Clubs wie der Prog entstanden und dieselben Musiker teilten: Ten Years After, Blodwyn Pig von Mick Abrahams nach seinem Abschied von Jethro Tull, der Jazzrock von Colosseum, Deep Purple, Jon Lords Orchesterwerke, Uriah Heep (Ken Hensley, John Wetton), der Hammond-Hardrock von Zarathustra aus Hamburg, Lucifer's Friend aus Deutschland, Wishbone Ash, Budgie und Rainbow (Cozy Powell, später bei Emerson, Lake & Powell).",
  "grp.ten-years-after.kurulus": "1966, Nottingham. Alvin Lee (Gitarre/Gesang), Leo Lyons (Bass), Ric Lee (Schlagzeug), Chick Churchill (Keyboards).",
  "grp.ten-years-after.hikaye": "Alvin Lees Ruf als „schnellster Gitarrist der Welt“ machte die Band zu einer der führenden britischen Bluesrock-Gruppen; ihr Auftritt mit „I’m Going Home“ in Woodstock 1969 und ihr Platz im Film machten sie zu internationalen Stars. Obwohl im Blues verwurzelt, stellen ihre Jazz-, Psychedelic- und Progressive-Experimente (Ssssh, Cricklewood Green, A Space in Time) sie auf den Bluesflügel des Proto-Prog. 1974 trennten sie sich, 1988 kamen sie wieder zusammen. Alvin Lee stieg 2003 aus und starb 2013; die Band machte mit Joe Gooch und später Marcus Bonfanti weiter.",
  "grp.ten-years-after.dna": "Schnelle Bluesgitarre, Jazz-Swing, psychedelische Klangeffekte und lange Improvisationen.",
@@ -10343,8 +10343,8 @@
   "Another Dimension",
   "Liquid Dreams"
  ],
- "sec.21.title": "Kontinentaleuropa — Italo-Prog, Zeuhl und Krautrock",
- "sec.21.intro": "Progressive Rock war nie nur englisch. In Italien bauten Banco del Mutuo Soccorso und Le Orme (mit PFM) eine eigene sinfonische Schule auf, genährt von der Oper und den Tourneen von Van der Graaf Generator; ELPs Label Manticore und Peter Hammill trugen sie ins Ausland. In Frankreich erfand Christian Vanders Magma eine Sprache und ein Genre: Zeuhl. In Deutschland machten Cluster und Harmonia mit Michael Rother von Neu! die elektronische „kosmische“ Musik, die Brian Eno ins Weserbergland lockte. Aus den Niederlanden kamen Focus — Thijs van Leers Flöte und Jodeln, Jan Akkermans Gitarre — mit „Hocus Pocus“ und „Sylvia“ in die britischen und amerikanischen Charts.",
+ "sec.21.title": "Kontinentaleuropa — Italo-Prog und Zeuhl",
+ "sec.21.intro": "Progressive Rock war nie nur englisch. In Italien bauten Banco del Mutuo Soccorso und Le Orme (mit PFM) eine eigene sinfonische Schule auf, genährt von der Oper und den Tourneen von Van der Graaf Generator; ELPs Label Manticore und Peter Hammill trugen sie ins Ausland. In Frankreich erfand Christian Vanders Magma eine Sprache und ein Genre: Zeuhl. Aus den Niederlanden kamen Focus — Thijs van Leers Flöte und Jodeln, Jan Akkermans Gitarre — mit „Hocus Pocus“ und „Sylvia“ in die britischen und amerikanischen Charts.",
  "alb.pink-floyd-1972-obscured-by-clouds.an": "Soundtrack zu Barbet Schroeders Film „La Vallée“, Anfang 1972 mitten in der Arbeit an Dark Side in zwei kurzen Sessions im Château d'Hérouville aufgenommen. Kompakte Songs statt langer Suiten; Gilmours „Childhood's End“ und Waters' „Free Four“ weisen schon auf die nächste Platte.",
  "alb.pink-floyd-1972-obscured-by-clouds.oncelik": "Optional.",
  "alb.pink-floyd-1972-obscured-by-clouds.tip": "Soundtrack",
@@ -11019,5 +11019,626 @@
   "Blackstar",
   "Lazarus",
   "I Can't Give Everything Away"
- ]
+ ],
+ "grp.kraftwerk.name": "Kraftwerk",
+ "grp.kraftwerk.kurulus": "1970, Düsseldorf. Gegründet von Ralf Hütter und Florian Schneider, die zuvor in Organisation gespielt hatten; ab 1970 ihr eigenes Kling-Klang-Studio.",
+ "grp.kraftwerk.hikaye": "Die ersten drei Alben waren experimenteller Krautrock mit Flöte, Orgel und echtem Schlagzeug; 1971 spielten Michael Rother und Klaus Dinger kurz in der Band, bevor sie Neu! gründeten. Ralf und Florian (1973) wandte sich der elektronischen Melodie zu, und Autobahn (1974) mit seinem 22-minütigen Titelstück wurde ein internationaler Hit. Mit Wolfgang Flür und Karl Bartos an der elektronischen Perkussion entstanden als klassisches Quartett Radio-Activity, Trans-Europe Express, The Man-Machine und Computer World – eine Reihe, die Synthpop, Electro, Hip-Hop und Techno prägte. Schneider stieg 2008 aus und starb 2020; Hütter führt die Band weiter.",
+ "grp.kraftwerk.dna": "Minimale elektronische Melodien, Vocoder und Roboterstimmen, sequenzierte Rhythmen, Themen wie Autobahn, Eisenbahn, Radio und Computer und ein bewusstes, ironisches Bild des Musikers als Maschine.",
+ "grp.kraftwerk.uyeler": "Ralf Hütter (Gesang, Keyboards), Florian Schneider (Elektronik, Flöte, Gesang), Wolfgang Flür (elektronische Perkussion, 1973–87), Karl Bartos (elektronische Perkussion, 1975–90); anfangs Klaus Dinger und Michael Rother (1971), Klaus Röder (1974).",
+ "grp.kraftwerk.gecisler": "Organisation (1969) → Kraftwerk (1970–). Michael Rother und Klaus Dinger → Neu! (1971). Conny Plank war Toningenieur der frühen Alben. Trans-Europe Express nennt David Bowie und Iggy Pop; Bowies „V-2 Schneider“ auf \"Heroes\" ist eine Hommage an Florian Schneider.",
+ "grp.kraftwerk.etki": "Wohl die einflussreichste deutsche Band überhaupt: die Vorlage für Synthpop und die elektronische Tanzmusik der folgenden Jahrzehnte.",
+ "grp.kraftwerk.ipucu": [
+  "Hör das Titelstück von Autobahn ganz: 22 Minuten Autofahrt in Klang.",
+  "Hör nach Trans-Europe Express Bowies Low aus demselben Jahr."
+ ],
+ "alb.kraftwerk-1973-ralf-und-florian.an": "Der Schritt vom Krautrock zur elektronischen Melodie: Rhythmusmaschine, Flöte und der erste Vocoder.",
+ "alb.kraftwerk-1973-ralf-und-florian.oncelik": "Optional.",
+ "alb.kraftwerk-1973-ralf-und-florian.tip": "Studio",
+ "alb.kraftwerk-1973-ralf-und-florian.kadro": "Ralf Hütter, Florian Schneider",
+ "alb.kraftwerk-1973-ralf-und-florian.prod": "Conny Plank, Ralf Hütter, Florian Schneider",
+ "alb.kraftwerk-1973-ralf-und-florian.tr": [
+  "Kristallo",
+  "Tanzmusik",
+  "Ananas Symphonie"
+ ],
+ "alb.kraftwerk-1974-autobahn.an": "Das 22-minütige Titelstück auf Seite eins machte sie zu internationalen Stars und eröffnete das elektronische Zeitalter.",
+ "alb.kraftwerk-1974-autobahn.oncelik": "Essenziell.",
+ "alb.kraftwerk-1974-autobahn.tip": "Studio",
+ "alb.kraftwerk-1974-autobahn.kadro": "Ralf Hütter, Florian Schneider, Klaus Röder, Wolfgang Flür",
+ "alb.kraftwerk-1974-autobahn.prod": "Ralf Hütter, Florian Schneider",
+ "alb.kraftwerk-1974-autobahn.tr": [
+  "Autobahn",
+  "Kometenmelodie 1",
+  "Morgenspaziergang"
+ ],
+ "alb.kraftwerk-1975-radio-activity.an": "Ein Konzeptalbum über Radiowellen und Radioaktivität aus kurzen Stücken, Geräusch und Melodie; das erste mit dem klassischen Quartett.",
+ "alb.kraftwerk-1975-radio-activity.oncelik": "Empfohlen.",
+ "alb.kraftwerk-1975-radio-activity.tip": "Studio",
+ "alb.kraftwerk-1975-radio-activity.kadro": "Ralf Hütter, Florian Schneider, Wolfgang Flür, Karl Bartos",
+ "alb.kraftwerk-1975-radio-activity.prod": "Ralf Hütter, Florian Schneider",
+ "alb.kraftwerk-1975-radio-activity.tr": [
+  "Radioactivity",
+  "Antenna",
+  "Radioland",
+  "Ohm Sweet Ohm"
+ ],
+ "alb.kraftwerk-1977-trans-europe-express.an": "Europa als Traum von Zügen und alten Städten; das Titelstück nennt David Bowie und Iggy Pop.",
+ "alb.kraftwerk-1977-trans-europe-express.oncelik": "Essenziell.",
+ "alb.kraftwerk-1977-trans-europe-express.tip": "Studio",
+ "alb.kraftwerk-1977-trans-europe-express.kadro": "Ralf Hütter, Florian Schneider, Wolfgang Flür, Karl Bartos",
+ "alb.kraftwerk-1977-trans-europe-express.prod": "Ralf Hütter, Florian Schneider",
+ "alb.kraftwerk-1977-trans-europe-express.tr": [
+  "Europe Endless",
+  "The Hall of Mirrors",
+  "Trans-Europe Express",
+  "Metal on Metal"
+ ],
+ "alb.kraftwerk-1978-the-man-machine.an": "Das kompakteste, poppigste Album: „The Robots“, „Neon Lights“ und „The Model“.",
+ "alb.kraftwerk-1978-the-man-machine.oncelik": "Empfohlen.",
+ "alb.kraftwerk-1978-the-man-machine.tip": "Studio",
+ "alb.kraftwerk-1978-the-man-machine.kadro": "Ralf Hütter, Florian Schneider, Wolfgang Flür, Karl Bartos",
+ "alb.kraftwerk-1978-the-man-machine.prod": "Ralf Hütter, Florian Schneider",
+ "alb.kraftwerk-1978-the-man-machine.tr": [
+  "The Robots",
+  "Spacelab",
+  "Neon Lights",
+  "The Model"
+ ],
+ "alb.kraftwerk-1981-computer-world.an": "Heimcomputer, Daten und Überwachung ganz am Anfang des PC-Zeitalters; ein Grundstein des Electro.",
+ "alb.kraftwerk-1981-computer-world.oncelik": "Empfohlen.",
+ "alb.kraftwerk-1981-computer-world.tip": "Studio",
+ "alb.kraftwerk-1981-computer-world.kadro": "Ralf Hütter, Florian Schneider, Wolfgang Flür, Karl Bartos",
+ "alb.kraftwerk-1981-computer-world.prod": "Ralf Hütter, Florian Schneider",
+ "alb.kraftwerk-1981-computer-world.tr": [
+  "Computer World",
+  "Pocket Calculator",
+  "Numbers",
+  "Computer Love"
+ ],
+ "grp.neu.name": "Neu!",
+ "grp.neu.kurulus": "1971, Düsseldorf. Michael Rother (Gitarre) und Klaus Dinger (Schlagzeug) nach ihrem Ausstieg bei Kraftwerk; Produzent Conny Plank.",
+ "grp.neu.hikaye": "Rother und Dinger hatten 1971 einige Monate zusammen bei Kraftwerk gespielt. Als Neu! nahmen sie mit Conny Plank drei Alben in jeweils wenigen Tagen auf: Neu! (1972), Neu! 2 (1973) und Neu! '75. Dingers gleichmäßiger, stets vorwärtsdrängender Schlagzeugrhythmus – später „Motorik“ genannt – und Rothers geschichtete Gitarren wurden zum Markenzeichen des Krautrock. Zwischen dem zweiten und dritten Album ging Rother mit Cluster zu Harmonia; Dinger gründete La Düsseldorf. Neu! '75 trennte die beiden Persönlichkeiten: Rothers Ambient auf Seite eins, Dingers Proto-Punk auf Seite zwei.",
+ "grp.neu.dna": "Der „Motorik“-Beat, lange repetitive Grooves, Gitarren als Klangfläche, Ambient-Zwischenspiele und auf '75 roher, geschriener Rock, der den Punk vorwegnahm.",
+ "grp.neu.uyeler": "Michael Rother (Gitarre, Bass, Keyboards), Klaus Dinger (Schlagzeug, Gitarre, Gesang); auf Neu! '75 außerdem Thomas Dinger und Hans Lampe (Schlagzeug).",
+ "grp.neu.gecisler": "Kraftwerk (1971) → Neu! (1971–75). Michael Rother → Harmonia (mit Cluster, 1973–76) → solo. Klaus Dinger → La Düsseldorf (mit Thomas Dinger und Hans Lampe).",
+ "grp.neu.etki": "Der Motorik-Beat reicht von Bowies Berlin-Alben über den Post-Punk (Joy Division, PiL) bis zu Stereolab, Radiohead und unzähligen Indie-Bands.",
+ "grp.neu.ipucu": [
+  "Fang mit „Hallogallo“ an: zehn Minuten, die den Motorik-Beat definieren.",
+  "Hör beide Seiten von Neu! '75 hintereinander, um Rother und Dinger auseinanderdriften zu hören."
+ ],
+ "alb.neu-1972-neu.an": "Das Debüt: „Hallogallo“ führt den Motorik-Beat ein, „Weissensee“ und „Im Glück“ sind sein stilles Gegenstück.",
+ "alb.neu-1972-neu.oncelik": "Essenziell.",
+ "alb.neu-1972-neu.tip": "Studio",
+ "alb.neu-1972-neu.kadro": "Michael Rother, Klaus Dinger",
+ "alb.neu-1972-neu.prod": "Conny Plank",
+ "alb.neu-1972-neu.tr": [
+  "Hallogallo",
+  "Weissensee",
+  "Negativland"
+ ],
+ "alb.neu-1973-neu-2.an": "Seite eins setzt das Debüt fort („Für immer“); Seite zwei ist mangels Budget mit beschleunigten und verlangsamten Fassungen einer Single gefüllt.",
+ "alb.neu-1973-neu-2.oncelik": "Optional.",
+ "alb.neu-1973-neu-2.tip": "Studio",
+ "alb.neu-1973-neu-2.kadro": "Michael Rother, Klaus Dinger",
+ "alb.neu-1973-neu-2.prod": "Conny Plank",
+ "alb.neu-1973-neu-2.tr": [
+  "Für immer",
+  "Lila Engel"
+ ],
+ "alb.neu-1975-neu-75.an": "Rothers Ambient „Isi“ und „Seeland“ auf Seite eins, Dingers Proto-Punk „Hero“ auf Seite zwei.",
+ "alb.neu-1975-neu-75.oncelik": "Empfohlen.",
+ "alb.neu-1975-neu-75.tip": "Studio",
+ "alb.neu-1975-neu-75.kadro": "Michael Rother, Klaus Dinger, Thomas Dinger, Hans Lampe",
+ "alb.neu-1975-neu-75.prod": "Conny Plank",
+ "alb.neu-1975-neu-75.tr": [
+  "Isi",
+  "Seeland",
+  "Hero",
+  "After Eight"
+ ],
+ "grp.can.name": "Can",
+ "grp.can.kurulus": "1968, Köln. Gegründet von Irmin Schmidt und Holger Czukay, beide Schüler von Karlheinz Stockhausen, mit Michael Karoli und Jaki Liebezeit.",
+ "grp.can.hikaye": "Schmidt (Keyboards) und Czukay (Bass) kamen aus der zeitgenössischen Klassik, Liebezeit (Schlagzeug) aus dem Free Jazz, Karoli (Gitarre) aus dem Rock. Mit dem amerikanischen Sänger Malcolm Mooney nahmen sie Monster Movie (1969) auf; nach Mooneys Abgang fand die Band Damo Suzuki als Straßenmusiker in München und machte mit ihm Tago Mago, Ege Bamyasi und Future Days. Die Musik wurde im Inner-Space-Studio in einem Schloss bei Köln stundenlang improvisiert, und Czukay schnitt die Bänder zu fertigen Stücken. Suzuki ging 1973; die Band machte mit Karoli und Schmidt als Sängern weiter, später mit Rosko Gee und Reebop Kwaku Baah von Traffic, bis Ende der Siebziger.",
+ "grp.can.dna": "Liebezeits hypnotisches, maschinenhaftes Schlagzeug, lange kollektive Improvisationen, auf Band geschnitten, Czukays minimaler Bass, Suzukis halb erfundene Sprachen und Einflüsse von Stockhausen, James Brown und Velvet Underground.",
+ "grp.can.uyeler": "Irmin Schmidt (Keyboards), Holger Czukay (Bass, Schnitt), Michael Karoli (Gitarre, Gesang), Jaki Liebezeit (Schlagzeug); Gesang Malcolm Mooney (1968–70) und Damo Suzuki (1970–73); später Rosko Gee (Bass) und Reebop Kwaku Baah (Perkussion).",
+ "grp.can.gecisler": "Stockhausens Kurse (Schmidt, Czukay) → Can (1968–79). Rosko Gee und Reebop Kwaku Baah kamen von Traffic. Czukay → Soloarbeiten und Kooperationen mit Jah Wobble und David Sylvian; Liebezeit → Phantom Band.",
+ "grp.can.etki": "Cans Grooves und Schnitttechnik prägten den Post-Punk (PiL, The Fall), die elektronische Musik und viele spätere Bands; Ege Bamyasi ist türkisch für „ägäische Okra“.",
+ "grp.can.ipucu": [
+  "Hör „Halleluhwah“ auf Tago Mago: 18 Minuten über einem einzigen Schlagzeugmuster.",
+  "Vergleich Mooneys „Yoo Doo Right“ mit Suzukis „Bel Air“, um zu hören, wie der Sänger die Band veränderte."
+ ],
+ "alb.can-1969-monster-movie.an": "Das Debüt mit Malcolm Mooney: Garagenrock und Trance, am Ende das zwanzigminütige „Yoo Doo Right“.",
+ "alb.can-1969-monster-movie.oncelik": "Empfohlen.",
+ "alb.can-1969-monster-movie.tip": "Studio",
+ "alb.can-1969-monster-movie.kadro": "Irmin Schmidt, Holger Czukay, Michael Karoli, Jaki Liebezeit, Malcolm Mooney",
+ "alb.can-1969-monster-movie.prod": "Can",
+ "alb.can-1969-monster-movie.tr": [
+  "Father Cannot Yell",
+  "Mary, Mary So Contrary",
+  "Yoo Doo Right"
+ ],
+ "alb.can-1971-tago-mago.an": "Das Doppelalbum mit Damo Suzuki: Songs auf der ersten Platte, das lange „Halleluhwah“ und die Bandexperimente „Aumgn“ und „Peking O“ auf der zweiten.",
+ "alb.can-1971-tago-mago.oncelik": "Essenziell.",
+ "alb.can-1971-tago-mago.tip": "Studio (Doppel-LP)",
+ "alb.can-1971-tago-mago.kadro": "Irmin Schmidt, Holger Czukay, Michael Karoli, Jaki Liebezeit, Damo Suzuki",
+ "alb.can-1971-tago-mago.prod": "Can",
+ "alb.can-1971-tago-mago.tr": [
+  "Paperhouse",
+  "Mushroom",
+  "Halleluhwah",
+  "Aumgn"
+ ],
+ "alb.can-1972-ege-bamyasi.an": "Straffere Grooves und der deutsche Hit „Spoon“; der Titel ist türkisch für „ägäische Okra“.",
+ "alb.can-1972-ege-bamyasi.oncelik": "Empfohlen.",
+ "alb.can-1972-ege-bamyasi.tip": "Studio",
+ "alb.can-1972-ege-bamyasi.kadro": "Irmin Schmidt, Holger Czukay, Michael Karoli, Jaki Liebezeit, Damo Suzuki",
+ "alb.can-1972-ege-bamyasi.prod": "Can",
+ "alb.can-1972-ege-bamyasi.tr": [
+  "Pinch",
+  "Sing Swan Song",
+  "Vitamin C",
+  "Spoon"
+ ],
+ "alb.can-1973-future-days.an": "Das ambienthafteste Album, Suzukis letztes: das Titelstück und das zwanzigminütige „Bel Air“.",
+ "alb.can-1973-future-days.oncelik": "Essenziell.",
+ "alb.can-1973-future-days.tip": "Studio",
+ "alb.can-1973-future-days.kadro": "Irmin Schmidt, Holger Czukay, Michael Karoli, Jaki Liebezeit, Damo Suzuki",
+ "alb.can-1973-future-days.prod": "Can",
+ "alb.can-1973-future-days.tr": [
+  "Future Days",
+  "Moonshake",
+  "Bel Air"
+ ],
+ "alb.can-1974-soon-over-babaluma.an": "Ohne Sänger: Karolis Geige und Schmidts Keyboards in langen, fließenden Stücken.",
+ "alb.can-1974-soon-over-babaluma.oncelik": "Optional.",
+ "alb.can-1974-soon-over-babaluma.tip": "Studio",
+ "alb.can-1974-soon-over-babaluma.kadro": "Irmin Schmidt, Holger Czukay, Michael Karoli, Jaki Liebezeit",
+ "alb.can-1974-soon-over-babaluma.prod": "Can",
+ "alb.can-1974-soon-over-babaluma.tr": [
+  "Dizzy Dizzy",
+  "Chain Reaction",
+  "Quantum Physics"
+ ],
+ "grp.faust.name": "Faust",
+ "grp.faust.kurulus": "1971, Wümme (Niedersachsen). Vom Journalisten und Produzenten Uwe Nettelbeck mit einem Polydor-Vertrag zusammengestellt, in einem umgebauten Schulhaus.",
+ "grp.faust.hikaye": "Polydor hoffte auf eine deutsche Antwort auf die Beatles; Nettelbeck lieferte eine Band aus Collage und Lärm. Das Debüt (1971) erschien auf transparentem Vinyl in einer Röntgenbild-Hülle; So Far (1972) brachte mehr Songs. Bei Virgin in Großbritannien unter Vertrag, veröffentlichte Faust The Faust Tapes (1973), eine Collage unveröffentlichter Aufnahmen zum Preis einer Single, die sie in England bekannt machte; Faust IV entstand in Virgins Manor-Studio. Faust spielten auch auf den ersten beiden Alben von Slapp Happy. Die Band löste sich Mitte der Siebziger auf und kehrte 1990 in zwei getrennten Besetzungen zurück.",
+ "grp.faust.dna": "Tonbandcollage und Musique concrète neben einfachen Songs, Lärm und Drones, bewusster Humor und Provokation und die Idee der Band als Kunstkollektiv.",
+ "grp.faust.uyeler": "Werner „Zappi“ Diermaier (Schlagzeug), Hans Joachim Irmler (Orgel), Jean-Hervé Péron (Bass), Rudolf Sosna (Gitarre, Keyboards), Gunther Wüsthoff (Saxofon, Synthesizer), Arnulf Meifert (Schlagzeug, 1971).",
+ "grp.faust.gecisler": "Faust → Begleitband auf Slapp Happys Sort Of (1972) und Acnalbasac Noom → Slapp Happy und Henry Cow (Rock in Opposition). Uwe Nettelbeck produzierte beide Bands. The Faust Tapes und Faust IV erschienen bei Virgin, dem Label von Tubular Bells und Henry Cow.",
+ "grp.faust.etki": "Faust brachten Collage und Lärm in den Rock und sind direkte Vorfahren der Industrial-Musik und des Rock-in-Opposition-Kreises; Faust IV beginnt mit einem Stück namens „Krautrock“.",
+ "grp.faust.ipucu": [
+  "Hör das zwölfminütige „Krautrock“ auf Faust IV, die ironische Antwort der Band auf das Etikett.",
+  "Danach Slapp Happys Sort Of: dieselben Musiker als Popband."
+ ],
+ "alb.faust-1971-faust.an": "Drei lange Collagen aus Lärm, Popfragmenten und Tonband, auf transparentem Vinyl in einer Röntgenbild-Hülle.",
+ "alb.faust-1971-faust.oncelik": "Empfohlen.",
+ "alb.faust-1971-faust.tip": "Studio",
+ "alb.faust-1971-faust.kadro": "Werner Diermaier, Hans Joachim Irmler, Jean-Hervé Péron, Rudolf Sosna, Gunther Wüsthoff, Arnulf Meifert",
+ "alb.faust-1971-faust.prod": "Uwe Nettelbeck",
+ "alb.faust-1971-faust.tr": [
+  "Why Don't You Eat Carrots?",
+  "Meadow Meal",
+  "Miss Fortune"
+ ],
+ "alb.faust-1972-so-far.an": "Mehr Songs, mehr Form: der achtminütige Groove von „It's a Rainy Day, Sunshine Girl“.",
+ "alb.faust-1972-so-far.oncelik": "Empfohlen.",
+ "alb.faust-1972-so-far.tip": "Studio",
+ "alb.faust-1972-so-far.kadro": "Werner Diermaier, Hans Joachim Irmler, Jean-Hervé Péron, Rudolf Sosna, Gunther Wüsthoff",
+ "alb.faust-1972-so-far.prod": "Uwe Nettelbeck",
+ "alb.faust-1972-so-far.tr": [
+  "It's a Rainy Day, Sunshine Girl",
+  "...In the Spirit",
+  "Mamie Is Blue"
+ ],
+ "alb.faust-1973-the-faust-tapes.an": "Eine Collage unveröffentlichter Aufnahmen, von Virgin zum Preis einer Single verkauft; für viele britische Hörer die erste Begegnung mit Krautrock.",
+ "alb.faust-1973-the-faust-tapes.oncelik": "Optional.",
+ "alb.faust-1973-the-faust-tapes.tip": "Kompilation (Outtakes)",
+ "alb.faust-1973-the-faust-tapes.kadro": "Werner Diermaier, Hans Joachim Irmler, Jean-Hervé Péron, Rudolf Sosna, Gunther Wüsthoff",
+ "alb.faust-1973-the-faust-tapes.prod": "Uwe Nettelbeck",
+ "alb.faust-1973-the-faust-tapes.tr": [],
+ "alb.faust-1973-faust-iv.an": "In Virgins Manor aufgenommen: der Drone „Krautrock“, der Song „Jennifer“ und „The Sad Skinhead“.",
+ "alb.faust-1973-faust-iv.oncelik": "Essenziell.",
+ "alb.faust-1973-faust-iv.tip": "Studio",
+ "alb.faust-1973-faust-iv.kadro": "Werner Diermaier, Hans Joachim Irmler, Jean-Hervé Péron, Rudolf Sosna, Gunther Wüsthoff",
+ "alb.faust-1973-faust-iv.prod": "Uwe Nettelbeck",
+ "alb.faust-1973-faust-iv.tr": [
+  "Krautrock",
+  "The Sad Skinhead",
+  "Jennifer"
+ ],
+ "grp.amon-duul-ii.name": "Amon Düül II",
+ "grp.amon-duul-ii.kurulus": "1968, München. Der musikalische Flügel der Kommune Amon Düül, die sich in eine politische und eine musikalische Gruppe teilte.",
+ "grp.amon-duul-ii.hikaye": "Während die erste Gruppe der Kommune (Amon Düül) lose Jamsessions aufnahm, wurde Amon Düül II eine richtige Band: Chris Karrer und John Weinzierl an den Gitarren, Renate Knaups Stimme, zwei Schlagzeuger und Falk Rogners Orgel. Phallus Dei (1969) und die Doppelalben Yeti (1970) und Tanz der Lemminge (1971) verbanden schwere Psychedelik, lange Suiten, Geige und orientalische Farben; Bassist Dave Anderson ging nach Yeti zu Hawkwind. Wolf City (1972) war kompakter. Ab Mitte der Siebziger wandte sich die Band kürzeren Rocksongs zu; sie fand sich mehrmals wieder zusammen.",
+ "grp.amon-duul-ii.dna": "Schwerer psychedelischer Rock mit langen improvisierten Suiten, zwei Schlagzeugern, Geige und Sitar, Renate Knaups wortlosem Gesang und einer dunklen, mythischen Atmosphäre.",
+ "grp.amon-duul-ii.uyeler": "Chris Karrer (Gitarre, Geige, Gesang), John Weinzierl (Gitarre), Renate Knaup (Gesang), Falk Rogner (Orgel), Peter Leopold (Schlagzeug), Dieter Serfas (Schlagzeug), Dave Anderson (Bass, bis 1970), Lothar Meid (Bass, ab 1971).",
+ "grp.amon-duul-ii.gecisler": "Kommune Amon Düül → Amon Düül II (1968–). Dave Anderson → Hawkwind (In Search of Space, 1971). Daniel Fichelscher → Popol Vuh. Lothar Meid → Studioarbeit, Embryo.",
+ "grp.amon-duul-ii.etki": "Yeti gilt oft als erstes großes Krautrock-Album; Amon Düül IIs Mischung aus Heavy Rock und langen Suiten verläuft parallel zu Hawkwind und den frühen Pink Floyd.",
+ "grp.amon-duul-ii.ipucu": [
+  "Fang mit „Archangels Thunderbird“ auf Yeti an, dann die lange Improvisation, die dem Album den Namen gibt.",
+  "Achte auf Dave Andersons Bass und hör ihn dann auf Hawkwinds In Search of Space."
+ ],
+ "alb.amon-duul-ii-1969-phallus-dei.an": "Das Debüt, am Ende das zwanzigminütige Titelstück: Stammestrommeln, Geige und wilde Gitarren.",
+ "alb.amon-duul-ii-1969-phallus-dei.oncelik": "Empfohlen.",
+ "alb.amon-duul-ii-1969-phallus-dei.tip": "Studio",
+ "alb.amon-duul-ii-1969-phallus-dei.kadro": "Chris Karrer, John Weinzierl, Renate Knaup, Falk Rogner, Peter Leopold, Dave Anderson u. a.",
+ "alb.amon-duul-ii-1969-phallus-dei.prod": "Olaf Kübler",
+ "alb.amon-duul-ii-1969-phallus-dei.tr": [
+  "Kanaan",
+  "Phallus Dei"
+ ],
+ "alb.amon-duul-ii-1970-yeti.an": "Songs und Suiten auf der ersten Platte, lange Improvisationen auf der zweiten; das bekannteste Album der Band.",
+ "alb.amon-duul-ii-1970-yeti.oncelik": "Essenziell.",
+ "alb.amon-duul-ii-1970-yeti.tip": "Studio (Doppel-LP)",
+ "alb.amon-duul-ii-1970-yeti.kadro": "Chris Karrer, John Weinzierl, Renate Knaup, Falk Rogner, Peter Leopold, Dave Anderson u. a.",
+ "alb.amon-duul-ii-1970-yeti.prod": "Olaf Kübler",
+ "alb.amon-duul-ii-1970-yeti.tr": [
+  "Archangels Thunderbird",
+  "Eye-Shaking King",
+  "Soap Shop Rock",
+  "Yeti"
+ ],
+ "alb.amon-duul-ii-1971-tanz-der-lemminge.an": "Drei plattenseitenlange Suiten und eine Platte Improvisation; das ambitionierteste Album.",
+ "alb.amon-duul-ii-1971-tanz-der-lemminge.oncelik": "Empfohlen.",
+ "alb.amon-duul-ii-1971-tanz-der-lemminge.tip": "Studio (Doppel-LP)",
+ "alb.amon-duul-ii-1971-tanz-der-lemminge.kadro": "Chris Karrer, John Weinzierl, Falk Rogner, Lothar Meid, Peter Leopold u. a.",
+ "alb.amon-duul-ii-1971-tanz-der-lemminge.prod": "Olaf Kübler",
+ "alb.amon-duul-ii-1971-tanz-der-lemminge.tr": [
+  "Syntelman's March of the Roaring Seventies",
+  "Restless Skylight-Transistor-Child",
+  "Chewinggum Telegram"
+ ],
+ "alb.amon-duul-ii-1972-wolf-city.an": "Kürzer und songorientierter, mit Renate Knaups Stimme im Zentrum und Sitar in „Deutsch Nepal“.",
+ "alb.amon-duul-ii-1972-wolf-city.oncelik": "Optional.",
+ "alb.amon-duul-ii-1972-wolf-city.tip": "Studio",
+ "alb.amon-duul-ii-1972-wolf-city.kadro": "Chris Karrer, John Weinzierl, Renate Knaup, Falk Rogner, Lothar Meid, Peter Leopold u. a.",
+ "alb.amon-duul-ii-1972-wolf-city.prod": "Olaf Kübler",
+ "alb.amon-duul-ii-1972-wolf-city.tr": [
+  "Surrounded by the Stars",
+  "Wolf City",
+  "Deutsch Nepal"
+ ],
+ "grp.popol-vuh.name": "Popol Vuh",
+ "grp.popol-vuh.kurulus": "1969, München. Gegründet vom Pianisten Florian Fricke, benannt nach dem heiligen Buch der Maya.",
+ "grp.popol-vuh.hikaye": "Affenstunde (1970) war eines der ersten deutschen Alben, die auf dem Moog-Synthesizer aufbauten. Fricke verkaufte dann den Moog und wandte sich Klavier, Chor und Gitarre zu: Hosianna Mantra (1972) mit der koreanischen Sängerin Djong Yun und Gitarrist Conny Veit ist eine spirituelle „Messe“ ohne Rockschlagzeug. Daniel Fichelscher von Amon Düül II wurde Gitarrist und Schlagzeuger der Band. Ab Aguirre (1972, Album 1975) schrieben Popol Vuh die Musik zu den meisten Filmen Werner Herzogs, darunter Nosferatu und Fitzcarraldo. Fricke spielte auch Moog auf Tangerine Dreams Zeit. Er starb 2001.",
+ "grp.popol-vuh.dna": "Meditative, spirituelle Musik: anfangs Moog-Drones, später Klavier, Chor, Sitar und Tambura, Gitarren und Handtrommeln; christliche und östliche Mystik nebeneinander.",
+ "grp.popol-vuh.uyeler": "Florian Fricke (Klavier, Moog), Holger Trülzsch (Perkussion, anfangs), Conny Veit (Gitarre), Djong Yun (Gesang), Daniel Fichelscher (Gitarre, Schlagzeug), Renate Knaup (Gesang, Gast).",
+ "grp.popol-vuh.gecisler": "Florian Fricke → Moog auf Tangerine Dreams Zeit (1972). Daniel Fichelscher und Renate Knaup ↔ Amon Düül II. Popol Vuh → Filmmusik für Werner Herzog (Aguirre, Nosferatu, Fitzcarraldo).",
+ "grp.popol-vuh.etki": "Popol Vuh nahmen Ambient und New Age vorweg und zeigten, dass Krautrock auch leise und andächtig sein kann.",
+ "grp.popol-vuh.ipucu": [
+  "Hör Affenstunde und Hosianna Mantra hintereinander: von Moog-Drones zu Klavier und Stimme.",
+  "Sieh dir den Anfang von Herzogs Aguirre mit der Musik von Popol Vuh an."
+ ],
+ "alb.popol-vuh-1970-affenstunde.an": "Eines der ersten deutschen Moog-Alben: lange Drones und Handperkussion.",
+ "alb.popol-vuh-1970-affenstunde.oncelik": "Empfohlen.",
+ "alb.popol-vuh-1970-affenstunde.tip": "Studio",
+ "alb.popol-vuh-1970-affenstunde.kadro": "Florian Fricke, Holger Trülzsch, Frank Fiedler",
+ "alb.popol-vuh-1970-affenstunde.prod": "Gerhard Augustin",
+ "alb.popol-vuh-1970-affenstunde.tr": [
+  "Ich mache einen Spiegel",
+  "Affenstunde"
+ ],
+ "alb.popol-vuh-1972-hosianna-mantra.an": "Ein spirituelles Album ohne Rockschlagzeug: Klavier, Stimme, Gitarre, Oboe und Tambura.",
+ "alb.popol-vuh-1972-hosianna-mantra.oncelik": "Essenziell.",
+ "alb.popol-vuh-1972-hosianna-mantra.tip": "Studio",
+ "alb.popol-vuh-1972-hosianna-mantra.kadro": "Florian Fricke, Djong Yun, Conny Veit, Robert Eliscu, Klaus Wiese",
+ "alb.popol-vuh-1972-hosianna-mantra.tr": [
+  "Ah!",
+  "Kyrie",
+  "Hosianna-Mantra"
+ ],
+ "alb.popol-vuh-1974-einsjager-siebenjager.an": "Gitarrenbetont und rhythmischer; das lange Titelstück ist einer der Höhepunkte der Band.",
+ "alb.popol-vuh-1974-einsjager-siebenjager.oncelik": "Optional.",
+ "alb.popol-vuh-1974-einsjager-siebenjager.tip": "Studio",
+ "alb.popol-vuh-1974-einsjager-siebenjager.kadro": "Florian Fricke, Daniel Fichelscher, Djong Yun, Alois Gromer",
+ "alb.popol-vuh-1974-einsjager-siebenjager.tr": [
+  "Kleiner Krieger",
+  "Einsjäger & Siebenjäger"
+ ],
+ "alb.popol-vuh-1975-aguirre.an": "Musik zu Werner Herzogs Aguirre, der Zorn Gottes: die „Chororgel“ der Eröffnungsszene.",
+ "alb.popol-vuh-1975-aguirre.oncelik": "Empfohlen.",
+ "alb.popol-vuh-1975-aguirre.tip": "Soundtrack",
+ "alb.popol-vuh-1975-aguirre.kadro": "Florian Fricke, Daniel Fichelscher u. a.",
+ "alb.popol-vuh-1975-aguirre.tr": [
+  "Aguirre I",
+  "Aguirre II"
+ ],
+ "grp.tangerine-dream.name": "Tangerine Dream",
+ "grp.tangerine-dream.kurulus": "1967, West-Berlin. Gegründet von Edgar Froese; auf dem ersten Album Electronic Meditation (1970) spielte Klaus Schulze Schlagzeug.",
+ "grp.tangerine-dream.hikaye": "Die frühen Alben beim Label Ohr führten von freier Psychedelik zu langen elektronischen Drones: Zeit (1972), ein Doppelalbum mit vier Cellisten und Florian Fricke am Moog, ist eine der langsamsten Platten der Rockgeschichte. Mit Christopher Franke und Peter Baumann unterschrieb das klassische Trio bei Virgin; Phaedra (1974), auf Sequenzern aufgebaut, kam in die britischen Top 20, es folgten Rubycon, das Live-Album Ricochet und Stratosfear. Ab Ende der Siebziger wandte sich die Band kürzeren Stücken und Filmmusik zu (Sorcerer, Thief, Risky Business). Froese leitete die Band bis zu seinem Tod 2015.",
+ "grp.tangerine-dream.dna": "Lange, sich langsam entwickelnde elektronische Stücke, Mellotron und Moog, Stepsequenzer mit pulsierenden Mustern, Improvisation im Konzert und ein starkes Raumgefühl.",
+ "grp.tangerine-dream.uyeler": "Edgar Froese (Gitarre, Keyboards, 1967–2015), Christopher Franke (Synthesizer, Sequenzer, 1971–88), Peter Baumann (Keyboards, 1971–77); anfangs Klaus Schulze (Schlagzeug, 1969–70) und Conrad Schnitzler (1969–70).",
+ "grp.tangerine-dream.gecisler": "Klaus Schulze (Tangerine Dream, 1969–70) → Ash Ra Tempel → solo. Florian Fricke (Popol Vuh) → Moog auf Zeit. Virgin Records (Tubular Bells, Henry Cow) → Phaedra (1974). Tangerine Dream → Filmmusik (Sorcerer, Thief, Legend).",
+ "grp.tangerine-dream.etki": "Die Berliner Schule der elektronischen Musik: Sequenzermusik, Ambient, Trance und die elektronische Filmmusik führen hierher zurück.",
+ "grp.tangerine-dream.ipucu": [
+  "Hör Phaedra im Dunkeln: Das Titelstück baut auf einem einzigen Sequenzermuster auf, das sich langsam verstimmt.",
+  "Vergleich Rubycon mit Klaus Schulzes Timewind aus demselben Jahr."
+ ],
+ "alb.tangerine-dream-1972-zeit.an": "Ein „Largo in vier Sätzen“: fast statische Drones mit vier Cellisten und Florian Fricke von Popol Vuh.",
+ "alb.tangerine-dream-1972-zeit.oncelik": "Optional.",
+ "alb.tangerine-dream-1972-zeit.tip": "Studio (Doppel-LP)",
+ "alb.tangerine-dream-1972-zeit.kadro": "Edgar Froese, Christopher Franke, Peter Baumann, Steve Schroyder, Florian Fricke (Moog) + Gäste",
+ "alb.tangerine-dream-1972-zeit.prod": "Rolf-Ulrich Kaiser",
+ "alb.tangerine-dream-1972-zeit.tr": [
+  "Birth of Liquid Plejades",
+  "Nebulous Dawn",
+  "Origin of Supernatural Probabilities",
+  "Zeit"
+ ],
+ "alb.tangerine-dream-1974-phaedra.an": "Das erste Virgin-Album und das erste auf Sequenzern aufgebaute; ein überraschender Hit in Großbritannien.",
+ "alb.tangerine-dream-1974-phaedra.oncelik": "Essenziell.",
+ "alb.tangerine-dream-1974-phaedra.tip": "Studio",
+ "alb.tangerine-dream-1974-phaedra.kadro": "Edgar Froese, Christopher Franke, Peter Baumann",
+ "alb.tangerine-dream-1974-phaedra.prod": "Edgar Froese",
+ "alb.tangerine-dream-1974-phaedra.tr": [
+  "Phaedra",
+  "Mysterious Semblance at the Strand of Nightmares",
+  "Movements of a Visionary",
+  "Sequent C'"
+ ],
+ "alb.tangerine-dream-1975-rubycon.an": "Zwei plattenseitenlange Teile: Sequenzerpulse, Mellotron-Chöre und präpariertes Klavier.",
+ "alb.tangerine-dream-1975-rubycon.oncelik": "Essenziell.",
+ "alb.tangerine-dream-1975-rubycon.tip": "Studio",
+ "alb.tangerine-dream-1975-rubycon.kadro": "Edgar Froese, Christopher Franke, Peter Baumann",
+ "alb.tangerine-dream-1975-rubycon.prod": "Edgar Froese",
+ "alb.tangerine-dream-1975-rubycon.tr": [
+  "Rubycon, Part One",
+  "Rubycon, Part Two"
+ ],
+ "alb.tangerine-dream-1975-ricochet.an": "Aus der Europatournee 1975 geschnitten: mehr Gitarre und mehr Schub als die Studioalben.",
+ "alb.tangerine-dream-1975-ricochet.oncelik": "Optional.",
+ "alb.tangerine-dream-1975-ricochet.tip": "Live",
+ "alb.tangerine-dream-1975-ricochet.kadro": "Edgar Froese, Christopher Franke, Peter Baumann",
+ "alb.tangerine-dream-1975-ricochet.prod": "Edgar Froese",
+ "alb.tangerine-dream-1975-ricochet.tr": [
+  "Ricochet, Part One",
+  "Ricochet, Part Two"
+ ],
+ "alb.tangerine-dream-1976-stratosfear.an": "Kürzere Stücke, Melodie und Akustikgitarre: der Schritt zur Filmmusik.",
+ "alb.tangerine-dream-1976-stratosfear.oncelik": "Empfohlen.",
+ "alb.tangerine-dream-1976-stratosfear.tip": "Studio",
+ "alb.tangerine-dream-1976-stratosfear.kadro": "Edgar Froese, Christopher Franke, Peter Baumann",
+ "alb.tangerine-dream-1976-stratosfear.prod": "Edgar Froese",
+ "alb.tangerine-dream-1976-stratosfear.tr": [
+  "Stratosfear",
+  "The Big Sleep in Search of Hades",
+  "3 A.M. at the Border of the Marsh from Okefenokee",
+  "Invisible Limits"
+ ],
+ "grp.klaus-schulze.name": "Klaus Schulze",
+ "grp.klaus-schulze.kurulus": "1947, Berlin (gestorben 2022). Schlagzeuger von Tangerine Dream (1969–70) und Ash Ra Tempel (1970–71), ab 1972 solo.",
+ "grp.klaus-schulze.hikaye": "Nach dem Schlagzeug auf dem ersten Album von Tangerine Dream und dem Debüt von Ash Ra Tempel ging Schulze solo: Irrlicht (1972) entstand ohne Synthesizer, mit einer Orgel und einer bearbeiteten Bandaufnahme eines Orchesters. Ab Mitte der Siebziger definierten seine langen Synthesizerstücke – Timewind (1975), Richard Wagner gewidmet, und Moondawn (1976) mit Schlagzeuger Harald Großkopf – neben Tangerine Dream die Berliner Schule. Er spielte in der Supergroup Go mit Stomu Yamashta, Steve Winwood und Al Di Meola, führte ein eigenes Label und veröffentlichte über sechzig Alben. Er starb 2022.",
+ "grp.klaus-schulze.dna": "Plattenseitenlange elektronische Stücke, die langsam über Sequenzermustern wachsen, Moog und modulare Synthesizer, wagnerhafte Dimensionen und ein hypnotischer, meditativer Sog.",
+ "grp.klaus-schulze.uyeler": "Klaus Schulze (Synthesizer, Orgel, Schlagzeug); Gast Harald Großkopf (Schlagzeug, Moondawn).",
+ "grp.klaus-schulze.gecisler": "Tangerine Dream (1969–70) → Ash Ra Tempel (1970–71; wieder auf Join Inn, 1973) → solo (1972–2022). Go (1976, mit Stomu Yamashta, Steve Winwood, Al Di Meola, Michael Shrieve). Harald Großkopf → Ashra (mit Manuel Göttsching).",
+ "grp.klaus-schulze.etki": "Zusammen mit Tangerine Dream begründete Schulze die Berliner Schule; Trance- und Ambient-Musiker nennen ihn als direkte Quelle.",
+ "grp.klaus-schulze.ipucu": [
+  "Hör „Bayreuth Return“ auf Timewind: dreißig Minuten über einem einzigen Sequenzermuster.",
+  "Vergleich Irrlicht mit Tangerine Dreams Zeit: dasselbe Jahr, zwei Arten, fast bewegungslose Musik zu machen."
+ ],
+ "alb.klaus-schulze-1972-irrlicht.an": "Das Solodebüt ohne Synthesizer: Orgel und eine gefilterte Bandaufnahme eines Orchesters.",
+ "alb.klaus-schulze-1972-irrlicht.oncelik": "Optional.",
+ "alb.klaus-schulze-1972-irrlicht.tip": "Studio",
+ "alb.klaus-schulze-1972-irrlicht.kadro": "Klaus Schulze",
+ "alb.klaus-schulze-1972-irrlicht.prod": "Klaus Schulze",
+ "alb.klaus-schulze-1972-irrlicht.tr": [
+  "1. Satz: Ebene",
+  "3. Satz: Exil Sils Maria"
+ ],
+ "alb.klaus-schulze-1975-timewind.an": "Zwei plattenseitenlange Stücke, Richard Wagner gewidmet: „Bayreuth Return“ und „Wahnfried 1883“.",
+ "alb.klaus-schulze-1975-timewind.oncelik": "Essenziell.",
+ "alb.klaus-schulze-1975-timewind.tip": "Studio",
+ "alb.klaus-schulze-1975-timewind.kadro": "Klaus Schulze",
+ "alb.klaus-schulze-1975-timewind.prod": "Klaus Schulze",
+ "alb.klaus-schulze-1975-timewind.tr": [
+  "Bayreuth Return",
+  "Wahnfried 1883"
+ ],
+ "alb.klaus-schulze-1976-moondawn.an": "Das erste Album mit einem modularen Moog-System und echtem Schlagzeug von Harald Großkopf.",
+ "alb.klaus-schulze-1976-moondawn.oncelik": "Empfohlen.",
+ "alb.klaus-schulze-1976-moondawn.tip": "Studio",
+ "alb.klaus-schulze-1976-moondawn.kadro": "Klaus Schulze, Harald Großkopf",
+ "alb.klaus-schulze-1976-moondawn.prod": "Klaus Schulze",
+ "alb.klaus-schulze-1976-moondawn.tr": [
+  "Floating",
+  "Mindphaser"
+ ],
+ "grp.ash-ra-tempel.name": "Ash Ra Tempel",
+ "grp.ash-ra-tempel.kurulus": "1970, Berlin. Gegründet von Gitarrist Manuel Göttsching und Bassist Hartmut Enke, mit Klaus Schulze am Schlagzeug.",
+ "grp.ash-ra-tempel.hikaye": "Das Debüt (1971) besteht aus zwei langen Stücken: dem Sturm von „Amboss“ und der Ruhe von „Traummaschine“. Schulze stieg aus; Schwingungen (1972) brachte Sänger John L. und eine bluesigere Seite. 1973 nahm die Band in der Schweiz Seven Up mit Timothy Leary auf, und Join Inn vereinte Göttsching, Enke und Schulze wieder. Göttsching arbeitete danach allein mit Gitarre und Echogeräten: Inventions for Electric Guitar (1975) nimmt die Minimal Music vorweg, und die Band lief als Ashra weiter. Sein späteres E2-E4 (1984) wurde ein Grundstein der elektronischen Tanzmusik.",
+ "grp.ash-ra-tempel.dna": "Lange Gitarrenimprovisationen mit Echo und Delay, kosmische Drones, psychedelische Stürme und später minimale, sich wiederholende Gitarrenmuster.",
+ "grp.ash-ra-tempel.uyeler": "Manuel Göttsching (Gitarre, Elektronik), Hartmut Enke (Bass), Klaus Schulze (Schlagzeug, Orgel; 1970–71, 1973), Wolfgang Müller (Schlagzeug, 1972), John L. (Gesang, 1972), Rosi Müller (Gesang, 1973).",
+ "grp.ash-ra-tempel.gecisler": "Klaus Schulze (Tangerine Dream) → Ash Ra Tempel → solo. Ash Ra Tempel → Seven Up (1973, mit Timothy Leary) → Ashra (ab 1976, mit Harald Großkopf). Manuel Göttsching → E2-E4 (1984).",
+ "grp.ash-ra-tempel.etki": "Göttschings Echogitarren-Muster verbinden den Krautrock mit Minimal Music, Ambient und Techno.",
+ "grp.ash-ra-tempel.ipucu": [
+  "Fang mit „Amboss“ auf dem Debüt an, dann „Echo Waves“ von Inventions for Electric Guitar: derselbe Gitarrist, vier Jahre später.",
+  "Hör nach „Freak'n'Roll“ von Join Inn Klaus Schulzes Timewind."
+ ],
+ "alb.ash-ra-tempel-1971-ash-ra-tempel.an": "Zwei plattenseitenlange Stücke: der psychedelische Sturm „Amboss“ und die schwebende „Traummaschine“.",
+ "alb.ash-ra-tempel-1971-ash-ra-tempel.oncelik": "Empfohlen.",
+ "alb.ash-ra-tempel-1971-ash-ra-tempel.tip": "Studio",
+ "alb.ash-ra-tempel-1971-ash-ra-tempel.kadro": "Manuel Göttsching, Hartmut Enke, Klaus Schulze",
+ "alb.ash-ra-tempel-1971-ash-ra-tempel.tr": [
+  "Amboss",
+  "Traummaschine"
+ ],
+ "alb.ash-ra-tempel-1972-schwingungen.an": "Ohne Schulze: eine bluesgefärbte erste Seite und das kosmische „Suche & Liebe“.",
+ "alb.ash-ra-tempel-1972-schwingungen.oncelik": "Optional.",
+ "alb.ash-ra-tempel-1972-schwingungen.tip": "Studio",
+ "alb.ash-ra-tempel-1972-schwingungen.kadro": "Manuel Göttsching, Hartmut Enke, Wolfgang Müller, John L. u. a.",
+ "alb.ash-ra-tempel-1972-schwingungen.tr": [
+  "Light: Look at Your Sun",
+  "Darkness: Flowers Must Die",
+  "Suche & Liebe"
+ ],
+ "alb.ash-ra-tempel-1973-join-inn.an": "Das ursprüngliche Trio wieder vereint: der Jam „Freak'n'Roll“ und das langsame „Jenseits“.",
+ "alb.ash-ra-tempel-1973-join-inn.oncelik": "Empfohlen.",
+ "alb.ash-ra-tempel-1973-join-inn.tip": "Studio",
+ "alb.ash-ra-tempel-1973-join-inn.kadro": "Manuel Göttsching, Hartmut Enke, Klaus Schulze, Rosi Müller",
+ "alb.ash-ra-tempel-1973-join-inn.tr": [
+  "Freak'n'Roll",
+  "Jenseits"
+ ],
+ "alb.ash-ra-tempel-1975-inventions-for-electric-guitar.an": "Göttsching allein mit Gitarre und Echogeräten: sich wiederholende Muster, die die Minimal Music vorwegnehmen.",
+ "alb.ash-ra-tempel-1975-inventions-for-electric-guitar.oncelik": "Empfohlen.",
+ "alb.ash-ra-tempel-1975-inventions-for-electric-guitar.tip": "Studio",
+ "alb.ash-ra-tempel-1975-inventions-for-electric-guitar.kadro": "Manuel Göttsching",
+ "alb.ash-ra-tempel-1975-inventions-for-electric-guitar.prod": "Manuel Göttsching",
+ "alb.ash-ra-tempel-1975-inventions-for-electric-guitar.tr": [
+  "Echo Waves",
+  "Quasarsphere",
+  "Pluralis"
+ ],
+ "grp.eloy.name": "Eloy",
+ "grp.eloy.kurulus": "1969, Hannover. Gegründet von Gitarrist und Sänger Frank Bornemann, dem einzigen festen Mitglied der Band.",
+ "grp.eloy.hikaye": "Nach einem Hardrock-Debüt (1971) wandte sich Eloy langem, von Pink Floyd beeinflusstem Space Rock zu: Floating (1974) und das Konzeptalbum Power and the Passion (1975). Mit neuer Besetzung – Klaus-Peter Matziol (Bass), Detlev Schmidtchen (Keyboards) und Jürgen Rosenthal (Schlagzeug) – entstanden Dawn (1976) und Ocean (1977), ein Konzept über den Mythos von Atlantis und ihr meistverkauftes Album; Silent Cries and Mighty Echoes (1979) setzte die Linie fort. Eloy gehörten zu den erfolgreichsten deutschen Progbands der Siebziger und Achtziger und sind noch aktiv.",
+ "grp.eloy.dna": "Space Rock in der Linie von Pink Floyd und Hawkwind, lange Konzeptstücke, geschichtete Keyboards und Mellotron, Bornemanns gesprochene und gesungene Erzählung und Science-Fiction- und Mythenthemen.",
+ "grp.eloy.uyeler": "Frank Bornemann (Gitarre, Gesang), Manfred Wieczorke (Keyboards, Siebziger), Luitjen Janssen (Bass), Fritz Randow (Schlagzeug); ab 1976 Klaus-Peter Matziol (Bass), Detlev Schmidtchen (Keyboards), Jürgen Rosenthal (Schlagzeug, ex-Scorpions); ab 1979 Hannes Folberth (Keyboards).",
+ "grp.eloy.gecisler": "Jürgen Rosenthal → Scorpions (1973–74) → Eloy (1976–79). Frank Bornemann → Produzent (in den Neunzigern Guano Apes).",
+ "grp.eloy.etki": "Eloy machten symphonischen Space Rock in Deutschland populär und sind ein Bezugspunkt der deutschen Progszene der späten Siebziger.",
+ "grp.eloy.ipucu": [
+  "Hör Ocean am Stück: vier lange Stücke, die die Geschichte von Atlantis erzählen.",
+  "Vergleich „Poseidon's Creation“ mit Pink Floyds Animals aus demselben Jahr."
+ ],
+ "alb.eloy-1974-floating.an": "Die Wende zum Space Rock: lange, gitarrengeführte Stücke nahe an Hawkwind und den frühen Pink Floyd.",
+ "alb.eloy-1974-floating.oncelik": "Optional.",
+ "alb.eloy-1974-floating.tip": "Studio",
+ "alb.eloy-1974-floating.kadro": "Frank Bornemann, Manfred Wieczorke, Luitjen Janssen, Fritz Randow",
+ "alb.eloy-1974-floating.tr": [
+  "Floating",
+  "The Light from Deep Darkness",
+  "Castle in the Air"
+ ],
+ "alb.eloy-1975-power-and-the-passion.an": "Ein Konzeptalbum über einen Zeitreisenden im Frankreich des 14. Jahrhunderts.",
+ "alb.eloy-1975-power-and-the-passion.oncelik": "Empfohlen.",
+ "alb.eloy-1975-power-and-the-passion.tip": "Studio",
+ "alb.eloy-1975-power-and-the-passion.kadro": "Frank Bornemann, Manfred Wieczorke, Luitjen Janssen, Fritz Randow, Detlev Schwaar",
+ "alb.eloy-1975-power-and-the-passion.tr": [
+  "Journey into 1358",
+  "Love Over Six Centuries",
+  "Mutiny"
+ ],
+ "alb.eloy-1977-ocean.an": "Vier lange Stücke über den Mythos von Atlantis; das bekannteste Album der Band.",
+ "alb.eloy-1977-ocean.oncelik": "Essenziell.",
+ "alb.eloy-1977-ocean.tip": "Studio",
+ "alb.eloy-1977-ocean.kadro": "Frank Bornemann, Klaus-Peter Matziol, Detlev Schmidtchen, Jürgen Rosenthal",
+ "alb.eloy-1977-ocean.tr": [
+  "Poseidon's Creation",
+  "Incarnation of Logos"
+ ],
+ "alb.eloy-1979-silent-cries-and-mighty-echoes.an": "Das letzte der klassischen Phase: üppige Keyboards und das lange „The Apocalypse“.",
+ "alb.eloy-1979-silent-cries-and-mighty-echoes.oncelik": "Empfohlen.",
+ "alb.eloy-1979-silent-cries-and-mighty-echoes.tip": "Studio",
+ "alb.eloy-1979-silent-cries-and-mighty-echoes.kadro": "Frank Bornemann, Klaus-Peter Matziol, Hannes Folberth, Jürgen Rosenthal",
+ "alb.eloy-1979-silent-cries-and-mighty-echoes.tr": [
+  "Astral Entrance",
+  "Master of Sensation",
+  "The Apocalypse",
+  "Pilot to Paradise"
+ ],
+ "grp.grobschnitt.name": "Grobschnitt",
+ "grp.grobschnitt.kurulus": "1970, Hagen. Aus lokalen Beatbands hervorgegangen; die Mitglieder nannten sich Eroc, Lupo, Wildschwein, Mist und Popo.",
+ "grp.grobschnitt.hikaye": "Grobschnitt verbanden Symphonic Prog mit Bühnenkomik: In ihren Konzerten mischten sich lange Stücke, Sketche und Pyrotechnik. Das Doppelalbum Ballermann (1974) enthielt die erste Studiofassung von „Solar Music“, der improvisierten Suite, die zum Kern ihrer Shows wurde. Rockpommel's Land (1977), ein Märchen-Konzeptalbum, ist ihr symphonischer Höhepunkt; Solar Music – Live (1978) hielt die Bühnenfassung fest. In den Achtzigern wandte sich die Band deutschsprachigem Poprock zu. Schlagzeuger Eroc wurde auch als Solokünstler und Mastering-Ingenieur bekannt.",
+ "grp.grobschnitt.dna": "Lange symphonische Suiten mit Doppelgitarren und Keyboards, improvisierte Space-Rock-Passagen („Solar Music“), Märchenkonzepte und eine kräftige Portion Humor auf der Bühne.",
+ "grp.grobschnitt.uyeler": "Eroc (Joachim Ehrig, Schlagzeug, Elektronik), Lupo (Gerd-Otto Kühn, Gitarre), Wildschwein (Stefan Danielak, Gesang, Gitarre), Mist (Volker Kahrs, Keyboards), Popo (Wolfgang Jäger, Bass); später Milla Kapolke (Bass).",
+ "grp.grobschnitt.gecisler": "Eroc → Soloalben (ab 1975) und später Mastering-Ingenieur vieler deutscher Wiederveröffentlichungen.",
+ "grp.grobschnitt.etki": "Grobschnitt gehören zu den beliebtesten Livebands des deutschen Rock der Siebziger; „Solar Music“ bleibt ein Bezugspunkt des deutschen Space Rock.",
+ "grp.grobschnitt.ipucu": [
+  "Hör Rockpommel's Land als Ganzes: ein Märchen in vier Stücken.",
+  "Vergleich die Studiofassung von „Solar Music“ auf Ballermann mit der Livefassung von 1978."
+ ],
+ "alb.grobschnitt-1974-ballermann.an": "Das Doppelalbum mit der ersten Studiofassung der improvisierten Suite „Solar Music“.",
+ "alb.grobschnitt-1974-ballermann.oncelik": "Empfohlen.",
+ "alb.grobschnitt-1974-ballermann.tip": "Studio (Doppel-LP)",
+ "alb.grobschnitt-1974-ballermann.kadro": "Eroc, Lupo, Wildschwein, Mist, Popo",
+ "alb.grobschnitt-1974-ballermann.tr": [
+  "Solar-Music, Part 1",
+  "Solar-Music, Part 2",
+  "Nickel-Odeon"
+ ],
+ "alb.grobschnitt-1977-rockpommel-s-land.an": "Ein Märchen-Konzeptalbum, der symphonische Höhepunkt der Band.",
+ "alb.grobschnitt-1977-rockpommel-s-land.oncelik": "Essenziell.",
+ "alb.grobschnitt-1977-rockpommel-s-land.tip": "Studio",
+ "alb.grobschnitt-1977-rockpommel-s-land.kadro": "Eroc, Lupo, Wildschwein, Mist, Popo",
+ "alb.grobschnitt-1977-rockpommel-s-land.tr": [
+  "Ernie's Reise",
+  "Severity Town",
+  "Anywhere",
+  "Rockpommel's Land"
+ ],
+ "alb.grobschnitt-1978-solar-music-live.an": "Die Bühnenfassung von „Solar Music“, der langen Space-Rock-Improvisation im Herzen ihrer Konzerte.",
+ "alb.grobschnitt-1978-solar-music-live.oncelik": "Empfohlen.",
+ "alb.grobschnitt-1978-solar-music-live.tip": "Live",
+ "alb.grobschnitt-1978-solar-music-live.kadro": "Eroc, Lupo, Wildschwein, Mist, Popo",
+ "alb.grobschnitt-1978-solar-music-live.tr": [
+  "Solar Music I",
+  "Mühlheim Special",
+  "Golden Mist"
+ ],
+ "grp.jane.name": "Jane",
+ "grp.jane.kurulus": "1970, Hannover. Gegründet von Gitarrist Klaus Hess und Schlagzeuger Peter Panka.",
+ "grp.jane.hikaye": "Jane nahmen ab 1972 für das Label Brain auf: Together (1972) und Here We Are (1973) waren orgelbetonter Heavy Rock, während Lady (1975) und das Konzeptalbum Fire, Water, Earth & Air (1976) zu langen, Pink-Floyd-artigen Stücken mit melodischer Gitarre führten. Die Besetzung um Hess und Panka wechselte oft; in den Achtzigern nutzten zwei Bands den Namen. Jane gehörten zu den beliebtesten deutschen Rockbands der Siebziger.",
+ "grp.jane.dna": "Melodische, langsam aufbauende Gitarrensoli, Hammondorgel und Synthesizer, lange atmosphärische Stücke und ein Heavy-Rock-Fundament.",
+ "grp.jane.uyeler": "Klaus Hess (Gitarre), Peter Panka (Schlagzeug, Gesang), Werner Nadolny (Orgel, Flöte), Charly Maucher (Bass), Bernd Pulst (Gesang); die Besetzung um Hess und Panka wechselte oft.",
+ "grp.jane.gecisler": "Jane (1970–) → in den Achtzigern und Neunzigern getrennte Bands um Klaus Hess und Peter Panka („Peter Panka's Jane“). Wie Eloy kamen Jane aus Hannover.",
+ "grp.jane.etki": "Jane stehen für die melodische, von Pink Floyd beeinflusste Seite des deutschen Rock der Siebziger zwischen Krautrock und Hardrock.",
+ "grp.jane.ipucu": [
+  "Fang mit Fire, Water, Earth & Air an, dem Konzeptalbum der Band über die vier Elemente.",
+  "Vergleich Klaus Hess' Gitarre mit David Gilmours auf Wish You Were Here."
+ ],
+ "alb.jane-1972-together.an": "Das Debüt bei Brain: orgelbetonter Heavy Rock mit langen Gitarrenpassagen.",
+ "alb.jane-1972-together.oncelik": "Optional.",
+ "alb.jane-1972-together.tip": "Studio",
+ "alb.jane-1972-together.kadro": "Klaus Hess, Peter Panka, Werner Nadolny, Charly Maucher, Bernd Pulst",
+ "alb.jane-1972-together.tr": [
+  "Daytime",
+  "Spain",
+  "Hangman"
+ ],
+ "alb.jane-1973-here-we-are.an": "Das zweite Album: härtere Songs und die ersten längeren, atmosphärischen Stücke.",
+ "alb.jane-1973-here-we-are.oncelik": "Optional.",
+ "alb.jane-1973-here-we-are.tip": "Studio",
+ "alb.jane-1973-here-we-are.kadro": "Klaus Hess, Peter Panka u. a.",
+ "alb.jane-1973-here-we-are.tr": [
+  "Redskin",
+  "Here We Are"
+ ],
+ "alb.jane-1975-lady.an": "Die Wende zu langen, Floyd-artigen Stücken mit melodischer Gitarre.",
+ "alb.jane-1975-lady.oncelik": "Empfohlen.",
+ "alb.jane-1975-lady.tip": "Studio",
+ "alb.jane-1975-lady.kadro": "Klaus Hess, Peter Panka u. a.",
+ "alb.jane-1975-lady.tr": [
+  "(Wishdream) Lady",
+  "Midnight Mover",
+  "Waiting for the Sunshine"
+ ],
+ "alb.jane-1976-fire-water-earth-air.an": "Ein Konzeptalbum über die vier Elemente; das bekannteste Werk der Band.",
+ "alb.jane-1976-fire-water-earth-air.oncelik": "Empfohlen.",
+ "alb.jane-1976-fire-water-earth-air.tip": "Studio",
+ "alb.jane-1976-fire-water-earth-air.kadro": "Klaus Hess, Peter Panka u. a.",
+ "alb.jane-1976-fire-water-earth-air.tr": [
+  "Fire, Water, Earth & Air / Fire / Water",
+  "Earth (Angel)"
+ ],
+ "grp.zarathustra.name": "Zarathustra",
+ "grp.zarathustra.kurulus": "Anfang der Siebziger, Hamburg. Eine kurzlebige Band, die 1972 ein einziges Album bei Metronome veröffentlichte.",
+ "grp.zarathustra.hikaye": "Zarathustra spielten orgelbetonten Heavy Rock in der Linie von Uriah Heep und Deep Purple, mit längeren Stücken, die sich zum Prog öffnen. Ihr einziges Album Zarathustra (1972) erschien bei Metronome, dem Label von Birth Control; die Band löste sich bald danach auf, das Album wurde in den Neunzigern auf CD neu aufgelegt.",
+ "grp.zarathustra.dna": "Klaus Werners Hammondorgel im Stil von Ken Hensley und Jon Lord, schwere Gitarrenriffs, mehrstimmiger Gesang und lange instrumentale Passagen wie das neunminütige „Past Time“.",
+ "grp.zarathustra.uyeler": "Ernst Herzner (Gesang), Wolfgang Reimer (Gitarre, Gesang), Klaus Werner (Orgel), Michael Just (Bass, Gesang), Wolfgang Behrmann (Schlagzeug).",
+ "grp.zarathustra.gecisler": "Keine belegten Verbindungen zu anderen Bands im Atlas; die Verbindung ist der gemeinsame Klang des Hammond-Hardrock von 1970–72.",
+ "grp.zarathustra.etki": "Ein typisches Beispiel für den deutschen Orgelrock, der im Schatten von Deep Purple und Uriah Heep entstand.",
+ "grp.zarathustra.ipucu": [
+  "Hör „Past Time“ nach Uriah Heeps Look at Yourself.",
+  "Vergleich Klaus Werners Orgel mit Jon Lords auf Deep Purple in Rock."
+ ],
+ "alb.zarathustra-1972-zarathustra.an": "Das einzige Album: Hammond-betonter Heavy Rock mit dem langen „Past Time“ und „Ormuzd“.",
+ "alb.zarathustra-1972-zarathustra.oncelik": "Optional.",
+ "alb.zarathustra-1972-zarathustra.tip": "Studio",
+ "alb.zarathustra-1972-zarathustra.kadro": "Ernst Herzner, Wolfgang Reimer, Klaus Werner, Michael Just, Wolfgang Behrmann",
+ "alb.zarathustra-1972-zarathustra.tr": [
+  "Eternal Light",
+  "Past Time",
+  "Ormuzd"
+ ],
+ "sec.27.title": "Krautrock und deutscher Prog",
+ "sec.27.intro": "Ab Ende der Sechziger lösten sich westdeutsche Bands vom angloamerikanischen Rock und schufen eine eigene Sprache: Kraftwerk und Neu! in Düsseldorf, Can in Köln, Faust in einem Bauernhaus in Wümme, Amon Düül II und Popol Vuh in München und in Berlin die elektronische „kosmische Musik“ von Tangerine Dream, Klaus Schulze und Ash Ra Tempel; Cluster und Harmonia verbinden die Szene mit Brian Eno. Conny Planks Studio bei Köln war ein gemeinsamer Treffpunkt. Daneben stehen Eloy, Grobschnitt und Jane für den deutschen Symphonic- und Space-Prog der Siebziger."
 }
