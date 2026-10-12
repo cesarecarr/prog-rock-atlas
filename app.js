@@ -554,9 +554,12 @@ function renderSettings(){
       <button class="btn" onclick="exportLists()">↓ ${esc(u("settings.export"))}</button>
       <label class="btn">↑ ${esc(u("settings.import"))}<input type="file" accept="application/json,.json" style="display:none" onchange="importLists(this)"></label>
       <div class="muted">${esc(u("settings.lastbackup",{d:last?new Date(last).toLocaleDateString(LANG):u("settings.never")}))}</div></div>
-    <div class="lbl" style="margin-top:22px">${esc(u("settings.about"))}</div><p class="muted">${esc(u("settings.about.text"))}</p>
+    <div class="lbl" style="margin-top:22px">${esc(u("settings.about"))}</div><p style="margin-bottom:8px">${esc(u("settings.about.intro"))}</p><p class="muted">${esc(u("settings.about.text",aboutCounts()))}</p>
     ${acctOn()?`<p style="margin-top:10px"><a href="#" class="plink" onclick="showPrivacy();return false">${esc(u("privacy.title"))} ›</a></p>`:""}</div>`;
 }
+function aboutCounts(){const nf=n=>n.toLocaleString(LANG==="en"?"en-US":LANG);let A=0,G=0;DATA.forEach(s=>s.groups.forEach(g=>{G++;A+=g.albums.length;}));
+  let t="…";if(TRK){let n=0;for(const k in TRK)n+=(TRK[k].tr||[]).length;t=nf(n);}else loadTracks().then(()=>{if($("v-settings").classList.contains("on"))renderSettings();});
+  return {a:nf(A),g:nf(G),t};}
 function setPlat(p){PLAT=p;store.set("platform",p);renderPlatBadge();if($("v-settings").classList.contains("on"))renderSettings();toast(u("settings.saved"));}
 function exportLists(){const blob=new Blob([JSON.stringify({app:"prog-rock-atlas",v:1,date:new Date().toISOString(),lists:LISTS},null,1)],{type:"application/json"});
   const a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download="prog-atlas-listelerim-"+new Date().toISOString().slice(0,10)+".json";document.body.appendChild(a);a.click();a.remove();
