@@ -5302,6 +5302,40 @@
 "no": 17,
 "groups": [
 {
+"id": "cream",
+"artist": "Cream",
+"albums": [
+{
+"id": "cream-1966-fresh-cream",
+"t": "Fresh Cream",
+"y": 1966,
+"onc": "onerilir",
+"cov": "kapaklar/cream-1966-fresh-cream.jpg"
+},
+{
+"id": "cream-1967-disraeli-gears",
+"t": "Disraeli Gears",
+"y": 1967,
+"onc": "temel",
+"cov": "kapaklar/cream-1967-disraeli-gears.jpg"
+},
+{
+"id": "cream-1968-wheels-of-fire",
+"t": "Wheels of Fire",
+"y": 1968,
+"onc": "temel",
+"cov": "kapaklar/cream-1968-wheels-of-fire.jpg"
+},
+{
+"id": "cream-1969-goodbye",
+"t": "Goodbye",
+"y": 1969,
+"onc": "istege",
+"cov": "kapaklar/cream-1969-goodbye.jpg"
+}
+]
+},
+{
 "id": "ten-years-after",
 "artist": "Ten Years After",
 "albums": [
@@ -5339,6 +5373,33 @@
 "y": 1971,
 "onc": "temel",
 "cov": "kapaklar/ten-years-after-1971-a-space-in-time.jpg"
+}
+]
+},
+{
+"id": "taste",
+"artist": "Taste",
+"albums": [
+{
+"id": "taste-1969-taste",
+"t": "Taste",
+"y": 1969,
+"onc": "onerilir",
+"cov": "kapaklar/taste-1969-taste.jpg"
+},
+{
+"id": "taste-1970-on-the-boards",
+"t": "On the Boards",
+"y": 1970,
+"onc": "onerilir",
+"cov": "kapaklar/taste-1970-on-the-boards.jpg"
+},
+{
+"id": "taste-1971-live-at-the-isle-of-wight",
+"t": "Live at the Isle of Wight",
+"y": 1971,
+"onc": "istege",
+"cov": "kapaklar/taste-1971-live-at-the-isle-of-wight.jpg"
 }
 ]
 },

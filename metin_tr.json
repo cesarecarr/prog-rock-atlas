@@ -5042,7 +5042,7 @@
   "Incoherence"
  ],
  "sec.17.title": "Hard Rock Kenarı — Blues ve Ağır Rock Komşuları",
- "sec.17.intro": "Prog'la aynı kulüplerde doğan ve aynı müzisyenleri paylaşan blues-rock ve hard rock grupları: Ten Years After, Mick Abrahams'ın Jethro Tull'dan sonra kurduğu Blodwyn Pig, Colosseum'un jazz-rock'ı, Deep Purple, Jon Lord'un orkestra eserleri, Uriah Heep (Ken Hensley, John Wetton), Hamburglu Zarathustra'nın Hammond ağırlıklı ağır rock'ı, Almanya'dan Lucifer's Friend, Wishbone Ash, Budgie ve Rainbow (Cozy Powell, sonradan Emerson, Lake & Powell).",
+ "sec.17.intro": "Prog'la aynı kulüplerde doğan ve aynı müzisyenleri paylaşan blues-rock ve hard rock grupları: power trio Cream (Clapton, Bruce, Baker), Ten Years After, İrlanda'dan Rory Gallagher'ın Taste'i, Mick Abrahams'ın Jethro Tull'dan sonra kurduğu Blodwyn Pig, Colosseum'un jazz-rock'ı, Deep Purple, Jon Lord'un orkestra eserleri, Uriah Heep (Ken Hensley, John Wetton), Hamburglu Zarathustra'nın Hammond ağırlıklı ağır rock'ı, Almanya'dan Lucifer's Friend, Wishbone Ash, Budgie ve Rainbow (Cozy Powell, sonradan Emerson, Lake & Powell).",
  "grp.ten-years-after.name": "Ten Years After",
  "grp.ten-years-after.kurulus": "1966, Nottingham. Alvin Lee (gitar/vokal), Leo Lyons (bas), Ric Lee (davul), Chick Churchill (klavye).",
  "grp.ten-years-after.hikaye": "Alvin Lee'nin 'dünyanın en hızlı gitaristi' ünü, grubu blues-rock'ın öncü İngiliz gruplarından yaptı; 1969 Woodstock'taki 'I'm Going Home' performansı ve filmdeki yer alışı onları uluslararası yıldızlara dönüştürdü. Blues temelli olsalar da caz, psikedelik ve progressive denemeler (Ssssh, Cricklewood Green, A Space in Time) grubu 'proto-prog'un blues kanadına yerleştirir. 1974'te dağıldılar; 1988'de yeniden birleştiler. Alvin Lee 2003'te ayrıldı ve 2013'te öldü; grup Joe Gooch ve sonra Marcus Bonfanti ile devam etti.",
@@ -12626,5 +12626,105 @@
   "Comfortably Numb",
   "The Trial",
   "The Tide Is Turning"
+ ],
+ "grp.cream.name": "Cream",
+ "grp.cream.kurulus": "1966, Londra. Eric Clapton (Yardbirds ve John Mayall's Bluesbreakers'tan) ile Graham Bond Organisation'dan gelen Jack Bruce ve Ginger Baker; çoğu zaman rock'ın ilk süper grubu sayılır.",
+ "grp.cream.hikaye": "Cream, Temmuz 1966'da Ginger Baker'ın girişimiyle, onunla Jack Bruce arasındaki Graham Bond günlerinden kalma eski kavgaya rağmen kuruldu. Fresh Cream (1966) blues standartlarını Bruce'un şarkılarıyla karıştırdı; New York'ta yapımcı Felix Pappalardi ve mühendis Tom Dowd ile kaydedilen Disraeli Gears (1967) 'Sunshine of Your Love'ı ve Bruce'un şair Pete Brown ile yazdığı psikedelik şarkıları getirdi. Amerikan sahnelerinde trio 'Spoonful' gibi parçaları on beş dakikayı aşan doğaçlamalara dönüştürdü; yarısı stüdyo, yarısı Fillmore ve Winterland'de canlı olan Wheels of Fire (1968) platin olan ilk çift albüm oldu. Ses yüksekliğinden ve Bruce–Baker gerginliğinden yorulan grup 1968'de dağılacağını açıkladı ve 26 Kasım 1968'de Royal Albert Hall'da veda etti; ön grupları Taste ve genç Yes'ti. Goodbye (1969), George Harrison'la yazılan 'Badge' dahil son kayıtları topladı. Clapton ve Baker, Steve Winwood ve Ric Grech'le Blind Faith'i kurdu; Cream 2005'te Royal Albert Hall ve Madison Square Garden'da yeniden bir araya geldi. Bruce 2014'te, Baker 2019'da öldü.",
+ "grp.cream.dna": "Power trio: uzun ortak doğaçlamalara dönüşen blues standartları, yüksek sesli gitar riff'leri, Jack Bruce'un melodik, öne çıkan bası ve Ginger Baker'ın iki bas davullu, caz eğitimli çalışı; stüdyoda Pete Brown'ın gerçeküstü sözleriyle psikedelik şarkılar.",
+ "grp.cream.uyeler": "Eric Clapton (gitar, vokal), Jack Bruce (bas, baş vokal, mızıka, piyano, çello), Ginger Baker (davul, vurmalılar); yakın çalışma arkadaşları olarak yapımcı Felix Pappalardi (stüdyo kayıtlarında viyola ve klavye de çalar) ve söz yazarı Pete Brown.",
+ "grp.cream.gecisler": "Graham Bond Organisation (Bruce, Baker), Yardbirds ve John Mayall's Bluesbreakers (Clapton) → Cream (1966). → Blind Faith (Clapton, Baker, Steve Winwood ve Family'den Ric Grech ile, 1969) → Ginger Baker's Air Force; Clapton → Derek and the Dominos ve solo. Jack Bruce → solo, Tony Williams Lifetime, West, Bruce & Laing, sonra BBM (Baker ve Gary Moore ile). Felix Pappalardi → Mountain. Bruce sonradan Jon Anderson'ın Song of Seven'ında bas çaldı.",
+ "grp.cream.etki": "Jimi Hendrix Experience'tan Rush'a (Geddy Lee ve Alex Lifeson Cream'i temel etkilerinden sayar) rock power trio'sunun şablonu; uzun sahne doğaçlamaları jam gruplarına ve erken prog'un uzun formlarına, riff'leri Led Zeppelin'e ve ağır rock'a yol açtı.",
+ "grp.cream.ipucu": [
+  "Wheels of Fire'ı iki ayrı plak gibi dinle: stüdyo diski ('White Room', 'As You Said') söz yazarlarını, canlı disk ('Crossroads', 'Spoonful') doğaçlamacıları gösterir.",
+  "Fresh Cream'deki üç dakikalık stüdyo 'Spoonful'unu on altı dakikalık canlı versiyonla karşılaştır: blues grubundan proto-prog'a geçiş bu.",
+  "Kasım 1968'deki veda konserini hatırla: ön gruplardan biri, ilk konserlerinin üzerinden birkaç ay geçmiş olan Yes'ti."
+ ],
+ "alb.cream-1966-fresh-cream.an": "İlk albüm: blues standartları ('Spoonful', 'Rollin' and Tumblin'', 'I'm So Glad') Bruce'un ilk şarkıları ve Baker'ın davul gösterisi 'Toad' ile yan yana. Trio hâlâ bir blues grubu, ama şimdiden yüksek sesli ve serbest çalan bir blues grubu.",
+ "alb.cream-1966-fresh-cream.oncelik": "Önerilir.",
+ "alb.cream-1966-fresh-cream.tip": "stüdyo",
+ "alb.cream-1966-fresh-cream.kadro": "Eric Clapton, Jack Bruce, Ginger Baker",
+ "alb.cream-1966-fresh-cream.prod": "Robert Stigwood",
+ "alb.cream-1966-fresh-cream.tr": [
+  "N.S.U.",
+  "Sweet Wine",
+  "Spoonful",
+  "I'm So Glad",
+  "Toad"
+ ],
+ "alb.cream-1967-disraeli-gears.an": "New York'ta birkaç günde Felix Pappalardi ve Tom Dowd ile kaydedildi: 'Sunshine of Your Love'ın riff'i, Clapton'ın wah-wah'lı Homeros esintili 'Tales of Brave Ulysses'ı ve Bruce ile Pete Brown'ın psikedelik şarkıları. Martin Sharp'ın fosforlu kapağı 1967'nin simgelerinden.",
+ "alb.cream-1967-disraeli-gears.oncelik": "Atlanmamalı.",
+ "alb.cream-1967-disraeli-gears.tip": "stüdyo",
+ "alb.cream-1967-disraeli-gears.kadro": "Eric Clapton, Jack Bruce, Ginger Baker",
+ "alb.cream-1967-disraeli-gears.prod": "Felix Pappalardi",
+ "alb.cream-1967-disraeli-gears.tr": [
+  "Strange Brew",
+  "Sunshine of Your Love",
+  "Tales of Brave Ulysses",
+  "SWLABR",
+  "We're Going Wrong"
+ ],
+ "alb.cream-1968-wheels-of-fire.an": "Çift albüm: bir diskte yaylılar, nefesliler ve tek ölçülerle stüdyo şarkıları ('White Room', 'As You Said', 'Deserted Cities of the Heart'), öbür diskte Fillmore ve Winterland'den klasik 'Crossroads' ile uzun doğaçlamalar 'Spoonful' ve 'Toad'. Bir milyon satan ilk çift albüm.",
+ "alb.cream-1968-wheels-of-fire.oncelik": "Atlanmamalı.",
+ "alb.cream-1968-wheels-of-fire.tip": "stüdyo + canlı (çift LP)",
+ "alb.cream-1968-wheels-of-fire.kadro": "Eric Clapton, Jack Bruce, Ginger Baker; Felix Pappalardi (viyola, org, trompet)",
+ "alb.cream-1968-wheels-of-fire.prod": "Felix Pappalardi",
+ "alb.cream-1968-wheels-of-fire.tr": [
+  "White Room",
+  "Politician",
+  "As You Said",
+  "Deserted Cities of the Heart",
+  "Crossroads",
+  "Spoonful"
+ ],
+ "alb.cream-1969-goodbye.an": "Dağıldıktan sonra yayımlandı: son Amerika turnesinden üç canlı parça ve aralarında Clapton ile George Harrison'ın yazdığı 'Badge'in de bulunduğu üç yeni stüdyo şarkısı.",
+ "alb.cream-1969-goodbye.oncelik": "İsteğe bağlı.",
+ "alb.cream-1969-goodbye.tip": "stüdyo + canlı",
+ "alb.cream-1969-goodbye.kadro": "Eric Clapton, Jack Bruce, Ginger Baker; 'Badge'de George Harrison (gitar, 'L'Angelo Misterioso' adıyla)",
+ "alb.cream-1969-goodbye.prod": "Felix Pappalardi",
+ "alb.cream-1969-goodbye.tr": [
+  "I'm So Glad",
+  "Badge",
+  "Doing That Scrapyard Thing"
+ ],
+ "grp.taste.name": "Taste",
+ "grp.taste.kurulus": "1966, Cork, İrlanda. Rory Gallagher'ın blues-rock triosu; plakları Richard McCracken (bas) ve John Wilson (davul) ile 1968–70 kadrosu yaptı.",
+ "grp.taste.hikaye": "Rory Gallagher showband çevresinden ayrılıp Taste'i 1966'da Cork'ta Eric Kitteringham ve Norman Damery ile kurdu; grup ününü Belfast'taki Maritime Hotel'de kazandı. 1968'de Gallagher yeni bir ritim bölümüyle, Richard McCracken ve John Wilson'la Londra'ya taşındı. Taste, Kasım 1968'de Cream'in veda konserinde, 1969'da Amerika'da Blind Faith'in ön grubu oldu. İlk albüm Taste (1969) ham bir blues rock'tı; On the Boards (1970) caz renklerini ve Gallagher'ın saksafonunu ekleyip İngiltere'de ilk 20'ye girdi. Ağustos 1970'te Murray Lerner'ın filme aldığı Isle of Wight Festivali seti festivalin doruklarından biriydi. Menajerleriyle anlaşmazlıklar grubu 1970 sonunda bitirdi; Gallagher 1995'teki ölümüne kadar süren solo kariyerine başladı.",
+ "grp.taste.dna": "Gallagher'ın yıpranmış Stratocaster'ı etrafında kurulu power trio blues rock'ı: slide gitar, hızlı blues koşuları, akustik folk-blues ve On the Boards'ta caz akorları ile saksafon; sahnede ham enerji ve uzun doğaçlamalar.",
+ "grp.taste.uyeler": "Rory Gallagher (gitar, vokal, alto saksafon, mızıka), Richard McCracken (bas, 1968–70), John Wilson (davul, 1968–70); ilk kadro Eric Kitteringham (bas) ve Norman Damery (davul), 1966–68.",
+ "grp.taste.gecisler": "Fontana showband (Gallagher) → Taste (1966) → Rory Gallagher solo (1971–95). John Wilson daha önce Them'de çalmıştı. McCracken ve Wilson → sonra Family'ye katılacak gitarist Jim Cregan'la Stud. Taste, Cream'in (1968) ve Blind Faith'in (1969) ön grubu oldu.",
+ "grp.taste.etki": "Uluslararası dinleyici kitlesine ulaşan ilk İrlanda rock grubu; Gallagher'ın gitarı Brian May ve the Edge gibi gitaristler için referans oldu, Taste de blues power trio'sunun cazı ve folk'u içine alabileceğini gösterdi.",
+ "grp.taste.ipucu": [
+  "Live at the Isle of Wight ile başla: grup, dağılmadan birkaç hafta önce, doruk noktasında.",
+  "On the Boards'ta Gallagher'ın saksafonu ve caz akorları için adını veren parçayı ve 'It's Happened Before, It'll Happen Again'i dinle.",
+  "Taste'i Cream'in Fresh Cream'iyle yan yana dinle: aynı trio biçimi, aralarında iki yıl ve İrlanda Denizi."
+ ],
+ "alb.taste-1969-taste.an": "İlk albüm: 'Blister on the Moon'un riff'inden uzun 'Catfish'e, Gallagher'ın slide gitarıyla ham blues rock.",
+ "alb.taste-1969-taste.oncelik": "Önerilir.",
+ "alb.taste-1969-taste.tip": "stüdyo",
+ "alb.taste-1969-taste.kadro": "Rory Gallagher, Richard McCracken, John Wilson",
+ "alb.taste-1969-taste.tr": [
+  "Blister on the Moon",
+  "Born on the Wrong Side of Time",
+  "Same Old Story",
+  "Catfish"
+ ],
+ "alb.taste-1970-on-the-boards.an": "Grubun en iddialı plağı: Gallagher'ın alto saksafonuyla caza açılan blues rock; İngiltere'de ilk 20'ye girdi.",
+ "alb.taste-1970-on-the-boards.oncelik": "Önerilir.",
+ "alb.taste-1970-on-the-boards.tip": "stüdyo",
+ "alb.taste-1970-on-the-boards.kadro": "Rory Gallagher, Richard McCracken, John Wilson",
+ "alb.taste-1970-on-the-boards.tr": [
+  "What's Going On",
+  "It's Happened Before, It'll Happen Again",
+  "On the Boards",
+  "If the Day Was Any Longer"
+ ],
+ "alb.taste-1971-live-at-the-isle-of-wight.an": "Ağustos 1970'te Isle of Wight Festivali'nde kaydedildi, dağıldıktan sonra yayımlandı: yüz binlerin önünde tam güçteki Taste.",
+ "alb.taste-1971-live-at-the-isle-of-wight.oncelik": "İsteğe bağlı.",
+ "alb.taste-1971-live-at-the-isle-of-wight.tip": "canlı",
+ "alb.taste-1971-live-at-the-isle-of-wight.kadro": "Rory Gallagher, Richard McCracken, John Wilson",
+ "alb.taste-1971-live-at-the-isle-of-wight.tr": [
+  "What's Going On",
+  "Sinner Boy",
+  "Catfish"
  ]
 }

@@ -246,7 +246,7 @@
   "All the Seats Were Occupied"
  ],
  "sec.17.title": "The Hard Rock Fringe — Blues and Heavy Rock Neighbours",
- "sec.17.intro": "Blues-rock and hard rock bands born in the same clubs as prog and sharing its musicians: Ten Years After, Mick Abrahams's post-Tull band Blodwyn Pig, the jazz-rock of Colosseum, Deep Purple, Jon Lord's orchestral works, Uriah Heep (Ken Hensley, John Wetton), the Hammond-driven heavy rock of Hamburg's Zarathustra, Lucifer's Friend from Germany, Wishbone Ash, Budgie and Rainbow (Cozy Powell, later of Emerson, Lake & Powell).",
+ "sec.17.intro": "Blues-rock and hard rock bands born in the same clubs as prog and sharing its musicians: the power trio Cream (Clapton, Bruce, Baker), Ten Years After, Rory Gallagher's Taste from Ireland, Mick Abrahams's post-Tull band Blodwyn Pig, the jazz-rock of Colosseum, Deep Purple, Jon Lord's orchestral works, Uriah Heep (Ken Hensley, John Wetton), the Hammond-driven heavy rock of Hamburg's Zarathustra, Lucifer's Friend from Germany, Wishbone Ash, Budgie and Rainbow (Cozy Powell, later of Emerson, Lake & Powell).",
  "grp.ten-years-after.kurulus": "1966, Nottingham. Alvin Lee (guitar/vocals), Leo Lyons (bass), Ric Lee (drums), Chick Churchill (keyboards).",
  "grp.ten-years-after.hikaye": "Alvin Lee's reputation as 'the fastest guitarist in the world' made the band one of the leading British blues-rock acts; their 1969 Woodstock performance of 'I'm Going Home' and its place in the film turned them into international stars. Although rooted in blues, their jazz, psychedelic and progressive experiments (Ssssh, Cricklewood Green, A Space in Time) place them on the blues wing of proto-prog. They split in 1974 and reunited in 1988. Alvin Lee left in 2003 and died in 2013; the band continued with Joe Gooch and later Marcus Bonfanti.",
  "grp.ten-years-after.dna": "Fast blues guitar, jazz swing, psychedelic sound effects and long improvisations.",
@@ -12626,5 +12626,105 @@
   "Comfortably Numb",
   "The Trial",
   "The Tide Is Turning"
+ ],
+ "grp.cream.name": "Cream",
+ "grp.cream.kurulus": "1966, London. Eric Clapton (from the Yardbirds and John Mayall's Bluesbreakers) with Jack Bruce and Ginger Baker (both from the Graham Bond Organisation); often called rock's first supergroup.",
+ "grp.cream.hikaye": "Cream was formed in July 1966 at Ginger Baker's initiative, despite the old feud between him and Jack Bruce from their Graham Bond days. Fresh Cream (1966) mixed blues standards with Bruce's songs; Disraeli Gears (1967), recorded in New York with producer Felix Pappalardi and engineer Tom Dowd, brought 'Sunshine of Your Love' and the psychedelic songs Bruce wrote with the poet Pete Brown. On American stages the trio stretched pieces like 'Spoonful' into improvisations of fifteen minutes and more; Wheels of Fire (1968), half studio and half live at the Fillmore and Winterland, became the first platinum double album. Worn out by volume and the Bruce–Baker tension, they announced the split in 1968 and said farewell at the Royal Albert Hall on 26 November 1968, with Taste and the young Yes as support acts. Goodbye (1969) gathered the last recordings, including 'Badge', written with George Harrison. Clapton and Baker formed Blind Faith with Steve Winwood and Ric Grech; Cream reunited at the Royal Albert Hall and Madison Square Garden in 2005. Bruce died in 2014, Baker in 2019.",
+ "grp.cream.dna": "The power trio: blues standards stretched into long collective improvisations, loud guitar riffs, Jack Bruce's melodic lead bass and Ginger Baker's jazz-trained drumming with two bass drums; in the studio, psychedelic songs with Pete Brown's surreal lyrics.",
+ "grp.cream.uyeler": "Eric Clapton (guitar, vocals), Jack Bruce (bass, lead vocals, harmonica, piano, cello), Ginger Baker (drums, percussion); producer Felix Pappalardi (also viola and keyboards on the studio records) and lyricist Pete Brown as close collaborators.",
+ "grp.cream.gecisler": "Graham Bond Organisation (Bruce, Baker), the Yardbirds and John Mayall's Bluesbreakers (Clapton) → Cream (1966). → Blind Faith (Clapton, Baker, with Steve Winwood and Family's Ric Grech, 1969) → Ginger Baker's Air Force; Clapton → Derek and the Dominos and solo. Jack Bruce → solo, Tony Williams Lifetime, West, Bruce & Laing, later BBM (with Baker and Gary Moore). Felix Pappalardi → Mountain. Bruce later played bass on Jon Anderson's Song of Seven.",
+ "grp.cream.etki": "The template of the rock power trio, from the Jimi Hendrix Experience to Rush (Geddy Lee and Alex Lifeson name Cream as a key influence); its long stage improvisations opened the way for jam bands and for the extended forms of early prog, and its riffs for Led Zeppelin and heavy rock.",
+ "grp.cream.ipucu": [
+  "Hear Wheels of Fire as two records: the studio disc ('White Room', 'As You Said') shows the songwriters, the live disc ('Crossroads', 'Spoonful') the improvisers.",
+  "Compare the three-minute studio 'Spoonful' on Fresh Cream with the sixteen-minute live version: that is the step from blues band to proto-prog.",
+  "Remember the farewell concert of November 1968: one of the support acts was Yes, a few months after its first gigs."
+ ],
+ "alb.cream-1966-fresh-cream.an": "The debut: blues standards ('Spoonful', 'Rollin' and Tumblin'', 'I'm So Glad') next to Bruce's first songs and Baker's drum showcase 'Toad'. The trio is still a blues band, but one that already plays loud and free.",
+ "alb.cream-1966-fresh-cream.oncelik": "Recommended.",
+ "alb.cream-1966-fresh-cream.tip": "studio",
+ "alb.cream-1966-fresh-cream.kadro": "Eric Clapton, Jack Bruce, Ginger Baker",
+ "alb.cream-1966-fresh-cream.prod": "Robert Stigwood",
+ "alb.cream-1966-fresh-cream.tr": [
+  "N.S.U.",
+  "Sweet Wine",
+  "Spoonful",
+  "I'm So Glad",
+  "Toad"
+ ],
+ "alb.cream-1967-disraeli-gears.an": "Recorded in a few days in New York with Felix Pappalardi and Tom Dowd: the riff of 'Sunshine of Your Love', the Homeric 'Tales of Brave Ulysses' with Clapton's wah-wah, and Bruce and Pete Brown's psychedelic songs. Martin Sharp's day-glo cover is one of the icons of 1967.",
+ "alb.cream-1967-disraeli-gears.oncelik": "Essential.",
+ "alb.cream-1967-disraeli-gears.tip": "studio",
+ "alb.cream-1967-disraeli-gears.kadro": "Eric Clapton, Jack Bruce, Ginger Baker",
+ "alb.cream-1967-disraeli-gears.prod": "Felix Pappalardi",
+ "alb.cream-1967-disraeli-gears.tr": [
+  "Strange Brew",
+  "Sunshine of Your Love",
+  "Tales of Brave Ulysses",
+  "SWLABR",
+  "We're Going Wrong"
+ ],
+ "alb.cream-1968-wheels-of-fire.an": "A double album: one disc of studio songs with strings, brass and odd metres ('White Room', 'As You Said', 'Deserted Cities of the Heart'), one disc live at the Fillmore and Winterland with the classic 'Crossroads' and the long jams 'Spoonful' and 'Toad'. The first double album to sell a million copies.",
+ "alb.cream-1968-wheels-of-fire.oncelik": "Essential.",
+ "alb.cream-1968-wheels-of-fire.tip": "studio + live (double LP)",
+ "alb.cream-1968-wheels-of-fire.kadro": "Eric Clapton, Jack Bruce, Ginger Baker; Felix Pappalardi (viola, organ, trumpet)",
+ "alb.cream-1968-wheels-of-fire.prod": "Felix Pappalardi",
+ "alb.cream-1968-wheels-of-fire.tr": [
+  "White Room",
+  "Politician",
+  "As You Said",
+  "Deserted Cities of the Heart",
+  "Crossroads",
+  "Spoonful"
+ ],
+ "alb.cream-1969-goodbye.an": "Released after the split: three live pieces from the last American tour and three new studio songs, among them 'Badge', written by Clapton and George Harrison.",
+ "alb.cream-1969-goodbye.oncelik": "Optional.",
+ "alb.cream-1969-goodbye.tip": "studio + live",
+ "alb.cream-1969-goodbye.kadro": "Eric Clapton, Jack Bruce, Ginger Baker; George Harrison (guitar, as 'L'Angelo Misterioso') on 'Badge'",
+ "alb.cream-1969-goodbye.prod": "Felix Pappalardi",
+ "alb.cream-1969-goodbye.tr": [
+  "I'm So Glad",
+  "Badge",
+  "Doing That Scrapyard Thing"
+ ],
+ "grp.taste.name": "Taste",
+ "grp.taste.kurulus": "1966, Cork, Ireland. Rory Gallagher's blues-rock trio; the records were made by the 1968–70 line-up with Richard McCracken (bass) and John Wilson (drums).",
+ "grp.taste.hikaye": "Rory Gallagher left the showband circuit and formed Taste in Cork in 1966 with Eric Kitteringham and Norman Damery; the band built its reputation at the Maritime Hotel in Belfast. In 1968 Gallagher moved to London with a new rhythm section, Richard McCracken and John Wilson. Taste opened for Cream at its farewell concert in November 1968 and for Blind Faith in America in 1969. The debut Taste (1969) was raw blues rock; On the Boards (1970) added jazz colours and Gallagher's saxophone and reached the UK top 20. Their set at the Isle of Wight Festival in August 1970, filmed by Murray Lerner, was one of its highlights. Disputes with their manager ended the band at the end of 1970; Gallagher began a solo career that lasted until his death in 1995.",
+ "grp.taste.dna": "Power-trio blues rock built around Gallagher's worn Stratocaster: slide guitar, fast blues runs, acoustic folk-blues and, on On the Boards, jazz chords and saxophone; on stage, raw energy and long improvisations.",
+ "grp.taste.uyeler": "Rory Gallagher (guitar, vocals, alto saxophone, harmonica), Richard McCracken (bass, 1968–70), John Wilson (drums, 1968–70); first line-up Eric Kitteringham (bass) and Norman Damery (drums), 1966–68.",
+ "grp.taste.gecisler": "The Fontana showband (Gallagher) → Taste (1966) → Rory Gallagher solo (1971–95). John Wilson had played with Them. McCracken and Wilson → Stud, with guitarist Jim Cregan, who later joined Family. Taste supported Cream (1968) and Blind Faith (1969).",
+ "grp.taste.etki": "The first Irish rock band with an international following; Gallagher's guitar became a reference for players such as Brian May and the Edge, and Taste showed that the blues power trio could absorb jazz and folk.",
+ "grp.taste.ipucu": [
+  "Start with Live at the Isle of Wight: the band at its peak, a few weeks before it broke up.",
+  "On On the Boards, listen to the title track and 'It's Happened Before, It'll Happen Again' for Gallagher's saxophone and jazz chords.",
+  "Hear Taste next to Cream's Fresh Cream: the same trio format, two years and an Irish sea apart."
+ ],
+ "alb.taste-1969-taste.an": "The debut: raw blues rock with Gallagher's slide guitar, from the riff of 'Blister on the Moon' to the long 'Catfish'.",
+ "alb.taste-1969-taste.oncelik": "Recommended.",
+ "alb.taste-1969-taste.tip": "studio",
+ "alb.taste-1969-taste.kadro": "Rory Gallagher, Richard McCracken, John Wilson",
+ "alb.taste-1969-taste.tr": [
+  "Blister on the Moon",
+  "Born on the Wrong Side of Time",
+  "Same Old Story",
+  "Catfish"
+ ],
+ "alb.taste-1970-on-the-boards.an": "The band's most ambitious record: blues rock opened up to jazz, with Gallagher on alto saxophone; it reached the UK top 20.",
+ "alb.taste-1970-on-the-boards.oncelik": "Recommended.",
+ "alb.taste-1970-on-the-boards.tip": "studio",
+ "alb.taste-1970-on-the-boards.kadro": "Rory Gallagher, Richard McCracken, John Wilson",
+ "alb.taste-1970-on-the-boards.tr": [
+  "What's Going On",
+  "It's Happened Before, It'll Happen Again",
+  "On the Boards",
+  "If the Day Was Any Longer"
+ ],
+ "alb.taste-1971-live-at-the-isle-of-wight.an": "Recorded at the Isle of Wight Festival in August 1970, released after the split: Taste at full power in front of hundreds of thousands.",
+ "alb.taste-1971-live-at-the-isle-of-wight.oncelik": "Optional.",
+ "alb.taste-1971-live-at-the-isle-of-wight.tip": "live",
+ "alb.taste-1971-live-at-the-isle-of-wight.kadro": "Rory Gallagher, Richard McCracken, John Wilson",
+ "alb.taste-1971-live-at-the-isle-of-wight.tr": [
+  "What's Going On",
+  "Sinner Boy",
+  "Catfish"
  ]
 }
