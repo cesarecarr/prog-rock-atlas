@@ -2764,6 +2764,13 @@
 "cov": "kapaklar/roger-waters-1987-radio-k-a-o-s.jpg"
 },
 {
+"id": "roger-waters-1990-the-wall-live-in-berlin",
+"t": "The Wall – Live in Berlin",
+"y": 1990,
+"onc": "onerilir",
+"cov": "kapaklar/roger-waters-1990-the-wall-live-in-berlin.jpg"
+},
+{
 "id": "roger-waters-1992-amused-to-death",
 "t": "Amused to Death",
 "y": 1992,
@@ -7494,6 +7501,33 @@
 "y": 1975,
 "onc": "onerilir",
 "cov": "kapaklar/ash-ra-tempel-1975-inventions-for-electric-guitar.jpg"
+}
+]
+},
+{
+"id": "agitation-free",
+"artist": "Agitation Free",
+"albums": [
+{
+"id": "agitation-free-1972-malesch",
+"t": "Malesch",
+"y": 1972,
+"onc": "onerilir",
+"cov": "kapaklar/agitation-free-1972-malesch.jpg"
+},
+{
+"id": "agitation-free-1973-2nd",
+"t": "2nd",
+"y": 1973,
+"onc": "istege",
+"cov": "kapaklar/agitation-free-1973-2nd.jpg"
+},
+{
+"id": "agitation-free-1976-last",
+"t": "Last",
+"y": 1976,
+"onc": "istege",
+"cov": "kapaklar/agitation-free-1976-last.jpg"
 }
 ]
 },

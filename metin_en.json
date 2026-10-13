@@ -32,6 +32,12 @@
  "grp.the-strawbs-wakeman-koku.hikaye": "Founded by Dave Cousins in 1964 as the bluegrass band Strawberry Hill Boys, the group evolved from folk to folk-prog. Sandy Denny briefly sang with them; Rick Wakeman's keyboards in 1970–71 pushed the band towards prog and sent Wakeman on to Yes. 'Part of the Union' (1973) became a hit that turned into a trade-union anthem. Under Cousins' leadership the band began recording again with its classic line-up in the 2000s.",
  "grp.the-strawbs-wakeman-koku.dna": "English folk-rock plus increasingly elaborate keyboard ornamentation. A showcase for Wakeman's organ and Mellotron skills.",
  "grp.the-strawbs-wakeman-koku.etki": "The station that carried Wakeman to Yes.",
+ "grp.the-strawbs-wakeman-koku.uyeler": "Dave Cousins (vocals, guitar, banjo, dulcimer; leader throughout), Tony Hooper (guitar, vocals, 1964–72), Richard Hudson (drums, sitar, 1970–73), John Ford (bass, 1970–73), Rick Wakeman (keyboards, 1970–71), Blue Weaver (keyboards, 1971–73), Dave Lambert (guitar, 1972–), Chas Cronk (bass, 1973–), John Hawken (keyboards, 1973–75); Sandy Denny sang with them briefly in 1967.",
+ "grp.the-strawbs-wakeman-koku.gecisler": "Strawberry Hill Boys → Strawbs. Sandy Denny → Fairport Convention (1968). Rick Wakeman → Yes (1971). Blue Weaver from Amen Corner; later with the Bee Gees' band. Hudson and Ford → Hudson Ford (1973). John Hawken from the first Renaissance and the Nashville Teens.",
+ "grp.the-strawbs-wakeman-koku.ipucu": [
+  "Start with Just a Collection of Antiques and Curios (live, 1970): Wakeman's organ solo in 'Where Is This Dream of Your Youth' made the press call him a star before Yes.",
+  "Then go to Grave New World and Hero and Heroine to hear how the band kept the Mellotron-heavy sound after Wakeman left."
+ ],
  "alb.the-strawbs-1970-dragonfly.an": "The second album, produced by Tony Visconti: still mostly acoustic folk, coloured by Claire Deniz's cello, with the long ballad 'The Vision of the Lady of the Lake' at its centre. Rick Wakeman plays piano here as a session musician, shortly before joining the band.",
  "alb.the-strawbs-1970-dragonfly.tr": [
   "Dragonfly — title track, pastoral English folk",
@@ -597,6 +603,12 @@
  "grp.steven-wilson-solo.dna": "'70s jazz-prog and Canterbury harmonies, Crimson's Mellotron, film-score atmosphere, pop melody; a flawless 5.1-mixing aesthetic.",
  "grp.steven-wilson-solo.gecisler": "Porcupine Tree → solo; Mikael Åkerfeldt (Storm Corrosion), Aviv Geffen (Blackfield), Tim Bowness (No-Man); remixes: King Crimson, Yes, Jethro Tull, ELP, Gentle Giant, Caravan, XTC, Roxy Music, Tears for Fears.",
  "grp.steven-wilson-solo.etki": "The central figure of 1995–2020 prog; the bridge reconnecting the younger generation to classic prog through remixes.",
+ "grp.steven-wilson-solo.uyeler": "Steven Wilson (vocals, guitar, keyboards, producer) with Guthrie Govan (guitar), Marco Minnemann (drums), Nick Beggs (bass, Stick), Adam Holzman (keyboards) and Theo Travis (saxophone, flute) on The Raven and Hand. Cannot. Erase.; earlier guests include Gavin Harrison, Jordan Rudess, Tony Levin, Pat Mastelotto, Trey Gunn and Steve Hackett; later Craig Blundell (drums), Ninet Tayeb (vocals) and Randy McStine.",
+ "grp.steven-wilson-solo.ipucu": [
+  "Listen to The Raven That Refused to Sing after his remix of Lizard: the same Mellotron, flute and jazz chords.",
+  "Hand. Cannot. Erase. tells the story of a woman who disappeared in a big city: read its background before listening.",
+  "Compare To the Bone and The Future Bites with Grace for Drowning: Wilson's argument with the word 'prog' in sound."
+ ],
  "alb.steven-wilson-2008-insurgentes.an": "A first solo album recorded partly in Mexico, mixing shoegaze, electronics and prog.",
  "alb.steven-wilson-2011-grace-for-drowning.an": "An open homage to '70s jazz-prog after the Crimson remixes: Mellotron, saxophone and the 23-minute 'Raider II'.",
  "alb.steven-wilson-2011-grace-for-drowning.detay": [
@@ -632,6 +644,12 @@
  "grp.neal-morse-solo-ve-neal-morse-band.dna": "Yes and Genesis symphonism, Beatles melody, gospel fervour and Broadway-musical dramaturgy.",
  "grp.neal-morse-solo-ve-neal-morse-band.gecisler": "Spock's Beard → Transatlantic → solo → Flying Colors (Steve Morse, Portnoy, Dave LaRue, Casey McPherson) → Neal Morse Band; Morse Portnoy George (cover projects).",
  "grp.neal-morse-solo-ve-neal-morse-band.etki": "The biggest name in Christian prog; with Transatlantic and Flying Colors, a central node of supergroup culture.",
+ "grp.neal-morse-solo-ve-neal-morse-band.uyeler": "Neal Morse (vocals, keyboards, guitar) with Mike Portnoy (drums) and Randy George (bass) as the steady rhythm section; from 2015 the Neal Morse Band adds Bill Hubauer (keyboards, vocals) and Eric Gillette (guitar, vocals); guests on the solo albums include Kerry Livgren and members of the Nashville session scene.",
+ "grp.neal-morse-solo-ve-neal-morse-band.ipucu": [
+  "Testimony tells his own conversion story: listen to it as an autobiography in music.",
+  "Read the outline of The Pilgrim's Progress before The Similitude of a Dream; The Great Adventure is its sequel.",
+  "Listen for the Beatles: Morse quotes their harmonies and piano style constantly."
+ ],
  "alb.neal-morse-2003-testimony.an": "An autobiographical double concept album about Morse's religious conversion.",
  "alb.neal-morse-2007-sola-scriptura.an": "A heavy, metal-tinged concept telling the story of Martin Luther and the Reformation, opening with a 29-minute piece.",
  "alb.neal-morse-2007-sola-scriptura.kadro": "Neal Morse, Mike Portnoy, Randy George, Paul Gilbert (guest)",
@@ -895,6 +913,12 @@
  "grp.robert-fripp-solo-ve-ortaklklar.dna": "Tremolo picking, seamless legato soloing, layers of loops; a philosophy of discipline drawn from Gurdjieff.",
  "grp.robert-fripp-solo-ve-ortaklklar.gecisler": "Giles, Giles & Fripp → King Crimson → Fripp & Eno → Bowie/Gabriel sessions → The League of Gentlemen → Guitar Craft → Fripp & Andy Summers → Sylvian/Fripp → ProjeKcts.",
  "grp.robert-fripp-solo-ve-ortaklklar.etki": "A pioneer of ambient music (with Eno) and of looping techniques; a teacher of method whose reach extends from prog to post-rock.",
+ "grp.robert-fripp-solo-ve-ortaklklar.uyeler": "Partners rather than a band: Brian Eno ((No Pussyfooting), Evening Star); on Exposure Peter Gabriel, Daryl Hall, Peter Hammill, Terre Roche, Tony Levin, Jerry Marotta, Phil Collins, Barry Andrews, Sid McGinnis and Narada Michael Walden; The League of Gentlemen (Barry Andrews, Sara Lee, Johnny Toobad, Kevin Wilkinson); Andy Summers (I Advance Masked, Bewitched); David Sylvian, Trey Gunn and Jerry Marotta (The First Day).",
+ "grp.robert-fripp-solo-ve-ortaklklar.ipucu": [
+  "Listen to Exposure as Fripp's 'diary' of 1977–78: it was planned as the third part of a trilogy with Gabriel's second album and Hall's Sacred Songs.",
+  "(No Pussyfooting) is two tape recorders and a guitar: listen once knowing that, then forget it.",
+  "The First Day is the bridge to 1990s Crimson: the riffs and Trey Gunn's Stick lead straight to THRAK."
+ ],
  "alb.robert-fripp-1973-no-pussyfooting.an": "The first album with Brian Eno: the birth of 'Frippertronics', built from delayed loops between two Revox tape machines.",
  "alb.robert-fripp-1973-no-pussyfooting.oncelik": "Recommended — one of ambient music's founding records.",
  "alb.robert-fripp-1975-evening-star.an": "Fripp & Eno's second, more melodic album.",
@@ -917,6 +941,12 @@
  "grp.john-wetton-solo.dna": "Distorted, aggressive bass; emotional, powerful vocals; melodic songwriting between prog and AOR.",
  "grp.john-wetton-solo.gecisler": "Mogul Thrash → Family → King Crimson → Roxy Music → Uriah Heep → U.K. → Asia → Icon (Downes) → solo.",
  "grp.john-wetton-solo.etki": "The only voice shared by Crimson and Asia; the man who joined prog and arena rock.",
+ "grp.john-wetton-solo.uyeler": "Solo projects with changing guests: Martin Barre, Simon Kirke and Malcolm Duncan (Caught in the Crossfire); Geoff Downes (Icon); on Raised in Captivity Steve Hackett, Robert Fripp, Eddie Jobson, Tony Kaye, Steve Morse, Mick Box and Geoff Downes, with Billy Sherwood producing.",
+ "grp.john-wetton-solo.ipucu": [
+  "Listen to Caught in the Crossfire (1980) as the missing step between U.K. and Asia: the songs are already radio-shaped.",
+  "Raised in Captivity is a 'family reunion': try to recognise each guest's instrument before reading the credits.",
+  "For the voice, go back to Starless and Bible Black and Red; for the bass, to 'Easy Money' live."
+ ],
  "alb.john-wetton-1980-caught-in-the-crossfire.an": "His first solo album, after U.K. and before Asia; its AOR leanings sound like a rehearsal for Asia.",
  "alb.john-wetton-1997-arkangel.an": "A strong solo album between prog and melodic rock, with Robert Fripp and Steve Hackett as guests.",
  "alb.john-wetton-2005-icon.an": "A joint project with Geoff Downes; a return to Asia's classic melodicism that paved the way for the original Asia reunion.",
@@ -1351,6 +1381,12 @@
  "grp.rick-wakeman-solo.dna": "Classical piano technique, Minimoog solos, Mellotron and church organ; narrative programme music with orchestra and choir.",
  "grp.rick-wakeman-solo.gecisler": "Strawbs → Yes → solo; ABWH (1989), Anderson Rabin Wakeman (2016–18). His son Oliver Wakeman: Yes (2008–11), From a Page.",
  "grp.rick-wakeman-solo.etki": "The most popular face of keyboard-centred symphonic rock; with Keith Emerson, the archetype of the 'keyboard virtuoso'.",
+ "grp.rick-wakeman-solo.uyeler": "Rick Wakeman with his English Rock Ensemble: Ashley Holt and Gary Pickford-Hopkins (vocals), Roger Newell (bass), Barney James and Tony Fernandez (drums), Jeffrey Crampton and John Dunsterville (guitar); the London Symphony Orchestra and English Chamber Choir under David Measham (Journey, King Arthur). Six Wives features Yes and Strawbs musicians (Howe, Squire, Bruford, White, Dave Lambert, Chas Cronk); Return to the Centre of the Earth has Patrick Stewart, Ozzy Osbourne, Trevor Rabin and Justin Hayward.",
+ "grp.rick-wakeman-solo.ipucu": [
+  "Six Wives is purely instrumental: each piece is a character portrait — guess the wife before reading the title.",
+  "Listen to Journey (1974) and Return to the Centre of the Earth (1999) back to back: 25 years of production in one story.",
+  "Count the keyboards: Wakeman often stacks Minimoog, Mellotron, Hammond and piano in the same bar."
+ ],
  "alb.rick-wakeman-1973-the-six-wives-of-henry-viii.an": "An instrumental portrait of each of Henry VIII's six wives. A solo masterpiece featuring members of Yes and the Strawbs, showing Wakeman's technique in its purest form.",
  "alb.rick-wakeman-1973-the-six-wives-of-henry-viii.oncelik": "Essential — the peak of his solo career.",
  "alb.rick-wakeman-1973-the-six-wives-of-henry-viii.kadro": "Wakeman + members of Yes and the Strawbs (Steve Howe, Chris Squire, Bill Bruford, Alan White, Dave Lambert, Chas Cronk and others)",
@@ -1379,6 +1415,12 @@
  "grp.steve-howe-solo.dna": "Jazz chords, country fingerpicking, Portuguese guitar and lap steel; a narrative style that travels through several genres within a single solo.",
  "grp.steve-howe-solo.gecisler": "Syndicats → Tomorrow → Bodast → Yes → Asia → GTR → ABWH → Yes; Steve Howe Trio (jazz).",
  "grp.steve-howe-solo.etki": "Prog guitar's 'poet of tone'; with his eclectic approach he set an example for the next generation (Roine Stolt, Steve Morse).",
+ "grp.steve-howe-solo.uyeler": "Steve Howe with Yes colleagues and friends: Alan White, Bill Bruford and Patrick Moraz (Beginnings, The Steve Howe Album), Billy Currie of Ultravox (Turbulence), his son Dylan Howe (drums) and the Remedy band (Elements); in the Steve Howe Trio, Ross Stanley (organ) and Dylan Howe. On Beginnings and Elements Howe also sings.",
+ "grp.steve-howe-solo.ipucu": [
+  "The Steve Howe Album is a 'guitar museum': each track features a different instrument — steel, Portuguese guitar, classical, electric.",
+  "His version of Vivaldi on The Steve Howe Album links straight to 'Mood for a Day' and 'The Clap' — the solo guitar spots in Yes.",
+  "Skip the vocals if they bother you; the instrumentals are the core of his solo work."
+ ],
  "alb.steve-howe-1975-beginnings.an": "Part of the wave of Yes solo albums; a plain first solo album with Howe's own vocals but rich in guitar.",
  "alb.steve-howe-1975-beginnings.oncelik": "Optional — listen to it like a set of guitar lessons.",
  "alb.steve-howe-1975-beginnings.tr": [
@@ -1402,6 +1444,12 @@
  "grp.jon-anderson-solo.dna": "Spiritual lyrics, a near-falsetto high tenor, an approach of 'sound rather than words' through vocal colour; world music and electronics.",
  "grp.jon-anderson-solo.gecisler": "The Warriors → Yes → Jon & Vangelis → ABWH → Yes → ARW; Anderson Ponty Band, Anderson/Stolt.",
  "grp.jon-anderson-solo.etki": "The archetype of the prog vocalist; his 'cosmic optimism' influenced the generation of Neal Morse and the Flower Kings.",
+ "grp.jon-anderson-solo.uyeler": "Alone on Olias of Sunhillow; on Song of Seven and Animation a studio band with Clem Clempson and Ian Bairnson (guitar), Jack Bruce and John Giblin (bass), Simon Phillips and Morris Pert (drums), David Sancious (keyboards) and Chris Rainbow (vocals). Later partners: Vangelis, Jean-Luc Ponty, Roine Stolt (Invention of Knowledge); on 1000 Hands Chris Squire, Alan White, Steve Howe, Ian Anderson, Chick Corea, Jean-Luc Ponty and Steve Morse.",
+ "grp.jon-anderson-solo.ipucu": [
+  "Olias of Sunhillow is a story about an alien people building a ship to escape their planet — read the cover painting as a map.",
+  "Listen to Olias right after Tales from Topographic Oceans: it's the same spiritual journey, now without the band.",
+  "1000 Hands was begun in 1990 and finished in 2019: Chris Squire's bass is one of his last recordings."
+ ],
  "alb.jon-anderson-1976-olias-of-sunhillow.an": "A fantasy concept album on which Anderson plays every instrument, telling how Olias builds a spaceship, the Moorglade, to save his people from their dying planet. The sonic counterpart of the Roger Dean aesthetic.",
  "alb.jon-anderson-1976-olias-of-sunhillow.oncelik": "Recommended — the mystical face of Yes.",
  "alb.jon-anderson-1976-olias-of-sunhillow.detay": [
@@ -1423,6 +1471,12 @@
  "grp.chris-squire-solo.dna": "Lead bass: pick, Rickenbacker treble, contrapuntal melodies; vocal harmony from the choir tradition.",
  "grp.chris-squire-solo.gecisler": "The Syn → Mabel Greer's Toyshop → Yes; Cinema (1982, with Rabin/White, became 90125); XYZ (1981 demos with Page); Squackett (with Hackett).",
  "grp.chris-squire-solo.etki": "One of the most influential figures in bringing the bass guitar to the fore in rock; a model for bassists such as Geddy Lee, Steve Harris and Billy Sheehan.",
+ "grp.chris-squire-solo.uyeler": "Fish Out of Water: Chris Squire with Bill Bruford, Patrick Moraz, Mel Collins, Jimmy Hastings and orchestrator Andrew Pryce Jackman (his bandmate from The Syn). Swiss Choir: Steve Hackett, Gerard Johnson, Jeremy Stacey. A Life Within a Day: Squackett — Squire and Steve Hackett with Roger King and Jeremy Stacey.",
+ "grp.chris-squire-solo.ipucu": [
+  "Fish Out of Water is the essential one: it sounds like a Yes album led by the bass, with church organ and orchestra.",
+  "Listen on headphones and follow only the bass in 'Hold Out Your Hand' and 'You by My Side'.",
+  "Swiss Choir is a Christmas album — a curiosity, but it shows the choirboy behind the harmonies."
+ ],
  "alb.chris-squire-1975-fish-out-of-water.an": "His only 'true' solo album, with Bill Bruford and Patrick Moraz and orchestral arrangements by Andrew Pryce Jackman. Church organ, orchestra and bass melodies; considered the best Yes solo album.",
  "alb.chris-squire-1975-fish-out-of-water.detay": [
   "Mel Collins (King Crimson) and Jimmy Hastings (Caravan) on woodwinds — three universes meeting."
@@ -1567,6 +1621,13 @@
  "grp.atomic-rooster-yan-dugum.kurulus": "1969; formed by Vincent Crane (organ) and Carl Palmer (drums) from Arthur Brown's band. Palmer soon moved on to ELP.",
  "grp.atomic-rooster-yan-dugum.dna": "Heavy organ rock, dark atmosphere; a bridge between proto-prog and hard rock.",
  "grp.atomic-rooster-yan-dugum.etki": "The way station that carried Carl Palmer to ELP; Steve Howe also briefly auditioned here (\"it didn't quite fit\").",
+ "grp.atomic-rooster-yan-dugum.hikaye": "Vincent Crane and Carl Palmer left Arthur Brown's band in 1969 and formed Atomic Rooster with bassist-singer Nick Graham. Soon after the first album (1970), Palmer left for ELP; with John Du Cann (guitar, vocals) and Paul Hammond (drums) the band found its classic sound on Death Walks Behind You, and the singles 'Tomorrow Night' and 'Devil's Answer' reached the UK top 20. In Hearing of Atomic Rooster (1971) added singer Pete French, but the line-up kept changing; Chris Farlowe sang in the soul-leaning later years. Crane revived the name around 1980 and later played with Dexys Midnight Runners; he died in 1989.",
+ "grp.atomic-rooster-yan-dugum.uyeler": "Vincent Crane (organ, the only constant), Carl Palmer (drums, 1969–70), Nick Graham (bass, vocals, 1969–70), John Du Cann (guitar, vocals, 1970–71, 1980–82), Paul Hammond (drums, 1970–71), Pete French (vocals, 1971), later Steve Bolton (guitar), Ric Parnell (drums) and Chris Farlowe (vocals).",
+ "grp.atomic-rooster-yan-dugum.gecisler": "The Crazy World of Arthur Brown → Atomic Rooster (Crane, Palmer, 1969) → ELP (Palmer, 1970). John Du Cann from Andromeda; Du Cann and Hammond → Hard Stuff. Pete French from Leaf Hound → Cactus. Ric Parnell later played the drummer Mick Shrimpton in This Is Spinal Tap.",
+ "grp.atomic-rooster-yan-dugum.ipucu": [
+  "Listen to the first album for Palmer's drumming before ELP, then Death Walks Behind You for the band's real identity.",
+  "There is no bass guitar most of the time: Crane plays the bass lines on the organ pedals or left hand — listen for it."
+ ],
  "alb.atomic-rooster-1970-atomic-rooster.an": "The debut of Vincent Crane's organ trio, with Carl Palmer on drums and Nick Graham on bass and vocals: heavy, blues-based organ rock in the line of The Crazy World of Arthur Brown. Palmer left for ELP soon after its release.",
  "alb.atomic-rooster-1970-atomic-rooster.tr": [
   "Friday the 13th — organ rock",
@@ -1839,6 +1900,10 @@
  "grp.peter-gabriel-solo-dugum.era.1.note": "Global pop success and a world-music synthesis through WOMAD and Real World Records.",
  "grp.peter-gabriel-solo-dugum.era.2.t": "Late period",
  "grp.peter-gabriel-solo-dugum.era.2.note": "Sparse but ambitious work: a concept album (OVO), dark art rock (Up), orchestral reinterpretations.",
+ "grp.peter-gabriel-solo-dugum.kurulus": "Born 1950, Chobham, Surrey. Founding singer of Genesis (1967–75); solo since 1977.",
+ "grp.peter-gabriel-solo-dugum.uyeler": "Solo artist with a core of regulars: Tony Levin (bass, Chapman Stick), David Rhodes (guitar), Jerry Marotta and Manu Katché (drums), Larry Fast (synthesizers); guests include Robert Fripp, Kate Bush, Phil Collins, Peter Hammill, L. Shankar and Youssou N'Dour. His daughter Melanie Gabriel sings backing vocals on later tours.",
+ "grp.peter-gabriel-solo-dugum.gecisler": "Genesis (1967–75) → solo (1977–). Producers: Bob Ezrin (Car), Robert Fripp (Scratch), Steve Lillywhite (Melt), David Lord (Security), Daniel Lanois (So, Us). Tony Levin links him to King Crimson; Phil Collins drums on Melt; founder of WOMAD (1980) and Real World (1989).",
+ "grp.peter-gabriel-solo-dugum.etki": "Melt's gated drum sound (with Hugh Padgham and Phil Collins) defined '80s production; he took prog's theatricality into art-pop and the music video ('Sledgehammer'), and opened the Western mainstream to world music.",
  "alb.peter-gabriel-1977-peter-gabriel-car.an": "\"Solsbury Hill\" (the anthem of his departure from Genesis). Art rock plus accessibility.",
  "alb.peter-gabriel-1977-peter-gabriel-car.oncelik": "Recommended — for 'Solsbury Hill' and 'Here Comes the Flood'.",
  "alb.peter-gabriel-1977-peter-gabriel-car.detay": [
@@ -1944,6 +2009,15 @@
  "grp.steve-hackett-solo-dugum.name": "Steve Hackett (solo node)",
  "grp.steve-hackett-solo-dugum.hikaye": "Hackett joined Genesis in 1971 through an advert he placed in Melody Maker ('guitarist determined to strive beyond existing stagnant music forms'). He was one of the guitarists using tapping and sweep-picking before Eddie Van Halen. Leaving Genesis in 1977, he built a prolific solo career moving between electric prog, classical guitar and blues; in 1986 he formed GTR with Steve Howe. From the '90s on, through his Genesis Revisited projects, he became the main figure keeping the Gabriel era alive on stage; in the 2010s, with orchestral, world-music-coloured symphonic rock albums, he enjoyed the second peak of his career.",
  "grp.steve-hackett-solo-dugum.dna": "Lyrical/classical guitar, atmospheric instrumentals, the Genesis aesthetic continued from a guitarist's point of view.",
+ "grp.steve-hackett-solo-dugum.kurulus": "Born 1950, London. Genesis guitarist 1971–77; his first solo album, Voyage of the Acolyte (1975), appeared while he was still in the band.",
+ "grp.steve-hackett-solo-dugum.uyeler": "Steve Hackett (guitar, vocals) with his brother John Hackett (flute), Nick Magnus (keyboards), Dick Driver (bass), John Shearer (drums) and Pete Hicks (vocals) in the late-'70s band; from the 2000s Roger King (keyboards, co-producer), Gary O'Toole (drums), Rob Townsend (saxophone, flute), Amanda Lehmann (vocals, guitar), Christine Townsend (violin), Nad Sylvan (vocals on Genesis Revisited). Mike Rutherford and Phil Collins play on Voyage of the Acolyte.",
+ "grp.steve-hackett-solo-dugum.gecisler": "Quiet World (1970) → Genesis (1971–77) → solo. GTR (1986, with Steve Howe). Squackett (2012, with Chris Squire). Genesis Revisited (1996, 2012 and the tours). Nick Magnus came from The Enid; Roger King also produced for others in the prog scene.",
+ "grp.steve-hackett-solo-dugum.etki": "He kept the Gabriel-era Genesis repertoire alive for decades; neo-prog guitarists such as Marillion's Steve Rothery cite him as a model, and his tapping predates Van Halen's.",
+ "grp.steve-hackett-solo-dugum.ipucu": [
+  "Hear Voyage of the Acolyte as the 'lost Genesis album' of 1975: Collins and Rutherford play on it, and it sits between The Lamb and A Trick of the Tail.",
+  "Spectral Mornings is the peak of his first band; the title track is his 'Firth of Fifth' solo moment.",
+  "Compare Genesis Revisited (1996) with Revisited II (2012): the first rewrites the songs, the second plays them faithfully."
+ ],
  "alb.steve-hackett-1975-voyage-of-the-acolyte.an": "Made while he was still in Genesis, with Collins and Rutherford as guests. Brings the classic Genesis texture into a solo format.",
  "alb.steve-hackett-1975-voyage-of-the-acolyte.tr": [
   "Shadow of the Hierophant — Collins on drums/vocals, classic Genesis texture",
@@ -2265,6 +2339,12 @@
  "grp.david-gilmour-solo.dna": "Blues bends, long sustain, delay and Leslie effects; lap steel; melancholic, broad-tempo songs.",
  "grp.david-gilmour-solo.gecisler": "Jokers Wild → Pink Floyd → solo; a long partnership with Roxy Music's Phil Manzanera (On an Island, Rattle That Lock, The Endless River).",
  "grp.david-gilmour-solo.etki": "The leading representative of the 'feeling, not speed' school of rock guitar; a reference for post-rock and modern prog guitarists (Steven Wilson, Mariusz Duda).",
+ "grp.david-gilmour-solo.uyeler": "David Gilmour (guitar, vocals) with Rick Wills and Willie Wilson from Jokers Wild (1978); Jeff Porcaro, Pino Palladino and Jon Lord (About Face); on On an Island Richard Wright, Phil Manzanera, Guy Pratt, David Crosby and Graham Nash, with orchestrations by Zbigniew Preisner; Steve DiStanislao (drums), Jon Carin (keyboards) and Dick Parry (saxophone) on tour. Since On an Island most lyrics are by Polly Samson; their daughter Romany Gilmour sings and plays harp on Luck and Strange.",
+ "grp.david-gilmour-solo.ipucu": [
+  "Listen to the 1978 album right after Animals: it's the relaxed, bluesy side of Gilmour that Floyd had no room for then.",
+  "On an Island and Live in Gdańsk are Richard Wright's last recordings — listen for his organ and voice.",
+  "Pick one solo ('Comfortably Numb', 'On an Island', 'Faces of Stone') and count the notes: few, but each bent into place."
+ ],
  "alb.david-gilmour-1978-david-gilmour.an": "Between Animals and The Wall, a loose, blues-heavy first solo album from a Gilmour who felt he lacked room in the band; recorded with friends from his Jokers Wild days.",
  "alb.david-gilmour-1984-about-face.an": "An album with '80s production and lyrics by Pete Townshend on two songs, made in the shadow of the fight with Waters.",
  "alb.david-gilmour-1984-about-face.tr": [
@@ -2292,6 +2372,12 @@
  "grp.roger-waters-solo.dna": "Conceptual narrative, political and personal anger, sound effects and radio collages; cinematic rock opera.",
  "grp.roger-waters-solo.gecisler": "Sigma 6 → Pink Floyd → solo; Eric Clapton (Pros and Cons tour), Jeff Beck (Amused to Death), Nick Mason (Live 8 in 2005, guest in 2019).",
  "grp.roger-waters-solo.etki": "One of the greatest authors of the concept album and the rock opera; he turned the stadium show into political art.",
+ "grp.roger-waters-solo.uyeler": "Roger Waters (vocals, bass, guitar, concepts) with changing bands: Eric Clapton, David Sanborn and Michael Kamen (The Pros and Cons of Hitch Hiking); the Bleeding Heart Band — Andy Fairweather Low, Mel Collins, Graham Broad, Jay Stapley, Paul Carrack (Radio K.A.O.S.); Jeff Beck and producer Patrick Leonard (Amused to Death); producer Nigel Godrich, Jonathan Wilson and Joey Waronker (Is This the Life We Really Want?). Ron Geesin co-wrote Music from The Body; Ça Ira is an opera sung by Bryn Terfel, Ying Huang and Paul Groves.",
+ "grp.roger-waters-solo.ipucu": [
+  "The Pros and Cons of Hitch Hiking was offered to Floyd in 1978 together with The Wall — listen to it as the rejected twin.",
+  "Amused to Death is the essential solo album: listen on headphones, it was mixed in QSound for a three-dimensional effect.",
+  "Compare The Dark Side of the Moon Redux (2023) with the 1973 original: the same lyrics, read fifty years later by an old man."
+ ],
  "alb.roger-waters-1984-the-pros-and-cons-of-hitch-hiking.an": "The second concept originally offered to Floyd alongside The Wall: a man's dreams over the course of a night, told in real time (4:30–5:11). Eric Clapton on guitar.",
  "alb.roger-waters-1984-the-pros-and-cons-of-hitch-hiking.detay": [
   "Gerald Scarfe's cover of a naked hitchhiker caused controversy at the time."
@@ -2310,6 +2396,11 @@
  "grp.nick-mason-solo-ve-saucerful-of-secrets.dna": "Tom-tom-heavy, atmospheric, textured drumming; a curiosity for jazz and the experimental recording studio.",
  "grp.nick-mason-solo-ve-saucerful-of-secrets.gecisler": "Sigma 6 → Pink Floyd → production (Wyatt, The Damned, Gong's Shamal) → Carla Bley → Mason + Fenn → Saucerful of Secrets.",
  "grp.nick-mason-solo-ve-saucerful-of-secrets.etki": "The architect of Floyd's rhythmic atmosphere; a quiet junction in the network through production links reaching Canterbury and punk.",
+ "grp.nick-mason-solo-ve-saucerful-of-secrets.uyeler": "Fictitious Sports: Nick Mason with Carla Bley (composer, keyboards), Robert Wyatt and Karen Kraft (vocals), Chris Spedding (guitar), Steve Swallow (bass), Michael Mantler and Gary Windo (horns). Profiles: Mason and Rick Fenn, with David Gilmour and Maggie Reilly singing and Mel Collins on saxophone. Saucerful of Secrets: Nick Mason (drums), Guy Pratt (bass, vocals), Gary Kemp (guitar, vocals), Lee Harris (guitar), Dom Beken (keyboards).",
+ "grp.nick-mason-solo-ve-saucerful-of-secrets.ipucu": [
+  "Fictitious Sports is really a Carla Bley album under Mason's name: listen to it next to Robert Wyatt's Rock Bottom, which Mason produced.",
+  "Live at the Roundhouse is the best guide to early Floyd: songs from Piper to Obscured by Clouds that the band itself stopped playing in the '70s."
+ ],
  "alb.nick-mason-1981-nick-mason-s-fictitious-sports.an": "A jazz-rock album actually composed entirely by Carla Bley, with Robert Wyatt on vocals; Mason on drums and production.",
  "alb.nick-mason-1981-nick-mason-s-fictitious-sports.oncelik": "Recommended — where Floyd meets Canterbury.",
  "alb.nick-mason-1985-profiles.an": "A synth-heavy instrumental album with Rick Fenn of 10cc; David Gilmour sings on 'Lie for a Lie'.",
@@ -2453,6 +2544,16 @@
  "alb.gong-2019-the-universe-also-collapses.an": "The Torabi line-up's second album: a long psychedelic journey built around the 20-minute 'Forever Reoccurring'.",
  "grp.hatfield-and-the-north-national-health-alt-dugumler.name": "Hatfield and the North / National Health (sub-nodes)",
  "grp.hatfield-and-the-north-national-health-alt-dugumler.hikaye": "Hatfield and the North (1972–75) is a Canterbury supergroup formed by Richard Sinclair from Caravan, Dave Stewart from Egg, and Phil Miller and Pip Pyle from Delivery; it took its name from the motorway sign heading north out of London. The Northettes vocal trio (Amanda Parsons, Barbara Gaskin, Ann Rosenthal) completed the band's light, ironic spirit. After it split, Stewart and Alan Gowen (Gilgamesh) formed National Health: broader, more composed Canterbury jazz-rock. After Gowen's death in 1981 the band closed with D.S. al Coda, made up of his compositions.",
+ "grp.hatfield-and-the-north-national-health-alt-dugumler.kurulus": "Hatfield and the North: 1972–75, London. National Health: 1975–82, formed by Dave Stewart and Alan Gowen.",
+ "grp.hatfield-and-the-north-national-health-alt-dugumler.dna": "Long, through-composed pieces that flow into each other; Dave Stewart's fuzz organ, Phil Miller's lyrical guitar, jazz harmony with rock energy; wordless female voices and absurd song titles.",
+ "grp.hatfield-and-the-north-national-health-alt-dugumler.uyeler": "Hatfield: Richard Sinclair (bass, vocals), Phil Miller (guitar), Dave Stewart (keyboards; Dave Sinclair briefly before him), Pip Pyle (drums); the Northettes Amanda Parsons, Barbara Gaskin and Ann Rosenthal (vocals). National Health: Dave Stewart, Alan Gowen (keyboards), Phil Miller, Pip Pyle, Neil Murray and later John Greaves (bass), Amanda Parsons (vocals); Bill Bruford drummed briefly in 1975.",
+ "grp.hatfield-and-the-north-national-health-alt-dugumler.gecisler": "Caravan (Sinclair), Egg (Stewart), Delivery and Matching Mole (Miller), Delivery and Gong (Pyle) → Hatfield (1972) → National Health (1975; Stewart, Miller, Pyle + Gowen from Gilgamesh). Neil Murray → Colosseum II, Whitesnake. John Greaves from Henry Cow. Stewart → Bruford, then Stewart & Gaskin with Barbara Gaskin.",
+ "grp.hatfield-and-the-north-national-health-alt-dugumler.etki": "The high point of Canterbury composition; the long, interlocking pieces of The Rotters' Club and Of Queues and Cures became the reference for later Canterbury-minded bands (The Tangent and others), and Jonathan Coe named a novel after The Rotters' Club.",
+ "grp.hatfield-and-the-north-national-health-alt-dugumler.ipucu": [
+  "Listen to the first Hatfield album in one go: the tracks are joined without pauses, like one long piece.",
+  "'Mumps' on The Rotters' Club is the summit: 20 minutes in which Stewart's writing and the Northettes' voices meet.",
+  "D.S. al Coda is a tribute: all pieces are by Alan Gowen, recorded after his death."
+ ],
  "alb.hatfield-and-the-north-national-health-1974-hatfield-and-the-north.an": "A fluid blend of short fragments and long suites; the female vocal textures of \"The Northettes\".",
  "alb.hatfield-and-the-north-national-health-1974-hatfield-and-the-north.tr": [
   "Big Jobs (Poo Poo Extract)",
@@ -2588,6 +2689,12 @@
  "grp.steve-hillage-solo-ve-system-7.dna": "Glissando and delay guitar, spiritual lyrics, synth textures; later ambient techno.",
  "grp.steve-hillage-solo-ve-system-7.gecisler": "Uriel/Arzachel (Dave Stewart) → Khan → Kevin Ayers → Gong → solo → System 7; collaborations with The Orb and Derrick May; back on stage with Gong after 2014.",
  "grp.steve-hillage-solo-ve-system-7.etki": "A bridge between space rock and rave culture; a keeper of the tradition of 'psychedelic optimism'.",
+ "grp.steve-hillage-solo-ve-system-7.uyeler": "Steve Hillage (guitar, vocals) and Miquette Giraudy (synthesizers, vocals, co-writer) at the core. Fish Rising: Gong members Mike Howlett, Pierre Moerlen, Tim Blake and Didier Malherbe, with Lindsay Cooper and Dave Stewart. L: produced by Todd Rundgren with Utopia's Roger Powell, Kasim Sulton and John Wilcox, plus Don Cherry. Motivation Radio: Malcolm Cecil (producer, TONTO synthesizer), Joe Blocker, Reggie McBride. Green was co-produced by Nick Mason.",
+ "grp.steve-hillage-solo-ve-system-7.ipucu": [
+  "Fish Rising is practically a Gong album under Hillage's name: listen to it right after You.",
+  "L contains covers of Donovan's 'Hurdy Gurdy Man' and the Beatles' 'It's All Too Much' — psychedelia of the '60s seen from 1976.",
+  "Listen to Rainbow Dome Musick and then System 7: the ambient pieces of 1979 already point to the chill-out rooms of the '90s."
+ ],
  "alb.steve-hillage-1975-fish-rising.an": "His first solo album, recorded with Gong members (Dave Stewart, Pierre Moerlen, Didier Malherbe, Mike Howlett); themed around fish and a mystical journey.",
  "alb.steve-hillage-1976-l.an": "Produced by Todd Rundgren and recorded with members of Utopia; with versions of Donovan's 'Hurdy Gurdy Man' and the Beatles' 'It's All Too Much'.",
  "alb.steve-hillage-1976-l.oncelik": "Essential — Hillage's most popular album.",
@@ -2691,6 +2798,14 @@
  "grp.buggles-kopru-dugum.name": "Buggles (bridge node)",
  "grp.buggles-kopru-dugum.kurulus": "1979. Trevor Horn + Geoff Downes. With \"Video Killed the Radio Star\" they opened the MTV era. In 1980 both joined Yes (Drama); Downes later moved on to Asia.",
  "grp.buggles-kopru-dugum.dna": "Synth-pop, but a crucial bridge connecting to prog through Yes; Horn would later become a major producer (90125 included).",
+ "grp.buggles-kopru-dugum.hikaye": "Trevor Horn and Geoff Downes met in Tina Charles's backing band and began writing together with Bruce Woolley. 'Video Killed the Radio Star' went to number one in Britain in 1979, and in 1981 its video was the first ever shown on MTV. Through their shared manager Brian Lane, the duo were writing for Yes in 1980 when Jon Anderson and Rick Wakeman left; Horn and Downes joined the band and made Drama. After the tour Horn left to become a producer and Downes formed Asia; the second Buggles album (1981) was largely Horn's work.",
+ "grp.buggles-kopru-dugum.uyeler": "Trevor Horn (vocals, bass, guitar, producer), Geoff Downes (keyboards, drum programming); co-writer Bruce Woolley in the early days; Hans Zimmer appears in the 'Video Killed the Radio Star' video.",
+ "grp.buggles-kopru-dugum.gecisler": "Tina Charles's band → Buggles (1979) → Yes (Drama, 1980). Horn → producer (ABC, Frankie Goes to Hollywood, Yes's 90125, Big Generator and Fly from Here), Art of Noise, ZTT Records. Downes → Asia (1981), Yes again (2011–). Bruce Woolley → Camera Club.",
+ "grp.buggles-kopru-dugum.etki": "The point where prog and synth-pop touched: through Horn's production the sound of '80s pop flowed back into Yes (90125), and through Downes into Asia.",
+ "grp.buggles-kopru-dugum.ipucu": [
+  "Listen to 'I Am a Camera' (Buggles, 1981) and 'Into the Lens' from Drama — the same song: Horn rewrote the Yes piece.",
+  "Hear The Age of Plastic as a concept album about technology and nostalgia — closer to prog than its hit suggests."
+ ],
  "alb.buggles-1980-the-age-of-plastic.an": "A synth-pop classic; themes of anxiety about technology.",
  "alb.buggles-1980-the-age-of-plastic.tr": [
   "Video Killed the Radio Star — the hit that opened the MTV era, the first video MTV played",
@@ -2705,6 +2820,16 @@
   "Lenny"
  ],
  "grp.bad-company-foreigner-uye-gocu-uclar.name": "Bad Company / Foreigner (ends of member migration)",
+ "grp.bad-company-foreigner-uye-gocu-uclar.kurulus": "Not a band but a junction: Bad Company (1973) and Foreigner (1976), the two arena-rock bands that absorbed former King Crimson members.",
+ "grp.bad-company-foreigner-uye-gocu-uclar.hikaye": "Bad Company was formed in 1973 by Paul Rodgers and Simon Kirke of Free, Mick Ralphs of Mott the Hoople and Boz Burrell, King Crimson's bassist and singer on Islands; managed by Peter Grant and signed to Led Zeppelin's Swan Song label, they became stadium stars. Foreigner was founded in New York in 1976 by Mick Jones (Spooky Tooth) with Ian McDonald, King Crimson's co-founder, on guitar, keyboards and saxophone, and singer Lou Gramm; McDonald played on their first three albums. Both bands show where many prog musicians went at the end of the '70s: towards short, radio-friendly songs.",
+ "grp.bad-company-foreigner-uye-gocu-uclar.dna": "Blues-based arena rock and AOR: short songs, big choruses, polished production — the opposite pole of the prog the members came from.",
+ "grp.bad-company-foreigner-uye-gocu-uclar.uyeler": "Bad Company: Paul Rodgers (vocals), Mick Ralphs (guitar), Boz Burrell (bass), Simon Kirke (drums). Foreigner (first line-up): Lou Gramm (vocals), Mick Jones (guitar), Ian McDonald (guitar, keyboards, saxophone), Al Greenwood (keyboards), Ed Gagliardi (bass), Dennis Elliott (drums).",
+ "grp.bad-company-foreigner-uye-gocu-uclar.gecisler": "King Crimson (Boz Burrell, 1971–72) → Bad Company (1973). King Crimson (Ian McDonald, 1969) → McDonald and Giles → Foreigner (1976–79) → 21st Century Schizoid Band (2002). Simon Kirke later on John Wetton's Caught in the Crossfire.",
+ "grp.bad-company-foreigner-uye-gocu-uclar.etki": "They mark the outer edge of the network: the point where Crimson's alumni left prog for the charts, a path Wetton would follow with Asia.",
+ "grp.bad-company-foreigner-uye-gocu-uclar.ipucu": [
+  "Listen to Boz Burrell on Islands and then on Bad Company's first album: the same bassist in two opposite worlds.",
+  "On Foreigner's first album (1977), listen for Ian McDonald's saxophone and keyboards: King Crimson's co-founder inside an AOR record."
+ ],
  "grp.bruford.kurulus": "1977, London. Formed by Bill Bruford (Yes/King Crimson) to express his own identity as a composer, after King Crimson split in 1974. Signed to EG Records (Crimson's label).",
  "grp.bruford.dna": "Complex jazz-rock fusion: asymmetric metres, Holdsworth's fluid legato guitar, Berlin's melodic bass, Stewart's soaring keyboard textures. One of the most elegant bridges between prog and fusion.",
  "grp.bruford.uyeler": "Bill Bruford (drums), Allan Holdsworth (guitar; later UK and solo), Jeff Berlin (bass — a fusion virtuoso), Dave Stewart (keyboards, from Hatfield/National Health).",
@@ -3495,6 +3620,12 @@
  "grp.ian-anderson-solo.dna": "Flute (overblown, hummed while playing), acoustic guitar, English folk and classical music; witty, literary lyrics.",
  "grp.ian-anderson-solo.gecisler": "The Blades → John Evan Band → Jethro Tull → solo → Jethro Tull; orchestral projects (Divinities, 1995).",
  "grp.ian-anderson-solo.etki": "The icon of rock flute; the main architect of folk-prog.",
+ "grp.ian-anderson-solo.uyeler": "Ian Anderson (vocals, flute, guitar) with Peter-John Vettese (keyboards, Walk into Light); Andrew Giddings (keyboards) and an orchestra on Divinities; on Thick as a Brick 2 and Homo Erraticus his touring band — Florian Opahle (guitar), John O'Hara (keyboards), David Goodier (bass), Scott Hammond (drums) and Ryan O'Donnell (vocals, theatre).",
+ "grp.ian-anderson-solo.ipucu": [
+  "Read Gerald Bostock's story before Thick as a Brick 2: the album imagines what the boy poet of 1972 became forty years later.",
+  "Divinities is purely instrumental with orchestra: it's the best way to hear his flute without the voice.",
+  "Walk into Light (1983) is his synth album — listen to it next to Tull's Under Wraps."
+ ],
  "alb.ian-anderson-1983-walk-into-light.an": "His first solo album, synth-heavy and oriented towards electronic pop, with Peter-John Vettese.",
  "alb.ian-anderson-1983-walk-into-light.oncelik": "Skippable — for period curiosity.",
  "alb.ian-anderson-1995-divinities-twelve-dances-with-god.an": "An instrumental suite for flute and orchestra for EMI Classics, inspired by the world's religions.",
@@ -3511,6 +3642,12 @@
  "grp.peter-hammill-solo.dna": "Expressionist vocals (from whisper to scream), piano and acoustic guitar, existential and scientific lyrics, lo-fi experimentation.",
  "grp.peter-hammill-solo.gecisler": "VdGG → solo (frequent collaboration with VdGG members) → K Group → Robert Fripp (vocals on Exposure) → a joint album with Gary Lucas.",
  "grp.peter-hammill-solo.etki": "The prog singer the punk generation loved; an influence reaching Nick Cave, Julian Cope and Mikael Åkerfeldt (Opeth).",
+ "grp.peter-hammill-solo.uyeler": "Peter Hammill (vocals, piano, guitar, everything at home in later years) with VdGG colleagues David Jackson, Guy Evans, Hugh Banton and Nic Potter; Robert Fripp on Fool's Mate, Randy California on The Silent Corner; the K Group (Nic Potter, Guy Evans, John Ellis); violinist Stuart Gordon.",
+ "grp.peter-hammill-solo.ipucu": [
+  "Start with The Silent Corner and the Empty Stage: 'A Louse Is Not a Home' is a VdGG epic in all but name.",
+  "Then play Nadir's Big Chance next to the Sex Pistols' first single: it came out a year earlier.",
+  "Read the lyrics while listening; for Hammill the words are at least half the music."
+ ],
  "alb.peter-hammill-1971-fool-s-mate.an": "A warm first solo album of short songs left over from the late '60s, recorded with VdGG members and Fripp.",
  "alb.peter-hammill-1971-fool-s-mate.kadro": "Hammill + Robert Fripp, VdGG members, Ray Jackson (Lindisfarne)",
  "alb.peter-hammill-1974-the-silent-corner-and-the-empty-stage.an": "A dark solo album on which VdGG effectively reunited; with the 12-minute 'A Louse Is Not a Home'.",
@@ -3717,6 +3854,14 @@
  "grp.twelfth-night-ksa-not.name": "Twelfth Night (short note)",
  "grp.twelfth-night-ksa-not.kurulus": "1978, Reading. Remembered for Geoff Mann's theatrical vocals (he later left). The label 'Twelfth Night = the neo-prog version of Pink Floyd' stuck.",
  "grp.twelfth-night-ksa-not.dna": "Atmospheric, political, theatrical neo-prog.",
+ "grp.twelfth-night-ksa-not.hikaye": "Twelfth Night began in Reading in 1978 as an instrumental band of Andy Revell, Brian Devoil, Clive Mitten and Rick Battersby; Geoff Mann joined as singer in 1979, and the cassette and live album Live at the Target (1981) made their name on the early neo-prog circuit. Fact and Fiction (1982), with the political epic 'We Are Sane', is their key album. Mann left in 1983 to study for the Anglican priesthood (he died in 1993); with Andy Sears the band made Art and Illusion and the Virgin album XII (1986), then split in 1987. They reunited for concerts in 2007 and played a farewell show in 2012.",
+ "grp.twelfth-night-ksa-not.uyeler": "Geoff Mann (vocals, 1979–83), Andy Sears (vocals, 1983–87), Andy Revell (guitar), Clive Mitten (bass, keyboards), Rick Battersby (keyboards), Brian Devoil (drums).",
+ "grp.twelfth-night-ksa-not.gecisler": "Instrumental Twelfth Night (1978) → with Geoff Mann (1979) → Mann leaves for the priesthood and a solo career (Geoff Mann Band) → Andy Sears era → split (1987) → reunions 2007–12.",
+ "grp.twelfth-night-ksa-not.etki": "One of the founding bands of the early-'80s neo-prog scene alongside Marillion, IQ and Pendragon; its political, theatrical side gave neo-prog an edge beyond romance.",
+ "grp.twelfth-night-ksa-not.ipucu": [
+  "Start with Fact and Fiction and 'We Are Sane': Geoff Mann's voice moves between narrator, preacher and actor.",
+  "Compare it with Art and Illusion: with Andy Sears the band sounds closer to '80s rock."
+ ],
  "alb.twelfth-night-1982-fact-and-fiction.an": "Their best-loved album; political pieces such as \"We Are Sane\".",
  "alb.twelfth-night-1982-fact-and-fiction.tr": [
   "We Are Sane — political peak",
@@ -3731,6 +3876,12 @@
  "grp.fish-solo.dna": "Poetic storytelling, Scottish folk colours, dramatic vocals; more personal and rock-heavy than Marillion's neo-prog.",
  "grp.fish-solo.gecisler": "Not Quite Red Fish → Marillion → solo; long-term partners such as Mickey Simmonds, Frank Usher and Steve Vantsis.",
  "grp.fish-solo.etki": "Neo-prog's poet; through his post-Marillion solo career, an example of the independent prog artist model.",
+ "grp.fish-solo.uyeler": "Fish (vocals, lyrics) with a changing band: Frank Usher and Robin Boult (guitars), Mickey Simmonds and Foss Paterson (keyboards), Steve Vantsis (bass, later co-writer), Mark Brzezicki and John Keeble (drums); guests include Hal Lindes, Janick Gers, Scottish folk players Aly Bain, Phil Cunningham and Davy Spillane (Internal Exile). Steven Wilson co-produced Sunsets on Empire.",
+ "grp.fish-solo.ipucu": [
+  "Vigil in a Wilderness of Mirrors uses songs written for what would have been Marillion's fifth album with Fish — compare it with Seasons End.",
+  "Internal Exile is his Scottish album: listen for the fiddles and pipes around the rock band.",
+  "Weltschmerz, his farewell, is the most complete late work: read the lyrics of 'Plague of Ghosts'."
+ ],
  "alb.fish-1990-vigil-in-a-wilderness-of-mirrors.an": "His first solo album after Marillion, with Hal Lindes and Mickey Simmonds; a strong start gathering Fish's anger and hope.",
  "alb.fish-1997-sunsets-on-empire.an": "A modern, hard-edged Fish album produced and co-written by Steven Wilson — where neo-prog meets the Porcupine Tree generation.",
  "alb.fish-1997-sunsets-on-empire.detay": [
@@ -3778,6 +3929,13 @@
  "grp.echolyn-ksa-not.kurulus": "1989, Pennsylvania. The other pioneer of the '90s American prog revival, mentioned alongside Spock's Beard.",
  "grp.echolyn-ksa-not.hikaye": "Pennsylvania's Echolyn combined Gentle Giant's counterpoint with the energy of '90s alternative rock. One of the rare prog bands to sign with Sony; after the commercial failure of As the World they split in 1996 and returned in 2000. Mei (2002) is a single 50-minute composition.",
  "grp.echolyn-ksa-not.dna": "Gentle Giant's contrapuntal complexity + Yes/Genesis textures + an American rock vein; dense vocal harmonies.",
+ "grp.echolyn-ksa-not.uyeler": "Ray Weston (vocals), Brett Kull (guitar, vocals), Christopher Buzby (keyboards, vocals), Tom Hyatt (bass), Paul Ramsey (drums).",
+ "grp.echolyn-ksa-not.gecisler": "Echolyn (1989) → Sony/Epic (As the World, 1995) → split (1996): Buzby and Ramsey → Finneus Gauge; Kull and Weston continue with their own projects → reunion (2000).",
+ "grp.echolyn-ksa-not.etki": "Proof that complex, Gentle Giant-like prog could be made with an American rock voice in the '90s; a reference for the US prog revival alongside Spock's Beard.",
+ "grp.echolyn-ksa-not.ipucu": [
+  "Suffocating the Bloom contains 'A Suite for the Everyman': the best place to hear the band's vocal counterpoint.",
+  "Mei is a single 50-minute piece: listen to it in one sitting, without shuffle."
+ ],
  "alb.echolyn-1991-echolyn.an": "The self-released debut of the Pennsylvania band: dense vocal harmonies and shifting metres in the Gentle Giant manner, opening with the Ayn Rand-inspired suite 'Fountainhead'.",
  "alb.echolyn-1992-suffocating-the-bloom.an": "The peak of their Gentle Giant-inspired counterpoint.",
  "alb.echolyn-1992-suffocating-the-bloom.tr": [
@@ -3794,9 +3952,27 @@
  "alb.echolyn-2012-echolyn-window.an": "A double album also known as 'Window'; a mature, deep and subtle comeback.",
  "alb.echolyn-2015-i-heard-you-listening.an": "More compact and rock-heavy; about relationships and losses.",
  "grp.the-syndicats.name": "The Syndicats",
+ "grp.the-syndicats.hikaye": "A North London beat group of the early '60s, the Syndicats were one of the many bands that passed through Joe Meek's home studio on Holloway Road. Their singles — a cover of Chuck Berry's 'Maybellene' (1964), then 'Howlin' for My Baby' and 'On the Horizon' — did not chart, but they were the first professional records of the teenage Steve Howe. When Howe left in 1965 for The In Crowd, Ray Fenwick (later of the Spencer Davis Group and the Ian Gillan Band) took his place.",
+ "grp.the-syndicats.etki": "Historically small, but the first rung of Howe's ladder: the R&B and rockabilly picking learned here never left his playing.",
+ "grp.the-syndicats.ipucu": [
+  "There is no album; look for the Joe Meek singles on compilations and listen for the young Howe's Chuck Berry licks.",
+  "Then jump straight to 'Clap' on The Yes Album: the same country/rockabilly roots, six years later."
+ ],
  "grp.tomorrow.name": "Tomorrow",
+ "grp.tomorrow.hikaye": "Tomorrow was born in 1967 when the soul covers band The In Crowd plunged into the London underground. 'My White Bicycle' (inspired by the free white bicycles of Amsterdam's Provo movement) and 'Revolution' became UFO Club anthems, and the band shared bills with Pink Floyd. Their only album came out in early 1968, but by then singer Keith West was enjoying a solo hit with 'Excerpt from A Teenage Opera', which pulled attention away from the band. Tomorrow split that year: Twink went to the Pretty Things and the Pink Fairies, and Howe formed Bodast.",
+ "grp.tomorrow.etki": "A cornerstone of British psychedelia; 'My White Bicycle' was later covered by Nazareth. Above all, the place where Howe found his experimental guitar voice.",
+ "grp.tomorrow.ipucu": [
+  "Listen to the album next to Piper at the Gates of Dawn: the same city, the same year, two different answers.",
+  "Follow Howe's guitar in 'Revolution' and 'Real Life Permanent Dream' — the backwards and phased sounds point to his work on Yes's early albums."
+ ],
  "alb.tomorrow-1968-tomorrow.tip": "studio",
  "grp.bodast.name": "Bodast",
+ "grp.bodast.hikaye": "After Tomorrow split in 1968, Howe formed a new band with singer Clive Skinner, bassist Dave Curtiss and drummer Bobby Clarke. They recorded an album in 1969 for the American label Tetragrammaton, but the label went bankrupt and the tapes were shelved. The band broke up; Howe tried out for other groups and joined Yes in 1970 in place of Peter Banks. The recordings only appeared in 1981 as The Bodast Tapes, by then as a piece of Yes archaeology.",
+ "grp.bodast.etki": "No influence in its own time, since nobody heard it; today it is the 'missing link' between psychedelic Howe and Yes Howe.",
+ "grp.bodast.ipucu": [
+  "Listen to The Bodast Tapes, then The Yes Album: you'll hear how much of Howe's guitar vocabulary was already in place before he joined.",
+  "Treat it as a demo of a band that never existed publicly, not as a finished record."
+ ],
  "alb.bodast-1981-the-bodast-tapes.tip": "studio",
  "alb.the-strawbs-1970-dragonfly.tip": "studio",
  "alb.the-strawbs-1970-just-a-collection-of-antiques-and-curios.tip": "studio",
@@ -3829,11 +4005,22 @@
   "The Ten Commandments"
  ],
  "grp.the-nice.name": "The Nice",
+ "grp.the-nice.hikaye": "The Nice began in 1967 as the backing band of American soul singer P.P. Arnold and were soon playing their own sets, built around Keith Emerson's Hammond. In 1968 their version of Bernstein's 'America' — ending with Emerson setting fire to an American flag at the Royal Albert Hall — got them banned from the venue. After guitarist David O'List left that year, they continued as an organ trio, bringing Bach, Sibelius and Tchaikovsky into rock; Five Bridges (1970) was recorded with an orchestra for the Newcastle Arts Festival. When Emerson met Greg Lake on a 1969 US tour with King Crimson, The Nice's days were numbered: the band split in 1970.",
+ "grp.the-nice.ipucu": [
+  "Listen to Ars Longa Vita Brevis next to ELP's first album: the trio format and the classical quotations are already there; what changes is Lake's voice.",
+  "On Five Bridges, listen for how Emerson moves between the orchestra and the trio — the rehearsal for Pictures at an Exhibition.",
+  "The Thoughts of Emerlist Davjack still has O'List's guitar: the psychedelic band The Nice was before becoming an organ trio."
+ ],
  "alb.the-nice-1968-the-thoughts-of-emerlist-davjack.tip": "studio",
  "alb.the-nice-1968-ars-longa-vita-brevis.tip": "studio",
  "alb.the-nice-1969-nice.tip": "studio",
  "alb.the-nice-1970-five-bridges.tip": "studio",
  "grp.procol-harum.name": "Procol Harum",
+ "grp.procol-harum.ipucu": [
+  "Listen beyond 'A Whiter Shade of Pale': 'In Held 'Twas in I' on Shine On Brightly (1968) is one of the first side-long rock suites, a year before the prog boom.",
+  "Compare the studio 'Conquistador' with the Edmonton Symphony version (1972): the orchestral version became a bigger hit than the original.",
+  "Follow the two keyboards: Fisher's Hammond and Brooker's piano together form the band's sound."
+ ],
  "alb.procol-harum-1967-procol-harum.tip": "studio",
  "alb.procol-harum-1968-shine-on-brightly.tip": "studio",
  "alb.procol-harum-1969-a-salty-dog.tip": "studio",
@@ -3867,6 +4054,13 @@
   "Last Chance Motel"
  ],
  "grp.moody-blues.name": "Moody Blues",
+ "grp.moody-blues.uyeler": "Justin Hayward (guitar, vocals, 1966–), John Lodge (bass, vocals, 1966–), Mike Pinder (keyboards, Mellotron, 1964–78), Ray Thomas (flute, vocals, 1964–2002), Graeme Edge (drums, poems, 1964–2018); earlier Denny Laine (guitar, vocals, 1964–66) and Clint Warwick (bass, 1964–66); Patrick Moraz (keyboards, 1978–91).",
+ "grp.moody-blues.gecisler": "Birmingham beat groups (El Riot & the Rebels, the Avengers) → Moody Blues (1964). Mike Pinder had worked at Streetly Electronics, the Mellotron's maker. Denny Laine → solo → Wings (1971). Hayward and Lodge → Blue Jays (1975, during the hiatus). Patrick Moraz from Refugee and Yes → Moody Blues (1978).",
+ "grp.moody-blues.ipucu": [
+  "Listen to the 'Core Seven' (1967–72) in order: each album is built around a theme — a day, the search for meaning, dreams, space, balance.",
+  "On Days of Future Passed, the orchestral interludes are by Peter Knight and the London Festival Orchestra, not the band — listen for the seams.",
+  "Pinder's Mellotron is the thread: compare it with In the Court of the Crimson King (1969) and you'll hear where Crimson took it."
+ ],
  "alb.moody-blues-1967-days-of-future-passed.tip": "studio",
  "alb.moody-blues-1968-in-search-of-the-lost-chord.tip": "studio",
  "alb.moody-blues-1969-on-the-threshold-of-a-dream.tip": "studio",
@@ -3904,6 +4098,12 @@
   "In the Quiet of Christmas Morning"
  ],
  "grp.the-crazy-world-of-arthur-brown-kingdom-come.name": "The Crazy World of Arthur Brown / Kingdom Come",
+ "grp.the-crazy-world-of-arthur-brown-kingdom-come.uyeler": "The Crazy World (1967–69): Arthur Brown (vocals), Vincent Crane (organ), Drachen Theaker (drums), then Carl Palmer (drums, 1969); Nick Greenwood on bass on parts of the album. Kingdom Come (1970–73): Brown with Andy Dalby (guitar), Michael Harris and then Victor Peraino (keyboards, Mellotron), Desmond Fisher and then Phil Curtis (bass), Martin Steer (drums); on Journey the Bentley Rhythm Ace drum machine drives the band.",
+ "grp.the-crazy-world-of-arthur-brown-kingdom-come.ipucu": [
+  "Listen to side one of the 1968 album as a single piece: it is a short 'fire' suite, a rock opera in miniature before Tommy.",
+  "Follow Vincent Crane's organ here and then on Atomic Rooster's first album — and Carl Palmer on to ELP.",
+  "Journey (1973) is one of the first rock albums with a drum machine instead of a drummer: listen to it next to early Kraftwerk."
+ ],
  "alb.arthur-brown-1968-the-crazy-world-of-arthur-brown.tip": "studio",
  "alb.arthur-brown-1971-galactic-zoo-dossier.oncelik": "Optional.",
  "alb.arthur-brown-1971-galactic-zoo-dossier.tip": "studio",
@@ -3919,6 +4119,11 @@
   "Spirit of Joy"
  ],
  "grp.pearls-before-swine.name": "Pearls Before Swine",
+ "grp.pearls-before-swine.uyeler": "Tom Rapp (vocals, guitar, songs), Wayne Harley (banjo, mandolin, autoharp, audio oscillator), Lane Lederer (bass, guitar, horns), Roger Crissinger (organ, harpsichord) — the original quartet; then Jim Bohannon (keyboards) and a changing circle of New York and Nashville session players; Elisabeth Rapp (vocals) on the later albums.",
+ "grp.pearls-before-swine.ipucu": [
+  "Start with Balaklava (1968): the Crimean War theme, archival recordings (Florence Nightingale's voice) and Bruegel's painting form one anti-war concept.",
+  "Listen to it next to early Incredible String Band and Trespass: the same pastoral-mystical mood on both sides of the Atlantic."
+ ],
  "alb.pearls-before-swine-1967-one-nation-underground.oncelik": "Essential.",
  "alb.pearls-before-swine-1967-one-nation-underground.tip": "studio",
  "alb.pearls-before-swine-1968-balaklava.tip": "studio",
@@ -3929,6 +4134,12 @@
   "If You Don't Want To (I Don't Mind)"
  ],
  "grp.aphrodite-s-child.name": "Aphrodite's Child",
+ "grp.aphrodite-s-child.uyeler": "Vangelis (keyboards, flute, vocals; composer), Demis Roussos (vocals, bass, guitar), Loukas Sideras (drums, vocals), Silver Koulouris (guitar; 1968 and again 1971–72, after military service). Lyricist Costas Ferris wrote the words of 666; Irene Papas appears as a guest on '∞'.",
+ "grp.aphrodite-s-child.ipucu": [
+  "Hear the first two albums and 666 as two different bands: the first sells European pop, the second is Vangelis's studio laboratory.",
+  "Listen to 666 with the Book of Revelation open; the album follows it more closely than its collage form suggests.",
+  "From here, go to Vangelis's Heaven and Hell (1975): the choirs and percussion of 666 grow into his solo language."
+ ],
  "alb.aphrodite-s-child-1968-end-of-the-world.oncelik": "Optional.",
  "alb.aphrodite-s-child-1968-end-of-the-world.tip": "studio",
  "alb.aphrodite-s-child-1968-end-of-the-world.tr": [
@@ -4028,6 +4239,11 @@
   "The Last Night of My Life"
  ],
  "grp.21st-century-schizoid-band.name": "21st Century Schizoid Band",
+ "grp.21st-century-schizoid-band.uyeler": "Jakko Jakszyk (vocals, guitar), Ian McDonald (saxophone, flute, keyboards), Mel Collins (saxophone, flute), Peter Giles (bass), Michael Giles (drums, 2002), then Ian Wallace (drums, 2003–07). A Scarcity of Miracles (2011): Jakszyk, Robert Fripp and Mel Collins, with Tony Levin and Gavin Harrison.",
+ "grp.21st-century-schizoid-band.ipucu": [
+  "Compare 'Pictures of a City' and 'Cirkus' here with the originals: the same musicians, thirty years later, play them looser and jazzier.",
+  "Listen to A Scarcity of Miracles as the overture to the 2014 King Crimson: Jakszyk, Collins, Levin and Harrison are all there."
+ ],
  "alb.21st-century-schizoid-band-2002-official-bootleg-volume-one.oncelik": "Optional.",
  "alb.21st-century-schizoid-band-2002-official-bootleg-volume-one.tip": "live",
  "alb.21st-century-schizoid-band-2002-official-bootleg-volume-one.kadro": "Ian McDonald, Michael Giles, Peter Giles, Mel Collins, Jakko Jakszyk",
@@ -4042,6 +4258,12 @@
   "Secrets"
  ],
  "grp.projekcts.name": "ProjeKcts",
+ "grp.projekcts.uyeler": "ProjeKct One: Robert Fripp, Trey Gunn, Tony Levin, Bill Bruford. ProjeKct Two: Fripp, Gunn, Adrian Belew (V-Drums). ProjeKct Three: Fripp, Gunn, Pat Mastelotto. ProjeKct Four: Fripp, Gunn, Levin, Mastelotto. Later ProjeKct X (Gunn, Mastelotto) and ProjeKct Six (Fripp, Belew).",
+ "grp.projekcts.ipucu": [
+  "Space Groove (ProjeKct Two) is the most accessible entry: Belew on electronic drums, at times almost dance music.",
+  "Listen for riffs and textures that resurface on The ConstruKction of Light (2000): this is where the method was tested.",
+  "Don't listen to the box set in one go; take one ProjeKct at a time and compare the line-ups."
+ ],
  "alb.projekcts-1998-space-groove.oncelik": "Optional.",
  "alb.projekcts-1998-space-groove.tip": "studio improvisation",
  "alb.projekcts-1998-space-groove.tr": [
@@ -4058,6 +4280,12 @@
  ],
  "alb.projekcts-1999-the-projekcts.tip": "live box set",
  "grp.stick-men-the-crimson-projekct.name": "Stick Men / The Crimson ProjeKCt",
+ "grp.stick-men-the-crimson-projekct.uyeler": "Tony Levin (Chapman Stick, bass, vocals), Pat Mastelotto (drums, electronics), Michael Bernier (Stick, 2007–10), Markus Reuter (Touch Guitar, 2010–). The Crimson ProjeKCt adds the Adrian Belew Power Trio: Adrian Belew (guitar, vocals), Julie Slick (bass), Tobias Ralph (drums).",
+ "grp.stick-men-the-crimson-projekct.ipucu": [
+  "Stick Men often play a reworking of Stravinsky's The Firebird: listen for how the Stick replaces the orchestra.",
+  "Listen to Prog Noir after The Power to Believe: Mastelotto's drum sound links them directly.",
+  "Try to tell Levin and Reuter apart: both play tapped, ten-string instruments, but Reuter usually takes the high register."
+ ],
  "alb.stick-men-2010-soup.oncelik": "Recommended.",
  "alb.stick-men-2010-soup.tip": "studio",
  "alb.stick-men-2010-soup.kadro": "Tony Levin, Pat Mastelotto, Markus Reuter",
@@ -4133,8 +4361,20 @@
  "alb.yes-2023-yessingles.tip": "compilation",
  "alb.yes-2026-aurora.tip": "studio",
  "grp.anderson-bruford-wakeman-howe-abwh.name": "Anderson Bruford Wakeman Howe (ABWH)",
+ "grp.anderson-bruford-wakeman-howe-abwh.hikaye": "In 1988 Jon Anderson, tired of the Rabin-era Yes, started a solo album that turned into a reunion of the 1971–72 classic line-up minus Squire. Recorded at AIR Studios on Montserrat with producer Chris Kimsey and Tony Levin on bass, the album came out in 1989 and 'Brother of Mine' got radio play. The tour, billed as 'An Evening of Yes Music Plus', played the classic repertoire to large audiences; Yes's management responded with legal threats over the name. In 1991 the record company merged ABWH and Yes-West: the material for a second ABWH album went into Union, and the eight-man line-up toured together.",
+ "grp.anderson-bruford-wakeman-howe-abwh.etki": "It proved that the audience wanted the classic Yes and forced the Union reunion; the model of 'Yes in all but name' returned with ARW (2016).",
+ "grp.anderson-bruford-wakeman-howe-abwh.ipucu": [
+  "Listen to the album next to Union: you'll hear which tracks were meant for the second ABWH record.",
+  "Bruford plays electronic Simmons drums here — compare it with his work in King Crimson's Discipline era.",
+  "An Evening of Yes Music Plus (the tour) is in the Yes node: there the classics come back with Levin and Bruford."
+ ],
  "alb.anderson-bruford-wakeman-howe-1989-anderson-bruford-wakeman-howe.tip": "studio",
  "grp.flash.name": "Flash",
+ "grp.flash.hikaye": "Peter Banks was dismissed from Yes in 1970 after Time and a Word; a year later he formed Flash with singer Colin Carter, bassist Ray Bennett and drummer Mike Hough. Their first album (1972), with Tony Kaye guesting on keyboards, did well in America, where the single 'Small Beginnings' reached the Billboard top 30. Two more albums followed within a year, but the band fell apart during a US tour in 1973. Banks went on with Empire and session work and died in 2013.",
+ "grp.flash.ipucu": [
+  "Listen to Flash right after Time and a Word: it's Banks continuing the road Yes left.",
+  "Compare Banks's choppy, jazzy playing with Howe's on The Yes Album — two answers to the same band."
+ ],
  "alb.flash-1972-flash.tip": "studio",
  "alb.flash-1972-in-the-can.tip": "studio",
  "alb.flash-1972-in-the-can.tr": [
@@ -4281,8 +4521,18 @@
  "alb.atomic-rooster-1970-death-walks-behind-you.tip": "studio",
  "alb.atomic-rooster-1971-in-hearing-of-atomic-rooster.tip": "studio",
  "grp.refugee.name": "Refugee",
+ "grp.refugee.hikaye": "After Emerson's departure and the end of The Nice, Lee Jackson and Brian Davison first tried the band Every Which Way and Jackson's Jackson Heights. In 1973 they found Patrick Moraz, the Swiss keyboardist of Mainhorse, and formed Refugee. Their only album (Charisma, 1974) combined long suites such as 'Grand Canyon' and 'Credo' with Moraz's virtuosity, and their concerts were well received. But in August 1974 Yes invited Moraz to replace Rick Wakeman for Relayer; the band ended there.",
+ "grp.refugee.ipucu": [
+  "Listen to Refugee just before Relayer: the same keyboard player, a few months apart, in two different bands.",
+  "Compare 'Grand Canyon' with The Nice's Five Bridges: the rhythm section is the same, the keyboard language has moved from organ to synthesizers."
+ ],
  "alb.refugee-1974-refugee.tip": "studio",
  "grp.emerson-lake-powell-3.name": "Emerson, Lake & Powell / 3",
+ "grp.emerson-lake-powell-3.uyeler": "Emerson, Lake & Powell (1985–86): Keith Emerson (keyboards), Greg Lake (vocals, bass, guitar), Cozy Powell (drums). 3 (1987–88): Keith Emerson, Carl Palmer (drums), Robert Berry (vocals, bass, guitar).",
+ "grp.emerson-lake-powell-3.ipucu": [
+  "'The Score' opens the album as an ELP manifesto; then hear their 'Mars, the Bringer of War' (Holst) next to King Crimson's 'Mars' from 1969.",
+  "Listen to Powell's drumming next to Palmer's on 3: two very different engines under the same keyboards."
+ ],
  "alb.emerson-lake-powell-1986-emerson-lake-powell.oncelik": "Recommended.",
  "alb.emerson-lake-powell-1986-emerson-lake-powell.tip": "studio",
  "alb.emerson-lake-powell-1986-emerson-lake-powell.kadro": "Keith Emerson, Greg Lake, Cozy Powell",
@@ -4443,6 +4693,11 @@
   "Descent"
  ],
  "grp.brand-x.name": "Brand X",
+ "grp.brand-x.ipucu": [
+  "Start with 'Nuclear Burn' on Unorthodox Behaviour and follow only Percy Jones's fretless bass.",
+  "Product (1979) was recorded by two line-ups: compare the tracks with Collins and those with Mike Clark and John Giblin.",
+  "Listen to Moroccan Roll in the same week as Wind & Wuthering: the same drummer, the same year, two different worlds."
+ ],
  "alb.brand-x-1976-unorthodox-behaviour.tip": "studio",
  "alb.brand-x-1977-moroccan-roll.tip": "studio",
  "alb.brand-x-1978-masques.tip": "studio",
@@ -4473,6 +4728,12 @@
   "Mr. Bubble Goes to Hollywood"
  ],
  "grp.anthony-phillips.name": "Anthony Phillips",
+ "grp.anthony-phillips.uyeler": "Solo artist. On The Geese & the Ghost Mike Rutherford co-produces and plays, Phil Collins sings two songs and John Hackett plays flute; on Wise After the Event and Sides Michael Giles (drums), John G. Perry (bass), Mel Collins (saxophone) and Frank Ricotti (percussion), produced by Rupert Hine. Later partners include Harry Williamson and Andrew Latimer.",
+ "grp.anthony-phillips.ipucu": [
+  "Listen to The Geese & the Ghost right after Trespass: much of it was written in the same years with Rutherford.",
+  "The 12-string sound of Genesis is his: compare 'The Knife' era with his acoustic pieces.",
+  "Private Parts & Pieces is a sketchbook — dip into it rather than listening straight through."
+ ],
  "alb.anthony-phillips-1977-the-geese-the-ghost.tip": "studio",
  "alb.anthony-phillips-1978-wise-after-the-event.oncelik": "Optional.",
  "alb.anthony-phillips-1978-wise-after-the-event.tip": "studio",
@@ -4606,6 +4867,12 @@
   "Fearless"
  ],
  "grp.soft-machine.name": "Soft Machine",
+ "grp.soft-machine.etki": "The blueprint of British jazz-rock and the trunk of the Canterbury tree: Gong, Matching Mole, Hatfield and Robert Wyatt's solo work all grow from it. Third (1970) showed that a rock band could fill whole sides with composed and improvised jazz.",
+ "grp.soft-machine.ipucu": [
+  "Listen to Third, then Fourth: the first still has Wyatt's voice in 'Moon in June', the second is already instrumental jazz.",
+  "Follow Mike Ratledge's fuzz organ across the albums — he is the thread until 1976.",
+  "Bundles (1975) has Allan Holdsworth on guitar: the band suddenly becomes a guitar-fusion group."
+ ],
  "alb.soft-machine-1968-the-soft-machine.tip": "studio",
  "alb.soft-machine-1969-volume-two.tip": "studio",
  "alb.soft-machine-1970-third.tip": "studio",
@@ -4642,6 +4909,14 @@
   "Heart Off Guard"
  ],
  "grp.caravan.name": "Caravan",
+ "grp.caravan.uyeler": "Pye Hastings (guitar, vocals; the only constant), Richard Sinclair (bass, vocals, 1968–72), Dave Sinclair (keyboards, 1968–71, 1973–75 and later), Richard Coughlan (drums, 1968–2013), Steve Miller (keyboards, 1971–72), Geoffrey Richardson (viola, guitar, 1973–), John G. Perry (bass, 1973), Mike Wedgwood (bass, 1974–76), Jan Schelhaas (keyboards, 1975–78 and 2000s), Jim Leverton (bass, 1990s–2010). Pye's brother Jimmy Hastings guests on flute and saxophone.",
+ "grp.caravan.gecisler": "Wilde Flowers → Caravan (1968). Richard Sinclair → Hatfield and the North (1972) → Camel (1977). Dave Sinclair → Matching Mole (1972), briefly Hatfield. Steve Miller from Delivery. John G. Perry → Quantum Jump, Anthony Phillips. Mike Wedgwood from Curved Air. Jan Schelhaas → Camel (1978).",
+ "grp.caravan.etki": "For many listeners the very definition of the 'Canterbury sound'; In the Land of Grey and Pink is its most loved album, and its pastoral, humorous Englishness echoes in later melodic prog such as Big Big Train.",
+ "grp.caravan.ipucu": [
+  "Start with 'Nine Feet Underground', the whole second side of In the Land of Grey and Pink: Dave Sinclair's organ at its best.",
+  "Listen for the two voices: Richard Sinclair's warm baritone and Pye Hastings's soft tenor take turns until 1972.",
+  "For Girls Who Grow Plump in the Night shows the post-Sinclair band with Geoffrey Richardson's viola — rockier and more orchestral."
+ ],
  "alb.caravan-1968-caravan.tip": "studio",
  "alb.caravan-1970-if-i-could-do-it-all-over-again-i-d-do-it-all-over-you.tip": "studio",
  "alb.caravan-1971-in-the-land-of-grey-and-pink.tip": "studio",
@@ -4675,6 +4950,14 @@
   "I'll Be There for You"
  ],
  "grp.gong.name": "Gong",
+ "grp.gong.uyeler": "Daevid Allen (guitar, vocals), Gilli Smyth (vocals, 'space whisper'), Didier Malherbe (saxophone, flute), Steve Hillage (guitar), Miquette Giraudy (synthesizer, vocals), Tim Blake (synthesizer), Mike Howlett (bass), Pierre Moerlen (drums, vibraphone); earlier Christian Tritsch and Francis Moze (bass), Pip Pyle and Laurie Allan (drums); in the fusion years Mireille Bauer and Benoît Moerlen (percussion). Since 2015: Kavus Torabi (guitar, vocals), Fabio Golfetti (guitar), Ian East (saxophone, flute), Dave Sturt (bass), Cheb Nettles (drums).",
+ "grp.gong.gecisler": "Soft Machine (Allen) → Gong. Steve Hillage from Khan and Kevin Ayers's band → Gong → solo and System 7 (with Giraudy). Tim Blake → Hawkwind. Pip Pyle → Hatfield and the North. Mike Howlett → producer and Strontium 90 (with Sting, Stewart Copeland and Andy Summers). Pierre Moerlen → Pierre Moerlen's Gong. Gilli Smyth → Mother Gong. Kavus Torabi from Cardiacs and Knifeworld.",
+ "grp.gong.etki": "The joyful, absurd side of space rock and a pillar of the free-festival culture; Ozric Tentacles and later psychedelic jam bands grew from it, and through Hillage's System 7 the line reaches electronic dance music.",
+ "grp.gong.ipucu": [
+  "Listen to the Radio Gnome trilogy (Flying Teapot, Angel's Egg, You) in order — it's one story, and You is the musical peak.",
+  "Treat Shamal and Gazeuse! as a different band: without Allen, Gong becomes a percussion-led fusion group.",
+  "Rejoice! I'm Dead! (2016) is the new line-up's first album, finished just after Allen's death: compare it with You."
+ ],
  "alb.gong-1970-magick-brother.tip": "studio",
  "alb.gong-1970-magick-brother.tr": [
   "Glad to Sad to Say",
@@ -4731,6 +5014,12 @@
   "Toad of Toad Hall"
  ],
  "grp.egg.name": "Egg",
+ "grp.egg.hikaye": "Egg grew out of Uriel, a London school band of Dave Stewart, Mont Campbell, Clive Brooks and Steve Hillage; when Hillage went to university in 1968, the trio continued as Egg (as Uriel, with Hillage, they also recorded an album of improvised psychedelia under the pseudonym Arzachel). Their first album (1970) mixed songs with long instrumental pieces in odd metres and Bach and classical quotations; The Polite Force (1971) took the style further with 'A Visit to Newport Hospital' and the multi-part 'Long Piece No. 3'. The band split in 1972; The Civil Surface (1974) was recorded afterwards from leftover material, with wind players added.",
+ "grp.egg.ipucu": [
+  "Count the metres in 'Long Piece No. 3': Egg rarely stays in 4/4 for long.",
+  "Listen to Egg next to The Nice: two organ trios of 1970, one showy, one cerebral.",
+  "Then go to Hatfield and the North to hear where Stewart's organ went next."
+ ],
  "alb.egg-1970-egg.tip": "studio",
  "alb.egg-1971-the-polite-force.tip": "studio",
  "alb.egg-1974-the-civil-surface.tip": "studio",
@@ -4740,11 +5029,26 @@
   "Wind Quartet"
  ],
  "grp.khan.name": "Khan",
+ "grp.khan.hikaye": "Steve Hillage formed Khan in 1971 with bassist Nick Greenwood (from Arthur Brown's Crazy World), drummer Eric Peachey and organist Dick Henningham. By the time they recorded Space Shanty (Deram, 1972), Henningham had gone and Hillage's old Uriel bandmate Dave Stewart played the keyboards. The album combined long, multi-part songs with Hillage's first 'space' guitar. Khan broke up in 1972; Hillage played in Kevin Ayers's band and joined Gong in 1973.",
+ "grp.khan.ipucu": [
+  "Listen to the title track and then to Hillage's Fish Rising (1975): the same guitarist, three years and a Gong later.",
+  "Follow Dave Stewart's organ: it bridges Egg and Hatfield."
+ ],
  "alb.khan-1972-space-shanty.tip": "studio",
  "grp.matching-mole.name": "Matching Mole",
+ "grp.matching-mole.hikaye": "After leaving Soft Machine in 1971, Robert Wyatt formed a band of his own with Phil Miller (guitar), Bill MacCormick (bass, from Quiet Sun) and Dave Sinclair from Caravan, soon replaced by Dave MacRae. The first album (1972) opens with 'O Caroline', one of Wyatt's most tender love songs; the second, Matching Mole's Little Red Record, was produced by Robert Fripp, with Brian Eno on synthesizer and the actress Julie Christie among the voices. The band broke up at the end of 1972; Wyatt was planning a new line-up when his fall in June 1973 ended his drumming career.",
+ "grp.matching-mole.ipucu": [
+  "Listen to 'O Caroline' and then 'Sea Song' from Rock Bottom: the same voice before and after the accident.",
+  "On Little Red Record, listen for Fripp's production and Eno's synthesizer — a meeting point of Canterbury, Crimson and Roxy Music."
+ ],
  "alb.matching-mole-1972-matching-mole.tip": "studio",
  "alb.matching-mole-1972-matching-mole-s-little-red-record.tip": "studio",
  "grp.kevin-ayers.name": "Kevin Ayers",
+ "grp.kevin-ayers.ipucu": [
+  "Joy of a Toy has his Soft Machine bandmates on it (Ratledge, Wyatt, Hopper): hear it as the gentle, songful twin of Volume Two.",
+  "On Shooting at the Moon, listen for the teenage Mike Oldfield on bass — three years before Tubular Bells.",
+  "Pick the albums for the mood, not the virtuosity: Ayers's charm is in the voice and the lyrics."
+ ],
  "alb.kevin-ayers-1969-joy-of-a-toy.tip": "studio",
  "alb.kevin-ayers-1970-shooting-at-the-moon.tip": "studio",
  "alb.kevin-ayers-1971-whatevershebringswesing.oncelik": "Recommended.",
@@ -4768,6 +5072,11 @@
   "Baby Come Home"
  ],
  "grp.robert-wyatt.name": "Robert Wyatt",
+ "grp.robert-wyatt.ipucu": [
+  "Start with Rock Bottom (1974), produced by Nick Mason: written mostly before the accident, recorded after it.",
+  "Then listen to 'Shipbuilding' (1982): a song by Elvis Costello and Clive Langer that became Wyatt's own.",
+  "Look at Alfreda Benge's covers while you listen; image and music are one shared work."
+ ],
  "alb.robert-wyatt-1970-the-end-of-an-ear.tip": "studio",
  "alb.robert-wyatt-1970-the-end-of-an-ear.tr": [
   "Las Vegas Tango Part I",
@@ -4816,6 +5125,11 @@
   "Hasta Siempre Comandante"
  ],
  "grp.the-wilde-flowers.name": "The Wilde Flowers",
+ "grp.the-wilde-flowers.uyeler": "Brian Hopper (guitar, saxophone), Hugh Hopper (bass), Robert Wyatt (drums, vocals), Kevin Ayers (vocals, early), Richard Sinclair (guitar, vocals), later Pye Hastings (guitar, vocals), Richard Coughlan (drums) and Graham Flight (vocals).",
+ "grp.the-wilde-flowers.ipucu": [
+  "Listen to the compilation as a family album: you'll hear early versions of songs later recorded by Soft Machine and Caravan.",
+  "Follow Wyatt's voice: he is already the singer here, before Soft Machine."
+ ],
  "alb.the-wilde-flowers-1994-the-wilde-flowers.tip": "archive compilation",
  "alb.steve-hillage-1975-fish-rising.oncelik": "Recommended.",
  "alb.steve-hillage-1975-fish-rising.tip": "studio",
@@ -4846,6 +5160,12 @@
  ],
  "alb.steve-hillage-1991-system-7.tip": "studio (System 7)",
  "grp.phil-manzanera-quiet-sun-801.name": "Phil Manzanera / Quiet Sun / 801",
+ "grp.phil-manzanera-quiet-sun-801.uyeler": "Quiet Sun: Phil Manzanera (guitar), Bill MacCormick (bass), Charles Hayward (drums), Dave Jarrett (keyboards). 801: Manzanera, Brian Eno (vocals, synthesizers), Bill MacCormick (bass), Simon Phillips (drums), Francis Monkman (keyboards), Lloyd Watson (guitar). Diamond Head guests: Eno, Robert Wyatt (singing 'Frontera' in Spanish), John Wetton, Eddie Jobson, Andy Mackay and Paul Thompson.",
+ "grp.phil-manzanera-quiet-sun-801.ipucu": [
+  "Listen to Mainstream and Diamond Head as a pair: recorded in the same weeks of 1975, one Canterbury, one Roxy.",
+  "801 Live includes versions of the Beatles' 'Tomorrow Never Knows' and the Kinks' 'You Really Got Me' next to Eno songs — a map of where art rock came from.",
+  "Simon Phillips is 19 on 801 Live: listen to the drumming that later took him to Jeff Beck, The Who and Toto."
+ ],
  "alb.phil-manzanera-1975-mainstream.tip": "studio (Quiet Sun)",
  "alb.phil-manzanera-1975-mainstream.kadro": "Phil Manzanera, Bill MacCormick, Charles Hayward, Dave Jarrett + Brian Eno",
  "alb.phil-manzanera-1975-mainstream.tr": [
@@ -4864,9 +5184,23 @@
   "Third Uncle"
  ],
  "grp.uk.name": "UK",
+ "grp.uk.hikaye": "After King Crimson ended in 1974, John Wetton and Bill Bruford tried several times to form a band; in 1977 they brought in Eddie Jobson (Curved Air, Roxy Music, Zappa) and Allan Holdsworth (Tempest, Soft Machine, Gong). The first album (1978) combined Crimson's weight with Jobson's symphonic keyboards and Holdsworth's fusion guitar. Musical differences soon split the band: Bruford and Holdsworth left to pursue fusion, and Zappa's drummer Terry Bozzio joined Wetton and Jobson. As a trio they made Danger Money (1979) and the live Night After Night, recorded in Japan, then broke up in 1980. Wetton and Jobson revived UK for tours in 2011–15.",
+ "grp.uk.gecisler": "King Crimson (Wetton, Bruford), Curved Air / Roxy Music / Zappa (Jobson), Tempest / Soft Machine / Gong (Holdsworth) → UK (1977). Bruford and Holdsworth → Bruford (1978). Terry Bozzio from Zappa → UK → Missing Persons. Wetton → Asia (1981). Jobson → Jethro Tull (A, 1980) → solo.",
+ "grp.uk.etki": "The last great British prog supergroup of the '70s, appearing when punk had made prog unfashionable; its mix of technique and song became a model for technical prog and prog metal, and Wetton's move to Asia started here.",
+ "grp.uk.ipucu": [
+  "'In the Dead of Night' opens the first album with a three-part suite: listen for how Holdsworth's solo breaks out of the tight structure.",
+  "Compare the two albums: with Bruford the drumming is jazzy and light, with Bozzio it is heavier and more rock.",
+  "Listen to Danger Money and then the first Asia album: Wetton's voice and melodies are the bridge."
+ ],
  "alb.uk-1978-u-k.tip": "studio",
  "alb.uk-1979-danger-money.tip": "studio",
  "grp.asia.name": "Asia",
+ "grp.asia.gecisler": "King Crimson / UK (Wetton), Yes (Howe, Downes), ELP (Palmer), Buggles (Downes) → Asia (1981). Howe → GTR (1985); Swiss guitarist Mandy Meyer took his place. John Payne led the band 1991–2006, then Asia featuring John Payne. Wetton and Downes → Icon. Palmer → ELP reunion (1991). Billy Sherwood (from World Trade and Yes) after 2017.",
+ "grp.asia.ipucu": [
+  "Listen to the first album as an answer to Drama and Love Beach: the same musicians, three minutes per song, choruses first.",
+  "Phoenix (2008) is the reunion of the original four: compare Howe's guitar there with 1982.",
+  "The Payne-era albums (Aqua to Arena) are a different band in spirit — hear them as Downes's project."
+ ],
  "alb.asia-1982-asia.tip": "studio",
  "alb.asia-1983-alpha.tip": "studio",
  "alb.asia-1985-astra.tip": "studio",
@@ -4919,14 +5253,32 @@
   "The Closer I Get to You"
  ],
  "grp.gtr.name": "GTR",
+ "grp.gtr.hikaye": "After leaving Asia in 1985, Steve Howe teamed up with Steve Hackett, who wanted to step out of his solo career for a while. With singer Max Bacon, bassist Phil Spalding and drummer Jonathan Mover they recorded one album, produced by Geoff Downes and released in 1986; the single 'When the Heart Rules the Mind' entered the US top 20 and the album went gold. But the band's AOR direction did not suit Hackett, who left after the tour; an attempt to continue with Robert Berry failed, and Howe returned to the Yes family via ABWH.",
+ "grp.gtr.gecisler": "Yes / Asia (Howe), Genesis / solo (Hackett) → GTR (1985). Max Bacon from Bronz and Nightwing. Jonathan Mover had played briefly with Marillion; later with Joe Satriani. Robert Berry, after the GTR attempt → 3 (with Emerson and Palmer). Howe → ABWH (1989); Hackett → solo.",
+ "grp.gtr.etki": "A short-lived but symbolic node: the only band in which Yes's and Genesis's guitarists played side by side; a commercial success that showed how far '80s prog veterans would go towards AOR.",
+ "grp.gtr.ipucu": [
+  "Listen to the two instrumentals, 'Hackett to Bits' and 'Sketches in the Sun': each guitarist's solo spot inside the AOR album.",
+  "Try to tell the two guitars apart: Howe's is brighter and more country-picked, Hackett's more sustained and orchestral."
+ ],
  "alb.gtr-1986-gtr.tip": "studio",
  "alb.buggles-1980-the-age-of-plastic.tip": "studio",
  "alb.buggles-1981-adventures-in-modern-recording.tip": "studio",
  "grp.bruford.name": "Bruford",
+ "grp.bruford.hikaye": "Feels Good to Me (1978) began as a Bill Bruford solo album with Allan Holdsworth, Jeff Berlin, Dave Stewart and singer Annette Peacock, and the line-up became a band. After a break for UK, Bruford and Holdsworth returned to it; One of a Kind (1979), entirely instrumental, is its peak. Holdsworth then left and was replaced by John Clark (billed on the live album as 'The Unknown John Clark'); Gradually Going Tornado (1980) added Jeff Berlin's vocals. Lacking commercial support, the band ended in 1980, and in 1981 Bruford joined Robert Fripp's new King Crimson.",
+ "grp.bruford.ipucu": [
+  "Start with One of a Kind: Dave Stewart's compositions and Holdsworth's solos at their best balance.",
+  "Listen to the UK album and Feels Good to Me in the same sitting: the same drummer and guitarist, two different bands of 1978.",
+  "Follow Jeff Berlin's bass: it plays melody as often as it holds the bottom."
+ ],
  "alb.bruford-1978-feels-good-to-me.tip": "studio",
  "alb.bruford-1979-one-of-a-kind.tip": "studio",
  "alb.bruford-1980-gradually-going-tornado.tip": "studio",
  "grp.bill-bruford-s-earthworks.name": "Bill Bruford's Earthworks",
+ "grp.bill-bruford-s-earthworks.ipucu": [
+  "On the first album, listen for the Simmons pads playing chords and melodies — Bruford's attempt to make the drums a harmonic instrument.",
+  "Compare the electric early albums with A Part, and Yet Apart (1999): by then Earthworks is an acoustic jazz quartet.",
+  "Follow Django Bates from here into the Loose Tubes and his own bands — a door from prog into British jazz."
+ ],
  "alb.bill-bruford-s-earthworks-1987-earthworks.tip": "studio",
  "alb.bill-bruford-s-earthworks-1989-dig.tip": "studio",
  "alb.bill-bruford-s-earthworks-1989-dig.tr": [
@@ -5134,6 +5486,11 @@
   "Squigely Fair"
  ],
  "grp.renaissance.name": "Renaissance",
+ "grp.renaissance.ipucu": [
+  "Listen to the 1969 album and then Prologue (1972): the same name, a completely different band.",
+  "'Song of Scheherazade' (the whole of side two of Scheherazade and Other Stories) is the band's summit with orchestra.",
+  "Follow John Tout's piano: it plays the role a guitar plays in most prog bands."
+ ],
  "alb.renaissance-1972-prologue.tip": "studio",
  "alb.renaissance-1973-ashes-are-burning.tip": "studio",
  "alb.renaissance-1974-turn-of-the-cards.tip": "studio",
@@ -5160,6 +5517,12 @@
   "Blood Silver Like Moonlight"
  ],
  "grp.curved-air.name": "Curved Air",
+ "grp.curved-air.hikaye": "Curved Air grew out of Sisyphus, the band of violinist Darryl Way and keyboardist-guitarist Francis Monkman, when singer Sonja Kristina joined in 1970; the name came from Terry Riley's A Rainbow in Curved Air. Their debut Air Conditioning (1970) was one of the first picture-disc LPs, and the single 'Back Street Luv' reached the British top five in 1971. Way and Monkman left in 1972; a new line-up with the 17-year-old Eddie Jobson made Air Cut (1973). After a 1974 reunion tour, Stewart Copeland (later of The Police) became the drummer, and the band faded out in 1976–77; it returned to the stage in the 2000s.",
+ "grp.curved-air.ipucu": [
+  "Listen to 'Vivaldi' on Air Conditioning: Way's electric violin turns a baroque theme into a rock showpiece.",
+  "Compare Way and Jobson on violin: Air Cut is where Jobson learned what he later took to Roxy Music and UK.",
+  "Monkman's VCS3 on Second Album and Phantasmagoria is one of the earliest synth sounds in British rock."
+ ],
  "alb.curved-air-1970-air-conditioning.tip": "studio",
  "alb.curved-air-1971-second-album.tip": "studio",
  "alb.curved-air-1972-phantasmagoria.tip": "studio",
@@ -5170,6 +5533,12 @@
  ],
  "alb.curved-air-1973-air-cut.tip": "studio",
  "grp.greenslade.name": "Greenslade",
+ "grp.greenslade.hikaye": "When Colosseum split in 1971, Dave Greenslade and bassist Tony Reeves formed a band without a guitarist, with a second keyboard player and singer, Dave Lawson, and drummer Andrew McCulloch, who had played on King Crimson's Lizard. They made four albums for Warner Bros between 1973 and 1975, most of them with Roger Dean covers. Reeves left before Time and Tide and was replaced by Martin Briley. The band split in 1976; Greenslade went on with solo albums (Cactus Choir, The Pentateuch of the Cosmogony) and television music, and revived the name in 2000.",
+ "grp.greenslade.ipucu": [
+  "Listen with the stereo image in mind: the two keyboard players are often panned left and right.",
+  "Compare Andrew McCulloch's drumming here with Lizard — the same jazz-tinged touch in a gentler setting.",
+  "Bedside Manners Are Extra is the best entry: songs and instrumentals in balance."
+ ],
  "alb.greenslade-1973-greenslade.tip": "studio",
  "alb.greenslade-1973-greenslade.tr": [
   "Feathered Friends",
@@ -5190,6 +5559,12 @@
   "Time"
  ],
  "grp.gryphon.name": "Gryphon",
+ "grp.gryphon.hikaye": "Richard Harvey and Brian Gulland met at the Royal College of Music and, with guitarist Graeme Taylor and drummer Dave Oberlé, began playing medieval and Renaissance music with rock instruments. Their first album (Transatlantic, 1973) consisted mostly of arrangements of early and traditional music. Midnight Mushrumps (1974) contained a side-long piece written for Peter Hall's production of The Tempest at the National Theatre, and Red Queen to Gryphon Three (1974), four instrumental movements modelled on a chess game, is their prog peak. They toured as Yes's support act; later albums moved towards songs, and the band ended after Treason (1977). They reunited in 2009 and released new albums.",
+ "grp.gryphon.ipucu": [
+  "Start with Red Queen to Gryphon Three: four instrumental movements, no vocals, every instrument a chess piece.",
+  "Listen for the crumhorn and bassoon taking the lead lines where other bands would use a synthesizer.",
+  "Listen to them next to Gentle Giant's Octopus: two answers to the question of how early music fits into rock."
+ ],
  "alb.gryphon-1973-gryphon.tip": "studio",
  "alb.gryphon-1973-gryphon.tr": [
   "Kemp's Jig",
@@ -5210,6 +5585,12 @@
   "Falero Lady"
  ],
  "grp.family.name": "Family",
+ "grp.family.hikaye": "Family grew out of the Leicester R&B band the Roaring Sixties and moved to London in 1967. Their debut, Music in a Doll's House (1968), produced by Dave Mason of Traffic, is a classic of English psychedelia. A troubled first US tour in 1969 ended their American hopes, and bassist Ric Grech left in the middle of it to join Blind Faith. In Britain they remained a major live act with hits such as 'No Mule's Fool', 'In My Own Time' and 'Burlesque'; John Wetton played bass on Fearless and Bandstand (1971–72). After It's Only a Movie, Family played a farewell concert in Leicester in 1973; Chapman and Whitney formed Streetwalkers.",
+ "grp.family.ipucu": [
+  "Start with Music in a Doll's House; 'The Chase' and 'Old Songs New Songs' show the band's mix of R&B and strings.",
+  "Listen to Fearless for John Wetton before King Crimson: bass and backing vocals already recognisable.",
+  "Chapman's voice divides listeners — give it three songs before deciding."
+ ],
  "alb.family-1968-music-in-a-doll-s-house.tip": "studio",
  "alb.family-1968-music-in-a-doll-s-house.tr": [
   "The Chase",
@@ -5232,6 +5613,11 @@
  "alb.family-1971-fearless.tip": "studio",
  "alb.family-1972-bandstand.tip": "studio",
  "grp.focus.name": "Focus",
+ "grp.focus.ipucu": [
+  "Moving Waves is the essential album: 'Hocus Pocus' on side one, the side-long 'Eruption' (based on the Orpheus myth) on side two.",
+  "Listen to 'Sylvia' and 'Hamburger Concerto': the first is a hit single, the second a 20-minute suite built on a Brahms theme.",
+  "Follow Akkerman's tone: he moves between lute-like picking and blues-rock in the same solo."
+ ],
  "alb.focus-1970-in-and-out-of-focus.tip": "studio",
  "alb.focus-1971-moving-waves.tip": "studio",
  "alb.focus-1972-focus-3.tip": "studio",
@@ -5247,6 +5633,11 @@
  "alb.focus-2012-focus-x.oncelik": "Optional.",
  "alb.focus-2012-focus-x.tip": "studio",
  "grp.barclay-james-harvest.name": "Barclay James Harvest",
+ "grp.barclay-james-harvest.ipucu": [
+  "Start with Once Again (1971): 'Mockingbird' with full orchestra is the band's signature piece.",
+  "On Gone to Earth, listen to 'Poor Man's Moody Blues' — the band's ironic answer to the critics' nickname.",
+  "Follow the three songwriters: Lees's guitar ballads, Holroyd's pop songs and Wolstenholme's Mellotron epics."
+ ],
  "alb.barclay-james-harvest-1970-barclay-james-harvest.tip": "studio",
  "alb.barclay-james-harvest-1970-barclay-james-harvest.tr": [
   "Taking Some Time On",
@@ -5274,6 +5665,12 @@
  "alb.barclay-james-harvest-2013-north.oncelik": "Optional.",
  "alb.barclay-james-harvest-2013-north.tip": "studio",
  "grp.henry-cow.name": "Henry Cow",
+ "grp.henry-cow.hikaye": "Fred Frith and Tim Hodgkinson founded Henry Cow at Cambridge University in 1968; with drummer Chris Cutler (from 1971), bassist John Greaves and saxophonist Geoff Leigh, they became Virgin Records' most uncompromising signing. Legend (1973) began a series of covers with Ray Smith's painted socks; Unrest (1974) added Lindsay Cooper's bassoon and oboe. In 1974–75 they merged with Slapp Happy, bringing in singer Dagmar Krause for In Praise of Learning. After leaving Virgin they toured Europe independently and in March 1978 organised the first Rock in Opposition festival in London with Stormy Six, Univers Zero, Samla Mammas Manna and Etron Fou Leloublan. The band split that year; the instrumental Western Culture (1979) was its farewell.",
+ "grp.henry-cow.ipucu": [
+  "Start with Legend: the most accessible album, still close to Canterbury jazz-rock.",
+  "On Unrest, side two is built from studio improvisations edited afterwards — listen to it as a composition made of tape.",
+  "Read the lyrics of In Praise of Learning before you listen: Krause sings Brecht-like political theatre, not songs."
+ ],
  "alb.henry-cow-1973-legend-leg-end.tip": "studio",
  "alb.henry-cow-1974-unrest.tip": "studio",
  "alb.henry-cow-1975-in-praise-of-learning.tip": "studio",
@@ -5284,6 +5681,11 @@
   "Falling Away"
  ],
  "grp.art-bears.name": "Art Bears",
+ "grp.art-bears.hikaye": "In January 1978 Henry Cow recorded songs at Sunrise Studio in Switzerland for a new album; Tim Hodgkinson and Lindsay Cooper felt the material was too song-based for the band. Frith, Cutler and Krause released it under a new name as Hopes and Fears (1978), with the other Cow members playing on several tracks. Winter Songs (1979), whose lyrics were inspired by the stone carvings of Amiens Cathedral, was recorded as a trio with Frith playing almost everything. After the political The World as It Is Today (1981), the trio ended; Cutler's Recommended Records label kept the RIO network going.",
+ "grp.art-bears.ipucu": [
+  "Listen to Hopes and Fears after Western Culture: the two halves of what Henry Cow's last album was supposed to be.",
+  "Winter Songs is short and dense: each song is a carving brought to life — listen with the lyrics."
+ ],
  "alb.art-bears-1978-hopes-and-fears.tip": "studio",
  "alb.art-bears-1979-winter-songs.tip": "studio",
  "alb.art-bears-1979-winter-songs.tr": [
@@ -5298,6 +5700,12 @@
   "Albion, Awake!"
  ],
  "grp.this-heat.name": "This Heat",
+ "grp.this-heat.hikaye": "Charles Hayward (drums, from Quiet Sun), Charles Bullen (guitar, clarinet) and Gareth Williams (keyboards, tapes) formed This Heat in 1976 and rehearsed in 'Cold Storage', a disused meat refrigerator in Brixton that became their studio. They recorded slowly, building pieces from live playing and tape loops; the debut appeared in 1979, followed by the Health and Efficiency EP (1980) and Deceit (1981), an album shaped by the fear of nuclear war. Williams left in 1982 and the band ended; Hayward continued with Camberwell Now. Their influence grew only later, when post-rock and experimental musicians rediscovered them.",
+ "grp.this-heat.ipucu": [
+  "Listen to Deceit as a Cold War album: the lyrics and the tape collages are about living under the bomb.",
+  "Follow Charles Hayward from Quiet Sun's Mainstream to here: the same drummer, from Canterbury jazz to post-punk.",
+  "Play it loud — the tape loops and drones are built for volume."
+ ],
  "alb.this-heat-1979-this-heat.tip": "studio",
  "alb.this-heat-1981-deceit.tip": "studio",
  "alb.ian-anderson-1983-walk-into-light.tip": "studio",
@@ -5367,6 +5775,12 @@
   "Incoherence"
  ],
  "grp.ten-years-after.name": "Ten Years After",
+ "grp.ten-years-after.uyeler": "Alvin Lee (guitar, vocals, 1966–74, 1988–2003), Leo Lyons (bass, 1966–2014), Ric Lee (drums), Chick Churchill (keyboards); after Alvin Lee, Joe Gooch (guitar, vocals, 2003–14), then Marcus Bonfanti (guitar, vocals) and Colin Hodgkinson (bass).",
+ "grp.ten-years-after.ipucu": [
+  "Undead (1968), recorded live in a small London jazz club, shows the band's jazz roots: listen to 'I'm Going Home' here before the Woodstock version.",
+  "Stonedhenge and Cricklewood Green are the most experimental: tape effects and studio tricks around the blues.",
+  "A Space in Time has 'I'd Love to Change the World', their biggest US hit: an acoustic, almost singer-songwriter side."
+ ],
  "alb.ten-years-after-1968-undead.oncelik": "Recommended.",
  "alb.ten-years-after-1968-undead.tip": "live",
  "alb.ten-years-after-1968-undead.tr": [
@@ -5472,6 +5886,13 @@
   "The New Kings"
  ],
  "grp.iq.name": "IQ",
+ "grp.iq.gecisler": "The Lens (Mike Holmes, Martin Orford) → IQ (1981). Peter Nicholls → Niadem's Ghost (1985–89) → back to IQ; Paul Menel sang in between. Martin Orford also in Jadis. John Jowitt (bass) → Arena, Frost*. Neil Durant (keyboards) from 2010. The band's label Giant Electric Pea also released Jadis, Arena and others.",
+ "grp.iq.etki": "Neo-prog's most enduring and least compromising band; Subterranea and The Road of Bones are reference works for the genre's darker, long-form side, and Giant Electric Pea helped keep British neo-prog alive in the '90s.",
+ "grp.iq.ipucu": [
+  "Start with The Wake (1985): the early IQ at its most direct, with Nicholls's theatrical voice.",
+  "Subterranea is a double concept album: give it a whole evening and read the story in the booklet.",
+  "Compare Nomzamo (with Paul Menel) with Ever (Nicholls's return): two different singers, two different bands."
+ ],
  "alb.iq-1983-tales-from-the-lush-attic.tip": "studio",
  "alb.iq-1985-the-wake.tip": "studio",
  "alb.iq-1987-nomzamo.tip": "studio",
@@ -5523,6 +5944,13 @@
   "Fallout"
  ],
  "grp.pendragon.name": "Pendragon",
+ "grp.pendragon.gecisler": "Zeus Pendragon → Pendragon (1978). Clive Nolan → Arena (with Marillion's Mick Pointer), Shadowland, Strangers on a Train and many rock operas. Craig Blundell (drums) → Steven Wilson's band. Peter Gee (bass) has been there almost from the start.",
+ "grp.pendragon.etki": "The model of the independent neo-prog band with its own label (Toff Records); its melodic, guitar-led romanticism kept a large audience especially in continental Europe and Poland.",
+ "grp.pendragon.ipucu": [
+  "The Window of Life and The Masquerade Overture are the classic Pendragon: long melodic suites and Gilmour-style solos.",
+  "Listen to Pure (2008) right after Not of This World: the same band, suddenly heavier and darker.",
+  "Follow Clive Nolan from here into Arena: the network of British neo-prog runs through him."
+ ],
  "alb.pendragon-1985-the-jewel.tip": "studio",
  "alb.pendragon-1985-the-jewel.tr": [
   "Higher Circles",
@@ -5566,6 +5994,13 @@
   "Water"
  ],
  "grp.pallas.name": "Pallas",
+ "grp.pallas.hikaye": "Formed in Aberdeen in 1974, Pallas built a following in Scotland and then on the London circuit alongside Marillion; their independently released live album Arrive Alive (1981) brought them a contract with EMI. The Sentinel (1984) was recorded in Atlanta with producer Eddy Offord and packaged in a Patrick Woodroffe painting, but the label cut its planned concept down to one side. Singer Euan Lowson left and Alan Reed (from Abel Ganz) took over for The Wedge (1986); soon after, EMI dropped the band. Pallas returned in 1999 with Beat the Drum; Reed left in 2010 and Paul Mackie became the singer.",
+ "grp.pallas.gecisler": "Rainbow (early name) → Pallas. Alan Reed from Abel Ganz → Pallas (1985–2010) → solo. Paul Mackie (vocals, 2010s). Eddy Offord (producer of The Sentinel) links them to Yes and ELP. Ronnie Brown (keyboards) and Niall Mathewson (guitar) at the core.",
+ "grp.pallas.etki": "Scotland's main contribution to the first neo-prog wave; The Sentinel, with Offord's production, is the most direct link between neo-prog and the classic Yes sound.",
+ "grp.pallas.ipucu": [
+  "On The Sentinel, listen to 'Atlantis' and the Cold War tracks as the remains of the larger concept EMI cut.",
+  "Compare Euan Lowson on Arrive Alive with Alan Reed on The Wedge: the band's sound changes with the voice."
+ ],
  "alb.pallas-1981-arrive-alive.tip": "studio",
  "alb.pallas-1981-arrive-alive.tr": [
   "Heart Attack",
@@ -5628,9 +6063,22 @@
   "Weltschmerz"
  ],
  "grp.world-trade.name": "World Trade",
+ "grp.world-trade.hikaye": "After Lodgic broke up, Billy Sherwood and Guy Allison formed World Trade with guitarist Bruce Gowdy and drummer Mark T. Williams; their debut came out on Polydor in 1989. In the same year Sherwood was considered for Yes as a possible replacement for Jon Anderson, and on the Union tour (1991) he played as an extra musician; his writing partnership with Chris Squire began then. World Trade's second album, Euphoria (1995), with Jay Schellen on drums, appeared when Sherwood was already working with Yes; Gowdy and Allison went on to the AOR band Unruly Child.",
+ "grp.world-trade.gecisler": "Lodgic (Sherwood, Allison) → World Trade (1989). Sherwood → Yes (1997–2000, 2015–), Conspiracy (with Chris Squire), Circa:, Asia (2017–). Jay Schellen → Circa:, later Yes's touring drummer. Bruce Gowdy and Guy Allison → Unruly Child.",
+ "grp.world-trade.ipucu": [
+  "Listen to the debut next to Big Generator (1987): you'll hear why Yes thought of Sherwood.",
+  "Then go to Yes's Open Your Eyes (1997), largely shaped by Sherwood and Squire."
+ ],
  "alb.world-trade-1989-world-trade.tip": "studio",
  "alb.world-trade-1995-euphoria.tip": "studio",
  "grp.spock-s-beard.name": "Spock's Beard",
+ "grp.spock-s-beard.uyeler": "Neal Morse (vocals, keyboards, guitar, 1992–2002), Alan Morse (guitar, vocals), Nick D'Virgilio (drums, vocals; lead singer 2002–11), Dave Meros (bass), Ryo Okumoto (keyboards); from 2011 Ted Leonard (vocals, guitar) and Jimmy Keegan (drums).",
+ "grp.spock-s-beard.gecisler": "Spock's Beard (1992) → Neal Morse → Transatlantic (1999), solo (2002), Flying Colors, Neal Morse Band. Nick D'Virgilio had played on Genesis's Calling All Stations and later joined Big Big Train. Ted Leonard from Enchant. Kevin Gilbert (Thud) appears as a guest.",
+ "grp.spock-s-beard.ipucu": [
+  "Start with The Light (1995): the title suite is the band's manifesto, with Gentle Giant-style vocal counterpoint.",
+  "Snow (2002) is Neal Morse's farewell double album — listen to it as the bridge to his Christian solo work.",
+  "Feel Euphoria (2003) shows the band after Morse, with D'Virgilio singing: compare the two eras."
+ ],
  "alb.spock-s-beard-1995-the-light.tip": "studio",
  "alb.spock-s-beard-1996-beware-of-darkness.oncelik": "Recommended.",
  "alb.spock-s-beard-1996-beware-of-darkness.tip": "studio",
@@ -5693,6 +6141,11 @@
  "alb.echolyn-2015-i-heard-you-listening.oncelik": "Optional.",
  "alb.echolyn-2015-i-heard-you-listening.tip": "studio",
  "grp.kansas.name": "Kansas",
+ "grp.kansas.ipucu": [
+  "Listen to Leftoverture and Point of Know Return as a pair: the hits sit next to long, symphonic pieces like 'Magnum Opus'.",
+  "Song for America (1975) is the most 'English' album: long suites, little radio thinking.",
+  "Follow Steinhardt's violin and Walsh's organ: they play in unison where an English band would use a Mellotron."
+ ],
  "alb.kansas-1974-kansas.tip": "studio",
  "alb.kansas-1975-song-for-america.tip": "studio",
  "alb.kansas-1975-masque.tip": "studio",
@@ -5844,6 +6297,11 @@
  "alb.rush-2012-clockwork-angels.kadro": "Lee, Lifeson, Peart",
  "alb.rush-2012-clockwork-angels.prod": "Nick Raskulinecz & Rush",
  "grp.hawkwind.name": "Hawkwind",
+ "grp.hawkwind.ipucu": [
+  "Space Ritual (1973) is the essential Hawkwind: a live double album with Calvert's poems between the pieces.",
+  "Warrior on the Edge of Time is built on Michael Moorcock's Eternal Champion — read a story, then listen.",
+  "Listen to Hawkwind next to Neu! and Amon Düül II: the same repetitive drive on both sides of the North Sea."
+ ],
  "alb.hawkwind-1971-in-search-of-space.tip": "studio",
  "alb.hawkwind-1972-doremi-fasol-latido.tip": "studio",
  "alb.hawkwind-1973-space-ritual.oncelik": "Essential.",
@@ -5873,9 +6331,20 @@
  "alb.hawkwind-2017-into-the-woods.oncelik": "Optional.",
  "alb.hawkwind-2017-into-the-woods.tip": "studio",
  "grp.happy-the-man.name": "Happy the Man",
+ "grp.happy-the-man.hikaye": "Happy the Man formed in 1973 among students at James Madison University in Harrisonburg, Virginia, and moved to the Washington area. In 1976 Peter Gabriel, looking for a band for his solo career, rehearsed with them, but the collaboration did not go ahead. Signed to Arista the same year, they released Happy the Man (1977) and Crafty Hands (1978) — mostly instrumental, intricate and melodic — but sales were low and Arista dropped them. Kit Watkins joined Camel in 1979; the band split, and archival recordings appeared later. They reunited in 2004 for The Muse Awakens.",
+ "grp.happy-the-man.ipucu": [
+  "Listen to Crafty Hands and then Camel's I Can See Your House from Here (1979): Kit Watkins's keyboards move from one band to the other.",
+  "Try to imagine Peter Gabriel singing over the first album — that's the record that almost happened."
+ ],
  "alb.happy-the-man-1977-happy-the-man.tip": "studio",
  "alb.happy-the-man-1978-crafty-hands.tip": "studio",
  "grp.nektar.name": "Nektar",
+ "grp.nektar.uyeler": "Roye Albrighton (guitar, vocals), Allan 'Taff' Freeman (keyboards), Derek 'Mo' Moore (bass), Ron Howden (drums) and Mick Brockett (lights, visuals — a full member); Dave Nelson replaced Albrighton in 1976–77; later line-ups around Albrighton included Larry Fast and Klaus Henatsch on keyboards.",
+ "grp.nektar.ipucu": [
+  "Remember the Future is the essential album: one continuous story about a blue bird and a blind boy, split over two sides.",
+  "...Sounds Like This (1973) is a studio-live double album: the jam band behind the concept albums.",
+  "Recycled (1975) has a Larry Fast synthesizer and is the most symphonic: compare it with Journey to the Centre of the Eye."
+ ],
  "alb.nektar-1971-journey-to-the-centre-of-the-eye.oncelik": "Recommended.",
  "alb.nektar-1971-journey-to-the-centre-of-the-eye.tip": "studio",
  "alb.nektar-1971-journey-to-the-centre-of-the-eye.tr": [
@@ -5909,6 +6378,11 @@
   "It's All Over"
  ],
  "grp.pavlov-s-dog.name": "Pavlov's Dog",
+ "grp.pavlov-s-dog.uyeler": "David Surkamp (vocals, guitar), Siegfried Carver (violin), Doug Rayburn (Mellotron, flute), David Hamilton (keyboards), Steve Scorfina (guitar), Rick Stockton (bass), Mike Safron (drums); on At the Sound of the Bell Bill Bruford plays drums and Thomas Nickeson joins on guitar.",
+ "grp.pavlov-s-dog.ipucu": [
+  "Start with 'Julia' from Pampered Menial: if the voice wins you over in the first minute, the band is for you.",
+  "On At the Sound of the Bell, listen to Bruford in an American, song-based setting — very different from Yes and Crimson."
+ ],
  "alb.pavlov-s-dog-1975-pampered-menial.oncelik": "Essential.",
  "alb.pavlov-s-dog-1975-pampered-menial.tip": "studio",
  "alb.pavlov-s-dog-1975-pampered-menial.prod": "Sandy Pearlman & Murray Krugman",
@@ -5927,6 +6401,11 @@
   "Early Morning On"
  ],
  "grp.the-flower-kings.name": "The Flower Kings",
+ "grp.the-flower-kings.ipucu": [
+  "Start with Stardust We Are (1997): the title suite sums up the band — Yes optimism, Genesis colours, jazz detours.",
+  "The albums are long; listen one disc at a time rather than straight through.",
+  "Follow Roine Stolt from Kaipa's albums of the '70s to here: Swedish symphonic prog across two decades."
+ ],
  "alb.the-flower-kings-1995-back-in-the-world-of-adventures.tip": "studio",
  "alb.the-flower-kings-1997-stardust-we-are.oncelik": "Essential.",
  "alb.the-flower-kings-1997-stardust-we-are.tip": "studio (double CD)",
@@ -5954,6 +6433,11 @@
   "For the Love of Gold"
  ],
  "grp.anglagard.name": "Änglagård",
+ "grp.anglagard.ipucu": [
+  "Listen to Hybris with good speakers: the dynamics jump from a solo flute to a full Mellotron wall in seconds.",
+  "Epilog is entirely instrumental: hear it as chamber music for a rock band.",
+  "Compare it with Trespass and Red: Änglagård takes the pastoral side of the first and the darkness of the second."
+ ],
  "alb.anglagard-1992-hybris.tip": "studio",
  "alb.anglagard-1994-epilog.tip": "studio",
  "alb.anglagard-2012-viljans-oga.oncelik": "Essential.",
@@ -5964,6 +6448,11 @@
   "Längtans klocka"
  ],
  "grp.anekdoten.name": "Anekdoten",
+ "grp.anekdoten.ipucu": [
+  "Listen to Vemod right after Red: the Mellotron, the cello and the heavy bass come from the same place.",
+  "Compare Vemod with A Time of Day (2007): the band moves from Crimson heaviness to dreamy psychedelia.",
+  "Listen for Anna Sofi Dahlberg's cello — rare in rock, and here a lead instrument."
+ ],
  "alb.anekdoten-1993-vemod.tip": "studio",
  "alb.anekdoten-1995-nucleus.tip": "studio",
  "alb.anekdoten-1995-nucleus.tr": [
@@ -5999,6 +6488,12 @@
   "Until All the Ghosts Are Gone"
  ],
  "grp.porcupine-tree.name": "Porcupine Tree",
+ "grp.porcupine-tree.uyeler": "Steven Wilson (vocals, guitar, keyboards), Richard Barbieri (keyboards, 1993–), Colin Edwin (bass, 1993–2010), Chris Maitland (drums, 1993–2002), Gavin Harrison (drums, 2002–); live guitarist John Wesley (2002–10); on the 2022 tour Nate Navarro (bass) and Randy McStine (guitar).",
+ "grp.porcupine-tree.ipucu": [
+  "Hear the band in three stages: The Sky Moves Sideways (space rock), Stupid Dream (songs), In Absentia (metal).",
+  "Fear of a Blank Planet is the place to start if you only take one: 50 minutes, one theme.",
+  "Listen to Gavin Harrison here and then in King Crimson's three-drummer line-up."
+ ],
  "alb.porcupine-tree-1995-the-sky-moves-sideways.tip": "studio",
  "alb.porcupine-tree-1995-the-sky-moves-sideways.kadro": "Steven Wilson, Richard Barbieri, Colin Edwin, Chris Maitland",
  "alb.porcupine-tree-1995-the-sky-moves-sideways.tr": [
@@ -6087,6 +6582,12 @@
  "alb.steven-wilson-2017-to-the-bone.oncelik": "Recommended.",
  "alb.steven-wilson-2017-to-the-bone.tip": "studio",
  "grp.transatlantic.name": "Transatlantic",
+ "grp.transatlantic.uyeler": "Neal Morse (vocals, keyboards, guitar), Roine Stolt (guitar, vocals), Pete Trewavas (bass, vocals), Mike Portnoy (drums, vocals); on tour Daniel Gildenlöw (2001) and later Ted Leonard as a fifth member.",
+ "grp.transatlantic.ipucu": [
+  "Start with Bridge Across Forever: 'Duel with the Devil' and 'Stranger in Your Soul' frame the album like two acts.",
+  "The Whirlwind is a single 78-minute piece: try it once in one sitting, like a symphony.",
+  "The Absolute Universe exists in two versions (Forevermore and The Breath of Life); the site uses the long one — listen for the songs reworked between them."
+ ],
  "alb.transatlantic-2000-smpt-e.oncelik": "Essential.",
  "alb.transatlantic-2000-smpt-e.tip": "studio",
  "alb.transatlantic-2000-smpt-e.tr": [
@@ -6142,6 +6643,12 @@
   "A Love That Never Dies"
  ],
  "grp.dream-theater.name": "Dream Theater",
+ "grp.dream-theater.uyeler": "John Petrucci (guitar), John Myung (bass), Mike Portnoy (drums, 1985–2010, 2023–), Kevin Moore (keyboards, 1985–94), Charlie Dominici (vocals, 1987–89), James LaBrie (vocals, 1991–), Derek Sherinian (keyboards, 1994–99), Jordan Rudess (keyboards, 1999–), Mike Mangini (drums, 2010–23).",
+ "grp.dream-theater.ipucu": [
+  "Start with Images and Words: 'Pull Me Under' and 'Metropolis—Part I' are the template of prog metal.",
+  "Scenes from a Memory is the sequel to 'Metropolis—Part I': follow the murder story through the lyrics.",
+  "The title suite of Octavarium is a tour of the band's influences — try to spot the nods to the bands that shaped them, from Pink Floyd to Queen."
+ ],
  "alb.dream-theater-1989-when-dream-and-day-unite.oncelik": "Optional.",
  "alb.dream-theater-1989-when-dream-and-day-unite.tip": "studio",
  "alb.dream-theater-1989-when-dream-and-day-unite.kadro": "Charlie Dominici, John Petrucci, John Myung, Kevin Moore, Mike Portnoy",
@@ -11638,7 +12145,7 @@
   "Ormuzd"
  ],
  "sec.27.title": "Krautrock and German Prog",
- "sec.27.intro": "From the late sixties, West German bands broke away from Anglo-American rock and built a language of their own: Kraftwerk and Neu! in Düsseldorf, Can in Cologne, Faust in a farmhouse at Wümme, Amon Düül II and Popol Vuh in Munich, and in Berlin the electronic 'kosmische Musik' of Tangerine Dream, Klaus Schulze and Ash Ra Tempel; Cluster and Harmonia link the scene to Brian Eno. Conny Plank's studio near Cologne was a common meeting point. Alongside them, Eloy, Grobschnitt and Jane stand for the German symphonic and space prog of the seventies.",
+ "sec.27.intro": "From the late sixties, West German bands broke away from Anglo-American rock and built a language of their own: Kraftwerk and Neu! in Düsseldorf, Can in Cologne, Faust in a farmhouse at Wümme, Amon Düül II and Popol Vuh in Munich, and in Berlin the electronic 'kosmische Musik' of Tangerine Dream, Klaus Schulze and Ash Ra Tempel and the psychedelic jams of Agitation Free; Cluster and Harmonia link the scene to Brian Eno. Conny Plank's studio near Cologne was a common meeting point. Alongside them, Eloy, Grobschnitt and Jane stand for the German symphonic and space prog of the seventies.",
  "alb.john-wetton-2005-icon.tr": [
   "Overture: Paradox / Let Me Go",
   "Hey Josephine",
@@ -12071,5 +12578,53 @@
  "alb.anglagard-1992-hybris.oncelik": "Essential.",
  "alb.anglagard-1994-epilog.oncelik": "Recommended.",
  "alb.anekdoten-1993-vemod.oncelik": "Recommended.",
- "alb.anekdoten-1995-nucleus.oncelik": "Optional."
+ "alb.anekdoten-1995-nucleus.oncelik": "Optional.",
+ "grp.agitation-free.name": "Agitation Free",
+ "grp.agitation-free.kurulus": "1967, Berlin. Founded by Lutz 'Lüül' Ulbrich and Lutz Ludwig Kramer (guitars), Michael 'Fame' Günther (bass) and Christopher Franke (drums); the name came from the poster of a free concert.",
+ "grp.agitation-free.hikaye": "Agitation Free grew out of West Berlin's late-sixties underground, close to the Zodiak Free Arts Lab. In 1971 Christopher Franke left for Tangerine Dream; Burghard Rausch (drums), Jörg Schwenke (guitar) and Michael Hoenig (keyboards, electronics) came in. A tour of Egypt, Greece and Cyprus for the Goethe-Institut shaped the debut Malesch (1972), whose field recordings and Arabic modes make it one of the first 'world music' records of German rock; the band also played at the 1972 Munich Olympics. 2nd (1973) leaned more towards long guitar jams. The band split in 1974; Last (1976) gathered live recordings. They reunited for River of Return (1999), played in Tokyo in 2007 (Shibuya Nights) and released Momentum in 2023.",
+ "grp.agitation-free.dna": "Instrumental psychedelic jams with two guitars, Middle Eastern scales and field recordings, early synthesizer textures and drones; at times close to the Grateful Dead or the Allman Brothers, at times to ambient.",
+ "grp.agitation-free.uyeler": "Lutz Ulbrich (guitar), Michael Günther (bass), Christopher Franke (drums, 1967–71), Lutz Ludwig Kramer (guitar, 1967–70), Ax Genrich (guitar, 1970), Jörg Schwenke (guitar, 1971–73), Michael Hoenig (keyboards, electronics, 1971–74), Burghard Rausch (drums, 1971–74), Stefan Diez and Gustl Lütjens (guitars, 1973–74).",
+ "grp.agitation-free.gecisler": "Christopher Franke → Tangerine Dream (1971). Ax Genrich → Guru Guru (1970). Michael Hoenig → Tangerine Dream (live, 1975) → solo (Departure from the Northern Wasteland, 1978). Lutz Ulbrich → Ashra with Manuel Göttsching, then Nico's band.",
+ "grp.agitation-free.etki": "Malesch is a pioneering mix of krautrock and Middle Eastern music; the band links the Berlin scene of Tangerine Dream and Ash Ra Tempel with the later 'world music' interests of German rock.",
+ "grp.agitation-free.ipucu": [
+  "Start with 'Sahara City' and 'Khan El Khalili' on Malesch: the Egypt tour in sound.",
+  "Hear Malesch next to Tangerine Dream's Zeit (1972), made by their former drummer."
+ ],
+ "alb.agitation-free-1972-malesch.an": "The debut after the Goethe-Institut tour of Egypt, Greece and Cyprus: field recordings, Arabic modes and long instrumental jams.",
+ "alb.agitation-free-1972-malesch.oncelik": "Recommended.",
+ "alb.agitation-free-1972-malesch.tip": "studio",
+ "alb.agitation-free-1972-malesch.kadro": "Lutz Ulbrich, Jörg Schwenke, Michael Günther, Michael Hoenig, Burghard Rausch",
+ "alb.agitation-free-1972-malesch.tr": [
+  "You Play for Us Today",
+  "Sahara City",
+  "Khan El Khalili",
+  "Malesch"
+ ],
+ "alb.agitation-free-1973-2nd.an": "Longer, more guitar-led pieces between psychedelic rock and electronic space; the only words are a recitation on 'Haunted Island'.",
+ "alb.agitation-free-1973-2nd.oncelik": "Optional.",
+ "alb.agitation-free-1973-2nd.tip": "studio",
+ "alb.agitation-free-1973-2nd.kadro": "Lutz Ulbrich, Stefan Diez, Gustl Lütjens, Michael Günther, Michael Hoenig, Burghard Rausch",
+ "alb.agitation-free-1973-2nd.tr": [
+  "First Communication",
+  "Laila",
+  "Haunted Island"
+ ],
+ "alb.agitation-free-1976-last.an": "Released after the split: live recordings from 1971 to 1974 that show the band at its freest.",
+ "alb.agitation-free-1976-last.oncelik": "Optional.",
+ "alb.agitation-free-1976-last.tip": "live",
+ "alb.agitation-free-1976-last.kadro": "Lutz Ulbrich, Gustl Lütjens, Michael Günther, Michael Hoenig, Burghard Rausch and others",
+ "alb.agitation-free-1976-last.tr": [],
+ "alb.roger-waters-1990-the-wall-live-in-berlin.an": "The Wall performed on 21 July 1990 on the former no man's land between Potsdamer Platz and the Brandenburg Gate, eight months after the fall of the Berlin Wall, as a benefit for Leonard Cheshire's disaster relief fund. Without the other members of Pink Floyd, Waters staged the whole work with guest singers — the Scorpions open the show, Cyndi Lauper sings 'Another Brick in the Wall (Part 2)', Van Morrison and The Band 'Comfortably Numb', and 'The Trial' is acted by Tim Curry, Thomas Dolby, Marianne Faithfull and Albert Finney — with the Rundfunk orchestra and choir under Michael Kamen and a Soviet army band. The wall built across the stage is torn down at the end; the closing 'The Tide Is Turning' answers the album's isolation with hope.",
+ "alb.roger-waters-1990-the-wall-live-in-berlin.oncelik": "Recommended.",
+ "alb.roger-waters-1990-the-wall-live-in-berlin.tip": "live (double CD)",
+ "alb.roger-waters-1990-the-wall-live-in-berlin.kadro": "Roger Waters with Scorpions, Ute Lemper, Cyndi Lauper, Sinéad O'Connor, The Band, Joni Mitchell, Bryan Adams, Van Morrison, Paul Carrack, Marianne Faithfull, Thomas Dolby, Tim Curry, Albert Finney, James Galway; band: Rick Di Fonzo, Snowy White, Andy Fairweather Low, Peter Wood, Nick Glennie-Smith, Graham Broad; Rundfunk Orchestra and Choir, cond. Michael Kamen",
+ "alb.roger-waters-1990-the-wall-live-in-berlin.prod": "Roger Waters, Nick Griffiths",
+ "alb.roger-waters-1990-the-wall-live-in-berlin.tr": [
+  "In the Flesh?",
+  "Another Brick in the Wall, Part 2",
+  "Mother",
+  "Comfortably Numb",
+  "The Trial",
+  "The Tide Is Turning"
+ ]
 }

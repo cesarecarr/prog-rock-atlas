@@ -8,11 +8,23 @@
  "grp.the-syndicats.dna": "Chuck Berry esintili R&B; Howe'un country/rockabilly tını sevgisinin tohumu.",
  "grp.the-syndicats.uyeler": "Howe (gitar), Tom Ladd (vokal) ve diğerleri; Howe 1965'te ayrıldı.",
  "grp.the-syndicats.gecisler": "Howe → The In Crowd → Tomorrow → Bodast → Yes.",
+ "grp.the-syndicats.hikaye": "60'ların başında Kuzey Londra'da kurulan bir beat grubu olan The Syndicats, Joe Meek'in Holloway Road'daki ev stüdyosundan geçen sayısız gruptan biriydi. Single'ları — Chuck Berry'nin 'Maybellene'inin cover'ı (1964), ardından 'Howlin' for My Baby' ve 'On the Horizon' — listelere giremedi, ama genç Steve Howe'un ilk profesyonel kayıtları oldu. Howe 1965'te The In Crowd'a geçince yerine Ray Fenwick (sonra Spencer Davis Group ve Ian Gillan Band) geldi.",
+ "grp.the-syndicats.etki": "Tarihsel olarak küçük, ama Howe'un merdiveninin ilk basamağı: burada öğrendiği R&B ve rockabilly tekniği çalışından hiç çıkmadı.",
+ "grp.the-syndicats.ipucu": [
+  "Albüm yok; Joe Meek single'larını derlemelerde ara ve genç Howe'un Chuck Berry kalıplarına kulak ver.",
+  "Sonra doğrudan The Yes Album'daki 'Clap'e geç: aynı country/rockabilly kökleri, altı yıl sonra."
+ ],
  "grp.tomorrow.name": "Tomorrow",
  "grp.tomorrow.kurulus": "The In Crowd (soul/cover grubu) 1967'de psychedelic'e dönüşüp Tomorrow adını aldı. Londra psychedelia sahnesinin parlak ama kısa ömürlü grubu.",
  "grp.tomorrow.dna": "İngiliz psychedelia; fuzz gitar, kaleydoskopik prodüksiyon, çocuksu sürrealizm. Howe'un deneysel gitar dilinin ilk laboratuvarı.",
  "grp.tomorrow.uyeler": "Keith West (vokal), Steve Howe (gitar), John \"Twink\" Alder (davul), John Wood (bas). Pink Floyd ile aynı sahneleri paylaştı, Hendrix ile jam yaptı.",
  "grp.tomorrow.gecisler": "Önce → The In Crowd. Sonra → Keith West solo single'ları; Howe → Bodast.",
+ "grp.tomorrow.hikaye": "Tomorrow, soul cover grubu The In Crowd'un 1967'de Londra yeraltı sahnesine dalmasıyla doğdu. 'My White Bicycle' (Amsterdam'daki Provo hareketinin ücretsiz beyaz bisikletlerinden esinlenir) ve 'Revolution' UFO Club'ın marşları oldu; grup Pink Floyd'la aynı programlarda çaldı. Tek albümleri 1968 başında çıktı, ama o sırada şarkıcı Keith West 'Excerpt from A Teenage Opera' ile solo hit yaşıyordu ve ilgi gruptan uzaklaştı. Tomorrow aynı yıl dağıldı: Twink Pretty Things ve Pink Fairies'e geçti, Howe Bodast'ı kurdu.",
+ "grp.tomorrow.etki": "İngiliz psikedeliğinin temel taşlarından; 'My White Bicycle' sonra Nazareth tarafından yorumlandı. Her şeyden önce Howe'un deneysel gitar sesini bulduğu yer.",
+ "grp.tomorrow.ipucu": [
+  "Albümü The Piper at the Gates of Dawn'la yan yana dinle: aynı şehir, aynı yıl, iki farklı cevap.",
+  "'Revolution' ve 'Real Life Permanent Dream'de Howe'un gitarını izle — ters çevrilmiş ve faz kaydırmalı sesler Yes'in ilk albümlerindeki işine işaret eder."
+ ],
  "alb.tomorrow-1968-tomorrow.an": "Tek albüm. \"My White Bicycle\" ve \"Real Life Permanent Dream\" gibi psychedelia klasikleri içerir; Howe'un gitarı daha bu erken evrede prog'un yapısal merakını taşır. Ticari başarısızlık, ama kült statü kazandı.",
  "alb.tomorrow-1968-tomorrow.tip": "stüdyo",
  "alb.tomorrow-1968-tomorrow.tr": [
@@ -25,6 +37,12 @@
  "grp.bodast.dna": "Erken İngiliz prog'unun çekirdeği — uzayan formlar, melodik gitar figürleri. Howe'un Yes öncesi \"kayıp halkası\".",
  "grp.bodast.uyeler": "Steve Howe (gitar), Clive Skinner, Bobby Clarke, Dave Curtiss çevresi. Plak şirketi iflas edince albüm rafa kalktı.",
  "grp.bodast.gecisler": "Bodast dağılınca Howe, The Nice ve Jethro Tull seçmelerine girdi (ikisi de yürümedi), ardından 1970'te Yes'e katıldı.",
+ "grp.bodast.hikaye": "Tomorrow 1968'de dağılınca Howe, şarkıcı Clive Skinner, basçı Dave Curtiss ve davulcu Bobby Clarke ile yeni bir grup kurdu. 1969'da Amerikan plak şirketi Tetragrammaton için albüm kaydettiler, ama şirket iflas etti ve kayıtlar rafa kaldırıldı. Grup dağıldı; Howe başka gruplarda denendi ve 1970'te Peter Banks'in yerine Yes'e girdi. Kayıtlar ancak 1981'de The Bodast Tapes adıyla, artık bir Yes arkeolojisi olarak yayımlandı.",
+ "grp.bodast.etki": "Kendi zamanında kimse duymadığı için etkisi olmadı; bugün psikedelik Howe ile Yes'teki Howe arasındaki 'kayıp halka'.",
+ "grp.bodast.ipucu": [
+  "Önce The Bodast Tapes'i, sonra The Yes Album'u dinle: Howe'un gitar dağarcığının ne kadarının gruba girmeden önce hazır olduğunu duyacaksın.",
+  "Bitmiş bir plak olarak değil, kamuoyu önüne hiç çıkmamış bir grubun demosu olarak dinle."
+ ],
  "alb.bodast-1981-the-bodast-tapes.an": "Yıllarca yayımlanmamış oturum kayıtları. \"Nether Street\" gibi parçalarda sonradan Yes'te duyacağımız akor renkleri sezilir.",
  "alb.bodast-1981-the-bodast-tapes.tip": "stüdyo",
  "alb.bodast-1981-the-bodast-tapes.tr": [
@@ -37,6 +55,12 @@
  "grp.the-strawbs-wakeman-koku.hikaye": "Dave Cousins'in 1964'te Strawberry Hill Boys adıyla kurduğu bluegrass grubu, folk'tan folk-prog'a evrildi. Sandy Denny kısa süre grupta şarkı söyledi; Rick Wakeman'ın 1970–71'deki klavyeleri grubu prog'a taşıdı ve Wakeman'ı Yes'e gönderdi. 'Part of the Union' (1973) sendika marşına dönüşen hit oldu. Cousins liderliğinde grup 2000'lerde klasik kadroyla yeniden albüm yapmaya başladı.",
  "grp.the-strawbs-wakeman-koku.dna": "İngiliz folk-rock + giderek artan klavye süslemesi. Wakeman'ın org/mellotron yeteneğinin vitrini.",
  "grp.the-strawbs-wakeman-koku.etki": "Wakeman'ı Yes'e taşıyan istasyon.",
+ "grp.the-strawbs-wakeman-koku.uyeler": "Dave Cousins (vokal, gitar, banjo, dulcimer; baştan sona lider), Tony Hooper (gitar, vokal, 1964–72), Richard Hudson (davul, sitar, 1970–73), John Ford (bas, 1970–73), Rick Wakeman (klavye, 1970–71), Blue Weaver (klavye, 1971–73), Dave Lambert (gitar, 1972–), Chas Cronk (bas, 1973–), John Hawken (klavye, 1973–75); Sandy Denny 1967'de kısa bir süre grupla şarkı söyledi.",
+ "grp.the-strawbs-wakeman-koku.gecisler": "Strawberry Hill Boys → Strawbs. Sandy Denny → Fairport Convention (1968). Rick Wakeman → Yes (1971). Blue Weaver Amen Corner'dan geldi; sonra Bee Gees'in grubunda çaldı. Hudson ve Ford → Hudson Ford (1973). John Hawken ilk Renaissance'tan ve Nashville Teens'ten.",
+ "grp.the-strawbs-wakeman-koku.ipucu": [
+  "Just a Collection of Antiques and Curios'la (canlı, 1970) başla: Wakeman'ın 'Where Is This Dream of Your Youth'taki org solosu, basının onu Yes'ten önce yıldız ilan etmesine yetti.",
+  "Sonra Grave New World ve Hero and Heroine'e geç; grubun Wakeman gittikten sonra Mellotron ağırlıklı sesi nasıl sürdürdüğünü duy."
+ ],
  "alb.the-strawbs-1970-dragonfly.an": "Tony Visconti'nin yaptığı ikinci albüm: hâlâ büyük ölçüde akustik folk, Claire Deniz'in çellosuyla renklenir; merkezinde uzun balad 'The Vision of the Lady of the Lake' var. Rick Wakeman burada, gruba katılmadan kısa süre önce, stüdyo müzisyeni olarak piyano çalar.",
  "alb.the-strawbs-1970-dragonfly.tip": "stüdyo",
  "alb.the-strawbs-1970-dragonfly.tr": [
@@ -96,6 +120,12 @@
  "grp.the-nice.uyeler": "Keith Emerson (org), Lee Jackson (bas/vokal), Brian Davison (davul), David O'List (gitar; erken ayrıldı — ilginç bir kavşak: Howe, O'List'in yerine The Nice'a bir gece çıktı ama kalmadı). O'List gidince üçlü org-merkezli yapıya geçtiler.",
  "grp.the-nice.gecisler": "Önce → Gary Farr & The T-Bones, VIP's. Sonra → ELP (Emerson), Jackson & Davison'ın Refugee projesi.",
  "grp.the-nice.etki": "ELP'nin doğrudan prototipi. Tüm \"klavye-merkezli prog\" akımının atası.",
+ "grp.the-nice.hikaye": "The Nice 1967'de Amerikalı soul şarkıcısı P.P. Arnold'ın eşlik grubu olarak başladı ve kısa sürede Keith Emerson'ın Hammond'u etrafında kurulan kendi setlerini çalmaya başladı. 1968'de Bernstein'ın 'America'sının yorumu — Emerson'ın Royal Albert Hall'da bir Amerikan bayrağını yakmasıyla biten — grubun o salondan men edilmesine yol açtı. Gitarist David O'List aynı yıl ayrılınca org trio olarak devam ettiler ve Bach'ı, Sibelius'u, Çaykovski'yi rock'a taşıdılar; Five Bridges (1970) Newcastle Sanat Festivali için orkestrayla kaydedildi. Emerson, 1969'daki bir ABD turnesinde King Crimson'dan Greg Lake ile tanışınca The Nice'ın günleri sayılıydı: grup 1970'te dağıldı.",
+ "grp.the-nice.ipucu": [
+  "Ars Longa Vita Brevis'i ELP'nin ilk albümüyle yan yana dinle: trio biçimi ve klasik alıntılar zaten orada; değişen Lake'in sesi.",
+  "Five Bridges'te Emerson'ın orkestra ile trio arasında nasıl gidip geldiğine kulak ver — Pictures at an Exhibition'ın provası.",
+  "The Thoughts of Emerlist Davjack'te hâlâ O'List'in gitarı var: org triosu olmadan önceki psikedelik The Nice."
+ ],
  "alb.the-nice-1968-the-thoughts-of-emerlist-davjack.an": "Psychedelia ile klasik uyarlamanın ilk dengesi. O'List'in gitarının son izi; org henüz tek hâkim ses değil. Grubun \"ne olabilirim?\" sorusunu sorduğu albüm.",
  "alb.the-nice-1968-the-thoughts-of-emerlist-davjack.tip": "stüdyo",
  "alb.the-nice-1968-the-thoughts-of-emerlist-davjack.tr": [
@@ -130,6 +160,11 @@
  "grp.procol-harum.uyeler": "Gary Brooker (vokal/piyano), Matthew Fisher (org), Robin Trower (gitar; sonra solo blues-rock'a). Keith Reid sözleri yazdı (söz yazarı çekirdek üye).",
  "grp.procol-harum.gecisler": "Önce → The Paramounts. Sonra → Robin Trower solo kariyeri.",
  "grp.procol-harum.etki": "Org tabanlı prog'un erken popülerleştiricisi; orkestra-rock işbirliğinin öncüsü.",
+ "grp.procol-harum.ipucu": [
+  "'A Whiter Shade of Pale'in ötesine geç: Shine On Brightly'deki (1968) 'In Held 'Twas in I', prog patlamasından bir yıl önce yazılmış ilk plak yüzü uzunluğundaki rock süitlerinden biri.",
+  "Stüdyo 'Conquistador'ı Edmonton Senfoni versiyonuyla (1972) karşılaştır: orkestralı versiyon orijinalinden daha büyük hit oldu.",
+  "İki klavyeyi takip et: Fisher'ın Hammond'u ile Brooker'ın piyanosu birlikte grubun sesini oluşturur."
+ ],
  "alb.procol-harum-1967-procol-harum.an": "Barok-pop ile rock'un kaynaşması; \"A Whiter Shade of Pale\"in gölgesinde ama \"Conquistador\" gibi sağlam parçalarla dolu.",
  "alb.procol-harum-1967-procol-harum.tip": "stüdyo",
  "alb.procol-harum-1967-procol-harum.tr": [
@@ -202,6 +237,13 @@
  "grp.moody-blues.hikaye": "Birmingham'daki R&B grubu olarak 'Go Now' (1964) hitiyle başlayan Moody Blues, Justin Hayward ve John Lodge'un katılımıyla Days of Future Passed'te (1967) orkestra ile rock'ı kaynaştırarak senfonik rock'ın ilk büyük albümünü yaptı. Mike Pinder'in Mellotron'u 'Core Seven' albümlerinin (1967–72) dokusunu belirledi. 1974–77 arası mola, ardından Patrick Moraz'lı 80'ler synth-pop dönemi geldi. 2018'de Rock and Roll Hall of Fame'e alındılar.",
  "grp.moody-blues.dna": "Mellotron dokusu, orkestral konseptler, kozmik/şiirsel sözler.",
  "grp.moody-blues.etki": "Mellotron estetiği üzerinden King Crimson ve Genesis'in atmosferini önceledi.",
+ "grp.moody-blues.uyeler": "Justin Hayward (gitar, vokal, 1966–), John Lodge (bas, vokal, 1966–), Mike Pinder (klavye, Mellotron, 1964–78), Ray Thomas (flüt, vokal, 1964–2002), Graeme Edge (davul, şiirler, 1964–2018); daha önce Denny Laine (gitar, vokal, 1964–66) ve Clint Warwick (bas, 1964–66); Patrick Moraz (klavye, 1978–91).",
+ "grp.moody-blues.gecisler": "Birmingham beat grupları (El Riot & the Rebels, the Avengers) → Moody Blues (1964). Mike Pinder, Mellotron'un üreticisi Streetly Electronics'te çalışmıştı. Denny Laine → solo → Wings (1971). Hayward ve Lodge → Blue Jays (1975, ara döneminde). Patrick Moraz Refugee ve Yes'ten → Moody Blues (1978).",
+ "grp.moody-blues.ipucu": [
+  "'Core Seven'i (1967–72) sırayla dinle: her albüm bir tema etrafında kurulu — bir gün, anlam arayışı, düşler, uzay, denge.",
+  "Days of Future Passed'teki orkestra geçişleri grubun değil, Peter Knight ve London Festival Orchestra'nın — dikiş yerlerine kulak ver.",
+  "Ana iplik Pinder'ın Mellotron'u: In the Court of the Crimson King (1969) ile karşılaştır, Crimson'ın onu nereye götürdüğünü duyarsın."
+ ],
  "alb.moody-blues-1967-days-of-future-passed.an": "Londra Festival Orkestrası'yla kaydedilen, gün-döngüsü konseptli albüm. \"Nights in White Satin\" ile orkestra-rock konsept albümünün miladı sayılır.",
  "alb.moody-blues-1967-days-of-future-passed.tip": "stüdyo",
  "alb.moody-blues-1967-days-of-future-passed.tr": [
@@ -292,6 +334,12 @@
  "grp.the-crazy-world-of-arthur-brown-kingdom-come.dna": "Teatral vokal (operatik çığlıklar), Hammond orgu ağırlıklı psychedelic soul; sonra elektronik ritimli, mistik prog.",
  "grp.the-crazy-world-of-arthur-brown-kingdom-come.gecisler": "Crazy World (Vincent Crane, Carl Palmer, Drachen Theaker) → Atomic Rooster (Crane, Palmer) → ELP (Palmer); Kingdom Come; Hawkwind ve Alan Parsons Project'le konuk vokal.",
  "grp.the-crazy-world-of-arthur-brown-kingdom-come.etki": "Shock rock'un ve prog tiyatrosunun atası; Atomic Rooster ve ELP'ye giden kavşak.",
+ "grp.the-crazy-world-of-arthur-brown-kingdom-come.uyeler": "The Crazy World (1967–69): Arthur Brown (vokal), Vincent Crane (org), Drachen Theaker (davul), sonra Carl Palmer (davul, 1969); albümün bir kısmında Nick Greenwood bas çalar. Kingdom Come (1970–73): Brown ile Andy Dalby (gitar), önce Michael Harris sonra Victor Peraino (klavye, Mellotron), önce Desmond Fisher sonra Phil Curtis (bas), Martin Steer (davul); Journey'de grubu Bentley Rhythm Ace davul makinesi sürükler.",
+ "grp.the-crazy-world-of-arthur-brown-kingdom-come.ipucu": [
+  "1968 albümünün birinci yüzünü tek parça olarak dinle: Tommy'den önce minyatür bir rock operası, kısa bir 'ateş' süiti.",
+  "Vincent Crane'in orgunu burada, sonra Atomic Rooster'ın ilk albümünde takip et — Carl Palmer'ı da ELP'ye kadar.",
+  "Journey (1973), davulcu yerine davul makinesi kullanan ilk rock albümlerinden biri: erken Kraftwerk'le yan yana dinle."
+ ],
  "alb.arthur-brown-1968-the-crazy-world-of-arthur-brown.an": "Cehennem ateşi ve kıyamet temalı, Hammond orgu ağırlıklı psychedelic soul. Birinci yüz bir konsept süit olarak tasarlandı.",
  "alb.arthur-brown-1968-the-crazy-world-of-arthur-brown.oncelik": "Atlanmamalı — proto-prog'un kilit kayıtlarından.",
  "alb.arthur-brown-1968-the-crazy-world-of-arthur-brown.tip": "stüdyo",
@@ -328,6 +376,11 @@
  "grp.pearls-before-swine.dna": "Akustik folk, sitar, orgu ve ses kolajları; Leonard Cohen ile Syd Barrett arası bir rüya hâli.",
  "grp.pearls-before-swine.gecisler": "Tom Rapp → solo; etkisi: Current 93, Damien Jurado ve 2000'lerin freak-folk kuşağı.",
  "grp.pearls-before-swine.etki": "Amerikan psych-folk'un kilit düğümü; İngiliz pastoral prog'la (Trespass, Incredible String Band) akraba.",
+ "grp.pearls-before-swine.uyeler": "Tom Rapp (vokal, gitar, şarkılar), Wayne Harley (banjo, mandolin, otoharp, ses osilatörü), Lane Lederer (bas, gitar, nefesliler), Roger Crissinger (org, klavsen) — ilk dörtlü; sonra Jim Bohannon (klavye) ve New York ile Nashville'den değişen bir stüdyo müzisyeni çevresi; sonraki albümlerde Elisabeth Rapp (vokal).",
+ "grp.pearls-before-swine.ipucu": [
+  "Balaklava (1968) ile başla: Kırım Savaşı teması, arşiv kayıtları (Florence Nightingale'in sesi) ve Bruegel'in tablosu tek bir savaş karşıtı konsept oluşturur.",
+  "Erken Incredible String Band ve Trespass ile yan yana dinle: Atlantik'in iki yakasında aynı pastoral-mistik hava."
+ ],
  "alb.pearls-before-swine-1967-one-nation-underground.an": "ESP-Disk'ten çıkan ve şirketin en çok satan plakları arasına giren ilk albüm; Bosch'un 'Dünyevi Zevkler Bahçesi' detaylı kapağıyla, savaş karşıtı ve mistik folk-psychedelia.",
  "alb.pearls-before-swine-1967-one-nation-underground.oncelik": "Atlanmamalı.",
  "alb.pearls-before-swine-1967-one-nation-underground.tip": "stüdyo",
@@ -362,6 +415,12 @@
  "grp.aphrodite-s-child.dna": "Barok pop, Yunan melodisi, psikedelik rock ve sonra avangart ses kolajları.",
  "grp.aphrodite-s-child.gecisler": "The Forminx (Vangelis) / Idols (Roussos) → Aphrodite's Child → Vangelis solo, Jon & Vangelis; Demis Roussos solo; Silver Koulouris (gitar).",
  "grp.aphrodite-s-child.etki": "Kıta Avrupası prog'unun erken klasiği; 666 kıyamet temalı konsept albümlerin prototipi.",
+ "grp.aphrodite-s-child.uyeler": "Vangelis (klavye, flüt, vokal; besteci), Demis Roussos (vokal, bas, gitar), Loukas Sideras (davul, vokal), Silver Koulouris (gitar; 1968'de ve askerlik dönüşü 1971–72'de). 666'nın sözlerini Costas Ferris yazdı; '∞'da Irene Papas konuk olarak yer alır.",
+ "grp.aphrodite-s-child.ipucu": [
+  "İlk iki albümü ve 666'yı iki ayrı grup gibi dinle: ilki Avrupa pop'u satar, ikincisi Vangelis'in stüdyo laboratuvarıdır.",
+  "666'yı Vahiy Kitabı açıkken dinle; albüm, kolaj biçiminin düşündürdüğünden daha yakından onu takip eder.",
+  "Buradan Vangelis'in Heaven and Hell'ine (1975) geç: 666'nın koroları ve vurmalıları onun solo diline dönüşür."
+ ],
  "alb.aphrodite-s-child-1968-end-of-the-world.an": "Barok pop ve psikedelik ballad albümü; 'Rain and Tears' ile Avrupa'da milyonlar sattı.",
  "alb.aphrodite-s-child-1968-end-of-the-world.oncelik": "İsteğe bağlı.",
  "alb.aphrodite-s-child-1968-end-of-the-world.tip": "stüdyo",
@@ -645,6 +704,12 @@
  "grp.robert-fripp-solo-ve-ortaklklar.dna": "Tremolo-picking, kesintisiz legato solo, döngü (loop) katmanları; Gurdjieff'ten beslenen disiplin felsefesi.",
  "grp.robert-fripp-solo-ve-ortaklklar.gecisler": "Giles, Giles & Fripp → King Crimson → Fripp & Eno → Bowie/Gabriel oturumları → The League of Gentlemen → Guitar Craft → Fripp & Andy Summers → Sylvian/Fripp → ProjeKcts.",
  "grp.robert-fripp-solo-ve-ortaklklar.etki": "Ambient müziğin (Eno ile) ve looping tekniklerinin öncüsü; prog'dan post-rock'a uzanan bir yöntem öğretmeni.",
+ "grp.robert-fripp-solo-ve-ortaklklar.uyeler": "Bir grup değil, ortaklar: Brian Eno ((No Pussyfooting), Evening Star); Exposure'da Peter Gabriel, Daryl Hall, Peter Hammill, Terre Roche, Tony Levin, Jerry Marotta, Phil Collins, Barry Andrews, Sid McGinnis ve Narada Michael Walden; The League of Gentlemen (Barry Andrews, Sara Lee, Johnny Toobad, Kevin Wilkinson); Andy Summers (I Advance Masked, Bewitched); David Sylvian, Trey Gunn ve Jerry Marotta (The First Day).",
+ "grp.robert-fripp-solo-ve-ortaklklar.ipucu": [
+  "Exposure'u Fripp'in 1977–78 'günlüğü' olarak dinle: Gabriel'in ikinci albümü ve Hall'un Sacred Songs'u ile bir üçlemenin üçüncü parçası olarak tasarlandı.",
+  "(No Pussyfooting) iki teyp ve bir gitardan ibaret: bir kez bunu bilerek dinle, sonra unut.",
+  "The First Day, 90'ların Crimson'ına köprü: riff'ler ve Trey Gunn'ın Stick'i doğrudan THRAK'a götürür."
+ ],
  "alb.robert-fripp-1973-no-pussyfooting.an": "Brian Eno ile ilk ortak albüm: iki Revox teyp arasında gecikmeli döngülerle kurulan 'Frippertronics'in doğuşu.",
  "alb.robert-fripp-1973-no-pussyfooting.oncelik": "Önerilir — ambient'in kurucu kayıtlarından.",
  "alb.robert-fripp-1973-no-pussyfooting.tip": "stüdyo (Fripp & Eno)",
@@ -695,6 +760,12 @@
  "grp.john-wetton-solo.dna": "Distorsiyonlu, agresif bas; duygusal ve güçlü vokal; prog ile AOR arasında melodik şarkı yazarlığı.",
  "grp.john-wetton-solo.gecisler": "Mogul Thrash → Family → King Crimson → Roxy Music → Uriah Heep → U.K. → Asia → Icon (Downes) → solo.",
  "grp.john-wetton-solo.etki": "Crimson–Asia hattının tek ortak sesi; prog ile arena rock'ı birleştiren kişi.",
+ "grp.john-wetton-solo.uyeler": "Değişen konuklarla solo projeler: Martin Barre, Simon Kirke ve Malcolm Duncan (Caught in the Crossfire); Geoff Downes (Icon); Raised in Captivity'de Steve Hackett, Robert Fripp, Eddie Jobson, Tony Kaye, Steve Morse, Mick Box ve Geoff Downes, yapımcı Billy Sherwood.",
+ "grp.john-wetton-solo.ipucu": [
+  "Caught in the Crossfire'ı (1980) U.K. ile Asia arasındaki eksik basamak olarak dinle: şarkılar şimdiden radyo kalıbında.",
+  "Raised in Captivity bir 'aile buluşması': künyeyi okumadan önce her konuğun çalgısını tanımaya çalış.",
+  "Ses için Starless and Bible Black ve Red'e, bas için canlı 'Easy Money'ye geri dön."
+ ],
  "alb.john-wetton-1980-caught-in-the-crossfire.an": "U.K. sonrası, Asia öncesi ilk solo albüm; AOR yönelimi Asia'nın ön çalışması gibidir.",
  "alb.john-wetton-1980-caught-in-the-crossfire.oncelik": "İsteğe bağlı.",
  "alb.john-wetton-1980-caught-in-the-crossfire.tip": "stüdyo",
@@ -727,6 +798,11 @@
  "grp.21st-century-schizoid-band.dna": "1969–72 Crimson repertuvarı, McDonald'ın nefeslileri ve Collins'in saksafonu; saygılı ama canlı yorum.",
  "grp.21st-century-schizoid-band.gecisler": "King Crimson (1969–72 kadrosu) → 21CSB → Jakszyk ve Collins King Crimson'a (2013). İlgili: Jakszyk, Fripp, Collins (A Scarcity of Miracles, 2011).",
  "grp.21st-century-schizoid-band.etki": "Fripp'i erken dönem repertuvarı yeniden sahneye taşımaya teşvik eden köprü proje.",
+ "grp.21st-century-schizoid-band.uyeler": "Jakko Jakszyk (vokal, gitar), Ian McDonald (saksafon, flüt, klavye), Mel Collins (saksafon, flüt), Peter Giles (bas), Michael Giles (davul, 2002), sonra Ian Wallace (davul, 2003–07). A Scarcity of Miracles (2011): Jakszyk, Robert Fripp ve Mel Collins, yanlarında Tony Levin ve Gavin Harrison.",
+ "grp.21st-century-schizoid-band.ipucu": [
+  "Buradaki 'Pictures of a City' ve 'Cirkus'u orijinalleriyle karşılaştır: aynı müzisyenler otuz yıl sonra onları daha gevşek ve caz kokulu çalıyor.",
+  "A Scarcity of Miracles'ı 2014 King Crimson'ının uvertürü olarak dinle: Jakszyk, Collins, Levin ve Harrison zaten orada."
+ ],
  "alb.21st-century-schizoid-band-2002-official-bootleg-volume-one.an": "İlk turneden canlı kayıt: 'Cirkus', 'Pictures of a City', 'Formentera Lady' gibi uzun süredir sahnede çalınmamış parçalar.",
  "alb.21st-century-schizoid-band-2002-official-bootleg-volume-one.oncelik": "İsteğe bağlı.",
  "alb.21st-century-schizoid-band-2002-official-bootleg-volume-one.tip": "canlı",
@@ -749,6 +825,12 @@
  "grp.projekcts.dna": "Serbest doğaçlama, elektronik davul, Warr gitar ve Soundscapes; jazz-metal-ambient arası laboratuvar.",
  "grp.projekcts.gecisler": "King Crimson (THRAK kadrosu) → ProjeKcts → King Crimson (2000 dörtlüsü); Trey Gunn ve Pat Mastelotto → TU; Levin → Stick Men.",
  "grp.projekcts.etki": "Crimson'un yöntemini (doğaçlamadan kompozisyona) açıkça belgeleyen, sonradan Crimson ProjeKCt ve Stick Men'e ilham olan çatı.",
+ "grp.projekcts.uyeler": "ProjeKct One: Robert Fripp, Trey Gunn, Tony Levin, Bill Bruford. ProjeKct Two: Fripp, Gunn, Adrian Belew (V-Drums). ProjeKct Three: Fripp, Gunn, Pat Mastelotto. ProjeKct Four: Fripp, Gunn, Levin, Mastelotto. Sonra ProjeKct X (Gunn, Mastelotto) ve ProjeKct Six (Fripp, Belew).",
+ "grp.projekcts.ipucu": [
+  "En kolay giriş Space Groove (ProjeKct Two): elektronik davulda Belew, yer yer neredeyse dans müziği.",
+  "The ConstruKction of Light'ta (2000) yeniden çıkan riff ve dokulara kulak ver: yöntem burada denendi.",
+  "Kutu seti bir oturuşta dinleme; her seferinde bir ProjeKct al ve kadroları karşılaştır."
+ ],
  "alb.projekcts-1998-space-groove.an": "ProjeKct Two: Belew'in elektronik davulu, Fripp'in synth gitarı ve Gunn'ın Warr gitarıyla uzay-funk doğaçlamaları.",
  "alb.projekcts-1998-space-groove.oncelik": "İsteğe bağlı.",
  "alb.projekcts-1998-space-groove.tip": "stüdyo doğaçlama",
@@ -774,6 +856,12 @@
  "grp.stick-men-the-crimson-projekct.dna": "Chapman Stick ve Touch Guitar dokuları, Crimson'un poliritmik mirası, endüstriyel-elektronik renk.",
  "grp.stick-men-the-crimson-projekct.gecisler": "Tony Levin (Crimson, Gabriel, Bruford Levin Upper Extremities), Pat Mastelotto (Mr. Mister → Crimson), Markus Reuter (Centrozoon, Tuner) → Stick Men; Belew Power Trio → The Crimson ProjeKCt.",
  "grp.stick-men-the-crimson-projekct.etki": "Crimson ailesinin 2010'lardaki 'yan akımı'; Stick ve Touch Guitar gibi enstrümanların modern prog'daki vitrini.",
+ "grp.stick-men-the-crimson-projekct.uyeler": "Tony Levin (Chapman Stick, bas, vokal), Pat Mastelotto (davul, elektronik), Michael Bernier (Stick, 2007–10), Markus Reuter (Touch Guitar, 2010–). The Crimson ProjeKCt'e Adrian Belew Power Trio katılır: Adrian Belew (gitar, vokal), Julie Slick (bas), Tobias Ralph (davul).",
+ "grp.stick-men-the-crimson-projekct.ipucu": [
+  "Stick Men sık sık Stravinski'nin Ateş Kuşu'nun yeniden yorumunu çalar: Stick'in orkestranın yerini nasıl aldığına kulak ver.",
+  "Prog Noir'ı The Power to Believe'den sonra dinle: Mastelotto'nun davul sesi ikisini doğrudan bağlar.",
+  "Levin ile Reuter'i ayırt etmeye çalış: ikisi de vurarak çalınan çok telli çalgılar kullanıyor, ama tiz bölgeyi genellikle Reuter alır."
+ ],
  "alb.stick-men-2010-soup.an": "Markus Reuter'lı ilk albüm; Stravinsky'nin 'Firebird'ünden bir uyarlama ve Crimson çizgisinde sert ritmik parçalar.",
  "alb.stick-men-2010-soup.oncelik": "Önerilir.",
  "alb.stick-men-2010-soup.tip": "stüdyo",
@@ -1230,6 +1318,13 @@
  "grp.anderson-bruford-wakeman-howe-abwh.dna": "Klasik Yes sesinin (Howe gitarı + Anderson vokali + Wakeman klavyesi + Bruford davulu) 80'ler sonu prodüksiyonuyla yeniden üretimi.",
  "grp.anderson-bruford-wakeman-howe-abwh.uyeler": "Dörtlü çekirdek + Tony Levin (bas, yine bir King Crimson bağı).",
  "grp.anderson-bruford-wakeman-howe-abwh.gecisler": "Önce → Yes. Sonra → Union (1991) ile resmen Yes'e geri eridi.",
+ "grp.anderson-bruford-wakeman-howe-abwh.hikaye": "1988'de Rabin dönemi Yes'ten bıkan Jon Anderson bir solo albüme başladı; bu albüm Squire hariç 1971–72 klasik kadrosunun buluşmasına dönüştü. Montserrat'taki AIR Studios'ta yapımcı Chris Kimsey ile ve baskta Tony Levin'le kaydedilen albüm 1989'da çıktı, 'Brother of Mine' radyoda çalındı. 'An Evening of Yes Music Plus' adıyla yapılan turne klasik repertuvarı kalabalık salonlara taşıdı; Yes'in menajmanı isim yüzünden dava tehditleriyle karşılık verdi. 1991'de plak şirketi ABWH ile Yes-West'i birleştirdi: ikinci ABWH albümünün malzemesi Union'a girdi ve sekiz kişilik kadro birlikte turneye çıktı.",
+ "grp.anderson-bruford-wakeman-howe-abwh.etki": "Seyircinin klasik Yes'i istediğini kanıtladı ve Union birleşmesini zorladı; 'adı dışında her şeyiyle Yes' modeli ARW ile (2016) geri döndü.",
+ "grp.anderson-bruford-wakeman-howe-abwh.ipucu": [
+  "Albümü Union'la yan yana dinle: hangi parçaların ikinci ABWH plağı için yazıldığını duyarsın.",
+  "Bruford burada elektronik Simmons davulu çalıyor — King Crimson'ın Discipline dönemindeki işiyle karşılaştır.",
+  "An Evening of Yes Music Plus (turne kaydı) Yes düğümünde: orada klasikler Levin ve Bruford'la geri döner."
+ ],
  "alb.anderson-bruford-wakeman-howe-1989-anderson-bruford-wakeman-howe.an": "\"Brother of Mine\", \"Order of the Universe\" gibi parçalarla klasik Yes'in uzun-form anlayışını diriltir. Ticari olarak başarılı; aslında bir \"gerçek Yes\" albümü gibi dinlenir. Hukuki isim engeli olmasa \"Yes albümü\" sayılırdı.",
  "alb.anderson-bruford-wakeman-howe-1989-anderson-bruford-wakeman-howe.tip": "stüdyo",
  "alb.anderson-bruford-wakeman-howe-1989-anderson-bruford-wakeman-howe.tr": [
@@ -1244,6 +1339,11 @@
  "grp.flash.uyeler": "Peter Banks (gitar), Colin Carter (vokal), Ray Bennett (bas), Mike Hough (davul). Tony Kaye ilk albümde klavyede konuk — iki eski Yes üyesi yan yana.",
  "grp.flash.gecisler": "Önce → Yes (Banks), Yes (Kaye konuk). Banks ileride Empire'ı kurdu. Yes'in 'ilk ayrılan üye' dalı.",
  "grp.flash.etki": "Yes evreninin en erken türevi; Banks'in Yes'in karakteristik gitar dilini kendi grubuna taşıması. Kült statü.",
+ "grp.flash.hikaye": "Peter Banks, Time and a Word'den sonra 1970'te Yes'ten çıkarıldı; bir yıl sonra şarkıcı Colin Carter, basçı Ray Bennett ve davulcu Mike Hough ile Flash'ı kurdu. Tony Kaye'in klavyede konuk olduğu ilk albüm (1972) Amerika'da iyi iş yaptı; 'Small Beginnings' single'ı Billboard'da ilk 30'a girdi. Bir yıl içinde iki albüm daha geldi, ama grup 1973'teki bir ABD turnesinde dağıldı. Banks, Empire ve stüdyo işleriyle devam etti; 2013'te öldü.",
+ "grp.flash.ipucu": [
+  "Flash'ı Time and a Word'den hemen sonra dinle: Yes'in bıraktığı yolu sürdüren Banks.",
+  "Banks'in kesik kesik, caz kokulu çalışını Howe'un The Yes Album'daki çalışıyla karşılaştır — aynı gruba iki cevap."
+ ],
  "alb.flash-1972-flash.an": "Çıkış albümü; Tony Kaye konuk klavyede. 'Small Beginnings' ABD'de hit oldu — erken Yes dokusunu taşıyan melodik prog.",
  "alb.flash-1972-flash.tip": "stüdyo",
  "alb.flash-1972-flash.tr": [
@@ -1271,6 +1371,12 @@
  "grp.rick-wakeman-solo.dna": "Klasik piyano tekniği, Minimoog solo, Mellotron ve kilise orgu; orkestra-koro ile anlatısal program müziği.",
  "grp.rick-wakeman-solo.gecisler": "Strawbs → Yes → solo; ABWH (1989), Anderson Rabin Wakeman (2016–18). Oğlu Oliver Wakeman: Yes (2008–11), From a Page.",
  "grp.rick-wakeman-solo.etki": "Klavye-merkezli senfonik rock'ın en popüler yüzü; Keith Emerson'la birlikte 'klavye virtüözü' arketipi.",
+ "grp.rick-wakeman-solo.uyeler": "Rick Wakeman ve English Rock Ensemble: Ashley Holt ve Gary Pickford-Hopkins (vokal), Roger Newell (bas), Barney James ve Tony Fernandez (davul), Jeffrey Crampton ve John Dunsterville (gitar); David Measham yönetiminde Londra Senfoni Orkestrası ve English Chamber Choir (Journey, King Arthur). Six Wives'ta Yes ve Strawbs müzisyenleri var (Howe, Squire, Bruford, White, Dave Lambert, Chas Cronk); Return to the Centre of the Earth'te Patrick Stewart, Ozzy Osbourne, Trevor Rabin ve Justin Hayward.",
+ "grp.rick-wakeman-solo.ipucu": [
+  "Six Wives tamamen enstrümantal: her parça bir karakter portresi — adını okumadan önce hangi eş olduğunu tahmin et.",
+  "Journey (1974) ile Return to the Centre of the Earth'ü (1999) art arda dinle: tek bir hikâyede 25 yıllık prodüksiyon farkı.",
+  "Klavyeleri say: Wakeman çoğu zaman Minimoog, Mellotron, Hammond ve piyanoyu aynı ölçüde üst üste koyar."
+ ],
  "alb.rick-wakeman-1973-the-six-wives-of-henry-viii.an": "VIII. Henry'nin altı eşinin her birine bir enstrümantal portre. Yes ve Strawbs üyelerinin katıldığı, Wakeman'ın tekniğini en saf haliyle gösteren solo başyapıt.",
  "alb.rick-wakeman-1973-the-six-wives-of-henry-viii.oncelik": "Atlanmamalı — solo kariyerin zirvesi.",
  "alb.rick-wakeman-1973-the-six-wives-of-henry-viii.tip": "stüdyo",
@@ -1335,6 +1441,12 @@
  "grp.steve-howe-solo.dna": "Caz akorları, country fingerpicking, Portekiz gitarı ve lap steel; tek bir gitar solosunda birkaç türü dolaşan anlatısal üslup.",
  "grp.steve-howe-solo.gecisler": "Syndicats → Tomorrow → Bodast → Yes → Asia → GTR → ABWH → Yes; Steve Howe Trio (caz).",
  "grp.steve-howe-solo.etki": "Prog gitarının 'ton şairi'; eklektik gitar anlayışıyla sonraki kuşağa (Roine Stolt, Steve Morse) örnek oldu.",
+ "grp.steve-howe-solo.uyeler": "Steve Howe, Yes arkadaşları ve dostlarıyla: Alan White, Bill Bruford ve Patrick Moraz (Beginnings, The Steve Howe Album), Ultravox'tan Billy Currie (Turbulence), oğlu Dylan Howe (davul) ve Remedy grubu (Elements); Steve Howe Trio'da Ross Stanley (org) ve Dylan Howe. Beginnings ve Elements'te Howe şarkı da söyler.",
+ "grp.steve-howe-solo.ipucu": [
+  "The Steve Howe Album bir 'gitar müzesi': her parçada başka bir çalgı öne çıkar — steel, Portekiz gitarı, klasik, elektro.",
+  "The Steve Howe Album'daki Vivaldi yorumu doğrudan 'Mood for a Day' ve 'The Clap'e bağlanır — Yes'teki solo gitar anları.",
+  "Vokaller rahatsız ederse geç; solo işlerinin özü enstrümantaller."
+ ],
  "alb.steve-howe-1975-beginnings.an": "Yes'in solo albüm dalgasının parçası; Howe'un vokalleriyle sade ama gitar açısından zengin ilk solo albüm.",
  "alb.steve-howe-1975-beginnings.oncelik": "İsteğe bağlı — gitar dersleri gibi dinle.",
  "alb.steve-howe-1975-beginnings.tip": "stüdyo",
@@ -1373,6 +1485,12 @@
  "grp.jon-anderson-solo.dna": "Spiritüel metinler, falsetto-yakın yüksek tenor, ses renkleriyle 'sözcük değil ses' anlayışı; dünya müziği ve elektronik.",
  "grp.jon-anderson-solo.gecisler": "The Warriors → Yes → Jon & Vangelis → ABWH → Yes → ARW; Anderson Ponty Band, Anderson/Stolt.",
  "grp.jon-anderson-solo.etki": "Prog vokalinin arketipi; 'kozmik iyimserlik' tavrıyla Neal Morse ve Flower Kings kuşağını etkiledi.",
+ "grp.jon-anderson-solo.uyeler": "Olias of Sunhillow'da tek başına; Song of Seven ve Animation'da Clem Clempson ve Ian Bairnson (gitar), Jack Bruce ve John Giblin (bas), Simon Phillips ve Morris Pert (davul), David Sancious (klavye) ve Chris Rainbow'dan (vokal) oluşan stüdyo grubu. Sonraki ortaklar: Vangelis, Jean-Luc Ponty, Roine Stolt (Invention of Knowledge); 1000 Hands'te Chris Squire, Alan White, Steve Howe, Ian Anderson, Chick Corea, Jean-Luc Ponty ve Steve Morse.",
+ "grp.jon-anderson-solo.ipucu": [
+  "Olias of Sunhillow, gezegenlerinden kaçmak için gemi inşa eden bir uzaylı halkın hikâyesi — kapak resmini bir harita gibi oku.",
+  "Olias'ı Tales from Topographic Oceans'ın hemen ardından dinle: aynı ruhsal yolculuk, bu kez grupsuz.",
+  "1000 Hands 1990'da başlayıp 2019'da bitti: Chris Squire'ın bası onun son kayıtlarından biri."
+ ],
  "alb.jon-anderson-1976-olias-of-sunhillow.an": "Anderson'ın tüm enstrümanları çaldığı; Olias'ın, halkını yok olmakta olan gezegenlerinden kurtarmak için Moorglade adlı bir uzay gemisi inşa etmesini anlatan fantastik konsept albüm. Roger Dean estetiğinin ses karşılığı.",
  "alb.jon-anderson-1976-olias-of-sunhillow.oncelik": "Önerilir — Yes'in mistik yüzü.",
  "alb.jon-anderson-1976-olias-of-sunhillow.tip": "stüdyo",
@@ -1429,6 +1547,12 @@
  "grp.chris-squire-solo.dna": "Lead bas: pena, Rickenbacker tizliği, kontrpuan melodileri; koro geleneğinden gelen vokal armoni.",
  "grp.chris-squire-solo.gecisler": "The Syn → Mabel Greer's Toyshop → Yes; Cinema (1982, Rabin/White ile, 90125'e dönüştü); XYZ (Page ile 1981 demoları); Squackett (Hackett ile).",
  "grp.chris-squire-solo.etki": "Rock'ta bas gitarı öne çıkaran en etkili isimlerden; Geddy Lee, Steve Harris, Billy Sheehan gibi basçıların örnek aldığı model.",
+ "grp.chris-squire-solo.uyeler": "Fish Out of Water: Chris Squire ile Bill Bruford, Patrick Moraz, Mel Collins, Jimmy Hastings ve orkestra düzenleyicisi Andrew Pryce Jackman (The Syn'den arkadaşı). Swiss Choir: Steve Hackett, Gerard Johnson, Jeremy Stacey. A Life Within a Day: Squackett — Squire ve Steve Hackett, yanlarında Roger King ve Jeremy Stacey.",
+ "grp.chris-squire-solo.ipucu": [
+  "Asıl önemli olan Fish Out of Water: bas önderliğinde, kilise orgu ve orkestralı bir Yes albümü gibi.",
+  "Kulaklıkla dinle ve 'Hold Out Your Hand' ile 'You by My Side'da yalnız bası takip et.",
+  "Swiss Choir bir Noel albümü — bir merak konusu, ama armonilerin ardındaki kilise korosu çocuğunu gösteriyor."
+ ],
  "alb.chris-squire-1975-fish-out-of-water.an": "Bill Bruford ve Patrick Moraz'lı, orkestral düzenlemeleri Andrew Pryce Jackman'a ait tek 'gerçek' solo albüm. Kilise orgu, orkestra ve bas melodileri; Yes'in en iyi solo albümü sayılır.",
  "alb.chris-squire-1975-fish-out-of-water.oncelik": "Atlanmamalı.",
  "alb.chris-squire-1975-fish-out-of-water.tip": "stüdyo",
@@ -1621,6 +1745,13 @@
  "grp.atomic-rooster-yan-dugum.kurulus": "1969; Arthur Brown grubundan Vincent Crane (org) ve Carl Palmer (davul) ile kuruldu. Palmer hızla ELP'ye geçti.",
  "grp.atomic-rooster-yan-dugum.dna": "Ağır org-rock, karanlık atmosfer; proto-prog/hard rock köprüsü.",
  "grp.atomic-rooster-yan-dugum.etki": "Carl Palmer'ı ELP'ye taşıyan ara istasyon; ayrıca Steve Howe da kısa süre buraya seçmeye girdi (\"tam oturmadı\").",
+ "grp.atomic-rooster-yan-dugum.hikaye": "Vincent Crane ve Carl Palmer 1969'da Arthur Brown'ın grubundan ayrılıp basçı-şarkıcı Nick Graham ile Atomic Rooster'ı kurdu. İlk albümden (1970) kısa süre sonra Palmer ELP'ye geçti; John Du Cann (gitar, vokal) ve Paul Hammond (davul) ile grup klasik sesini Death Walks Behind You'da buldu, 'Tomorrow Night' ve 'Devil's Answer' single'ları İngiltere'de ilk 20'ye girdi. In Hearing of Atomic Rooster (1971) şarkıcı Pete French'i ekledi, ama kadro sürekli değişti; soul'a kayan sonraki yıllarda Chris Farlowe söyledi. Crane ismi 1980 civarında yeniden canlandırdı, sonra Dexys Midnight Runners'la çaldı; 1989'da öldü.",
+ "grp.atomic-rooster-yan-dugum.uyeler": "Vincent Crane (org, tek sabit üye), Carl Palmer (davul, 1969–70), Nick Graham (bas, vokal, 1969–70), John Du Cann (gitar, vokal, 1970–71, 1980–82), Paul Hammond (davul, 1970–71), Pete French (vokal, 1971), sonra Steve Bolton (gitar), Ric Parnell (davul) ve Chris Farlowe (vokal).",
+ "grp.atomic-rooster-yan-dugum.gecisler": "The Crazy World of Arthur Brown → Atomic Rooster (Crane, Palmer, 1969) → ELP (Palmer, 1970). John Du Cann Andromeda'dan; Du Cann ve Hammond → Hard Stuff. Pete French Leaf Hound'dan → Cactus. Ric Parnell sonra This Is Spinal Tap'te davulcu Mick Shrimpton'ı oynadı.",
+ "grp.atomic-rooster-yan-dugum.ipucu": [
+  "ELP öncesi Palmer'ın davulu için ilk albümü, grubun asıl kimliği için Death Walks Behind You'yu dinle.",
+  "Çoğu zaman bas gitar yok: Crane bas partilerini org pedallarıyla ya da sol eliyle çalar — buna kulak ver."
+ ],
  "alb.atomic-rooster-1970-atomic-rooster.an": "Vincent Crane'in org üçlüsünün ilk albümü; davulda Carl Palmer, bas ve vokalde Nick Graham: The Crazy World of Arthur Brown çizgisinde ağır, blues temelli org rock. Palmer albüm çıktıktan kısa süre sonra ELP'ye geçti.",
  "alb.atomic-rooster-1970-atomic-rooster.tip": "stüdyo",
  "alb.atomic-rooster-1970-atomic-rooster.tr": [
@@ -1647,6 +1778,11 @@
  "grp.refugee.uyeler": "Lee Jackson (bas/vokal), Brian Davison (davul) — her ikisi de The Nice'tan; Patrick Moraz (klavye). Moraz, grup dağılınca Yes'e (Relayer) geçti.",
  "grp.refugee.gecisler": "Önce → The Nice (Jackson, Davison). Sonra → Yes (Moraz), Moody Blues (Moraz). The Nice'ı Yes'e bağlayan doğrudan üye-köprüsü.",
  "grp.refugee.etki": "Moraz'ı Yes'in radarına sokan grup; ELP evreni ile Yes evreni arasındaki gizli kavşak. Tek albüm ama ağ açısından önemli.",
+ "grp.refugee.hikaye": "Emerson'ın ayrılışı ve The Nice'ın sonu üzerine Lee Jackson ve Brian Davison önce Every Which Way grubunu ve Jackson'ın Jackson Heights'ını denedi. 1973'te Mainhorse'un İsviçreli klavyecisi Patrick Moraz'ı bulup Refugee'yi kurdular. Tek albümleri (Charisma, 1974) 'Grand Canyon' ve 'Credo' gibi uzun süitleri Moraz'ın virtüözlüğüyle birleştirdi; konserleri iyi karşılandı. Ama Ağustos 1974'te Yes, Relayer için Rick Wakeman'ın yerine Moraz'ı davet etti; grup orada bitti.",
+ "grp.refugee.ipucu": [
+  "Refugee'yi Relayer'dan hemen önce dinle: aynı klavyeci, birkaç ay arayla, iki farklı grupta.",
+  "'Grand Canyon'ı The Nice'ın Five Bridges'ıyla karşılaştır: ritim bölümü aynı, klavye dili orgdan synthesizer'lara geçmiş."
+ ],
  "alb.refugee-1974-refugee.an": "Tek stüdyo albümü. Moraz'ın klavye virtüözitesini sergileyen, The Nice'ın mirasını sürdüren symphonic prog. 'Grand Canyon' süiti grubun iddiasını gösterir.",
  "alb.refugee-1974-refugee.tip": "stüdyo",
  "alb.refugee-1974-refugee.tr": [
@@ -1660,6 +1796,11 @@
  "grp.emerson-lake-powell-3.dna": "ELP'nin klasik uyarlama geleneği, 80'ler synth prodüksiyonu ve hard rock davul ağırlığı.",
  "grp.emerson-lake-powell-3.gecisler": "ELP → ELPowell (Powell: Rainbow, Whitesnake, Black Sabbath) → 3 (Emerson, Palmer, Robert Berry) → ELP yeniden birleşme (1991).",
  "grp.emerson-lake-powell-3.etki": "80'lerde prog'u radyo çağına uyarlamanın örnekleri; Powell bağlantısıyla hard rock evrenine köprü.",
+ "grp.emerson-lake-powell-3.uyeler": "Emerson, Lake & Powell (1985–86): Keith Emerson (klavye), Greg Lake (vokal, bas, gitar), Cozy Powell (davul). 3 (1987–88): Keith Emerson, Carl Palmer (davul), Robert Berry (vokal, bas, gitar).",
+ "grp.emerson-lake-powell-3.ipucu": [
+  "'The Score' albümü bir ELP manifestosu olarak açar; sonra onların 'Mars, the Bringer of War'unu (Holst) King Crimson'ın 1969 'Mars'ıyla yan yana dinle.",
+  "Powell'ın davulunu 3'teki Palmer'ınkiyle yan yana dinle: aynı klavyelerin altında çok farklı iki motor."
+ ],
  "alb.emerson-lake-powell-1986-emerson-lake-powell.an": "Holst'un 'Mars'ı uyarlaması ve 'The Score' ile ELP'nin sert, parlak 80'ler versiyonu.",
  "alb.emerson-lake-powell-1986-emerson-lake-powell.oncelik": "Önerilir.",
  "alb.emerson-lake-powell-1986-emerson-lake-powell.tip": "stüdyo",
@@ -1960,6 +2101,10 @@
  "grp.peter-gabriel-solo-dugum.era.1.note": "Küresel pop başarısı, WOMAD ve Real World Records ile dünya müziği sentezi.",
  "grp.peter-gabriel-solo-dugum.era.2.t": "Geç dönem",
  "grp.peter-gabriel-solo-dugum.era.2.note": "Seyrek ama iddialı işler: konsept (OVO), karanlık art-rock (Up), orkestral yeniden yorumlar.",
+ "grp.peter-gabriel-solo-dugum.kurulus": "1950, Chobham, Surrey doğumlu. Genesis'in kurucu şarkıcısı (1967–75); 1977'den beri solo.",
+ "grp.peter-gabriel-solo-dugum.uyeler": "Sabit bir çekirdekle çalışan solo sanatçı: Tony Levin (bas, Chapman Stick), David Rhodes (gitar), Jerry Marotta ve Manu Katché (davul), Larry Fast (synthesizer); konuklar arasında Robert Fripp, Kate Bush, Phil Collins, Peter Hammill, L. Shankar ve Youssou N'Dour. Kızı Melanie Gabriel sonraki turnelerde vokal eşlik eder.",
+ "grp.peter-gabriel-solo-dugum.gecisler": "Genesis (1967–75) → solo (1977–). Yapımcılar: Bob Ezrin (Car), Robert Fripp (Scratch), Steve Lillywhite (Melt), David Lord (Security), Daniel Lanois (So, Us). Tony Levin onu King Crimson'a bağlar; Melt'te davulda Phil Collins; WOMAD'ın (1980) ve Real World'ün (1989) kurucusu.",
+ "grp.peter-gabriel-solo-dugum.etki": "Melt'in kapılı davul sesi (Hugh Padgham ve Phil Collins'le) 80'lerin prodüksiyonunu belirledi; prog'un teatralliğini art-pop'a ve müzik videosuna ('Sledgehammer') taşıdı, Batı ana akımını dünya müziğine açtı.",
  "alb.peter-gabriel-1977-peter-gabriel-car.an": "\"Solsbury Hill\" (Genesis'ten ayrılışının marşı). Sanat-rock + erişilebilirlik.",
  "alb.peter-gabriel-1977-peter-gabriel-car.oncelik": "Önerilir — 'Solsbury Hill' ve 'Here Comes the Flood' için.",
  "alb.peter-gabriel-1977-peter-gabriel-car.tip": "stüdyo",
@@ -2105,6 +2250,15 @@
  "grp.steve-hackett-solo-dugum.name": "Steve Hackett (solo düğüm)",
  "grp.steve-hackett-solo-dugum.hikaye": "Hackett, Genesis'e 1971'de Melody Maker'a verdiği bir ilanla katıldı ('mevcut müzikal kalıplara karşı çıkmaya kararlı gitarist'). Tapping ve sweep-picking tekniklerini Eddie Van Halen'dan önce kullanan gitaristlerdendir. Genesis'ten 1977'de ayrılıp elektrik prog, klasik gitar ve blues arasında gezinen verimli bir solo kariyer kurdu; 1986'da Steve Howe ile GTR'yi kurdu. 90'lardan sonra Genesis Revisited projeleriyle Gabriel dönemini sahnede yaşatan başlıca isim oldu; 2010'larda orkestral, dünya müziği renkli senfonik rock albümleriyle kariyerinin ikinci zirvesini yaşadı.",
  "grp.steve-hackett-solo-dugum.dna": "Lirik/klasik gitar, atmosferik enstrümantaller, Genesis estetiğinin gitarist gözünden devamı.",
+ "grp.steve-hackett-solo-dugum.kurulus": "1950, Londra doğumlu. 1971–77 Genesis gitaristi; ilk solo albümü Voyage of the Acolyte (1975) o hâlâ gruptayken çıktı.",
+ "grp.steve-hackett-solo-dugum.uyeler": "Steve Hackett (gitar, vokal) 70'lerin sonundaki grubunda kardeşi John Hackett (flüt), Nick Magnus (klavye), Dick Driver (bas), John Shearer (davul) ve Pete Hicks (vokal) ile; 2000'lerden itibaren Roger King (klavye, ortak yapımcı), Gary O'Toole (davul), Rob Townsend (saksafon, flüt), Amanda Lehmann (vokal, gitar), Christine Townsend (keman), Nad Sylvan (Genesis Revisited'de vokal). Voyage of the Acolyte'te Mike Rutherford ve Phil Collins çalar.",
+ "grp.steve-hackett-solo-dugum.gecisler": "Quiet World (1970) → Genesis (1971–77) → solo. GTR (1986, Steve Howe ile). Squackett (2012, Chris Squire ile). Genesis Revisited (1996, 2012 ve turneler). Nick Magnus The Enid'den geldi; Roger King prog sahnesinde başkalarına da yapımcılık yaptı.",
+ "grp.steve-hackett-solo-dugum.etki": "Gabriel dönemi Genesis repertuvarını on yıllarca canlı tuttu; Marillion'dan Steve Rothery gibi neo-prog gitaristleri onu örnek gösterir, tapping'i Van Halen'den öncedir.",
+ "grp.steve-hackett-solo-dugum.ipucu": [
+  "Voyage of the Acolyte'i 1975'in 'kayıp Genesis albümü' olarak dinle: Collins ve Rutherford çalıyor, The Lamb ile A Trick of the Tail arasında duruyor.",
+  "Spectral Mornings ilk grubunun zirvesi; adını veren parça onun 'Firth of Fifth' solo anı.",
+  "Genesis Revisited'i (1996) Revisited II ile (2012) karşılaştır: ilki şarkıları yeniden yazar, ikincisi onları sadakatle çalar."
+ ],
  "alb.steve-hackett-1975-voyage-of-the-acolyte.an": "Hâlâ Genesis'teyken; Collins ve Rutherford konuk. Klasik Genesis dokusunu solo formata taşır.",
  "alb.steve-hackett-1975-voyage-of-the-acolyte.tip": "stüdyo",
  "alb.steve-hackett-1975-voyage-of-the-acolyte.tr": [
@@ -2244,6 +2398,11 @@
  "grp.brand-x.uyeler": "Phil Collins (davul), Percy Jones (fretless bas — grubun imzası), John Goodsall (gitar), Robin Lumley (klavye). Collins'in yoğunluğu arttıkça davulda Kenwood Dennard/Chuck Burgi devreye girdi.",
  "grp.brand-x.gecisler": "Önce/paralel → Genesis (Collins). Goodsall, Bruford'un 'Feels Good to Me' albümünde de çaldı — fusion düğümleri iç içe.",
  "grp.brand-x.etki": "Collins'in 'öteki yüzü'; Genesis pop'a kayarken prog/fusion sancağını taşıyan paralel düğüm. İngiliz fusion sahnesinin (Bruford ile birlikte) direği.",
+ "grp.brand-x.ipucu": [
+  "Unorthodox Behaviour'daki 'Nuclear Burn' ile başla ve yalnız Percy Jones'un perdesiz basını takip et.",
+  "Product (1979) iki ayrı kadroyla kaydedildi: Collins'li parçaları Mike Clark ve John Giblin'li olanlarla karşılaştır.",
+  "Moroccan Roll'u Wind & Wuthering'le aynı hafta dinle: aynı davulcu, aynı yıl, iki ayrı dünya."
+ ],
  "alb.brand-x-1976-unorthodox-behaviour.an": "Çıkış albümü; tamamen enstrümantal. Percy Jones'un fretless bası ve Collins'in davulu daha ilk plakta grubun kimliğini kurar.",
  "alb.brand-x-1976-unorthodox-behaviour.tip": "stüdyo",
  "alb.brand-x-1976-unorthodox-behaviour.tr": [
@@ -2295,6 +2454,12 @@
  "grp.anthony-phillips.dna": "12 telli akustik gitar, pastoral İngiliz lirizmi, oda müziği ve orkestra; müzik kutusu kadar ince, kırılgan melodiler.",
  "grp.anthony-phillips.gecisler": "Anon → Genesis (1967–70) → solo; Rutherford, Collins, Camel (The Single Factor'a konuk), Andrew Latimer.",
  "grp.anthony-phillips.etki": "Genesis'in 'kayıp atası'; pastoral prog ve İngiliz akustik gitar geleneğinin sessiz ustası.",
+ "grp.anthony-phillips.uyeler": "Solo sanatçı. The Geese & the Ghost'ta Mike Rutherford ortak yapımcı ve çalar, Phil Collins iki şarkı söyler, John Hackett flüt çalar; Wise After the Event ve Sides'ta Michael Giles (davul), John G. Perry (bas), Mel Collins (saksafon) ve Frank Ricotti (vurmalı), yapımcı Rupert Hine. Sonraki ortakları arasında Harry Williamson ve Andrew Latimer var.",
+ "grp.anthony-phillips.ipucu": [
+  "The Geese & the Ghost'u Trespass'ın hemen ardından dinle: büyük kısmı aynı yıllarda Rutherford'la yazıldı.",
+  "Genesis'in 12 telli sesi onun: 'The Knife' dönemini onun akustik parçalarıyla karşılaştır.",
+  "Private Parts & Pieces bir eskiz defteri — baştan sona dinlemek yerine arada bir aç."
+ ],
  "alb.anthony-phillips-1977-the-geese-the-ghost.an": "Rutherford'un ortak yapımcılığı ve Collins'in iki şarkıda vokaliyle; Trespass'ın pastoral dünyasının devamı gibi. Phillips'in en sevilen albümü.",
  "alb.anthony-phillips-1977-the-geese-the-ghost.oncelik": "Atlanmamalı — Genesis severler için zorunlu.",
  "alb.anthony-phillips-1977-the-geese-the-ghost.tip": "stüdyo",
@@ -2580,6 +2745,12 @@
  "grp.david-gilmour-solo.dna": "Blues bükmeleri, uzun sustain, delay ve Leslie efektleri; lap steel; melankolik, geniş tempolu şarkılar.",
  "grp.david-gilmour-solo.gecisler": "Jokers Wild → Pink Floyd → solo; Roxy Music'ten Phil Manzanera ile uzun süreli ortaklık (On an Island, Rattle That Lock, The Endless River).",
  "grp.david-gilmour-solo.etki": "Rock gitarında 'hız değil duygu' okulunun en büyük temsilcisi; post-rock ve modern prog gitaristlerinin (Steven Wilson, Mariusz Duda) referansı.",
+ "grp.david-gilmour-solo.uyeler": "David Gilmour (gitar, vokal); 1978'de Jokers Wild'dan Rick Wills ve Willie Wilson; About Face'te Jeff Porcaro, Pino Palladino ve Jon Lord; On an Island'da Richard Wright, Phil Manzanera, Guy Pratt, David Crosby ve Graham Nash, orkestrasyon Zbigniew Preisner; turnelerde Steve DiStanislao (davul), Jon Carin (klavye) ve Dick Parry (saksafon). On an Island'dan beri sözlerin çoğu Polly Samson'dan; kızları Romany Gilmour Luck and Strange'de şarkı söyler ve arp çalar.",
+ "grp.david-gilmour-solo.ipucu": [
+  "1978 albümünü Animals'ın hemen ardından dinle: Floyd'da o sırada yer bulamayan rahat, blues'lu Gilmour.",
+  "On an Island ve Live in Gdańsk, Richard Wright'ın son kayıtları — orguna ve sesine kulak ver.",
+  "Bir solo seç ('Comfortably Numb', 'On an Island', 'Faces of Stone') ve notaları say: az, ama her biri bükülerek yerine oturur."
+ ],
  "alb.david-gilmour-1978-david-gilmour.an": "Animals ile The Wall arası, grup içinde yeterince yer bulamadığını hisseden Gilmour'un gevşek, blues ağırlıklı ilk solo albümü; Jokers Wild dönemi arkadaşlarıyla kaydedildi.",
  "alb.david-gilmour-1978-david-gilmour.oncelik": "İsteğe bağlı.",
  "alb.david-gilmour-1978-david-gilmour.tip": "stüdyo",
@@ -2633,6 +2804,12 @@
  "grp.roger-waters-solo.dna": "Kavramsal anlatı, politik ve kişisel öfke, ses efektleri ve radyo kolajları; sinematik rock operası.",
  "grp.roger-waters-solo.gecisler": "Sigma 6 → Pink Floyd → solo; Eric Clapton (Pros and Cons turnesi), Jeff Beck (Amused to Death), Nick Mason (2005 Live 8 ve 2019 konuk).",
  "grp.roger-waters-solo.etki": "Konsept albüm ve rock operasının en büyük yazarlarından; stadyum gösterisini politik sanata dönüştürdü.",
+ "grp.roger-waters-solo.uyeler": "Roger Waters (vokal, bas, gitar, konsept) değişen gruplarla: Eric Clapton, David Sanborn ve Michael Kamen (The Pros and Cons of Hitch Hiking); Bleeding Heart Band — Andy Fairweather Low, Mel Collins, Graham Broad, Jay Stapley, Paul Carrack (Radio K.A.O.S.); Jeff Beck ve yapımcı Patrick Leonard (Amused to Death); yapımcı Nigel Godrich, Jonathan Wilson ve Joey Waronker (Is This the Life We Really Want?). Music from The Body'yi Ron Geesin'le birlikte yazdı; Ça Ira'yı Bryn Terfel, Ying Huang ve Paul Groves'un söylediği bir opera.",
+ "grp.roger-waters-solo.ipucu": [
+  "The Pros and Cons of Hitch Hiking 1978'de The Wall'la birlikte Floyd'a önerildi — onu reddedilen ikiz olarak dinle.",
+  "Asıl önemli solo albüm Amused to Death: kulaklıkla dinle, üç boyutlu etki için QSound'la miks edildi.",
+  "The Dark Side of the Moon Redux'u (2023) 1973 orijinaliyle karşılaştır: aynı sözler, elli yıl sonra yaşlı bir adamın ağzından."
+ ],
  "alb.roger-waters-1984-the-pros-and-cons-of-hitch-hiking.an": "Başlangıçta Floyd'a The Wall ile birlikte önerilen ikinci konsept: bir adamın gece boyunca gördüğü rüyalar, gerçek zamanlı (4:30–5:11) anlatılır. Eric Clapton gitarda.",
  "alb.roger-waters-1984-the-pros-and-cons-of-hitch-hiking.oncelik": "İsteğe bağlı.",
  "alb.roger-waters-1984-the-pros-and-cons-of-hitch-hiking.tip": "stüdyo",
@@ -2682,6 +2859,11 @@
  "grp.nick-mason-solo-ve-saucerful-of-secrets.dna": "Tom-tom ağırlıklı, atmosferik ve dokulu davul; caz ve deneysel kayıt stüdyosu merakı.",
  "grp.nick-mason-solo-ve-saucerful-of-secrets.gecisler": "Sigma 6 → Pink Floyd → prodüktörlük (Wyatt, Damned, Gong'un Shamal'ı) → Carla Bley → Mason + Fenn → Saucerful of Secrets.",
  "grp.nick-mason-solo-ve-saucerful-of-secrets.etki": "Floyd'un ritmik atmosferinin mimarı; Canterbury ve punk'a uzanan prodüktörlük bağlantılarıyla ağın sessiz kavşağı.",
+ "grp.nick-mason-solo-ve-saucerful-of-secrets.uyeler": "Fictitious Sports: Nick Mason ile Carla Bley (besteci, klavye), Robert Wyatt ve Karen Kraft (vokal), Chris Spedding (gitar), Steve Swallow (bas), Michael Mantler ve Gary Windo (nefesliler). Profiles: Mason ve Rick Fenn; David Gilmour ve Maggie Reilly şarkı söyler, Mel Collins saksafon çalar. Saucerful of Secrets: Nick Mason (davul), Guy Pratt (bas, vokal), Gary Kemp (gitar, vokal), Lee Harris (gitar), Dom Beken (klavye).",
+ "grp.nick-mason-solo-ve-saucerful-of-secrets.ipucu": [
+  "Fictitious Sports aslında Mason'ın adıyla çıkan bir Carla Bley albümü: Mason'ın yapımcılığını yaptığı Robert Wyatt'ın Rock Bottom'ıyla yan yana dinle.",
+  "Live at the Roundhouse erken Floyd'a en iyi rehber: Piper'dan Obscured by Clouds'a, grubun 70'lerde çalmayı bıraktığı şarkılar."
+ ],
  "alb.nick-mason-1981-nick-mason-s-fictitious-sports.an": "Aslında tamamen Carla Bley'in bestelediği, Robert Wyatt'ın vokal yaptığı caz-rock albümü; Mason davul ve prodüksiyon.",
  "alb.nick-mason-1981-nick-mason-s-fictitious-sports.oncelik": "Önerilir — Floyd ile Canterbury'nin buluşması.",
  "alb.nick-mason-1981-nick-mason-s-fictitious-sports.tip": "stüdyo",
@@ -2715,6 +2897,12 @@
  "grp.soft-machine.dna": "Org-fuzz dokusu, asimetrik ölçüler, jazz doğaçlama, deadpan İngiliz mizahı.",
  "grp.soft-machine.uyeler": "Daevid Allen (→ Gong), Kevin Ayers (→ solo), Robert Wyatt (→ Matching Mole, solo), Hugh Hopper (bas), Karl Jenkins (sonra Nucleus'tan geldi).",
  "grp.soft-machine.gecisler": "Sonra → Gong (Allen), Matching Mole (Wyatt), Nucleus köprüsü (Jenkins).",
+ "grp.soft-machine.etki": "İngiliz caz-rock'ının taslağı ve Canterbury ağacının gövdesi: Gong, Matching Mole, Hatfield ve Robert Wyatt'ın solo işi hep ondan çıkar. Third (1970), bir rock grubunun plak yüzlerini bestelenmiş ve doğaçlama cazla doldurabileceğini gösterdi.",
+ "grp.soft-machine.ipucu": [
+  "Önce Third'ü, sonra Fourth'u dinle: ilkinde 'Moon in June'da hâlâ Wyatt'ın sesi var, ikincisi artık enstrümantal caz.",
+  "Mike Ratledge'in fuzz orgunu albümler boyunca takip et — 1976'ya kadar ana iplik o.",
+  "Bundles'ta (1975) gitarda Allan Holdsworth var: grup birden gitar füzyonuna dönüşür."
+ ],
  "alb.soft-machine-1968-the-soft-machine.an": "Psychedelic-prog; Wyatt'ın yüksek, kırılgan vokali ve org-fuzz dokusu.",
  "alb.soft-machine-1968-the-soft-machine.tip": "stüdyo",
  "alb.soft-machine-1968-the-soft-machine.tr": [
@@ -2798,6 +2986,14 @@
  "grp.caravan.kurulus": "1968, Canterbury. Wilde Flowers (Soft Machine'le ortak kök) üyeleri Pye Hastings, Richard Sinclair, Dave Sinclair, Richard Coughlan ile kuruldu.",
  "grp.caravan.hikaye": "Wilde Flowers'ın 'melodik' kolundan doğan Caravan (Pye Hastings, Richard ve David Sinclair, Richard Coughlan), Canterbury'nin en pop-dostu, en İngiliz ve en sıcak grubudur. Hastings'in yumuşak vokali ve Dave Sinclair'in fuzz orgu grubun imzası oldu. Kuzenler Richard ve Dave Sinclair 1972'de Hatfield and the North'un temellerini atmak için ayrıldı; grup ardından viyola ustası Geoffrey Richardson'la orkestral bir yöne yöneldi. 80'lerde dağınık, 90'lardan beri Hastings liderliğinde düzenli olarak kayıt ve turne yapıyor; Coughlan 2013'te öldü.",
  "grp.caravan.dna": "Melodik Canterbury; uzun füzyon süitleri ama daha pastoral, mizahi ve İngiliz.",
+ "grp.caravan.uyeler": "Pye Hastings (gitar, vokal; tek sabit üye), Richard Sinclair (bas, vokal, 1968–72), Dave Sinclair (klavye, 1968–71, 1973–75 ve sonrası), Richard Coughlan (davul, 1968–2013), Steve Miller (klavye, 1971–72), Geoffrey Richardson (viyola, gitar, 1973–), John G. Perry (bas, 1973), Mike Wedgwood (bas, 1974–76), Jan Schelhaas (klavye, 1975–78 ve 2000'ler), Jim Leverton (bas, 1990'lar–2010). Pye'ın kardeşi Jimmy Hastings flüt ve saksafonda konuk.",
+ "grp.caravan.gecisler": "Wilde Flowers → Caravan (1968). Richard Sinclair → Hatfield and the North (1972) → Camel (1977). Dave Sinclair → Matching Mole (1972), kısa süre Hatfield. Steve Miller Delivery'den. John G. Perry → Quantum Jump, Anthony Phillips. Mike Wedgwood Curved Air'den. Jan Schelhaas → Camel (1978).",
+ "grp.caravan.etki": "Pek çok dinleyici için 'Canterbury sesi'nin tanımı; In the Land of Grey and Pink onun en sevilen albümü, pastoral ve esprili İngilizliği Big Big Train gibi sonraki melodik prog'da yankılanır.",
+ "grp.caravan.ipucu": [
+  "In the Land of Grey and Pink'in ikinci yüzünün tamamı olan 'Nine Feet Underground' ile başla: Dave Sinclair'in orgu en iyi hâlinde.",
+  "İki sese kulak ver: Richard Sinclair'in sıcak baritonu ve Pye Hastings'in yumuşak tenoru 1972'ye kadar sırayla söyler.",
+  "For Girls Who Grow Plump in the Night, Sinclair sonrası grubu Geoffrey Richardson'ın viyolasıyla gösterir — daha rock ve daha orkestral."
+ ],
  "alb.caravan-1968-caravan.an": "Psychedelic-pop'tan Canterbury'ye geçiş.",
  "alb.caravan-1968-caravan.tip": "stüdyo",
  "alb.caravan-1968-caravan.tr": [
@@ -2875,6 +3071,14 @@
  "grp.gong.kurulus": "1967–70, Paris/Canterbury. Daevid Allen (Soft Machine) ve Gilli Smyth ile kuruldu. \"Planet Gong\" / \"Pot Head Pixie\" mitolojisi.",
  "grp.gong.hikaye": "Avustralyalı Daevid Allen, Soft Machine'in 1967 Fransa turnesinden vize sorunu nedeniyle İngiltere'ye dönemeyince Paris'te kalıp Gilli Smyth ile Gong'u kurdu. 'Radio Gnome Invisible' üçlemesinde (Flying Teapot, Angel's Egg, You) Planet Gong'un uçan çaydanlıkları, 'pot head pixie'ler ve Zero the Hero mitolojisini anlattı. Steve Hillage (gitar), Tim Blake (synth), Didier Malherbe (nefesli) ve Pierre Moerlen (perküsyon) ile 1973–74 zirvesine ulaştı. Allen 1975'te ayrılınca Moerlen liderliğinde caz-fusion 'Pierre Moerlen's Gong' dönemi başladı. Allen sonraki yıllarda sayısız yan proje (Mother Gong, Planet Gong, New York Gong) yürüttü; 2015'teki ölümünden önce grubu Kavus Torabi liderliğindeki genç kadroya devretti ve Gong yaşamaya devam etti.",
  "grp.gong.dna": "Psychedelic-fusion, uzay-mizah, Steve Hillage'in glissando gitarı, Tim Blake'in synth'leri.",
+ "grp.gong.uyeler": "Daevid Allen (gitar, vokal), Gilli Smyth (vokal, 'uzay fısıltısı'), Didier Malherbe (saksafon, flüt), Steve Hillage (gitar), Miquette Giraudy (synthesizer, vokal), Tim Blake (synthesizer), Mike Howlett (bas), Pierre Moerlen (davul, vibrafon); daha önce Christian Tritsch ve Francis Moze (bas), Pip Pyle ve Laurie Allan (davul); füzyon yıllarında Mireille Bauer ve Benoît Moerlen (vurmalı). 2015'ten beri: Kavus Torabi (gitar, vokal), Fabio Golfetti (gitar), Ian East (saksafon, flüt), Dave Sturt (bas), Cheb Nettles (davul).",
+ "grp.gong.gecisler": "Soft Machine (Allen) → Gong. Steve Hillage Khan'dan ve Kevin Ayers'ın grubundan → Gong → solo ve System 7 (Giraudy ile). Tim Blake → Hawkwind. Pip Pyle → Hatfield and the North. Mike Howlett → yapımcılık ve Strontium 90 (Sting, Stewart Copeland ve Andy Summers ile). Pierre Moerlen → Pierre Moerlen's Gong. Gilli Smyth → Mother Gong. Kavus Torabi Cardiacs ve Knifeworld'den.",
+ "grp.gong.etki": "Uzay rock'ının neşeli, absürt yüzü ve serbest festival kültürünün direklerinden; Ozric Tentacles ve sonraki psikedelik jam grupları ondan çıktı, Hillage'ın System 7'si sayesinde çizgi elektronik dans müziğine uzanır.",
+ "grp.gong.ipucu": [
+  "Radio Gnome üçlemesini (Flying Teapot, Angel's Egg, You) sırayla dinle — tek bir hikâye, müzikal doruk You.",
+  "Shamal ve Gazeuse!'ü başka bir grup gibi dinle: Allen'sız Gong, vurmalı çalgılar önderliğinde bir füzyon grubuna dönüşür.",
+  "Rejoice! I'm Dead! (2016) yeni kadronun ilk albümü, Allen'ın ölümünden hemen sonra tamamlandı: You ile karşılaştır."
+ ],
  "alb.gong-1970-magick-brother.an": "Fransa'da kaydedilen ilk albüm; Gilli Smyth'in 'uzay fısıltısı' ve Didier Malherbe'nin saksafon ve flütüyle: sonraki yılların uzun doğaçlamaları yerine kısa psikedelik şarkılar ve konuşma parçaları.",
  "alb.gong-1970-magick-brother.tip": "stüdyo",
  "alb.gong-1970-magick-brother.tr": [
@@ -2960,6 +3164,16 @@
  ],
  "grp.hatfield-and-the-north-national-health-alt-dugumler.name": "Hatfield and the North / National Health (alt-düğümler)",
  "grp.hatfield-and-the-north-national-health-alt-dugumler.hikaye": "Hatfield and the North (1972–75), Caravan'dan Richard Sinclair, Egg'den Dave Stewart, Delivery'den Phil Miller ve Pip Pyle'ın kurduğu Canterbury süpergrubudur; adını Londra'dan kuzeye giden otoyol tabelasından aldı. Northettes vokal üçlüsü (Amanda Parsons, Barbara Gaskin, Ann Rosenthal) grubun hafif, ironik ruhunu tamamladı. Dağılmasının ardından Stewart ve Alan Gowen (Gilgamesh) National Health'i kurdu: daha geniş, daha kompoze edilmiş Canterbury caz-rock'ı. Gowen'ın 1981'deki ölümünden sonra grup, onun bestelerinden oluşan D.S. al Coda ile kapandı.",
+ "grp.hatfield-and-the-north-national-health-alt-dugumler.kurulus": "Hatfield and the North: 1972–75, Londra. National Health: 1975–82, Dave Stewart ve Alan Gowen tarafından kuruldu.",
+ "grp.hatfield-and-the-north-national-health-alt-dugumler.dna": "Birbirine akan uzun, baştan sona bestelenmiş parçalar; Dave Stewart'ın fuzz orgu, Phil Miller'ın lirik gitarı, rock enerjisiyle caz armonisi; sözsüz kadın sesleri ve absürt şarkı adları.",
+ "grp.hatfield-and-the-north-national-health-alt-dugumler.uyeler": "Hatfield: Richard Sinclair (bas, vokal), Phil Miller (gitar), Dave Stewart (klavye; ondan önce kısa süre Dave Sinclair), Pip Pyle (davul); Northettes: Amanda Parsons, Barbara Gaskin ve Ann Rosenthal (vokal). National Health: Dave Stewart, Alan Gowen (klavye), Phil Miller, Pip Pyle, Neil Murray ve sonra John Greaves (bas), Amanda Parsons (vokal); Bill Bruford 1975'te kısa süre davul çaldı.",
+ "grp.hatfield-and-the-north-national-health-alt-dugumler.gecisler": "Caravan (Sinclair), Egg (Stewart), Delivery ve Matching Mole (Miller), Delivery ve Gong (Pyle) → Hatfield (1972) → National Health (1975; Stewart, Miller, Pyle + Gilgamesh'ten Gowen). Neil Murray → Colosseum II, Whitesnake. John Greaves Henry Cow'dan. Stewart → Bruford, sonra Barbara Gaskin'le Stewart & Gaskin.",
+ "grp.hatfield-and-the-north-national-health-alt-dugumler.etki": "Canterbury besteciliğinin doruğu; The Rotters' Club ve Of Queues and Cures'ün birbirine geçen uzun parçaları, sonraki Canterbury esinli grupların (The Tangent vb.) referansı oldu; Jonathan Coe bir romanına The Rotters' Club adını verdi.",
+ "grp.hatfield-and-the-north-national-health-alt-dugumler.ipucu": [
+  "İlk Hatfield albümünü bir oturuşta dinle: parçalar aralıksız birbirine bağlanır, tek uzun bir eser gibi.",
+  "The Rotters' Club'daki 'Mumps' zirve: Stewart'ın yazımının ve Northettes'in seslerinin buluştuğu 20 dakika.",
+  "D.S. al Coda bir anma: bütün parçalar Alan Gowen'ın, onun ölümünden sonra kaydedildi."
+ ],
  "alb.hatfield-and-the-north-national-health-1974-hatfield-and-the-north.an": "Kısa parçacıklar + uzun süitlerin akışkan birleşimi; \"The Northettes\" kadın vokal dokusu.",
  "alb.hatfield-and-the-north-national-health-1974-hatfield-and-the-north.tip": "stüdyo",
  "alb.hatfield-and-the-north-national-health-1974-hatfield-and-the-north.tr": [
@@ -3001,6 +3215,12 @@
  "grp.egg.uyeler": "Dave Stewart (org/klavye), Mont Campbell (bas/vokal/besteci), Clive Brooks (davul). Üçlü org-rock formatı — ama ELP'ye hiç benzemeyen, daha 'cerebral' bir ses.",
  "grp.egg.gecisler": "Önce → Uriel (Stewart + Steve Hillage). Sonra → Hatfield and the North & National Health (Stewart), Khan (Stewart konuk). Canterbury'nin klavye-besteci kanadının başlangıç noktası.",
  "grp.egg.etki": "Dave Stewart'ın besteci kimliğinin doğduğu yer; Canterbury'nin org-merkezli, 'oda müziği' kanadının kökü. Hatfield ve National Health'in habercisi.",
+ "grp.egg.hikaye": "Egg, Dave Stewart, Mont Campbell, Clive Brooks ve Steve Hillage'ın Londra'daki okul grubu Uriel'den çıktı; Hillage 1968'de üniversiteye gidince trio Egg adıyla devam etti (Uriel olarak, Hillage'la birlikte, Arzachel takma adıyla doğaçlama psikedelik bir albüm de kaydettiler). İlk albümleri (1970) şarkıları, tek ölçülerdeki uzun enstrümantal parçalar ve Bach ile klasik alıntılarla karıştırdı; The Polite Force (1971) 'A Visit to Newport Hospital' ve çok bölümlü 'Long Piece No. 3' ile tarzı daha da ileri götürdü. Grup 1972'de dağıldı; The Civil Surface (1974) sonradan kalan malzemeden, nefesliler eklenerek kaydedildi.",
+ "grp.egg.ipucu": [
+  "'Long Piece No. 3'te ölçüleri say: Egg nadiren uzun süre 4/4'te kalır.",
+  "Egg'i The Nice'la yan yana dinle: 1970'in iki org triosu, biri gösterişli, biri düşünsel.",
+  "Sonra Stewart'ın orgunun nereye gittiğini duymak için Hatfield and the North'a geç."
+ ],
  "alb.egg-1970-egg.an": "Çıkış albümü; org-üçlü formatında klasik-etkili, bölünmüş ölçülü prog. Stravinsky uyarlamaları ve özgün besteler bir arada.",
  "alb.egg-1970-egg.tip": "stüdyo",
  "alb.egg-1970-egg.tr": [
@@ -3028,6 +3248,11 @@
  "grp.khan.uyeler": "Steve Hillage (gitar/vokal), Dave Stewart (org — Egg'den konuk), Nick Greenwood (bas), Eric Peachey (davul). Stewart'ın org'u Hillage'in gitarına Canterbury dokusu katar.",
  "grp.khan.gecisler": "Önce → Uriel/Egg çevresi (Hillage, Stewart). Sonra → Gong & solo (Hillage), Hatfield (Stewart). Canterbury'yi Gong'un uzay-fusion'ına bağlayan halka.",
  "grp.khan.etki": "Steve Hillage'in besteci-gitarist kimliğinin doğduğu yer; Canterbury sahnesini Gong evrenine taşıyan köprü. Tek albüm ama kült gem.",
+ "grp.khan.hikaye": "Steve Hillage, Khan'ı 1971'de basçı Nick Greenwood (Arthur Brown'ın Crazy World'ünden), davulcu Eric Peachey ve orgcu Dick Henningham ile kurdu. Space Shanty'yi (Deram, 1972) kaydettiklerinde Henningham gitmişti; klavyeyi Hillage'ın Uriel'den eski arkadaşı Dave Stewart çaldı. Albüm uzun, çok bölümlü şarkıları Hillage'ın ilk 'uzay' gitarıyla birleştirdi. Khan 1972'de dağıldı; Hillage, Kevin Ayers'ın grubunda çaldı ve 1973'te Gong'a katıldı.",
+ "grp.khan.ipucu": [
+  "Adını veren parçayı, sonra Hillage'ın Fish Rising'ini (1975) dinle: aynı gitarist, üç yıl ve bir Gong sonra.",
+  "Dave Stewart'ın orgunu takip et: Egg ile Hatfield arasında köprü kurar."
+ ],
  "alb.khan-1972-space-shanty.an": "Tek stüdyo albümü ve Canterbury'nin gizli şaheserlerinden. Hillage'in gitarı ile Stewart'ın org'u uzun-form parçalarda diyalog kurar; prog hard-rock'la buluşur.",
  "alb.khan-1972-space-shanty.tip": "stüdyo",
  "alb.khan-1972-space-shanty.tr": [
@@ -3041,6 +3266,11 @@
  "grp.matching-mole.uyeler": "Robert Wyatt (davul/vokal), Phil Miller (gitar; sonra Hatfield), Dave MacRae / Dave Sinclair (klavye), Bill MacCormick (bas). Sonradan Caravan'dan Dave Sinclair klavyede.",
  "grp.matching-mole.gecisler": "Önce → Soft Machine (Wyatt). Sonra → Hatfield and the North (Phil Miller), Wyatt'ın solo kariyeri (1973 felç kazası sonrası). Soft Machine 'Third'ü Hatfield'a bağlayan köprü.",
  "grp.matching-mole.etki": "Wyatt'ın Soft Machine sonrası sesinin köprüsü; Phil Miller'ı Hatfield'a taşıdı. Wyatt'ın trajik kazasından (1973) hemen önceki son grup kaydı.",
+ "grp.matching-mole.hikaye": "Robert Wyatt 1971'de Soft Machine'den ayrıldıktan sonra Phil Miller (gitar), Bill MacCormick (bas, Quiet Sun'dan) ve Caravan'dan Dave Sinclair ile kendi grubunu kurdu; Sinclair'in yerini kısa sürede Dave MacRae aldı. İlk albüm (1972), Wyatt'ın en yumuşak aşk şarkılarından 'O Caroline' ile açılır; ikincisi Matching Mole's Little Red Record'un yapımcısı Robert Fripp'ti, synthesizer'da Brian Eno vardı, sesler arasında oyuncu Julie Christie de yer aldı. Grup 1972 sonunda dağıldı; Wyatt yeni bir kadro planlarken Haziran 1973'teki düşüşü davul kariyerini bitirdi.",
+ "grp.matching-mole.ipucu": [
+  "'O Caroline'i, sonra Rock Bottom'dan 'Sea Song'u dinle: kazadan önce ve sonra aynı ses.",
+  "Little Red Record'da Fripp'in prodüksiyonuna ve Eno'nun synthesizer'ına kulak ver — Canterbury, Crimson ve Roxy Music'in buluşma noktası."
+ ],
  "alb.matching-mole-1972-matching-mole.an": "Çıkış albümü; Wyatt'ın 'O Caroline' balladı grubun en sevilen anı. Şarkı-formatı ile doğaçlamanın dengesi.",
  "alb.matching-mole-1972-matching-mole.tip": "stüdyo",
  "alb.matching-mole-1972-matching-mole.tr": [
@@ -3062,6 +3292,11 @@
  "grp.kevin-ayers.uyeler": "Solo (Kevin Ayers, vokal/bas/gitar). Destek grubu The Whole World'de Mike Oldfield (bas/gitar, genç haliyle!), David Bedford (klavye), Lol Coxhill (saksofon) yer aldı.",
  "grp.kevin-ayers.gecisler": "Önce → Soft Machine (Ayers). Çevresi → Mike Oldfield (Ayers'ın grubunda yetişti, sonra Tubular Bells), Brian Eno, Nico, John Cale (1974 'June 1, 1974' canlı albümü bu dörtlüyü buluşturdu).",
  "grp.kevin-ayers.etki": "Canterbury'nin 'şarkı' ruhunu solo formata taşıdı; Mike Oldfield'ı yetiştirdi. İngiliz art-pop'unun underground efendilerinden.",
+ "grp.kevin-ayers.ipucu": [
+  "Joy of a Toy'da Soft Machine arkadaşları çalar (Ratledge, Wyatt, Hopper): onu Volume Two'nun yumuşak, şarkılı ikizi olarak dinle.",
+  "Shooting at the Moon'da basta genç Mike Oldfield'a kulak ver — Tubular Bells'ten üç yıl önce.",
+  "Albümleri virtüözlük için değil, ruh hâli için seç: Ayers'ın cazibesi sesinde ve sözlerinde."
+ ],
  "alb.kevin-ayers-1969-joy-of-a-toy.an": "Soft Machine sonrası ilk solo albüm; grup arkadaşları hâlâ katkıda. Canterbury mizahı ve pop melodisinin zarif birleşimi.",
  "alb.kevin-ayers-1969-joy-of-a-toy.tip": "stüdyo",
  "alb.kevin-ayers-1969-joy-of-a-toy.tr": [
@@ -3113,6 +3348,11 @@
  "grp.robert-wyatt.uyeler": "Solo (Robert Wyatt, vokal/klavye/perküsyon). 'Rock Bottom' ve sonrasında Canterbury çevresinden (Mike Oldfield, Fred Frith, Hugh Hopper) konuklar.",
  "grp.robert-wyatt.gecisler": "Önce → Soft Machine, Matching Mole (Wyatt). Çevresi → Henry Cow (sol-politik bağ), Pink Floyd (Nick Mason 'Rock Bottom'ı prodükte etti). Canterbury ile RIO/avangardı bağlar.",
  "grp.robert-wyatt.etki": "Kazasından sonra prog'un en saygın 'tek başına' figürlerinden biri oldu; 'Rock Bottom' türün en sevilen solo albümlerinden. RIO/sol-politik kanada köprü.",
+ "grp.robert-wyatt.ipucu": [
+  "Nick Mason'ın yapımcılığını yaptığı Rock Bottom (1974) ile başla: çoğu kazadan önce yazıldı, sonra kaydedildi.",
+  "Sonra 'Shipbuilding'i (1982) dinle: Elvis Costello ve Clive Langer'ın şarkısı, Wyatt'ın ağzında onun oldu.",
+  "Dinlerken Alfreda Benge'in kapaklarına bak; görüntü ve müzik ortak tek bir eser."
+ ],
  "alb.robert-wyatt-1970-the-end-of-an-ear.an": "Hâlâ Soft Machine'deyken çıkan, deneysel ilk solo albüm; jazz doğaçlama ve ses manipülasyonu ağırlıklı.",
  "alb.robert-wyatt-1970-the-end-of-an-ear.tip": "stüdyo",
  "alb.robert-wyatt-1970-the-end-of-an-ear.tr": [
@@ -3180,6 +3420,11 @@
  "grp.the-wilde-flowers.dna": "R&B, beat, caz akorları, İngiliz şarkı yazarlığı; sonradan Canterbury sesinin tüm tohumları.",
  "grp.the-wilde-flowers.gecisler": "Wilde Flowers → Soft Machine (Wyatt, Ayers, H. Hopper) ve Caravan (Hastings, R. & D. Sinclair, Coughlan).",
  "grp.the-wilde-flowers.etki": "Canterbury'nin kökü; tek bir yerel grubun iki büyük grubu doğurmasının en saf örneği.",
+ "grp.the-wilde-flowers.uyeler": "Brian Hopper (gitar, saksafon), Hugh Hopper (bas), Robert Wyatt (davul, vokal), Kevin Ayers (vokal, ilk dönem), Richard Sinclair (gitar, vokal), sonra Pye Hastings (gitar, vokal), Richard Coughlan (davul) ve Graham Flight (vokal).",
+ "grp.the-wilde-flowers.ipucu": [
+  "Derlemeyi bir aile albümü gibi dinle: sonradan Soft Machine ve Caravan'ın kaydettiği şarkıların ilk hâllerini duyacaksın.",
+  "Wyatt'ın sesini takip et: Soft Machine'den önce burada zaten şarkıcı o."
+ ],
  "alb.the-wilde-flowers-1994-the-wilde-flowers.an": "1965–69 arası demo ve prova kayıtlarından derleme; Wyatt'ın vokal yaptığı erken parçalar, Caravan ve Soft Machine şarkılarının ilk halleri.",
  "alb.the-wilde-flowers-1994-the-wilde-flowers.oncelik": "İsteğe bağlı — kökleri merak edenler için.",
  "alb.the-wilde-flowers-1994-the-wilde-flowers.tip": "arşiv derlemesi",
@@ -3192,6 +3437,12 @@
  "grp.steve-hillage-solo-ve-system-7.dna": "Glissando ve delay gitar, spiritüel metinler, synth dokuları; sonra ambient-techno.",
  "grp.steve-hillage-solo-ve-system-7.gecisler": "Uriel/Arzachel (Dave Stewart) → Khan → Kevin Ayers → Gong → solo → System 7; The Orb, Derrick May ile işbirlikleri; 2014 sonrası Gong ile yeniden sahne.",
  "grp.steve-hillage-solo-ve-system-7.etki": "Space rock ile rave kültürü arasındaki köprü; 'psikedelik iyimserlik' geleneğinin sürdürücüsü.",
+ "grp.steve-hillage-solo-ve-system-7.uyeler": "Çekirdekte Steve Hillage (gitar, vokal) ve Miquette Giraudy (synthesizer, vokal, ortak besteci). Fish Rising: Gong'dan Mike Howlett, Pierre Moerlen, Tim Blake ve Didier Malherbe, yanlarında Lindsay Cooper ve Dave Stewart. L: yapımcı Todd Rundgren, Utopia'dan Roger Powell, Kasim Sulton ve John Wilcox, ayrıca Don Cherry. Motivation Radio: Malcolm Cecil (yapımcı, TONTO synthesizer'ı), Joe Blocker, Reggie McBride. Green'in ortak yapımcısı Nick Mason.",
+ "grp.steve-hillage-solo-ve-system-7.ipucu": [
+  "Fish Rising pratikte Hillage'ın adıyla çıkmış bir Gong albümü: You'nun hemen ardından dinle.",
+  "L'de Donovan'ın 'Hurdy Gurdy Man'i ve Beatles'ın 'It's All Too Much'ının yorumları var — 1976'dan bakılan 60'lar psikedeliği.",
+  "Rainbow Dome Musick'i, sonra System 7'yi dinle: 1979'un ambient parçaları 90'ların chill-out odalarını şimdiden gösterir."
+ ],
  "alb.steve-hillage-1975-fish-rising.an": "Gong üyeleriyle (Dave Stewart, Pierre Moerlen, Didier Malherbe, Mike Howlett) kaydedilen ilk solo albüm; balık ve mistik yolculuk temalı.",
  "alb.steve-hillage-1975-fish-rising.oncelik": "Önerilir.",
  "alb.steve-hillage-1975-fish-rising.tip": "stüdyo",
@@ -3237,6 +3488,12 @@
  "grp.phil-manzanera-quiet-sun-801.dna": "Kesik, efektli art-rock gitarı; Canterbury caz armonileri ve Latin renkler.",
  "grp.phil-manzanera-quiet-sun-801.gecisler": "Quiet Sun → Roxy Music → 801 (Eno, MacCormick, Simon Phillips, Francis Monkman) → solo → David Gilmour (On an Island, Rattle That Lock, The Endless River). Charles Hayward → This Heat. MacCormick → Matching Mole.",
  "grp.phil-manzanera-quiet-sun-801.etki": "Roxy/Eno evreni ile Canterbury ve Pink Floyd arasında üçlü bir kavşak.",
+ "grp.phil-manzanera-quiet-sun-801.uyeler": "Quiet Sun: Phil Manzanera (gitar), Bill MacCormick (bas), Charles Hayward (davul), Dave Jarrett (klavye). 801: Manzanera, Brian Eno (vokal, synthesizer), Bill MacCormick (bas), Simon Phillips (davul), Francis Monkman (klavye), Lloyd Watson (gitar). Diamond Head konukları: Eno, Robert Wyatt ('Frontera'yı İspanyolca söyler), John Wetton, Eddie Jobson, Andy Mackay ve Paul Thompson.",
+ "grp.phil-manzanera-quiet-sun-801.ipucu": [
+  "Mainstream ile Diamond Head'i bir çift olarak dinle: 1975'in aynı haftalarında kaydedildiler, biri Canterbury, biri Roxy.",
+  "801 Live'da Eno şarkılarının yanında Beatles'ın 'Tomorrow Never Knows'u ve Kinks'in 'You Really Got Me'si var — art rock'ın nereden geldiğinin haritası.",
+  "Simon Phillips 801 Live'da 19 yaşında: onu sonra Jeff Beck'e, The Who'ya ve Toto'ya götüren davula kulak ver."
+ ],
  "alb.phil-manzanera-1975-mainstream.an": "Quiet Sun'ın tek albümü: Manzanera'nın solo albüm oturumlarının boş saatlerinde kaydedildi. Ölçü değişimleri ve fuzz organla Canterbury caz-rock'ının kayıp klasiği.",
  "alb.phil-manzanera-1975-mainstream.oncelik": "Atlanmamalı — Canterbury'nin gizli hazinesi.",
  "alb.phil-manzanera-1975-mainstream.tip": "stüdyo (Quiet Sun)",
@@ -3279,6 +3536,14 @@
  "grp.uk.kurulus": "1977. John Wetton (King Crimson) + Bill Bruford (Yes/King Crimson) + Allan Holdsworth (gitar) + Eddie Jobson (keman/klavye, Roxy Music/Zappa). Saf süpergrup.",
  "grp.uk.dna": "Teknik fusion-prog; Crimson sertliği + melodik yapı + Jobson'ın senfonik klavye-keman dokusu.",
  "grp.uk.uyeler": "Holdsworth & Bruford ayrıldı → Terry Bozzio (Zappa) davula geçti, üçlüye indi.",
+ "grp.uk.hikaye": "King Crimson 1974'te bitince John Wetton ve Bill Bruford birkaç kez grup kurmayı denedi; 1977'de Eddie Jobson (Curved Air, Roxy Music, Zappa) ve Allan Holdsworth'u (Tempest, Soft Machine, Gong) aldılar. İlk albüm (1978) Crimson'ın ağırlığını Jobson'ın senfonik klavyeleri ve Holdsworth'un füzyon gitarıyla birleştirdi. Müzikal ayrılıklar grubu kısa sürede böldü: Bruford ve Holdsworth füzyona yönelip ayrıldı, Zappa'nın davulcusu Terry Bozzio Wetton ve Jobson'a katıldı. Trio olarak Danger Money'yi (1979) ve Japonya'da kaydedilen canlı Night After Night'ı yaptılar, sonra 1980'de dağıldılar. Wetton ve Jobson 2011–15'te UK'i turneler için yeniden canlandırdı.",
+ "grp.uk.gecisler": "King Crimson (Wetton, Bruford), Curved Air / Roxy Music / Zappa (Jobson), Tempest / Soft Machine / Gong (Holdsworth) → UK (1977). Bruford ve Holdsworth → Bruford (1978). Terry Bozzio Zappa'dan → UK → Missing Persons. Wetton → Asia (1981). Jobson → Jethro Tull (A, 1980) → solo.",
+ "grp.uk.etki": "Punk'ın prog'u modası geçmiş kıldığı anda ortaya çıkan, 70'lerin son büyük İngiliz prog süper grubu; teknik ile şarkıyı karıştırması teknik prog ve prog metal için örnek oldu, Wetton'ın Asia'ya geçişi burada başladı.",
+ "grp.uk.ipucu": [
+  "'In the Dead of Night' ilk albümü üç bölümlü bir süitle açar: Holdsworth'un solosunun sıkı yapıdan nasıl taştığına kulak ver.",
+  "İki albümü karşılaştır: Bruford'la davul cazlı ve hafif, Bozzio'yla daha ağır ve rock.",
+  "Danger Money'yi, sonra ilk Asia albümünü dinle: köprü Wetton'ın sesi ve melodileri."
+ ],
  "alb.uk-1978-u-k.an": "Dörtlü kadro. \"In the Dead of Night\" süiti ile teknik prog'un geç-dönem doruğu; Holdsworth'ün akışkan gitarı ile Jobson'ın klavyeleri yarışır.",
  "alb.uk-1978-u-k.tip": "stüdyo",
  "alb.uk-1978-u-k.tr": [
@@ -3300,6 +3565,12 @@
  "grp.asia.dna": "Prog virtüözitesinin radyo-dostu AOR'a dönüşmesi; kısa şarkı formu, dev nakaratlar, parlak prodüksiyon.",
  "grp.asia.uyeler": "Howe ayrıldı (1985) → Mandy Meyer; sonra çeşitli kadrolar. 2017'de Wetton'ın ölümünün ardından Billy Sherwood bas/vokale geçti — World Trade evreniyle Asia evreninin geç-dönem birleşmesi.",
  "grp.asia.etki": "Prog'un 80'lerde ticarileşmesinin sembolü; ağın \"dönüşüm\" düğümü.",
+ "grp.asia.gecisler": "King Crimson / UK (Wetton), Yes (Howe, Downes), ELP (Palmer), Buggles (Downes) → Asia (1981). Howe → GTR (1985); yerine İsviçreli gitarist Mandy Meyer geldi. John Payne 1991–2006'da grubu yönetti, sonra Asia featuring John Payne. Wetton ve Downes → Icon. Palmer → ELP'nin yeniden birleşmesi (1991). 2017'den sonra Billy Sherwood (World Trade ve Yes'ten).",
+ "grp.asia.ipucu": [
+  "İlk albümü Drama ve Love Beach'e bir cevap olarak dinle: aynı müzisyenler, şarkı başına üç dakika, önce nakarat.",
+  "Phoenix (2008) ilk dörtlünün yeniden buluşması: Howe'un oradaki gitarını 1982'dekiyle karşılaştır.",
+  "Payne dönemi albümleri (Aqua'dan Arena'ya) ruhça başka bir grup — onları Downes'un projesi olarak dinle."
+ ],
  "alb.asia-1982-asia.an": "\"Heat of the Moment\", \"Only Time Will Tell\". ABD'de dokuz hafta bir numara; dört virtüözün yeteneğini üç dakikalık hit kalıbına sığdırması hem büyük başarı hem prog-saflık tartışması doğurdu.",
  "alb.asia-1982-asia.tip": "stüdyo",
  "alb.asia-1982-asia.tr": [
@@ -3382,6 +3653,13 @@
  "grp.gtr.kurulus": "1985–86. Steve Howe (Yes/Asia) + Steve Hackett (Genesis) — iki büyük prog gitaristinin buluşması. Yes ve Genesis evrenlerini doğrudan birleştiren nadir düğüm.",
  "grp.gtr.dna": "Gitar-merkezli melodik prog-pop; iki gitaristin \"orkestra gibi gitar\" yaklaşımı, 80'ler AOR prodüksiyonuyla paketlenir.",
  "grp.gtr.uyeler": "Max Bacon (vokal), Phil Spalding (bas), Jonathan Mover (davul). Howe-Hackett gerilimi grubu hızla bitirdi.",
+ "grp.gtr.hikaye": "1985'te Asia'dan ayrılan Steve Howe, solo kariyerine bir süre ara vermek isteyen Steve Hackett'la bir araya geldi. Şarkıcı Max Bacon, basçı Phil Spalding ve davulcu Jonathan Mover ile Geoff Downes'un yapımcılığında tek bir albüm kaydedip 1986'da yayımladılar; 'When the Heart Rules the Mind' single'ı ABD'de ilk 20'ye girdi, albüm altın plak oldu. Ama grubun AOR yönü Hackett'a uymadı ve turneden sonra ayrıldı; Robert Berry ile devam etme girişimi başarısız oldu, Howe ABWH aracılığıyla Yes ailesine döndü.",
+ "grp.gtr.gecisler": "Yes / Asia (Howe), Genesis / solo (Hackett) → GTR (1985). Max Bacon Bronz ve Nightwing'den. Jonathan Mover kısa süre Marillion'la çalmıştı; sonra Joe Satriani'yle. Robert Berry GTR denemesinden sonra → 3 (Emerson ve Palmer'la). Howe → ABWH (1989); Hackett → solo.",
+ "grp.gtr.etki": "Kısa ömürlü ama simgesel bir düğüm: Yes ve Genesis gitaristlerinin yan yana çaldığı tek grup; 80'lerin prog emektarlarının AOR'a ne kadar yaklaşacağını gösteren ticari bir başarı.",
+ "grp.gtr.ipucu": [
+  "İki enstrümantali, 'Hackett to Bits' ve 'Sketches in the Sun'ı dinle: AOR albümünün içinde her gitaristin solo anı.",
+  "İki gitarı ayırt etmeye çalış: Howe'unki daha parlak ve country tekniğiyle, Hackett'ınki daha uzun tınlayan ve orkestral."
+ ],
  "alb.gtr-1986-gtr.an": "\"When the Heart Rules the Mind\" (ABD Top 20 hit). Tek stüdyo albümü. Hackett'in lirik dokusu ile Howe'un köşeli figürleri 80'ler cilasının altında buluşur; iki ekol arası ilginç ama kısa ömürlü sentez.",
  "alb.gtr-1986-gtr.tip": "stüdyo",
  "alb.gtr-1986-gtr.tr": [
@@ -3393,6 +3671,14 @@
  "grp.buggles-kopru-dugum.name": "Buggles (köprü düğüm)",
  "grp.buggles-kopru-dugum.kurulus": "1979. Trevor Horn + Geoff Downes. \"Video Killed the Radio Star\" ile MTV çağını açtılar. 1980'de ikisi de Yes'e (Drama) katıldı; Downes sonra Asia'ya gitti.",
  "grp.buggles-kopru-dugum.dna": "Synth-pop, ama Yes ile prog'a bağlanan kritik köprü; Horn ileride büyük bir prodüktör (90125 dahil) olur.",
+ "grp.buggles-kopru-dugum.hikaye": "Trevor Horn ve Geoff Downes, Tina Charles'ın eşlik grubunda tanıştı ve Bruce Woolley ile birlikte şarkı yazmaya başladı. 'Video Killed the Radio Star' 1979'da İngiltere'de bir numara oldu, videosu 1981'de MTV'de yayımlanan ilk video oldu. İkili, ortak menajerleri Brian Lane aracılığıyla 1980'de Yes için şarkı yazarken Jon Anderson ve Rick Wakeman ayrıldı; Horn ve Downes gruba girip Drama'yı yaptı. Turneden sonra Horn yapımcı olmak için ayrıldı, Downes Asia'yı kurdu; ikinci Buggles albümü (1981) büyük ölçüde Horn'un işiydi.",
+ "grp.buggles-kopru-dugum.uyeler": "Trevor Horn (vokal, bas, gitar, yapımcı), Geoff Downes (klavye, davul programlama); ilk günlerde ortak söz yazarı Bruce Woolley; Hans Zimmer 'Video Killed the Radio Star' videosunda görünür.",
+ "grp.buggles-kopru-dugum.gecisler": "Tina Charles'ın grubu → Buggles (1979) → Yes (Drama, 1980). Horn → yapımcılık (ABC, Frankie Goes to Hollywood, Yes'in 90125, Big Generator ve Fly from Here albümleri), Art of Noise, ZTT Records. Downes → Asia (1981), yeniden Yes (2011–). Bruce Woolley → Camera Club.",
+ "grp.buggles-kopru-dugum.etki": "Prog'la synth-pop'un temas ettiği nokta: Horn'un prodüksiyonuyla 80'lerin pop sesi Yes'e (90125), Downes aracılığıyla da Asia'ya geri aktı.",
+ "grp.buggles-kopru-dugum.ipucu": [
+  "'I Am a Camera'yı (Buggles, 1981) ve Drama'daki 'Into the Lens'i dinle — aynı şarkı: Horn Yes parçasını yeniden yazdı.",
+  "The Age of Plastic'i teknoloji ve nostalji üzerine bir konsept albüm olarak dinle — hit şarkısının düşündürdüğünden daha prog'a yakın."
+ ],
  "alb.buggles-1980-the-age-of-plastic.an": "Synth-pop klasiği; teknoloji-kaygısı temaları.",
  "alb.buggles-1980-the-age-of-plastic.tip": "stüdyo",
  "alb.buggles-1980-the-age-of-plastic.tr": [
@@ -3409,12 +3695,28 @@
   "Lenny"
  ],
  "grp.bad-company-foreigner-uye-gocu-uclar.name": "Bad Company / Foreigner (üye-göçü uçları)",
+ "grp.bad-company-foreigner-uye-gocu-uclar.kurulus": "Bir grup değil, bir kavşak: eski King Crimson üyelerini içine alan iki arena rock grubu, Bad Company (1973) ve Foreigner (1976).",
+ "grp.bad-company-foreigner-uye-gocu-uclar.hikaye": "Bad Company 1973'te Free'den Paul Rodgers ve Simon Kirke, Mott the Hoople'dan Mick Ralphs ve King Crimson'ın Islands'taki basçısı ve şarkıcısı Boz Burrell tarafından kuruldu; Peter Grant'in menajerliğinde, Led Zeppelin'in Swan Song etiketiyle stadyum yıldızı oldular. Foreigner 1976'da New York'ta Mick Jones (Spooky Tooth) tarafından, gitar, klavye ve saksafonda King Crimson'ın kurucularından Ian McDonald ve şarkıcı Lou Gramm ile kuruldu; McDonald ilk üç albümde çaldı. İki grup da 70'lerin sonunda birçok prog müzisyeninin nereye gittiğini gösterir: kısa, radyoya uygun şarkılara.",
+ "grp.bad-company-foreigner-uye-gocu-uclar.dna": "Blues temelli arena rock ve AOR: kısa şarkılar, büyük nakaratlar, cilalı prodüksiyon — üyelerin geldiği prog'un karşı kutbu.",
+ "grp.bad-company-foreigner-uye-gocu-uclar.uyeler": "Bad Company: Paul Rodgers (vokal), Mick Ralphs (gitar), Boz Burrell (bas), Simon Kirke (davul). Foreigner (ilk kadro): Lou Gramm (vokal), Mick Jones (gitar), Ian McDonald (gitar, klavye, saksafon), Al Greenwood (klavye), Ed Gagliardi (bas), Dennis Elliott (davul).",
+ "grp.bad-company-foreigner-uye-gocu-uclar.gecisler": "King Crimson (Boz Burrell, 1971–72) → Bad Company (1973). King Crimson (Ian McDonald, 1969) → McDonald and Giles → Foreigner (1976–79) → 21st Century Schizoid Band (2002). Simon Kirke sonra John Wetton'ın Caught in the Crossfire'ında.",
+ "grp.bad-company-foreigner-uye-gocu-uclar.etki": "Ağın dış kenarını işaretlerler: Crimson mezunlarının prog'u listeler için bıraktığı nokta; Wetton aynı yolu Asia ile izleyecekti.",
+ "grp.bad-company-foreigner-uye-gocu-uclar.ipucu": [
+  "Boz Burrell'ı önce Islands'ta, sonra Bad Company'nin ilk albümünde dinle: iki zıt dünyada aynı basçı.",
+  "Foreigner'ın ilk albümünde (1977) Ian McDonald'ın saksafonuna ve klavyelerine kulak ver: bir AOR plağının içinde King Crimson'ın kurucularından biri."
+ ],
  "grp.bruford.name": "Bruford",
  "grp.bruford.kurulus": "1977, Londra. Bill Bruford (Yes/King Crimson) kendi besteci kimliğini ifade etmek için kurdu; King Crimson'ın 1974 dağılışından sonra. EG Records (Crimson'ın etiketi) ile anlaştı.",
  "grp.bruford.dna": "Karmaşık jazz-rock fusion: asimetrik ölçüler, Holdsworth'ün akışkan legato gitarı, Berlin'in melodik bası, Stewart'ın kanatlı klavye dokusu. Prog ile fusion arasındaki en zarif köprülerden.",
  "grp.bruford.uyeler": "Bill Bruford (davul), Allan Holdsworth (gitar; sonra UK ve solo), Jeff Berlin (bas — fusion virtüözü), Dave Stewart (klavye, Hatfield/National Health'ten).",
  "grp.bruford.gecisler": "Önce → Yes, King Crimson (Bruford); Hatfield (Stewart). Sonra → UK (Holdsworth), Earthworks (Bruford), National Health (Stewart). UK'in kardeş düğümü: ikisi de Holdsworth + Crimson sertliğini paylaşır.",
  "grp.bruford.etki": "UK ile birlikte geç-70'ler İngiliz teknik-fusion'ının zirvesi; sonraki prog müzisyenleri (özellikle davulcular) için referans. Bruford'un 'rock'tan jazz'a geçiş' yolculuğunun ilk durağı.",
+ "grp.bruford.hikaye": "Feels Good to Me (1978), Allan Holdsworth, Jeff Berlin, Dave Stewart ve şarkıcı Annette Peacock ile bir Bill Bruford solo albümü olarak başladı ve kadro bir gruba dönüştü. UK için verilen aradan sonra Bruford ve Holdsworth gruba döndü; tamamen enstrümantal One of a Kind (1979) zirvesi oldu. Sonra Holdsworth ayrıldı, yerine John Clark geldi (canlı albümde 'The Unknown John Clark' olarak anılır); Gradually Going Tornado (1980) Jeff Berlin'in vokallerini ekledi. Ticari destek bulamayan grup 1980'de bitti, Bruford 1981'de Robert Fripp'in yeni King Crimson'ına katıldı.",
+ "grp.bruford.ipucu": [
+  "One of a Kind ile başla: Dave Stewart'ın besteleri ve Holdsworth'un soloları en iyi dengede.",
+  "UK albümüyle Feels Good to Me'yi aynı oturuşta dinle: aynı davulcu ve gitarist, 1978'in iki ayrı grubu.",
+  "Jeff Berlin'in basını takip et: alt zemini tuttuğu kadar sık melodi de çalar."
+ ],
  "alb.bruford-1978-feels-good-to-me.an": "Bruford'un solo adı altında ama fiilen grup albümü. Annette Peacock'un vokali ve Kenny Wheeler'ın flügelhornuyla atmosferik bir jazz-rock. Holdsworth'ün gitarı ile Berlin'in bası daha ilk plakta diyalog kurar.",
  "alb.bruford-1978-feels-good-to-me.tip": "stüdyo",
  "alb.bruford-1978-feels-good-to-me.tr": [
@@ -3443,6 +3745,11 @@
  "grp.bill-bruford-s-earthworks.uyeler": "Bill Bruford (akustik + elektronik Simmons davul), Django Bates (klavye/tenor horn/trompet), Iain Ballamy (saksofon), Mick Hutton (kontrbas; sonra Tim Harries). Dave Stewart debüt'te prodüktör + bas synth.",
  "grp.bill-bruford-s-earthworks.gecisler": "Önce → Bruford, King Crimson, ABWH (Bruford). 1988'de Bruford, ABWH için Earthworks'ü askıya aldı — iki düğüm doğrudan kesişir. Sonra → 90'larda King Crimson 'double trio'.",
  "grp.bill-bruford-s-earthworks.etki": "Bruford'un kariyerinin 'jazz' yarısını başlatan grup; prog dinleyicisini çağdaş İngiliz jazz'ına bağlayan köprü. Bates ve Ballamy buradan büyük jazz kariyerlerine çıktı.",
+ "grp.bill-bruford-s-earthworks.ipucu": [
+  "İlk albümde akor ve melodi çalan Simmons pad'lerine kulak ver — Bruford'un davulu armonik bir çalgı yapma denemesi.",
+  "Elektrikli ilk albümleri A Part, and Yet Apart (1999) ile karşılaştır: o noktada Earthworks akustik bir caz dörtlüsü.",
+  "Django Bates'i buradan Loose Tubes'a ve kendi gruplarına kadar takip et — prog'dan İngiliz cazına açılan bir kapı."
+ ],
  "alb.bill-bruford-s-earthworks-1987-earthworks.an": "En 'prog' Earthworks albümü; Dave Stewart prodüksiyonu ve konukluğu sayesinde Bruford grubunun fusion havasını taşır. Simmons davulların melodi çaldığı benzersiz doku.",
  "alb.bill-bruford-s-earthworks-1987-earthworks.tip": "stüdyo",
  "alb.bill-bruford-s-earthworks-1987-earthworks.tr": [
@@ -4169,6 +4476,11 @@
  "grp.renaissance.uyeler": "Klasik kadro: Annie Haslam (vokal), Michael Dunford (akustik gitar/besteci), John Tout (klavye), Jon Camp (bas), Terence Sullivan (davul). Söz yazarı Betty Thatcher dışarıdan çekirdek katkı.",
  "grp.renaissance.gecisler": "Önce → The Yardbirds (Relf/McCarty kuruluş çekirdeği). Eric Burdon ve folk-rock sahnesiyle dolaylı bağlar.",
  "grp.renaissance.etki": "Symphonic prog'un en 'klasik müzik'e yakın kanadı; kadın vokali öne çıkaran nadir büyük prog grubu. Mostly Autumn gibi sonraki gruplara ilham.",
+ "grp.renaissance.ipucu": [
+  "1969 albümünü, sonra Prologue'u (1972) dinle: aynı isim, bambaşka bir grup.",
+  "'Song of Scheherazade' (Scheherazade and Other Stories'in ikinci yüzünün tamamı) grubun orkestrayla doruğu.",
+  "John Tout'un piyanosunu takip et: çoğu prog grubunda gitarın oynadığı rolü oynar."
+ ],
  "alb.renaissance-1972-prologue.an": "Klasik Haslam-Dunford kadrosunun ilk albümü; grubun piyano-merkezli orkestral kimliği oturur.",
  "alb.renaissance-1972-prologue.tip": "stüdyo",
  "alb.renaissance-1972-prologue.tr": [
@@ -4233,6 +4545,12 @@
  "grp.curved-air.uyeler": "Sonja Kristina (vokal), Darryl Way (keman/klavye), Francis Monkman (klavye/gitar), Florian Pilkington-Miksa (davul). Sonradan Stewart Copeland (sonra The Police) davula geçti; Eddie Jobson da kısa süre kemanda.",
  "grp.curved-air.gecisler": "Sonra → The Police (Stewart Copeland), UK ve Roxy Music (Eddie Jobson — Curved Air'den geçen bir başka kavşak), Sky (Francis Monkman).",
  "grp.curved-air.etki": "Kadın-vokalli prog'un öncülerinden; Eddie Jobson ve Stewart Copeland gibi figürleri ağa besledi. Punk öncesi art-rock köprüsü.",
+ "grp.curved-air.hikaye": "Curved Air, kemancı Darryl Way ile klavyeci-gitarist Francis Monkman'ın grubu Sisyphus'tan, 1970'te şarkıcı Sonja Kristina'nın katılmasıyla doğdu; isim Terry Riley'nin A Rainbow in Curved Air'inden geldi. İlk albümleri Air Conditioning (1970) ilk resimli LP'lerden biriydi, 'Back Street Luv' single'ı 1971'de İngiltere'de ilk beşe girdi. Way ve Monkman 1972'de ayrıldı; 17 yaşındaki Eddie Jobson'lı yeni kadro Air Cut'ı (1973) yaptı. 1974'teki yeniden birleşme turnesinden sonra davula Stewart Copeland (sonra The Police) geçti; grup 1976–77'de sönümlendi, 2000'lerde sahneye döndü.",
+ "grp.curved-air.ipucu": [
+  "Air Conditioning'deki 'Vivaldi'yi dinle: Way'in elektrikli kemanı barok bir temayı rock gösterisine çevirir.",
+  "Way ile Jobson'ı kemanda karşılaştır: Jobson, sonradan Roxy Music'e ve UK'e taşıdığını Air Cut'ta öğrendi.",
+  "Monkman'ın Second Album ve Phantasmagoria'daki VCS3'ü İngiliz rock'ındaki en erken synthesizer seslerinden biri."
+ ],
  "alb.curved-air-1970-air-conditioning.an": "Çıkış albümü; ilk resimli (picture-disc) LP'lerden. Klasik-folk-elektronik karışımı kimliği kurar.",
  "alb.curved-air-1970-air-conditioning.tip": "stüdyo",
  "alb.curved-air-1970-air-conditioning.tr": [
@@ -4266,6 +4584,12 @@
  "grp.greenslade.uyeler": "Dave Greenslade (klavye), Dave Lawson (klavye/vokal) — çift klavye yapısı imza; Tony Reeves (bas, eski Colosseum), Andrew McCulloch (davul, eski King Crimson — 'Lizard').",
  "grp.greenslade.gecisler": "Önce → Colosseum (Greenslade, Reeves), King Crimson (McCulloch). Roger Dean kapakları üzerinden Yes/Gentle Giant'ın görsel evrenine bağlı.",
  "grp.greenslade.etki": "Klavye-merkezli prog'un (ELP/Nice çizgisinin) daha oda-müziği yönlü bir dalı; McCulloch üzerinden King Crimson'a bağlı.",
+ "grp.greenslade.hikaye": "Colosseum 1971'de dağılınca Dave Greenslade ve basçı Tony Reeves, gitaristi olmayan, ikinci klavyeci ve şarkıcı Dave Lawson ile King Crimson'ın Lizard'ında çalmış davulcu Andrew McCulloch'tan oluşan bir grup kurdu. 1973–75 arasında Warner Bros için dört albüm yaptılar, çoğunun kapağı Roger Dean'den. Reeves Time and Tide'dan önce ayrıldı, yerine Martin Briley geldi. Grup 1976'da dağıldı; Greenslade solo albümlerle (Cactus Choir, The Pentateuch of the Cosmogony) ve televizyon müziğiyle devam etti, ismi 2000'de yeniden canlandırdı.",
+ "grp.greenslade.ipucu": [
+  "Stereo görüntüyü düşünerek dinle: iki klavyeci çoğu zaman sola ve sağa ayrılmıştır.",
+  "Andrew McCulloch'un buradaki davulunu Lizard'la karşılaştır — daha yumuşak bir ortamda aynı caz dokunuşu.",
+  "En iyi giriş Bedside Manners Are Extra: şarkılar ve enstrümantaller dengede."
+ ],
  "alb.greenslade-1973-greenslade.an": "Çıkış albümü; çift klavye konseptini ve Roger Dean kapağını tanıtır.",
  "alb.greenslade-1973-greenslade.tip": "stüdyo",
  "alb.greenslade-1973-greenslade.tr": [
@@ -4300,6 +4624,12 @@
  "grp.gryphon.uyeler": "Richard Harvey (klavye/üflemeli), Brian Gulland (bassoon/krumhorn/vokal), Graeme Taylor (gitar), David Oberlé (davul/vokal). Klasik eğitimli çok-enstrümantistler.",
  "grp.gryphon.gecisler": "Yes ile turne yaptılar (Yes onları Tales from Topographic Oceans turnesine davet etti) — büyük omurgaya doğrudan sahne-bağı. Harvey sonra film müziği bestecisi oldu.",
  "grp.gryphon.etki": "Prog'un 'erken müzik' kanadının en saf örneği; Gentle Giant ve Tull'la birlikte İngiliz folk-prog'unu besler. Yes turnesiyle ana akıma değdi.",
+ "grp.gryphon.hikaye": "Richard Harvey ve Brian Gulland, Royal College of Music'te tanıştı ve gitarist Graeme Taylor ile davulcu Dave Oberlé ile birlikte Orta Çağ ve Rönesans müziğini rock çalgılarıyla çalmaya başladı. İlk albümleri (Transatlantic, 1973) çoğunlukla erken dönem ve geleneksel müzik düzenlemelerinden oluşuyordu. Midnight Mushrumps (1974), Peter Hall'ın Ulusal Tiyatro'daki Fırtına sahnelemesi için yazılmış bir plak yüzü uzunluğunda parça içeriyordu; bir satranç oyunu üzerine kurulu dört enstrümantal bölümden oluşan Red Queen to Gryphon Three (1974) onların prog doruğudur. Yes'in ön grubu olarak turneye çıktılar; sonraki albümler şarkılara yöneldi ve grup Treason'dan (1977) sonra bitti. 2009'da yeniden bir araya gelip yeni albümler yayımladılar.",
+ "grp.gryphon.ipucu": [
+  "Red Queen to Gryphon Three ile başla: dört enstrümantal bölüm, vokal yok, her çalgı bir satranç taşı.",
+  "Başka grupların synthesizer kullanacağı yerlerde baş melodiyi alan krumhorn ve fagota kulak ver.",
+  "Onları Gentle Giant'ın Octopus'uyla yan yana dinle: erken dönem müziğin rock'a nasıl sığacağı sorusuna iki cevap."
+ ],
  "alb.gryphon-1973-gryphon.an": "Çıkış albümü; neredeyse tamamen ortaçağ/folk enstrümantalleri. Grubun benzersiz kimliğini ilan eder.",
  "alb.gryphon-1973-gryphon.tip": "stüdyo",
  "alb.gryphon-1973-gryphon.tr": [
@@ -4341,6 +4671,12 @@
  "grp.family.uyeler": "Roger Chapman (vokal), Charlie Whitney (gitar) çekirdek; bas koltuğundan Ric Grech (sonra Blind Faith), John Weider, John Wetton (King Crimson'a gitmeden önce!) ve Jim Cregan geçti.",
  "grp.family.gecisler": "Sonra → Blind Faith (Ric Grech), King Crimson & UK (John Wetton — Family, Wetton'ın Crimson öncesi durağı!), Streetwalkers (Chapman/Whitney). Wetton bağı kritik kavşak.",
  "grp.family.etki": "John Wetton'ı yetiştiren grup (Crimson/UK/Asia hattının kökü buradan geçer); İngiliz art-rock'ının kategori-dışı önemli düğümü.",
+ "grp.family.hikaye": "Family, Leicester'ın R&B grubu Roaring Sixties'ten çıktı ve 1967'de Londra'ya taşındı. Traffic'ten Dave Mason'ın yapımcılığını yaptığı ilk albümleri Music in a Doll's House (1968), İngiliz psikedeliğinin klasiklerinden. 1969'daki sorunlu ilk ABD turnesi Amerika umutlarını bitirdi; basçı Ric Grech turnenin ortasında Blind Faith'e katılmak için ayrıldı. İngiltere'de 'No Mule's Fool', 'In My Own Time' ve 'Burlesque' gibi hitlerle büyük bir sahne grubu olarak kaldılar; John Wetton Fearless ve Bandstand'de (1971–72) bas çaldı. It's Only a Movie'den sonra Family 1973'te Leicester'da bir veda konseri verdi; Chapman ve Whitney Streetwalkers'ı kurdu.",
+ "grp.family.ipucu": [
+  "Music in a Doll's House ile başla; 'The Chase' ve 'Old Songs New Songs' grubun R&B ile yaylılar karışımını gösterir.",
+  "Fearless'ı King Crimson öncesi John Wetton için dinle: bası ve arka vokalleri şimdiden tanınır.",
+  "Chapman'ın sesi dinleyicileri ikiye böler — karar vermeden önce ona üç şarkı süre tanı."
+ ],
  "alb.family-1968-music-in-a-doll-s-house.an": "Çıkış albümü; Dave Mason (Traffic) prodüksiyonu. Psychedelia ile orkestral deneyselliğin kaynaşması, Beatles'ın 'doll's house' temasıyla.",
  "alb.family-1968-music-in-a-doll-s-house.tip": "stüdyo",
  "alb.family-1968-music-in-a-doll-s-house.tr": [
@@ -4389,6 +4725,11 @@
  "grp.focus.uyeler": "Thijs van Leer (org/flüt/yodel vokal), Jan Akkerman (gitar — döneminin en saygın prog gitaristlerinden), Pierre van der Linden (davul, Brainbox'tan), Bert Ruiter (bas).",
  "grp.focus.gecisler": "Önce → Brainbox (Akkerman, van der Linden — ikisi Focus için Brainbox'tan ayrıldı). Akkerman sonra etkili bir solo gitar kariyeri yaptı.",
  "grp.focus.etki": "Kıta Avrupası prog'unun İngiliz ana akımına en çok karışan grubu; 'Hocus Pocus' ve 'Sylvia' ile prog'u radyoya taşıdı. Akkerman gitar virtüözitesinin referansı.",
+ "grp.focus.ipucu": [
+  "Asıl albüm Moving Waves: birinci yüzde 'Hocus Pocus', ikinci yüzde Orfeus mitine dayanan, yüz uzunluğundaki 'Eruption'.",
+  "'Sylvia'yı ve 'Hamburger Concerto'yu dinle: ilki bir hit single, ikincisi bir Brahms teması üzerine kurulu 20 dakikalık bir süit.",
+  "Akkerman'ın tonunu takip et: aynı solo içinde lavta benzeri tekniklerle blues-rock arasında gidip gelir."
+ ],
  "alb.focus-1970-in-and-out-of-focus.an": "Çıkış albümü; grubun klasik-rock-flüt kimliğinin tohumu. 'House of the King' hit oldu.",
  "alb.focus-1970-in-and-out-of-focus.tip": "stüdyo",
  "alb.focus-1970-in-and-out-of-focus.tr": [
@@ -4437,6 +4778,11 @@
  "grp.barclay-james-harvest.uyeler": "John Lees (gitar/vokal), Les Holroyd (bas/vokal), Stuart 'Woolly' Wolstenholme (klavye/mellotron), Mel Pritchard (davul). Wolstenholme'un mellotronu grubun atmosferik imzası.",
  "grp.barclay-james-harvest.gecisler": "Moody Blues ile aynı orkestral-mellotron estetiğini paylaşır (ortak ses bağı). Almanya'da devasa popülerlik kazandılar.",
  "grp.barclay-james-harvest.etki": "Mellotron-orkestral prog'un melodik kanadı; özellikle Almanya'da prog'un kitleselleşmesinin örneği. Neo-prog'un atmosferik damarına dolaylı katkı.",
+ "grp.barclay-james-harvest.ipucu": [
+  "Once Again (1971) ile başla: tam orkestralı 'Mockingbird' grubun imza parçası.",
+  "Gone to Earth'te 'Poor Man's Moody Blues'u dinle — grubun eleştirmenlerin lakabına ironik cevabı.",
+  "Üç söz yazarını takip et: Lees'in gitarlı baladları, Holroyd'un pop şarkıları ve Wolstenholme'ün Mellotron destanları."
+ ],
  "alb.barclay-james-harvest-1970-barclay-james-harvest.an": "Çıkış albümü; orkestra eşliğinde mellotron-yoğun symphonic prog kimliğini kurar.",
  "alb.barclay-james-harvest-1970-barclay-james-harvest.tip": "stüdyo",
  "alb.barclay-james-harvest-1970-barclay-james-harvest.tr": [
@@ -4496,6 +4842,12 @@
  "grp.henry-cow.uyeler": "Fred Frith (gitar/keman), Tim Hodgkinson (org/saksofon), Chris Cutler (davul), John Greaves (bas; sonra National Health), Lindsay Cooper (fagot/obua), Dagmar Krause (vokal, sonradan).",
  "grp.henry-cow.gecisler": "Önce → Cambridge üniversite çevresi. Sonra → Art Bears (Frith/Cutler/Krause), National Health (John Greaves), Slapp Happy ile birleşme. RIO üzerinden Avrupa avangardına (Univers Zero, Stormy Six) bağlı.",
  "grp.henry-cow.etki": "RIO hareketinin teorik ve müzikal kurucusu; ticari endüstriye karşı duruşuyla bir bütün alt-türü tanımladı. Avant-prog'un (Univers Zero, Thinking Plague) atası.",
+ "grp.henry-cow.hikaye": "Fred Frith ve Tim Hodgkinson, Henry Cow'u 1968'de Cambridge Üniversitesi'nde kurdu; davulcu Chris Cutler (1971'den itibaren), basçı John Greaves ve saksofoncu Geoff Leigh ile Virgin Records'un en tavizsiz grubu oldular. Legend (1973), Ray Smith'in boyalı çoraplarıyla başlayan bir kapak serisini açtı; Unrest (1974) Lindsay Cooper'ın fagot ve obuasını ekledi. 1974–75'te Slapp Happy ile birleşerek In Praise of Learning için şarkıcı Dagmar Krause'u kazandılar. Virgin'den ayrıldıktan sonra Avrupa'yı bağımsız olarak dolaştılar ve Mart 1978'de Londra'da Stormy Six, Univers Zero, Samla Mammas Manna ve Etron Fou Leloublan ile ilk Rock in Opposition festivalini düzenlediler. Grup aynı yıl dağıldı; enstrümantal Western Culture (1979) vedaları oldu.",
+ "grp.henry-cow.ipucu": [
+  "Legend ile başla: en kolay dinlenen albüm, hâlâ Canterbury caz-rock'ına yakın.",
+  "Unrest'in ikinci yüzü sonradan kurgulanan stüdyo doğaçlamalarından oluşur — onu banttan yapılmış bir beste olarak dinle.",
+  "In Praise of Learning'i dinlemeden önce sözleri oku: Krause şarkı değil, Brecht'vari politik tiyatro söyler."
+ ],
  "alb.henry-cow-1973-legend-leg-end.an": "Çıkış albümü; çorap kapağıyla ünlü. Besteli karmaşıklık ile serbest doğaçlamanın ilk büyük sentezi. Virgin'in en cüretkâr erken imzalarından.",
  "alb.henry-cow-1973-legend-leg-end.tip": "stüdyo",
  "alb.henry-cow-1973-legend-leg-end.tr": [
@@ -4530,6 +4882,11 @@
  "grp.art-bears.uyeler": "Fred Frith (gitar/klavye/her şey), Chris Cutler (davul/söz), Dagmar Krause (vokal). Henry Cow'un üç çekirdek üyesi.",
  "grp.art-bears.gecisler": "Önce → Henry Cow (üçü de). Sonra → Frith'in geniş solo/avangard kariyeri, Cutler'ın ReR Megacorp etiketi (RIO'nun yayın merkezi). Avant-prog ağının düğümü.",
  "grp.art-bears.etki": "Henry Cow'un mirasını şarkı formatında sürdürdü; RIO/avant-prog'un en erişilebilir (ama yine de zorlu) yüzü.",
+ "grp.art-bears.hikaye": "Ocak 1978'de Henry Cow, İsviçre'deki Sunrise Studio'da yeni bir albüm için şarkılar kaydetti; Tim Hodgkinson ve Lindsay Cooper malzemenin grup için fazla şarkı odaklı olduğunu düşündü. Frith, Cutler ve Krause bunu yeni bir adla Hopes and Fears (1978) olarak yayımladı; diğer Cow üyeleri birkaç parçada çaldı. Sözleri Amiens Katedrali'nin taş oymalarından esinlenen Winter Songs (1979), Frith'in neredeyse her şeyi çaldığı bir trio olarak kaydedildi. Politik The World as It Is Today'den (1981) sonra trio sona erdi; Cutler'ın Recommended Records etiketi RIO ağını ayakta tuttu.",
+ "grp.art-bears.ipucu": [
+  "Hopes and Fears'ı Western Culture'dan sonra dinle: Henry Cow'un son albümünün olması gerekenin iki yarısı.",
+  "Winter Songs kısa ve yoğun: her şarkı canlandırılmış bir oyma — sözlerle birlikte dinle."
+ ],
  "alb.art-bears-1978-hopes-and-fears.an": "Çıkış albümü; 'Western Culture' oturumlarından doğdu. Krause'nin vokali ve Frith'in dokusu şarkı-formatında buluşur.",
  "alb.art-bears-1978-hopes-and-fears.tip": "stüdyo",
  "alb.art-bears-1978-hopes-and-fears.tr": [
@@ -4557,6 +4914,12 @@
  "grp.this-heat.uyeler": "Charles Bullen (gitar/klarnet/vokal), Charles Hayward (davul/vokal/klavye), Gareth Williams (klavye/bas — müzik eğitimi olmayan, deneysel yaklaşımı için seçilen üye).",
  "grp.this-heat.gecisler": "Çevresi → Canterbury/RIO sahnesi (deneysel akrabalık), post-punk (kendi etkiledikleri kuşak). Prog ile post-punk arasındaki köprü düğümü.",
  "grp.this-heat.etki": "Post-rock ve endüstriyel müziğin habercisi; prog'un teknik mirasını punk-sonrası bir nesle aktaran kritik halka. Çok sonra (Radiohead, post-rock) yeniden keşfedildi.",
+ "grp.this-heat.hikaye": "Charles Hayward (davul, Quiet Sun'dan), Charles Bullen (gitar, klarnet) ve Gareth Williams (klavye, bantlar) This Heat'i 1976'da kurdu ve Brixton'da kullanılmayan bir et soğutma deposu olan, stüdyolarına dönüşen 'Cold Storage'da prova yaptı. Parçaları canlı çalımdan ve bant döngülerinden kurarak yavaş kaydettiler; ilk albüm 1979'da çıktı, ardından Health and Efficiency EP'si (1980) ve nükleer savaş korkusunun biçimlendirdiği Deceit (1981) geldi. Williams 1982'de ayrıldı ve grup bitti; Hayward Camberwell Now ile devam etti. Etkileri ancak sonra, post-rock ve deneysel müzisyenler onları yeniden keşfettiğinde büyüdü.",
+ "grp.this-heat.ipucu": [
+  "Deceit'i bir Soğuk Savaş albümü olarak dinle: sözler ve bant kolajları bombanın gölgesinde yaşamakla ilgili.",
+  "Charles Hayward'ı Quiet Sun'ın Mainstream'inden buraya kadar takip et: aynı davulcu, Canterbury cazından post-punk'a.",
+  "Yüksek sesle çal — bant döngüleri ve dronlar ses gücü için kurulmuş."
+ ],
  "alb.this-heat-1979-this-heat.an": "Çıkış albümü ('Blue and Yellow' olarak da bilinir); tape-loop ve doğaçlamayla örülü. İki yıllık kayıtların montajı. Prog-punk-avangard kaynaşması.",
  "alb.this-heat-1979-this-heat.tip": "stüdyo",
  "alb.this-heat-1979-this-heat.tr": [
@@ -4577,6 +4940,12 @@
  "grp.ian-anderson-solo.dna": "Flüt (overblown, mırıldanarak çalma), akustik gitar, İngiliz folk ve klasik müzik; esprili, edebi metinler.",
  "grp.ian-anderson-solo.gecisler": "The Blades → John Evan Band → Jethro Tull → solo → Jethro Tull; orkestral projeler (Divinities, 1995).",
  "grp.ian-anderson-solo.etki": "Rock flütünün ikonu; folk-prog'un ana mimarı.",
+ "grp.ian-anderson-solo.uyeler": "Ian Anderson (vokal, flüt, gitar) ile Peter-John Vettese (klavye, Walk into Light); Divinities'te Andrew Giddings (klavye) ve orkestra; Thick as a Brick 2 ve Homo Erraticus'te turne grubu — Florian Opahle (gitar), John O'Hara (klavye), David Goodier (bas), Scott Hammond (davul) ve Ryan O'Donnell (vokal, sahne).",
+ "grp.ian-anderson-solo.ipucu": [
+  "Thick as a Brick 2'den önce Gerald Bostock'un hikâyesini oku: albüm, 1972'nin çocuk şairinin kırk yıl sonra ne olduğunu hayal eder.",
+  "Divinities orkestralı ve tamamen enstrümantal: flütünü ses olmadan duymanın en iyi yolu.",
+  "Walk into Light (1983) onun synthesizer albümü — Tull'un Under Wraps'iyle yan yana dinle."
+ ],
  "alb.ian-anderson-1983-walk-into-light.an": "Peter-John Vettese ile synth ağırlıklı, elektronik pop yönelimli ilk solo albüm.",
  "alb.ian-anderson-1983-walk-into-light.oncelik": "Atlanabilir — dönem merakı için.",
  "alb.ian-anderson-1983-walk-into-light.tip": "stüdyo",
@@ -4627,6 +4996,12 @@
  "grp.peter-hammill-solo.dna": "Ekspresyonist vokal (fısıltıdan çığlığa), piyano ve akustik gitar, varoluşçu ve bilimsel metinler, lo-fi deneysellik.",
  "grp.peter-hammill-solo.gecisler": "VdGG → solo (VdGG üyeleriyle sık işbirliği) → K Group → Robert Fripp (Exposure'da vokal) → Gary Lucas ile ortak albüm.",
  "grp.peter-hammill-solo.etki": "Punk kuşağının sevdiği prog şarkıcısı; Nick Cave, Julian Cope ve Mikael Åkerfeldt'e (Opeth) uzanan etki.",
+ "grp.peter-hammill-solo.uyeler": "Peter Hammill (vokal, piyano, gitar; sonraki yıllarda evde her şey) ile VdGG arkadaşları David Jackson, Guy Evans, Hugh Banton ve Nic Potter; Fool's Mate'te Robert Fripp, The Silent Corner'da Randy California; K Group (Nic Potter, Guy Evans, John Ellis); kemancı Stuart Gordon.",
+ "grp.peter-hammill-solo.ipucu": [
+  "The Silent Corner and the Empty Stage ile başla: 'A Louse Is Not a Home' adı dışında her şeyiyle bir VdGG destanı.",
+  "Sonra Nadir's Big Chance'i Sex Pistols'ın ilk single'ıyla yan yana çal: ondan bir yıl önce çıktı.",
+  "Dinlerken sözleri oku; Hammill için sözler müziğin en az yarısıdır."
+ ],
  "alb.peter-hammill-1971-fool-s-mate.an": "VdGG üyeleri ve Fripp'le kaydedilen, 60'ların sonundan kalma kısa şarkılardan oluşan sıcak ilk solo albüm.",
  "alb.peter-hammill-1971-fool-s-mate.oncelik": "Önerilir.",
  "alb.peter-hammill-1971-fool-s-mate.tip": "stüdyo",
@@ -4674,6 +5049,12 @@
  "grp.ten-years-after.dna": "Hızlı blues gitarı, caz swing'i, psikedelik ses efektleri ve uzun doğaçlamalar.",
  "grp.ten-years-after.gecisler": "The Jaybirds → Ten Years After → Alvin Lee solo (Ten Years Later); Leo Lyons → Hundred Seventy Split.",
  "grp.ten-years-after.etki": "İngiliz blues-rock'ından sert rock'a ve jam band kültürüne uzanan köprü; prog'un blues ağırlıklı çevresi.",
+ "grp.ten-years-after.uyeler": "Alvin Lee (gitar, vokal, 1966–74, 1988–2003), Leo Lyons (bas, 1966–2014), Ric Lee (davul), Chick Churchill (klavye); Alvin Lee'den sonra Joe Gooch (gitar, vokal, 2003–14), ardından Marcus Bonfanti (gitar, vokal) ve Colin Hodgkinson (bas).",
+ "grp.ten-years-after.ipucu": [
+  "Londra'da küçük bir caz kulübünde canlı kaydedilen Undead (1968), grubun caz köklerini gösterir: 'I'm Going Home'u Woodstock versiyonundan önce burada dinle.",
+  "En deneysel olanlar Stonedhenge ve Cricklewood Green: blues'un etrafında bant efektleri ve stüdyo oyunları.",
+  "A Space in Time'da en büyük ABD hitleri 'I'd Love to Change the World' var: akustik, neredeyse şarkıcı-söz yazarı tarafları."
+ ],
  "alb.ten-years-after-1968-undead.an": "Londra'daki Klooks Kleek kulübünde kaydedilen canlı albüm; caz ağırlıklı doğaçlamalar ve 'I'm Going Home'un ilk versiyonu.",
  "alb.ten-years-after-1968-undead.oncelik": "Önerilir.",
  "alb.ten-years-after-1968-undead.tip": "canlı",
@@ -4916,6 +5297,13 @@
  "grp.iq.hikaye": "Mike Holmes ve Martin Orford'un 1981'de kurduğu IQ, Peter Nicholls'un teatral vokaliyle neo-prog'un en tutarlı gruplarından oldu. Nicholls 1985–89 arası ayrıldı (yerine Paul Menel), sonra döndü. Kendi şirketleri Giant Electric Pea ile 90'larda bağımsızlaştılar; Subterranea (1997) ve The Road of Bones (2014) eleştirmenlerin gözdesi oldu.",
  "grp.iq.dna": "Zengin dokulu, karanlık ve içe dönük symphonic neo-prog; uzun konsept parçaları, atmosferik klavye katmanları.",
  "grp.iq.uyeler": "Peter Nicholls (vokal), Mike Holmes (gitar) çekirdek; Martin Orford (klavye, sonra Jadis'e de). Nicholls bir dönem ayrılıp döndü.",
+ "grp.iq.gecisler": "The Lens (Mike Holmes, Martin Orford) → IQ (1981). Peter Nicholls → Niadem's Ghost (1985–89) → yeniden IQ; arada Paul Menel söyledi. Martin Orford Jadis'te de. John Jowitt (bas) → Arena, Frost*. 2010'dan itibaren Neil Durant (klavye). Grubun etiketi Giant Electric Pea, Jadis'i, Arena'yı ve başkalarını da yayımladı.",
+ "grp.iq.etki": "Neo-prog'un en dayanıklı ve en tavizsiz grubu; Subterranea ve The Road of Bones türün karanlık, uzun soluklu yüzünün referans eserleri; Giant Electric Pea 90'larda İngiliz neo-prog'unu ayakta tutmaya yardım etti.",
+ "grp.iq.ipucu": [
+  "The Wake (1985) ile başla: Nicholls'ın teatral sesiyle erken IQ'nun en dolaysız hâli.",
+  "Subterranea çift konsept albüm: ona bütün bir akşam ayır ve kitapçıktaki hikâyeyi oku.",
+  "Nomzamo'yu (Paul Menel'le) Ever ile (Nicholls'ın dönüşü) karşılaştır: iki farklı şarkıcı, iki farklı grup."
+ ],
  "alb.iq-1983-tales-from-the-lush-attic.an": "Bağımsız çıkış; karmaşık, karanlık bir ses.",
  "alb.iq-1983-tales-from-the-lush-attic.tip": "stüdyo",
  "alb.iq-1983-tales-from-the-lush-attic.tr": [
@@ -5005,6 +5393,13 @@
  "grp.pendragon.hikaye": "Nick Barrett liderliğindeki Pendragon (1978, Stroud), Camel ve Pink Floyd etkili melodik gitar ve atmosferik klavyelerle neo-prog'un romantik kanadını temsil eder. Kendi şirketleri Toff Records ile bağımsız kaldılar. 2000'lerde daha karanlık ve ağır bir sese dönüştüler; Pure (2008) bu dönüşümün simgesidir.",
  "grp.pendragon.dna": "\"Pendragon = Camel'ın neo-prog hâli\" denir; melodik, Gilmour-esintili gitar soloları, erişilebilir, romantik symphonic prog.",
  "grp.pendragon.uyeler": "Nick Barrett (gitar/vokal) eksen; Clive Nolan (klavye) — aynı zamanda Arena ve diğer projelerle ağı birbirine bağlayan figür.",
+ "grp.pendragon.gecisler": "Zeus Pendragon → Pendragon (1978). Clive Nolan → Arena (Marillion'dan Mick Pointer ile), Shadowland, Strangers on a Train ve birçok rock operası. Craig Blundell (davul) → Steven Wilson'ın grubu. Peter Gee (bas) neredeyse baştan beri grupta.",
+ "grp.pendragon.etki": "Kendi etiketiyle (Toff Records) bağımsız neo-prog grubunun modeli; melodik, gitar önderliğindeki romantizmi özellikle Avrupa kıtasında ve Polonya'da geniş bir dinleyici kitlesini korudu.",
+ "grp.pendragon.ipucu": [
+  "Klasik Pendragon The Window of Life ve The Masquerade Overture: uzun melodik süitler ve Gilmour tarzı solular.",
+  "Pure'u (2008) Not of This World'ün hemen ardından dinle: aynı grup, birden daha ağır ve karanlık.",
+  "Clive Nolan'ı buradan Arena'ya kadar takip et: İngiliz neo-prog ağı onun üzerinden geçer."
+ ],
  "alb.pendragon-1985-the-jewel.an": "Çıkış albümü; Marillion'ın melodik ihtişamını yankılar.",
  "alb.pendragon-1985-the-jewel.tip": "stüdyo",
  "alb.pendragon-1985-the-jewel.tr": [
@@ -5068,6 +5463,13 @@
  "grp.pallas.kurulus": "1974 (önce \"Rainbow\", Blackmore aynı adı alınca bıraktılar), Aberdeen, İskoçya. Murray'in Fish ile tanışması, Pallas-Marillion ortak turnelerini doğurdu; ikisi de birbirinin pazarını açtı.",
  "grp.pallas.dna": "\"Pallas = Yes'in neo-prog hâli\" denir; daha sert, daha epik, Soğuk Savaş ve distopya temalı.",
  "grp.pallas.uyeler": "Graeme Murray (bas), Derek Forman (davul) çekirdek; vokalde değişimler. Eddy Offord (Yes/ELP mühendisi) ile çalıştılar — eski omurgaya teknik bir bağ.",
+ "grp.pallas.hikaye": "1974'te Aberdeen'de kurulan Pallas önce İskoçya'da, sonra Marillion'la birlikte Londra kulüplerinde dinleyici kazandı; bağımsız olarak yayımladıkları canlı albüm Arrive Alive (1981) onlara EMI ile sözleşme getirdi. The Sentinel (1984) Atlanta'da yapımcı Eddy Offord ile kaydedildi ve bir Patrick Woodroffe resmiyle paketlendi, ama şirket planlanan konsepti tek bir yüze indirdi. Şarkıcı Euan Lowson ayrıldı, The Wedge (1986) için yerine Alan Reed (Abel Ganz'dan) geçti; kısa süre sonra EMI grubu bıraktı. Pallas 1999'da Beat the Drum ile döndü; Reed 2010'da ayrıldı, şarkıcı Paul Mackie oldu.",
+ "grp.pallas.gecisler": "Rainbow (ilk isim) → Pallas. Alan Reed Abel Ganz'dan → Pallas (1985–2010) → solo. Paul Mackie (vokal, 2010'lar). Eddy Offord (The Sentinel'in yapımcısı) onları Yes ve ELP'ye bağlar. Çekirdekte Ronnie Brown (klavye) ve Niall Mathewson (gitar).",
+ "grp.pallas.etki": "İlk neo-prog dalgasına İskoçya'nın ana katkısı; Offord'un prodüksiyonuyla The Sentinel, neo-prog ile klasik Yes sesi arasındaki en doğrudan bağ.",
+ "grp.pallas.ipucu": [
+  "The Sentinel'de 'Atlantis'i ve Soğuk Savaş parçalarını EMI'nin kestiği büyük konseptin kalıntıları olarak dinle.",
+  "Arrive Alive'daki Euan Lowson'ı The Wedge'deki Alan Reed'le karşılaştır: grubun sesi şarkıcıyla değişir."
+ ],
  "alb.pallas-1981-arrive-alive.an": "Aberdeen'li grubun kendi plak şirketinden çıkan canlı albüm: erken neo-prog repertuvarı ('Queen of the Deep', 'Crown of Thorns') ham hâliyle, EMI'yle anlaşmalarından kısa süre önce.",
  "alb.pallas-1981-arrive-alive.tip": "stüdyo",
  "alb.pallas-1981-arrive-alive.tr": [
@@ -5092,6 +5494,14 @@
  "grp.twelfth-night-ksa-not.name": "Twelfth Night (kısa not)",
  "grp.twelfth-night-ksa-not.kurulus": "1978, Reading. Geoff Mann'in (sonra ayrıldı) teatral vokaliyle anılır. \"Twelfth Night = Pink Floyd'un neo-prog hâli\" etiketi yapıştı.",
  "grp.twelfth-night-ksa-not.dna": "Atmosferik, politik, teatral neo-prog.",
+ "grp.twelfth-night-ksa-not.hikaye": "Twelfth Night 1978'de Reading'de Andy Revell, Brian Devoil, Clive Mitten ve Rick Battersby'nin enstrümantal grubu olarak başladı; Geoff Mann 1979'da şarkıcı olarak katıldı, kaset ve canlı albüm Live at the Target (1981) onları erken neo-prog sahnesinde tanıttı. Politik destan 'We Are Sane'i içeren Fact and Fiction (1982) temel albümleri. Mann 1983'te Anglikan rahipliği eğitimi için ayrıldı (1993'te öldü); grup Andy Sears ile Art and Illusion'ı ve Virgin albümü XII'yi (1986) yaptı, sonra 1987'de dağıldı. 2007'de konserler için bir araya geldiler ve 2012'de veda konseri verdiler.",
+ "grp.twelfth-night-ksa-not.uyeler": "Geoff Mann (vokal, 1979–83), Andy Sears (vokal, 1983–87), Andy Revell (gitar), Clive Mitten (bas, klavye), Rick Battersby (klavye), Brian Devoil (davul).",
+ "grp.twelfth-night-ksa-not.gecisler": "Enstrümantal Twelfth Night (1978) → Geoff Mann'lı (1979) → Mann rahiplik ve solo kariyer (Geoff Mann Band) için ayrılır → Andy Sears dönemi → dağılma (1987) → 2007–12 buluşmaları.",
+ "grp.twelfth-night-ksa-not.etki": "Marillion, IQ ve Pendragon'la birlikte 80'lerin başındaki neo-prog sahnesinin kurucu gruplarından; politik, teatral yüzü neo-prog'a romantizmin ötesinde bir keskinlik kazandırdı.",
+ "grp.twelfth-night-ksa-not.ipucu": [
+  "Fact and Fiction ve 'We Are Sane' ile başla: Geoff Mann'ın sesi anlatıcı, vaiz ve oyuncu arasında gidip gelir.",
+  "Art and Illusion ile karşılaştır: Andy Sears'la grup 80'lerin rock'ına daha yakın."
+ ],
  "alb.twelfth-night-1982-fact-and-fiction.an": "En sevilen albümleri; \"We Are Sane\" gibi politik parçalar.",
  "alb.twelfth-night-1982-fact-and-fiction.tip": "stüdyo",
  "alb.twelfth-night-1982-fact-and-fiction.tr": [
@@ -5118,6 +5528,12 @@
  "grp.fish-solo.dna": "Şiirsel anlatım, İskoç folk renkleri, dramatik vokal; Marillion'un neo-prog'undan daha kişisel ve rock ağırlıklı.",
  "grp.fish-solo.gecisler": "Not Quite Red Fish → Marillion → solo; Mickey Simmonds, Frank Usher, Steve Vantsis gibi uzun süreli ortaklar.",
  "grp.fish-solo.etki": "Neo-prog'un şairi; Marillion sonrası solo kariyerle bağımsız prog sanatçısı modelinin örneği.",
+ "grp.fish-solo.uyeler": "Fish (vokal, sözler) değişen bir grupla: Frank Usher ve Robin Boult (gitarlar), Mickey Simmonds ve Foss Paterson (klavye), Steve Vantsis (bas, sonra ortak besteci), Mark Brzezicki ve John Keeble (davul); konuklar arasında Hal Lindes, Janick Gers, İskoç folk müzisyenleri Aly Bain, Phil Cunningham ve Davy Spillane (Internal Exile). Sunsets on Empire'ın ortak yapımcısı Steven Wilson.",
+ "grp.fish-solo.ipucu": [
+  "Vigil in a Wilderness of Mirrors, Marillion'ın Fish'li beşinci albümü için yazılmış şarkıları kullanır — Seasons End'le karşılaştır.",
+  "Internal Exile onun İskoç albümü: rock grubunun etrafındaki keman ve gaydalara kulak ver.",
+  "Vedası Weltschmerz en eksiksiz geç dönem eseri: 'Plague of Ghosts'un sözlerini oku."
+ ],
  "alb.fish-1990-vigil-in-a-wilderness-of-mirrors.an": "Marillion sonrası ilk solo albüm; Hal Lindes ve Mickey Simmonds'la, Fish'in öfke ve umudunu toplayan güçlü bir başlangıç.",
  "alb.fish-1990-vigil-in-a-wilderness-of-mirrors.oncelik": "Atlanmamalı.",
  "alb.fish-1990-vigil-in-a-wilderness-of-mirrors.tip": "stüdyo",
@@ -5171,6 +5587,12 @@
  "grp.world-trade.dna": "Sherwood'un kendi tanımıyla \"King Crimson / Genesis / Yes / Pink Floyd gibi geçmişin virtüöz gruplarıyla prog'un geleceği arasında bir bağ\". 90125-sonrası Yes'in melodik, cilalı sesine çok yakın; güçlü vokal harmoniler, AOR melodisi + prog yapı.",
  "grp.world-trade.uyeler": "İkinci albümde davulda Jay Schellen, Williams'ın yerini aldı. Grup dağılınca Gowdy & Allison → Unruly Child (AOR).",
  "grp.world-trade.etki": "Sherwood'un Yes/Asia kariyerinin sıçrama tahtası; 80'ler-sonu melodik prog ile 90'lar rönesansı arasındaki kayıp halka. İki Yes üyesinin (Anderson/Rabin'in geçici ayrılığında) Sherwood & Gowdy ile çalışmayı düşünmesi, sesin Yes'e ne kadar yakın olduğunun kanıtıdır.",
+ "grp.world-trade.hikaye": "Lodgic dağıldıktan sonra Billy Sherwood ve Guy Allison, gitarist Bruce Gowdy ve davulcu Mark T. Williams ile World Trade'i kurdu; ilk albümleri 1989'da Polydor'dan çıktı. Aynı yıl Sherwood, Jon Anderson'ın olası yedeği olarak Yes için düşünüldü ve Union turnesinde (1991) ek müzisyen olarak çaldı; Chris Squire ile söz-beste ortaklığı o zaman başladı. Davulda Jay Schellen'in olduğu ikinci World Trade albümü Euphoria (1995), Sherwood zaten Yes'le çalışırken çıktı; Gowdy ve Allison AOR grubu Unruly Child'a geçti.",
+ "grp.world-trade.gecisler": "Lodgic (Sherwood, Allison) → World Trade (1989). Sherwood → Yes (1997–2000, 2015–), Conspiracy (Chris Squire ile), Circa:, Asia (2017–). Jay Schellen → Circa:, sonra Yes'in turne davulcusu. Bruce Gowdy ve Guy Allison → Unruly Child.",
+ "grp.world-trade.ipucu": [
+  "İlk albümü Big Generator (1987) ile yan yana dinle: Yes'in neden Sherwood'u düşündüğünü duyacaksın.",
+  "Sonra büyük ölçüde Sherwood ve Squire'ın biçimlendirdiği Yes'in Open Your Eyes'ına (1997) geç."
+ ],
  "alb.world-trade-1989-world-trade.an": "Keith Olsen ko-prodüksiyonu. Lüks, iddialı aranjmanlar + keskin melodiler; 90125 ve It Bites ile kıyaslandı. Parçalar genelde 4–5 dakika, \"hafif progresif pop-rock\" — ama Sherwood'un imza vokal harmonileri ve Gowdy'nin gitarı dikkat çeker. Dönemin ürünü; cilalı ve melodik.",
  "alb.world-trade-1989-world-trade.tip": "stüdyo",
  "alb.world-trade-1995-euphoria.an": "Schellen davulda. Prog'un 90'lar dirilişine denk gelir ve debüt'ten belirgin biçimde ileri bir adım. İki \"Chris Squire Experiment\" parçası içerir; Squire kredisiz arka vokal yapar — Yes bağının somut izi. Kapanış \"One by One by One / Wheels of Life\" en güçlü anlardan; Sherwood'un gelecekteki solo yönünü işaret eder.",
@@ -5183,6 +5605,13 @@
  "grp.spock-s-beard.hikaye": "Los Angeles'ta Neal ve Alan Morse kardeşlerin 1992'de kurduğu grup, Yes, Genesis ve Gentle Giant sentezini Amerikan pop enerjisiyle birleştirerek 90'lar prog rönesansının amiral gemisi oldu. Neal Morse 2002'de Hristiyanlığa yönelip ayrılınca davulcu Nick D'Virgilio vokali devraldı; 2011'de Ted Leonard (Enchant) geldi. Neal Morse grubun albümlerinde yazar ve konuk olarak zaman zaman döndü.",
  "grp.spock-s-beard.dna": "Yes + Genesis + Gentle Giant sentezi; çok-parçalı vokal harmoniler ve kontrpuan (Gentle Giant mirası), uzun süitler, melodik/erişilebilir besteler. Klasik symphonic prog'un en sadık 90'lar takipçisi.",
  "grp.spock-s-beard.etki": "Amerikan prog rönesansının (Flower Kings, Transatlantic dalgasıyla birlikte) öncülerinden; \"prog'u yeniden havalı yapan\" 90'lar hareketinin parçası.",
+ "grp.spock-s-beard.uyeler": "Neal Morse (vokal, klavye, gitar, 1992–2002), Alan Morse (gitar, vokal), Nick D'Virgilio (davul, vokal; 2002–11'de baş vokal), Dave Meros (bas), Ryo Okumoto (klavye); 2011'den itibaren Ted Leonard (vokal, gitar) ve Jimmy Keegan (davul).",
+ "grp.spock-s-beard.gecisler": "Spock's Beard (1992) → Neal Morse → Transatlantic (1999), solo (2002), Flying Colors, Neal Morse Band. Nick D'Virgilio Genesis'in Calling All Stations'ında çalmıştı, sonra Big Big Train'e katıldı. Ted Leonard Enchant'tan. Kevin Gilbert (Thud) konuk olarak yer alır.",
+ "grp.spock-s-beard.ipucu": [
+  "The Light (1995) ile başla: adını veren süit, Gentle Giant tarzı vokal kontrpuanıyla grubun manifestosu.",
+  "Snow (2002) Neal Morse'un veda çift albümü — onu Hristiyan solo işine köprü olarak dinle.",
+  "Feel Euphoria (2003) Morse sonrası grubu D'Virgilio'nun vokaliyle gösterir: iki dönemi karşılaştır."
+ ],
  "alb.spock-s-beard-1995-the-light.an": "Öz-finanse edilen debüt; dört uzun parça. 15 dakikalık başlık parçası ve 23 dakikalık 'The Water' süiti klasik uzun-form prog'u tam üstlenir. Prog camiasında büyük övgü, geniş kitlede sessizlik. 90'lar Amerikan symphonic prog'unun açılış bildirisi.",
  "alb.spock-s-beard-1995-the-light.tip": "stüdyo",
  "alb.spock-s-beard-1995-the-light.tr": [
@@ -5249,6 +5678,13 @@
  "grp.echolyn-ksa-not.kurulus": "1989, Pennsylvania. 90'lar Amerikan prog dirilişinin Spock's Beard ile birlikte anılan diğer öncüsü.",
  "grp.echolyn-ksa-not.hikaye": "Pennsylvania'lı Echolyn, Gentle Giant'ın kontrpuanını 90'ların alternatif rock enerjisiyle birleştirdi. Sony'ye imza atan nadir prog gruplarındandır; As the World'ün ticari başarısızlığı sonrası 1996'da dağıldılar, 2000'de döndüler. Mei (2002) tek parçalık 50 dakikalık bir kompozisyondur.",
  "grp.echolyn-ksa-not.dna": "Gentle Giant'ın kontrpuan karmaşıklığı + Yes/Genesis dokusu + Amerikan rock damarı; yoğun vokal harmoniler.",
+ "grp.echolyn-ksa-not.uyeler": "Ray Weston (vokal), Brett Kull (gitar, vokal), Christopher Buzby (klavye, vokal), Tom Hyatt (bas), Paul Ramsey (davul).",
+ "grp.echolyn-ksa-not.gecisler": "Echolyn (1989) → Sony/Epic (As the World, 1995) → dağılma (1996): Buzby ve Ramsey → Finneus Gauge; Kull ve Weston kendi projeleriyle devam eder → yeniden birleşme (2000).",
+ "grp.echolyn-ksa-not.etki": "90'larda Gentle Giant benzeri karmaşık prog'un Amerikan rock sesiyle yapılabileceğinin kanıtı; Spock's Beard'le birlikte ABD prog canlanmasının referansı.",
+ "grp.echolyn-ksa-not.ipucu": [
+  "Suffocating the Bloom'da 'A Suite for the Everyman' var: grubun vokal kontrpuanını duymak için en iyi yer.",
+  "Mei tek bir 50 dakikalık parça: karışık çalmadan, tek oturuşta dinle."
+ ],
  "alb.echolyn-1991-echolyn.an": "Pennsylvania'lı grubun kendi imkânlarıyla çıkardığı ilk albüm: Gentle Giant tarzı yoğun vokal armonileri ve değişen ölçüler; Ayn Rand esinli süit 'Fountainhead' ile açılır.",
  "alb.echolyn-1991-echolyn.tip": "stüdyo",
  "alb.echolyn-1991-echolyn.tr": [
@@ -5291,6 +5727,11 @@
  "grp.kansas.uyeler": "Steve Walsh (vokal/klavye), Kerry Livgren (gitar/klavye/besteci), Robby Steinhardt (keman/vokal — grubun imzası), Rich Williams (gitar), Dave Hope (bas), Phil Ehart (davul).",
  "grp.kansas.gecisler": "Önce → yerel Topeka grupları (White Clover). Livgren sonra Hristiyan rock'a (AD) yöneldi. Ortak ses olarak Yes/ELP'ye, keman üzerinden Curved Air/Kansas'a bağlı.",
  "grp.kansas.etki": "ABD'de prog'u stadyumlara taşıyan grup; 'Carry On Wayward Son' ve 'Dust in the Wind' türün en bilinen şarkılarından. Amerikan prog'unun (Spock's Beard dahil) öncüsü.",
+ "grp.kansas.ipucu": [
+  "Leftoverture ve Point of Know Return'ü bir çift olarak dinle: hitler, 'Magnum Opus' gibi uzun senfonik parçaların yanında durur.",
+  "En 'İngiliz' albüm Song for America (1975): uzun süitler, az radyo düşüncesi.",
+  "Steinhardt'ın kemanını ve Walsh'ın orgunu takip et: İngiliz bir grubun Mellotron kullanacağı yerde unison çalarlar."
+ ],
  "alb.kansas-1974-kansas.an": "Çıkış albümü; Avrupa prog'u ile Amerikan rock'ının ilk sentezi. Steinhardt'ın kemanı kimliği daha baştan kurar.",
  "alb.kansas-1974-kansas.tip": "stüdyo",
  "alb.kansas-1974-kansas.tr": [
@@ -5614,6 +6055,11 @@
  "grp.hawkwind.uyeler": "Dave Brock (gitar/vokal — tek sabit üye), Nik Turner (saksofon/flüt), Lemmy (bas/vokal — sonra Motörhead!), DikMik & Del Dettmar (elektronik), Robert Calvert (şair/vokal), Simon House (keman).",
  "grp.hawkwind.gecisler": "Sonra → Motörhead (Lemmy — Hawkwind'den kovulduktan sonra kurdu), çeşitli space-rock türevleri. Michael Moorcock (bilim-kurgu yazarı) sözlerle katkı yaptı.",
  "grp.hawkwind.etki": "Space-rock alt-türünün tanımlayıcısı; Lemmy üzerinden metal'e, motorik yapı üzerinden punk ve elektroniğe köprü. Sci-fi prog'un underground efsanesi.",
+ "grp.hawkwind.ipucu": [
+  "Asıl Hawkwind Space Ritual (1973): parçaların arasında Calvert'in şiirleri olan canlı bir çift albüm.",
+  "Warrior on the Edge of Time, Michael Moorcock'un Eternal Champion'ı üzerine kurulu — bir hikâye oku, sonra dinle.",
+  "Hawkwind'i Neu! ve Amon Düül II ile yan yana dinle: Kuzey Denizi'nin iki yakasında aynı tekrarlayan itiş."
+ ],
  "alb.hawkwind-1971-in-search-of-space.an": "Grubun kimliğini kuran ikinci albüm; hipnotik space-rock dokusu tam oturur. İllüstrasyonlu 'log book' ile geldi.",
  "alb.hawkwind-1971-in-search-of-space.tip": "stüdyo",
  "alb.hawkwind-1971-in-search-of-space.tr": [
@@ -5676,6 +6122,11 @@
  "grp.happy-the-man.uyeler": "Stanley Whitaker (gitar), Frank Wyatt (klavye/saksofon), Kit Watkins (klavye — sonra Camel'e!), Rick Kennell (bas), Mike Beck / Ron Riddle (davul).",
  "grp.happy-the-man.gecisler": "Sonra → Camel (Kit Watkins — Amerikan prog'unu İngiliz omurgaya bağlayan köprü). Peter Gabriel onları solo grubu için denedi (yürümedi) — Genesis evrenine değen bir an.",
  "grp.happy-the-man.etki": "Amerikan symphonic prog'unun 'müzisyenin grubu'; Kit Watkins üzerinden Camel'e bağlanır. 90'lar Amerikan dirilişi (Echolyn) için yerli bir öncü.",
+ "grp.happy-the-man.hikaye": "Happy the Man, 1973'te Virginia, Harrisonburg'daki James Madison Üniversitesi öğrencileri arasında kuruldu ve Washington çevresine taşındı. 1976'da solo kariyeri için grup arayan Peter Gabriel onlarla prova yaptı, ama işbirliği gerçekleşmedi. Aynı yıl Arista ile anlaştılar ve çoğunlukla enstrümantal, girift ve melodik Happy the Man (1977) ile Crafty Hands'i (1978) yayımladılar, ama satışlar düşük kaldı ve Arista onları bıraktı. Kit Watkins 1979'da Camel'a katıldı; grup dağıldı, arşiv kayıtları sonradan çıktı. 2004'te The Muse Awakens için yeniden bir araya geldiler.",
+ "grp.happy-the-man.ipucu": [
+  "Crafty Hands'i, sonra Camel'ın I Can See Your House from Here'ını (1979) dinle: Kit Watkins'in klavyeleri bir gruptan ötekine geçer.",
+  "İlk albümün üstünde Peter Gabriel'ın şarkı söylediğini hayal et — neredeyse gerçekleşecek olan plak bu."
+ ],
  "alb.happy-the-man-1977-happy-the-man.an": "Çıkış albümü; Amerikan symphonic prog'unun en parlak enstrümantal debütlerinden. Karmaşık ama melodik unison hatlar.",
  "alb.happy-the-man-1977-happy-the-man.tip": "stüdyo",
  "alb.happy-the-man-1977-happy-the-man.tr": [
@@ -5696,6 +6147,12 @@
  "grp.nektar.dna": "Space rock, senfonik prog ve blues-rock; uzun jamler, Hammond ve Mellotron, bilimkurgu temalar.",
  "grp.nektar.gecisler": "Prophecy (Albrighton) → Nektar; Hamburg kulüp sahnesi, Bacillus Records; 2000'lerde konuk: Dave Kilminster, Larry Fast.",
  "grp.nektar.etki": "Almanya'daki İngiliz prog'u; space rock ile senfonik prog arasında bir köprü.",
+ "grp.nektar.uyeler": "Roye Albrighton (gitar, vokal), Allan 'Taff' Freeman (klavye), Derek 'Mo' Moore (bas), Ron Howden (davul) ve Mick Brockett (ışık, görseller — tam üye); 1976–77'de Albrighton'ın yerini Dave Nelson aldı; Albrighton etrafındaki sonraki kadrolarda klavyede Larry Fast ve Klaus Henatsch vardı.",
+ "grp.nektar.ipucu": [
+  "Asıl albüm Remember the Future: mavi bir kuş ile kör bir çocuk üzerine iki yüze bölünmüş tek bir kesintisiz hikâye.",
+  "...Sounds Like This (1973) stüdyoda canlı kaydedilmiş bir çift albüm: konsept albümlerin ardındaki jam grubu.",
+  "Recycled'da (1975) Larry Fast'in synthesizer'ı var ve en senfonik olanı: Journey to the Centre of the Eye ile karşılaştır."
+ ],
  "alb.nektar-1971-journey-to-the-centre-of-the-eye.an": "Uzaylılar tarafından kaçırılan bir astronotun bilinç yolculuğunu anlatan tek parçalık konsept albüm.",
  "alb.nektar-1971-journey-to-the-centre-of-the-eye.oncelik": "Önerilir.",
  "alb.nektar-1971-journey-to-the-centre-of-the-eye.tip": "stüdyo",
@@ -5744,6 +6201,11 @@
  "grp.pavlov-s-dog.dna": "Yüksek falsetto vokal, keman ve Mellotron, hard rock ile senfonik prog arası; romantik ve melankolik.",
  "grp.pavlov-s-dog.gecisler": "High Cost of Living → Pavlov's Dog; Bill Bruford (At the Sound of the Bell konuğu); Sandy Pearlman (Blue Öyster Cult) prodüktör.",
  "grp.pavlov-s-dog.etki": "Kült Amerikan prog'u; sonraki kuşaktan Mars Volta'nın Cedric Bixler-Zavala'sı gibi yüksek sesli vokalistlerle sık karşılaştırılır.",
+ "grp.pavlov-s-dog.uyeler": "David Surkamp (vokal, gitar), Siegfried Carver (keman), Doug Rayburn (Mellotron, flüt), David Hamilton (klavye), Steve Scorfina (gitar), Rick Stockton (bas), Mike Safron (davul); At the Sound of the Bell'de davulu Bill Bruford çalar, gitarda Thomas Nickeson katılır.",
+ "grp.pavlov-s-dog.ipucu": [
+  "Pampered Menial'den 'Julia' ile başla: ses seni ilk dakikada kazanırsa, bu grup senin için.",
+  "At the Sound of the Bell'de Bruford'u Amerikan, şarkı odaklı bir ortamda dinle — Yes ve Crimson'dan çok farklı."
+ ],
  "alb.pavlov-s-dog-1975-pampered-menial.an": "Surkamp'ın vokali, keman ve Mellotron'la dramatik, romantik ve melodik bir albüm; kült klasik.",
  "alb.pavlov-s-dog-1975-pampered-menial.oncelik": "Atlanmamalı.",
  "alb.pavlov-s-dog-1975-pampered-menial.tip": "stüdyo",
@@ -5778,6 +6240,11 @@
  "grp.the-flower-kings.uyeler": "Roine Stolt (gitar/vokal/besteci — eski Kaipa), Tomas Bodin (klavye), Jonas Reingold (bas), Hasse Fröberg (vokal), çeşitli davulcular. Stolt çekirdek beyin.",
  "grp.the-flower-kings.gecisler": "Önce → Kaipa (Stolt — 70'ler İsveç prog grubu). Sonra → Transatlantic (Stolt, 1999 — Marillion+Spock's Beard+Dream Theater ile mega-kavşak). Avrupa prog'unu Amerikan rönesansına bağlayan düğüm.",
  "grp.the-flower-kings.etki": "90'lar prog dirilişinin (Spock's Beard ile birlikte) Avrupa direği; Stolt üzerinden Transatlantic mega-kavşağını besler. Modern symphonic prog'un şablonu.",
+ "grp.the-flower-kings.ipucu": [
+  "Stardust We Are (1997) ile başla: adını veren süit grubu özetler — Yes iyimserliği, Genesis renkleri, caz sapmaları.",
+  "Albümler uzun; baştan sona değil, her seferinde bir disk dinle.",
+  "Roine Stolt'u 70'lerin Kaipa albümlerinden buraya kadar takip et: iki on yıla yayılan İsveç senfonik prog'u."
+ ],
  "alb.the-flower-kings-1995-back-in-the-world-of-adventures.an": "Grubun ilk resmi albümü (Stolt'un 1994 solo plağının ardından). Klasik symphonic prog'u tam üstlenir; uzun süitler ve cömert melodiler.",
  "alb.the-flower-kings-1995-back-in-the-world-of-adventures.tip": "stüdyo",
  "alb.the-flower-kings-1995-back-in-the-world-of-adventures.tr": [
@@ -5820,6 +6287,11 @@
  "grp.anglagard.uyeler": "Tord Lindman (gitar/vokal), Jonas Engdegård (gitar), Thomas Johnson (klavye/mellotron), Johan Brand (bas), Mattias Olsson (davul), Anna Holmgren (flüt).",
  "grp.anglagard.gecisler": "Çevresi → İsveç prog dirilişi (Anekdoten ile kardeş sahne). Mattias Olsson sonra geniş bir prog-session kariyeri yaptı. Ortak ses olarak Crimson/Genesis/İtalyan prog'a bağlı.",
  "grp.anglagard.etki": "90'lar 'retro-prog' hareketinin en saygın grubu; vintage symphonic prog'un nasıl diriltilebileceğinin kanıtı. İskandinav prog sahnesinin amblemi.",
+ "grp.anglagard.ipucu": [
+  "Hybris'i iyi hoparlörlerle dinle: dinamikler saniyeler içinde tek bir flütten tam bir Mellotron duvarına sıçrar.",
+  "Epilog tamamen enstrümantal: onu bir rock grubu için oda müziği olarak dinle.",
+  "Trespass ve Red ile karşılaştır: Änglagård ilkinin pastoral yanını, ikincisinin karanlığını alır."
+ ],
  "alb.anglagard-1992-hybris.an": "Çıkış albümü ve retro-prog'un kült klasiği. Mellotron-yoğun, karanlık, ani değişimlerle dolu; sanki kayıp bir 1973 albümü. Tamamen İsveççe/enstrümantal.",
  "alb.anglagard-1992-hybris.tip": "stüdyo",
  "alb.anglagard-1992-hybris.tr": [
@@ -5849,6 +6321,11 @@
  "grp.anekdoten.uyeler": "Nicklas Berg (gitar/mellotron/vokal), Jan Erik Liljeström (bas/vokal), Anna Sofi Dahlberg (çello/mellotron), Peter Nordins (davul).",
  "grp.anekdoten.gecisler": "Çevresi → İsveç prog dirilişi (Änglagård ile kardeş). Ortak ses olarak en doğrudan King Crimson ('Red', 'Starless') ile bağlı; çello kullanımıyla özgün.",
  "grp.anekdoten.etki": "Retro-prog'un Crimson-merkezli kanadı; Änglagård'ın melodik karanlığına karşı daha ağır, daha 'rock' bir alternatif. İskandinav prog sahnesinin diğer direği.",
+ "grp.anekdoten.ipucu": [
+  "Vemod'u Red'den hemen sonra dinle: Mellotron, çello ve ağır bas aynı yerden geliyor.",
+  "Vemod'u A Time of Day (2007) ile karşılaştır: grup Crimson ağırlığından rüya gibi bir psikedeliğe geçer.",
+  "Anna Sofi Dahlberg'in çellosuna kulak ver — rock'ta nadir, burada baş çalgı."
+ ],
  "alb.anekdoten-1993-vemod.an": "Çıkış albümü; King Crimson 'Red' ağırlığını mellotron ve çelloyla yeniden kuran kült klasik. Karanlık, melankolik, ağır.",
  "alb.anekdoten-1993-vemod.tip": "stüdyo",
  "alb.anekdoten-1993-vemod.tr": [
@@ -5902,6 +6379,12 @@
  "grp.porcupine-tree.dna": "Pink Floyd atmosferi, King Crimson ağırlığı, 90'lar alternatif rock melankolisi ve metal riffleri; kusursuz stüdyo prodüksiyonu.",
  "grp.porcupine-tree.gecisler": "Steven Wilson (No-Man, Blackfield, Bass Communion, Storm Corrosion) → Porcupine Tree; Richard Barbieri (Japan, Rain Tree Crow); Gavin Harrison → King Crimson (2008–2021); Mikael Åkerfeldt (Opeth) ile Storm Corrosion.",
  "grp.porcupine-tree.etki": "1995–2020 prog'unun en etkili grubu; Riverside, Anathema ve Haken gibi grupların atası; klasik prog'un remiks mirasının merkezinde.",
+ "grp.porcupine-tree.uyeler": "Steven Wilson (vokal, gitar, klavye), Richard Barbieri (klavye, 1993–), Colin Edwin (bas, 1993–2010), Chris Maitland (davul, 1993–2002), Gavin Harrison (davul, 2002–); sahnede gitarist John Wesley (2002–10); 2022 turnesinde Nate Navarro (bas) ve Randy McStine (gitar).",
+ "grp.porcupine-tree.ipucu": [
+  "Grubu üç aşamada dinle: The Sky Moves Sideways (uzay rock'ı), Stupid Dream (şarkılar), In Absentia (metal).",
+  "Tek bir albüm alacaksan Fear of a Blank Planet ile başla: 50 dakika, tek tema.",
+  "Gavin Harrison'ı burada, sonra King Crimson'ın üç davulculu kadrosunda dinle."
+ ],
  "alb.porcupine-tree-1995-the-sky-moves-sideways.an": "Pink Floyd'un 'Shine On'una en çok yaklaşan modern space rock: 35 dakikayı aşan başlık süiti ve ambient katmanlar. Grubun gerçek bir gruba dönüştüğü albüm.",
  "alb.porcupine-tree-1995-the-sky-moves-sideways.oncelik": "Önerilir — psikedelik dönemin zirvesi.",
  "alb.porcupine-tree-1995-the-sky-moves-sideways.tip": "stüdyo",
@@ -5987,6 +6470,12 @@
  "grp.steven-wilson-solo.dna": "70'ler caz-prog ve Canterbury armonileri, Crimson Mellotron'u, film müziği atmosferi, pop melodisi; kusursuz 5.1 miksaj estetiği.",
  "grp.steven-wilson-solo.gecisler": "Porcupine Tree → solo; Mikael Åkerfeldt (Storm Corrosion), Aviv Geffen (Blackfield), Tim Bowness (No-Man); remiksler: King Crimson, Yes, Jethro Tull, ELP, Gentle Giant, Caravan, XTC, Roxy Music, Tears for Fears.",
  "grp.steven-wilson-solo.etki": "1995–2020 prog'unun merkez figürü; genç kuşağı klasik prog'a remikslerle yeniden bağlayan köprü.",
+ "grp.steven-wilson-solo.uyeler": "Steven Wilson (vokal, gitar, klavye, yapımcı); The Raven ve Hand. Cannot. Erase.'de Guthrie Govan (gitar), Marco Minnemann (davul), Nick Beggs (bas, Stick), Adam Holzman (klavye) ve Theo Travis (saksafon, flüt); önceki konuklar arasında Gavin Harrison, Jordan Rudess, Tony Levin, Pat Mastelotto, Trey Gunn ve Steve Hackett; sonra Craig Blundell (davul), Ninet Tayeb (vokal) ve Randy McStine.",
+ "grp.steven-wilson-solo.ipucu": [
+  "The Raven That Refused to Sing'i onun Lizard remiksinden sonra dinle: aynı Mellotron, flüt ve caz akorları.",
+  "Hand. Cannot. Erase. büyük bir şehirde kaybolan bir kadının hikâyesini anlatır: dinlemeden önce arka planını oku.",
+  "To the Bone ve The Future Bites'ı Grace for Drowning'le karşılaştır: Wilson'ın 'prog' kelimesiyle sesli tartışması."
+ ],
  "alb.steven-wilson-2008-insurgentes.an": "Meksika'da kaydedilen, shoegaze, elektronik ve prog'u karıştıran ilk solo albüm.",
  "alb.steven-wilson-2008-insurgentes.oncelik": "İsteğe bağlı.",
  "alb.steven-wilson-2008-insurgentes.tip": "stüdyo",
@@ -6045,6 +6534,12 @@
  "grp.transatlantic.dna": "Yes/Genesis tarzı senfonik prog, Beatles armonileri, uzun süitler ve üç vokalli çok sesli armoni.",
  "grp.transatlantic.gecisler": "Spock's Beard, Dream Theater, The Flower Kings, Marillion → Transatlantic; Portnoy ve Morse → Flying Colors, Neal Morse Band; Daniel Gildenlöw (Pain of Salvation) turne üyesi.",
  "grp.transatlantic.etki": "90'lar prog rönesansının amiral süpergrubu; modern 'epik süit' formatını tanımladı.",
+ "grp.transatlantic.uyeler": "Neal Morse (vokal, klavye, gitar), Roine Stolt (gitar, vokal), Pete Trewavas (bas, vokal), Mike Portnoy (davul, vokal); turnelerde beşinci üye olarak Daniel Gildenlöw (2001) ve sonra Ted Leonard.",
+ "grp.transatlantic.ipucu": [
+  "Bridge Across Forever ile başla: 'Duel with the Devil' ve 'Stranger in Your Soul' albümü iki perde gibi çerçeveler.",
+  "The Whirlwind tek bir 78 dakikalık eser: bir senfoni gibi bir kez tek oturuşta dene.",
+  "The Absolute Universe'ün iki versiyonu var (Forevermore ve The Breath of Life); sitede uzun olanı var — ikisi arasında yeniden işlenen şarkılara kulak ver."
+ ],
  "alb.transatlantic-2000-smpt-e.an": "İlk albüm: 30 dakikalık 'All of the Above' ve Procol Harum cover'ı 'In Held (Twas) in I'.",
  "alb.transatlantic-2000-smpt-e.oncelik": "Atlanmamalı.",
  "alb.transatlantic-2000-smpt-e.tip": "stüdyo",
@@ -6082,6 +6577,12 @@
  "grp.neal-morse-solo-ve-neal-morse-band.dna": "Yes ve Genesis senfonizmi, Beatles melodisi, gospel coşkusu ve Broadway müzikali dramaturjisi.",
  "grp.neal-morse-solo-ve-neal-morse-band.gecisler": "Spock's Beard → Transatlantic → solo → Flying Colors (Steve Morse, Portnoy, Dave LaRue, Casey McPherson) → Neal Morse Band; Morse Portnoy George (cover projeleri).",
  "grp.neal-morse-solo-ve-neal-morse-band.etki": "Hristiyan prog'un en büyük ismi; Transatlantic ve Flying Colors ile süpergrup kültürünün merkez düğümü.",
+ "grp.neal-morse-solo-ve-neal-morse-band.uyeler": "Neal Morse (vokal, klavye, gitar), sabit ritim bölümü olarak Mike Portnoy (davul) ve Randy George (bas) ile; 2015'ten itibaren Neal Morse Band'e Bill Hubauer (klavye, vokal) ve Eric Gillette (gitar, vokal) katılır; solo albümlerdeki konuklar arasında Kerry Livgren ve Nashville stüdyo müzisyenleri var.",
+ "grp.neal-morse-solo-ve-neal-morse-band.ipucu": [
+  "Testimony kendi din değiştirme hikâyesini anlatır: onu müzikte bir otobiyografi olarak dinle.",
+  "The Similitude of a Dream'den önce The Pilgrim's Progress'in özetini oku; The Great Adventure onun devamı.",
+  "Beatles'a kulak ver: Morse onların armonilerini ve piyano tarzını sürekli alıntılar."
+ ],
  "alb.neal-morse-2003-testimony.an": "Morse'un dinî dönüşümünü anlatan otobiyografik çift konsept albüm.",
  "alb.neal-morse-2003-testimony.oncelik": "Önerilir.",
  "alb.neal-morse-2003-testimony.tip": "stüdyo (çift CD)",
@@ -6124,6 +6625,12 @@
  "grp.dream-theater.dna": "Rush ve Yes'in karmaşık yapısı, Metallica ve Iron Maiden'ın metal ağırlığı, virtüöz solo bölümleri, konsept albümler.",
  "grp.dream-theater.gecisler": "Majesty → Dream Theater; Portnoy → Transatlantic, Liquid Tension Experiment, Flying Colors, Sons of Apollo; Sherinian → Sons of Apollo; Charlie Dominici → Dominici; Kevin Moore → Chroma Key, OSI; Rudess → Liquid Tension Experiment.",
  "grp.dream-theater.etki": "Prog metalin tanımlayıcı grubu; Symphony X, Haken ve sayısız grubun modeli.",
+ "grp.dream-theater.uyeler": "John Petrucci (gitar), John Myung (bas), Mike Portnoy (davul, 1985–2010, 2023–), Kevin Moore (klavye, 1985–94), Charlie Dominici (vokal, 1987–89), James LaBrie (vokal, 1991–), Derek Sherinian (klavye, 1994–99), Jordan Rudess (klavye, 1999–), Mike Mangini (davul, 2010–23).",
+ "grp.dream-theater.ipucu": [
+  "Images and Words ile başla: 'Pull Me Under' ve 'Metropolis—Part I' prog metalin şablonu.",
+  "Scenes from a Memory, 'Metropolis—Part I'in devamı: cinayet hikâyesini sözler üzerinden takip et.",
+  "Octavarium'un adını veren süiti grubun etkilenimlerinde bir tur — Pink Floyd'dan Queen'e, onları biçimlendiren gruplara yapılan göndermeleri yakalamaya çalış."
+ ],
  "alb.dream-theater-1989-when-dream-and-day-unite.an": "Charlie Dominici'li tek albüm; zayıf prodüksiyonuna rağmen grubun karmaşık yapısının tohumları.",
  "alb.dream-theater-1989-when-dream-and-day-unite.oncelik": "İsteğe bağlı.",
  "alb.dream-theater-1989-when-dream-and-day-unite.tip": "stüdyo",
@@ -11638,7 +12145,7 @@
   "Ormuzd"
  ],
  "sec.27.title": "Krautrock ve Alman Prog",
- "sec.27.intro": "Altmışların sonundan itibaren Batı Alman grupları Anglo-Amerikan rock'tan koparak kendi dillerini kurdu: Düsseldorf'ta Kraftwerk ve Neu!, Köln'de Can, Wümme'de bir çiftlik evinde Faust, Münih'te Amon Düül II ve Popol Vuh, Berlin'de ise Tangerine Dream, Klaus Schulze ve Ash Ra Tempel'in elektronik 'kosmische Musik'i; Cluster ve Harmonia bu sahneyi Brian Eno'ya bağlar. Conny Plank'ın Köln yakınlarındaki stüdyosu ortak buluşma noktasıydı. Yanlarında Eloy, Grobschnitt ve Jane yetmişlerin Alman senfonik ve space prog'unu temsil eder.",
+ "sec.27.intro": "Altmışların sonundan itibaren Batı Alman grupları Anglo-Amerikan rock'tan koparak kendi dillerini kurdu: Düsseldorf'ta Kraftwerk ve Neu!, Köln'de Can, Wümme'de bir çiftlik evinde Faust, Münih'te Amon Düül II ve Popol Vuh, Berlin'de ise Tangerine Dream, Klaus Schulze ve Ash Ra Tempel'in elektronik 'kosmische Musik'i ile Agitation Free'nin psikedelik doğaçlamaları; Cluster ve Harmonia bu sahneyi Brian Eno'ya bağlar. Conny Plank'ın Köln yakınlarındaki stüdyosu ortak buluşma noktasıydı. Yanlarında Eloy, Grobschnitt ve Jane yetmişlerin Alman senfonik ve space prog'unu temsil eder.",
  "alb.john-wetton-2005-icon.tr": [
   "Overture: Paradox / Let Me Go",
   "Hey Josephine",
@@ -12071,5 +12578,53 @@
  "alb.anglagard-1992-hybris.oncelik": "Atlanmamalı.",
  "alb.anglagard-1994-epilog.oncelik": "Önerilir.",
  "alb.anekdoten-1993-vemod.oncelik": "Önerilir.",
- "alb.anekdoten-1995-nucleus.oncelik": "İsteğe bağlı."
+ "alb.anekdoten-1995-nucleus.oncelik": "İsteğe bağlı.",
+ "grp.agitation-free.name": "Agitation Free",
+ "grp.agitation-free.kurulus": "1967, Berlin. Lutz 'Lüül' Ulbrich ve Lutz Ludwig Kramer (gitar), Michael 'Fame' Günther (bas) ve Christopher Franke (davul) tarafından kuruldu; ad, ücretsiz bir konserin afişinden geldi.",
+ "grp.agitation-free.hikaye": "Agitation Free, altmışların sonundaki Batı Berlin yeraltı sahnesinden, Zodiak Free Arts Lab çevresinden çıktı. 1971'de Christopher Franke Tangerine Dream'e geçti; yerine Burghard Rausch (davul), Jörg Schwenke (gitar) ve Michael Hoenig (klavye, elektronik) geldi. Goethe-Institut için yapılan Mısır, Yunanistan ve Kıbrıs turnesi ilk albüm Malesch'i (1972) biçimlendirdi: saha kayıtları ve Arap makamlarıyla Alman rock'unun ilk 'dünya müziği' plaklarından biridir; grup 1972 Münih Olimpiyatları'nda da çaldı. 2nd (1973) uzun gitar doğaçlamalarına daha çok yöneldi. Grup 1974'te dağıldı; Last (1976) canlı kayıtları topladı. River of Return (1999) için yeniden bir araya geldiler, 2007'de Tokyo'da çaldılar (Shibuya Nights) ve 2023'te Momentum'u yayımladılar.",
+ "grp.agitation-free.dna": "İki gitarlı enstrümantal psikedelik doğaçlamalar, Ortadoğu dizileri ve saha kayıtları, erken synthesizer dokuları ve drone'lar; kimi zaman Grateful Dead ya da Allman Brothers'a, kimi zaman ambient'e yakın.",
+ "grp.agitation-free.uyeler": "Lutz Ulbrich (gitar), Michael Günther (bas), Christopher Franke (davul, 1967–71), Lutz Ludwig Kramer (gitar, 1967–70), Ax Genrich (gitar, 1970), Jörg Schwenke (gitar, 1971–73), Michael Hoenig (klavye, elektronik, 1971–74), Burghard Rausch (davul, 1971–74), Stefan Diez ve Gustl Lütjens (gitar, 1973–74).",
+ "grp.agitation-free.gecisler": "Christopher Franke → Tangerine Dream (1971). Ax Genrich → Guru Guru (1970). Michael Hoenig → Tangerine Dream (canlı, 1975) → solo (Departure from the Northern Wasteland, 1978). Lutz Ulbrich → Manuel Göttsching'le Ashra, ardından Nico'nun grubu.",
+ "grp.agitation-free.etki": "Malesch, krautrock'la Ortadoğu müziğinin öncü bir karışımıdır; grup, Tangerine Dream ve Ash Ra Tempel'in Berlin sahnesini Alman rock'unun sonraki 'dünya müziği' ilgisine bağlar.",
+ "grp.agitation-free.ipucu": [
+  "Malesch'teki 'Sahara City' ve 'Khan El Khalili' ile başla: Mısır turnesinin sesi.",
+  "Malesch'i eski davulcularının yaptığı Tangerine Dream – Zeit (1972) ile yan yana dinle."
+ ],
+ "alb.agitation-free-1972-malesch.an": "Goethe-Institut'un Mısır, Yunanistan ve Kıbrıs turnesinden sonra gelen ilk albüm: saha kayıtları, Arap makamları ve uzun enstrümantal doğaçlamalar.",
+ "alb.agitation-free-1972-malesch.oncelik": "Önerilir.",
+ "alb.agitation-free-1972-malesch.tip": "stüdyo",
+ "alb.agitation-free-1972-malesch.kadro": "Lutz Ulbrich, Jörg Schwenke, Michael Günther, Michael Hoenig, Burghard Rausch",
+ "alb.agitation-free-1972-malesch.tr": [
+  "You Play for Us Today",
+  "Sahara City",
+  "Khan El Khalili",
+  "Malesch"
+ ],
+ "alb.agitation-free-1973-2nd.an": "Psikedelik rock ile elektronik uzay arasında daha uzun, gitar ağırlıklı parçalar; tek sözlü bölüm 'Haunted Island'daki okuma.",
+ "alb.agitation-free-1973-2nd.oncelik": "İsteğe bağlı.",
+ "alb.agitation-free-1973-2nd.tip": "stüdyo",
+ "alb.agitation-free-1973-2nd.kadro": "Lutz Ulbrich, Stefan Diez, Gustl Lütjens, Michael Günther, Michael Hoenig, Burghard Rausch",
+ "alb.agitation-free-1973-2nd.tr": [
+  "First Communication",
+  "Laila",
+  "Haunted Island"
+ ],
+ "alb.agitation-free-1976-last.an": "Dağıldıktan sonra yayımlandı: grubu en serbest hâliyle gösteren 1971–74 canlı kayıtları.",
+ "alb.agitation-free-1976-last.oncelik": "İsteğe bağlı.",
+ "alb.agitation-free-1976-last.tip": "canlı",
+ "alb.agitation-free-1976-last.kadro": "Lutz Ulbrich, Gustl Lütjens, Michael Günther, Michael Hoenig, Burghard Rausch ve diğerleri",
+ "alb.agitation-free-1976-last.tr": [],
+ "alb.roger-waters-1990-the-wall-live-in-berlin.an": "The Wall, Berlin Duvarı'nın yıkılışından sekiz ay sonra, 21 Temmuz 1990'da Potsdamer Platz ile Brandenburg Kapısı arasındaki eski 'kimsesiz topraklar'da, Leonard Cheshire'ın afet yardım fonu yararına sahnelendi. Pink Floyd'un diğer üyeleri olmadan Waters, eserin tamamını konuk şarkıcılarla kurdu — gösteriyi Scorpions açar, 'Another Brick in the Wall (Part 2)'yi Cyndi Lauper, 'Comfortably Numb'ı Van Morrison ve The Band söyler, 'The Trial'ı Tim Curry, Thomas Dolby, Marianne Faithfull ve Albert Finney oynar — yanında Michael Kamen yönetiminde Rundfunk orkestrası ve korosu ile bir Sovyet ordu bandosu. Sahnenin önüne örülen duvar sonunda yıkılır; kapanıştaki 'The Tide Is Turning' albümün yalnızlığına umutla karşılık verir.",
+ "alb.roger-waters-1990-the-wall-live-in-berlin.oncelik": "Önerilir.",
+ "alb.roger-waters-1990-the-wall-live-in-berlin.tip": "canlı (çift CD)",
+ "alb.roger-waters-1990-the-wall-live-in-berlin.kadro": "Roger Waters ve Scorpions, Ute Lemper, Cyndi Lauper, Sinéad O'Connor, The Band, Joni Mitchell, Bryan Adams, Van Morrison, Paul Carrack, Marianne Faithfull, Thomas Dolby, Tim Curry, Albert Finney, James Galway; grup: Rick Di Fonzo, Snowy White, Andy Fairweather Low, Peter Wood, Nick Glennie-Smith, Graham Broad; Rundfunk Orkestrası ve Korosu, şef Michael Kamen",
+ "alb.roger-waters-1990-the-wall-live-in-berlin.prod": "Roger Waters, Nick Griffiths",
+ "alb.roger-waters-1990-the-wall-live-in-berlin.tr": [
+  "In the Flesh?",
+  "Another Brick in the Wall, Part 2",
+  "Mother",
+  "Comfortably Numb",
+  "The Trial",
+  "The Tide Is Turning"
+ ]
 }
