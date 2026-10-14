@@ -1,4 +1,4 @@
-/* Prog Rock Atlas — v31 (Hakkında ayrı sekme; kişi düğümlerinde Kuruluş yerine Çizelge) / v16 (masaüstü: pencere gizliyken sıradaki parçaya geçiş) / v14 (ana sayfa bağlantısı, gezinme yığını, müzisyen hap bilgileri) / v13 (müzisyen sayfaları) / v7 (hesap + eşitleme) / v6 (Spotify önizleme algılama) / v5 (tek çalar) / v4 (çalar düzeltmeleri) / v3 (liste çalar) / v2: diller, platformlar, çalar, kişisel listeler */
+/* Prog Rock Atlas — v32 (İspanyolca: ES dil seçeneği, metin_es yoksa İngilizceye düşer) / v31 (Hakkında ayrı sekme; kişi düğümlerinde Kuruluş yerine Çizelge) / v16 (masaüstü: pencere gizliyken sıradaki parçaya geçiş) / v14 (ana sayfa bağlantısı, gezinme yığını, müzisyen hap bilgileri) / v13 (müzisyen sayfaları) / v7 (hesap + eşitleme) / v6 (Spotify önizleme algılama) / v5 (tek çalar) / v4 (çalar düzeltmeleri) / v3 (liste çalar) / v2: diller, platformlar, çalar, kişisel listeler */
 let DATA=[], T={}, F={}, U={}, LANG="tr", NDATA=null, TRK=null;
 const PLATS=[["spotify","#1DB954"],["apple","#fa233b"],["youtube","#ff3b30"],["tidal","#33b5e5"]];
 const store={get(k,d){try{const v=localStorage.getItem("atlas."+k);return v===null?d:JSON.parse(v);}catch(e){return d;}},
@@ -9,10 +9,10 @@ function tx(k){return T[k]!==undefined?T[k]:F[k];}
 function esc(s){return String(s==null?"":s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");}
 function $(id){return document.getElementById(id);}
 function toast(m){const t=$("toast");t.textContent=m;t.style.display="block";clearTimeout(t._h);t._h=setTimeout(()=>t.style.display="none",1600);}
-function detectLang(){const s=store.get("lang",null);if(s)return s;const n=(navigator.language||"en").slice(0,2).toLowerCase();return ["tr","de"].includes(n)?n:"en";}
+function detectLang(){const s=store.get("lang",null);if(s)return s;const n=(navigator.language||"en").slice(0,2).toLowerCase();return ["tr","de","es"].includes(n)?n:"en";}
 async function getJSON(p){const r=await fetch(p,{cache:"no-cache"});if(!r.ok)throw new Error(p);return r.json();}
 function fmt(sec){if(!sec&&sec!==0)return "";const m=Math.floor(sec/60),s=sec%60;return m+":"+String(s).padStart(2,"0");}
-function fmtLong(sec){const h=Math.floor(sec/3600),m=Math.round((sec%3600)/60);const L={tr:["sa","dk"],de:["Std.","Min."],en:["h","min"]}[LANG]||["h","min"];return h?`${h} ${L[0]} ${m} ${L[1]}`:`${m} ${L[1]}`;}
+function fmtLong(sec){const h=Math.floor(sec/3600),m=Math.round((sec%3600)/60);const L={tr:["sa","dk"],de:["Std.","Min."],en:["h","min"],es:["h","min"]}[LANG]||["h","min"];return h?`${h} ${L[0]} ${m} ${L[1]}`:`${m} ${L[1]}`;}
 function platName(p){return u("plat."+p);}
 function platColor(p){return (PLATS.find(x=>x[0]===p)||[0,"#999"])[1];}
 
@@ -62,8 +62,8 @@ function listIdxFix(lists){if(!TRK||!lists)return false;let ch=false;
 /* ---------- dil ---------- */
 async function setLang(l){
   LANG=l;store.set("lang",l);document.documentElement.lang=l;
-  const fb=l==="de"?"en":null;
-  const [ui,txt,fbt]=await Promise.all([getJSON("ui_"+l+".json"),getJSON("metin_"+l+".json"),fb?getJSON("metin_"+fb+".json"):Promise.resolve({})]);
+  const fb=(l==="de"||l==="es")?"en":null;
+  const [ui,txt,fbt]=await Promise.all([getJSON("ui_"+l+".json"),getJSON("metin_"+l+".json").catch(()=>({})),fb?getJSON("metin_"+fb+".json"):Promise.resolve({})]);
   U=ui;T=txt;F=fbt;
   if(!NDATA)NDATA=await getJSON("data.json");
   DATA=build(NDATA);
@@ -549,7 +549,7 @@ function renderSettings(){
   $("v-settings").innerHTML=`<div class="page"><h1>${esc(u("tab.settings"))}</h1>
     ${acctOn()?`<div class="lbl">${esc(u("acct.title"))}</div><div class="box2" id="acctbox" style="margin-top:0;margin-bottom:22px">${acctHTML()}</div>`:""}
     <div class="lbl">${esc(u("settings.language"))}</div>
-    <div class="optgrid" style="grid-template-columns:repeat(3,1fr)">${[["tr","Türkçe"],["en","English"],["de","Deutsch"]].map(([k,n])=>`<button class="opt ${LANG===k?"on":""}" onclick="setLang('${k}')">${n}</button>`).join("")}</div>
+    <div class="optgrid" style="grid-template-columns:repeat(2,1fr)">${[["tr","Türkçe"],["en","English"],["de","Deutsch"],["es","Español"]].map(([k,n])=>`<button class="opt ${LANG===k?"on":""}" onclick="setLang('${k}')">${n}</button>`).join("")}</div>
     <div class="lbl" style="margin-top:22px">${esc(u("settings.platform"))}</div>
     <div class="optgrid">${PLATS.map(([p,c])=>`<button class="opt ${PLAT===p?"on":""}" onclick="setPlat('${p}')"><span class="plat-dot" style="background:${c}"></span>${esc(platName(p))}</button>`).join("")}</div>
     <div class="lbl" style="margin-top:22px">${esc(u("sp.set.title"))}</div>
@@ -606,7 +606,7 @@ function showWelcome(){WL=LANG;WP=PLAT||"spotify";renderWelcome();$("welcome").c
 function renderWelcome(){
   $("welcome").innerHTML=`<div class="page" style="max-width:520px;padding-top:calc(48px + env(safe-area-inset-top))">
     <div><div class="yr2">1967–2020</div><div class="big">${esc(u("app.title"))}</div></div>
-    <div><div class="lbl">${esc(u("welcome.lang"))}</div><div class="optgrid" style="grid-template-columns:repeat(3,1fr)">${[["tr","Türkçe"],["en","English"],["de","Deutsch"]].map(([k,n])=>`<button class="opt ${WL===k?"on":""}" onclick="wLang('${k}')">${n}</button>`).join("")}</div></div>
+    <div><div class="lbl">${esc(u("welcome.lang"))}</div><div class="optgrid" style="grid-template-columns:repeat(2,1fr)">${[["tr","Türkçe"],["en","English"],["de","Deutsch"],["es","Español"]].map(([k,n])=>`<button class="opt ${WL===k?"on":""}" onclick="wLang('${k}')">${n}</button>`).join("")}</div></div>
     <div><div class="lbl">${esc(u("welcome.platform"))}</div><p class="muted" style="margin-bottom:10px">${esc(u("welcome.question"))}</p>
       <div style="display:flex;flex-direction:column;gap:8px">${PLATS.map(([p,c])=>`<button class="opt ${WP===p?"on":""}" onclick="WP='${p}';renderWelcome()"><span class="plat-dot" style="background:${c};width:12px;height:12px"></span><span>${esc(platName(p))}<small>${esc(u("plat."+p+".note"))}</small></span></button>`).join("")}</div></div>
     <div style="margin-top:auto"><button class="btn primary" style="width:100%" onclick="wEnter()">${esc(u("welcome.enter"))}</button><p class="muted" style="text-align:center;margin-top:8px">${esc(u("welcome.once"))}</p></div></div>`;
