@@ -1,4 +1,4 @@
-/* Prog Rock Atlas — v16 (masaüstü: pencere gizliyken sıradaki parçaya geçiş) / v14 (ana sayfa bağlantısı, gezinme yığını, müzisyen hap bilgileri) / v13 (müzisyen sayfaları) / v7 (hesap + eşitleme) / v6 (Spotify önizleme algılama) / v5 (tek çalar) / v4 (çalar düzeltmeleri) / v3 (liste çalar) / v2: diller, platformlar, çalar, kişisel listeler */
+/* Prog Rock Atlas — v31 (Hakkında ayrı sekme; kişi düğümlerinde Kuruluş yerine Çizelge) / v16 (masaüstü: pencere gizliyken sıradaki parçaya geçiş) / v14 (ana sayfa bağlantısı, gezinme yığını, müzisyen hap bilgileri) / v13 (müzisyen sayfaları) / v7 (hesap + eşitleme) / v6 (Spotify önizleme algılama) / v5 (tek çalar) / v4 (çalar düzeltmeleri) / v3 (liste çalar) / v2: diller, platformlar, çalar, kişisel listeler */
 let DATA=[], T={}, F={}, U={}, LANG="tr", NDATA=null, TRK=null;
 const PLATS=[["spotify","#1DB954"],["apple","#fa233b"],["youtube","#ff3b30"],["tidal","#33b5e5"]];
 const store={get(k,d){try{const v=localStorage.getItem("atlas."+k);return v===null?d:JSON.parse(v);}catch(e){return d;}},
@@ -31,6 +31,15 @@ function build(N){
           return o;});
         return out;})};});
 }
+/* v31: solo sanatçı düğümleri — "Kuruluş" yerine "Çizelge" (yeni kişi düğümü eklenince buraya yazılır) */
+const KISI=new Set(["the-crazy-world-of-arthur-brown-kingdom-come","peter-sinfield","robert-fripp-solo-ve-ortaklklar","john-wetton-solo","adrian-belew","tony-levin",
+ "rick-wakeman-solo","steve-howe-solo","jon-anderson-solo","chris-squire-solo","patrick-moraz","trevor-rabin","billy-sherwood","keith-emerson",
+ "peter-gabriel-solo-dugum","steve-hackett-solo-dugum","anthony-phillips","tony-banks","mike-rutherford",
+ "syd-barrett-solo","david-gilmour-solo","roger-waters-solo","nick-mason-solo-ve-saucerful-of-secrets","richard-wright",
+ "hugh-hopper","kevin-ayers","robert-wyatt","daevid-allen","steve-hillage-solo-ve-system-7","eddie-jobson","allan-holdsworth",
+ "ian-anderson-solo","peter-hammill-solo","woolly-wolstenholme","fred-frith","chris-cutler","lindsay-cooper","jimmy-page","robert-plant","jon-lord",
+ "phil-manzanera-quiet-sun-801","brian-eno","david-bowie","mike-oldfield","david-bedford","vangelis","kate-bush",
+ "frank-zappa","captain-beefheart","jean-luc-ponty","klaus-schulze","fish-solo","steven-wilson-solo","neal-morse-solo-ve-neal-morse-band"]);
 function findAlbum(aid){for(const s of DATA)for(let gi=0;gi<s.groups.length;gi++){const g=s.groups[gi];const a=g.albums.find(x=>x.id===aid);if(a)return {s,g,a};}return null;}
 /* v13: yapılandırılmış kadro (Wikipedia) ve müzisyen sayfaları */
 let KAD=null,MUSALB=null,KADTXT=null;
@@ -66,22 +75,24 @@ async function setLang(l){
   renderTabbar();renderPlatBadge();initChips();render();
   if($("v-lists").classList.contains("on"))renderLists();
   if($("v-settings").classList.contains("on"))renderSettings();
+  if($("v-about").classList.contains("on"))renderAbout();
   if(CUR&&CUR.m)openMus(CUR.m,"pop");else if(CUR)openAlbum(CUR.id,CUR.tab,"pop");
 }
 
 /* ---------- alt menü ---------- */
 const ICO={atlas:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="6" cy="6" r="2.5"/><circle cx="18" cy="8" r="2.5"/><circle cx="11" cy="18" r="2.5"/><path d="M8.3 6.9l7.4.8M16.8 10.1l-4.4 5.8M7.2 8.2l2.8 7.6"/></svg>',
  lists:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 6h11M4 12h11M4 18h7M18 14v6M15 17h6"/></svg>',
+ about:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 11v6"/><circle cx="12" cy="7.6" r=".6" fill="currentColor"/></svg>',
  settings:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1L7 17M17 7l2.1-2.1"/></svg>'};
 let VIEW="atlas";
 function renderTabbar(){
-  $("tabbar").innerHTML=[["atlas","tab.atlas"],["lists","tab.lists"],["settings","tab.settings"]].map(([v,k])=>`<button class="${VIEW===v?"on":""}" onclick="go('${v}')">${ICO[v]}<span>${esc(u(k))}</span></button>`).join("");
+  $("tabbar").innerHTML=[["atlas","tab.atlas"],["lists","tab.lists"],["settings","tab.settings"],["about","tab.about"]].map(([v,k])=>`<button class="${VIEW===v?"on":""}" onclick="go('${v}')">${ICO[v]}<span>${esc(u(k))}</span></button>`).join("");
 }
 function go(v){
   closeAlbum(true);VIEW=v;
-  $("v-atlas").classList.toggle("on",v==="atlas");$("v-lists").classList.toggle("on",v==="lists");$("v-settings").classList.toggle("on",v==="settings");
+  $("v-atlas").classList.toggle("on",v==="atlas");$("v-lists").classList.toggle("on",v==="lists");$("v-settings").classList.toggle("on",v==="settings");$("v-about").classList.toggle("on",v==="about");
   document.querySelector("header").style.display=v==="atlas"?"":"none";$("countbar").style.display=v==="atlas"?"":"none";
-  if(v==="lists"){OPENLIST=null;renderLists();} if(v==="settings")renderSettings();
+  if(v==="lists"){OPENLIST=null;renderLists();} if(v==="settings")renderSettings();if(v==="about")renderAbout();
   renderTabbar();window.scrollTo(0,0);
 }
 /* v14: başlık = ana sayfa — açık albüm/müzisyen sayfasını kapat, aramayı ve filtreleri sıfırla */
@@ -151,7 +162,7 @@ function render(){
           if(e.note&&!filtering)list+=`<p class="era-note">${esc(e.note)}</p>`;list+=ea.map(a=>albRow(g,a)).join("");});}
       else list=albs.map(a=>albRow(g,a)).join("");
       sh+=`<div class="group ${filtering?"open":""}" id="${gid}"><div class="group-head" onclick="tg('${gid}')"><h2 translate="no">${esc(g.name)}</h2><span class="cnt">${u("group.albums",{n:g.albums.length})}</span><span class="arr">▶</span></div>
-        <div class="group-body">${f.kurulus?`<p class="gfield"><b>${u("f.kurulus")}:</b> ${esc(f.kurulus)}</p>`:""}
+        <div class="group-body">${f.kurulus?`<p class="gfield"><b>${u(KISI.has(g.id)?"f.cizelge":"f.kurulus")}:</b> ${esc(f.kurulus)}</p>`:""}
         ${f.hikaye?`<p class="gfield hik" onclick="this.classList.toggle('full')"><b>${u("f.hikaye")}:</b> ${esc(f.hikaye)}</p>`:""}
         ${f.dna?`<p class="gfield"><b>${u("f.dna")}:</b> ${esc(f.dna)}</p>`:""}
         ${extra?`<span class="gmore" onclick="tgMore(event,'${gid}_x')">${u("group.more")}${f.ipucu?" · "+u("group.tips"):""}</span><div class="gextra" id="${gid}_x">${extra}</div>`:""}
@@ -554,12 +565,33 @@ function renderSettings(){
       <button class="btn" onclick="exportLists()">↓ ${esc(u("settings.export"))}</button>
       <label class="btn">↑ ${esc(u("settings.import"))}<input type="file" accept="application/json,.json" style="display:none" onchange="importLists(this)"></label>
       <div class="muted">${esc(u("settings.lastbackup",{d:last?new Date(last).toLocaleDateString(LANG):u("settings.never")}))}</div></div>
-    <div class="lbl" style="margin-top:22px">${esc(u("settings.about"))}</div><p style="margin-bottom:8px">${esc(u("settings.about.intro"))}</p><p class="muted">${esc(u("settings.about.text",aboutCounts()))}</p>
-    ${acctOn()?`<p style="margin-top:10px"><a href="#" class="plink" onclick="showPrivacy();return false">${esc(u("privacy.title"))} ›</a></p>`:""}</div>`;
+    <p style="margin-top:22px"><a href="#" class="plink" onclick="go('about');return false">${esc(u("tab.about"))} ›</a>${acctOn()?` · <a href="#" class="plink" onclick="showPrivacy();return false">${esc(u("privacy.title"))} ›</a>`:""}</p></div>`;
 }
-function aboutCounts(){const nf=n=>n.toLocaleString(LANG==="en"?"en-US":LANG);let A=0,G=0;DATA.forEach(s=>s.groups.forEach(g=>{G++;A+=g.albums.length;}));
-  let t="…";if(TRK){let n=0;for(const k in TRK)n+=(TRK[k].tr||[]).length;t=nf(n);}else loadTracks().then(()=>{if($("v-settings").classList.contains("on"))renderSettings();});
-  return {a:nf(A),g:nf(G),t};}
+/* ---------- v31: hakkında (ayrı sekme) ---------- */
+function renderAbout(){
+  const c=aboutCounts(),o=window.SITE_OWNER||{};
+  const P=["temel","onerilir","istege","ikincil","atla"];
+  const sec=(t,b)=>`<div class="lbl" style="margin-top:26px">${esc(u(t))}</div>${b}`;
+  const par=k=>`<p class="abp">${esc(u(k))}</p>`;
+  $("v-about").innerHTML=`<div class="page about"><h1>${esc(u("tab.about"))}</h1>
+    <div class="yr2">${esc(u("app.title"))} · ${esc(u("app.years"))}</div>
+    <p class="abp lead">${esc(u("settings.about.intro"))}</p>
+    <div class="abstats">${[["s",c.s],["g",c.g],["a",c.a],["t",c.t],["m",c.m]].map(([k,n])=>`<div><b>${n}</b><span>${esc(u("about.n."+k))}</span></div>`).join("")}</div>
+    ${sec("about.read.t",par("about.read.1")+par("about.read.2"))}
+    ${sec("about.prio.t",par("about.prio.intro")+`<dl class="abprio">${P.map(k=>`<dt>${esc(u("onc."+k))}</dt><dd>${esc(u("about.prio."+k))}</dd>`).join("")}</dl>`)}
+    ${sec("about.album.t",par("about.album.1")+par("about.album.2"))}
+    ${sec("about.listen.t",par("about.listen.1")+par(acctOn()?"about.listen.acct":"about.listen.local"))}
+    ${sec("about.src.t",`<ul class="abul">${[1,2,3,4,5].map(i=>`<li>${esc(u("about.src."+i))}</li>`).join("")}</ul>`)}
+    ${sec("about.lang.t",par("about.lang.1"))}
+    ${sec("about.note.t",par("about.note.1")+(o.email?`<p class="abp">${esc(u("about.contact"))}: <a href="mailto:${esc(o.email)}">${esc(o.email)}</a></p>`:""))}
+    ${acctOn()?`<p style="margin-top:14px"><a href="#" class="plink" onclick="showPrivacy();return false">${esc(u("privacy.title"))} ›</a></p>`:""}</div>`;
+}
+function aboutCounts(){const nf=n=>n.toLocaleString(LANG==="en"?"en-US":LANG);let A=0,G=0,S=0;
+  DATA.forEach(s=>{let h=false;s.groups.forEach(g=>{if(!g.albums.length)return;G++;A+=g.albums.length;h=true;});if(h)S++;});
+  const re=()=>{if($("v-about").classList.contains("on"))renderAbout();};
+  let t="…";if(TRK){let n=0;for(const k in TRK)n+=(TRK[k].tr||[]).length;t=nf(n);}else loadTracks().then(re);
+  let m="…";if(KAD&&!(KAD instanceof Promise)&&MUSALB)m=nf(Object.keys(MUSALB).length);else loadKadro().then(re);
+  return {s:nf(S),a:nf(A),g:nf(G),t,m};}
 function setPlat(p){PLAT=p;store.set("platform",p);renderPlatBadge();if($("v-settings").classList.contains("on"))renderSettings();toast(u("settings.saved"));}
 function exportLists(){const blob=new Blob([JSON.stringify({app:"prog-rock-atlas",v:1,date:new Date().toISOString(),lists:LISTS},null,1)],{type:"application/json"});
   const a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download="prog-atlas-listelerim-"+new Date().toISOString().slice(0,10)+".json";document.body.appendChild(a);a.click();a.remove();

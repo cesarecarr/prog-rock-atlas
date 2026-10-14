@@ -168,7 +168,7 @@
   main{max-width:820px;margin:0 auto}
   header .inner,.count-bar{max-width:820px;margin-left:auto;margin-right:auto}
   body{padding-bottom:calc(76px + env(safe-area-inset-bottom))}
-  .tabbar{position:fixed;left:0;right:0;bottom:0;z-index:80;display:grid;grid-template-columns:repeat(3,1fr);
+  .tabbar{position:fixed;left:0;right:0;bottom:0;z-index:80;display:grid;grid-template-columns:repeat(4,1fr);
     background:var(--bg2);border-top:1px solid var(--line);padding-bottom:env(safe-area-inset-bottom)}
   .tabbar button{background:none;border:0;color:var(--muted);font-weight:600;font-size:11px;font-family:inherit;padding:10px 0 12px;display:flex;flex-direction:column;align-items:center;gap:4px;cursor:pointer}
   .tabbar button.on{color:var(--amber)}
@@ -325,6 +325,21 @@
   .litem .cov{cursor:pointer;display:block;flex-shrink:0}
   .litem.now{background:rgba(224,168,78,.1);border-radius:8px}
   .litem.now .tt div:first-child{color:var(--amber)}
+  /* ---- v31: hakkında ---- */
+  .about .yr2{color:var(--amber);letter-spacing:2px;font-size:12px;font-weight:600;margin:-6px 0 14px;text-transform:uppercase}
+  .abp{font-size:14.5px;line-height:1.65;margin:0 0 10px}
+  .abp.lead{font-family:Georgia,serif;font-size:17px;line-height:1.55}
+  .abstats{display:grid;grid-template-columns:repeat(auto-fit,minmax(110px,1fr));gap:8px;margin:18px 0 4px}
+  .abstats div{background:var(--panel);border-radius:12px;padding:12px}
+  .abstats b{display:block;font-family:Georgia,serif;font-size:22px;color:var(--ink);font-weight:600}
+  .abstats span{font-size:12px;color:var(--muted)}
+  .abprio{display:grid;grid-template-columns:max-content 1fr;gap:6px 14px;margin:6px 0 0;font-size:14px;line-height:1.5}
+  .abprio dt{font-weight:600;color:var(--amber2)}
+  .abprio dd{margin:0}
+  .abul{padding-left:20px;font-size:14.5px;line-height:1.6}
+  .abul li{margin-bottom:6px}
+  .about a{color:var(--amber)}
+  @media (max-width:420px){.abprio{grid-template-columns:1fr;gap:2px}.abprio dd{margin-bottom:8px}}
 </style>
 </head>
 <body>
@@ -339,6 +354,7 @@
 </div>
 <div id="v-lists" class="view"></div>
 <div id="v-settings" class="view"></div>
+<div id="v-about" class="view"></div>
 <div class="albview" id="albview"></div>
 <div class="addbg" id="addbg"></div>
 <div class="addsheet" id="addsheet"></div>
@@ -349,8 +365,8 @@
 <div class="toast" id="toast"></div>
 <button class="install" id="install"></button>
 <button class="toTop" id="toTop">↑</button>
-<script src="firebase-config.js?v=29"></script>
-<script src="app.js?v=29"></script>
+<script src="firebase-config.js?v=31"></script>
+<script src="app.js?v=31"></script>
 <script>
 const toTop=document.getElementById("toTop");
 window.addEventListener("scroll",()=>{toTop.style.display=window.scrollY>600?"block":"none";});
