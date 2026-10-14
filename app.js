@@ -32,14 +32,14 @@ function build(N){
         return out;})};});
 }
 /* v31: solo sanatçı düğümleri — "Kuruluş" yerine "Çizelge" (yeni kişi düğümü eklenince buraya yazılır) */
-const KISI=new Set(["the-crazy-world-of-arthur-brown-kingdom-come","peter-sinfield","robert-fripp-solo-ve-ortaklklar","john-wetton-solo","adrian-belew","tony-levin",
+const KISI=new Set(["peter-sinfield","robert-fripp-solo-ve-ortaklklar","john-wetton-solo","adrian-belew","tony-levin",
  "rick-wakeman-solo","steve-howe-solo","jon-anderson-solo","chris-squire-solo","patrick-moraz","trevor-rabin","billy-sherwood","keith-emerson",
  "peter-gabriel-solo-dugum","steve-hackett-solo-dugum","anthony-phillips","tony-banks","mike-rutherford",
  "syd-barrett-solo","david-gilmour-solo","roger-waters-solo","nick-mason-solo-ve-saucerful-of-secrets","richard-wright",
  "hugh-hopper","kevin-ayers","robert-wyatt","daevid-allen","steve-hillage-solo-ve-system-7","eddie-jobson","allan-holdsworth",
  "ian-anderson-solo","peter-hammill-solo","woolly-wolstenholme","fred-frith","chris-cutler","lindsay-cooper","jimmy-page","robert-plant","jon-lord",
  "phil-manzanera-quiet-sun-801","brian-eno","david-bowie","mike-oldfield","david-bedford","vangelis","kate-bush",
- "frank-zappa","captain-beefheart","jean-luc-ponty","klaus-schulze","fish-solo","steven-wilson-solo","neal-morse-solo-ve-neal-morse-band"]);
+ "jean-luc-ponty","klaus-schulze","fish-solo","steven-wilson-solo","neal-morse-solo-ve-neal-morse-band"]);
 function findAlbum(aid){for(const s of DATA)for(let gi=0;gi<s.groups.length;gi++){const g=s.groups[gi];const a=g.albums.find(x=>x.id===aid);if(a)return {s,g,a};}return null;}
 /* v13: yapılandırılmış kadro (Wikipedia) ve müzisyen sayfaları */
 let KAD=null,MUSALB=null,KADTXT=null;
