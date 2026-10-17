@@ -360,6 +360,117 @@ html,body{background:#06070c}
 #q::placeholder{color:#8e8ba0}
 .chip.on{border-color:#9dbcff!important;color:#9dbcff!important}
 #q:focus{border-color:#9dbcff!important}
+
+/* ---------- D1.5: albümün arkası — katmanlar ---------- */
+.n.a rect.ly{display:none;fill:#11121a;stroke:rgba(255,255,255,.22);stroke-width:1}
+.zly .n.a rect.ly{display:block}
+.depthbtn{border-color:var(--hi)!important;color:var(--hi)}
+#depth{position:fixed;left:0;right:0;top:0;bottom:var(--dockH);z-index:36;display:none;overflow:hidden;color:#ece9f5;
+  background:radial-gradient(ellipse at 50% 35%,#191a2b 0%,#0a0b12 60%,#05060a 100%);
+  --ink:#ece9f5;--muted:#a3a0b5;--faint:#6b6880;--line:rgba(255,255,255,.12);--bg:#0b0c13;--bg2:#181926;--hi:#9dbcff;--note:#ffb733;--wg:#6fd6c3}
+#depth.show{display:block}
+#dtop{position:absolute;left:0;right:0;top:0;height:calc(52px + env(safe-area-inset-top));padding:calc(8px + env(safe-area-inset-top)) 12px 0;display:flex;align-items:center;gap:10px;z-index:200}
+#dtop .tt{flex:1;min-width:0;font-size:13px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#dtop .tt b{color:var(--ink);font-weight:650}
+#dtop button{width:38px;height:38px;border-radius:19px;background:rgba(255,255,255,.08);display:grid;place-items:center;font-size:20px;flex:none}
+#dview{position:absolute;inset:0;perspective:1000px;perspective-origin:50% 0%}
+#dstack{position:absolute;inset:0;transform-style:preserve-3d}
+.dpl{--w:min(560px,calc(100vw - 28px));position:absolute;left:50%;margin-left:calc(var(--w) / -2);width:var(--w);
+  top:calc(104px + env(safe-area-inset-top));bottom:72px;border-radius:18px;background:#13141f;border:1px solid rgba(255,255,255,.12);
+  box-shadow:0 24px 70px rgba(0,0,0,.65);display:flex;flex-direction:column;overflow:hidden;transform-origin:50% 0;will-change:transform,opacity}
+.dpl .dh{flex:none;display:flex;align-items:center;gap:8px;height:34px;padding:0 14px;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);border-bottom:1px solid var(--line)}
+.dpl .dh i{width:8px;height:8px;border-radius:4px;background:var(--lc,#fff);flex:none}
+.dpl .dh em{font-style:normal;margin-left:auto;letter-spacing:.04em;text-transform:none;font-size:11.5px;color:var(--faint)}
+.dpl .dsc{flex:1;overflow-y:auto;overscroll-behavior:contain;padding:16px 16px 10px;-webkit-overflow-scrolling:touch}
+.dpl .dnext{display:block;width:100%;margin:22px 0 6px;padding:12px;border-radius:12px;border:1px dashed var(--line);color:var(--muted);font-size:13.5px;text-align:center}
+.dpl .dnext b{color:var(--ink)}
+.dpl .dprev{display:block;margin:0 auto 12px;font-size:12.5px;color:var(--faint)}
+.dbadge{display:inline-block;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;border:1px solid currentColor;border-radius:9px;padding:1px 7px;color:var(--faint);vertical-align:2px}
+#drail{position:absolute;left:50%;transform:translateX(-50%);bottom:14px;z-index:200;display:flex;gap:4px;background:rgba(20,21,32,.9);border:1px solid var(--line);border-radius:22px;padding:4px}
+#drail button{height:34px;padding:0 11px;border-radius:17px;font-size:12.5px;color:var(--muted);display:inline-flex;align-items:center;gap:6px;white-space:nowrap}
+#drail button i{width:7px;height:7px;border-radius:4px;background:var(--lc)}
+#drail button.on{background:rgba(255,255,255,.1);color:var(--ink)}
+@media (max-width:420px){#drail button{padding:0 8px;font-size:12px}#drail .lg{display:none}}
+/* katman 0: albüm */
+.dalb{text-align:center;padding-top:6px}
+.dalb .dcov{width:min(64vw,260px);aspect-ratio:1;margin:0 auto;border-radius:8px;background:#222 center/cover no-repeat;box-shadow:0 12px 40px rgba(0,0,0,.55)}
+.dalb h1{font-size:23px;line-height:1.2;margin-top:14px}
+.dalb p.m{color:var(--muted);font-size:14px;margin-top:3px}
+.dalb .actions{justify-content:center}
+.dalb .act.pri{background:var(--ink);color:#0b0c13;border-color:var(--ink)}
+.dmap{margin-top:20px;text-align:left}
+.dmap button{display:flex;width:100%;align-items:center;gap:12px;padding:11px 2px;border-bottom:1px solid var(--line);text-align:left}
+.dmap button:last-child{border-bottom:0}
+.dmap .k{width:26px;height:26px;border-radius:13px;display:grid;place-items:center;font-size:11.5px;font-weight:700;color:#0b0c13;background:var(--lc);flex:none}
+.dmap .t{flex:1}.dmap .t small{display:block;color:var(--muted);font-size:12.5px}
+/* katman 1: notların */
+.nsec{margin-top:18px}.nsec:first-child{margin-top:0}
+.nsec h3{font-size:11.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:600;margin-bottom:8px}
+.ncard{border-left:2px solid var(--note);padding:4px 0 4px 12px;margin-bottom:12px}
+.ncard p{white-space:pre-wrap;font-size:15px;line-height:1.5}
+.ncard .meta{font-size:12px;color:var(--faint);margin-top:4px;display:flex;gap:12px;align-items:center}
+.ncard .meta button{color:var(--hi);font-size:12.5px}
+.ntr{display:flex;gap:10px;align-items:baseline;margin-bottom:2px}
+.ntr .pb2{width:26px;height:26px;border-radius:13px;border:1px solid var(--line);display:grid;place-items:center;flex:none;align-self:center}
+.ntr .pb2 svg{width:10px;height:10px}
+.ntr b{font-size:14px}
+.ntr small{color:var(--faint);font-size:12px}
+#depth textarea,#depth input[type=url]{width:100%;border:1px solid var(--line);border-radius:10px;background:var(--bg2);color:var(--ink);font:inherit;font-size:16px;padding:8px 10px;outline:none}
+#depth textarea{min-height:92px;resize:vertical}
+#depth textarea:focus,#depth input:focus{border-color:var(--note)}
+.lnk{display:flex;align-items:center;gap:8px;padding:8px 10px;border:1px solid var(--line);border-radius:10px;margin-bottom:6px;font-size:13.5px;color:var(--ink);text-decoration:none}
+.lnk span{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.lnk small{color:var(--faint)}
+.lnk button{color:var(--faint);font-size:16px}
+.ghost{border:1px dashed var(--line);border-radius:10px;padding:10px 12px;color:var(--faint);font-size:13px}
+#depth .act{border-color:var(--line);color:var(--ink)}
+#depth .act.pri{background:var(--note);border-color:var(--note);color:#1b1206}
+/* katman 2: WG odası — sohbet akışı, klasik forum değil */
+.wgh{display:flex;align-items:center;gap:10px}
+.wgh .ttl{flex:1;min-width:0}
+.wgh .ttl b{display:block;font-size:17px}
+.wgh .ttl small{color:var(--muted);font-size:12.5px}
+.av{width:28px;height:28px;border-radius:14px;display:inline-grid;place-items:center;font-size:11.5px;font-weight:700;color:#0b0c13;flex:none;border:2px solid #13141f}
+.avs{display:flex}.avs .av{margin-left:-8px}.avs .av:first-child{margin-left:0}
+.wgnote{font-size:12.5px;color:var(--faint);margin:10px 0 14px;line-height:1.45}
+.th{background:rgba(255,255,255,.035);border:1px solid var(--line);border-radius:14px;padding:12px;margin-bottom:10px}
+.th.pin{border-color:color-mix(in srgb,var(--wg) 55%,transparent);background:color-mix(in srgb,var(--wg) 8%,transparent)}
+.th .who{display:flex;align-items:center;gap:8px;font-size:12.5px;color:var(--muted)}
+.th .who b{color:var(--ink);font-weight:600}
+.th .kd{margin-left:auto;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--wg)}
+.th h4{font-size:15.5px;line-height:1.35;margin:8px 0 4px}
+.th p{font-size:14px;color:#cfccdc;line-height:1.5}
+.anc{display:inline-flex;align-items:center;gap:6px;margin-top:8px;height:28px;padding:0 10px;border-radius:14px;background:rgba(111,214,195,.12);color:var(--wg);font-size:12.5px}
+.anc svg{width:10px;height:10px}
+.chipz{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.chipz span{font-size:12px;border:1px solid var(--line);border-radius:12px;padding:3px 9px;color:var(--muted)}
+.th .ft{display:flex;align-items:center;gap:10px;margin-top:10px;font-size:12.5px;color:var(--muted)}
+.th .ft .rx{border:1px solid var(--line);border-radius:12px;padding:2px 8px}
+.th .ft .rp{margin-left:auto;color:var(--hi)}
+.cmp{display:flex;gap:8px;align-items:center;margin-top:6px;padding:8px 10px;border:1px solid var(--line);border-radius:22px;color:var(--faint);font-size:13.5px}
+/* katman 3: editör flyer'ı — basılı bir broşür gibi */
+.dpl.ed{background:#efe9dc;color:#1f1b16;border-color:#d9d0bd}
+.dpl.ed .dh{color:#6d6457;border-color:#d9d0bd}
+.dpl.ed .dnext{border-color:#cbbfa7;color:#6d6457}
+.dpl.ed .dprev{color:#8a8070}
+.fly{--fc:#b33}
+.fly .band{height:10px;background:var(--fc);margin:-16px -16px 18px}
+.fly .grp{font-size:30px;line-height:1.05;color:#1f1b16}
+.fly .kick{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--fc);font-weight:700;margin-top:6px}
+.fly .row2{display:flex;gap:14px;align-items:flex-end;margin:16px 0 4px}
+.fly .fc{width:116px;height:116px;flex:none;background:#ccc center/cover no-repeat;box-shadow:0 6px 18px rgba(0,0,0,.25)}
+.fly h2{font-family:"Playfair Display",Georgia,serif;font-style:italic;font-size:27px;line-height:1.1}
+.fly .yr{font-size:13px;color:#6d6457;margin-top:4px}
+.fly .stamp{display:inline-block;margin-top:8px;border:2px solid var(--fc);color:var(--fc);font-weight:800;font-size:11px;letter-spacing:.14em;text-transform:uppercase;padding:2px 8px;transform:rotate(-3deg)}
+.fly .txt{font-family:Georgia,"Times New Roman",serif;font-size:16.5px;line-height:1.6;margin-top:16px}
+.fly .txt::first-letter{float:left;font-size:3.3em;line-height:.82;padding:4px 8px 0 0;color:var(--fc);font-family:"Playfair Display",Georgia,serif;font-style:italic}
+.fly h5{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#6d6457;margin:20px 0 6px;border-top:1px solid #cbbfa7;padding-top:10px}
+.fly ol{padding-left:20px;font-family:Georgia,serif;font-size:15px;line-height:1.55}
+.fly .crew{font-size:13.5px;line-height:1.6;color:#3b352d}
+.fly .crew b{font-weight:650}
+.fly .tip{font-family:Georgia,serif;font-style:italic;font-size:15px;line-height:1.5}
+.fly .foot{margin-top:22px;font-size:11.5px;color:#8a8070;display:flex;justify-content:space-between;gap:10px;border-top:1px solid #cbbfa7;padding-top:8px}
+.fly button.pl{color:var(--fc);font-weight:700;font-size:13px}
 </style>
 </head>
 <body>
@@ -481,7 +592,7 @@ D.sections.forEach(s=>{
 // albümler (sistemin içinde)
 D.albums.forEach(a=>{const n=N['a:'+a.id];const sys=SYS[N['g:'+a.g].o.sec].el;
   const g=el('g',{class:'n a','data-id':'a:'+a.id,transform:`translate(${n.x},${n.y})`},sys);const inn=el('g',{class:'in'},g);
-  el('rect',{x:-15,y:-15,width:30,height:30,rx:3},inn);n.img=el('image',{x:-15,y:-15,width:30,height:30,preserveAspectRatio:'xMidYMid slice'},inn);n.el=g;
+  el('rect',{x:-7,y:-23,width:30,height:30,rx:3,class:'ly'},inn);el('rect',{x:-11,y:-19,width:30,height:30,rx:3,class:'ly'},inn);el('rect',{x:-15,y:-15,width:30,height:30,rx:3},inn);n.img=el('image',{x:-15,y:-15,width:30,height:30,preserveAspectRatio:'xMidYMid slice'},inn);n.el=g;
   const cp=el('text',{class:'cap',x:0,y:16},g);let L=wrapTitle(a.t,17);if(L.length>2){L=L.slice(0,2);L[1]=L[1].slice(0,15).trim()+'…'}
   L.forEach((x,i)=>{const sp=el('tspan',{x:0,dy:i?'1.1em':'1em',class:'c1'},cp);sp.textContent=x});const yy=el('tspan',{x:0,dy:'1.25em',class:'c2'},cp);yy.textContent=a.y});
 // gruplar (uydular) — hepsi aynı boyda
@@ -597,8 +708,8 @@ function apply(){
   const z=cam.s<.2?'z0':cam.s<.85?'z1':'z2';
   if(svg._z!==z){svg.classList.remove('z0','z1','z2');svg.classList.add(z);svg._z=z;
     if(z!=='z0')setLens(null)}
-  const hz=cam.s<.105?'g':z;if(svg._hz!==hz){svg._hz=hz;$('#scaleHint').textContent={g:'Galaksi · yaklaştıkça bölümler belirir',z0:'Ölçek: bölümler',z1:'Ölçek: gruplar + müzisyenler',z2:'Ölçek: albümler'}[hz]}
-  svg.classList.toggle('za',cam.s>=2);updTags();capCenter();
+  const hz=cam.s<.105?'g':cam.s>=2.6?'zz':z;if(svg._hz!==hz){svg._hz=hz;$('#scaleHint').textContent={g:'Galaksi · yaklaştıkça bölümler belirir',z0:'Ölçek: bölümler',z1:'Ölçek: gruplar + müzisyenler',z2:'Ölçek: albümler',zz:'Albümler · daha yaklaş → arkasına geç'}[hz]}
+  svg.classList.toggle('za',cam.s>=2);svg.classList.toggle('zly',cam.s>=1.5);updTags();capCenter();
   svg.classList.toggle('zp',cam.s>=.42);svg.classList.toggle('zg',cam.s>=.32);
   if(z==='z2')lazyCovers();
   if(COARSE&&z==='z0'&&!cur)centerLens();
@@ -653,6 +764,7 @@ map.addEventListener('pointermove',e=>{if(!ptr.has(e.pointerId))return;ptr.set(e
   if(ptr.size===1&&startCam&&startCam.px!==undefined){const dx=e.clientX-startCam.px,dy=e.clientY-startCam.py;moved=Math.max(moved,Math.hypot(dx,dy));
     if(moved>6){cam.x=startCam.x-dx/cam.s;cam.y=startCam.y-dy/cam.s;apply()}}
   else if(ptr.size===2){const [p1,p2]=[...ptr.values()];const d=Math.hypot(p1.x-p2.x,p1.y-p2.y);const mx=(p1.x+p2.x)/2,my=(p1.y+p2.y)/2;
+    if(startS*d/startDist>3.7&&cam.s>=2.9){depthPush(999)}
     zoomAt(startCam.mx,startCam.my,clampS(startS*d/startDist),startCam);cam.x-= (mx-startCam.mx)/cam.s;cam.y-=(my-startCam.my)/cam.s;apply()}});
 function endPtr(e){if(!ptr.has(e.pointerId))return;ptr.delete(e.pointerId);
   if(ptr.size===0){map.classList.remove('drag');
@@ -666,7 +778,7 @@ map.addEventListener('pointerup',endPtr);map.addEventListener('pointercancel',en
 const clampS=s=>Math.max(.035,Math.min(3,s));
 function zoomAt(sx,sy,ns,base=cam){const ox=W()/2,oy=(H()-visibleSheet()-DK())/2;
   const wx=base.x+(sx-ox)/base.s,wy=base.y+(sy-oy)/base.s;cam.s=ns;cam.x=wx-(sx-ox)/ns;cam.y=wy-(sy-oy)/ns}
-map.addEventListener('wheel',e=>{e.preventDefault();zoomAt(e.clientX,e.clientY,clampS(cam.s*Math.exp(-e.deltaY*.0015)));apply();count()},{passive:false});
+map.addEventListener('wheel',e=>{e.preventDefault();if(cam.s>=2.95&&e.deltaY<0){depthPush(-e.deltaY);return}zoomAt(e.clientX,e.clientY,clampS(cam.s*Math.exp(-e.deltaY*.0015)));apply();count()},{passive:false});
 $('#zin').onclick=()=>{fly(cam.x,cam.y,clampS(cam.s*1.7),250);count()};
 $('#zout').onclick=()=>{fly(cam.x,cam.y,clampS(cam.s/1.7),250);count()};
 addEventListener('resize',apply);
@@ -760,6 +872,7 @@ function render(n){
   }else{
     const g=N['g:'+o.g].o;kind='Albüm';title=o.t;sub=`${esc(g.name)} · ${o.y}${o.tip?' · '+esc(o.tip):''}`;
     h+=`<div class="sec" style="display:flex;gap:14px;align-items:flex-start"><div class="big-cover" data-cov="${esc(o.cov)}"></div><div>${o.oncelik?`<div class="pill" style="display:inline-block;margin-bottom:8px">${esc(o.oncelik)}</div>`:''}<p>${esc(o.an||'')}</p></div></div>`;
+    h+=`<div class="sec"><button class="act depthbtn" data-depth="${esc(o.id)}">⤓ Arkasına geç · notlar, WG odası, editör flyer'ı</button></div>`;
     h+=albumTracks(o);
     if(o.k.length){h+=`<div class="sec"><h3>Kadro</h3><div class="pills">`+o.k.map(([pid,r])=>personIds.has(pid)?`<button class="pill link" ${go('p:'+pid)}>${esc(D.names[pid]||pid)} <small>· ${esc(roles(r))}</small></button>`:`<span class="pill">${esc(D.names[pid]||pid)} <small style="color:var(--muted)">· ${esc(roles(r))}</small></span>`).join('')+`</div><p class="note" style="margin-top:10px">Mavi isimler başka gruplara da bağlanan müzisyenler; dokununca haritada açılır.</p></div>`}
     h+=`<div class="sec"><button class="row" ${go('g:'+o.g)}><span class="nm">Gruba git: ${esc(g.name)}</span><span class="go">›</span></button></div>`;
@@ -807,7 +920,8 @@ const TASKS=[
  "Bir albüme ya da bir parçaya kısa bir not yaz, sonra notunla birlikte bir arkadaşına gönder.",
  "Üç adımlık bir yol izle (grup → müzisyen → başka grup) ve bu yolu paylaş.",
  "Galaksiye bak: Yes Evreni en çok hangi bölümle müzisyen paylaşıyor?",
- "Bir parçayı çalma listene, üç parçayı rotana ekle; sonra rotanı başlat."
+ "Bir parçayı çalma listene, üç parçayı rotana ekle; sonra rotanı başlat.",
+ "Third'ün arkasına geç: katman katman Notların, WG odası ve Editör flyer'ına in; sonra albüme geri dön."
 ];
 const LS='atlasD1results';let R=[];try{R=JSON.parse(localStorage.getItem(LS)||'[]')}catch(e){}
 let run=null;function count(){if(run)run.taps++}
@@ -1124,6 +1238,123 @@ $('#sbody').addEventListener('click',e=>{
     if(v)NOTES[key]={t:v,at:Date.now()};else delete NOTES[key];tEdit=null;saveNotes();rerender();toast(v?'Parça notu kaydedildi':'Not silindi')}
   else if(k==='tcancel'){tEdit=null;rerender()}
   else if(k==='tshare'){const v=a.dataset.k;const j=v.lastIndexOf(':');shareTrack(v.slice(0,j),v.slice(j+1),true)}},true);
+
+
+/* ================= D1.5 · albümün arkası: katman katman ================= */
+// Sıra: önde albüm → kişisel (Notların) → küçük grup (WG odası) → kamusal okuma (Editör flyer'ı). Derine indikçe ses genişler.
+const LAY=[{k:'alb',t:'Albüm',c:'#ffffff'},{k:'not',t:'Notların',c:'#ffb733'},{k:'wg',t:'WG odası',c:'#6fd6c3'},{k:'ed',t:"Editör flyer'ı",c:'#efe9dc'}];
+document.body.insertAdjacentHTML('beforeend',`<div id="depth" aria-modal="true" role="dialog"><div id="dtop"><button id="dclose2" aria-label="Haritaya dön">×</button><div class="tt" id="dtt"></div></div>
+ <div id="dview"><div id="dstack"></div></div><div id="drail"></div></div>`);
+const DEP={a:null,z:0,tz:0,anim:0,acc:0,accT:0,pushAcc:0,pushT:0};
+function depthPush(v){const now=Date.now();if(now-DEP.pushT>500)DEP.pushAcc=0;DEP.pushT=now;DEP.pushAcc+=v;
+  if(DEP.pushAcc>260){DEP.pushAcc=-1e9;const a=albumNear();if(a)openDepth(a.id)}}
+function albumNear(){if(cur&&cur.startsWith('a:'))return N[cur].o;let best=null,bd=55**2;
+  D.albums.forEach(a=>{const d=(a.x-cam.x)**2+(a.y2-cam.y)**2;if(d<bd){bd=d;best=a}});return best}
+const hsh=s=>{let h=7;for(const c of String(s))h=(h*31+c.charCodeAt(0))>>>0;return h};
+const secOf=a=>secById[N['g:'+a.g].o.sec];
+function openDepth(aid,to=1){const a=N['a:'+aid]&&N['a:'+aid].o;if(!a)return;count();DEP.a=a;
+  if(cur!=='a:'+aid)select('a:'+aid,{push:true});
+  $('#dtt').innerHTML=`<b>${esc(a.t)}</b> · ${esc(N['g:'+a.g].o.name)} · arkasındakiler`;
+  $('#drail').innerHTML=LAY.map((L,i)=>`<button data-dz="${i}" style="--lc:${L.c}"><i></i><span class="${i?'lg':''}">${esc(L.t)}</span></button>`).join('');
+  buildPlanes();$('#depth').classList.add('show');DEP.z=0;DEP.tz=0;DEP.lock=Date.now()+1100;placePlanes();if(to)setTimeout(()=>depthGo(to),320);
+  try{history.pushState({depth:1},'')}catch(e){}}
+function closeDepth(){$('#depth').classList.remove('show');DEP.a=null;cancelAnimationFrame(DEP.anim);if(cur)rerender()}
+function buildPlanes(){const a=DEP.a;
+  $('#dstack').innerHTML=LAY.map((L,i)=>`<section class="dpl${L.k==='ed'?' ed':''}" data-i="${i}" style="--lc:${L.c}"><div class="dh"><i></i>${String(i).padStart(2,'0')} · ${esc(L.t)}<em>${esc(layerState(L.k,a))}</em></div>
+    <div class="dsc">${i?`<button class="dprev" data-dz="${i-1}">↑ ${esc(LAY[i-1].t)}</button>`:''}${planeHTML(L.k,a)}${i<LAY.length-1?`<button class="dnext" data-dz="${i+1}">Daha derine ↓ <b>${esc(LAY[i+1].t)}</b><br><small>ya da sonuna gelip kaydırmaya devam et</small></button>`:'<p class="dprev" style="margin-top:18px">En arka katman · <button data-dz="0" style="color:inherit;text-decoration:underline">albüme dön</button></p>'}</div></section>`).join('');
+  $('#dstack').querySelectorAll('[data-cov]').forEach(d=>setCover(d,d.dataset.cov,false))}
+function layerState(k,a){if(k==='alb')return a.y+'';if(k==='not'){const n=myNotes(a);return n.count?n.count+' not':'boş'}if(k==='wg')return 'örnek görünüm';return 'taslak · atlas metni'}
+function myNotes(a){const al=NOTES['a:'+a.id];const T=(TRK[a.id]||{}).t||[];const tr=T.map((r,i)=>({i,r,n:NOTES[tkey(a.id,i)]})).filter(x=>x.n);
+  return {al,tr,count:(al&&al.t?1:0)+tr.length+((al&&al.l)||[]).length}}
+function planeHTML(k,a){
+  const g=N['g:'+a.g].o,s=secOf(a),T=(TRK[a.id]||{}).t||[],P=playableIdx(a);
+  if(k==='alb'){const n=myNotes(a);
+    return `<div class="dalb"><div class="dcov" data-cov="${esc(a.cov)}"></div><h1>${esc(a.t)}</h1><p class="m">${esc(g.name)} · ${a.y}${a.tip?' · '+esc(a.tip):''}</p>
+      ${P.length?`<div class="actions"><button class="act pri" data-dplay="${esc(a.id)}:${P[0]}">${IC.play}Albümü çal</button></div>`:''}
+      <div class="dmap"><h3 class="dbadge" style="border:0;padding:0;margin-bottom:4px">Bu albümün arkasında</h3>
+      ${LAY.slice(1).map((L,j)=>`<button data-dz="${j+1}" style="--lc:${L.c}"><span class="k">${j+1}</span><span class="t">${esc(L.t)}<small>${
+        L.k==='not'?(n.count?`${n.count} not${n.tr.length?' · '+n.tr.length+' parça notu':''}`:'Henüz not yok — yazı, link, doküman'):
+        L.k==='wg'?'Küçük çalışma gruplarının bu albüm üstüne konuşması':'Atlas editörlerinin okuma metni, basılı broşür gibi'}</small></span><span class="go">›</span></button>`).join('')}</div></div>`}
+  if(k==='not'){const n=myNotes(a);const al=n.al||{};const L=al.l||[];
+    return `<div class="nsec"><h3>Albüm notun</h3>${al.t&&!DEP.edit?`<div class="ncard"><p>${esc(al.t)}</p><div class="meta">${new Date(al.at).toLocaleDateString('tr')}<button data-dn="edit">Düzenle</button><button data-dn="share">Notla paylaş</button></div></div>`:
+      `<textarea id="dntext" placeholder="Bu albüm sende ne bıraktı? Neyi hatırlamak istiyorsun?">${esc(al.t||'')}</textarea><div class="actions" style="margin-top:8px"><button class="act pri" data-dn="save">Kaydet</button>${DEP.edit?'<button class="act" data-dn="cancel">Vazgeç</button>':''}</div>`}</div>
+    <div class="nsec"><h3>Linkler</h3>${L.map((u,j)=>`<div class="lnk"><a href="${esc(u)}" target="_blank" rel="noopener" style="flex:1;min-width:0;color:inherit;text-decoration:none;display:flex;gap:8px"><span>${esc(u.replace(/^https?:\/\/(www\.)?/,''))}</span><small>↗</small></a><button data-dl="${j}" aria-label="Linki sil">×</button></div>`).join('')}
+      <div style="display:flex;gap:8px"><input type="url" id="dlink" placeholder="Röportaj, video, makale linki" inputmode="url"><button class="act" data-dn="link">Ekle</button></div></div>
+    <div class="nsec"><h3>Dokümanlar</h3><div class="ghost">PDF, fotoğraf, tarama (konser bileti, dergi sayfası …) — hesapla saklama gelince eklenebilecek.</div></div>
+    <div class="nsec"><h3>Parça notların · albüm bazında</h3>${n.tr.length?n.tr.map(x=>`<div class="ncard"><div class="ntr">${x.r[4]?`<button class="pb2" data-dplay="${esc(a.id)}:${x.i}" aria-label="Çal">${IC.play}</button>`:''}<b>${esc(x.r[2])}</b><small>${x.r[1]}. parça${x.r[3]?' · '+mmss(x.r[3]):''}</small></div><p>${esc(x.n.t)}</p></div>`).join(''):
+      `<div class="ghost">Henüz parça notu yok. Albüm sayfasında her parçanın yanındaki ✎ ile yazılan notlar burada, parça sırasıyla toplanır.</div>`}</div>`}
+  if(k==='wg'){return wgHTML(a,g,s,T)}
+  return flyerHTML(a,g,s,T)}
+const WHO=['Deniz','Mara','Jonas','Elif','Tom','Selin','Arda','Lena','Kerem','Ines'];
+const AVC=['#ffb733','#6fd6c3','#9dbcff','#f28fb1','#b9e07a','#d6a6ff','#ffd27a','#7fd1ff'];
+function av(nm){const c=AVC[hsh(nm)%AVC.length];return `<span class="av" style="background:${c}">${esc(nm[0])}</span>`}
+function wgHTML(a,g,s,T){const h=hsh(a.id);const w=i=>WHO[(h+i*3)%WHO.length];const mem=[0,1,2,3,4].map(w);
+  const F=[...featIdx(a)].filter(i=>T[i]);const t1=F[0]??(T.length?0:null),t2=F[1]??(T.length>2?2:null);
+  const ks=a.k.filter(([p])=>D.names[p]);const k0=ks[(h>>3)%Math.max(1,ks.length)];
+  const prev=(albByGroup[a.g]||[]).filter(x=>x.y<a.y).sort((x,y)=>y.y-x.y)[0];
+  const anc=i=>i==null||!T[i]?'':`<button class="anc" ${T[i][4]?`data-dplay="${esc(a.id)}:${i}"`:''}>${IC.play}${esc(T[i][2])}${T[i][3]?' · '+mmss(Math.round(T[i][3]*.4))+"'te":''}</button>`;
+  const th=(o)=>`<div class="th${o.pin?' pin':''}"><div class="who">${av(o.by)}<b>${esc(o.by)}</b> · ${esc(o.when)}<span class="kd">${esc(o.kd)}</span></div><h4>${esc(o.q)}</h4>${o.p?`<p>${esc(o.p)}</p>`:''}${o.a||''}${o.chips?`<div class="chipz">${o.chips.map(c=>`<span>${esc(c)}</span>`).join('')}</div>`:''}
+    <div class="ft"><span class="avs">${o.rep.map(av).join('')}</span><span>${o.n} yanıt</span>${Object.entries(o.rx).map(([e,c])=>`<span class="rx">${e} ${c}</span>`).join('')}<span class="rp">Yanıtla</span></div></div>`;
+  const list=[
+    {pin:1,kd:'bu hafta masada',by:w(0),when:'2 gün önce',q:`Haftanın albümü: ${a.t}`,p:`Herkes ${t1!=null?'“'+T[t1][2]+'”':'albümü'} bir kez baştan sona, kulaklıkla dinlesin; ilk izlenimini tek cümleyle yazsın. Pazar akşamı toplanıyoruz.`,a:anc(t1),rep:[w(1),w(2),w(3)],n:9,rx:{'🎧':7,'✦':3}},
+    k0?{kd:'soru',by:w(2),when:'dün',q:`${D.names[k0[0]]} bu kayıtta ${roles(k0[1])} — o ses nasıl kuruldu?`,p:'Kayıt notlarında ve röportajlarda ne geçiyor? Bulduğunuzu kaynağıyla ekleyin.',a:anc(t2),rep:[w(4),w(0)],n:4,rx:{'?':2}}:null,
+    prev?{kd:'karşılaştırma',by:w(3),when:'3 gün önce',q:`${prev.t} (${prev.y}) → ${a.t} (${a.y}): ne değişti?`,p:'Kadro, ses, prodüksiyon. Her biri bir şey yazsın, sonra editöre özet çıkaralım.',rep:[w(1),w(4),w(2)],n:12,rx:{'⇄':5}}:null,
+    {kd:'kaynaklar',by:w(4),when:'1 hafta önce',q:'Kaynak masası',p:'Grubun ortak klasörü: makaleler, röportajlar, canlı kayıtlar. Editör flyer\'ına önerilecekler işaretli.',chips:['röportaj · '+(a.y)+'','dergi incelemesi','canlı kayıt','kitap bölümü'],rep:[w(0)],n:3,rx:{'📌':4}}
+  ].filter(Boolean);
+  return `<div class="wgh">${av('WG')}<div class="ttl"><b>WG ${esc(g.name)}</b><small>${esc(s.short)} · 5 üye · bu albümün odası</small></div><span class="avs">${mem.slice(0,4).map(av).join('')}</span></div>
+    <p class="wgnote"><span class="dbadge">örnek görünüm</span> WG'ler henüz kurulmadı; buradaki kişiler ve yazılar yerini göstermek için. Bir WG 4–8 kişilik bir çalışma grubu: bir albümün etrafında birlikte dinler, sorar, kaynak toplar; olgunlaşan yazılar editör flyer'ına önerilir. Kayıtlar parçaya ve dakikaya bağlanır, bir konuşmaya dokununca o parça çalar.</p>
+    ${list.map(th).join('')}
+    <div class="cmp">${av('S')}<span>Yazmak için WG'ye katıl — hesaplar gelince</span></div>
+    <p class="wgnote" style="margin-top:12px">Bir albümün arkasında birden çok WG odası olabilir: önce üyesi olduğun odalar, sonra herkese açık olanlar.</p>`}
+function flyerHTML(a,g,s,T){const st=s.st||[s.short,'','sy',220];const fc=`hsl(${st[3]} 55% 38%)`;
+  const F=[...featIdx(a)].filter(i=>T[i]);const feat=F.length?F.map(i=>T[i]):arr(a.tr).map(x=>[0,0,x,0,'']);
+  const crew=a.k.filter(([p])=>D.names[p]).slice(0,10).map(([p,r])=>`<b>${esc(D.names[p])}</b> ${esc(roles(r))}`).join(' · ');
+  const tip=arr(g.ipucu)[0];
+  return `<article class="fly" style="--fc:${fc}"><div class="band"></div>
+    <div class="grp" style="font-family:${FONTS[st[2]].replace(/"/g,"'")};font-style:${FW[st[2]][0]};font-weight:${FW[st[2]][1]}" lang="en">${esc(g.name)}</div><div class="kick">${esc(s.short)}</div>
+    <div class="row2"><div class="fc" data-cov="${esc(a.cov)}"></div><div><h2 lang="en">${esc(a.t)}</h2><div class="yr">${a.y}${a.tip?' · '+esc(a.tip):''}${fullDur(a.id)?' · '+fullDur(a.id):''}</div>${a.oncelik?`<div class="stamp">${esc(a.oncelik)}</div>`:''}</div></div>
+    ${a.an?`<p class="txt">${esc(a.an)}</p>`:''}
+    ${feat.length?`<h5>Öne çıkanlar</h5><ol>${feat.map((r,j)=>`<li>${esc(r[2])}${r[4]&&F.length?` <button class="pl" data-dplay="${esc(a.id)}:${F[j]}">▶</button>`:''}</li>`).join('')}</ol>`:''}
+    ${crew?`<h5>Kadro</h5><p class="crew">${crew}</p>`:''}
+    ${tip?`<h5>Nasıl dinlemeli</h5><p class="tip">${esc(tip)}</p>`:''}
+    <h5>Bu albümden geçen rotalar</h5><p class="crew" style="color:#8a8070">Küratör rotaları henüz yok.</p>
+    <div class="foot"><span>Editör flyer'ı · taslak</span><span>Metin: atlas editörleri</span></div></article>`}
+// katmanları 3B'de yerleştir: z = kamera derinliği (0 albüm … 3 editör)
+function placePlanes(){const z=DEP.z;document.querySelectorAll('#dstack .dpl').forEach(el=>{const i=+el.dataset.i,d=i-z;let t,o;
+  if(d>=0){t=`translate3d(0,${(-d*24).toFixed(1)}px,${(-d*360).toFixed(1)}px)`;o=Math.max(0,1-d*.3)}
+  else{t=`translate3d(0,${(-d*60).toFixed(1)}px,${(-d*520).toFixed(1)}px)`;o=Math.max(0,1+d*2.2)}
+  el.style.transform=t;el.style.opacity=o.toFixed(3);el.style.zIndex=String(Math.round(100-d*10));el.style.pointerEvents=Math.abs(d)<.5?'auto':'none';el.style.visibility=o<.01?'hidden':'visible'});
+  const k=Math.round(z);document.querySelectorAll('#drail button').forEach(b=>b.classList.toggle('on',+b.dataset.dz===k))}
+function depthGo(t){t=Math.max(0,Math.min(LAY.length-1,t));DEP.tz=t;DEP.lock=Date.now()+650;cancelAnimationFrame(DEP.anim);const z0=DEP.z,t0=performance.now(),ms=520;
+  const step=n=>{let k=Math.min(1,(n-t0)/ms);k=1-Math.pow(1-k,3);DEP.z=z0+(t-z0)*k;placePlanes();if(k<1)DEP.anim=requestAnimationFrame(step);else{DEP.z=t;placePlanes();const sc=focusSc();sc&&(sc.scrollTop=0)}};DEP.anim=requestAnimationFrame(step)}
+const focusSc=()=>document.querySelector(`#dstack .dpl[data-i="${DEP.tz}"] .dsc`);
+const atEnd=(sc,dir)=>dir>0?sc.scrollTop+sc.clientHeight>=sc.scrollHeight-2:sc.scrollTop<=1;
+$('#depth').addEventListener('wheel',e=>{const sc=focusSc();if(!sc)return;const dir=Math.sign(e.deltaY);if(Date.now()<DEP.lock){if(atEnd(sc,dir))e.preventDefault();DEP.acc=0;return}
+  if(!atEnd(sc,dir)){DEP.acc=0;return}e.preventDefault();const now=Date.now();if(now-DEP.accT>450)DEP.acc=0;DEP.accT=now;DEP.acc+=e.deltaY;
+  if(DEP.acc>240){DEP.acc=-1e9;depthGo(DEP.tz+1)}else if(DEP.acc<-240){DEP.acc=1e9;DEP.tz===0?closeDepth():depthGo(DEP.tz-1)}},{passive:false});
+(function(){let y0=null,dir0=0;const el=$('#depth');
+  el.addEventListener('touchstart',e=>{const sc=focusSc();if(!sc||e.touches.length>1){y0=null;return}y0=e.touches[0].clientY;dir0=0;
+    if(atEnd(sc,1))dir0=1;if(atEnd(sc,-1))dir0=dir0||-1},{passive:true});
+  el.addEventListener('touchend',e=>{if(y0===null||Date.now()<DEP.lock)return;const dy=e.changedTouches[0].clientY-y0;const sc=focusSc();y0=null;if(!sc)return;
+    if(dy<-90&&atEnd(sc,1))depthGo(DEP.tz+1);else if(dy>90&&atEnd(sc,-1)&&dir0===-1){DEP.tz===0?closeDepth():depthGo(DEP.tz-1)}},{passive:true});
+})();
+addEventListener('keydown',e=>{if(!DEP.a)return;if(e.key==='Escape')closeDepth();if(e.target.closest&&e.target.closest('textarea,input'))return;
+  if(e.key==='PageDown'||e.key==='ArrowRight')depthGo(DEP.tz+1);if(e.key==='PageUp'||e.key==='ArrowLeft')depthGo(DEP.tz-1)});
+addEventListener('popstate',()=>{if(DEP.a)closeDepth()});
+$('#dclose2').onclick=()=>{closeDepth();try{if(history.state&&history.state.depth)history.back()}catch(e){}};
+$('#depth').addEventListener('click',e=>{const t=e.target.closest('[data-dz],[data-dplay],[data-dn],[data-dl]');if(!t)return;count();
+  if(t.dataset.dz!==undefined){depthGo(+t.dataset.dz);return}
+  if(t.dataset.dplay){const v=t.dataset.dplay,j=v.lastIndexOf(':');playSpec(`alb:${v.slice(0,j)}:${v.slice(j+1)}`);return}
+  const a=DEP.a,id='a:'+a.id;
+  if(t.dataset.dl!==undefined){const o=NOTES[id];if(o&&o.l){o.l.splice(+t.dataset.dl,1);saveNotes();rebuild()}return}
+  const k=t.dataset.dn;
+  if(k==='save'){const v=$('#dntext').value.trim();const o=NOTES[id]||{};if(v){NOTES[id]=Object.assign(o,{t:v,at:Date.now()})}else if(o.l&&o.l.length){o.t='';NOTES[id]=o}else delete NOTES[id];DEP.edit=false;saveNotes();rebuild();toast(v?'Not kaydedildi':'Not silindi')}
+  else if(k==='edit'){DEP.edit=true;rebuild();setTimeout(()=>{const x=$('#dntext');x&&x.focus()},50)}
+  else if(k==='cancel'){DEP.edit=false;rebuild()}
+  else if(k==='share'){shareNode(id,true)}
+  else if(k==='link'){let u=($('#dlink').value||'').trim();if(!u)return;if(!/^https?:\/\//i.test(u))u='https://'+u;const o=NOTES[id]||{t:'',at:Date.now()};(o.l=o.l||[]).push(u);NOTES[id]=o;saveNotes();rebuild();toast('Link eklendi')}});
+function rebuild(){const sc=focusSc(),st=sc?sc.scrollTop:0;buildPlanes();placePlanes();const s2=focusSc();if(s2)s2.scrollTop=st}
+$('#sbody').addEventListener('click',e=>{const b=e.target.closest('[data-depth]');if(b){e.stopPropagation();openDepth(b.dataset.depth)}},true);
 
 /* ---------- start ---------- */
 setSheet('closed');apply();fitAll();markNotes();updMineBadge();readHash();addEventListener('hashchange',readHash);
