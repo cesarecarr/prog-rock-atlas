@@ -4,6 +4,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1, user-scalable=no">
 <title>Atlas Galaksi Denemesi</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800&family=Cinzel:wght@600&family=Cormorant+Garamond:ital,wght@1,600&family=Fraunces:ital,wght@1,600&family=Michroma&family=Playfair+Display:ital,wght@1,700&family=Syne:wght@700&display=swap" rel="stylesheet">
 <style>
 :root{
   --bg:#f4f3f0; --bg2:#ffffff; --ink:#1b1b1d; --muted:#6a6a70; --faint:#a9a8ad; --line:#d6d4cf;
@@ -306,10 +308,62 @@ body.playing #dock{display:flex}
 #routebar .rplay{background:var(--hi);color:#fff;width:auto;padding:0 11px;font-size:13px;font-weight:600}
 .round.has{position:relative}
 .round.has::after{content:'';position:absolute;top:7px;right:7px;width:8px;height:8px;border-radius:4px;background:var(--note);border:2px solid var(--bg2)}
+
+/* ---------- D1.4: ışıltılı galaksi · bölüm yazıları · kayan tanıtım ---------- */
+html,body{background:#06070c}
+#map{background:radial-gradient(ellipse at 50% 46%,#12131f 0%,#08090f 55%,#040409 100%);
+  --bg:#08090f;--bg2:#171823;--ink:#efebf7;--muted:#a3a0b5;--faint:#5f5d70;--line:rgba(255,255,255,.13);--edge:#a19dbf;--hi:#9dbcff;--hiSoft:rgba(157,188,255,.16);--note:#ffb733}
+#sky{position:absolute;inset:0;width:100%;height:100%;display:block}
+#map>svg{position:absolute;inset:0}
+.orbit{display:none!important}
+.n.planet .dot,.n.planet.cur .dot{fill:transparent!important;stroke:none!important}
+.sys.lens .shit{fill:#08090f;fill-opacity:.86;stroke:rgba(255,255,255,.14);stroke-width:1;vector-effect:non-scaling-stroke}
+.wm{text-anchor:middle;pointer-events:none;paint-order:stroke;stroke:var(--bg);stroke-linejoin:round;opacity:var(--rv,1);transition:opacity .25s}
+.wm .wb{font-size:max(calc(var(--k)*17px/var(--lf)),36px);stroke-width:calc(var(--k)*4px/var(--lf));fill:var(--ink)}
+.wm .ws{font-size:max(calc(var(--k)*8.2px/var(--lf)),11px);stroke-width:calc(var(--k)*3px/var(--lf));letter-spacing:.17em;text-transform:uppercase;fill:var(--wc);font-weight:650}
+.sys.lens .wm{opacity:1;transform:translateY(-585px)}
+.sys.lens .n.planet .in{transform:none!important}
+.sel .wm{opacity:.45}.sel .n.planet.on .wm,.sel .n.planet.cur .wm{opacity:1}
+.n.planet.cur .wb,.n.planet.found .wb{fill:var(--hi)}
+.n.planet.noted .wb,.n.planet.playing .wb{fill:var(--note)}
+.wlogo{pointer-events:none;opacity:var(--rv,1)}
+.sys.lens .wlogo{opacity:1}
+.sl{opacity:calc(.26*var(--rv,1))}
+.lensing .sl{opacity:calc(.05*var(--rv,1))}
+.lensing .sl.on2{opacity:.9}
+.z0 .sys:not(.lens) .g{display:none}
+.g .dot{r:calc(var(--kr)*5.5px);fill:#fff;stroke:var(--wc);stroke-width:3.5;stroke-opacity:.55}
+.p .dot{r:calc(var(--kr)*3.4px);fill:var(--bg);stroke:#c8d2ff;stroke-width:1.3}
+.e{opacity:.13}
+/* albüm adı: masaüstünde üstüne gelince, telefonda ortadaki albümde, en yakında hepsinde */
+.cap{display:none;pointer-events:none;text-anchor:middle;paint-order:stroke;stroke:var(--bg);stroke-width:calc(var(--k)*3.2px);stroke-linejoin:round;transition:transform .16s ease-out}
+.cap .c1{font-size:calc(var(--k)*10px);fill:var(--ink);font-weight:600}
+.cap .c2{font-size:calc(var(--k)*9px);fill:var(--muted)}
+.z2.za .cap,.z2 .n.a.capon .cap{display:block}
+@media (hover:hover){.z2 .n.a:hover .cap{display:block;transform:translateY(19px)}}
+/* grup kartı: ad + kayan kısa tanıtım */
+#tags{position:absolute;inset:0;pointer-events:none;overflow:hidden}
+.gt{position:absolute;left:0;top:0;text-align:center;padding:6px 9px 5px;border-radius:12px;background:rgba(9,10,17,.84);border:1px solid rgba(255,255,255,.09);color:var(--ink);transition:opacity .2s;box-shadow:0 2px 14px rgba(0,0,0,.5)}
+.gt b{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;font-size:14px;line-height:1.18;font-weight:700}
+.gt .tk{overflow:hidden;white-space:nowrap;margin-top:3px;font-size:11.5px;line-height:1.35;color:var(--muted);-webkit-mask-image:linear-gradient(90deg,transparent,#000 9%,#000 91%,transparent);mask-image:linear-gradient(90deg,transparent,#000 9%,#000 91%,transparent)}
+.gt .tk span{display:inline-block;animation:tick var(--d,20s) linear infinite}
+.gt .tk i{font-style:normal;opacity:.5;padding:0 .9em}
+.gt.dim{opacity:.22}.gt.cur{border-color:var(--hi)}.gt.cur b{color:var(--hi)}
+.gt.playing{border-color:var(--note)}
+@keyframes tick{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@media (prefers-reduced-motion:reduce){.gt .tk span{animation:none}}
+.ztag .g .lbl{display:none!important}
+.ztag .g .dot{opacity:0}
+.ztag .g .hit{r:46px!important}
+/* harita her zaman gece: üstteki denetimler de koyu cam */
+#q,.round,.chip,#scaleHint{background:rgba(22,23,33,.86)!important;color:#ece9f5!important;border-color:rgba(255,255,255,.14)!important;box-shadow:0 2px 12px rgba(0,0,0,.4)!important}
+#q::placeholder{color:#8e8ba0}
+.chip.on{border-color:#9dbcff!important;color:#9dbcff!important}
+#q:focus{border-color:#9dbcff!important}
 </style>
 </head>
 <body>
-<div id="map"><svg id="svg"><g id="world"><g id="links"></g><g id="edges"></g><g id="systems"></g><g id="persons"></g><g id="route"></g></g></svg></div>
+<div id="map"><canvas id="sky"></canvas><svg id="svg"><g id="world"><g id="links"></g><g id="edges"></g><g id="systems"></g><g id="persons"></g><g id="route"></g></g></svg><div id="tags"></div></div>
 
 <div id="top">
   <div class="bar">
@@ -395,22 +449,41 @@ D.albums.forEach(a=>addEdge('a:'+a.id,'g:'+a.g,'al'));
 // sistemler: gezegen (bölüm) + yörünge + uydular (gruplar) + aylar (albümler)
 const SYS={};
 function wrapTitle(t,max=17){const w=t.split(/\s+/);const L=[];let c='';w.forEach(x=>{if((c+' '+x).trim().length>max&&c){L.push(c);c=x}else c=(c+' '+x).trim()});c&&L.push(c);return L}
+// bölüm yazı-işaretleri: [büyük satır, küçük satır, yazı karakteri, renk tonu] — yuvarlak yok
+const SST={2:['Kökler','prog öncesi · 1963–69','fr',36],3:['Proto-Prog','1967–1970','pf',300],4:['King Crimson','evreni','ci',352],5:['Yes','evreni','co',200],
+ 6:['ELP','evreni','ci',45],7:['Genesis','evreni','pf',270],16:['Pink Floyd','evreni','sy',318],8:['Canterbury','scene','fr',95],25:['Gong','evreni','fr',160],
+ 9:['Süpergruplar','UK ve köprü projeleri','bs',212],22:['Jethro Tull','evreni','co',30],23:['Van der Graaf','evreni','pf',12],10:['Dış Halka','aynı sesten beslenenler','co',240],
+ 24:['Rock in Opposition','Henry Cow ve avangart','sy',0],26:['Led Zeppelin','evreni','bs',40],17:['Hard Rock','blues ve ağır rock','bs',20],
+ 19:['Art-Rock','glam · ambient · elektronik','sy',282],20:['Zappa','besteciler · virtüözler','sy',55],21:['Kıta Avrupası','İtalyan prog ve zeuhl','pf',125],
+ 27:['Krautrock','ve Alman prog','mi',178],11:['Neo-Prog','sonraki kuşak I · 1981–90','ci',228],12:['Amerikan Rönesansı','sonraki kuşak II','co',8],
+ 13:['Space-Rock','Amerikan genişlemesi','mi',192],14:['İskandinav Prog','geç dönem köprüler','co',196],18:['Modern Prog','ve prog metal · 1995–2020','mi',258]};
+const FONTS={fr:'"Fraunces",Georgia,serif',ci:'"Cinzel",Georgia,serif',sy:'"Syne",system-ui,sans-serif',mi:'"Michroma",system-ui,sans-serif',pf:'"Playfair Display",Georgia,serif',bs:'"Big Shoulders Display",Impact,sans-serif',co:'"Cormorant Garamond",Georgia,serif'};
+const FW={fr:['italic',600],ci:['normal',600],sy:['normal',700],mi:['normal',400],pf:['italic',700],bs:['normal',800],co:['italic',600]};
+const FSZ={mi:.82,bs:1.12,co:1.12,ci:.92}; // yazı karakterlerinin görünür boyunu eşitle
+// özgün logolar: dosyalar prog-rock-atlas\logolar\ klasörüne konunca buraya yazılır, ör. 4:'logolar/king-crimson.svg'
+const LOGOS={};
 D.sections.forEach(s=>{
   const g=el('g',{class:'sys','data-sys':s.no},gS);SYS[s.no]={el:g,f:1,t:1,s};
   el('circle',{cx:s.x,cy:s.y,r:SYS_R,class:'shit','data-sid':s.no},g);
-  [215,330].forEach(r=>el('circle',{cx:s.x,cy:s.y,r,class:'orbit'},g));
+  const st=s.st=SST[s.no]||[s.short,'','sy',220];g.style.setProperty('--wc',`hsl(${st[3]} 75% 76%)`);
   const n=N['s:'+s.no];const pn=el('g',{class:'n planet','data-id':'s:'+s.no,transform:`translate(${s.x},${s.y})`},g);
+  pn.style.setProperty('--wc',`hsl(${st[3]} 75% 76%)`);
   const inn=el('g',{class:'in'},pn);el('circle',{class:'dot',r:PLANET_R},inn);
-  const parts=s.t.split(' — ');const L1=wrapTitle(s.short),L2=parts.length>1?wrapTitle(parts.slice(1).join(' — '),24):(s.t!==s.short?[s.t.slice(s.short.length).trim()]:[]);
-  const t=el('text',{class:'plbl',x:0,y:0},inn);const tot=L1.length;
-  L1.forEach((x,i)=>{const sp=el('tspan',{x:0,dy:i?'1.15em':(-(tot-1)*.575+.35)+'em'},t);sp.textContent=x});
-  L2.forEach(x=>{const sp=el('tspan',{x:0,dy:'1.25em',class:'full'},t);sp.textContent=x});
+  if(LOGOS[s.no]){const im=el('image',{class:'wlogo',href:COVER_BASES.map(b=>b.replace('kapaklar/',''))[0]+LOGOS[s.no],x:-120,y:-45,width:240,height:90,preserveAspectRatio:'xMidYMid meet'},inn);n.logo=im}
+  else{
+    const t=el('text',{class:'wm',x:0,y:0},inn);const L=wrapTitle(st[0],st[0].length>14?11:14);const [fs,fw]=FW[st[2]];const z=FSZ[st[2]]||1;
+    L.forEach((x,i)=>{const sp=el('tspan',{x:0,dy:i?'1.0em':((st[1]?-.18:.34)-(L.length-1)*.5)+'em',class:'wb',lang:'en','font-family':FONTS[st[2]],'font-style':fs,'font-weight':fw},t);
+      if(z!==1)sp.style.fontSize=`max(calc(var(--k)*${(17*z).toFixed(1)}px/var(--lf)),${(36*z).toFixed(1)}px)`;sp.textContent=x});
+    if(st[1]){const sp=el('tspan',{x:0,dy:(z*1.95).toFixed(2)+'em',class:'ws'},t);sp.textContent=st[1]}
+  }
   n.el=pn;
 });
 // albümler (sistemin içinde)
 D.albums.forEach(a=>{const n=N['a:'+a.id];const sys=SYS[N['g:'+a.g].o.sec].el;
   const g=el('g',{class:'n a','data-id':'a:'+a.id,transform:`translate(${n.x},${n.y})`},sys);const inn=el('g',{class:'in'},g);
-  el('rect',{x:-15,y:-15,width:30,height:30,rx:3},inn);n.img=el('image',{x:-15,y:-15,width:30,height:30,preserveAspectRatio:'xMidYMid slice'},inn);n.el=g});
+  el('rect',{x:-15,y:-15,width:30,height:30,rx:3},inn);n.img=el('image',{x:-15,y:-15,width:30,height:30,preserveAspectRatio:'xMidYMid slice'},inn);n.el=g;
+  const cp=el('text',{class:'cap',x:0,y:16},g);let L=wrapTitle(a.t,17);if(L.length>2){L=L.slice(0,2);L[1]=L[1].slice(0,15).trim()+'…'}
+  L.forEach((x,i)=>{const sp=el('tspan',{x:0,dy:i?'1.1em':'1em',class:'c1'},cp);sp.textContent=x});const yy=el('tspan',{x:0,dy:'1.25em',class:'c2'},cp);yy.textContent=a.y});
 // gruplar (uydular) — hepsi aynı boyda
 D.groups.forEach(gr=>{const n=N['g:'+gr.id];const g=el('g',{class:'n g','data-id':'g:'+gr.id,transform:`translate(${n.x},${n.y})`},SYS[gr.sec].el);
   const inn=el('g',{class:'in'},g);const h=el('circle',{class:'hit',r:22},inn);h.style.r='22px';el('circle',{class:'dot'},inn);
@@ -431,6 +504,86 @@ let covT=0;function lazyCovers(){clearTimeout(covT);covT=setTimeout(()=>{if(svg.
   const hw=W()/2/cam.s+60,hh=H()/2/cam.s+60;
   D.albums.forEach(a=>{const n=N['a:'+a.id];if(n.cv)return;if(Math.abs(n.x-cam.x)<hw&&Math.abs(n.y-cam.y)<hh){n.cv=1;setCover(n.img,a.cov,true)}})},120)}
 
+
+/* ---------- gökyüzü: ışıltılı galaksi (canvas). Yıldızlar gerçek düğümler: albümler, gruplar, müzisyenler; artı toz ve sarmal kollar ---------- */
+const sky=document.getElementById('sky'),sc=sky.getContext('2d');let DPR=1,skyDirty=true;
+function sizeSky(){DPR=Math.min(2,devicePixelRatio||1);sky.width=Math.round(innerWidth*DPR);sky.height=Math.round(innerHeight*DPR);skyDirty=true}
+sizeSky();addEventListener('resize',sizeSky);
+const rnd=(()=>{let s=20261017;return()=>(s=(s*16807)%2147483647)/2147483647})();
+const gauss=()=>{let u=0;while(!u)u=rnd();return Math.sqrt(-2*Math.log(u))*Math.cos(2*Math.PI*rnd())};
+const SPR={};function sprite(h,s,l){const k=h+'/'+s+'/'+l;if(SPR[k])return SPR[k];const c=document.createElement('canvas');c.width=c.height=48;const g=c.getContext('2d');
+  const gr=g.createRadialGradient(24,24,0,24,24,24);gr.addColorStop(0,'rgba(255,255,255,1)');gr.addColorStop(.1,`hsl(${h} ${s}% ${l}% / 1)`);gr.addColorStop(.32,`hsl(${h} ${s}% ${l}% / .28)`);gr.addColorStop(1,`hsl(${h} ${s}% ${l}% / 0)`);
+  g.fillStyle=gr;g.fillRect(0,0,48,48);return SPR[k]=c}
+function nebSprite(h){const k='n'+h;if(SPR[k])return SPR[k];const c=document.createElement('canvas');c.width=c.height=128;const g=c.getContext('2d');
+  const gr=g.createRadialGradient(64,64,0,64,64,64);gr.addColorStop(0,`hsl(${h} 70% 58% / .9)`);gr.addColorStop(.45,`hsl(${h} 65% 45% / .35)`);gr.addColorStop(1,`hsl(${h} 60% 35% / 0)`);
+  g.fillStyle=gr;g.fillRect(0,0,128,128);return SPR[k]=c}
+const STARS=[],NEB=[],BG=[];
+function star(x,y,r,h,s,l,a,glow){STARS.push({x,y,r,a,c:`hsl(${Math.round(h)} ${s}% ${l}%)`,spr:glow?sprite(Math.round(h/10)*10,s,l):null,ph:rnd()*6.28,sp:.6+rnd()*2.2,tw:glow?.25:.15+rnd()*.45})}
+(function build(){
+  const hueOf=no=>(secById[no].st||[0,0,0,220])[3];
+  // sarmal kollar + çekirdek (yalnız görüntü; bilgi taşımaz)
+  const arm=(r,a)=>Math.log(r/170)/.32+a*Math.PI;
+  for(let i=0;i<3400;i++){const a=i%2,r=200+Math.pow(rnd(),.8)*4300,th=arm(r,a)+gauss()*(.16+120/r);
+    const x=Math.cos(th)*r*1.15+gauss()*90,y=Math.sin(th)*r*.9+gauss()*90;const w=rnd();
+    star(x,y,.45+rnd()*.8,w<.55?222:w<.82?38:290,w<.55?45:65,88,.2+rnd()*.45,false)}
+  for(let i=0;i<900;i++){const x=gauss()*3000,y=gauss()*2300;star(x,y,.4+rnd()*.6,220,30,90,.12+rnd()*.25,false)}
+  for(let i=0;i<700;i++)star(gauss()*560,gauss()*440,.5+rnd()*.9,40,55,90,.3+rnd()*.45,false);
+  for(let i=0;i<46;i++){const a=i%2,r=500+rnd()*3600,th=arm(r,a)+gauss()*.1;NEB.push({x:Math.cos(th)*r*1.15,y:Math.sin(th)*r*.9,r:500+rnd()*500,h:rnd()<.6?255:rnd()<.5?205:325,a:.05+rnd()*.05})}
+  NEB.push({x:0,y:0,r:900,h:38,a:.16});
+  // bölümler: bulutsu + toz
+  D.sections.forEach(s=>{const h=hueOf(s.no);for(let j=0;j<3;j++)NEB.push({x:s.x+gauss()*120,y:s.y+gauss()*100,r:360+rnd()*240,h,a:.11+rnd()*.06});
+    for(let j=0;j<90;j++){const d=Math.abs(gauss())*330,t=rnd()*6.28;star(s.x+Math.cos(t)*d,s.y+Math.sin(t)*d*.85,.5+rnd()*.8,h,55,85,.25+rnd()*.45,false)}});
+  NEB.push({x:0,y:0,r:2300,h:250,a:.08});
+  // gerçek düğümler
+  D.albums.forEach(a=>{const h=hueOf(N['g:'+a.g].o.sec);star(a.x,a.y2,.9+rnd()*.5,h,60,86,.55+rnd()*.35,false)});
+  D.persons.forEach(p=>star(p.x,p.y,1.3,215,70,90,.8,false));
+  D.groups.forEach(g=>star(g.x,g.y,1.9,hueOf(g.sec),55,82,1,true));
+  STARS.sort((a,b)=>a.spr?1:b.spr?-1:a.c<b.c?-1:1);
+  for(let i=0;i<240;i++)BG.push({x:rnd(),y:rnd(),r:.4+rnd()*.8,a:.15+rnd()*.35,ph:rnd()*6.28,sp:.4+rnd()*1.5});
+})();
+let lastSky=0;
+function drawSky(t){requestAnimationFrame(drawSky);if(document.hidden)return;
+  const s=cam.s,fw=1-Math.max(0,Math.min(1,(s-.22)/.2));
+  if(!skyDirty&&(t-lastSky<40||fw<=0&&t-lastSky<120))return;lastSky=t;skyDirty=false;
+  const w=innerWidth,h=innerHeight,ox=w/2,oy=(h-visibleSheet()-DK())/2,tt=t/1000;
+  sc.setTransform(1,0,0,1,0,0);sc.clearRect(0,0,sky.width,sky.height);sc.setTransform(DPR,0,0,DPR,0,0);
+  // uzak yıldız alanı (ekrana bağlı, hafif kayar)
+  sc.fillStyle='#dfe3ff';const px=cam.x*s*.04,py=cam.y*s*.04;
+  BG.forEach(b=>{let X=(b.x*w-px)%w;if(X<0)X+=w;let Y=(b.y*h-py)%h;if(Y<0)Y+=h;sc.globalAlpha=b.a*(.6+.4*Math.sin(tt*b.sp+b.ph));sc.fillRect(X,Y,b.r,b.r)});
+  sc.globalCompositeOperation='lighter';
+  const na=.35+.65*fw;
+  NEB.forEach(n=>{const R=n.r*s;const X=ox+(n.x-cam.x)*s,Y=oy+(n.y-cam.y)*s;if(X+R<0||Y+R<0||X-R>w||Y-R>h)return;sc.globalAlpha=n.a*na;sc.drawImage(nebSprite(n.h),X-R,Y-R,2*R,2*R)});
+  if(fw>0.01){const sz=Math.max(.75,Math.min(2.4,Math.sqrt(s/.07)));let fs='';
+    for(const st of STARS){const X=ox+(st.x-cam.x)*s,Y=oy+(st.y-cam.y)*s;if(X<-12||Y<-12||X>w+12||Y>h+12)continue;
+      const a=st.a*fw*(1-st.tw+st.tw*Math.sin(tt*st.sp+st.ph));if(a<.02)continue;sc.globalAlpha=a;
+      if(st.spr){const r=st.r*sz*2.3;sc.drawImage(st.spr,X-r,Y-r,2*r,2*r)}
+      else{if(fs!==st.c){fs=st.c;sc.fillStyle=fs}const r=st.r*sz;sc.fillRect(X-r/2,Y-r/2,r,r)}}}
+  sc.globalAlpha=1;sc.globalCompositeOperation='source-over'}
+requestAnimationFrame(drawSky);
+
+/* ---------- yakın ölçek: grup kartı (ad + kayan kısa tanıtım) ---------- */
+const tagsEl=document.getElementById('tags'),TAGS={};
+function shortIntro(g){let t=String(g.dna||g.kurulus||'').replace(/\s+/g,' ').trim();if(!t)return '';
+  const m=t.match(/^(.{30,170}?[.!?])(\s|$)/);return m?m[1]:(t.length>160?t.slice(0,150).replace(/\s+\S*$/,'')+'…':t)}
+function updTags(){const s=cam.s,on=s>=.85,w=innerWidth,h=innerHeight,ox=w/2,oy=(h-visibleSheet()-DK())/2,seen=new Set();
+  if(on){const wd=Math.round(Math.max(136,Math.min(236,92*s)));const sel=svg.classList.contains('sel');
+    D.groups.forEach(g=>{const X=ox+(g.x-cam.x)*s,Y=oy+(g.y-cam.y)*s;if(X<-160||Y<-60||X>w+160||Y>h+60)return;seen.add(g.id);
+      let e=TAGS[g.id];if(!e){e=document.createElement('div');e.className='gt';const tx=shortIntro(g);const st=secById[g.sec].st;
+        e.innerHTML=`<b lang="en" style="font-family:${FONTS[st[2]].replace(/"/g,"'")};font-style:${FW[st[2]][0]}${st[2]==='mi'?';font-size:12px':''}">${esc(g.name)}</b>`+(tx?`<div class="tk"><span style="--d:${Math.max(10,tx.length*.17).toFixed(1)}s">${esc(tx)}<i>•</i>${esc(tx)}<i>•</i></span></div>`:'');
+        tagsEl.appendChild(e);TAGS[g.id]=e}
+      e.style.width=wd+'px';e.style.transform=`translate(${X.toFixed(1)}px,${Y.toFixed(1)}px) translate(-50%,-50%)`;
+      const ge=N['g:'+g.id].el;e.classList.toggle('dim',sel&&!ge.classList.contains('on'));e.classList.toggle('cur',cur==='g:'+g.id);e.classList.toggle('playing',ge.classList.contains('playing'))})}
+  for(const id in TAGS)if(!seen.has(id)){TAGS[id].remove();delete TAGS[id]}
+  svg.classList.toggle('ztag',on)}
+/* albüm adı: telefonda ekranın ortasındaki albümde (masaüstünde fareyle) — seçili albümde her zaman */
+let capEl=null;
+function capCenter(){let best=null;
+  if(cam.s>=.85&&cam.s<2){if(cur&&cur.startsWith('a:'))best=N[cur];else if(COARSE){let bd=(60)**2;
+    D.albums.forEach(a=>{const d=(a.x-cam.x)**2+(a.y2-cam.y)**2;if(d<bd){bd=d;best=N['a:'+a.id]}})}}
+  const e=best&&best.el;if(capEl===e)return;capEl&&capEl.classList.remove('capon');capEl=e;e&&e.classList.add('capon')}
+const LOGO_ON=Object.keys(LOGOS).length>0;
+function sizeLogos(){Object.values(SYS).forEach(S=>{const n=N['s:'+S.s.no];if(!n.logo)return;const f=Math.max(1,.62/cam.s)/S.f;n.logo.setAttribute('transform',`scale(${f.toFixed(4)})`)})}
+
 /* ---------- camera ---------- */
 let cam={x:0,y:0,s:.12};
 const W=()=>innerWidth,H=()=>innerHeight;
@@ -440,13 +593,16 @@ function apply(){
   world.setAttribute('transform',`translate(${W()/2-cam.x*cam.s},${(H()-visibleSheet()-DK())/2-cam.y*cam.s}) scale(${cam.s})`);
   svg.style.setProperty('--k',1/cam.s);
   svg.style.setProperty('--kr',Math.min(1/cam.s,1/cam.s*.55+1.2));
+  const rv=Math.max(0,Math.min(1,(cam.s-.105)/.045));svg.style.setProperty('--rv',rv.toFixed(3));skyDirty=true;
   const z=cam.s<.2?'z0':cam.s<.85?'z1':'z2';
   if(svg._z!==z){svg.classList.remove('z0','z1','z2');svg.classList.add(z);svg._z=z;
-    $('#scaleHint').textContent={z0:'Ölçek: galaksi · bölümler',z1:'Ölçek: gruplar + müzisyenler',z2:'Ölçek: albümler'}[z];
     if(z!=='z0')setLens(null)}
+  const hz=cam.s<.105?'g':z;if(svg._hz!==hz){svg._hz=hz;$('#scaleHint').textContent={g:'Galaksi · yaklaştıkça bölümler belirir',z0:'Ölçek: bölümler',z1:'Ölçek: gruplar + müzisyenler',z2:'Ölçek: albümler'}[hz]}
+  svg.classList.toggle('za',cam.s>=2);updTags();capCenter();
   svg.classList.toggle('zp',cam.s>=.42);svg.classList.toggle('zg',cam.s>=.32);
   if(z==='z2')lazyCovers();
   if(COARSE&&z==='z0'&&!cur)centerLens();
+  if(LOGO_ON)sizeLogos();
 }
 function visibleSheet(){return sheetState==='peek'?peekH():0}
 let anim=null;
@@ -456,14 +612,14 @@ function fly(x,y,s,ms=420){cancelAnimationFrame(anim);const a={...cam},t0=perfor
 function fitAll(){const xs=D.sections.map(s=>s.x),ys=D.sections.map(s=>s.y);
   const w=Math.max(...xs)-Math.min(...xs)+SYS_R*2.1,h=Math.max(...ys)-Math.min(...ys)+SYS_R*2.1;
   let s=Math.min(W()/w,(H()-130-DK())/h);
-  if(W()<700)s=Math.max(s,W()/(1180*2.7)); // telefonda: ortadaki gezegenlerle başla, kaydırarak gez
+  s=Math.min(s,.092); // uzaktan: isimsiz, ışıltılı galaksi
   fly((Math.max(...xs)+Math.min(...xs))/2,(Math.max(...ys)+Math.min(...ys))/2,s)}
 function fitSection(no){const s=secById[no];const sc=Math.min(W(),H()-visibleSheet()-DK()-120)/(SYS_R*2.1);fly(s.x,s.y,Math.max(sc,.21))}
 
 /* ---------- odak (lens): üstüne gelinen gezegen büyür, ötekiler eşit ---------- */
 let LENS=null,lensAnim=0;
 function setLens(no){if(no!==null&&(cur||svg._z!=='z0'))no=null;if(LENS===no)return;LENS=no;
-  Object.values(SYS).forEach(S=>{S.t=S.s.no===no?(COARSE?2.1:2):1;S.el.classList.toggle('lens',S.s.no===no)});
+  Object.values(SYS).forEach(S=>{S.t=S.s.no===no?Math.max(COARSE?2.1:2,(COARSE?.27:.3)/cam.s):1;S.el.classList.toggle('lens',S.s.no===no)});
   if(no!==null)gS.appendChild(SYS[no].el);
   svg.classList.toggle('lensing',no!==null);
   linkEls.forEach(l=>l.classList.toggle('on2',no!==null&&(l._a===no||l._b===no)));
@@ -475,7 +631,7 @@ function setLens(no){if(no!==null&&(cur||svg._z!=='z0'))no=null;if(LENS===no)ret
     if(more)lensAnim=requestAnimationFrame(step)};lensAnim=requestAnimationFrame(step)}
 function centerLens(){const cx=cam.x,cy=cam.y+0;let best=null,bd=1e12;
   D.sections.forEach(s=>{const d=(s.x-cx)**2+(s.y-cy)**2;if(d<bd){bd=d;best=s.no}});
-  setLens(Math.sqrt(bd)<SYS_R*1.1?best:null)}
+  setLens(Math.sqrt(bd)<SYS_R*1.1&&cam.s>=.13?best:null)}
 if(!COARSE){
   gS.addEventListener('pointerover',e=>{const s=e.target.closest('.sys');if(s&&svg._z==='z0'&&!map.classList.contains('drag'))setLens(+s.dataset.sys)});
   gS.addEventListener('pointerleave',()=>setLens(null));
