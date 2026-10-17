@@ -362,7 +362,7 @@ html,body{background:#06070c}
 #q:focus{border-color:#9dbcff!important}
 
 /* ---------- D1.5: albümün arkası — katmanlar ---------- */
-.n.a rect.ly{display:none;fill:#11121a;stroke:rgba(255,255,255,.22);stroke-width:1}
+.n.a rect.ly{display:none;fill:#0d0e15;stroke:rgba(255,255,255,.11);stroke-width:1;opacity:.6}
 .zly .n.a rect.ly{display:block}
 .depthbtn{border-color:var(--hi)!important;color:var(--hi)}
 #depth{position:fixed;left:0;right:0;top:0;bottom:var(--dockH);z-index:36;display:none;overflow:hidden;color:#ece9f5;
@@ -592,7 +592,7 @@ D.sections.forEach(s=>{
 // albümler (sistemin içinde)
 D.albums.forEach(a=>{const n=N['a:'+a.id];const sys=SYS[N['g:'+a.g].o.sec].el;
   const g=el('g',{class:'n a','data-id':'a:'+a.id,transform:`translate(${n.x},${n.y})`},sys);const inn=el('g',{class:'in'},g);
-  el('rect',{x:-7,y:-23,width:30,height:30,rx:3,class:'ly'},inn);el('rect',{x:-11,y:-19,width:30,height:30,rx:3,class:'ly'},inn);el('rect',{x:-15,y:-15,width:30,height:30,rx:3},inn);n.img=el('image',{x:-15,y:-15,width:30,height:30,preserveAspectRatio:'xMidYMid slice'},inn);n.el=g;
+  el('rect',{x:-11.4,y:-18.6,width:30,height:30,rx:3,class:'ly'},inn);el('rect',{x:-13.2,y:-16.8,width:30,height:30,rx:3,class:'ly'},inn);el('rect',{x:-15,y:-15,width:30,height:30,rx:3},inn);n.img=el('image',{x:-15,y:-15,width:30,height:30,preserveAspectRatio:'xMidYMid slice'},inn);n.el=g;
   const cp=el('text',{class:'cap',x:0,y:16},g);let L=wrapTitle(a.t,17);if(L.length>2){L=L.slice(0,2);L[1]=L[1].slice(0,15).trim()+'…'}
   L.forEach((x,i)=>{const sp=el('tspan',{x:0,dy:i?'1.1em':'1em',class:'c1'},cp);sp.textContent=x});const yy=el('tspan',{x:0,dy:'1.25em',class:'c2'},cp);yy.textContent=a.y});
 // gruplar (uydular) — hepsi aynı boyda
@@ -872,7 +872,7 @@ function render(n){
   }else{
     const g=N['g:'+o.g].o;kind='Albüm';title=o.t;sub=`${esc(g.name)} · ${o.y}${o.tip?' · '+esc(o.tip):''}`;
     h+=`<div class="sec" style="display:flex;gap:14px;align-items:flex-start"><div class="big-cover" data-cov="${esc(o.cov)}"></div><div>${o.oncelik?`<div class="pill" style="display:inline-block;margin-bottom:8px">${esc(o.oncelik)}</div>`:''}<p>${esc(o.an||'')}</p></div></div>`;
-    h+=`<div class="sec"><button class="act depthbtn" data-depth="${esc(o.id)}">⤓ Arkasına geç · notlar, WG odası, editör flyer'ı</button></div>`;
+    h+=`<div class="sec"><button class="act depthbtn" data-depth="${esc(o.id)}">⤓ Arkasına geç · editör flyer'ı, notlar, WG odası</button></div>`;
     h+=albumTracks(o);
     if(o.k.length){h+=`<div class="sec"><h3>Kadro</h3><div class="pills">`+o.k.map(([pid,r])=>personIds.has(pid)?`<button class="pill link" ${go('p:'+pid)}>${esc(D.names[pid]||pid)} <small>· ${esc(roles(r))}</small></button>`:`<span class="pill">${esc(D.names[pid]||pid)} <small style="color:var(--muted)">· ${esc(roles(r))}</small></span>`).join('')+`</div><p class="note" style="margin-top:10px">Mavi isimler başka gruplara da bağlanan müzisyenler; dokununca haritada açılır.</p></div>`}
     h+=`<div class="sec"><button class="row" ${go('g:'+o.g)}><span class="nm">Gruba git: ${esc(g.name)}</span><span class="go">›</span></button></div>`;
@@ -921,7 +921,7 @@ const TASKS=[
  "Üç adımlık bir yol izle (grup → müzisyen → başka grup) ve bu yolu paylaş.",
  "Galaksiye bak: Yes Evreni en çok hangi bölümle müzisyen paylaşıyor?",
  "Bir parçayı çalma listene, üç parçayı rotana ekle; sonra rotanı başlat.",
- "Third'ün arkasına geç: katman katman Notların, WG odası ve Editör flyer'ına in; sonra albüme geri dön."
+ "Third'ün arkasına geç: katman katman Editör flyer'ı, Notların ve WG odasına in; sonra albüme geri dön."
 ];
 const LS='atlasD1results';let R=[];try{R=JSON.parse(localStorage.getItem(LS)||'[]')}catch(e){}
 let run=null;function count(){if(run)run.taps++}
@@ -1241,8 +1241,8 @@ $('#sbody').addEventListener('click',e=>{
 
 
 /* ================= D1.5 · albümün arkası: katman katman ================= */
-// Sıra: önde albüm → kişisel (Notların) → küçük grup (WG odası) → kamusal okuma (Editör flyer'ı). Derine indikçe ses genişler.
-const LAY=[{k:'alb',t:'Albüm',c:'#ffffff'},{k:'not',t:'Notların',c:'#ffb733'},{k:'wg',t:'WG odası',c:'#6fd6c3'},{k:'ed',t:"Editör flyer'ı",c:'#efe9dc'}];
+// Sıra (Baris, 17.10): önde albüm → Editör flyer'ı (okuma arka planı) → Notların → WG odası.
+const LAY=[{k:'alb',t:'Albüm',c:'#ffffff'},{k:'ed',t:"Editör flyer'ı",c:'#efe9dc'},{k:'not',t:'Notların',c:'#ffb733'},{k:'wg',t:'WG odası',c:'#6fd6c3'}];
 document.body.insertAdjacentHTML('beforeend',`<div id="depth" aria-modal="true" role="dialog"><div id="dtop"><button id="dclose2" aria-label="Haritaya dön">×</button><div class="tt" id="dtt"></div></div>
  <div id="dview"><div id="dstack"></div></div><div id="drail"></div></div>`);
 const DEP={a:null,z:0,tz:0,anim:0,acc:0,accT:0,pushAcc:0,pushT:0};
