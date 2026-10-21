@@ -713,6 +713,12 @@ D.persons.forEach(p=>{N['p:'+p.id]={type:'p',o:p,x:p.x,y:p.y,nb:new Set()};
     let d=Math.hypot(dx,dy);if(d>=R)continue;if(d<1e-6){dx=1;dy=0;d=1}
     const p=(R-d)/2+.5,ux=dx/d,uy=dy/d;a.x-=ux*p;a.y2-=uy*p;b.x+=ux*p;b.y2+=uy*p;moved=true}
   if(!moved)break}})();
+/* kadro düğümleri kapakların ve albüm adlarının altında kalmasın: kapak + ad alanından dışarı it */
+(function(){const A=D.albums,RX=30,RY=38,OY=10;for(let it=0;it<120;it++){let mv=false;
+  D.persons.forEach(p=>{A.forEach(a=>{let dx=p.x-a.x,dy=p.y-(a.y2+OY);if(Math.abs(dx)>=RX||Math.abs(dy)>=RY)return;
+    if(Math.abs(dx)<1e-6&&Math.abs(dy)<1e-6)dy=1;const e=(dx/RX)**2+(dy/RY)**2;if(e>=1)return;const f=(it<60?1.02:1.15)/Math.sqrt(e);
+    p.x=a.x+dx*f;p.y=a.y2+OY+dy*f;mv=true})});if(!mv)break}
+  D.persons.forEach(p=>{const n=N['p:'+p.id];if(n){n.x=p.x;n.y=p.y}})})();
 D.albums.forEach(a=>{N['a:'+a.id]={type:'a',o:a,x:a.x,y:a.y2,nb:new Set()};link('a:'+a.id,'g:'+a.g);
   a.k.forEach(([pid])=>{if(N['p:'+pid])link('a:'+a.id,'p:'+pid)})});
 function link(a,b){N[a].nb.add(b);N[b].nb.add(a)}
@@ -1807,7 +1813,8 @@ function nearSec(){let best=null,bd=1e18;D.sections.forEach(s=>{const d=(s.x-cam
 function fillShdr(s){const st=s.st||[s.short,'','sy',220];const nm=shdr.querySelector('.nm');nm.textContent=s.short;
   nm.style.fontFamily=FONTS[st[2]].replace(/"/g,"'");nm.style.fontStyle=FW[st[2]][0];nm.style.fontWeight=FW[st[2]][1];nm.style.fontSize=(16.5*(FSZ[st[2]]||1)).toFixed(1)+'px';
   shdr.querySelector('small').textContent=secCount(s.no)[0]+' grup';shdr.style.setProperty('--dc',secCol(s.no))}
-function updSec(){const on=cam.s>=.2&&cam.s<.85&&!DEP.a&&sheetState!=='card';
+function updSec(){const on=false; // D16: sol üstteki yapışık evren başlığı kaldırıldı; evren adının altındaki kapı yeterli
+
   shdr.classList.toggle('show',!!on);document.body.classList.toggle('shdr',!!on);if(!on)return;
   const s=nearSec();const k=s.no+'|'+LANG;if(k===SHDR_K)return;const first=!SHDR_K;SHDR_K=k;SHDR=s.no;
   clearTimeout(shT);if(first){fillShdr(s);return}shdr.classList.add('sw');shT=setTimeout(()=>{fillShdr(secById[SHDR]);shdr.classList.remove('sw')},140)}
