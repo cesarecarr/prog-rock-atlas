@@ -578,6 +578,7 @@ html,body{background:#06070c}
 #sdoor{position:absolute;left:0;top:0;opacity:0;pointer-events:none;transition:opacity .2s;z-index:3;--dc:#9dbcff}
 #sdoor.show{opacity:1}
 #sdoor.show .fr,#sdoor.show .pl{pointer-events:auto;cursor:pointer}
+#sdoor.grp .fr{display:none}
 #sdoor .fr{position:absolute;border-radius:24px;border:1px solid color-mix(in srgb,var(--dc) 50%,transparent);background:rgba(255,255,255,.03);
   box-shadow:0 0 0 5px color-mix(in srgb,var(--dc) 9%,transparent),0 0 38px color-mix(in srgb,var(--dc) 20%,transparent);transition:border-color .15s,box-shadow .15s}
 #sdoor .pl{position:absolute;transform:translateX(-50%);white-space:nowrap;display:inline-flex;align-items:center;gap:9px;height:30px;padding:0 5px 0 13px;border-radius:15px;
@@ -1482,7 +1483,7 @@ function myNotes(a){const al=NOTES['a:'+a.id];const T=(TRK[a.id]||{}).t||[];cons
 function planeHTML(k,a){
   const g=N['g:'+a.g].o,s=secOf(a),T=(TRK[a.id]||{}).t||[],P=playableIdx(a);
   if(k==='alb'){const nd=N['a:'+a.id];
-    let h=`<div class="ahd"><div class="kind">Albüm</div><h1>${esc(a.t)}</h1><div class="sub">${esc(g.name)} · ${a.y}${a.tip?' · '+esc(a.tip):''}</div></div>`;
+    let h=`<div class="sec" style="padding:0 0 8px"><button class="act" ${go('g:'+a.g)}>‹ Grup: ${esc(g.name)}</button></div><div class="ahd"><div class="kind">Albüm</div><h1>${esc(a.t)}</h1><div class="sub">${esc(g.name)} · ${a.y}${a.tip?' · '+esc(a.tip):''}</div></div>`;
     h+=incomingBlock(nd);
     h+=`<div class="sec ainfo"><div class="big-cover" data-cov="${esc(a.cov)}"></div><div>${a.oncelik?`<div class="pill">${esc(a.oncelik)}</div>`:''}<p>${esc(a.an||'')}</p></div></div>`;
     h+=albumTracks(a);
@@ -1784,11 +1785,15 @@ addEventListener('keydown',e=>{if(e.key==='Escape'&&sheetState==='card'&&!DEP.a&
 /* ---- galaksi: odaktaki bölüm adı bir kapı ---- */
 $('#fcs').insertAdjacentHTML('afterend','<div id="sdoor"><div class="fr" aria-hidden="true"></div><div class="pl" role="button" aria-label="Bölümü aç"><span></span><b>›</b></div></div>');
 const sdoor=$('#sdoor');
+sdoor.addEventListener('click',e=>{if(!sdoor.dataset.sid||!sdoor.classList.contains('show'))return;e.stopPropagation();count();hist.length=0;select('s:'+sdoor.dataset.sid,{push:true})});
 sdoor.addEventListener('pointerleave',e=>{const r=e.relatedTarget;if(r&&r.closest&&r.closest('.sys'))return;if(!COARSE)setLens(null)});
 let DOOR_K='';
-function updDoor(){const on=svg._z==='z0'&&LENS!==null&&!cur&&!DEP.a&&sheetState!=='card'&&N['s:'+LENS]&&N['s:'+LENS].wm;
+function updDoor(){const z0=svg._z==='z0';let no=null;
+  if(z0)no=LENS;else if(cam.s>=.2&&cam.s<.85){const ns=nearSec();if(ns&&Math.hypot(ns.x-cam.x,ns.y-cam.y)<600)no=ns.no}
+  const on=no!==null&&!cur&&!DEP.a&&sheetState!=='card'&&N['s:'+no]&&N['s:'+no].wm;
+  sdoor.classList.toggle('grp',!z0);
   if(!on){sdoor.classList.remove('show');return}
-  const no=LENS,r=N['s:'+no].wm.getBoundingClientRect();if(!r.width){sdoor.classList.remove('show');return}
+  const r=N['s:'+no].wm.getBoundingClientRect();if(!r.width){sdoor.classList.remove('show');return}
   const fr=sdoor.firstChild,pl=sdoor.lastChild,px=18,py=10;
   fr.style.cssText=`left:${(r.left-px).toFixed(1)}px;top:${(r.top-py).toFixed(1)}px;width:${(r.width+2*px).toFixed(1)}px;height:${(r.height+2*py).toFixed(1)}px`;
   pl.style.left=(r.left+r.width/2).toFixed(1)+'px';pl.style.top=(r.bottom+py+8).toFixed(1)+'px';
